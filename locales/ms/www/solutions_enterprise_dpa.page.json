@@ -7,7 +7,9 @@
   "keys": {
     "path": "/solutions/enterprise/dpa",
     "meta_title": "Data Processing Agreement | Vouus",
-    "meta_description": "DPA terms, subprocessors, and data residency summary for enterprise customers."
+    "meta_description": "DPA terms, subprocessors, and data residency summary for enterprise customers.",
+    "hero_title": "Data Processing Agreement",
+    "hero_description": "PDPA-aligned DPA between iPrego Pte. Ltd. and customers using {brand}."
   },
   "meta": {
     "productRepo": "infra-control-plane",

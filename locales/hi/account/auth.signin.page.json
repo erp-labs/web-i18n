@@ -6,7 +6,6 @@
   "sourceHash": "sha256:5c0e153e8e9f912431db0c4ad1aa88966c7d8c5b46a0b667b8bef912f425c521",
   "keys": {
     "title": "साइन इन",
-    "submit": "जारी रखें",
     "titleLogin": "लॉग इन",
     "titleGetStarted": "शुरू करें",
     "titlePortalPasswordSetup": "सेवा व्यवस्थापक पासवर्ड सेट करें",
@@ -15,6 +14,7 @@
     "descriptionPackageFunnel": "भुगतान जारी रखने के लिए साइन इन करें या खाता बनाएँ।",
     "descriptionPortalPassword": "अपना ईमेल दर्ज करें। हम सत्यापन कोड भेजेंगे, फिर आप सेवा व्यवस्थापक पासवर्ड बना सकते हैं।",
     "descriptionLoginGate": "अपने ईमेल और पासवर्ड से साइन इन करें। हम अगले चरण में सत्यापन कोड ईमेल करेंगे।",
+    "submit": "जारी रखें",
     "submitLogin": "लॉग इन",
     "submitSendCode": "सत्यापन कोड भेजें",
     "submitting": "भेजा जा रहा है…",

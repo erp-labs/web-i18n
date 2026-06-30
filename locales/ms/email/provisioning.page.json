@@ -6,10 +6,10 @@
   "sourceHash": "sha256:47d18968d16ff2fbe043a22e42ab86814ab26342a6564626903439e5c5d5c0e8",
   "keys": {
     "subject": "Subjek dinamik (penyediaan)",
-    "_sourceNote": "Extracted from provisioning.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver.",
     "headerTitle": "Ruang kerja anda sedia",
     "introTemplate": "Ruang kerja {serviceName} anda telah selesai disediakan. Gunakan pautan di bawah untuk log masuk dan bermula.",
-    "textHeader": "Ruang kerja anda sedia"
+    "textHeader": "Ruang kerja anda sedia",
+    "_sourceNote": "Extracted from provisioning.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
   },
   "meta": {
     "productRepo": "infra-email",

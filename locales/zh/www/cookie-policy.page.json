@@ -6,14 +6,39 @@
   "sourceHash": "sha256:b24b33889287163e5e40e58806bee832de9009a55cfe4321980b005275dce298",
   "keys": {
     "path": "/cookie-policy",
-    "meta_title": "Cookie Policy",
-    "meta_description": "Cookie policy."
+    "meta_title": "Cookie 政策",
+    "meta_description": "Cookie 政策。",
+    "page_title": "Cookie 政策",
+    "c01_title": "1. 引言",
+    "c01_p0": "本 Cookie 政策说明 iPrego Pte. Ltd. 在用户访问 {brand} 网站或平台时如何使用 Cookie 及类似技术。",
+    "c02_title": "2. 什么是 Cookie",
+    "c02_p0": "Cookie 是用户访问网站时存储在其设备上的小型文本文件。",
+    "c02_p1": "它们有助于改善网站功能与用户体验。",
+    "c03_title": "3. 我们使用的 Cookie 类型",
+    "c03_p0": "必要 Cookie — 平台运行所必需（认证、会话、安全）。",
+    "c03_p2": "分析 Cookie — 用于了解平台使用情况（页面统计、性能）。",
+    "c03_p4": "偏好 Cookie — 记住语言与界面配置等用户设置。",
+    "c04_title": "4. 管理 Cookie",
+    "c04_p0": "Users may control cookies through browser settings.",
+    "c04_p1": "Disabling cookies may affect certain platform features.",
+    "c05_title": "5. 更新",
+    "c05_p0": "This Cookie Policy may be updated from time to time to reflect changes in technology or regulations.",
+    "c06_title": "联系我们",
+    "c06_p0": "For legal or privacy matters:",
+    "c06_p1": "Contact details are published in our Privacy Policy.",
+    "c03_ul1_li0": "认证 Cookie",
+    "c03_ul1_li1": "会话管理",
+    "c03_ul1_li2": "安全控制",
+    "c03_ul3_li0": "页面使用统计",
+    "c03_ul3_li1": "性能监控",
+    "c03_ul5_li0": "语言偏好",
+    "c03_ul5_li1": "界面配置"
   },
   "meta": {
     "productRepo": "infra-control-plane",
     "sourcePath": "src/marketing-pages/registry.ts cookie-policy",
     "githubPath": "www/cookie-policy.page.json",
-    "translationStatus": "ai_draft",
-    "method": "cursor-ai"
+    "translationStatus": "reviewed",
+    "method": "patch-legal-full-body"
   }
 }

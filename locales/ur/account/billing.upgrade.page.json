@@ -6,9 +6,9 @@
   "sourceHash": "sha256:7428f7bac7c24316234874d4f490cd00ef9f55561ac56104b1810dd3ba424d78",
   "keys": {
     "title": "پیکج اپ گریڈ کریں",
-    "submit": "اپ گریڈ",
     "subtitle": "اپنے workspace کے لیے اعلیٰ پلان منتخب کریں۔",
     "bodyNote": "اعلیٰ پلان پر جانے پر آپ کا dedicated server اور ڈیٹا برقرار رہتا ہے۔",
+    "submit": "اپ گریڈ",
     "backToBilling": "← billing پر واپس"
   },
   "meta": {

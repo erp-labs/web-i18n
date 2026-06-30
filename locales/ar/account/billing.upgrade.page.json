@@ -6,9 +6,9 @@
   "sourceHash": "sha256:7428f7bac7c24316234874d4f490cd00ef9f55561ac56104b1810dd3ba424d78",
   "keys": {
     "title": "Upgrade plan",
-    "submit": "Upgrade",
     "subtitle": "Choose a higher plan for your workspace.",
     "bodyNote": "Your dedicated server and data stay in place when you move to a higher plan.",
+    "submit": "Upgrade",
     "backToBilling": "← Back to billing"
   },
   "meta": {

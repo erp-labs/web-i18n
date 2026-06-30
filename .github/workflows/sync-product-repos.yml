@@ -11,6 +11,12 @@ on:
         description: Open PRs in product repos (requires PRODUCT_REPOS_TOKEN)
         required: false
         default: 'true'
+  push:
+    branches: [main]
+    paths:
+      - 'locales/**'
+      - 'sources/en/**'
+      - 'manifest/**'
 
 permissions:
   contents: write
@@ -54,6 +60,7 @@ jobs:
             Paths: `apps/admin-web/dictionaries/`, `apps/employee-web/dictionaries/`
           branch: chore/web-i18n-sync-${{ github.run_id }}-core
           delete-branch: true
+          labels: i18n-sync
 
   sync-web-public:
     runs-on: ubuntu-latest
@@ -90,6 +97,7 @@ jobs:
             Paths: `apps/marketing-web/lib/i18n/`, legal MDX translations
           branch: chore/web-i18n-sync-${{ github.run_id }}-www
           delete-branch: true
+          labels: i18n-sync
 
   sync-infra-email:
     runs-on: ubuntu-latest
@@ -126,3 +134,4 @@ jobs:
             Paths: `packages/email-templates/locales/`
           branch: chore/web-i18n-sync-${{ github.run_id }}-email
           delete-branch: true
+          labels: i18n-sync

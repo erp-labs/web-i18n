@@ -3,11 +3,13 @@
   "surface": "www",
   "route": "/solutions/enterprise/dpa",
   "version": 1,
-  "sourceHash": "sha256:9e9f8a1ba0f137aac3f6a1fd91942f24c42283cc1f08c7ce2064aefc02f60663",
+  "sourceHash": "sha256:c099881b4371aecc73001738ee3709245f9dfa8d54326334045991e5bccfd07d",
   "keys": {
     "path": "/solutions/enterprise/dpa",
     "meta_title": "Data Processing Agreement | Vouus",
-    "meta_description": "DPA terms, subprocessors, and data residency summary for enterprise customers."
+    "meta_description": "DPA terms, subprocessors, and data residency summary for enterprise customers.",
+    "hero_title": "Data Processing Agreement",
+    "hero_description": "PDPA-aligned DPA between iPrego Pte. Ltd. and customers using {brand}."
   },
   "meta": {
     "productRepo": "infra-control-plane",

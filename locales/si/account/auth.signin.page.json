@@ -6,7 +6,6 @@
   "sourceHash": "sha256:5c0e153e8e9f912431db0c4ad1aa88966c7d8c5b46a0b667b8bef912f425c521",
   "keys": {
     "title": "පිවිසෙන්න",
-    "submit": "ඉදිරියට",
     "titleLogin": "පිවිසෙන්න",
     "titleGetStarted": "ආරම්භ කරන්න",
     "titlePortalPasswordSetup": "සේවා පරිපාලක මුරපදය සකසන්න",
@@ -15,6 +14,7 @@
     "descriptionPackageFunnel": "ගෙවීමට ඉදිරියට යාමට පිවිසෙන්න හෝ ගිණුමක් සාදන්න.",
     "descriptionPortalPassword": "ඔබගේ විද්‍යුත් තැපෑල ඇතුළත් කරන්න. අපි සත්‍යාපන කේතයක් යවමු, ඉන්පසු ඔබට සේවා පරිපාලක මුරපදය සෑදිය හැක.",
     "descriptionLoginGate": "ඔබගේ විද්‍යුත් තැපෑල සහ මුරපදයෙන් පිවිසෙන්න. අපි ඊළඟට සත්‍යාපන කේතයක් ඊ-තැපෑලෙන් යවමු.",
+    "submit": "ඉදිරියට",
     "submitLogin": "පිවිසෙන්න",
     "submitSendCode": "සත්‍යාපන කේතය යවන්න",
     "submitting": "යවමින්…",

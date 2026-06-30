@@ -10,6 +10,7 @@
     "meta_description": "พันธกิจ ค่านิยม และเรื่องราวของเรา",
     "hero_title": "งานเคลื่อนไหวที่นี่",
     "hero_subtitle": "สร้างขึ้นในสิงคโปร์สำหรับทีมที่ทำงานรวดเร็ว",
+    "hero_intro": "{brand} is a workflow-first ERP platform. We build the layer between your data and the people who need to act on it—approvals, automation, and audit trails included.",
     "missionTitle": "พันธกิจของเรา",
     "valuesTitle": "สิ่งที่เราเชื่อ",
     "ctaTitle": "พร้อมดู Vouus ในการทำงานจริงหรือยัง?",
@@ -19,7 +20,6 @@
     "seaTitle": "Why Singapore & Southeast Asia",
     "sinceParagraph": "Since 2021 in Singapore—workflow-first ERP from core HR and finance to enterprise infrastructure, eInvoice compliance, and mobile operations.",
     "legalParagraph": "Vouus is a product of PREGO Labs Pte. Ltd., incorporated in Singapore. Our platform serves businesses across Southeast Asia and beyond.",
-    "hero_intro": "{brand} is a workflow-first ERP platform. We build the layer between your data and the people who need to act on it—approvals, automation, and audit trails included.",
     "hero_talk_cta": "Talk to us",
     "hero_trial_cta": "Start free trial"
   },

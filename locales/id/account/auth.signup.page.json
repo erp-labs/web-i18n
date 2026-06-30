@@ -6,12 +6,12 @@
   "sourceHash": "sha256:b157861ca3ef1a6277cabe3ce03f14b8448cadc23cd00733a8103a651dbfc23c",
   "keys": {
     "title": "Daftar",
-    "submit": "Kirim kode verifikasi",
     "titleEmailLocked": "Email",
     "intro": "Buat akun Anda untuk memulai.",
     "introEmailLocked": "Kami akan mengirim kode verifikasi ke alamat ini agar Anda dapat menyelesaikan pembuatan akun.",
     "emailLabel": "Alamat email",
     "emailLockedHint": "Alamat ini telah diverifikasi di pregoi.com dan tidak dapat diubah di sini.",
+    "submit": "Kirim kode verifikasi",
     "submitting": "Mengirim…"
   },
   "meta": {

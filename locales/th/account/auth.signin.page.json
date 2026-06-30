@@ -6,7 +6,6 @@
   "sourceHash": "sha256:5c0e153e8e9f912431db0c4ad1aa88966c7d8c5b46a0b667b8bef912f425c521",
   "keys": {
     "title": "เข้าสู่ระบบ",
-    "submit": "ดำเนินการต่อ",
     "titleLogin": "เข้าสู่ระบบ",
     "titleGetStarted": "เริ่มต้นใช้งาน",
     "titlePortalPasswordSetup": "ตั้งรหัสผ่านผู้ดูแลบริการ",
@@ -15,6 +14,7 @@
     "descriptionPackageFunnel": "เข้าสู่ระบบหรือสร้างบัญชีเพื่อดำเนินการชำระเงินต่อ",
     "descriptionPortalPassword": "กรอกอีเมลของคุณ เราจะส่งรหัสยืนยัน จากนั้นคุณสามารถสร้างรหัสผ่านผู้ดูแลบริการได้",
     "descriptionLoginGate": "เข้าสู่ระบบด้วยอีเมลและรหัสผ่าน เราจะส่งรหัสยืนยันทางอีเมลในขั้นตอนถัดไป",
+    "submit": "ดำเนินการต่อ",
     "submitLogin": "เข้าสู่ระบบ",
     "submitSendCode": "ส่งรหัสยืนยัน",
     "submitting": "กำลังส่ง…",

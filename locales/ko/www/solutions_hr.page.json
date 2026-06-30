@@ -7,7 +7,9 @@
   "keys": {
     "path": "/solutions/hr",
     "meta_title": "HR Teams | Vouus",
-    "meta_description": "Payroll-ready attendance, leave policies, and employee self-service on one path."
+    "meta_description": "Payroll-ready attendance, leave policies, and employee self-service on one path.",
+    "hero_title": "실제 워크플로우와 연결된 HR 운영",
+    "hero_description": "인사·급여·근태·휴가·채용을 한 경로에서—Automation이 반복 업무를, 승인과 Scheduler가 마감을 지킵니다."
   },
   "meta": {
     "productRepo": "infra-control-plane",

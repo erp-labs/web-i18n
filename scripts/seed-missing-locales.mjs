@@ -121,13 +121,15 @@ function listEnPageFiles(dir, acc = []) {
   return acc
 }
 
-function mergeMissingKeys(enKeys, locKeys) {
+function alignKeysWithEn(enKeys, locKeys) {
   const enFlat = flattenKeys(enKeys ?? {})
   const locFlat = flattenKeys(locKeys ?? {})
-  for (const [path, value] of Object.entries(enFlat)) {
-    if (!(path in locFlat)) locFlat[path] = value
+  /** Keep only EN key paths; prefer locale value, fall back to EN. */
+  const aligned = {}
+  for (const [path, enValue] of Object.entries(enFlat)) {
+    aligned[path] = path in locFlat ? locFlat[path] : enValue
   }
-  return unflattenKeys(locFlat)
+  return unflattenKeys(aligned)
 }
 
 function backfillExistingLocaleKeys() {
@@ -139,7 +141,7 @@ function backfillExistingLocaleKeys() {
       const locFile = join(PATHS.locales, locale, rel)
       if (!existsSync(locFile)) continue
       const locDoc = JSON.parse(readFileSync(locFile, 'utf8'))
-      const merged = mergeMissingKeys(enDoc.keys, locDoc.keys)
+      const merged = alignKeysWithEn(enDoc.keys, locDoc.keys)
       const before = JSON.stringify(locDoc.keys)
       const after = JSON.stringify(merged)
       if (before === after) continue

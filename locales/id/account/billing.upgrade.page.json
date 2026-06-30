@@ -6,9 +6,9 @@
   "sourceHash": "sha256:7428f7bac7c24316234874d4f490cd00ef9f55561ac56104b1810dd3ba424d78",
   "keys": {
     "title": "Tingkatkan paket",
-    "submit": "Tingkatkan",
     "subtitle": "Pilih paket yang lebih tinggi untuk workspace Anda.",
     "bodyNote": "Server khusus dan data Anda tetap ada saat Anda pindah ke paket yang lebih tinggi.",
+    "submit": "Tingkatkan",
     "backToBilling": "← Kembali ke penagihan"
   },
   "meta": {

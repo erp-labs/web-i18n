@@ -6,10 +6,10 @@
   "sourceHash": "sha256:47d18968d16ff2fbe043a22e42ab86814ab26342a6564626903439e5c5d5c0e8",
   "keys": {
     "subject": "متحرک subject (provisioning)",
-    "_sourceNote": "Extracted from provisioning.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver.",
     "headerTitle": "آپ کا workspace تیار ہے",
     "introTemplate": "آپ کا {serviceName} workspace provisioning مکمل ہو گیا ہے۔ سائن ان اور شروع کرنے کے لیے نیچے دیے گئے links استعمال کریں۔",
-    "textHeader": "آپ کا workspace تیار ہے"
+    "textHeader": "آپ کا workspace تیار ہے",
+    "_sourceNote": "Extracted from provisioning.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
   },
   "meta": {
     "productRepo": "infra-email",

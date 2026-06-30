@@ -6,11 +6,11 @@
   "sourceHash": "sha256:987d8f6afe835071745e81dfce7a1fde78aef376b375a914af9fe16e82e1ff79",
   "keys": {
     "subject": "หัวข้อแบบไดนามิก (ต้อนรับ)",
-    "_sourceNote": "Extracted from welcome.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver.",
     "headerTitle": "การสมัครสมาชิกของคุณเปิดใช้งานแล้ว",
     "bodyIntro": "การสมัครสมาชิก {company_name} ของคุณในแผน {package_name} เปิดใช้งานแล้ว",
     "nextStepsTitle": "ขั้นตอนถัดไป",
-    "textHeader": "การสมัครสมาชิกของคุณเปิดใช้งานแล้ว"
+    "textHeader": "การสมัครสมาชิกของคุณเปิดใช้งานแล้ว",
+    "_sourceNote": "Extracted from welcome.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
   },
   "meta": {
     "productRepo": "infra-email",

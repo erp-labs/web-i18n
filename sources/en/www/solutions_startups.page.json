@@ -3,11 +3,13 @@
   "surface": "www",
   "route": "/solutions/startups",
   "version": 1,
-  "sourceHash": "sha256:79fb4544785c010ea7a243d5210f5917e03b5146da16777d7e503043006ce157",
+  "sourceHash": "sha256:2fb27b419d43d1e7afbe3f04d12228779906f130ff4caa40d4a7e5f62ec93f17",
   "keys": {
     "path": "/solutions/startups",
     "meta_title": "Startups (5 users)",
-    "meta_description": "Lean ERP for early-stage teams."
+    "meta_description": "Lean ERP for early-stage teams.",
+    "hero_title": "5 people. One system. Day one ready.",
+    "hero_description": "Basic plan with core ERP, approvals, and workflow automation—built for founders who need clean books without shelfware."
   },
   "meta": {
     "productRepo": "infra-control-plane",

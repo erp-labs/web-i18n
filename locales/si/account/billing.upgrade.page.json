@@ -6,9 +6,9 @@
   "sourceHash": "sha256:7428f7bac7c24316234874d4f490cd00ef9f55561ac56104b1810dd3ba424d78",
   "keys": {
     "title": "පැකේජය උත්ශ්‍රේණි කරන්න",
-    "submit": "උත්ශ්‍රේණි කරන්න",
     "subtitle": "ඔබගේ workspace සඳහා ඉහළ plan එකක් තෝරන්න.",
     "bodyNote": "ඉහළ plan එකකට ගිය විට ඔබගේ dedicated server සහ දත්ත එලෙසම පවතී.",
+    "submit": "උත්ශ්‍රේණි කරන්න",
     "backToBilling": "← billing වෙත ආපසු"
   },
   "meta": {

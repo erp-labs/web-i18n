@@ -1,0 +1,58 @@
+[
+  {
+    "version": 1,
+    "enHash": "sha256:shell-v1",
+    "locale": "ar",
+    "method": "cursor-ai",
+    "at": "2026-06-30T12:00:42.196Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:shell-v1",
+    "locale": "vi",
+    "method": "cursor-ai",
+    "at": "2026-06-30T12:00:42.196Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:shell-v1",
+    "locale": "th",
+    "method": "cursor-ai",
+    "at": "2026-06-30T12:00:42.197Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:shell-v1",
+    "locale": "id",
+    "method": "cursor-ai",
+    "at": "2026-06-30T12:00:42.197Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:shell-v1",
+    "locale": "ms",
+    "method": "cursor-ai",
+    "at": "2026-06-30T12:00:42.197Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:shell-v1",
+    "locale": "si",
+    "method": "cursor-ai",
+    "at": "2026-06-30T12:00:42.197Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:shell-v1",
+    "locale": "ur",
+    "method": "cursor-ai",
+    "at": "2026-06-30T12:00:42.198Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:shell-v1",
+    "locale": "hi",
+    "method": "cursor-ai",
+    "at": "2026-06-30T12:00:42.198Z"
+  }
+]

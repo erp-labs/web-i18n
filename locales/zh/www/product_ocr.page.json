@@ -7,7 +7,9 @@
   "keys": {
     "path": "/product/ocr",
     "meta_title": "OCR / Receipt & Invoice Scan",
-    "meta_description": "Mobile capture and receipt extraction."
+    "meta_description": "Mobile capture and receipt extraction.",
+    "hero_title": "收据一拍，账本即更",
+    "hero_description": "拍照、提取、审批—OCR 将纸质凭证变为费用工作流数据。"
   },
   "meta": {
     "productRepo": "infra-control-plane",
