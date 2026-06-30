@@ -1,0 +1,35 @@
+{
+  "pageId": "app.calendar",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/calendar",
+  "version": 2,
+  "sourceHash": "sha256:5f5eff059e509b3ca6733f5423d7dd223962783e7bc7525eea37cc2328d19490",
+  "keys": {
+    "monthJanuary": "一月",
+    "monthFebruary": "二月",
+    "monthMarch": "三月",
+    "monthApril": "四月",
+    "monthMay": "五月",
+    "monthJune": "六月",
+    "monthJuly": "七月",
+    "monthAugust": "八月",
+    "monthSeptember": "九月",
+    "monthOctober": "十月",
+    "monthNovember": "十一月",
+    "monthDecember": "十二月",
+    "dayStatusWork": "班",
+    "dayStatusDone": "完成",
+    "dayStatusMissed": "未完成",
+    "dayStatusAbsent": "缺勤",
+    "dayStatusTardy": "迟到",
+    "dayStatusOff": "休",
+    "dayStatusAway": "请假",
+    "dayStatusPublicHoliday": "休"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#calendar",
+    "githubPath": "app/calendar.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/zh.json#calendar"
+  }
+}

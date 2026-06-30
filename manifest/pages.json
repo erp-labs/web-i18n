@@ -1,0 +1,844 @@
+{
+  "pages": [
+    {
+      "pageId": "app.common",
+      "surface": "app",
+      "route": "/{companyId}/{locale}/common",
+      "version": 1,
+      "sourceHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
+      "reviewRequired": false,
+      "githubPath": "app/common.page.json",
+      "sourcePath": "apps/employee-web/dictionaries/en.json#common"
+    },
+    {
+      "pageId": "app.signin",
+      "surface": "app",
+      "route": "/{companyId}/{locale}/signin",
+      "version": 1,
+      "sourceHash": "sha256:d11db4e2568fff0acd1a3e537126e705c035b887877f2da41867c16f01d45730",
+      "reviewRequired": false,
+      "githubPath": "app/signin.page.json",
+      "sourcePath": "apps/employee-web/dictionaries/en.json#signin"
+    },
+    {
+      "pageId": "app.signup",
+      "surface": "app",
+      "route": "/{companyId}/{locale}/signup",
+      "version": 1,
+      "sourceHash": "sha256:ddb5417f701bc66105f54e1db3bac33ffdab5057c480dd09cf5f531e7b0ea8d2",
+      "reviewRequired": false,
+      "githubPath": "app/signup.page.json",
+      "sourcePath": "apps/employee-web/dictionaries/en.json#signup"
+    },
+    {
+      "pageId": "app.onboarding",
+      "surface": "app",
+      "route": "/{companyId}/{locale}/onboarding",
+      "version": 1,
+      "sourceHash": "sha256:b53f73fa6f3a4256c798a4a33d9bdfa72b952e07346f76a7995d15efa3ac1399",
+      "reviewRequired": false,
+      "githubPath": "app/onboarding.page.json",
+      "sourcePath": "apps/employee-web/dictionaries/en.json#onboarding"
+    },
+    {
+      "pageId": "app.menu",
+      "surface": "app",
+      "route": "/{companyId}/{locale}/menu",
+      "version": 1,
+      "sourceHash": "sha256:d8a190eda194f241080a10fd778113ffb45b0e85ec46816c81c9970540c36e38",
+      "reviewRequired": false,
+      "githubPath": "app/menu.page.json",
+      "sourcePath": "apps/employee-web/dictionaries/en.json#menu"
+    },
+    {
+      "pageId": "app.auth",
+      "surface": "app",
+      "route": "/{companyId}/{locale}/auth",
+      "version": 1,
+      "sourceHash": "sha256:f140abf9a18009377b1a7ecbdd117f697e460d7d926a1476123de2dcc57f48ca",
+      "reviewRequired": false,
+      "githubPath": "app/auth.page.json",
+      "sourcePath": "apps/employee-web/dictionaries/en.json#auth"
+    },
+    {
+      "pageId": "app.passcode",
+      "surface": "app",
+      "route": "/{companyId}/{locale}/passcode",
+      "version": 1,
+      "sourceHash": "sha256:f3eb59f28ddec7ec0d8b414d2cf7d9d47113be9676d4ff8fb5ff44a0cbef4ee1",
+      "reviewRequired": false,
+      "githubPath": "app/passcode.page.json",
+      "sourcePath": "apps/employee-web/dictionaries/en.json#passcode"
+    },
+    {
+      "pageId": "app.checkin",
+      "surface": "app",
+      "route": "/{companyId}/{locale}/checkin",
+      "version": 1,
+      "sourceHash": "sha256:b8bb3c18bd42b70bca261f65f4bb9c6682e6e728c7631b3d7e36056a40106391",
+      "reviewRequired": false,
+      "githubPath": "app/checkin.page.json",
+      "sourcePath": "apps/employee-web/dictionaries/en.json#checkin"
+    },
+    {
+      "pageId": "app.locationPermission",
+      "surface": "app",
+      "route": "/{companyId}/{locale}/locationPermission",
+      "version": 1,
+      "sourceHash": "sha256:d925f25b9680bbb3902ef950b535e206b9d76a665fdbca0f80ce2c5004fa3ece",
+      "reviewRequired": false,
+      "githubPath": "app/locationPermission.page.json",
+      "sourcePath": "apps/employee-web/dictionaries/en.json#locationPermission"
+    },
+    {
+      "pageId": "app.checklist",
+      "surface": "app",
+      "route": "/{companyId}/{locale}/checklist",
+      "version": 1,
+      "sourceHash": "sha256:b8d6ab3c8eed7f9d6863dbd604ac78a99c1c3f488e67ef626dcc4fee5517f7f7",
+      "reviewRequired": false,
+      "githubPath": "app/checklist.page.json",
+      "sourcePath": "apps/employee-web/dictionaries/en.json#checklist"
+    },
+    {
+      "pageId": "app.expenses",
+      "surface": "app",
+      "route": "/{companyId}/{locale}/expenses",
+      "version": 1,
+      "sourceHash": "sha256:44f8f788a4c6dec9f70b07444cd320e849271f1639a97454335ba20e6729b6cb",
+      "reviewRequired": false,
+      "githubPath": "app/expenses.page.json",
+      "sourcePath": "apps/employee-web/dictionaries/en.json#expenses"
+    },
+    {
+      "pageId": "app.leaves",
+      "surface": "app",
+      "route": "/{companyId}/{locale}/leaves",
+      "version": 1,
+      "sourceHash": "sha256:b01a78899787ae34a261972746e336a4fa561b7f8940b635bb3c08da71f5ce50",
+      "reviewRequired": false,
+      "githubPath": "app/leaves.page.json",
+      "sourcePath": "apps/employee-web/dictionaries/en.json#leaves"
+    },
+    {
+      "pageId": "app.invoices",
+      "surface": "app",
+      "route": "/{companyId}/{locale}/invoices",
+      "version": 1,
+      "sourceHash": "sha256:70f9df03695d7e02037ce16367708ae755fdfce7e877c670ce265cea316731a1",
+      "reviewRequired": false,
+      "githubPath": "app/invoices.page.json",
+      "sourcePath": "apps/employee-web/dictionaries/en.json#invoices"
+    },
+    {
+      "pageId": "app.myAi",
+      "surface": "app",
+      "route": "/{companyId}/{locale}/my-ai",
+      "version": 1,
+      "sourceHash": "sha256:a809a39d2c15a5239f14d17ecc31e7ebca7ca60af68d806dd8ca0f22cb2a2acb",
+      "reviewRequired": false,
+      "githubPath": "app/myAi.page.json",
+      "sourcePath": "apps/employee-web/dictionaries/en.json#myAi"
+    },
+    {
+      "pageId": "app.notices",
+      "surface": "app",
+      "route": "/{companyId}/{locale}/notices",
+      "version": 1,
+      "sourceHash": "sha256:9e9feb1f3f533b4e6b3cdf47e0046491512fc861c4b8118737aafe3db4478835",
+      "reviewRequired": false,
+      "githubPath": "app/notices.page.json",
+      "sourcePath": "apps/employee-web/dictionaries/en.json#notices"
+    },
+    {
+      "pageId": "app.moduleGuide",
+      "surface": "app",
+      "route": "/{companyId}/{locale}/moduleGuide",
+      "version": 1,
+      "sourceHash": "sha256:6a17eb3392f9231509390565517d774d2c9f981b45c9c523e1659755c053bd6e",
+      "reviewRequired": false,
+      "githubPath": "app/moduleGuide.page.json",
+      "sourcePath": "apps/employee-web/dictionaries/en.json#moduleGuide"
+    },
+    {
+      "pageId": "app.notFound",
+      "surface": "app",
+      "route": "/{companyId}/{locale}/notFound",
+      "version": 1,
+      "sourceHash": "sha256:a0728b7f9ef9ccaffe23ac3f4841306bda7bf477b5414e2189898581960b9a00",
+      "reviewRequired": false,
+      "githubPath": "app/notFound.page.json",
+      "sourcePath": "apps/employee-web/dictionaries/en.json#notFound"
+    },
+    {
+      "pageId": "app.profile",
+      "surface": "app",
+      "route": "/{companyId}/{locale}/profile",
+      "version": 1,
+      "sourceHash": "sha256:e41d4917788e6b83bbd846406e40f1ed2eae2d7b74d77f445c5153d61ccfdbd8",
+      "reviewRequired": false,
+      "githubPath": "app/profile.page.json",
+      "sourcePath": "apps/employee-web/dictionaries/en.json#profile"
+    },
+    {
+      "pageId": "app.customers",
+      "surface": "app",
+      "route": "/{companyId}/{locale}/customers",
+      "version": 1,
+      "sourceHash": "sha256:d8409a7a568d2e3107dd1697a8b2163825625bee50c97bf8d4d3702e36023558",
+      "reviewRequired": false,
+      "githubPath": "app/customers.page.json",
+      "sourcePath": "apps/employee-web/dictionaries/en.json#customers"
+    },
+    {
+      "pageId": "app.calendar",
+      "surface": "app",
+      "route": "/{companyId}/{locale}/calendar",
+      "version": 1,
+      "sourceHash": "sha256:5f5eff059e509b3ca6733f5423d7dd223962783e7bc7525eea37cc2328d19490",
+      "reviewRequired": false,
+      "githubPath": "app/calendar.page.json",
+      "sourcePath": "apps/employee-web/dictionaries/en.json#calendar"
+    },
+    {
+      "pageId": "email.otp",
+      "surface": "email",
+      "route": null,
+      "version": 1,
+      "sourceHash": "sha256:cbb0e392f7c2104c926ff71329a2f9d6cda8d90979bc17368d9f82ec49a97a77",
+      "reviewRequired": false,
+      "githubPath": "email/otp.page.json",
+      "sourcePath": "packages/email-templates/src/otp.ts"
+    },
+    {
+      "pageId": "email.provisioning",
+      "surface": "email",
+      "route": null,
+      "version": 1,
+      "sourceHash": "sha256:47d18968d16ff2fbe043a22e42ab86814ab26342a6564626903439e5c5d5c0e8",
+      "reviewRequired": false,
+      "githubPath": "email/provisioning.page.json",
+      "sourcePath": "packages/email-templates/src/provisioning.ts"
+    },
+    {
+      "pageId": "email.welcome",
+      "surface": "email",
+      "route": null,
+      "version": 1,
+      "sourceHash": "sha256:987d8f6afe835071745e81dfce7a1fde78aef376b375a914af9fe16e82e1ff79",
+      "reviewRequired": false,
+      "githubPath": "email/welcome.page.json",
+      "sourcePath": "packages/email-templates/src/welcome.ts"
+    },
+    {
+      "pageId": "email.desk_credentials",
+      "surface": "email",
+      "route": null,
+      "version": 1,
+      "sourceHash": "sha256:0cae946f9c82ff636013de25e508bab6b0d48678d23e975c3b34e7dc7ddbe264",
+      "reviewRequired": false,
+      "githubPath": "email/desk-credentials.page.json",
+      "sourcePath": "packages/email-templates/src/desk-credentials.ts"
+    },
+    {
+      "pageId": "email.employee_portal_invite",
+      "surface": "email",
+      "route": null,
+      "version": 1,
+      "sourceHash": "sha256:740e4617c13619da36a51a7beffc11222ba7cdc216a2f5a15c5df15668a28df7",
+      "reviewRequired": false,
+      "githubPath": "email/employee-portal-invite.page.json",
+      "sourcePath": "packages/email-templates/src/employee-portal-invite.ts"
+    },
+    {
+      "pageId": "email.portal_password_reset",
+      "surface": "email",
+      "route": null,
+      "version": 1,
+      "sourceHash": "sha256:8268b050d7d08c1de1e60296a7974d221e94fd8a85a936665be1f4612b141224",
+      "reviewRequired": false,
+      "githubPath": "email/portal-password-reset.page.json",
+      "sourcePath": "packages/email-templates/src/portal-password-reset.ts"
+    },
+    {
+      "pageId": "email.tenant_admin_credentials",
+      "surface": "email",
+      "route": null,
+      "version": 1,
+      "sourceHash": "sha256:ea10bcc8c74af77525778e72d521535c03332e09485f7f1707de3a4f8b295d62",
+      "reviewRequired": false,
+      "githubPath": "email/tenant-admin-credentials.page.json",
+      "sourcePath": "packages/email-templates/src/tenant-admin-credentials.ts"
+    },
+    {
+      "pageId": "email.billing_payment_success",
+      "surface": "email",
+      "route": null,
+      "version": 1,
+      "sourceHash": "sha256:0cc521ad288d6486df4163fcabca8c352a2062798afc6685b73fef3a94274026",
+      "reviewRequired": false,
+      "githubPath": "email/billing-payment-success.page.json",
+      "sourcePath": "packages/email-templates/src/billing-payment-success.ts"
+    },
+    {
+      "pageId": "email.billing_invoice_paid",
+      "surface": "email",
+      "route": null,
+      "version": 1,
+      "sourceHash": "sha256:0e5b46ab6d59e0a532fc67cf43151af686e2fa9643cbbeaec5126e5e6d8ed4b2",
+      "reviewRequired": false,
+      "githubPath": "email/billing-invoice-paid.page.json",
+      "sourcePath": "packages/email-templates/src/billing-invoice-paid.ts"
+    },
+    {
+      "pageId": "email.employee_feedback",
+      "surface": "email",
+      "route": null,
+      "version": 1,
+      "sourceHash": "sha256:1e838c652f9a0533d3772ae6e744f55aa4b5b538241e5fbfb537b6af2c25c9ab",
+      "reviewRequired": false,
+      "githubPath": "email/employee-feedback.page.json",
+      "sourcePath": "packages/email-templates/src/employee-feedback.ts"
+    },
+    {
+      "pageId": "docs.legal.byo_hosting_addendum",
+      "surface": "docs",
+      "route": "/legal/byo-hosting-addendum",
+      "version": 1,
+      "sourceHash": "sha256:918e6290ee40d986f19b6b13e6bc9849704f030b0a6a928f2a8bfe0b246e0c89",
+      "reviewRequired": true,
+      "githubPath": "docs/legal/byo-hosting-addendum.page.json",
+      "sourcePath": "apps/docs/src/content/docs/legal/byo-hosting-addendum.mdx"
+    },
+    {
+      "pageId": "docs.legal.cookie_policy",
+      "surface": "docs",
+      "route": "/legal/cookie-policy",
+      "version": 1,
+      "sourceHash": "sha256:10df16ae9749ae8e2ab85f4f5b23c9acf46beb8d62b8f27fcc9ac732e2442886",
+      "reviewRequired": true,
+      "githubPath": "docs/legal/cookie-policy.page.json",
+      "sourcePath": "apps/docs/src/content/docs/legal/cookie-policy.mdx"
+    },
+    {
+      "pageId": "docs.legal.data_processing_agreement",
+      "surface": "docs",
+      "route": "/legal/data-processing-agreement",
+      "version": 1,
+      "sourceHash": "sha256:038aa28bee3eaec9b8c854906e00f64d78e9a429bb0040df2b660c40d995c69c",
+      "reviewRequired": true,
+      "githubPath": "docs/legal/data-processing-agreement.page.json",
+      "sourcePath": "apps/docs/src/content/docs/legal/data-processing-agreement.mdx"
+    },
+    {
+      "pageId": "docs.legal.privacy_policy",
+      "surface": "docs",
+      "route": "/legal/privacy-policy",
+      "version": 1,
+      "sourceHash": "sha256:ef345043a1e439b240cb0235d260e5d3bccfe63ec1fe90a677a16d55bb1593c3",
+      "reviewRequired": true,
+      "githubPath": "docs/legal/privacy-policy.page.json",
+      "sourcePath": "apps/docs/src/content/docs/legal/privacy-policy.mdx"
+    },
+    {
+      "pageId": "docs.legal.service_level_agreement",
+      "surface": "docs",
+      "route": "/legal/service-level-agreement",
+      "version": 1,
+      "sourceHash": "sha256:3c6f12e54b751274a8993641e0b1a11212f4954db714fd6806c0ebc47e898d0e",
+      "reviewRequired": true,
+      "githubPath": "docs/legal/service-level-agreement.page.json",
+      "sourcePath": "apps/docs/src/content/docs/legal/service-level-agreement.mdx"
+    },
+    {
+      "pageId": "docs.legal.supplemental_practices",
+      "surface": "docs",
+      "route": "/legal/supplemental-practices",
+      "version": 1,
+      "sourceHash": "sha256:2a4a45d605f417fee0c629af650278363e1eb015d17ef2b5356f53948303ad03",
+      "reviewRequired": true,
+      "githubPath": "docs/legal/supplemental-practices.page.json",
+      "sourcePath": "apps/docs/src/content/docs/legal/supplemental-practices.md"
+    },
+    {
+      "pageId": "docs.legal.terms_of_service",
+      "surface": "docs",
+      "route": "/legal/terms-of-service",
+      "version": 1,
+      "sourceHash": "sha256:2cbcbe93b0676c781c507717fbca4e47766ddb8ed3d04f913bddb8cb443afe7c",
+      "reviewRequired": true,
+      "githubPath": "docs/legal/terms-of-service.page.json",
+      "sourcePath": "apps/docs/src/content/docs/legal/terms-of-service.mdx"
+    },
+    {
+      "pageId": "docs.legal.tier_2_infrastructure_credentials_addendum",
+      "surface": "docs",
+      "route": "/legal/tier-2-infrastructure-credentials-addendum",
+      "version": 1,
+      "sourceHash": "sha256:5a3e2a92b7d6ac994d3ccc0636dfd1d40d69ae09a69a80829387fa70d1937960",
+      "reviewRequired": true,
+      "githubPath": "docs/legal/tier-2-infrastructure-credentials-addendum.page.json",
+      "sourcePath": "apps/docs/src/content/docs/legal/tier-2-infrastructure-credentials-addendum.mdx"
+    },
+    {
+      "pageId": "www.product_overview",
+      "surface": "www",
+      "route": "/product/overview",
+      "version": 1,
+      "sourceHash": "sha256:4a4eb9b17513bb95c743a36ce5078fd0027b45fa73813a238acfd21998709034",
+      "reviewRequired": false,
+      "githubPath": "www/product_overview.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts product/overview"
+    },
+    {
+      "pageId": "www.product_hr-attendance",
+      "surface": "www",
+      "route": "/product/hr-attendance",
+      "version": 1,
+      "sourceHash": "sha256:f8959f1d7f3dacdafc2b7e9ca2de2328fe403c5f6aad0cf6b1d8eb985722deb2",
+      "reviewRequired": false,
+      "githubPath": "www/product_hr-attendance.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts product/hr-attendance"
+    },
+    {
+      "pageId": "www.product_leave",
+      "surface": "www",
+      "route": "/product/leave",
+      "version": 1,
+      "sourceHash": "sha256:70ef7c9bb3ca5e167fa04a290d03129497c0b5fa8c91d89db79b35ce4ec95664",
+      "reviewRequired": false,
+      "githubPath": "www/product_leave.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts product/leave"
+    },
+    {
+      "pageId": "www.product_expense",
+      "surface": "www",
+      "route": "/product/expense",
+      "version": 1,
+      "sourceHash": "sha256:543ee0b1dae36fe04933a0e32208762266da3ace219f13a1b07fecda4275b919",
+      "reviewRequired": false,
+      "githubPath": "www/product_expense.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts product/expense"
+    },
+    {
+      "pageId": "www.product_einvoice-accounting",
+      "surface": "www",
+      "route": "/product/einvoice-accounting",
+      "version": 1,
+      "sourceHash": "sha256:af209e719e3865bbf9df672147c0ac4c2faf6e6e4edfc692cf35bf434ec6089c",
+      "reviewRequired": false,
+      "githubPath": "www/product_einvoice-accounting.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts product/einvoice-accounting"
+    },
+    {
+      "pageId": "www.product_workflow-builder",
+      "surface": "www",
+      "route": "/product/workflow-builder",
+      "version": 1,
+      "sourceHash": "sha256:bb3bbe2fd42d31c395ec2c6b3cb37bc51f440d4b0aab8c8f8b6ff654a14800ea",
+      "reviewRequired": false,
+      "githubPath": "www/product_workflow-builder.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts product/workflow-builder"
+    },
+    {
+      "pageId": "www.solutions_enterprise",
+      "surface": "www",
+      "route": "/solutions/enterprise",
+      "version": 1,
+      "sourceHash": "sha256:ff70d25a26199f895463a707812c1f19ff691732201230ed33a10a196dd7b441",
+      "reviewRequired": false,
+      "githubPath": "www/solutions_enterprise.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts solutions/enterprise"
+    },
+    {
+      "pageId": "www.solutions_smb",
+      "surface": "www",
+      "route": "/solutions/smb",
+      "version": 1,
+      "sourceHash": "sha256:0755df5751a2c7059123c5d3a50ecde3a67371a4d9851c0eeac9e8e579a55c6a",
+      "reviewRequired": false,
+      "githubPath": "www/solutions_smb.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts solutions/smb"
+    },
+    {
+      "pageId": "www.solutions_use-cases",
+      "surface": "www",
+      "route": "/solutions/use-cases",
+      "version": 1,
+      "sourceHash": "sha256:631bb70c879da9abb462792f05f74648eb974c08e4688f1121e5d5629c4ca8b7",
+      "reviewRequired": false,
+      "githubPath": "www/solutions_use-cases.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts solutions/use-cases"
+    },
+    {
+      "pageId": "www.home",
+      "surface": "www",
+      "route": "/",
+      "version": 1,
+      "sourceHash": "sha256:8b50ef0e6c42ff806b6b76dc03bb641af0937634c4641706bc2e1c3c9cbeb26e",
+      "reviewRequired": false,
+      "githubPath": "www/home.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts home"
+    },
+    {
+      "pageId": "www.about",
+      "surface": "www",
+      "route": "/about",
+      "version": 1,
+      "sourceHash": "sha256:50191fd450a02b77f7850b4c0793a6ac432607804b94a4792c0c176c96a41278",
+      "reviewRequired": false,
+      "githubPath": "www/about.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts about"
+    },
+    {
+      "pageId": "www.contact",
+      "surface": "www",
+      "route": "/contact",
+      "version": 1,
+      "sourceHash": "sha256:6c37c213ea598111e64e2c7a2db9690024851717a0b4603c8c52568d81028a66",
+      "reviewRequired": false,
+      "githubPath": "www/contact.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts contact"
+    },
+    {
+      "pageId": "www.docs",
+      "surface": "www",
+      "route": "/docs",
+      "version": 1,
+      "sourceHash": "sha256:e47ce3196e17dca11954f00e95a6688324f3273080558c7e59328e77d122872a",
+      "reviewRequired": false,
+      "githubPath": "www/docs.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts docs"
+    },
+    {
+      "pageId": "www.pricing",
+      "surface": "www",
+      "route": "/pricing",
+      "version": 1,
+      "sourceHash": "sha256:4cd80c117cb6468f1608b58bdcbce7f20f8bb10b80eb47d7ce34bb2df1036597",
+      "reviewRequired": false,
+      "githubPath": "www/pricing.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts pricing"
+    },
+    {
+      "pageId": "www.pricing_v1",
+      "surface": "www",
+      "route": "/pricing/v1",
+      "version": 1,
+      "sourceHash": "sha256:bb388fb39c3d74b7536698a427428751818f71ff0a34172cb17168fbbcde0207",
+      "reviewRequired": false,
+      "githubPath": "www/pricing_v1.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts pricing/v1"
+    },
+    {
+      "pageId": "www.pricing_draft",
+      "surface": "www",
+      "route": "/pricing/draft",
+      "version": 1,
+      "sourceHash": "sha256:bf0175833fff8579671ea6af68f6d4143715201d1f194b021e302bedb2cbab6e",
+      "reviewRequired": false,
+      "githubPath": "www/pricing_draft.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts pricing/draft"
+    },
+    {
+      "pageId": "www.trial",
+      "surface": "www",
+      "route": "/trial",
+      "version": 1,
+      "sourceHash": "sha256:93a2ccb07f9f6b359df85859f95c03fc17ddcc7b76b8cb872c434ecd032b193b",
+      "reviewRequired": false,
+      "githubPath": "www/trial.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts trial"
+    },
+    {
+      "pageId": "www.trial_manual-approval_verify",
+      "surface": "www",
+      "route": "/trial/manual-approval/verify",
+      "version": 1,
+      "sourceHash": "sha256:292e7567ee4d8f96c82b74417d12a258e5cfa3f3fded3604891a18e21ce379bb",
+      "reviewRequired": false,
+      "githubPath": "www/trial_manual-approval_verify.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts trial/manual-approval/verify"
+    },
+    {
+      "pageId": "www.trial_manual-approval_complete",
+      "surface": "www",
+      "route": "/trial/manual-approval/complete",
+      "version": 1,
+      "sourceHash": "sha256:670dc8f8338c8eaab4d8e88a6a17d1a74e353563cab4b745e6ec68abe1d84068",
+      "reviewRequired": false,
+      "githubPath": "www/trial_manual-approval_complete.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts trial/manual-approval/complete"
+    },
+    {
+      "pageId": "www.blog",
+      "surface": "www",
+      "route": "/blog",
+      "version": 1,
+      "sourceHash": "sha256:4a298df805a88ef82e74eec4220a06039fb8363ce8854af6c7015e5f7c10ca5c",
+      "reviewRequired": false,
+      "githubPath": "www/blog.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts blog"
+    },
+    {
+      "pageId": "www.blog_how-to-choose-an-erp-for-smes",
+      "surface": "www",
+      "route": "/blog/how-to-choose-an-erp-for-smes",
+      "version": 1,
+      "sourceHash": "sha256:e59b0a2a86051f6dd2a370d3470b4cad133d9e508217929df8eaf48fcdc1dd8a",
+      "reviewRequired": false,
+      "githubPath": "www/blog_how-to-choose-an-erp-for-smes.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts blog/how-to-choose-an-erp-for-smes"
+    },
+    {
+      "pageId": "www.blog_workflow-automation-basics",
+      "surface": "www",
+      "route": "/blog/workflow-automation-basics",
+      "version": 1,
+      "sourceHash": "sha256:0565069d515b76df2b8dc7c48b80c17ffd230ad372ac512d9e1533e07916e4f0",
+      "reviewRequired": false,
+      "githubPath": "www/blog_workflow-automation-basics.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts blog/workflow-automation-basics"
+    },
+    {
+      "pageId": "www.blog_vouus-vs-spreadsheets",
+      "surface": "www",
+      "route": "/blog/vouus-vs-spreadsheets",
+      "version": 1,
+      "sourceHash": "sha256:786a4490dd7bb3844fd03f87d02cc9ae39035af4de8ecca1c1045554880dbefc",
+      "reviewRequired": false,
+      "githubPath": "www/blog_vouus-vs-spreadsheets.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts blog/vouus-vs-spreadsheets"
+    },
+    {
+      "pageId": "www.solutions",
+      "surface": "www",
+      "route": "/solutions",
+      "version": 1,
+      "sourceHash": "sha256:6ba7998c35f9b1668eab31fd5770f6a04f29b064b5e543242af6b45a971ec8eb",
+      "reviewRequired": false,
+      "githubPath": "www/solutions.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts solutions"
+    },
+    {
+      "pageId": "www.solutions_finance",
+      "surface": "www",
+      "route": "/solutions/finance",
+      "version": 1,
+      "sourceHash": "sha256:2faae3db6b772a086df8720938f47fda5e97024b20d5ceb9ccbd20c763649a9c",
+      "reviewRequired": false,
+      "githubPath": "www/solutions_finance.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts solutions/finance"
+    },
+    {
+      "pageId": "www.solutions_hr",
+      "surface": "www",
+      "route": "/solutions/hr",
+      "version": 1,
+      "sourceHash": "sha256:3ba2cd9e78f61dbd4ad08e8d7f7523c5e42e9ae28590516f0d16bb7e23adb1b0",
+      "reviewRequired": false,
+      "githubPath": "www/solutions_hr.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts solutions/hr"
+    },
+    {
+      "pageId": "www.solutions_sales",
+      "surface": "www",
+      "route": "/solutions/sales",
+      "version": 1,
+      "sourceHash": "sha256:a6f0f9f74340c1e4afcb432dcbcf53d5c8f63f3807f831a9a477af37af9151fd",
+      "reviewRequired": false,
+      "githubPath": "www/solutions_sales.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts solutions/sales"
+    },
+    {
+      "pageId": "www.solutions_startups",
+      "surface": "www",
+      "route": "/solutions/startups",
+      "version": 1,
+      "sourceHash": "sha256:79fb4544785c010ea7a243d5210f5917e03b5146da16777d7e503043006ce157",
+      "reviewRequired": false,
+      "githubPath": "www/solutions_startups.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts solutions/startups"
+    },
+    {
+      "pageId": "www.solutions_enterprise_security",
+      "surface": "www",
+      "route": "/solutions/enterprise/security",
+      "version": 1,
+      "sourceHash": "sha256:50d2b98ee41eeaaf534ab14f9efe2abec3c8e2f947ec6cd426bdde122f6f2dbc",
+      "reviewRequired": false,
+      "githubPath": "www/solutions_enterprise_security.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts solutions/enterprise/security"
+    },
+    {
+      "pageId": "www.solutions_enterprise_dpa",
+      "surface": "www",
+      "route": "/solutions/enterprise/dpa",
+      "version": 1,
+      "sourceHash": "sha256:9e9f8a1ba0f137aac3f6a1fd91942f24c42283cc1f08c7ce2064aefc02f60663",
+      "reviewRequired": false,
+      "githubPath": "www/solutions_enterprise_dpa.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts solutions/enterprise/dpa"
+    },
+    {
+      "pageId": "www.solutions_enterprise_system-status",
+      "surface": "www",
+      "route": "/solutions/enterprise/system-status",
+      "version": 1,
+      "sourceHash": "sha256:0b33159ce7c91163be564bbeed4ce892947c429967e905838b65a76a21e6497e",
+      "reviewRequired": false,
+      "githubPath": "www/solutions_enterprise_system-status.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts solutions/enterprise/system-status"
+    },
+    {
+      "pageId": "www.solutions_enterprise_case-studies",
+      "surface": "www",
+      "route": "/solutions/enterprise/case-studies",
+      "version": 1,
+      "sourceHash": "sha256:3f32636b9621c99a68dca70a15baa67efcf3db7b4b80df114eeb5b17ca88c993",
+      "reviewRequired": false,
+      "githubPath": "www/solutions_enterprise_case-studies.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts solutions/enterprise/case-studies"
+    },
+    {
+      "pageId": "www.product_erp",
+      "surface": "www",
+      "route": "/product/erp",
+      "version": 1,
+      "sourceHash": "sha256:67b7e1480fd21a865f4c170234913642bc2efb8036dadf7e35947048dda20590",
+      "reviewRequired": false,
+      "githubPath": "www/product_erp.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts product/erp"
+    },
+    {
+      "pageId": "www.product_accounting",
+      "surface": "www",
+      "route": "/product/accounting",
+      "version": 1,
+      "sourceHash": "sha256:fba4a31bac449d29d56ebd13b09bcd2f805fe110c23824903ebd5df9282bd243",
+      "reviewRequired": false,
+      "githubPath": "www/product_accounting.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts product/accounting"
+    },
+    {
+      "pageId": "www.product_bi",
+      "surface": "www",
+      "route": "/product/bi",
+      "version": 1,
+      "sourceHash": "sha256:27e0acd6a15ec8889a3fe985eb5fa4d68264d23b2393206786233f7a0c7fd785",
+      "reviewRequired": false,
+      "githubPath": "www/product_bi.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts product/bi"
+    },
+    {
+      "pageId": "www.product_crm",
+      "surface": "www",
+      "route": "/product/crm",
+      "version": 1,
+      "sourceHash": "sha256:a272a35d2bd486da8cd768da6676de2f25c7f207a523ba663ec5f46222c86b45",
+      "reviewRequired": false,
+      "githubPath": "www/product_crm.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts product/crm"
+    },
+    {
+      "pageId": "www.product_ocr",
+      "surface": "www",
+      "route": "/product/ocr",
+      "version": 1,
+      "sourceHash": "sha256:35910878ad79bc3e3fa7dc5254b91586784ef065c6ac3ad1e69b7782b7479c6a",
+      "reviewRequired": false,
+      "githubPath": "www/product_ocr.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts product/ocr"
+    },
+    {
+      "pageId": "www.privacy",
+      "surface": "www",
+      "route": "/privacy",
+      "version": 1,
+      "sourceHash": "sha256:eeafcb17880ccbaf371f25f5fcba2fd519a887eb51f5ebdf8cb6f9402c8d4deb",
+      "reviewRequired": false,
+      "githubPath": "www/privacy.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts privacy"
+    },
+    {
+      "pageId": "www.terms",
+      "surface": "www",
+      "route": "/terms",
+      "version": 1,
+      "sourceHash": "sha256:d76c194b6d1d60d3f3f503ecdfd4db6678278d2800bf3bfbb806bb8d01b5141a",
+      "reviewRequired": false,
+      "githubPath": "www/terms.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts terms"
+    },
+    {
+      "pageId": "www.cookie-policy",
+      "surface": "www",
+      "route": "/cookie-policy",
+      "version": 1,
+      "sourceHash": "sha256:b24b33889287163e5e40e58806bee832de9009a55cfe4321980b005275dce298",
+      "reviewRequired": false,
+      "githubPath": "www/cookie-policy.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts cookie-policy"
+    },
+    {
+      "pageId": "www.sla",
+      "surface": "www",
+      "route": "/sla",
+      "version": 1,
+      "sourceHash": "sha256:2d6cc8679f524705a16515f526400d4730adb59a3a2349aff45ee1929b865a0d",
+      "reviewRequired": false,
+      "githubPath": "www/sla.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts sla"
+    },
+    {
+      "pageId": "www.responsible-ai",
+      "surface": "www",
+      "route": "/responsible-ai",
+      "version": 1,
+      "sourceHash": "sha256:804e0493f97b567a9b055d326338c420cc6b9d201efc393a9f611ca7676c583b",
+      "reviewRequired": false,
+      "githubPath": "www/responsible-ai.page.json",
+      "sourcePath": "src/marketing-pages/registry.ts responsible-ai"
+    },
+    {
+      "pageId": "account.auth.signup",
+      "surface": "account",
+      "route": "/signup",
+      "version": 1,
+      "sourceHash": "sha256:b157861ca3ef1a6277cabe3ce03f14b8448cadc23cd00733a8103a651dbfc23c",
+      "reviewRequired": false,
+      "githubPath": "account/auth.signup.page.json",
+      "sourcePath": "apps/admin-web /signup"
+    },
+    {
+      "pageId": "account.auth.signin",
+      "surface": "account",
+      "route": "/sign-in",
+      "version": 1,
+      "sourceHash": "sha256:5c0e153e8e9f912431db0c4ad1aa88966c7d8c5b46a0b667b8bef912f425c521",
+      "reviewRequired": false,
+      "githubPath": "account/auth.signin.page.json",
+      "sourcePath": "apps/admin-web /sign-in"
+    },
+    {
+      "pageId": "account.onboarding.company",
+      "surface": "account",
+      "route": "/onboarding",
+      "version": 1,
+      "sourceHash": "sha256:09105b9a9ea26ffc02ad4ef9cb4bb03ae6ccf6b578413b8d802a9d0f0197e444",
+      "reviewRequired": false,
+      "githubPath": "account/onboarding.company.page.json",
+      "sourcePath": "apps/admin-web /onboarding"
+    },
+    {
+      "pageId": "account.billing.upgrade",
+      "surface": "account",
+      "route": "/billing/upgrade",
+      "version": 1,
+      "sourceHash": "sha256:7428f7bac7c24316234874d4f490cd00ef9f55561ac56104b1810dd3ba424d78",
+      "reviewRequired": false,
+      "githubPath": "account/billing.upgrade.page.json",
+      "sourcePath": "apps/admin-web /billing/upgrade"
+    }
+  ]
+}

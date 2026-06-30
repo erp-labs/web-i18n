@@ -1,0 +1,17 @@
+{
+  "pageId": "www.product_erp",
+  "surface": "www",
+  "route": "/product/erp",
+  "version": 1,
+  "sourceHash": "sha256:67b7e1480fd21a865f4c170234913642bc2efb8036dadf7e35947048dda20590",
+  "keys": {
+    "path": "/product/erp",
+    "meta_title": "Unified ERP Platform",
+    "meta_description": "Unified ERP for HR, finance, and operations."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts product/erp",
+    "githubPath": "www/product_erp.page.json"
+  }
+}

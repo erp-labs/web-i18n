@@ -1,0 +1,35 @@
+{
+  "pageId": "app.calendar",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/calendar",
+  "version": 2,
+  "sourceHash": "sha256:5f5eff059e509b3ca6733f5423d7dd223962783e7bc7525eea37cc2328d19490",
+  "keys": {
+    "monthJanuary": "Tháng 1",
+    "monthFebruary": "Tháng 2",
+    "monthMarch": "Tháng 3",
+    "monthApril": "Tháng 4",
+    "monthMay": "Tháng 5",
+    "monthJune": "Tháng 6",
+    "monthJuly": "Tháng 7",
+    "monthAugust": "Tháng 8",
+    "monthSeptember": "Tháng 9",
+    "monthOctober": "Tháng 10",
+    "monthNovember": "Tháng 11",
+    "monthDecember": "Tháng 12",
+    "dayStatusWork": "Làm việc",
+    "dayStatusDone": "Xong",
+    "dayStatusMissed": "Chưa xong",
+    "dayStatusAbsent": "Vắng mặt",
+    "dayStatusTardy": "Đi trễ",
+    "dayStatusOff": "Ngày nghỉ",
+    "dayStatusAway": "Nghỉ phép",
+    "dayStatusPublicHoliday": "Ngày nghỉ"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#calendar",
+    "githubPath": "app/calendar.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/vi.json#calendar"
+  }
+}

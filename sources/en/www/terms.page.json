@@ -1,0 +1,17 @@
+{
+  "pageId": "www.terms",
+  "surface": "www",
+  "route": "/terms",
+  "version": 1,
+  "sourceHash": "sha256:d76c194b6d1d60d3f3f503ecdfd4db6678278d2800bf3bfbb806bb8d01b5141a",
+  "keys": {
+    "path": "/terms",
+    "meta_title": "Terms of Service",
+    "meta_description": "Terms of service."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts terms",
+    "githubPath": "www/terms.page.json"
+  }
+}

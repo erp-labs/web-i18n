@@ -1,0 +1,29 @@
+{
+  "pageId": "app.notices",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/notices",
+  "version": 2,
+  "sourceHash": "sha256:9e9feb1f3f533b4e6b3cdf47e0046491512fc861c4b8118737aafe3db4478835",
+  "keys": {
+    "title": "Thông báo",
+    "markAllRead": "Đánh dấu tất cả đã đọc",
+    "read": "Đã đọc",
+    "unread": "Chưa đọc",
+    "viewDetails": "View details",
+    "markReadFailed": "Could not mark notice as read. Try again.",
+    "markAllReadFailed": "Could not mark all notices as read. Try again.",
+    "noNotices": "Không có thông báo",
+    "allCaughtUp": "Đã xem hết!",
+    "timeAgoJustNow": "Vừa xong",
+    "timeAgoMinutes": "{{n}} phút trước",
+    "timeAgoHours": "{{n}} giờ trước",
+    "timeAgoDays": "{{n}} ngày trước",
+    "timeAgoWeeks": "{{n}} tuần trước"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#notices",
+    "githubPath": "app/notices.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/vi.json#notices"
+  }
+}

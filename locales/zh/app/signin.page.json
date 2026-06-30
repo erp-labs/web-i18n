@@ -1,0 +1,41 @@
+{
+  "pageId": "app.signin",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/signin",
+  "version": 2,
+  "sourceHash": "sha256:d11db4e2568fff0acd1a3e537126e705c035b887877f2da41867c16f01d45730",
+  "keys": {
+    "title": "登录",
+    "languageLabel": "语言",
+    "languageOptions": {
+      "en": "English",
+      "ko": "한국어",
+      "ja": "日本語",
+      "ar": "العربية",
+      "vi": "Tiếng Việt",
+      "zh": "简体中文"
+    },
+    "emailLabel": "邮箱",
+    "emailPlaceholder": "johndoe@gmail.com",
+    "passwordLabel": "密码",
+    "passwordPlaceholder": "请输入安全密码",
+    "forgotPassword": "忘记密码？",
+    "submitButton": "登录",
+    "signingIn": "登录中...",
+    "noAccount": "还没有账号？",
+    "signUp": "注册",
+    "errorSignInFailed": "登录失败",
+    "errorAccountNotFound": "This email is not registered for Work App sign-in yet. Ask your administrator to resend your invitation or sync Work App access.",
+    "errorAccountSuspended": "This account has been suspended. Contact your administrator.",
+    "staleSessionHint": "A previous sign-in session for another workspace is still stored in this browser.",
+    "clearStaleSession": "Clear stored session",
+    "clearingStaleSession": "Clearing…",
+    "errorGeneric": "发生错误，请重试。"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#signin",
+    "githubPath": "app/signin.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/zh.json#signin"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "pageId": "app.locationPermission",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/locationPermission",
+  "version": 2,
+  "sourceHash": "sha256:d925f25b9680bbb3902ef950b535e206b9d76a665fdbca0f80ce2c5004fa3ece",
+  "keys": {
+    "title": "Bật vị trí của bạn",
+    "description": "Ứng dụng yêu cầu bật dịch vụ vị trí trên thiết bị và cho ứng dụng. Bạn cần bật trong Cài đặt trước khi sử dụng ứng dụng.",
+    "allowButton": "Chỉ cho phép khi dùng ứng dụng",
+    "denyButton": "Không cho phép ứng dụng này"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#locationPermission",
+    "githubPath": "app/locationPermission.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/vi.json#locationPermission"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "pageId": "www.solutions_smb",
+  "surface": "www",
+  "route": "/solutions/smb",
+  "version": 1,
+  "sourceHash": "sha256:0755df5751a2c7059123c5d3a50ecde3a67371a4d9851c0eeac9e8e579a55c6a",
+  "keys": {
+    "path": "/solutions/smb",
+    "meta_title": "SMB | Vouus",
+    "meta_description": "Fast onboarding with essentials for people, spend, and billing—no enterprise shelfware."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts solutions/smb",
+    "githubPath": "www/solutions_smb.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

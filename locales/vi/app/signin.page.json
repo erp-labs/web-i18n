@@ -1,0 +1,41 @@
+{
+  "pageId": "app.signin",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/signin",
+  "version": 2,
+  "sourceHash": "sha256:d11db4e2568fff0acd1a3e537126e705c035b887877f2da41867c16f01d45730",
+  "keys": {
+    "title": "Đăng nhập",
+    "languageLabel": "Ngôn ngữ",
+    "languageOptions": {
+      "en": "English",
+      "ko": "한국어",
+      "ja": "日本語",
+      "ar": "العربية",
+      "vi": "Tiếng Việt",
+      "zh": "中文"
+    },
+    "emailLabel": "Email",
+    "emailPlaceholder": "johndoe@gmail.com",
+    "passwordLabel": "Mật khẩu",
+    "passwordPlaceholder": "Nhập mật khẩu bảo mật",
+    "forgotPassword": "Quên mật khẩu?",
+    "submitButton": "Đăng nhập",
+    "signingIn": "Đang đăng nhập...",
+    "noAccount": "Chưa có tài khoản?",
+    "signUp": "Đăng ký",
+    "errorSignInFailed": "Đăng nhập thất bại",
+    "errorAccountNotFound": "This email is not registered for Work App sign-in yet. Ask your administrator to resend your invitation or sync Work App access.",
+    "errorAccountSuspended": "This account has been suspended. Contact your administrator.",
+    "staleSessionHint": "A previous sign-in session for another workspace is still stored in this browser.",
+    "clearStaleSession": "Clear stored session",
+    "clearingStaleSession": "Clearing…",
+    "errorGeneric": "Đã xảy ra lỗi. Vui lòng thử lại."
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#signin",
+    "githubPath": "app/signin.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/vi.json#signin"
+  }
+}

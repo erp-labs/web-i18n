@@ -1,0 +1,19 @@
+{
+  "pageId": "www.solutions_enterprise",
+  "surface": "www",
+  "route": "/solutions/enterprise",
+  "version": 1,
+  "sourceHash": "sha256:ff70d25a26199f895463a707812c1f19ff691732201230ed33a10a196dd7b441",
+  "keys": {
+    "path": "/solutions/enterprise",
+    "meta_title": "Enterprise | Vouus",
+    "meta_description": "Multi-org governance, SLA-backed workflows, and audit-ready automation at scale."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts solutions/enterprise",
+    "githubPath": "www/solutions_enterprise.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

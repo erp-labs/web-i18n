@@ -1,0 +1,19 @@
+{
+  "pageId": "www.pricing",
+  "surface": "www",
+  "route": "/pricing",
+  "version": 1,
+  "sourceHash": "sha256:4cd80c117cb6468f1608b58bdcbce7f20f8bb10b80eb47d7ce34bb2df1036597",
+  "keys": {
+    "path": "/pricing",
+    "meta_title": "Pricing | Vouus",
+    "meta_description": "Transparent plans for teams scaling HR and finance workflows. Compare Foundation tiers and start a free trial."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts pricing",
+    "githubPath": "www/pricing.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

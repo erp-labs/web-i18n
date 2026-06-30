@@ -1,0 +1,19 @@
+{
+  "pageId": "www.product_ocr",
+  "surface": "www",
+  "route": "/product/ocr",
+  "version": 1,
+  "sourceHash": "sha256:35910878ad79bc3e3fa7dc5254b91586784ef065c6ac3ad1e69b7782b7479c6a",
+  "keys": {
+    "path": "/product/ocr",
+    "meta_title": "OCR / Receipt & Invoice Scan",
+    "meta_description": "Mobile capture and receipt extraction."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts product/ocr",
+    "githubPath": "www/product_ocr.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

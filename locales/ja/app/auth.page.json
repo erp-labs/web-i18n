@@ -1,0 +1,39 @@
+{
+  "pageId": "app.auth",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/auth",
+  "version": 2,
+  "sourceHash": "sha256:f140abf9a18009377b1a7ecbdd117f697e460d7d926a1476123de2dcc57f48ca",
+  "keys": {
+    "verifyEmailTitle": "メールに送信された6桁の認証コードを入力してください",
+    "sendCode": "認証コードを送信",
+    "sendCodePrompt": "メールに認証コードを送信します",
+    "sending": "送信中...",
+    "lockedMinutes": "試行回数を超えました。5分後に再試行してください。",
+    "remainingAttempts": "残り試行回数",
+    "invalidPasscode": "パスコードが正しくありません",
+    "resendCode": "認証コードを再送",
+    "resendCodeCooldown": "{seconds}秒後に再送できます",
+    "resendCodeSuccess": "新しい認証コードを送信しました。",
+    "resendCodeFailed": "認証コードを再送できませんでした。もう一度お試しください。",
+    "verifyEmailSentTo": "{email} に認証コードを送信しました",
+    "verifyEmailSpamHint": "迷惑メールフォルダもご確認ください。企業メールのフィルターにより数分遅れる場合があります。",
+    "useDifferentEmail": "別のメールアドレスを使用",
+    "otpEmailNotConfigured": "認証メールを送信できません。管理者にお問い合わせください。",
+    "otpEmailSendFailed": "認証メールを送信できませんでした。迷惑メールを確認するか、しばらくしてから再試行してください。",
+    "otpUserNotFound": "このメールアドレスの従業員アカウントが見つかりません。",
+    "tryDemo": "デモを試す",
+    "emailLabel": "メール",
+    "emailRequired": "メールアドレスを入力してください",
+    "passwordLabel": "パスワード",
+    "signInWithPassword": "メールアドレスとパスワードでサインイン",
+    "signInWithPasswordInstead": "パスワードでサインイン",
+    "useVerificationCode": "認証コードを使用する"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#auth",
+    "githubPath": "app/auth.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ja.json#auth"
+  }
+}

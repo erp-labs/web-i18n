@@ -1,0 +1,31 @@
+{
+  "pageId": "app.signup",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/signup",
+  "version": 2,
+  "sourceHash": "sha256:ddb5417f701bc66105f54e1db3bac33ffdab5057c480dd09cf5f531e7b0ea8d2",
+  "keys": {
+    "brandName": "Pregoi",
+    "title": "注册",
+    "firstNameLabel": "名字",
+    "firstNamePlaceholder": "请输入您的名字",
+    "emailLabel": "邮箱",
+    "emailPlaceholder": "johndoe@gmail.com",
+    "passwordLabel": "密码",
+    "passwordPlaceholder": "请输入安全密码",
+    "confirmPasswordLabel": "确认密码",
+    "confirmPasswordPlaceholder": "请再次输入密码",
+    "submitButton": "创建账号",
+    "alreadyHaveAccount": "已有账号？",
+    "logIn": "登录",
+    "errorPasswordsDoNotMatch": "两次密码不一致",
+    "errorGeneric": "Something went wrong. Please try again.",
+    "signingUp": "Creating account…"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#signup",
+    "githubPath": "app/signup.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/zh.json#signup"
+  }
+}

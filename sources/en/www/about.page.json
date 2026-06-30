@@ -1,0 +1,17 @@
+{
+  "pageId": "www.about",
+  "surface": "www",
+  "route": "/about",
+  "version": 1,
+  "sourceHash": "sha256:50191fd450a02b77f7850b4c0793a6ac432607804b94a4792c0c176c96a41278",
+  "keys": {
+    "path": "/about",
+    "meta_title": "About",
+    "meta_description": "Our mission, values, and story."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts about",
+    "githubPath": "www/about.page.json"
+  }
+}

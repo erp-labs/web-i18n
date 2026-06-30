@@ -1,0 +1,19 @@
+{
+  "pageId": "app.locationPermission",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/locationPermission",
+  "version": 2,
+  "sourceHash": "sha256:d925f25b9680bbb3902ef950b535e206b9d76a665fdbca0f80ce2c5004fa3ece",
+  "keys": {
+    "title": "位置情報の有効化が必要です",
+    "description": "本アプリの利用には、端末およびアプリの位置情報設定を有効にしてください。",
+    "allowButton": "使用中のみ許可",
+    "denyButton": "許可しない"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#locationPermission",
+    "githubPath": "app/locationPermission.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ja.json#locationPermission"
+  }
+}

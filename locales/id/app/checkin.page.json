@@ -1,0 +1,40 @@
+{
+  "pageId": "app.checkin",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/checkin",
+  "version": 1,
+  "sourceHash": "sha256:b8bb3c18bd42b70bca261f65f4bb9c6682e6e728c7631b3d7e36056a40106391",
+  "keys": {
+    "office": "Office",
+    "home": "Home",
+    "checkIn": "Check In",
+    "checkOut": "Check Out",
+    "totalHrs": "Total Hrs",
+    "attendance": "Attendance",
+    "goodMorning": "Good Morning!",
+    "goodAfternoon": "Have a good day!",
+    "loading": "Loading...",
+    "gpsEnabled": "GPS tracking enabled",
+    "ipVerification": "IP-based verification",
+    "reminderCheckOut": "Great work today! Don't forget to check out.",
+    "reminderCheckIn": "Check in and kick off your awesome day!",
+    "loadingMore": "Loading more",
+    "noMoreRecords": "No more records to load",
+    "timePlaceholder": "--:--",
+    "todayCheckin": "Today's check-in",
+    "hoursUnit": "h",
+    "minutesUnit": "m",
+    "hoursDecimalUnit": " hours",
+    "approxHoursPrefix": "approx. ",
+    "noAttendanceYet": "No attendance records yet",
+    "startByCheckingIn": "Check in to start tracking your work hours here",
+    "startCheckInCta": "Start check-in"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#checkin",
+    "githubPath": "app/checkin.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

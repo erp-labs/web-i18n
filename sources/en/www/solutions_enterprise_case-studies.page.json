@@ -1,0 +1,17 @@
+{
+  "pageId": "www.solutions_enterprise_case-studies",
+  "surface": "www",
+  "route": "/solutions/enterprise/case-studies",
+  "version": 1,
+  "sourceHash": "sha256:3f32636b9621c99a68dca70a15baa67efcf3db7b4b80df114eeb5b17ca88c993",
+  "keys": {
+    "path": "/solutions/enterprise/case-studies",
+    "meta_title": "Case Studies | Vouus",
+    "meta_description": "Enterprise rollout patterns and customer outcomes."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts solutions/enterprise/case-studies",
+    "githubPath": "www/solutions_enterprise_case-studies.page.json"
+  }
+}

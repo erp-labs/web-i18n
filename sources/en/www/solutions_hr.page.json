@@ -1,0 +1,17 @@
+{
+  "pageId": "www.solutions_hr",
+  "surface": "www",
+  "route": "/solutions/hr",
+  "version": 1,
+  "sourceHash": "sha256:3ba2cd9e78f61dbd4ad08e8d7f7523c5e42e9ae28590516f0d16bb7e23adb1b0",
+  "keys": {
+    "path": "/solutions/hr",
+    "meta_title": "HR Teams | Vouus",
+    "meta_description": "Payroll-ready attendance, leave policies, and employee self-service on one path."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts solutions/hr",
+    "githubPath": "www/solutions_hr.page.json"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "pageId": "docs.legal.supplemental_practices",
+  "surface": "docs",
+  "route": "/legal/supplemental-practices",
+  "version": 1,
+  "sourceHash": "sha256:2a4a45d605f417fee0c629af650278363e1eb015d17ef2b5356f53948303ad03",
+  "reviewRequired": true,
+  "keys": {
+    "title": "Supplemental product practices",
+    "body": "# Supplemental product practices\n\n**Version:** 1.0\n\n**Effective Date:** [INSERT DATE]\n\n**Last Updated:** [INSERT DATE]\n\n---\n\n## 1. Purpose\n\nThis document supplements the [Terms of Service](/legal/terms-of-service/) and [Privacy Policy](/legal/privacy-policy/). It summarizes how **optional automation and assisted features** may rely on **subprocessors**, and the **oversight** expectations that apply when those features are enabled for your organization.\n\n## 2. Subprocessors and configuration\n\n- Assisted features may call **third-party services** under agreements that include confidentiality and data-protection terms appropriate for business SaaS.\n- **Configuration and enablement** are controlled by your plan, contract, and administrator settings.\n\n## 3. Human review\n\nUsers should **review** outputs from assisted features before relying on them for material decisions, consistent with the [Terms of Service](/legal/terms-of-service/) (Section 8).\n\n## 4. Related documents\n\n- [Privacy Policy](/legal/privacy-policy/)\n- [Data Processing Agreement](/legal/data-processing-agreement/)\n- [Terms of Service](/legal/terms-of-service/)"
+  },
+  "meta": {
+    "productRepo": "web-public",
+    "sourcePath": "apps/docs/src/content/docs/legal/supplemental-practices.md",
+    "githubPath": "docs/legal/supplemental-practices.page.json"
+  }
+}

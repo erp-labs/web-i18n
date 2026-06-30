@@ -1,0 +1,19 @@
+{
+  "pageId": "app.locationPermission",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/locationPermission",
+  "version": 2,
+  "sourceHash": "sha256:d925f25b9680bbb3902ef950b535e206b9d76a665fdbca0f80ce2c5004fa3ece",
+  "keys": {
+    "title": "تفعيل الموقع",
+    "description": "يتطلب هذا التطبيق تشغيل خدمات الموقع على جهازك وللتطبيق. يجب تفعيلها من الإعدادات قبل استخدام التطبيق.",
+    "allowButton": "السماح أثناء استخدام التطبيق فقط",
+    "denyButton": "عدم السماح لهذا التطبيق"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#locationPermission",
+    "githubPath": "app/locationPermission.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ar.json#locationPermission"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "pageId": "app.notices",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/notices",
+  "version": 1,
+  "sourceHash": "sha256:9e9feb1f3f533b4e6b3cdf47e0046491512fc861c4b8118737aafe3db4478835",
+  "keys": {
+    "title": "Notices",
+    "markAllRead": "Mark all read",
+    "read": "Read",
+    "unread": "Unread",
+    "viewDetails": "View details",
+    "markReadFailed": "Could not mark notice as read. Try again.",
+    "markAllReadFailed": "Could not mark all notices as read. Try again.",
+    "noNotices": "No notices",
+    "allCaughtUp": "You're all caught up!",
+    "timeAgoJustNow": "Just now",
+    "timeAgoMinutes": "{{n}} min ago",
+    "timeAgoHours": "{{n}} hours ago",
+    "timeAgoDays": "{{n}} days ago",
+    "timeAgoWeeks": "{{n}} weeks ago"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#notices",
+    "githubPath": "app/notices.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

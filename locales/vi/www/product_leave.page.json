@@ -1,0 +1,19 @@
+{
+  "pageId": "www.product_leave",
+  "surface": "www",
+  "route": "/product/leave",
+  "version": 1,
+  "sourceHash": "sha256:70ef7c9bb3ca5e167fa04a290d03129497c0b5fa8c91d89db79b35ce4ec95664",
+  "keys": {
+    "path": "/product/leave",
+    "meta_title": "Leave Management",
+    "meta_description": "Requests, calendars, approvals, and policy-aware automation."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts product/leave",
+    "githubPath": "www/product_leave.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

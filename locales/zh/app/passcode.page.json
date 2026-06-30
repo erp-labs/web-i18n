@@ -1,0 +1,43 @@
+{
+  "pageId": "app.passcode",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/passcode",
+  "version": 2,
+  "sourceHash": "sha256:f3eb59f28ddec7ec0d8b414d2cf7d9d47113be9676d4ff8fb5ff44a0cbef4ee1",
+  "keys": {
+    "title": "密码",
+    "enterPin": "请输入您的6位密码",
+    "enterCurrentPin": "Enter current passcode",
+    "changeNewPrompt": "Enter new passcode",
+    "changeConfirmPrompt": "Enter new passcode again to confirm",
+    "rememberDevice": "记住此设备（仅在个人电脑上勾选）",
+    "rememberDeviceShort": "记住此设备",
+    "reset": "重置",
+    "setTitle": "设置密码",
+    "setPrompt": "输入6位密码",
+    "setConfirmPrompt": "再次输入以确认",
+    "submit": "确认",
+    "mismatch": "密码不一致",
+    "invalidLength": "请输入6位数字",
+    "forgotPasscode": "忘记密码？",
+    "resetNewPrompt": "请输入新的6位密码",
+    "requestReset": "请求重置链接",
+    "resetFailed": "链接无效或已过期，请重新请求。",
+    "resetInvalidLink": "链接无效或已过期，请重新请求密码重置。",
+    "requestResetFailed": "请求失败，请重试。",
+    "forgotPrompt": "输入您的邮箱以接收密码重置链接。",
+    "resetEmailSent": "如该邮箱已注册，我们已发送重置链接，请查收。",
+    "sendResetLink": "发送重置链接",
+    "backToSignIn": "返回登录",
+    "sessionExpired": "会话已过期，请从登录页重新登录。",
+    "resetExpiryNotice": "此链接15分钟后失效。若已失效，请在登录页重新请求重置链接。",
+    "resetLinkExpiryAndRateLimit": "重置链接15分钟后失效。若未收到邮件，请查看垃圾箱或稍后重试。",
+    "rateLimitNotice": "请求过于频繁，请几分钟后重试。"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#passcode",
+    "githubPath": "app/passcode.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/zh.json#passcode"
+  }
+}

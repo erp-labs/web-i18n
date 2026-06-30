@@ -1,0 +1,19 @@
+{
+  "pageId": "www.pricing_v1",
+  "surface": "www",
+  "route": "/pricing/v1",
+  "version": 1,
+  "sourceHash": "sha256:bb388fb39c3d74b7536698a427428751818f71ff0a34172cb17168fbbcde0207",
+  "keys": {
+    "path": "/pricing/v1",
+    "meta_title": "Pricing (preview)",
+    "meta_description": "Internal pricing preview."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts pricing/v1",
+    "githubPath": "www/pricing_v1.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

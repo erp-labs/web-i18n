@@ -1,0 +1,43 @@
+{
+  "pageId": "app.passcode",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/passcode",
+  "version": 2,
+  "sourceHash": "sha256:f3eb59f28ddec7ec0d8b414d2cf7d9d47113be9676d4ff8fb5ff44a0cbef4ee1",
+  "keys": {
+    "title": "패스코드",
+    "enterPin": "6자리 패스코드를 입력하세요",
+    "enterCurrentPin": "현재 패스코드 입력",
+    "changeNewPrompt": "변경할 패스코드 입력",
+    "changeConfirmPrompt": "변경할 패스코드 확인 입력",
+    "rememberDevice": "이 기기 기억하기(개인 PC인 경우에만 체크)",
+    "rememberDeviceShort": "이 기기 기억하기",
+    "reset": "초기화",
+    "setTitle": "패스코드 설정",
+    "setPrompt": "6자리 패스코드를 입력하세요",
+    "setConfirmPrompt": "확인을 위해 다시 입력하세요",
+    "submit": "확인",
+    "mismatch": "패스코드가 일치하지 않습니다",
+    "invalidLength": "6자리를 입력하세요",
+    "forgotPasscode": "패스코드를 잊으셨나요?",
+    "resetNewPrompt": "새 6자리 패스코드를 입력하세요",
+    "requestReset": "재설정 링크 요청",
+    "resetFailed": "링크가 만료되었거나 올바르지 않습니다. 새 링크를 요청해 주세요.",
+    "resetInvalidLink": "링크가 만료되었거나 올바르지 않습니다. 패스코드 재설정을 다시 요청해 주세요.",
+    "requestResetFailed": "요청에 실패했습니다. 다시 시도해 주세요.",
+    "forgotPrompt": "패스코드 재설정 링크를 받을 이메일을 입력하세요.",
+    "resetEmailSent": "해당 이메일로 등록된 계정이 있으면 재설정 링크를 보냈습니다. 받은편지함을 확인해 주세요.",
+    "sendResetLink": "재설정 링크 전송",
+    "backToSignIn": "로그인으로 돌아가기",
+    "sessionExpired": "세션이 만료되었습니다. 처음부터 다시 로그인해 주세요.",
+    "resetExpiryNotice": "이 링크는 15분 후 만료됩니다. 만료되었다면 로그인 화면에서 새 재설정 링크를 요청해 주세요.",
+    "resetLinkExpiryAndRateLimit": "재설정 링크는 15분 후 만료됩니다. 이메일이 오지 않으면 스팸함을 확인하거나 잠시 후 다시 시도해 주세요.",
+    "rateLimitNotice": "요청이 너무 많습니다. 몇 분 후 다시 시도해 주세요."
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#passcode",
+    "githubPath": "app/passcode.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ko.json#passcode"
+  }
+}

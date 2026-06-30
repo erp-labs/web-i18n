@@ -1,0 +1,91 @@
+{
+  "pageId": "app.moduleGuide",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/moduleGuide",
+  "version": 1,
+  "sourceHash": "sha256:6a17eb3392f9231509390565517d774d2c9f981b45c9c523e1659755c053bd6e",
+  "keys": {
+    "common": {
+      "showGuide": "How it works",
+      "dontShowAgain": "Don't show again",
+      "gotIt": "Got it",
+      "next": "Next",
+      "back": "Back",
+      "stepOf": "Step {current} of {total}"
+    },
+    "attendance": {
+      "whatTitle": "Track your work hours",
+      "whatBody": "Check in when you start work and check out when you finish. Your attendance history appears here automatically.",
+      "howTitle": "How check-in works",
+      "howStep1": "Tap Check In when you arrive at work (office or home).",
+      "howStep2": "Tap Check Out when your shift ends.",
+      "howStep3": "Review daily hours and totals in this list.",
+      "startTitle": "Ready to check in?",
+      "startBody": "Use the check-in button at the top of the home screen.",
+      "startCta": "Start check-in"
+    },
+    "expenses": {
+      "whatTitle": "Submit expense claims",
+      "whatBody": "Capture receipts and submit expenses for reimbursement. Approved claims are tracked here.",
+      "howTitle": "How to add an expense",
+      "howStep1": "Tap + and photograph or upload your receipt.",
+      "howStep2": "Choose a category and enter the amount.",
+      "howStep3": "Submit for approval — status updates appear in this list.",
+      "startTitle": "Add your first expense",
+      "startBody": "Keep a photo of your receipt handy.",
+      "startCta": "Add expense"
+    },
+    "checklist": {
+      "whatTitle": "Manage your tasks",
+      "whatBody": "Keep work, home, and personal tasks in one checklist with due dates and progress.",
+      "howTitle": "How to use the checklist",
+      "howStep1": "Tap + to create a task with a name and due date.",
+      "howStep2": "Mark tasks done as you complete them.",
+      "howStep3": "Track overall progress on the overview bar.",
+      "startTitle": "Create your first task",
+      "startBody": "Start with one small task due today.",
+      "startCta": "Add task"
+    },
+    "invoices": {
+      "whatTitle": "Create and send invoices",
+      "whatBody": "Build professional invoices, preview them, and track payment status.",
+      "howTitle": "How to create an invoice",
+      "howStep1": "Tap + and enter client details and line items.",
+      "howStep2": "Preview the invoice before sending.",
+      "howStep3": "Send to your client and monitor open vs paid here.",
+      "startTitle": "Create your first invoice",
+      "startBody": "You can save a draft and finish later.",
+      "startCta": "Create invoice"
+    },
+    "customers": {
+      "whatTitle": "Your customer list",
+      "whatBody": "Browse ERP customers synced from your company workspace.",
+      "howTitle": "Need pipeline or deals?",
+      "howStep1": "Use Open in CRM for Frappe CRM on your tenant host.",
+      "howStep2": "Use Work Desk for full ERP customer records and accounting links."
+    },
+    "leaves": {
+      "whatTitle": "Request time off",
+      "whatBody": "Apply for annual, sick, and other leave types. Your balance and history stay in one place.",
+      "howTitle": "How to request leave",
+      "howStep1": "Check your remaining leave balance at the top.",
+      "howStep2": "Select dates on the calendar and choose a leave type.",
+      "howStep3": "Submit your request — approved leave appears in history.",
+      "startTitle": "Submit a leave request",
+      "startBody": "Tap Leave application or the + button to pick dates and leave type.",
+      "startCta": "Leave application"
+    },
+    "notices": {
+      "whatTitle": "Your work notifications",
+      "whatBody": "Updates about leave, expenses, invoices, and tasks from your company ERP appear here.",
+      "howTitle": "How notices work",
+      "howStep1": "Tap the bell icon on a notice to mark it as read.",
+      "howStep2": "Use View details to open the related module when a link is available."
+    }
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#moduleGuide",
+    "githubPath": "app/moduleGuide.page.json"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "pageId": "app.notices",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/notices",
+  "version": 2,
+  "sourceHash": "sha256:9e9feb1f3f533b4e6b3cdf47e0046491512fc861c4b8118737aafe3db4478835",
+  "keys": {
+    "title": "通知",
+    "markAllRead": "全部标为已读",
+    "read": "已读",
+    "unread": "未读",
+    "viewDetails": "View details",
+    "markReadFailed": "Could not mark notice as read. Try again.",
+    "markAllReadFailed": "Could not mark all notices as read. Try again.",
+    "noNotices": "暂无通知",
+    "allCaughtUp": "已全部读完！",
+    "timeAgoJustNow": "刚刚",
+    "timeAgoMinutes": "{{n}}分钟前",
+    "timeAgoHours": "{{n}}小时前",
+    "timeAgoDays": "{{n}}天前",
+    "timeAgoWeeks": "{{n}}周前"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#notices",
+    "githubPath": "app/notices.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/zh.json#notices"
+  }
+}

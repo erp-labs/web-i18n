@@ -1,0 +1,39 @@
+{
+  "pageId": "app.checkin",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/checkin",
+  "version": 2,
+  "sourceHash": "sha256:b8bb3c18bd42b70bca261f65f4bb9c6682e6e728c7631b3d7e36056a40106391",
+  "keys": {
+    "office": "出社",
+    "home": "在宅勤務",
+    "checkIn": "出勤",
+    "checkOut": "退勤",
+    "totalHrs": "総労働時間",
+    "attendance": "勤怠履歴",
+    "goodMorning": "おはようございます",
+    "goodAfternoon": "お疲れ様です",
+    "loading": "読み込み中...",
+    "gpsEnabled": "GPS情報を使用しています",
+    "ipVerification": "IP認証を使用しています",
+    "reminderCheckOut": "退勤登録をお忘れなくお願いいたします。",
+    "reminderCheckIn": "出勤登録をして、素敵な1日を始めましょう。",
+    "loadingMore": "さらに読み込み",
+    "noMoreRecords": "該当データはありません",
+    "timePlaceholder": "--:--",
+    "todayCheckin": "本日の出勤",
+    "hoursUnit": "時間",
+    "minutesUnit": "分",
+    "hoursDecimalUnit": "時間",
+    "approxHoursPrefix": "約 ",
+    "noAttendanceYet": "勤怠記録はまだありません",
+    "startByCheckingIn": "出勤登録をすると、ここで勤務時間を記録できます",
+    "startCheckInCta": "出勤する"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#checkin",
+    "githubPath": "app/checkin.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ja.json#checkin"
+  }
+}

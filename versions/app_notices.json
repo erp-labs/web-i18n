@@ -1,0 +1,128 @@
+[
+  {
+    "version": 1,
+    "enHash": "sha256:9e9feb1f3f533b4e6b3cdf47e0046491512fc861c4b8118737aafe3db4478835",
+    "locale": "en",
+    "method": "extract",
+    "at": "2026-06-30T07:03:02.671Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:9e9feb1f3f533b4e6b3cdf47e0046491512fc861c4b8118737aafe3db4478835",
+    "locale": "ko",
+    "method": "import-employee-web",
+    "at": "2026-06-30T07:03:02.869Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:9e9feb1f3f533b4e6b3cdf47e0046491512fc861c4b8118737aafe3db4478835",
+    "locale": "ja",
+    "method": "import-employee-web",
+    "at": "2026-06-30T07:03:02.875Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:9e9feb1f3f533b4e6b3cdf47e0046491512fc861c4b8118737aafe3db4478835",
+    "locale": "ar",
+    "method": "import-employee-web",
+    "at": "2026-06-30T07:03:02.887Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:9e9feb1f3f533b4e6b3cdf47e0046491512fc861c4b8118737aafe3db4478835",
+    "locale": "vi",
+    "method": "import-employee-web",
+    "at": "2026-06-30T07:03:02.894Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:9e9feb1f3f533b4e6b3cdf47e0046491512fc861c4b8118737aafe3db4478835",
+    "locale": "zh",
+    "method": "import-employee-web",
+    "at": "2026-06-30T07:03:02.902Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:9e9feb1f3f533b4e6b3cdf47e0046491512fc861c4b8118737aafe3db4478835",
+    "locale": "th",
+    "method": "cursor-ai",
+    "at": "2026-06-30T07:03:03.072Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:9e9feb1f3f533b4e6b3cdf47e0046491512fc861c4b8118737aafe3db4478835",
+    "locale": "id",
+    "method": "cursor-ai",
+    "at": "2026-06-30T07:03:03.072Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:9e9feb1f3f533b4e6b3cdf47e0046491512fc861c4b8118737aafe3db4478835",
+    "locale": "ms",
+    "method": "cursor-ai",
+    "at": "2026-06-30T07:03:03.074Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:9e9feb1f3f533b4e6b3cdf47e0046491512fc861c4b8118737aafe3db4478835",
+    "locale": "si",
+    "method": "cursor-ai",
+    "at": "2026-06-30T07:03:03.075Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:9e9feb1f3f533b4e6b3cdf47e0046491512fc861c4b8118737aafe3db4478835",
+    "locale": "ur",
+    "method": "cursor-ai",
+    "at": "2026-06-30T07:03:03.075Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:9e9feb1f3f533b4e6b3cdf47e0046491512fc861c4b8118737aafe3db4478835",
+    "locale": "hi",
+    "method": "cursor-ai",
+    "at": "2026-06-30T07:03:03.075Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:9e9feb1f3f533b4e6b3cdf47e0046491512fc861c4b8118737aafe3db4478835",
+    "locale": "en",
+    "method": "extract",
+    "at": "2026-06-30T07:07:45.630Z"
+  },
+  {
+    "version": 2,
+    "enHash": "sha256:9e9feb1f3f533b4e6b3cdf47e0046491512fc861c4b8118737aafe3db4478835",
+    "locale": "ko",
+    "method": "import-employee-web",
+    "at": "2026-06-30T07:07:45.798Z"
+  },
+  {
+    "version": 2,
+    "enHash": "sha256:9e9feb1f3f533b4e6b3cdf47e0046491512fc861c4b8118737aafe3db4478835",
+    "locale": "ja",
+    "method": "import-employee-web",
+    "at": "2026-06-30T07:07:45.806Z"
+  },
+  {
+    "version": 2,
+    "enHash": "sha256:9e9feb1f3f533b4e6b3cdf47e0046491512fc861c4b8118737aafe3db4478835",
+    "locale": "ar",
+    "method": "import-employee-web",
+    "at": "2026-06-30T07:07:45.819Z"
+  },
+  {
+    "version": 2,
+    "enHash": "sha256:9e9feb1f3f533b4e6b3cdf47e0046491512fc861c4b8118737aafe3db4478835",
+    "locale": "vi",
+    "method": "import-employee-web",
+    "at": "2026-06-30T07:07:45.826Z"
+  },
+  {
+    "version": 2,
+    "enHash": "sha256:9e9feb1f3f533b4e6b3cdf47e0046491512fc861c4b8118737aafe3db4478835",
+    "locale": "zh",
+    "method": "import-employee-web",
+    "at": "2026-06-30T07:07:45.831Z"
+  }
+]

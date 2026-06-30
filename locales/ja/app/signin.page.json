@@ -1,0 +1,41 @@
+{
+  "pageId": "app.signin",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/signin",
+  "version": 2,
+  "sourceHash": "sha256:d11db4e2568fff0acd1a3e537126e705c035b887877f2da41867c16f01d45730",
+  "keys": {
+    "title": "ログイン",
+    "languageLabel": "表示言語",
+    "languageOptions": {
+      "en": "English",
+      "ko": "한국어",
+      "ja": "日本語",
+      "ar": "العربية",
+      "vi": "ベトナム語",
+      "zh": "中国語"
+    },
+    "emailLabel": "メールアドレス",
+    "emailPlaceholder": "example@company.com",
+    "passwordLabel": "パスワード",
+    "passwordPlaceholder": "パスワードを入力してください",
+    "forgotPassword": "パスワードをお忘れの場合",
+    "submitButton": "ログイン",
+    "signingIn": "認証中...",
+    "noAccount": "アカウントをお持ちでない場合",
+    "signUp": "新規登録",
+    "errorSignInFailed": "ログインに失敗しました。",
+    "errorAccountNotFound": "This email is not registered for Work App sign-in yet. Ask your administrator to resend your invitation or sync Work App access.",
+    "errorAccountSuspended": "This account has been suspended. Contact your administrator.",
+    "staleSessionHint": "A previous sign-in session for another workspace is still stored in this browser.",
+    "clearStaleSession": "Clear stored session",
+    "clearingStaleSession": "Clearing…",
+    "errorGeneric": "エラーが発生しました。再度お試しください。"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#signin",
+    "githubPath": "app/signin.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ja.json#signin"
+  }
+}

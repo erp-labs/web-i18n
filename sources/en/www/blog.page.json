@@ -1,0 +1,17 @@
+{
+  "pageId": "www.blog",
+  "surface": "www",
+  "route": "/blog",
+  "version": 1,
+  "sourceHash": "sha256:4a298df805a88ef82e74eec4220a06039fb8363ce8854af6c7015e5f7c10ca5c",
+  "keys": {
+    "path": "/blog",
+    "meta_title": "Blog",
+    "meta_description": "Articles on ERP, workflows, and operations."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts blog",
+    "githubPath": "www/blog.page.json"
+  }
+}

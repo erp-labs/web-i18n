@@ -1,0 +1,31 @@
+{
+  "pageId": "app.menu",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/menu",
+  "version": 2,
+  "sourceHash": "sha256:d8a190eda194f241080a10fd778113ffb45b0e85ec46816c81c9970540c36e38",
+  "keys": {
+    "checkIn": "근퇴관리",
+    "leaves": "휴가관리",
+    "expenses": "경비관리",
+    "checklist": "업무목록",
+    "myAi": "Prego AI",
+    "billing": "결제",
+    "notices": "공지사항",
+    "noticeTooltip": "공지",
+    "dashboard": "대시보드",
+    "invoices": "인보이스",
+    "customers": "고객",
+    "accounting": "Accounting",
+    "payment": "Payment",
+    "reservation": "Reservation",
+    "calendar": "Calendar",
+    "mailing": "Mailing"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#menu",
+    "githubPath": "app/menu.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ko.json#menu"
+  }
+}

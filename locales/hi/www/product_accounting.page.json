@@ -1,0 +1,19 @@
+{
+  "pageId": "www.product_accounting",
+  "surface": "www",
+  "route": "/product/accounting",
+  "version": 1,
+  "sourceHash": "sha256:fba4a31bac449d29d56ebd13b09bcd2f805fe110c23824903ebd5df9282bd243",
+  "keys": {
+    "path": "/product/accounting",
+    "meta_title": "Finance Automation",
+    "meta_description": "Finance automation and reporting."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts product/accounting",
+    "githubPath": "www/product_accounting.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

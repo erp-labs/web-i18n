@@ -1,0 +1,35 @@
+{
+  "pageId": "app.calendar",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/calendar",
+  "version": 2,
+  "sourceHash": "sha256:5f5eff059e509b3ca6733f5423d7dd223962783e7bc7525eea37cc2328d19490",
+  "keys": {
+    "monthJanuary": "يناير",
+    "monthFebruary": "فبراير",
+    "monthMarch": "مارس",
+    "monthApril": "أبريل",
+    "monthMay": "مايو",
+    "monthJune": "يونيو",
+    "monthJuly": "يوليو",
+    "monthAugust": "أغسطس",
+    "monthSeptember": "سبتمبر",
+    "monthOctober": "أكتوبر",
+    "monthNovember": "نوفمبر",
+    "monthDecember": "ديسمبر",
+    "dayStatusWork": "عمل",
+    "dayStatusDone": "تم",
+    "dayStatusMissed": "غير منجزة",
+    "dayStatusAbsent": "غائب",
+    "dayStatusTardy": "تأخر",
+    "dayStatusOff": "عطلة",
+    "dayStatusAway": "إجازة",
+    "dayStatusPublicHoliday": "عطلة رسمية"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#calendar",
+    "githubPath": "app/calendar.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ar.json#calendar"
+  }
+}

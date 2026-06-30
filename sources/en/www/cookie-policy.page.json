@@ -1,0 +1,17 @@
+{
+  "pageId": "www.cookie-policy",
+  "surface": "www",
+  "route": "/cookie-policy",
+  "version": 1,
+  "sourceHash": "sha256:b24b33889287163e5e40e58806bee832de9009a55cfe4321980b005275dce298",
+  "keys": {
+    "path": "/cookie-policy",
+    "meta_title": "Cookie Policy",
+    "meta_description": "Cookie policy."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts cookie-policy",
+    "githubPath": "www/cookie-policy.page.json"
+  }
+}

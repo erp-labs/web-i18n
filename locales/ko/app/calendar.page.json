@@ -1,0 +1,35 @@
+{
+  "pageId": "app.calendar",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/calendar",
+  "version": 2,
+  "sourceHash": "sha256:5f5eff059e509b3ca6733f5423d7dd223962783e7bc7525eea37cc2328d19490",
+  "keys": {
+    "monthJanuary": "1월",
+    "monthFebruary": "2월",
+    "monthMarch": "3월",
+    "monthApril": "4월",
+    "monthMay": "5월",
+    "monthJune": "6월",
+    "monthJuly": "7월",
+    "monthAugust": "8월",
+    "monthSeptember": "9월",
+    "monthOctober": "10월",
+    "monthNovember": "11월",
+    "monthDecember": "12월",
+    "dayStatusWork": "근무일",
+    "dayStatusDone": "완료",
+    "dayStatusMissed": "미완료",
+    "dayStatusAbsent": "결근",
+    "dayStatusTardy": "지각",
+    "dayStatusOff": "휴일",
+    "dayStatusAway": "휴가",
+    "dayStatusPublicHoliday": "공휴일"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#calendar",
+    "githubPath": "app/calendar.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ko.json#calendar"
+  }
+}

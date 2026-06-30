@@ -1,0 +1,16 @@
+{
+  "pageId": "email.employee_feedback",
+  "surface": "email",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:1e838c652f9a0533d3772ae6e744f55aa4b5b538241e5fbfb537b6af2c25c9ab",
+  "keys": {
+    "subject": "Dynamic subject (employee-feedback)",
+    "_sourceNote": "Extracted from employee-feedback.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
+  },
+  "meta": {
+    "productRepo": "infra-email",
+    "sourcePath": "packages/email-templates/src/employee-feedback.ts",
+    "githubPath": "email/employee-feedback.page.json"
+  }
+}

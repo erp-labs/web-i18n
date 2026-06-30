@@ -1,0 +1,19 @@
+{
+  "pageId": "www.product_overview",
+  "surface": "www",
+  "route": "/product/overview",
+  "version": 1,
+  "sourceHash": "sha256:4a4eb9b17513bb95c743a36ce5078fd0027b45fa73813a238acfd21998709034",
+  "keys": {
+    "path": "/product/overview",
+    "meta_title": "Product Overview | Vouus",
+    "meta_description": "Workflow-first platform for HR, finance, and operations—one canvas for Attendance, Leave, Expense, eInvoice, Approval, Automation, and Scheduler."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts product/overview",
+    "githubPath": "www/product_overview.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

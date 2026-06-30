@@ -1,0 +1,19 @@
+{
+  "pageId": "www.contact",
+  "surface": "www",
+  "route": "/contact",
+  "version": 1,
+  "sourceHash": "sha256:6c37c213ea598111e64e2c7a2db9690024851717a0b4603c8c52568d81028a66",
+  "keys": {
+    "path": "/contact",
+    "meta_title": "Contact",
+    "meta_description": "Sales, support, and enterprise contact channels."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts contact",
+    "githubPath": "www/contact.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "pageId": "app.auth",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/auth",
+  "version": 2,
+  "sourceHash": "sha256:f140abf9a18009377b1a7ecbdd117f697e460d7d926a1476123de2dcc57f48ca",
+  "keys": {
+    "verifyEmailTitle": "أدخل الرمز المكون من 6 أرقام المرسل إلى بريدك الإلكتروني",
+    "sendCode": "إرسال رمز التحقق",
+    "sendCodePrompt": "إرسال رمز التحقق إلى بريدك الإلكتروني",
+    "sending": "جاري الإرسال...",
+    "lockedMinutes": "تجاوز عدد المحاولات. يرجى المحاولة مرة أخرى بعد 5 دقائق.",
+    "remainingAttempts": "المحاولات المتبقية",
+    "invalidPasscode": "رمز المرور غير صحيح",
+    "resendCode": "إعادة إرسال الرمز",
+    "resendCodeCooldown": "إعادة الإرسال متاحة خلال {seconds} ث",
+    "resendCodeSuccess": "تم إرسال رمز جديد.",
+    "resendCodeFailed": "تعذر إعادة إرسال الرمز. حاول مرة أخرى.",
+    "verifyEmailSentTo": "أرسلنا رمزًا إلى {email}",
+    "verifyEmailSpamHint": "تحقق من البريد غير المرغوب. قد تؤخر فلاتر البريد المؤسسي التسليم بضع دقائق.",
+    "useDifferentEmail": "استخدام بريد إلكتروني مختلف",
+    "otpEmailNotConfigured": "البريد التحققي غير متاح. تواصل مع المسؤول.",
+    "otpEmailSendFailed": "تعذر إرسال بريد التحقق. تحقق من البريد غير المرغوب أو حاول لاحقًا.",
+    "otpUserNotFound": "لم يُعثر على حساب موظف لهذا البريد.",
+    "tryDemo": "تجربة العرض",
+    "emailLabel": "البريد الإلكتروني",
+    "emailRequired": "البريد الإلكتروني مطلوب",
+    "passwordLabel": "كلمة المرور",
+    "signInWithPassword": "تسجيل الدخول بالبريد الإلكتروني وكلمة المرور",
+    "signInWithPasswordInstead": "تسجيل الدخول بكلمة المرور",
+    "useVerificationCode": "استخدام رمز التحقق بدلاً من ذلك"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#auth",
+    "githubPath": "app/auth.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ar.json#auth"
+  }
+}

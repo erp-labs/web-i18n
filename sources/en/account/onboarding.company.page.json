@@ -1,0 +1,16 @@
+{
+  "pageId": "account.onboarding.company",
+  "surface": "account",
+  "route": "/onboarding",
+  "version": 1,
+  "sourceHash": "sha256:09105b9a9ea26ffc02ad4ef9cb4bb03ae6ccf6b578413b8d802a9d0f0197e444",
+  "keys": {
+    "title": "Company setup",
+    "submit": "Continue"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /onboarding",
+    "githubPath": "account/onboarding.company.page.json"
+  }
+}

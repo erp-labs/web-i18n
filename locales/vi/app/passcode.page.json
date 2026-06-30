@@ -1,0 +1,43 @@
+{
+  "pageId": "app.passcode",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/passcode",
+  "version": 2,
+  "sourceHash": "sha256:f3eb59f28ddec7ec0d8b414d2cf7d9d47113be9676d4ff8fb5ff44a0cbef4ee1",
+  "keys": {
+    "title": "Mã PIN",
+    "enterPin": "Vui lòng nhập mã 6 chữ số",
+    "enterCurrentPin": "Enter current passcode",
+    "changeNewPrompt": "Enter new passcode",
+    "changeConfirmPrompt": "Enter new passcode again to confirm",
+    "rememberDevice": "Ghi nhớ thiết bị này (chỉ chọn trên PC cá nhân)",
+    "rememberDeviceShort": "Ghi nhớ thiết bị này",
+    "reset": "Đặt lại",
+    "setTitle": "Đặt mã PIN",
+    "setPrompt": "Nhập mã 6 chữ số",
+    "setConfirmPrompt": "Nhập lại để xác nhận",
+    "submit": "Xác nhận",
+    "mismatch": "Mã không khớp",
+    "invalidLength": "Nhập 6 chữ số",
+    "forgotPasscode": "Quên mã truy cập?",
+    "resetNewPrompt": "Nhập mã truy cập 6 số mới",
+    "requestReset": "Gửi link đặt lại",
+    "resetFailed": "Link không hợp lệ hoặc đã hết hạn. Vui lòng yêu cầu link mới.",
+    "resetInvalidLink": "Link không hợp lệ hoặc đã hết hạn. Vui lòng yêu cầu đặt lại mã truy cập.",
+    "requestResetFailed": "Yêu cầu thất bại. Vui lòng thử lại.",
+    "forgotPrompt": "Nhập email để nhận link đặt lại mã truy cập.",
+    "resetEmailSent": "Nếu có tài khoản với email đó, chúng tôi đã gửi link đặt lại. Vui lòng kiểm tra hộp thư.",
+    "sendResetLink": "Gửi link đặt lại",
+    "backToSignIn": "Quay lại đăng nhập",
+    "sessionExpired": "Phiên đã hết hạn. Vui lòng đăng nhập lại từ đầu.",
+    "resetExpiryNotice": "Link này hết hạn sau 15 phút. Nếu đã hết hạn, vui lòng yêu cầu link mới từ trang đăng nhập.",
+    "resetLinkExpiryAndRateLimit": "Link hết hạn sau 15 phút. Nếu không nhận được email, hãy kiểm tra thư rác hoặc thử lại sau.",
+    "rateLimitNotice": "Quá nhiều yêu cầu. Vui lòng thử lại sau vài phút."
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#passcode",
+    "githubPath": "app/passcode.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/vi.json#passcode"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "canonical": "en",
+  "locales": [
+    { "code": "en", "label": "English", "bcp47": "en", "rtl": false },
+    { "code": "ja", "label": "日本語", "bcp47": "ja", "rtl": false },
+    { "code": "ko", "label": "한국어", "bcp47": "ko", "rtl": false },
+    { "code": "zh", "label": "中文", "bcp47": "zh-Hans", "rtl": false },
+    { "code": "ar", "label": "العربية", "bcp47": "ar", "rtl": true },
+    { "code": "vi", "label": "Tiếng Việt", "bcp47": "vi", "rtl": false },
+    { "code": "th", "label": "ไทย", "bcp47": "th", "rtl": false },
+    { "code": "id", "label": "Bahasa Indonesia", "bcp47": "id", "rtl": false },
+    { "code": "ms", "label": "Bahasa Melayu", "bcp47": "ms", "rtl": false },
+    { "code": "si", "label": "සිංහල", "bcp47": "si", "rtl": false },
+    { "code": "ur", "label": "اردو", "bcp47": "ur", "rtl": true },
+    { "code": "hi", "label": "हिन्दी", "bcp47": "hi", "rtl": false }
+  ]
+}

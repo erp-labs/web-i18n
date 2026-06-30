@@ -1,0 +1,20 @@
+{
+  "name": "@vouus/web-i18n",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Canonical English UI copy and locale bundles for Vouus platform surfaces (public repo).",
+  "type": "module",
+  "scripts": {
+    "extract": "node scripts/extract-from-apps.mjs",
+    "sync": "node scripts/sync-to-apps.mjs",
+    "index": "node scripts/build-keyword-index.mjs",
+    "validate": "node scripts/validate.mjs",
+    "verify": "npm run validate && npm run index",
+    "batch:import-existing": "node scripts/import-existing-locales.mjs",
+    "batch:seed-missing": "node scripts/seed-missing-locales.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}

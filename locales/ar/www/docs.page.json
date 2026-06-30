@@ -1,0 +1,19 @@
+{
+  "pageId": "www.docs",
+  "surface": "www",
+  "route": "/docs",
+  "version": 1,
+  "sourceHash": "sha256:e47ce3196e17dca11954f00e95a6688324f3273080558c7e59328e77d122872a",
+  "keys": {
+    "path": "/docs",
+    "meta_title": "Documentation",
+    "meta_description": "Product documentation and developer resources."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts docs",
+    "githubPath": "www/docs.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

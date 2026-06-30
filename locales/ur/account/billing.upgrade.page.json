@@ -1,0 +1,18 @@
+{
+  "pageId": "account.billing.upgrade",
+  "surface": "account",
+  "route": "/billing/upgrade",
+  "version": 1,
+  "sourceHash": "sha256:7428f7bac7c24316234874d4f490cd00ef9f55561ac56104b1810dd3ba424d78",
+  "keys": {
+    "title": "Upgrade plan",
+    "submit": "Upgrade"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /billing/upgrade",
+    "githubPath": "account/billing.upgrade.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

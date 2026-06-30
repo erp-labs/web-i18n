@@ -1,0 +1,29 @@
+{
+  "pageId": "app.notices",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/notices",
+  "version": 2,
+  "sourceHash": "sha256:9e9feb1f3f533b4e6b3cdf47e0046491512fc861c4b8118737aafe3db4478835",
+  "keys": {
+    "title": "الإشعارات",
+    "markAllRead": "تعليم الكل كمقروء",
+    "read": "مقروء",
+    "unread": "غير مقروء",
+    "viewDetails": "View details",
+    "markReadFailed": "Could not mark notice as read. Try again.",
+    "markAllReadFailed": "Could not mark all notices as read. Try again.",
+    "noNotices": "لا توجد إشعارات",
+    "allCaughtUp": "لقد اطلعت على الكل!",
+    "timeAgoJustNow": "الآن",
+    "timeAgoMinutes": "منذ {{n}} دقيقة",
+    "timeAgoHours": "منذ {{n}} ساعة",
+    "timeAgoDays": "منذ {{n}} يوم",
+    "timeAgoWeeks": "منذ {{n}} أسبوع"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#notices",
+    "githubPath": "app/notices.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ar.json#notices"
+  }
+}

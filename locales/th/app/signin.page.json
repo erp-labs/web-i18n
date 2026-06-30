@@ -1,0 +1,42 @@
+{
+  "pageId": "app.signin",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/signin",
+  "version": 1,
+  "sourceHash": "sha256:d11db4e2568fff0acd1a3e537126e705c035b887877f2da41867c16f01d45730",
+  "keys": {
+    "title": "เข้าสู่ระบบ",
+    "languageLabel": "Language",
+    "languageOptions": {
+      "en": "English",
+      "ko": "Korean",
+      "ja": "Japanese",
+      "ar": "Arabic",
+      "vi": "Vietnamese",
+      "zh": "Chinese"
+    },
+    "emailLabel": "Email",
+    "emailPlaceholder": "johndoe@gmail.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Use a secure password",
+    "forgotPassword": "Forgot password?",
+    "submitButton": "เข้าสู่ระบบ",
+    "signingIn": "Signing in...",
+    "noAccount": "Don't have an account yet?",
+    "signUp": "Sign Up",
+    "errorSignInFailed": "Sign in failed",
+    "errorAccountNotFound": "This email is not registered for Work App sign-in yet. Ask your administrator to resend your invitation or sync Work App access.",
+    "errorAccountSuspended": "This account has been suspended. Contact your administrator.",
+    "staleSessionHint": "A previous sign-in session for another workspace is still stored in this browser.",
+    "clearStaleSession": "Clear stored session",
+    "clearingStaleSession": "Clearing…",
+    "errorGeneric": "An error occurred. Please try again."
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#signin",
+    "githubPath": "app/signin.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

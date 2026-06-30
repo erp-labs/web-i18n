@@ -1,0 +1,17 @@
+{
+  "pageId": "www.trial",
+  "surface": "www",
+  "route": "/trial",
+  "version": 1,
+  "sourceHash": "sha256:93a2ccb07f9f6b359df85859f95c03fc17ddcc7b76b8cb872c434ecd032b193b",
+  "keys": {
+    "path": "/trial",
+    "meta_title": "Start your trial | Vouus",
+    "meta_description": "Enter your work email to start a guided trial. Business domains get instant access; we will guide you through setup."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts trial",
+    "githubPath": "www/trial.page.json"
+  }
+}

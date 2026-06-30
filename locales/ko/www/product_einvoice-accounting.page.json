@@ -1,0 +1,19 @@
+{
+  "pageId": "www.product_einvoice-accounting",
+  "surface": "www",
+  "route": "/product/einvoice-accounting",
+  "version": 1,
+  "sourceHash": "sha256:af209e719e3865bbf9df672147c0ac4c2faf6e6e4edfc692cf35bf434ec6089c",
+  "keys": {
+    "path": "/product/einvoice-accounting",
+    "meta_title": "eInvoice & Accounting | Vouus",
+    "meta_description": "Compliant invoicing, validation, and ledger posting with automation."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts product/einvoice-accounting",
+    "githubPath": "www/product_einvoice-accounting.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

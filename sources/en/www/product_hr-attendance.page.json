@@ -1,0 +1,17 @@
+{
+  "pageId": "www.product_hr-attendance",
+  "surface": "www",
+  "route": "/product/hr-attendance",
+  "version": 1,
+  "sourceHash": "sha256:f8959f1d7f3dacdafc2b7e9ca2de2328fe403c5f6aad0cf6b1d8eb985722deb2",
+  "keys": {
+    "path": "/product/hr-attendance",
+    "meta_title": "HR & Attendance | Vouus",
+    "meta_description": "Check-in, roster, analytics, and policy-aware attendance with approval workflows."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts product/hr-attendance",
+    "githubPath": "www/product_hr-attendance.page.json"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "pageId": "app.moduleGuide",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/moduleGuide",
+  "version": 2,
+  "sourceHash": "sha256:6a17eb3392f9231509390565517d774d2c9f981b45c9c523e1659755c053bd6e",
+  "keys": {
+    "common": {
+      "showGuide": "사용 방법",
+      "dontShowAgain": "다시 보지 않기",
+      "gotIt": "확인",
+      "next": "다음",
+      "back": "이전",
+      "stepOf": "{total}단계 중 {current}단계"
+    },
+    "attendance": {
+      "whatTitle": "근무 시간을 기록하세요",
+      "whatBody": "출근 시 체크인, 퇴근 시 체크아웃하면 근태 기록이 자동으로 쌓입니다.",
+      "howTitle": "체크인 방법",
+      "howStep1": "출근하면 Check In을 누르세요 (사무실·재택 모두 가능).",
+      "howStep2": "퇴근할 때 Check Out을 누르세요.",
+      "howStep3": "이 목록에서 일별 근무 시간과 합계를 확인하세요.",
+      "startTitle": "체크인할 준비가 되셨나요?",
+      "startBody": "홈 화면 상단의 체크인 버튼을 사용하세요.",
+      "startCta": "체크인 시작하기"
+    },
+    "expenses": {
+      "whatTitle": "경비를 제출하세요",
+      "whatBody": "영수증을 촬영해 경비를 제출하고, 승인된 내역을 여기서 확인하세요.",
+      "howTitle": "경비 추가 방법",
+      "howStep1": "+ 버튼을 눌러 영수증을 촬영하거나 업로드하세요.",
+      "howStep2": "카테고리를 선택하고 금액을 입력하세요.",
+      "howStep3": "제출 후 승인 상태가 이 목록에 표시됩니다.",
+      "startTitle": "첫 경비를 추가하세요",
+      "startBody": "영수증 사진을 미리 준비해 두면 편합니다.",
+      "startCta": "경비 추가"
+    },
+    "checklist": {
+      "whatTitle": "할 일을 관리하세요",
+      "whatBody": "업무·개인 할 일을 마감일과 함께 한곳에서 관리하세요.",
+      "howTitle": "체크리스트 사용법",
+      "howStep1": "+ 로 할 일 이름과 마감일을 입력하세요.",
+      "howStep2": "완료한 항목은 체크로 표시하세요.",
+      "howStep3": "상단 진행률로 전체 진행 상황을 확인하세요.",
+      "startTitle": "첫 할 일을 만드세요",
+      "startBody": "오늘 마감인 작은 할 일 하나부터 시작해 보세요.",
+      "startCta": "할 일 추가"
+    },
+    "invoices": {
+      "whatTitle": "인보이스를 작성·발송하세요",
+      "whatBody": "전문적인 인보이스를 만들고 미리보기 후 결제 상태를 추적하세요.",
+      "howTitle": "인보이스 작성 방법",
+      "howStep1": "+ 로 고객 정보와 품목을 입력하세요.",
+      "howStep2": "발송 전에 미리보기로 확인하세요.",
+      "howStep3": "발송 후 미결제·결제 완료 상태를 여기서 확인하세요.",
+      "startTitle": "첫 인보이스를 만드세요",
+      "startBody": "임시 저장 후 나중에 이어서 작성할 수 있습니다.",
+      "startCta": "인보이스 작성"
+    },
+    "customers": {
+      "whatTitle": "Your customer list",
+      "whatBody": "Browse ERP customers synced from your company workspace.",
+      "howTitle": "Need pipeline or deals?",
+      "howStep1": "Use Open in CRM for Frappe CRM on your tenant host.",
+      "howStep2": "Use Work Desk for full ERP customer records and accounting links."
+    },
+    "leaves": {
+      "whatTitle": "휴가를 신청하세요",
+      "whatBody": "연차·병가 등 휴가를 신청하고 잔여 일수와 이력을 한곳에서 확인하세요.",
+      "howTitle": "휴가 신청 방법",
+      "howStep1": "상단에서 남은 휴가 일수를 확인하세요.",
+      "howStep2": "달력에서 날짜를 선택하고 휴가 유형을 고르세요.",
+      "howStep3": "신청하면 승인된 휴가가 이력에 표시됩니다.",
+      "startTitle": "휴가를 신청하세요",
+      "startBody": "휴가 신청 버튼 또는 우측 하단 + 버튼으로 날짜와 휴가 유형을 선택하세요.",
+      "startCta": "휴가 신청"
+    },
+    "notices": {
+      "whatTitle": "업무 알림을 확인하세요",
+      "whatBody": "휴가·경비·인보이스·할 일 등 ERP 업무 알림이 여기에 표시됩니다.",
+      "howTitle": "알림 사용 방법",
+      "howStep1": "벨 아이콘을 눌러 알림을 읽음 처리할 수 있습니다.",
+      "howStep2": "관련 모듈이 있으면 '자세히 보기'로 해당 화면으로 이동하세요."
+    }
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#moduleGuide",
+    "githubPath": "app/moduleGuide.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ko.json#moduleGuide"
+  }
+}

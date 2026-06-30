@@ -1,0 +1,31 @@
+{
+  "pageId": "app.menu",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/menu",
+  "version": 2,
+  "sourceHash": "sha256:d8a190eda194f241080a10fd778113ffb45b0e85ec46816c81c9970540c36e38",
+  "keys": {
+    "checkIn": "勤怠管理",
+    "leaves": "休暇申請",
+    "expenses": "経費精算",
+    "checklist": "業務管理",
+    "myAi": "Prego AI",
+    "billing": "請求",
+    "notices": "社内通知",
+    "noticeTooltip": "通知",
+    "dashboard": "業務概況",
+    "invoices": "請求管理",
+    "customers": "顧客",
+    "accounting": "Accounting",
+    "payment": "Payment",
+    "reservation": "Reservation",
+    "calendar": "Calendar",
+    "mailing": "Mailing"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#menu",
+    "githubPath": "app/menu.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ja.json#menu"
+  }
+}

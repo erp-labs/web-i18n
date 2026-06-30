@@ -1,0 +1,16 @@
+{
+  "pageId": "email.billing_invoice_paid",
+  "surface": "email",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:0e5b46ab6d59e0a532fc67cf43151af686e2fa9643cbbeaec5126e5e6d8ed4b2",
+  "keys": {
+    "subject": "Dynamic subject (billing-invoice-paid)",
+    "_sourceNote": "Extracted from billing-invoice-paid.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
+  },
+  "meta": {
+    "productRepo": "infra-email",
+    "sourcePath": "packages/email-templates/src/billing-invoice-paid.ts",
+    "githubPath": "email/billing-invoice-paid.page.json"
+  }
+}

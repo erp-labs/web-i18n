@@ -1,0 +1,29 @@
+{
+  "pageId": "app.notices",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/notices",
+  "version": 2,
+  "sourceHash": "sha256:9e9feb1f3f533b4e6b3cdf47e0046491512fc861c4b8118737aafe3db4478835",
+  "keys": {
+    "title": "社内通知",
+    "markAllRead": "全て既読",
+    "read": "既読",
+    "unread": "未読",
+    "viewDetails": "View details",
+    "markReadFailed": "Could not mark notice as read. Try again.",
+    "markAllReadFailed": "Could not mark all notices as read. Try again.",
+    "noNotices": "通知はありません",
+    "allCaughtUp": "全て確認済です",
+    "timeAgoJustNow": "たった今",
+    "timeAgoMinutes": "{{n}}分前",
+    "timeAgoHours": "{{n}}時間前",
+    "timeAgoDays": "{{n}}日前",
+    "timeAgoWeeks": "{{n}}週間前"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#notices",
+    "githubPath": "app/notices.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ja.json#notices"
+  }
+}

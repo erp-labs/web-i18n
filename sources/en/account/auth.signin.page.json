@@ -1,0 +1,16 @@
+{
+  "pageId": "account.auth.signin",
+  "surface": "account",
+  "route": "/sign-in",
+  "version": 1,
+  "sourceHash": "sha256:5c0e153e8e9f912431db0c4ad1aa88966c7d8c5b46a0b667b8bef912f425c521",
+  "keys": {
+    "title": "Sign in",
+    "submit": "Continue"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /sign-in",
+    "githubPath": "account/auth.signin.page.json"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "pageId": "app.passcode",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/passcode",
+  "version": 1,
+  "sourceHash": "sha256:f3eb59f28ddec7ec0d8b414d2cf7d9d47113be9676d4ff8fb5ff44a0cbef4ee1",
+  "keys": {
+    "title": "Passcode",
+    "enterPin": "Please enter your 6-digit passcode",
+    "enterCurrentPin": "Enter current passcode",
+    "changeNewPrompt": "Enter new passcode",
+    "changeConfirmPrompt": "Enter new passcode again to confirm",
+    "rememberDevice": "Remember this device (check only on personal PC)",
+    "rememberDeviceShort": "Remember this device",
+    "reset": "Reset",
+    "setTitle": "Set passcode",
+    "setPrompt": "Enter 6-digit passcode",
+    "setConfirmPrompt": "Enter again to confirm",
+    "submit": "Submit",
+    "mismatch": "Passcodes do not match",
+    "invalidLength": "Enter 6 digits",
+    "forgotPasscode": "Forgot passcode?",
+    "resetNewPrompt": "Enter a new 6-digit passcode",
+    "requestReset": "Request reset link",
+    "resetFailed": "Invalid or expired link. Request a new one.",
+    "resetInvalidLink": "Invalid or expired link. Please request a new passcode reset.",
+    "requestResetFailed": "Request failed. Please try again.",
+    "forgotPrompt": "Enter your email to receive a link to reset your passcode.",
+    "resetEmailSent": "If an account exists for that email, we sent a reset link. Check your inbox.",
+    "sendResetLink": "Send reset link",
+    "backToSignIn": "Back to sign in",
+    "sessionExpired": "Session expired. Please sign in again from the start.",
+    "resetExpiryNotice": "This link expires in 15 minutes. If it has expired, request a new reset link from the sign-in page.",
+    "resetLinkExpiryAndRateLimit": "The link expires in 15 minutes. If you don't receive an email, check spam or try again later.",
+    "rateLimitNotice": "Too many requests. Please try again in a few minutes."
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#passcode",
+    "githubPath": "app/passcode.page.json"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "pageId": "www.product_workflow-builder",
+  "surface": "www",
+  "route": "/product/workflow-builder",
+  "version": 1,
+  "sourceHash": "sha256:bb3bbe2fd42d31c395ec2c6b3cb37bc51f440d4b0aab8c8f8b6ff654a14800ea",
+  "keys": {
+    "path": "/product/workflow-builder",
+    "meta_title": "Workflow Builder | Vouus",
+    "meta_description": "Model steps, branches, and owners—publish workflows without code."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts product/workflow-builder",
+    "githubPath": "www/product_workflow-builder.page.json"
+  }
+}

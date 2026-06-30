@@ -1,0 +1,43 @@
+{
+  "pageId": "app.passcode",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/passcode",
+  "version": 2,
+  "sourceHash": "sha256:f3eb59f28ddec7ec0d8b414d2cf7d9d47113be9676d4ff8fb5ff44a0cbef4ee1",
+  "keys": {
+    "title": "رمز المرور",
+    "enterPin": "يرجى إدخال رمز المرور المكون من 6 أرقام",
+    "enterCurrentPin": "أدخل رمز المرور الحالي",
+    "changeNewPrompt": "أدخل رمز المرور الجديد",
+    "changeConfirmPrompt": "أدخل رمز المرور الجديد مرة أخرى للتأكيد",
+    "rememberDevice": "تذكر هذا الجهاز (حدد فقط على جهاز PC الشخصي)",
+    "rememberDeviceShort": "تذكر هذا الجهاز",
+    "reset": "إعادة تعيين",
+    "setTitle": "تعيين رمز المرور",
+    "setPrompt": "أدخل رمز المرور المكون من 6 أرقام",
+    "setConfirmPrompt": "أدخل مرة أخرى للتأكيد",
+    "submit": "تأكيد",
+    "mismatch": "رموز المرور غير متطابقة",
+    "invalidLength": "أدخل 6 أرقام",
+    "forgotPasscode": "نسيت رمز المرور؟",
+    "resetNewPrompt": "أدخل رمز مرور جديد من 6 أرقام",
+    "requestReset": "طلب رابط إعادة التعيين",
+    "resetFailed": "الرابط غير صالح أو منتهي. يرجى طلب رابط جديد.",
+    "resetInvalidLink": "الرابط غير صالح أو منتهي. يرجى طلب إعادة تعيين رمز المرور مرة أخرى.",
+    "requestResetFailed": "فشل الطلب. يرجى المحاولة مرة أخرى.",
+    "forgotPrompt": "أدخل بريدك الإلكتروني لتلقي رابط إعادة تعيين رمز المرور.",
+    "resetEmailSent": "إذا كان هناك حساب بهذا البريد، أرسلنا رابط إعادة التعيين. تحقق من صندوق الوارد.",
+    "sendResetLink": "إرسال رابط إعادة التعيين",
+    "backToSignIn": "العودة لتسجيل الدخول",
+    "sessionExpired": "انتهت صلاحية الجلسة. يرجى تسجيل الدخول مرة أخرى من البداية.",
+    "resetExpiryNotice": "ينتهي صلاحية هذا الرابط خلال 15 دقيقة. إذا انتهت صلاحيته، اطلب رابطاً جديداً من صفحة تسجيل الدخول.",
+    "resetLinkExpiryAndRateLimit": "ينتهي صلاحية الرابط خلال 15 دقيقة. إذا لم تستلم البريد، تحقق من البريد العشوائي أو حاول لاحقاً.",
+    "rateLimitNotice": "طلبات كثيرة جداً. يرجى المحاولة مرة أخرى بعد دقائق."
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#passcode",
+    "githubPath": "app/passcode.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ar.json#passcode"
+  }
+}

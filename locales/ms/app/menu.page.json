@@ -1,0 +1,32 @@
+{
+  "pageId": "app.menu",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/menu",
+  "version": 1,
+  "sourceHash": "sha256:d8a190eda194f241080a10fd778113ffb45b0e85ec46816c81c9970540c36e38",
+  "keys": {
+    "checkIn": "Check-in",
+    "leaves": "Leaves",
+    "expenses": "Expenses",
+    "checklist": "Checklist",
+    "myAi": "Prego AI",
+    "billing": "Billing",
+    "notices": "Notices",
+    "noticeTooltip": "Notice",
+    "dashboard": "Dashboard",
+    "invoices": "Invoices",
+    "customers": "Customer",
+    "accounting": "Accounting",
+    "payment": "Payment",
+    "reservation": "Reservation",
+    "calendar": "Calendar",
+    "mailing": "Mailing"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#menu",
+    "githubPath": "app/menu.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

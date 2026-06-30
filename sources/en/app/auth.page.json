@@ -1,0 +1,38 @@
+{
+  "pageId": "app.auth",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/auth",
+  "version": 1,
+  "sourceHash": "sha256:f140abf9a18009377b1a7ecbdd117f697e460d7d926a1476123de2dcc57f48ca",
+  "keys": {
+    "verifyEmailTitle": "Enter the 6-digit verification code sent to your email",
+    "sendCode": "Send verification code",
+    "sendCodePrompt": "Send a verification code to your email",
+    "sending": "Sending...",
+    "lockedMinutes": "Too many failed attempts. Please try again in 5 minutes.",
+    "remainingAttempts": "Remaining attempts",
+    "invalidPasscode": "Invalid passcode",
+    "resendCode": "Resend code",
+    "resendCodeCooldown": "Resend available in {seconds}s",
+    "resendCodeSuccess": "A new code was sent.",
+    "resendCodeFailed": "Could not resend code. Try again.",
+    "verifyEmailSentTo": "We sent a code to {email}",
+    "verifyEmailSpamHint": "Check spam or junk. Corporate email filters may delay delivery by a few minutes.",
+    "useDifferentEmail": "Use a different email",
+    "otpEmailNotConfigured": "Verification email is not available. Please contact your administrator.",
+    "otpEmailSendFailed": "We could not send the verification email. Check spam or try again in a moment.",
+    "otpUserNotFound": "No employee account found for this email.",
+    "tryDemo": "Try demo",
+    "emailLabel": "Email",
+    "emailRequired": "Email is required",
+    "passwordLabel": "Password",
+    "signInWithPassword": "Sign in with your email and password",
+    "signInWithPasswordInstead": "Sign in with password instead",
+    "useVerificationCode": "Use verification code instead"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#auth",
+    "githubPath": "app/auth.page.json"
+  }
+}

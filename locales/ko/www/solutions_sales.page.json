@@ -1,0 +1,19 @@
+{
+  "pageId": "www.solutions_sales",
+  "surface": "www",
+  "route": "/solutions/sales",
+  "version": 1,
+  "sourceHash": "sha256:a6f0f9f74340c1e4afcb432dcbcf53d5c8f63f3807f831a9a477af37af9151fd",
+  "keys": {
+    "path": "/solutions/sales",
+    "meta_title": "Sales Teams | Vouus",
+    "meta_description": "CRM-aligned quotes, orders, and billing handoff to finance."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts solutions/sales",
+    "githubPath": "www/solutions_sales.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

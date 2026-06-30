@@ -1,0 +1,32 @@
+{
+  "pageId": "app.signup",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/signup",
+  "version": 1,
+  "sourceHash": "sha256:ddb5417f701bc66105f54e1db3bac33ffdab5057c480dd09cf5f531e7b0ea8d2",
+  "keys": {
+    "brandName": "Pregoi",
+    "title": "Daftar",
+    "firstNameLabel": "First Name",
+    "firstNamePlaceholder": "Enter your first name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "johndoe@gmail.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Use a secure password",
+    "confirmPasswordLabel": "Confirm password",
+    "confirmPasswordPlaceholder": "Re-enter your password",
+    "submitButton": "Buat akun",
+    "alreadyHaveAccount": "Already have an account?",
+    "logIn": "Log in",
+    "errorPasswordsDoNotMatch": "Passwords do not match",
+    "errorGeneric": "Something went wrong. Please try again.",
+    "signingUp": "Creating account…"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#signup",
+    "githubPath": "app/signup.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

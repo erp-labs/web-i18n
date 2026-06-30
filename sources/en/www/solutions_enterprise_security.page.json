@@ -1,0 +1,17 @@
+{
+  "pageId": "www.solutions_enterprise_security",
+  "surface": "www",
+  "route": "/solutions/enterprise/security",
+  "version": 1,
+  "sourceHash": "sha256:50d2b98ee41eeaaf534ab14f9efe2abec3c8e2f947ec6cd426bdde122f6f2dbc",
+  "keys": {
+    "path": "/solutions/enterprise/security",
+    "meta_title": "Security | Vouus",
+    "meta_description": "Tenant isolation, encryption, access controls, and secure SDLC for enterprise deployments."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts solutions/enterprise/security",
+    "githubPath": "www/solutions_enterprise_security.page.json"
+  }
+}

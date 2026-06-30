@@ -1,0 +1,19 @@
+{
+  "pageId": "www.solutions_finance",
+  "surface": "www",
+  "route": "/solutions/finance",
+  "version": 1,
+  "sourceHash": "sha256:2faae3db6b772a086df8720938f47fda5e97024b20d5ceb9ccbd20c763649a9c",
+  "keys": {
+    "path": "/solutions/finance",
+    "meta_title": "Finance Teams | Vouus",
+    "meta_description": "Close faster: expenses, eInvoice, approvals, and reports in one workflow."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts solutions/finance",
+    "githubPath": "www/solutions_finance.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

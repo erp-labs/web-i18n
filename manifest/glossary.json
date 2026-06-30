@@ -1,0 +1,12 @@
+{
+  "doNotTranslate": ["Vouus", "Pregoi", "ERPNext", "Frappe", "Odoo", "Xero", "Gokiri"],
+  "productTerms": {
+    "Work App": { "ko": "Work App", "ja": "Work App" },
+    "Work Desk": { "ko": "Work Desk", "ja": "Work Desk" }
+  },
+  "legalTerms": {
+    "Terms of Service": {},
+    "Privacy Policy": {},
+    "Data Processing Agreement": {}
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "pageId": "app.auth",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/auth",
+  "version": 2,
+  "sourceHash": "sha256:f140abf9a18009377b1a7ecbdd117f697e460d7d926a1476123de2dcc57f48ca",
+  "keys": {
+    "verifyEmailTitle": "이메일로 전송된 6자리 인증코드를 입력하세요",
+    "sendCode": "인증코드 전송",
+    "sendCodePrompt": "이메일로 인증코드를 전송합니다",
+    "sending": "전송 중...",
+    "lockedMinutes": "오입력 횟수 초과입니다. 5분 후 다시 시도해 주세요.",
+    "remainingAttempts": "남은 시도 횟수",
+    "invalidPasscode": "패스코드가 올바르지 않습니다",
+    "resendCode": "인증코드 재전송",
+    "resendCodeCooldown": "{seconds}초 후 재전송 가능",
+    "resendCodeSuccess": "새 인증코드를 보냈습니다.",
+    "resendCodeFailed": "인증코드를 다시 보내지 못했습니다. 다시 시도해 주세요.",
+    "verifyEmailSentTo": "{email}(으)로 인증코드를 보냈습니다",
+    "verifyEmailSpamHint": "스팸함을 확인해 주세요. 회사 메일 필터로 몇 분 지연될 수 있습니다.",
+    "useDifferentEmail": "다른 이메일 사용",
+    "otpEmailNotConfigured": "인증 이메일을 보낼 수 없습니다. 관리자에게 문의하세요.",
+    "otpEmailSendFailed": "인증 이메일을 보내지 못했습니다. 스팸함을 확인하거나 잠시 후 다시 시도하세요.",
+    "otpUserNotFound": "이 이메일로 등록된 직원 계정이 없습니다.",
+    "tryDemo": "데모 체험",
+    "emailLabel": "이메일",
+    "emailRequired": "이메일을 입력해 주세요.",
+    "passwordLabel": "비밀번호",
+    "signInWithPassword": "이메일과 비밀번호로 로그인",
+    "signInWithPasswordInstead": "비밀번호로 로그인",
+    "useVerificationCode": "인증 코드로 로그인"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#auth",
+    "githubPath": "app/auth.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ko.json#auth"
+  }
+}

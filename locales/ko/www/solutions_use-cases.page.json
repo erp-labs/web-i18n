@@ -1,0 +1,19 @@
+{
+  "pageId": "www.solutions_use-cases",
+  "surface": "www",
+  "route": "/solutions/use-cases",
+  "version": 1,
+  "sourceHash": "sha256:631bb70c879da9abb462792f05f74648eb974c08e4688f1121e5d5629c4ca8b7",
+  "keys": {
+    "path": "/solutions/use-cases",
+    "meta_title": "Use Cases",
+    "meta_description": "Industry patterns for HR, finance, and operations—Attendance, Leave, Expense, eInvoice, and Approval in one flow."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts solutions/use-cases",
+    "githubPath": "www/solutions_use-cases.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

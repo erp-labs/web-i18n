@@ -1,0 +1,18 @@
+{
+  "pageId": "email.otp",
+  "surface": "email",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:cbb0e392f7c2104c926ff71329a2f9d6cda8d90979bc17368d9f82ec49a97a77",
+  "keys": {
+    "subject": "Your verification code",
+    "_sourceNote": "Extracted from otp.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
+  },
+  "meta": {
+    "productRepo": "infra-email",
+    "sourcePath": "packages/email-templates/src/otp.ts",
+    "githubPath": "email/otp.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

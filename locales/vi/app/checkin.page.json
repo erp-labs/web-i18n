@@ -1,0 +1,39 @@
+{
+  "pageId": "app.checkin",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/checkin",
+  "version": 2,
+  "sourceHash": "sha256:b8bb3c18bd42b70bca261f65f4bb9c6682e6e728c7631b3d7e36056a40106391",
+  "keys": {
+    "office": "Văn phòng",
+    "home": "Nhà",
+    "checkIn": "Vào ca",
+    "checkOut": "Tan ca",
+    "totalHrs": "Tổng giờ",
+    "attendance": "Chấm công",
+    "goodMorning": "Chào buổi sáng, {{name}}!",
+    "goodAfternoon": "Chào {{name}}, làm việc vui vẻ!",
+    "loading": "Đang tải...",
+    "gpsEnabled": "Đã bật theo dõi GPS",
+    "ipVerification": "Xác minh theo IP",
+    "reminderCheckOut": "Làm tốt lắm! Đừng quên chấm công ra.",
+    "reminderCheckIn": "Chấm công vào và bắt đầu ngày làm việc!",
+    "loadingMore": "Đang tải thêm",
+    "noMoreRecords": "Không còn bản ghi để tải",
+    "timePlaceholder": "--:--",
+    "todayCheckin": "Check-in hôm nay",
+    "hoursUnit": "h",
+    "minutesUnit": "ph",
+    "hoursDecimalUnit": " giờ",
+    "approxHoursPrefix": "xấp xỉ ",
+    "noAttendanceYet": "Chưa có bản ghi chấm công",
+    "startByCheckingIn": "Chấm công vào để bắt đầu theo dõi giờ làm tại đây",
+    "startCheckInCta": "Bắt đầu chấm công"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#checkin",
+    "githubPath": "app/checkin.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/vi.json#checkin"
+  }
+}

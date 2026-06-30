@@ -1,0 +1,31 @@
+{
+  "pageId": "app.menu",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/menu",
+  "version": 2,
+  "sourceHash": "sha256:d8a190eda194f241080a10fd778113ffb45b0e85ec46816c81c9970540c36e38",
+  "keys": {
+    "checkIn": "Chấm công",
+    "leaves": "Nghỉ phép",
+    "expenses": "Chi phí",
+    "checklist": "Danh sách",
+    "myAi": "Prego AI",
+    "billing": "Thanh toán",
+    "notices": "Thông báo",
+    "noticeTooltip": "Thông báo",
+    "dashboard": "Bảng điều khiển",
+    "invoices": "Hóa đơn",
+    "customers": "Customer",
+    "accounting": "Accounting",
+    "payment": "Payment",
+    "reservation": "Reservation",
+    "calendar": "Calendar",
+    "mailing": "Mailing"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#menu",
+    "githubPath": "app/menu.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/vi.json#menu"
+  }
+}

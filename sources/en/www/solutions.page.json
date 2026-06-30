@@ -1,0 +1,17 @@
+{
+  "pageId": "www.solutions",
+  "surface": "www",
+  "route": "/solutions",
+  "version": 1,
+  "sourceHash": "sha256:6ba7998c35f9b1668eab31fd5770f6a04f29b064b5e543242af6b45a971ec8eb",
+  "keys": {
+    "path": "/solutions",
+    "meta_title": "Solutions",
+    "meta_description": "Solutions by role and company size."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts solutions",
+    "githubPath": "www/solutions.page.json"
+  }
+}

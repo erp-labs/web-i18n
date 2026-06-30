@@ -1,0 +1,19 @@
+{
+  "pageId": "app.locationPermission",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/locationPermission",
+  "version": 2,
+  "sourceHash": "sha256:d925f25b9680bbb3902ef950b535e206b9d76a665fdbca0f80ce2c5004fa3ece",
+  "keys": {
+    "title": "启用位置服务",
+    "description": "此应用需要您在设备和本应用中开启位置服务。使用应用前请在设置中启用位置服务。",
+    "allowButton": "仅在使用应用期间允许",
+    "denyButton": "不允许此应用"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#locationPermission",
+    "githubPath": "app/locationPermission.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/zh.json#locationPermission"
+  }
+}

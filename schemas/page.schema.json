@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/erp-labs/web-i18n/schemas/page.schema.json",
+  "type": "object",
+  "required": ["pageId", "surface", "version", "keys"],
+  "properties": {
+    "pageId": { "type": "string", "pattern": "^[a-z][a-z0-9._-]*$" },
+    "surface": { "enum": ["www", "account", "app", "docs", "email"] },
+    "route": { "type": "string" },
+    "version": { "type": "integer", "minimum": 1 },
+    "sourceHash": { "type": "string" },
+    "reviewRequired": { "type": "boolean" },
+    "keys": {
+      "type": "object",
+      "additionalProperties": {
+        "oneOf": [{ "type": "string" }, { "type": "object" }]
+      }
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "productRepo": { "type": "string" },
+        "sourcePath": { "type": "string" }
+      }
+    }
+  },
+  "additionalProperties": false
+}

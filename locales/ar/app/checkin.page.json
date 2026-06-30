@@ -1,0 +1,39 @@
+{
+  "pageId": "app.checkin",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/checkin",
+  "version": 2,
+  "sourceHash": "sha256:b8bb3c18bd42b70bca261f65f4bb9c6682e6e728c7631b3d7e36056a40106391",
+  "keys": {
+    "office": "المكتب",
+    "home": "المنزل",
+    "checkIn": "تسجيل الحضور",
+    "checkOut": "تسجيل المغادرة",
+    "totalHrs": "إجمالي الساعات",
+    "attendance": "الحضور",
+    "goodMorning": "صباح الخير!",
+    "goodAfternoon": "أتمنى لك يوماً سعيداً!",
+    "loading": "جاري التحميل...",
+    "gpsEnabled": "تتبع GPS مفعّل",
+    "ipVerification": "التحقق عبر IP",
+    "reminderCheckOut": "أحسنت اليوم! لا تنسَ تسجيل المغادرة.",
+    "reminderCheckIn": "سجّل حضورك وابدأ يومك الرائع!",
+    "loadingMore": "تحميل المزيد",
+    "noMoreRecords": "لا مزيد من السجلات",
+    "timePlaceholder": "--:--",
+    "todayCheckin": "تسجيل حضور اليوم",
+    "hoursUnit": "س",
+    "minutesUnit": "د",
+    "hoursDecimalUnit": " ساعات",
+    "approxHoursPrefix": "≈ ",
+    "noAttendanceYet": "لا توجد سجلات حضور بعد",
+    "startByCheckingIn": "سجّل حضورك لبدء تتبع ساعات العمل هنا",
+    "startCheckInCta": "بدء تسجيل الحضور"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#checkin",
+    "githubPath": "app/checkin.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ar.json#checkin"
+  }
+}

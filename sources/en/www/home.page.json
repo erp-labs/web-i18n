@@ -1,0 +1,17 @@
+{
+  "pageId": "www.home",
+  "surface": "www",
+  "route": "/",
+  "version": 1,
+  "sourceHash": "sha256:8b50ef0e6c42ff806b6b76dc03bb641af0937634c4641706bc2e1c3c9cbeb26e",
+  "keys": {
+    "path": "/",
+    "meta_title": "Vouus | Easy, unified ERP",
+    "meta_description": "Unify HR, finance, and operations on one workflow platform. Approvals, automation, and books that stay in sync—built for growing teams in APAC."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts home",
+    "githubPath": "www/home.page.json"
+  }
+}

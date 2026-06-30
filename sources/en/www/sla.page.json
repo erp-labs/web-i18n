@@ -1,0 +1,17 @@
+{
+  "pageId": "www.sla",
+  "surface": "www",
+  "route": "/sla",
+  "version": 1,
+  "sourceHash": "sha256:2d6cc8679f524705a16515f526400d4730adb59a3a2349aff45ee1929b865a0d",
+  "keys": {
+    "path": "/sla",
+    "meta_title": "Service Level Agreement",
+    "meta_description": "Service level agreement."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts sla",
+    "githubPath": "www/sla.page.json"
+  }
+}

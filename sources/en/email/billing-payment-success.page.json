@@ -1,0 +1,16 @@
+{
+  "pageId": "email.billing_payment_success",
+  "surface": "email",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:0cc521ad288d6486df4163fcabca8c352a2062798afc6685b73fef3a94274026",
+  "keys": {
+    "subject": "Dynamic subject (billing-payment-success)",
+    "_sourceNote": "Extracted from billing-payment-success.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
+  },
+  "meta": {
+    "productRepo": "infra-email",
+    "sourcePath": "packages/email-templates/src/billing-payment-success.ts",
+    "githubPath": "email/billing-payment-success.page.json"
+  }
+}

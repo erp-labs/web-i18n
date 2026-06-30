@@ -1,0 +1,19 @@
+{
+  "pageId": "app.locationPermission",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/locationPermission",
+  "version": 2,
+  "sourceHash": "sha256:d925f25b9680bbb3902ef950b535e206b9d76a665fdbca0f80ce2c5004fa3ece",
+  "keys": {
+    "title": "GPS 위치권한을 켜주세요",
+    "description": "이 앱을 사용하려면 기기와 앱에서 위치 서비스를 켜야 합니다. 앱을 사용하기 전에 설정에서 위치 서비스를 활성화해 주세요.",
+    "allowButton": "앱 사용 중에만 허용",
+    "denyButton": "이 앱은 허용하지 않음"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#locationPermission",
+    "githubPath": "app/locationPermission.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ko.json#locationPermission"
+  }
+}

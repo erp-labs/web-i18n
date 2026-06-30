@@ -1,0 +1,92 @@
+{
+  "pageId": "app.moduleGuide",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/moduleGuide",
+  "version": 2,
+  "sourceHash": "sha256:6a17eb3392f9231509390565517d774d2c9f981b45c9c523e1659755c053bd6e",
+  "keys": {
+    "common": {
+      "showGuide": "كيف يعمل",
+      "dontShowAgain": "عدم الإظهار مرة أخرى",
+      "gotIt": "حسنًا",
+      "next": "التالي",
+      "back": "رجوع",
+      "stepOf": "الخطوة {current} من {total}"
+    },
+    "attendance": {
+      "whatTitle": "تتبع ساعات العمل",
+      "whatBody": "سجّل حضورك عند بدء العمل وانصرافك عند الانتهاء. يظهر سجل الحضور هنا تلقائيًا.",
+      "howTitle": "كيفية تسجيل الحضور",
+      "howStep1": "اضغط تسجيل الحضور عند وصولك إلى العمل (المكتب أو المنزل).",
+      "howStep2": "اضغط تسجيل المغادرة عند انتهاء الدوام.",
+      "howStep3": "راجع الساعات اليومية والإجماليات في هذا القائمة.",
+      "startTitle": "هل أنت مستعد لتسجيل الحضور؟",
+      "startBody": "استخدم زر تسجيل الحضور في أعلى الشاشة الرئيسية.",
+      "startCta": "بدء تسجيل الحضور"
+    },
+    "expenses": {
+      "whatTitle": "تقديم طلبات المصروفات",
+      "whatBody": "التقط الإيصالات وقدّم المصروفات للاسترداد. تُتابع الطلبات المعتمدة هنا.",
+      "howTitle": "كيفية إضافة مصروف",
+      "howStep1": "اضغط + والتقط صورة أو ارفع الإيصال.",
+      "howStep2": "اختر الفئة وأدخل المبلغ.",
+      "howStep3": "أرسل للموافقة — تظهر تحديثات الحالة في هذا القائمة.",
+      "startTitle": "أضف مصروفك الأول",
+      "startBody": "احتفظ بصورة الإيصال جاهزة.",
+      "startCta": "إضافة مصروف"
+    },
+    "checklist": {
+      "whatTitle": "إدارة المهام",
+      "whatBody": "اجمع مهام العمل والمنزل والشخصية في قائمة واحدة مع تواريخ الاستحقاق والتقدم.",
+      "howTitle": "كيفية استخدام قائمة المهام",
+      "howStep1": "اضغط + لإنشاء مهمة باسم وتاريخ استحقاق.",
+      "howStep2": "علّم المهام كمنجزة عند إكمالها.",
+      "howStep3": "تابع التقدم الإجمالي على شريط الملخص.",
+      "startTitle": "أنشئ مهمتك الأولى",
+      "startBody": "ابدأ بمهمة صغيرة مستحقة اليوم.",
+      "startCta": "إضافة مهمة"
+    },
+    "invoices": {
+      "whatTitle": "إنشاء وإرسال الفواتير",
+      "whatBody": "أنشئ فواتير احترافية، اعرضها مسبقًا، وتتبع حالة الدفع.",
+      "howTitle": "كيفية إنشاء فاتورة",
+      "howStep1": "اضغط + وأدخل تفاصيل العميل وبنود الفاتورة.",
+      "howStep2": "اعرض الفاتورة قبل الإرسال.",
+      "howStep3": "أرسلها إلى العميل وراقب المفتوحة والمدفوعة هنا.",
+      "startTitle": "أنشئ فاتورتك الأولى",
+      "startBody": "يمكنك حفظ مسودة وإكمالها لاحقًا.",
+      "startCta": "إنشاء فاتورة"
+    },
+    "customers": {
+      "whatTitle": "Your customer list",
+      "whatBody": "Browse ERP customers synced from your company workspace.",
+      "howTitle": "Need pipeline or deals?",
+      "howStep1": "Use Open in CRM for Frappe CRM on your tenant host.",
+      "howStep2": "Use Work Desk for full ERP customer records and accounting links."
+    },
+    "leaves": {
+      "whatTitle": "طلب إجازة",
+      "whatBody": "قدّم طلبات الإجازة السنوية والمرضية وغيرها. يبقى الرصيد والسجل في مكان واحد.",
+      "howTitle": "كيفية طلب الإجازة",
+      "howStep1": "تحقق من رصيد الإجازة المتبقي في الأعلى.",
+      "howStep2": "اختر التواريخ في التقويم وحدد نوع الإجازة.",
+      "howStep3": "أرسل طلبك — تظهر الإجازات المعتمدة في السجل.",
+      "startTitle": "قدّم طلب إجازة",
+      "startBody": "استخدم النموذج أعلاه لاختيار التواريخ ونوع الإجازة.",
+      "startCta": "طلب إجازة"
+    },
+    "notices": {
+      "whatTitle": "إشعارات العمل",
+      "whatBody": "تظهر هنا تحديثات الإجازات والمصروفات والفواتير والمهام من نظام ERP الخاص بالشركة.",
+      "howTitle": "كيف تعمل الإشعارات",
+      "howStep1": "اضغط أيقونة الجرس على الإشعار لتعليمه كمقروء.",
+      "howStep2": "استخدم عرض التفاصيل لفتح الوحدة المرتبطة عند توفر رابط."
+    }
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#moduleGuide",
+    "githubPath": "app/moduleGuide.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ar.json#moduleGuide"
+  }
+}

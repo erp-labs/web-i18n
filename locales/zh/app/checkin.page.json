@@ -1,0 +1,39 @@
+{
+  "pageId": "app.checkin",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/checkin",
+  "version": 2,
+  "sourceHash": "sha256:b8bb3c18bd42b70bca261f65f4bb9c6682e6e728c7631b3d7e36056a40106391",
+  "keys": {
+    "office": "办公室",
+    "home": "居家",
+    "checkIn": "上班",
+    "checkOut": "下班",
+    "totalHrs": "总工时",
+    "attendance": "打卡记录",
+    "goodMorning": "{{name}}，早上好！",
+    "goodAfternoon": "{{name}}，工作愉快！",
+    "loading": "加载中...",
+    "gpsEnabled": "已开启 GPS 定位",
+    "ipVerification": "IP 验证",
+    "reminderCheckOut": "辛苦了！别忘了下班打卡。",
+    "reminderCheckIn": "打卡开始今天的工作吧！",
+    "loadingMore": "加载更多",
+    "noMoreRecords": "没有更多记录",
+    "timePlaceholder": "--:--",
+    "todayCheckin": "今日打卡",
+    "hoursUnit": "小时",
+    "minutesUnit": "分",
+    "hoursDecimalUnit": "小时",
+    "approxHoursPrefix": "约 ",
+    "noAttendanceYet": "暂无考勤记录",
+    "startByCheckingIn": "打卡后即可在此记录工时",
+    "startCheckInCta": "开始打卡"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#checkin",
+    "githubPath": "app/checkin.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/zh.json#checkin"
+  }
+}

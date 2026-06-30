@@ -1,0 +1,31 @@
+{
+  "pageId": "app.signup",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/signup",
+  "version": 2,
+  "sourceHash": "sha256:ddb5417f701bc66105f54e1db3bac33ffdab5057c480dd09cf5f531e7b0ea8d2",
+  "keys": {
+    "brandName": "Pregoi",
+    "title": "新規登録",
+    "firstNameLabel": "名：英字",
+    "firstNamePlaceholder": "名を入力してください",
+    "emailLabel": "メールアドレス",
+    "emailPlaceholder": "example@company.com",
+    "passwordLabel": "パスワード",
+    "passwordPlaceholder": "パスワードを入力してください",
+    "confirmPasswordLabel": "パスワード（確認）",
+    "confirmPasswordPlaceholder": "再度入力してください",
+    "submitButton": "アカウント作成",
+    "alreadyHaveAccount": "既にアカウントをお持ちの場合",
+    "logIn": "ログイン",
+    "errorPasswordsDoNotMatch": "パスワードが一致しません",
+    "errorGeneric": "Something went wrong. Please try again.",
+    "signingUp": "Creating account…"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#signup",
+    "githubPath": "app/signup.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ja.json#signup"
+  }
+}

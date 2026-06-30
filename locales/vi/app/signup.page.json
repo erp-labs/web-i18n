@@ -1,0 +1,31 @@
+{
+  "pageId": "app.signup",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/signup",
+  "version": 2,
+  "sourceHash": "sha256:ddb5417f701bc66105f54e1db3bac33ffdab5057c480dd09cf5f531e7b0ea8d2",
+  "keys": {
+    "brandName": "Pregoi",
+    "title": "Đăng ký",
+    "firstNameLabel": "Tên",
+    "firstNamePlaceholder": "Nhập tên của bạn",
+    "emailLabel": "Email",
+    "emailPlaceholder": "johndoe@gmail.com",
+    "passwordLabel": "Mật khẩu",
+    "passwordPlaceholder": "Nhập mật khẩu bảo mật",
+    "confirmPasswordLabel": "Xác nhận mật khẩu",
+    "confirmPasswordPlaceholder": "Nhập lại mật khẩu",
+    "submitButton": "Tạo tài khoản",
+    "alreadyHaveAccount": "Đã có tài khoản?",
+    "logIn": "Đăng nhập",
+    "errorPasswordsDoNotMatch": "Mật khẩu không khớp",
+    "errorGeneric": "Something went wrong. Please try again.",
+    "signingUp": "Creating account…"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#signup",
+    "githubPath": "app/signup.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/vi.json#signup"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "pageId": "app.moduleGuide",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/moduleGuide",
+  "version": 2,
+  "sourceHash": "sha256:6a17eb3392f9231509390565517d774d2c9f981b45c9c523e1659755c053bd6e",
+  "keys": {
+    "common": {
+      "showGuide": "使用说明",
+      "dontShowAgain": "不再显示",
+      "gotIt": "知道了",
+      "next": "下一步",
+      "back": "上一步",
+      "stepOf": "第 {current} 步，共 {total} 步"
+    },
+    "attendance": {
+      "whatTitle": "记录工时",
+      "whatBody": "上班时打卡、下班时签退，考勤记录会自动显示在这里。",
+      "howTitle": "打卡流程",
+      "howStep1": "到达工作地点（办公室或居家）后，点击「上班」。",
+      "howStep2": "下班时点击「下班」。",
+      "howStep3": "在此列表中查看每日工时和合计。",
+      "startTitle": "准备好打卡了吗？",
+      "startBody": "使用首页顶部的打卡按钮。",
+      "startCta": "开始打卡"
+    },
+    "expenses": {
+      "whatTitle": "提交报销",
+      "whatBody": "拍摄收据并提交报销申请，已批准的记录会在此跟踪。",
+      "howTitle": "如何添加报销",
+      "howStep1": "点击 + 拍摄或上传收据。",
+      "howStep2": "选择类别并填写金额。",
+      "howStep3": "提交审批，状态更新会显示在此列表。",
+      "startTitle": "添加第一笔报销",
+      "startBody": "请提前准备好收据照片。",
+      "startCta": "添加报销"
+    },
+    "checklist": {
+      "whatTitle": "管理任务",
+      "whatBody": "将工作、家庭和个人任务集中在一个清单中，并设置截止日期和进度。",
+      "howTitle": "如何使用待办清单",
+      "howStep1": "点击 + 创建任务并设置名称和截止日期。",
+      "howStep2": "完成任务后将其标记为已完成。",
+      "howStep3": "在概览栏查看整体进度。",
+      "startTitle": "创建第一个任务",
+      "startBody": "从今天到期的一个小任务开始。",
+      "startCta": "添加任务"
+    },
+    "invoices": {
+      "whatTitle": "创建并发送发票",
+      "whatBody": "制作专业发票、预览内容并跟踪付款状态。",
+      "howTitle": "如何创建发票",
+      "howStep1": "点击 + 填写客户信息和明细行。",
+      "howStep2": "发送前先预览发票。",
+      "howStep3": "发送给客户，并在此查看待付款与已付款。",
+      "startTitle": "创建第一张发票",
+      "startBody": "可以保存草稿，稍后再完成。",
+      "startCta": "创建发票"
+    },
+    "customers": {
+      "whatTitle": "Your customer list",
+      "whatBody": "Browse ERP customers synced from your company workspace.",
+      "howTitle": "Need pipeline or deals?",
+      "howStep1": "Use Open in CRM for Frappe CRM on your tenant host.",
+      "howStep2": "Use Work Desk for full ERP customer records and accounting links."
+    },
+    "leaves": {
+      "whatTitle": "申请休假",
+      "whatBody": "申请年假、病假等各类假期，余额和历史记录集中在一处。",
+      "howTitle": "如何申请请假",
+      "howStep1": "在顶部查看剩余假期余额。",
+      "howStep2": "在日历上选择日期并选择假期类型。",
+      "howStep3": "提交申请，已批准的假期会显示在历史记录中。",
+      "startTitle": "提交请假申请",
+      "startBody": "使用上方表单选择日期和假期类型。",
+      "startCta": "申请请假"
+    },
+    "notices": {
+      "whatTitle": "工作通知",
+      "whatBody": "请假、报销、发票和任务等公司 ERP 的更新会显示在这里。",
+      "howTitle": "通知说明",
+      "howStep1": "点击通知上的铃铛图标将其标记为已读。",
+      "howStep2": "如有链接，可使用「查看详情」打开相关模块。"
+    }
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#moduleGuide",
+    "githubPath": "app/moduleGuide.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/zh.json#moduleGuide"
+  }
+}

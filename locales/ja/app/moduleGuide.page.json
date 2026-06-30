@@ -1,0 +1,92 @@
+{
+  "pageId": "app.moduleGuide",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/moduleGuide",
+  "version": 2,
+  "sourceHash": "sha256:6a17eb3392f9231509390565517d774d2c9f981b45c9c523e1659755c053bd6e",
+  "keys": {
+    "common": {
+      "showGuide": "使い方",
+      "dontShowAgain": "今後表示しない",
+      "gotIt": "了解",
+      "next": "次へ",
+      "back": "戻る",
+      "stepOf": "ステップ {current} / {total}"
+    },
+    "attendance": {
+      "whatTitle": "勤務時間を記録する",
+      "whatBody": "仕事の開始時に出勤、終了時に退勤を記録します。勤怠履歴は自動的にここに表示されます。",
+      "howTitle": "出勤登録の流れ",
+      "howStep1": "出社または在宅で仕事を始めるときに「出勤」をタップします。",
+      "howStep2": "勤務終了時に「退勤」をタップします。",
+      "howStep3": "この一覧で日ごとの時間と合計を確認できます。",
+      "startTitle": "出勤の準備はできましたか？",
+      "startBody": "ホーム画面の上部にある出勤ボタンを使ってください。",
+      "startCta": "出勤する"
+    },
+    "expenses": {
+      "whatTitle": "経費を申請する",
+      "whatBody": "領収書を撮影して経費を申請し、精算を受け取ります。承認された申請はここで確認できます。",
+      "howTitle": "経費の追加方法",
+      "howStep1": "＋をタップして領収書を撮影またはアップロードします。",
+      "howStep2": "カテゴリを選び、金額を入力します。",
+      "howStep3": "承認のために提出します。ステータスの更新はこの一覧に表示されます。",
+      "startTitle": "最初の経費を追加する",
+      "startBody": "領収書の写真を用意しておきましょう。",
+      "startCta": "経費を追加"
+    },
+    "checklist": {
+      "whatTitle": "タスクを管理する",
+      "whatBody": "仕事・家庭・個人のタスクを期限と進捗付きで一つのチェックリストにまとめます。",
+      "howTitle": "チェックリストの使い方",
+      "howStep1": "＋をタップしてタスク名と期限を設定します。",
+      "howStep2": "完了したタスクに完了マークを付けます。",
+      "howStep3": "概要バーで全体の進捗を確認します。",
+      "startTitle": "最初のタスクを作成する",
+      "startBody": "今日が期限の小さなタスクから始めましょう。",
+      "startCta": "タスクを追加"
+    },
+    "invoices": {
+      "whatTitle": "請求書を作成・送付する",
+      "whatBody": "プロフェッショナルな請求書を作成し、プレビューして入金状況を追跡します。",
+      "howTitle": "請求書の作成方法",
+      "howStep1": "＋をタップして取引先情報と明細を入力します。",
+      "howStep2": "送付前に請求書をプレビューします。",
+      "howStep3": "クライアントに送付し、未入金と入金済みをここで確認します。",
+      "startTitle": "最初の請求書を作成する",
+      "startBody": "下書きを保存して後から続きを入力できます。",
+      "startCta": "請求書を作成"
+    },
+    "customers": {
+      "whatTitle": "Your customer list",
+      "whatBody": "Browse ERP customers synced from your company workspace.",
+      "howTitle": "Need pipeline or deals?",
+      "howStep1": "Use Open in CRM for Frappe CRM on your tenant host.",
+      "howStep2": "Use Work Desk for full ERP customer records and accounting links."
+    },
+    "leaves": {
+      "whatTitle": "休暇を申請する",
+      "whatBody": "年次有給、病気休暇など各種休暇を申請できます。残日数と履歴を一箇所で確認できます。",
+      "howTitle": "休暇申請の流れ",
+      "howStep1": "上部で残りの休暇日数を確認します。",
+      "howStep2": "カレンダーで日付を選び、休暇区分を選択します。",
+      "howStep3": "申請を提出します。承認された休暇は履歴に表示されます。",
+      "startTitle": "休暇を申請する",
+      "startBody": "上のフォームで日付と休暇区分を選んでください。",
+      "startCta": "休暇を申請"
+    },
+    "notices": {
+      "whatTitle": "業務に関する通知",
+      "whatBody": "休暇、経費、請求書、タスクなど、会社のERPからの更新がここに表示されます。",
+      "howTitle": "通知の仕組み",
+      "howStep1": "通知のベルアイコンをタップして既読にします。",
+      "howStep2": "リンクがある場合は「詳細を見る」で関連モジュールを開きます。"
+    }
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#moduleGuide",
+    "githubPath": "app/moduleGuide.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ja.json#moduleGuide"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "pageId": "email.employee_portal_invite",
+  "surface": "email",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:740e4617c13619da36a51a7beffc11222ba7cdc216a2f5a15c5df15668a28df7",
+  "keys": {
+    "subject": "Dynamic subject (employee-portal-invite)",
+    "_sourceNote": "Extracted from employee-portal-invite.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
+  },
+  "meta": {
+    "productRepo": "infra-email",
+    "sourcePath": "packages/email-templates/src/employee-portal-invite.ts",
+    "githubPath": "email/employee-portal-invite.page.json"
+  }
+}

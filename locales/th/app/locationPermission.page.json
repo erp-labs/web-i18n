@@ -1,0 +1,20 @@
+{
+  "pageId": "app.locationPermission",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/locationPermission",
+  "version": 1,
+  "sourceHash": "sha256:d925f25b9680bbb3902ef950b535e206b9d76a665fdbca0f80ce2c5004fa3ece",
+  "keys": {
+    "title": "Enable your location",
+    "description": "This app requires that location services are turned on your device and for this app. You must enable them in Settings before using this app.",
+    "allowButton": "Allow only while using this app",
+    "denyButton": "Don't allow this app"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#locationPermission",
+    "githubPath": "app/locationPermission.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

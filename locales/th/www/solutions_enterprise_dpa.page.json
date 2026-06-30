@@ -1,0 +1,19 @@
+{
+  "pageId": "www.solutions_enterprise_dpa",
+  "surface": "www",
+  "route": "/solutions/enterprise/dpa",
+  "version": 1,
+  "sourceHash": "sha256:9e9f8a1ba0f137aac3f6a1fd91942f24c42283cc1f08c7ce2064aefc02f60663",
+  "keys": {
+    "path": "/solutions/enterprise/dpa",
+    "meta_title": "Data Processing Agreement | Vouus",
+    "meta_description": "DPA terms, subprocessors, and data residency summary for enterprise customers."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts solutions/enterprise/dpa",
+    "githubPath": "www/solutions_enterprise_dpa.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

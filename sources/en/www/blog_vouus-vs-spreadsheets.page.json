@@ -1,0 +1,17 @@
+{
+  "pageId": "www.blog_vouus-vs-spreadsheets",
+  "surface": "www",
+  "route": "/blog/vouus-vs-spreadsheets",
+  "version": 1,
+  "sourceHash": "sha256:786a4490dd7bb3844fd03f87d02cc9ae39035af4de8ecca1c1045554880dbefc",
+  "keys": {
+    "path": "/blog/vouus-vs-spreadsheets",
+    "meta_title": "ERP vs Spreadsheets",
+    "meta_description": "Warning signs that spreadsheets are holding your team back."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts blog/vouus-vs-spreadsheets",
+    "githubPath": "www/blog_vouus-vs-spreadsheets.page.json"
+  }
+}

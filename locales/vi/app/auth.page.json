@@ -1,0 +1,39 @@
+{
+  "pageId": "app.auth",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/auth",
+  "version": 2,
+  "sourceHash": "sha256:f140abf9a18009377b1a7ecbdd117f697e460d7d926a1476123de2dcc57f48ca",
+  "keys": {
+    "verifyEmailTitle": "Nhập mã xác minh 6 chữ số đã gửi đến email của bạn",
+    "sendCode": "Gửi mã xác minh",
+    "sendCodePrompt": "Gửi mã xác minh đến email của bạn",
+    "sending": "Đang gửi...",
+    "lockedMinutes": "Vượt quá số lần thử. Vui lòng thử lại sau 5 phút.",
+    "remainingAttempts": "Số lần thử còn lại",
+    "invalidPasscode": "Mã không đúng",
+    "resendCode": "Gửi lại mã",
+    "resendCodeCooldown": "Gửi lại sau {seconds} giây",
+    "resendCodeSuccess": "Đã gửi mã mới.",
+    "resendCodeFailed": "Không thể gửi lại mã. Vui lòng thử lại.",
+    "verifyEmailSentTo": "Chúng tôi đã gửi mã tới {email}",
+    "verifyEmailSpamHint": "Kiểm tra thư rác. Bộ lọc email doanh nghiệp có thể trì hoãn vài phút.",
+    "useDifferentEmail": "Dùng email khác",
+    "otpEmailNotConfigured": "Không thể gửi email xác minh. Liên hệ quản trị viên.",
+    "otpEmailSendFailed": "Không thể gửi email xác minh. Kiểm tra thư rác hoặc thử lại sau.",
+    "otpUserNotFound": "Không tìm thấy tài khoản nhân viên cho email này.",
+    "tryDemo": "Thử bản demo",
+    "emailLabel": "Email",
+    "emailRequired": "Vui lòng nhập email",
+    "passwordLabel": "Mật khẩu",
+    "signInWithPassword": "Đăng nhập bằng email và mật khẩu",
+    "signInWithPasswordInstead": "Đăng nhập bằng mật khẩu",
+    "useVerificationCode": "Sử dụng mã xác minh thay thế"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#auth",
+    "githubPath": "app/auth.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/vi.json#auth"
+  }
+}

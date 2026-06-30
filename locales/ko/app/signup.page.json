@@ -1,0 +1,31 @@
+{
+  "pageId": "app.signup",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/signup",
+  "version": 2,
+  "sourceHash": "sha256:ddb5417f701bc66105f54e1db3bac33ffdab5057c480dd09cf5f531e7b0ea8d2",
+  "keys": {
+    "brandName": "Pregoi",
+    "title": "회원가입",
+    "firstNameLabel": "이름",
+    "firstNamePlaceholder": "이름을 입력하세요",
+    "emailLabel": "이메일",
+    "emailPlaceholder": "johndoe@gmail.com",
+    "passwordLabel": "비밀번호",
+    "passwordPlaceholder": "안전한 비밀번호를 입력하세요",
+    "confirmPasswordLabel": "비밀번호 확인",
+    "confirmPasswordPlaceholder": "비밀번호를 다시 입력하세요",
+    "submitButton": "계정 만들기",
+    "alreadyHaveAccount": "이미 계정이 있으신가요?",
+    "logIn": "로그인",
+    "errorPasswordsDoNotMatch": "비밀번호가 일치하지 않습니다",
+    "errorGeneric": "Something went wrong. Please try again.",
+    "signingUp": "Creating account…"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#signup",
+    "githubPath": "app/signup.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ko.json#signup"
+  }
+}

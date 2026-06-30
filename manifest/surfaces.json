@@ -1,0 +1,34 @@
+{
+  "surfaces": [
+    {
+      "id": "www",
+      "domain": "www.vouus.com",
+      "productRepo": "web-public",
+      "sourceRoot": "apps/marketing-web"
+    },
+    {
+      "id": "account",
+      "domain": "account.vouus.com",
+      "productRepo": "core-platform",
+      "sourceRoot": "apps/admin-web"
+    },
+    {
+      "id": "app",
+      "domain": "app.vouus.com",
+      "productRepo": "core-platform",
+      "sourceRoot": "apps/employee-web"
+    },
+    {
+      "id": "docs",
+      "domain": "docs.vouus.com",
+      "productRepo": "web-public",
+      "sourceRoot": "apps/docs/src/content/docs/legal"
+    },
+    {
+      "id": "email",
+      "domain": null,
+      "productRepo": "infra-email",
+      "sourceRoot": "packages/email-templates/src"
+    }
+  ]
+}

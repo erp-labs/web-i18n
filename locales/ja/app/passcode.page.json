@@ -1,0 +1,43 @@
+{
+  "pageId": "app.passcode",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/passcode",
+  "version": 2,
+  "sourceHash": "sha256:f3eb59f28ddec7ec0d8b414d2cf7d9d47113be9676d4ff8fb5ff44a0cbef4ee1",
+  "keys": {
+    "title": "パスコード",
+    "enterPin": "6桁のパスコードを入力してください",
+    "enterCurrentPin": "現在のパスコードを入力",
+    "changeNewPrompt": "新しいパスコードを入力",
+    "changeConfirmPrompt": "確認のため新しいパスコードを再入力",
+    "rememberDevice": "この端末を記憶する（個人のPCの場合のみチェック）",
+    "rememberDeviceShort": "この端末を記憶する",
+    "reset": "リセット",
+    "setTitle": "パスコード設定",
+    "setPrompt": "6桁のパスコードを入力",
+    "setConfirmPrompt": "確認のためもう一度入力",
+    "submit": "確認",
+    "mismatch": "パスコードが一致しません",
+    "invalidLength": "6桁で入力してください",
+    "forgotPasscode": "パスコードをお忘れですか？",
+    "resetNewPrompt": "新しい6桁のパスコードを入力してください",
+    "requestReset": "再設定リンクを請求",
+    "resetFailed": "リンクが無効または期限切れです。再度お試しください。",
+    "resetInvalidLink": "リンクが無効または期限切れです。パスコード再設定を再度請求してください。",
+    "requestResetFailed": "請求に失敗しました。もう一度お試しください。",
+    "forgotPrompt": "パスコード再設定リンクを受け取るメールアドレスを入力してください。",
+    "resetEmailSent": "そのメールで登録されたアカウントがある場合、再設定リンクを送信しました。受信トレイをご確認ください。",
+    "sendResetLink": "再設定リンクを送信",
+    "backToSignIn": "ログインに戻る",
+    "sessionExpired": "セッションの有効期限が切れました。最初から再度ログインしてください。",
+    "resetExpiryNotice": "このリンクは15分で期限切れになります。期限切れの場合はログイン画面から新しい再設定リンクを請求してください。",
+    "resetLinkExpiryAndRateLimit": "再設定リンクは15分で期限切れになります。メールが届かない場合は迷惑メールフォルダをご確認するか、しばらくしてから再度お試しください。",
+    "rateLimitNotice": "リクエストが多すぎます。数分後にもう一度お試しください。"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#passcode",
+    "githubPath": "app/passcode.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ja.json#passcode"
+  }
+}

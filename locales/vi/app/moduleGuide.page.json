@@ -1,0 +1,92 @@
+{
+  "pageId": "app.moduleGuide",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/moduleGuide",
+  "version": 2,
+  "sourceHash": "sha256:6a17eb3392f9231509390565517d774d2c9f981b45c9c523e1659755c053bd6e",
+  "keys": {
+    "common": {
+      "showGuide": "Cách sử dụng",
+      "dontShowAgain": "Không hiển thị lại",
+      "gotIt": "Đã hiểu",
+      "next": "Tiếp",
+      "back": "Quay lại",
+      "stepOf": "Bước {current} / {total}"
+    },
+    "attendance": {
+      "whatTitle": "Theo dõi giờ làm",
+      "whatBody": "Chấm công vào khi bắt đầu và chấm công ra khi kết thúc. Lịch sử chấm công sẽ tự động hiển thị tại đây.",
+      "howTitle": "Cách chấm công",
+      "howStep1": "Nhấn Vào ca khi đến nơi làm việc (văn phòng hoặc tại nhà).",
+      "howStep2": "Nhấn Tan ca khi kết thúc ca làm.",
+      "howStep3": "Xem giờ làm hằng ngày và tổng cộng trong danh sách này.",
+      "startTitle": "Sẵn sàng chấm công?",
+      "startBody": "Dùng nút chấm công ở đầu màn hình chính.",
+      "startCta": "Bắt đầu chấm công"
+    },
+    "expenses": {
+      "whatTitle": "Nộp yêu cầu chi phí",
+      "whatBody": "Chụp hóa đơn và nộp chi phí để được hoàn trả. Các khoản đã duyệt được theo dõi tại đây.",
+      "howTitle": "Cách thêm chi phí",
+      "howStep1": "Nhấn + và chụp hoặc tải hóa đơn lên.",
+      "howStep2": "Chọn danh mục và nhập số tiền.",
+      "howStep3": "Gửi để phê duyệt — cập nhật trạng thái hiển thị trong danh sách này.",
+      "startTitle": "Thêm chi phí đầu tiên",
+      "startBody": "Hãy chuẩn bị sẵn ảnh hóa đơn.",
+      "startCta": "Thêm chi phí"
+    },
+    "checklist": {
+      "whatTitle": "Quản lý công việc",
+      "whatBody": "Gom việc làm, việc nhà và việc cá nhân trong một danh sách với hạn chót và tiến độ.",
+      "howTitle": "Cách dùng danh sách việc",
+      "howStep1": "Nhấn + để tạo việc với tên và hạn chót.",
+      "howStep2": "Đánh dấu hoàn thành khi làm xong.",
+      "howStep3": "Theo dõi tiến độ tổng thể trên thanh tổng quan.",
+      "startTitle": "Tạo việc đầu tiên",
+      "startBody": "Bắt đầu với một việc nhỏ hết hạn hôm nay.",
+      "startCta": "Thêm việc"
+    },
+    "invoices": {
+      "whatTitle": "Tạo và gửi hóa đơn",
+      "whatBody": "Lập hóa đơn chuyên nghiệp, xem trước và theo dõi trạng thái thanh toán.",
+      "howTitle": "Cách tạo hóa đơn",
+      "howStep1": "Nhấn + và nhập thông tin khách hàng và các dòng chi tiết.",
+      "howStep2": "Xem trước hóa đơn trước khi gửi.",
+      "howStep3": "Gửi cho khách hàng và theo dõi chưa thanh toán và đã thanh toán tại đây.",
+      "startTitle": "Tạo hóa đơn đầu tiên",
+      "startBody": "Bạn có thể lưu bản nháp và hoàn tất sau.",
+      "startCta": "Tạo hóa đơn"
+    },
+    "customers": {
+      "whatTitle": "Your customer list",
+      "whatBody": "Browse ERP customers synced from your company workspace.",
+      "howTitle": "Need pipeline or deals?",
+      "howStep1": "Use Open in CRM for Frappe CRM on your tenant host.",
+      "howStep2": "Use Work Desk for full ERP customer records and accounting links."
+    },
+    "leaves": {
+      "whatTitle": "Xin nghỉ phép",
+      "whatBody": "Đăng ký nghỉ phép hàng năm, nghỉ ốm và các loại khác. Số ngày còn lại và lịch sử ở cùng một nơi.",
+      "howTitle": "Cách xin nghỉ phép",
+      "howStep1": "Kiểm tra số ngày nghỉ còn lại ở phía trên.",
+      "howStep2": "Chọn ngày trên lịch và chọn loại nghỉ phép.",
+      "howStep3": "Gửi yêu cầu — nghỉ phép đã duyệt hiển thị trong lịch sử.",
+      "startTitle": "Gửi yêu cầu nghỉ phép",
+      "startBody": "Dùng biểu mẫu phía trên để chọn ngày và loại nghỉ.",
+      "startCta": "Xin nghỉ phép"
+    },
+    "notices": {
+      "whatTitle": "Thông báo công việc",
+      "whatBody": "Cập nhật về nghỉ phép, chi phí, hóa đơn và công việc từ ERP của công ty hiển thị tại đây.",
+      "howTitle": "Cách hoạt động của thông báo",
+      "howStep1": "Nhấn biểu tượng chuông trên thông báo để đánh dấu đã đọc.",
+      "howStep2": "Dùng Xem chi tiết để mở module liên quan khi có liên kết."
+    }
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#moduleGuide",
+    "githubPath": "app/moduleGuide.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/vi.json#moduleGuide"
+  }
+}

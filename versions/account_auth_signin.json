@@ -1,0 +1,93 @@
+[
+  {
+    "version": 1,
+    "enHash": "sha256:5c0e153e8e9f912431db0c4ad1aa88966c7d8c5b46a0b667b8bef912f425c521",
+    "locale": "en",
+    "method": "extract",
+    "at": "2026-06-30T07:03:02.686Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:5c0e153e8e9f912431db0c4ad1aa88966c7d8c5b46a0b667b8bef912f425c521",
+    "locale": "ja",
+    "method": "cursor-ai",
+    "at": "2026-06-30T07:03:03.035Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:5c0e153e8e9f912431db0c4ad1aa88966c7d8c5b46a0b667b8bef912f425c521",
+    "locale": "ko",
+    "method": "cursor-ai",
+    "at": "2026-06-30T07:03:03.036Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:5c0e153e8e9f912431db0c4ad1aa88966c7d8c5b46a0b667b8bef912f425c521",
+    "locale": "zh",
+    "method": "cursor-ai",
+    "at": "2026-06-30T07:03:03.037Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:5c0e153e8e9f912431db0c4ad1aa88966c7d8c5b46a0b667b8bef912f425c521",
+    "locale": "ar",
+    "method": "cursor-ai",
+    "at": "2026-06-30T07:03:03.037Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:5c0e153e8e9f912431db0c4ad1aa88966c7d8c5b46a0b667b8bef912f425c521",
+    "locale": "vi",
+    "method": "cursor-ai",
+    "at": "2026-06-30T07:03:03.037Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:5c0e153e8e9f912431db0c4ad1aa88966c7d8c5b46a0b667b8bef912f425c521",
+    "locale": "th",
+    "method": "cursor-ai",
+    "at": "2026-06-30T07:03:03.037Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:5c0e153e8e9f912431db0c4ad1aa88966c7d8c5b46a0b667b8bef912f425c521",
+    "locale": "id",
+    "method": "cursor-ai",
+    "at": "2026-06-30T07:03:03.038Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:5c0e153e8e9f912431db0c4ad1aa88966c7d8c5b46a0b667b8bef912f425c521",
+    "locale": "ms",
+    "method": "cursor-ai",
+    "at": "2026-06-30T07:03:03.038Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:5c0e153e8e9f912431db0c4ad1aa88966c7d8c5b46a0b667b8bef912f425c521",
+    "locale": "si",
+    "method": "cursor-ai",
+    "at": "2026-06-30T07:03:03.038Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:5c0e153e8e9f912431db0c4ad1aa88966c7d8c5b46a0b667b8bef912f425c521",
+    "locale": "ur",
+    "method": "cursor-ai",
+    "at": "2026-06-30T07:03:03.038Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:5c0e153e8e9f912431db0c4ad1aa88966c7d8c5b46a0b667b8bef912f425c521",
+    "locale": "hi",
+    "method": "cursor-ai",
+    "at": "2026-06-30T07:03:03.039Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:5c0e153e8e9f912431db0c4ad1aa88966c7d8c5b46a0b667b8bef912f425c521",
+    "locale": "en",
+    "method": "extract",
+    "at": "2026-06-30T07:07:45.653Z"
+  }
+]

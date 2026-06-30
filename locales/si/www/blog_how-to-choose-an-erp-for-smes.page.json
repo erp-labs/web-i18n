@@ -1,0 +1,19 @@
+{
+  "pageId": "www.blog_how-to-choose-an-erp-for-smes",
+  "surface": "www",
+  "route": "/blog/how-to-choose-an-erp-for-smes",
+  "version": 1,
+  "sourceHash": "sha256:e59b0a2a86051f6dd2a370d3470b4cad133d9e508217929df8eaf48fcdc1dd8a",
+  "keys": {
+    "path": "/blog/how-to-choose-an-erp-for-smes",
+    "meta_title": "How to Choose the Right ERP for a Growing SME",
+    "meta_description": "Most ERP evaluation checklists focus on features. The real question is whether the system fits how your team actually works."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts blog/how-to-choose-an-erp-for-smes",
+    "githubPath": "www/blog_how-to-choose-an-erp-for-smes.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

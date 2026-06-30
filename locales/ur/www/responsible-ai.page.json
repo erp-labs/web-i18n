@@ -1,0 +1,19 @@
+{
+  "pageId": "www.responsible-ai",
+  "surface": "www",
+  "route": "/responsible-ai",
+  "version": 1,
+  "sourceHash": "sha256:804e0493f97b567a9b055d326338c420cc6b9d201efc393a9f611ca7676c583b",
+  "keys": {
+    "path": "/responsible-ai",
+    "meta_title": "Responsible Use Policy",
+    "meta_description": "Responsible AI use policy."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts responsible-ai",
+    "githubPath": "www/responsible-ai.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

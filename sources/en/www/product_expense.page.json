@@ -1,0 +1,17 @@
+{
+  "pageId": "www.product_expense",
+  "surface": "www",
+  "route": "/product/expense",
+  "version": 1,
+  "sourceHash": "sha256:543ee0b1dae36fe04933a0e32208762266da3ace219f13a1b07fecda4275b919",
+  "keys": {
+    "path": "/product/expense",
+    "meta_title": "Expense & Claims | Vouus",
+    "meta_description": "Receipt capture, claims, multi-step approvals, and accounting sync."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts product/expense",
+    "githubPath": "www/product_expense.page.json"
+  }
+}
