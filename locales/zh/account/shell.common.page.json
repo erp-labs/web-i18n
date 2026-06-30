@@ -1,0 +1,29 @@
+{
+  "pageId": "account.shell.common",
+  "surface": "account",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:ecf1b6dd7da26f576a6f1ee1a5f7811a5b8ffa212142a37fd0a5e4d097741756",
+  "keys": {
+    "loading": "Loading…",
+    "loadOrganizationsError": "Could not load your organizations.",
+    "loadOrganizationError": "Could not load your organization.",
+    "loadBillingError": "Could not load billing details. Try again or contact support.",
+    "loadIntegrationsError": "Failed to load integrations.",
+    "selectLanguage": "Select language",
+    "language": "Language",
+    "retry": "Retry",
+    "networkError": "Network error. Please try again.",
+    "networkErrorCheckConnection": "Network error. Please check your connection.",
+    "networkErrorCheckConnectionRetry": "Network error. Please check your connection and try again.",
+    "networkErrorLoadingUsage": "Network error loading usage.",
+    "networkErrorBillingPortal": "Network error while opening the billing portal."
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web null",
+    "githubPath": "account/shell.common.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

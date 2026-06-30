@@ -2,17 +2,24 @@
   "pageId": "account.auth.signup",
   "surface": "account",
   "route": "/signup",
-  "version": 1,
+  "version": 3,
   "sourceHash": "sha256:b157861ca3ef1a6277cabe3ce03f14b8448cadc23cd00733a8103a651dbfc23c",
   "keys": {
-    "title": "Create your account",
-    "submit": "Sign up"
+    "title": "ලියාපදිංචි වන්න",
+    "submit": "සත්‍යාපන කේතය යවන්න",
+    "titleEmailLocked": "විද්‍යුත් තැපෑල",
+    "intro": "ආරම්භ කිරීමට ඔබගේ ගිණුම සාදන්න.",
+    "introEmailLocked": "ගිණුම සෑදීම සම්පූර්ණ කිරීමට ඔබට උදව් කිරීමට අපි මෙම ලිපිනයට සත්‍යාපන කේතයක් යවමු.",
+    "emailLabel": "විද්‍යුත් තැපැල් ලිපිනය",
+    "emailLockedHint": "මෙම ලිපිනය pregoi.com හි සත්‍යාපනය කර ඇති අතර මෙහි වෙනස් කළ නොහැක.",
+    "submitting": "යවමින්…"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /signup",
     "githubPath": "account/auth.signup.page.json",
-    "translationStatus": "ai_draft",
-    "method": "cursor-ai"
+    "translationStatus": "review",
+    "method": "cursor-ai-2",
+    "reviewedAt": "2026-06-30"
   }
 }

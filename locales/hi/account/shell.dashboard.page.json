@@ -1,0 +1,20 @@
+{
+  "pageId": "account.shell.dashboard",
+  "surface": "account",
+  "route": "/dashboard",
+  "version": 3,
+  "sourceHash": "sha256:e6f240877e65ee243353d0fb18280c2145b45bf9a9193ad0ae86381b5259e86f",
+  "keys": {
+    "title": "डैशबोर्ड",
+    "subtitle": "आपके खाते और सेवाओं का अवलोकन",
+    "subtitleSignedIn": "स्वागत है, {name} — अपनी subscription, portals और usage प्रबंधित करें।"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /dashboard",
+    "githubPath": "account/shell.dashboard.page.json",
+    "translationStatus": "review",
+    "method": "cursor-ai-2",
+    "reviewedAt": "2026-06-30"
+  }
+}

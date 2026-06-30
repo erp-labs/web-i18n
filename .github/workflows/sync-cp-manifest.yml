@@ -1,0 +1,45 @@
+name: Sync CP i18n manifest
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'manifest/pages.json'
+      - 'manifest/locales.json'
+      - 'sources/en/**'
+
+jobs:
+  sync-manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: POST sync-manifest to Control Plane
+        env:
+          CP_BASE_URL: ${{ secrets.CONTROL_PLANE_URL }}
+          INTERNAL_API_KEY: ${{ secrets.INTERNAL_API_KEY }}
+        run: |
+          if [ -z "$CP_BASE_URL" ] || [ -z "$INTERNAL_API_KEY" ]; then
+            echo "Skip: CONTROL_PLANE_URL or INTERNAL_API_KEY not configured"
+            exit 0
+          fi
+          MANIFEST=$(node -e "const fs=require('fs');const p=JSON.parse(fs.readFileSync('manifest/pages.json','utf8'));process.stdout.write(JSON.stringify({pages:p.pages??p}));")
+          curl -fsS -X POST "$CP_BASE_URL/internal/v1/i18n/sync-manifest" \
+            -H "Authorization: Bearer $INTERNAL_API_KEY" \
+            -H "Content-Type: application/json" \
+            -d "$MANIFEST"
+
+      - name: POST sync-github (fetch manifest from GitHub raw)
+        env:
+          CP_BASE_URL: ${{ secrets.CONTROL_PLANE_URL }}
+          INTERNAL_API_KEY: ${{ secrets.INTERNAL_API_KEY }}
+        run: |
+          if [ -z "$CP_BASE_URL" ] || [ -z "$INTERNAL_API_KEY" ]; then
+            echo "Skip: CONTROL_PLANE_URL or INTERNAL_API_KEY not configured"
+            exit 0
+          fi
+          curl -fsS -X POST "$CP_BASE_URL/internal/v1/i18n/sync-github" \
+            -H "Authorization: Bearer $INTERNAL_API_KEY" \
+            -H "Content-Type: application/json" \
+            -d '{}'

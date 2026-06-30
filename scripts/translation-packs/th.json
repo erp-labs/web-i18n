@@ -1,0 +1,167 @@
+{
+  "pages": {
+    "account.auth.signin": {
+      "title": "เข้าสู่ระบบ",
+      "titleLogin": "เข้าสู่ระบบ",
+      "titleGetStarted": "เริ่มต้นใช้งาน",
+      "titlePortalPasswordSetup": "ตั้งรหัสผ่านผู้ดูแลบริการ",
+      "descriptionDefault": "เข้าสู่ระบบด้วยอีเมลที่ลงทะเบียนไว้สำหรับ workspace ของคุณ",
+      "descriptionEmailLocked": "เราจะส่งรหัสยืนยันไปยังที่อยู่นี้เพื่อเข้าสู่ระบบ",
+      "descriptionPackageFunnel": "เข้าสู่ระบบหรือสร้างบัญชีเพื่อดำเนินการชำระเงินต่อ",
+      "descriptionPortalPassword": "กรอกอีเมลของคุณ เราจะส่งรหัสยืนยัน จากนั้นคุณสามารถสร้างรหัสผ่านผู้ดูแลบริการได้",
+      "descriptionLoginGate": "เข้าสู่ระบบด้วยอีเมลและรหัสผ่าน เราจะส่งรหัสยืนยันทางอีเมลในขั้นตอนถัดไป",
+      "submit": "ดำเนินการต่อ",
+      "submitLogin": "เข้าสู่ระบบ",
+      "submitSendCode": "ส่งรหัสยืนยัน",
+      "submitting": "กำลังส่ง…",
+      "submittingLogin": "กำลังเข้าสู่ระบบ…",
+      "submittingVerify": "กำลังยืนยัน…",
+      "emailLabel": "ที่อยู่อีเมล",
+      "passwordLabel": "รหัสผ่าน"
+    },
+    "account.auth.signup": {
+      "title": "สมัครสมาชิก",
+      "titleEmailLocked": "อีเมล",
+      "intro": "สร้างบัญชีของคุณเพื่อเริ่มต้นใช้งาน",
+      "introEmailLocked": "เราจะส่งรหัสยืนยันไปยังที่อยู่นี้เพื่อให้คุณสร้างบัญชีให้เสร็จสมบูรณ์",
+      "emailLabel": "ที่อยู่อีเมล",
+      "emailLockedHint": "ที่อยู่นี้ได้รับการยืนยันบน pregoi.com แล้ว และไม่สามารถเปลี่ยนได้ที่นี่",
+      "submit": "ส่งรหัสยืนยัน",
+      "submitting": "กำลังส่ง…"
+    },
+    "account.auth.verify": {
+      "title": "ยืนยันตัวตนของคุณ",
+      "intro": "กรุณากรอกรหัสใช้ครั้งเดียวที่ส่งไปยังอีเมลของคุณเพื่อดำเนินการต่อ",
+      "emailPrefix": "อีเมล:",
+      "sendUncertainBanner": "เราไม่สามารถยืนยันการส่งได้ แต่อีเมลยืนยันอาจอยู่ในกล่องจดหมายของคุณแล้ว กรุณากรอกรหัสล่าสุดด้านล่าง",
+      "verify": "ยืนยัน",
+      "verifying": "กำลังยืนยัน…",
+      "loading": "กำลังโหลด…"
+    },
+    "account.onboarding.company": {
+      "title": "บริษัท",
+      "submit": "ดำเนินการต่อ"
+    },
+    "account.onboarding.platform": {
+      "title": "แพลตฟอร์ม",
+      "intro": "เลือก ERP stack และผู้ให้บริการคลาวด์สำหรับ workspace นี้",
+      "submit": "ดำเนินการต่อ"
+    },
+    "account.onboarding.review": {
+      "title": "ตรวจสอบและยืนยัน",
+      "intro": "ตรวจสอบรายละเอียดบริษัทของคุณก่อนที่เราจะสร้าง workspace และเริ่มการจัดเตรียมระบบ",
+      "submit": "เริ่มเปิดใช้งาน"
+    },
+    "account.onboarding.launch": {
+      "title": "ใกล้เสร็จแล้ว",
+      "titleProgress": "ความคืบหน้าการตั้งค่า",
+      "titleVerifying": "กำลังตรวจสอบสถานะเซิร์ฟเวอร์",
+      "titleSettingUp": "กำลังตั้งค่าเซิร์ฟเวอร์ของคุณ",
+      "titleStopped": "การตั้งค่าหยุดชะงัก"
+    },
+    "account.billing.upgrade": {
+      "title": "อัปเกรดแพ็กเกจ",
+      "subtitle": "เลือกแผนที่สูงขึ้นสำหรับ workspace ของคุณ",
+      "bodyNote": "เซิร์ฟเวอร์เฉพาะและข้อมูลของคุณยังคงอยู่เมื่อคุณย้ายไปแผนที่สูงขึ้น",
+      "submit": "อัปเกรด",
+      "backToBilling": "← กลับไปการเรียกเก็บเงิน"
+    },
+    "account.billing.upgrade_success": {
+      "titlePayment": "ชำระเงินสำเร็จ",
+      "titleInline": "อัปเดตแพ็กเกจแล้ว",
+      "body": "รายละเอียดการสมัครสมาชิกอาจใช้เวลาสักครู่ในการซิงค์จาก Stripe",
+      "bodyWithPlan": "workspace ของคุณกำลังย้ายไปยัง {plan} รายละเอียดการสมัครสมาชิกอาจใช้เวลาสักครู่ในการซิงค์จาก Stripe",
+      "cta": "ดูการเรียกเก็บเงิน"
+    },
+    "account.shell.dashboard": {
+      "title": "แดชบอร์ด",
+      "subtitle": "ภาพรวมบัญชีและบริการของคุณ",
+      "subtitleSignedIn": "ยินดีต้อนรับ {name} — จัดการการสมัครสมาชิก พอร์ทัล และการใช้งานของคุณ"
+    },
+    "account.shell.billing": {
+      "title": "การเรียกเก็บเงิน",
+      "subtitle": "จัดการการสมัครสมาชิก วิธีการชำระเงิน และประวัติของคุณ",
+      "subtitleWithEmail": "จัดการการสมัครสมาชิก วิธีการชำระเงิน และประวัติสำหรับ {email}"
+    },
+    "account.shell.profile": {
+      "title": "โปรไฟล์",
+      "subtitle": "รายละเอียดบัญชีและองค์กรของคุณ"
+    },
+    "account.shell.integrations": {
+      "title": "การเชื่อมต่อ",
+      "subtitle": "เชื่อมต่อเครื่องมือภายนอกกับ workspace ของคุณ"
+    },
+    "account.shell.usage": {
+      "title": "การใช้งานบริการ",
+      "subtitle": "ติดตามโควต้าพื้นที่จัดเก็บ อีเมล โทเค็น AI และที่นั่งพอร์ทัลพนักงานตามแผนของคุณ"
+    },
+    "account.shell.users": {
+      "title": "ผู้ใช้",
+      "subtitle": "จัดการพนักงานที่สามารถเข้าสู่ระบบพอร์ทัลพนักงานของคุณได้"
+    },
+    "www.trial": {
+      "path": "/trial",
+      "meta_title": "เริ่มทดลองใช้ | Vouus",
+      "meta_description": "กรอกอีเมลงานของคุณเพื่อเริ่มทดลองใช้แบบมีคำแนะนำ โดเมนธุรกิจจะได้รับสิทธิ์ทันที เราจะแนะนำคุณตลอดการตั้งค่า",
+      "hero_title": "ทดลองใช้ Pro ฟรี 14 วัน",
+      "hero_subtitle": "ยืนยันอีเมลงานของคุณเพื่อดำเนินการสมัครต่อ",
+      "whyWorkEmailLabel": "ทำไมต้องใช้อีเมลงาน?",
+      "bullet1": "เข้าถึง Pro เต็มรูปแบบ 14 วัน",
+      "bullet2": "ไม่ต้องใช้บัตรเครดิต",
+      "bullet3": "เซิร์ฟเวอร์และข้อมูลของคุณยังคงอยู่หลังทดลองใช้"
+    },
+    "www.about": {
+      "path": "/about",
+      "meta_title": "เกี่ยวกับเรา",
+      "meta_description": "พันธกิจ ค่านิยม และเรื่องราวของเรา",
+      "hero_title": "งานเคลื่อนไหวที่นี่",
+      "hero_subtitle": "สร้างขึ้นในสิงคโปร์สำหรับทีมที่ทำงานรวดเร็ว",
+      "missionTitle": "พันธกิจของเรา",
+      "valuesTitle": "สิ่งที่เราเชื่อ",
+      "ctaTitle": "พร้อมดู Vouus ในการทำงานจริงหรือยัง?",
+      "ctaBody": "ทดลองใช้ Pro 14 วัน หรือนัดสาธิตส่วนตัวกับทีมของเรา"
+    },
+    "www.contact": {
+      "path": "/contact",
+      "meta_title": "ติดต่อเรา",
+      "meta_description": "ช่องทางติดต่อฝ่ายขาย การสนับสนุน และองค์กร",
+      "hero_title": "ติดต่อเรา",
+      "hero_subtitle": "ไม่ว่าคุณจะกำลังประเมินแพลตฟอร์ม พร้อมเริ่มต้น หรือต้องการความช่วยเหลือกับบัญชีที่มีอยู่ — เราตอบกลับภายในหนึ่งวันทำการ",
+      "faqTitle": "คำตอบด่วน"
+    },
+    "email.welcome": {
+      "subject": "หัวข้อแบบไดนามิก (ต้อนรับ)",
+      "headerTitle": "การสมัครสมาชิกของคุณเปิดใช้งานแล้ว",
+      "bodyIntro": "การสมัครสมาชิก {company_name} ของคุณในแผน {package_name} เปิดใช้งานแล้ว",
+      "nextStepsTitle": "ขั้นตอนถัดไป",
+      "textHeader": "การสมัครสมาชิกของคุณเปิดใช้งานแล้ว"
+    },
+    "email.provisioning": {
+      "subject": "หัวข้อแบบไดนามิก (การจัดเตรียม)",
+      "headerTitle": "workspace ของคุณพร้อมแล้ว",
+      "introTemplate": "workspace {serviceName} ของคุณจัดเตรียมเสร็จแล้ว ใช้ลิงก์ด้านล่างเพื่อเข้าสู่ระบบและเริ่มต้นใช้งาน",
+      "textHeader": "workspace ของคุณพร้อมแล้ว"
+    },
+    "email.desk_credentials": {
+      "subject": "หัวข้อแบบไดนามิก (desk-credentials)",
+      "headerTitle": "ข้อมูลเข้าสู่ระบบ Work Desk",
+      "introTemplate": "สวัสดี  workspace {serviceName} ของคุณพร้อมแล้ว ใช้ข้อมูลด้านล่างสำหรับ Work Desk และ Work App เท่านั้น",
+      "passwordLabel": "รหัสผ่าน (Work Desk และ Work App)",
+      "workAppLabel": "Work App URL",
+      "accountPortalLabel": "พอร์ทัลบัญชี"
+    },
+    "account.shell.backup": {
+      "pageTitle": "สำรองข้อมูล",
+      "pageDescription": "ดูสถานะการสำรองข้อมูลอัตโนมัติ นโยบายการเก็บรักษา และจุดกู้คืนสำหรับองค์กรของคุณ",
+      "loadError": "ไม่สามารถโหลดสถานะการสำรองข้อมูลได้ กรุณาลองอีกครั้ง",
+      "maintenanceError": "สถานะการสำรองข้อมูลไม่พร้อมใช้งานชั่วคราว ทีมงานได้รับแจ้งแล้ว — กรุณาลองอีกครั้งหรือติดต่อฝ่ายสนับสนุน",
+      "forbiddenError": "คุณไม่มีสิทธิ์เข้าถึงสถานะการสำรองข้อมูลขององค์กรนี้",
+      "statusHeroTitle": "สถานะการสำรองข้อมูล",
+      "noOrganizations": "ไม่มีองค์กรที่เชื่อมกับบัญชีของคุณ"
+    },
+    "account.integrations.xero_migration": {
+      "title": "งานย้ายข้อมูล Xero",
+      "subtitleLoading": "กำลังโหลดสถานะงาน…"
+    }
+  }
+}

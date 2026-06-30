@@ -3,9 +3,22 @@
   "surface": "email",
   "route": null,
   "version": 1,
-  "sourceHash": "sha256:0cc521ad288d6486df4163fcabca8c352a2062798afc6685b73fef3a94274026",
+  "sourceHash": "sha256:28ac82063f33078bab003bbf7425338dde45937787d2fdcc8ef4d8f3ce080a28",
   "keys": {
     "subject": "Dynamic subject (billing-payment-success)",
+    "headerTitle": "Payment received",
+    "headlineSubtitle": "{planName} · {serviceName}",
+    "greetingTemplate": "Hello, {contactName},",
+    "introTemplate": "We received your payment for {companyName}. Your subscription is active and you can continue setting up your workspace.",
+    "amountLabel": "Amount",
+    "paidAtLabel": "Paid at",
+    "paymentMethodLabel": "Payment method",
+    "downloadReceiptLabel": "Download receipt",
+    "viewInvoiceLabel": "View invoice",
+    "continueOnboardingPrefix": "Continue onboarding in the ",
+    "continueOnboardingLinkLabel": "admin portal",
+    "stripeNote": "You may also receive a receipt from Stripe. Questions? Contact {supportEmail}.",
+    "textHeader": "Payment received",
     "_sourceNote": "Extracted from billing-payment-success.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
   },
   "meta": {

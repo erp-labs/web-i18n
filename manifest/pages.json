@@ -15,7 +15,7 @@
       "surface": "app",
       "route": "/{companyId}/{locale}/signin",
       "version": 1,
-      "sourceHash": "sha256:d11db4e2568fff0acd1a3e537126e705c035b887877f2da41867c16f01d45730",
+      "sourceHash": "sha256:b61dd77a92d1b93ec0a17e819f49b7fe6ee4a05d3e75cfd8500c3712433b4c84",
       "reviewRequired": false,
       "githubPath": "app/signin.page.json",
       "sourcePath": "apps/employee-web/dictionaries/en.json#signin"
@@ -215,7 +215,7 @@
       "surface": "email",
       "route": null,
       "version": 1,
-      "sourceHash": "sha256:47d18968d16ff2fbe043a22e42ab86814ab26342a6564626903439e5c5d5c0e8",
+      "sourceHash": "sha256:cebada216d85b5cc4bbe5a2544931924aa48005894acf9465cc126bd98302f38",
       "reviewRequired": false,
       "githubPath": "email/provisioning.page.json",
       "sourcePath": "packages/email-templates/src/provisioning.ts"
@@ -225,7 +225,7 @@
       "surface": "email",
       "route": null,
       "version": 1,
-      "sourceHash": "sha256:987d8f6afe835071745e81dfce7a1fde78aef376b375a914af9fe16e82e1ff79",
+      "sourceHash": "sha256:a2e1d0e232ffce775bc99e7d1c29eda988cbd94d44e0525cd60271240ac3d82a",
       "reviewRequired": false,
       "githubPath": "email/welcome.page.json",
       "sourcePath": "packages/email-templates/src/welcome.ts"
@@ -235,7 +235,7 @@
       "surface": "email",
       "route": null,
       "version": 1,
-      "sourceHash": "sha256:0cae946f9c82ff636013de25e508bab6b0d48678d23e975c3b34e7dc7ddbe264",
+      "sourceHash": "sha256:1e0a390dcee914d4e30d7928fc99fe80416bf6f99783ce510f652ef2d9b69c4e",
       "reviewRequired": false,
       "githubPath": "email/desk-credentials.page.json",
       "sourcePath": "packages/email-templates/src/desk-credentials.ts"
@@ -245,7 +245,7 @@
       "surface": "email",
       "route": null,
       "version": 1,
-      "sourceHash": "sha256:740e4617c13619da36a51a7beffc11222ba7cdc216a2f5a15c5df15668a28df7",
+      "sourceHash": "sha256:7fc814ca6e0a439363fdf37a3933f2c81dd3bd0aa381126173430c534511234e",
       "reviewRequired": false,
       "githubPath": "email/employee-portal-invite.page.json",
       "sourcePath": "packages/email-templates/src/employee-portal-invite.ts"
@@ -255,7 +255,7 @@
       "surface": "email",
       "route": null,
       "version": 1,
-      "sourceHash": "sha256:8268b050d7d08c1de1e60296a7974d221e94fd8a85a936665be1f4612b141224",
+      "sourceHash": "sha256:80da5f86b941800c2e535fa7b0010890d3a8aeea7b1dedc847c7dcd81c3be677",
       "reviewRequired": false,
       "githubPath": "email/portal-password-reset.page.json",
       "sourcePath": "packages/email-templates/src/portal-password-reset.ts"
@@ -265,7 +265,7 @@
       "surface": "email",
       "route": null,
       "version": 1,
-      "sourceHash": "sha256:ea10bcc8c74af77525778e72d521535c03332e09485f7f1707de3a4f8b295d62",
+      "sourceHash": "sha256:97b8a9dc56ee5e4b4af2f55ff1e1ff8bed5fc94ae49ea87550eac2f4c105a694",
       "reviewRequired": false,
       "githubPath": "email/tenant-admin-credentials.page.json",
       "sourcePath": "packages/email-templates/src/tenant-admin-credentials.ts"
@@ -275,7 +275,7 @@
       "surface": "email",
       "route": null,
       "version": 1,
-      "sourceHash": "sha256:0cc521ad288d6486df4163fcabca8c352a2062798afc6685b73fef3a94274026",
+      "sourceHash": "sha256:28ac82063f33078bab003bbf7425338dde45937787d2fdcc8ef4d8f3ce080a28",
       "reviewRequired": false,
       "githubPath": "email/billing-payment-success.page.json",
       "sourcePath": "packages/email-templates/src/billing-payment-success.ts"
@@ -285,20 +285,140 @@
       "surface": "email",
       "route": null,
       "version": 1,
-      "sourceHash": "sha256:0e5b46ab6d59e0a532fc67cf43151af686e2fa9643cbbeaec5126e5e6d8ed4b2",
+      "sourceHash": "sha256:14aab62e34906c68b2f7fe500bf5c21db5a643193d48d4502bef1d7df0d224cb",
       "reviewRequired": false,
       "githubPath": "email/billing-invoice-paid.page.json",
       "sourcePath": "packages/email-templates/src/billing-invoice-paid.ts"
+    },
+    {
+      "pageId": "email.trial_start",
+      "surface": "email",
+      "route": null,
+      "version": 1,
+      "sourceHash": "sha256:eafbf225f8a2dddfa40f6688d30448a1a878759f8b82683b47452fae09eec65b",
+      "reviewRequired": false,
+      "githubPath": "email/trial-start.page.json",
+      "sourcePath": "packages/email-templates/src/trial.ts"
+    },
+    {
+      "pageId": "email.trial_day_7",
+      "surface": "email",
+      "route": null,
+      "version": 1,
+      "sourceHash": "sha256:7ce28fea5307e10d724f75fafe6cc36eacdf2d1e969dd6b4c574fa18759e41cc",
+      "reviewRequired": false,
+      "githubPath": "email/trial-day-7.page.json",
+      "sourcePath": "packages/email-templates/src/trial.ts"
+    },
+    {
+      "pageId": "email.trial_day_1",
+      "surface": "email",
+      "route": null,
+      "version": 1,
+      "sourceHash": "sha256:3030ddbc15d87cb4ca52a10226b7bc969cb757abe4d4ff47718e18063bc2fb2b",
+      "reviewRequired": false,
+      "githubPath": "email/trial-day-1.page.json",
+      "sourcePath": "packages/email-templates/src/trial.ts"
+    },
+    {
+      "pageId": "email.trial_last_chance",
+      "surface": "email",
+      "route": null,
+      "version": 1,
+      "sourceHash": "sha256:0df3ae6f779373b19f3bbfe10207df27ce3864b2f86d3aa889c33614072a0c4d",
+      "reviewRequired": false,
+      "githubPath": "email/trial-last-chance.page.json",
+      "sourcePath": "packages/email-templates/src/trial.ts"
+    },
+    {
+      "pageId": "email.trial_manual_receipt",
+      "surface": "email",
+      "route": null,
+      "version": 1,
+      "sourceHash": "sha256:cf8af9cd26b3a7bf7ca383b15323d1095f40f8b7be08fb2736ccb9d405a35d4d",
+      "reviewRequired": false,
+      "githubPath": "email/trial-manual-receipt.page.json",
+      "sourcePath": "packages/email-templates/src/trial-manual.ts"
+    },
+    {
+      "pageId": "email.trial_manual_approved",
+      "surface": "email",
+      "route": null,
+      "version": 1,
+      "sourceHash": "sha256:0302349587549754323493ee588c81b0a29b484abb22498274a63a0f8f798269",
+      "reviewRequired": false,
+      "githubPath": "email/trial-manual-approved.page.json",
+      "sourcePath": "packages/email-templates/src/trial-manual.ts"
+    },
+    {
+      "pageId": "email.trial_manual_rejected",
+      "surface": "email",
+      "route": null,
+      "version": 1,
+      "sourceHash": "sha256:6479054868b7cdfee13425d98d833b5c0e4d0155d461e89fe541eb14136fcefb",
+      "reviewRequired": false,
+      "githubPath": "email/trial-manual-rejected.page.json",
+      "sourcePath": "packages/email-templates/src/trial-manual.ts"
+    },
+    {
+      "pageId": "email.trial_verify_reminder",
+      "surface": "email",
+      "route": null,
+      "version": 1,
+      "sourceHash": "sha256:3a2f0e6d86fc94c658e5f8928e6b66d6ffdb203b4f339deeab032ef68c86176c",
+      "reviewRequired": false,
+      "githubPath": "email/trial-verify-reminder.page.json",
+      "sourcePath": "packages/email-templates/src/trial-manual.ts"
     },
     {
       "pageId": "email.employee_feedback",
       "surface": "email",
       "route": null,
       "version": 1,
-      "sourceHash": "sha256:1e838c652f9a0533d3772ae6e744f55aa4b5b538241e5fbfb537b6af2c25c9ab",
+      "sourceHash": "sha256:dec371c6775a372831b75bb13cc66a56adf620116a21827a454807217ad1e899",
       "reviewRequired": false,
       "githubPath": "email/employee-feedback.page.json",
       "sourcePath": "packages/email-templates/src/employee-feedback.ts"
+    },
+    {
+      "pageId": "email.xero_migration_completed",
+      "surface": "email",
+      "route": null,
+      "version": 1,
+      "sourceHash": "sha256:e1c790a7fd9821628f10fc080b12ec8a8b35264c916363313cdd32f6875c6d47",
+      "reviewRequired": false,
+      "githubPath": "email/xero-migration-completed.page.json",
+      "sourcePath": "packages/email-templates/src/xero-bridge.ts"
+    },
+    {
+      "pageId": "email.xero_migration_failed",
+      "surface": "email",
+      "route": null,
+      "version": 1,
+      "sourceHash": "sha256:bcea99036fae690ebf58f7ea712638c02bfea4bfdee19d6845f803011e4b8815",
+      "reviewRequired": false,
+      "githubPath": "email/xero-migration-failed.page.json",
+      "sourcePath": "packages/email-templates/src/xero-bridge.ts"
+    },
+    {
+      "pageId": "email.xero_token_expired",
+      "surface": "email",
+      "route": null,
+      "version": 1,
+      "sourceHash": "sha256:e9bec95e463bce9a07b8588c03bc09806aa2b27a003dd6ea3135d86beec06057",
+      "reviewRequired": false,
+      "githubPath": "email/xero-token-expired.page.json",
+      "sourcePath": "packages/email-templates/src/xero-bridge.ts"
+    },
+    {
+      "pageId": "email.xero_rate_limit_paused",
+      "surface": "email",
+      "route": null,
+      "version": 1,
+      "sourceHash": "sha256:f0dc57acd881f0251dde68abfd0bac5c3ccabd6e69afbeeb720593729f72144e",
+      "reviewRequired": false,
+      "githubPath": "email/xero-rate-limit-paused.page.json",
+      "sourcePath": "packages/email-templates/src/xero-bridge.ts"
     },
     {
       "pageId": "docs.legal.byo_hosting_addendum",
@@ -485,7 +605,7 @@
       "surface": "www",
       "route": "/about",
       "version": 1,
-      "sourceHash": "sha256:50191fd450a02b77f7850b4c0793a6ac432607804b94a4792c0c176c96a41278",
+      "sourceHash": "sha256:01ed21b39070d1f47387bd8491752c356077654764434073333b96cb221df450",
       "reviewRequired": false,
       "githubPath": "www/about.page.json",
       "sourcePath": "src/marketing-pages/registry.ts about"
@@ -495,7 +615,7 @@
       "surface": "www",
       "route": "/contact",
       "version": 1,
-      "sourceHash": "sha256:6c37c213ea598111e64e2c7a2db9690024851717a0b4603c8c52568d81028a66",
+      "sourceHash": "sha256:694d4397949e0a9460350909c3aa1c1051f71c2e7238ac05e74fbb0d9054d19e",
       "reviewRequired": false,
       "githubPath": "www/contact.page.json",
       "sourcePath": "src/marketing-pages/registry.ts contact"
@@ -545,7 +665,7 @@
       "surface": "www",
       "route": "/trial",
       "version": 1,
-      "sourceHash": "sha256:93a2ccb07f9f6b359df85859f95c03fc17ddcc7b76b8cb872c434ecd032b193b",
+      "sourceHash": "sha256:f21294b3dc1bb05e1f4d1b3507dfb14cf169fdf6bfd39204417961f52c551b16",
       "reviewRequired": false,
       "githubPath": "www/trial.page.json",
       "sourcePath": "src/marketing-pages/registry.ts trial"
@@ -575,7 +695,7 @@
       "surface": "www",
       "route": "/blog",
       "version": 1,
-      "sourceHash": "sha256:4a298df805a88ef82e74eec4220a06039fb8363ce8854af6c7015e5f7c10ca5c",
+      "sourceHash": "sha256:40ce9b7e0e506e283b5a7b31917c0343f98f7a86b610a6042340a7cf659feadb",
       "reviewRequired": false,
       "githubPath": "www/blog.page.json",
       "sourcePath": "src/marketing-pages/registry.ts blog"
@@ -805,7 +925,7 @@
       "surface": "account",
       "route": "/signup",
       "version": 1,
-      "sourceHash": "sha256:b157861ca3ef1a6277cabe3ce03f14b8448cadc23cd00733a8103a651dbfc23c",
+      "sourceHash": "sha256:319a31913f5531ac441ab9b4d1fb66c7317c85420afdbc8c74e12298a12b901f",
       "reviewRequired": false,
       "githubPath": "account/auth.signup.page.json",
       "sourcePath": "apps/admin-web /signup"
@@ -815,30 +935,200 @@
       "surface": "account",
       "route": "/sign-in",
       "version": 1,
-      "sourceHash": "sha256:5c0e153e8e9f912431db0c4ad1aa88966c7d8c5b46a0b667b8bef912f425c521",
+      "sourceHash": "sha256:61a538e2f390109a5e1ce43ddfcc944d3bd23f704f3d8bb1f2b5096c56b96f77",
       "reviewRequired": false,
       "githubPath": "account/auth.signin.page.json",
       "sourcePath": "apps/admin-web /sign-in"
     },
     {
+      "pageId": "account.auth.verify",
+      "surface": "account",
+      "route": "/signup/verify",
+      "version": 1,
+      "sourceHash": "sha256:d99e1c700de571c41953cbd91e31d58db2a680c883620e8c67362e781b6e86c7",
+      "reviewRequired": false,
+      "githubPath": "account/auth.verify.page.json",
+      "sourcePath": "apps/admin-web /signup/verify"
+    },
+    {
       "pageId": "account.onboarding.company",
+      "surface": "account",
+      "route": "/onboarding/company",
+      "version": 1,
+      "sourceHash": "sha256:6b08c6f11e6257e3ffb429153109870a3aec71877113aaf52414129da6a42745",
+      "reviewRequired": false,
+      "githubPath": "account/onboarding.company.page.json",
+      "sourcePath": "apps/admin-web /onboarding/company"
+    },
+    {
+      "pageId": "account.onboarding.platform",
+      "surface": "account",
+      "route": "/onboarding/platform",
+      "version": 1,
+      "sourceHash": "sha256:a1fd967f3ed9374a8eee27f783d845a3c6c351a6ee9793638fcb33ebebbdf187",
+      "reviewRequired": false,
+      "githubPath": "account/onboarding.platform.page.json",
+      "sourcePath": "apps/admin-web /onboarding/platform"
+    },
+    {
+      "pageId": "account.onboarding.review",
+      "surface": "account",
+      "route": "/onboarding/review",
+      "version": 1,
+      "sourceHash": "sha256:2bb9911f0afa71f2c3f4616539403328a7868c8b698b272cdcf328c95834d04c",
+      "reviewRequired": false,
+      "githubPath": "account/onboarding.review.page.json",
+      "sourcePath": "apps/admin-web /onboarding/review"
+    },
+    {
+      "pageId": "account.onboarding.launch",
+      "surface": "account",
+      "route": "/onboarding/launch",
+      "version": 1,
+      "sourceHash": "sha256:3bd79f3edf08a8d159a139d3050c162bed843f6ac9d1feeef0d23b5a18e22f73",
+      "reviewRequired": false,
+      "githubPath": "account/onboarding.launch.page.json",
+      "sourcePath": "apps/admin-web /onboarding/launch"
+    },
+    {
+      "pageId": "account.onboarding.dashboard",
       "surface": "account",
       "route": "/onboarding",
       "version": 1,
-      "sourceHash": "sha256:09105b9a9ea26ffc02ad4ef9cb4bb03ae6ccf6b578413b8d802a9d0f0197e444",
+      "sourceHash": "sha256:e1524ebe4689b148a5840533763faa7f829731db882272d44698a28aa5ed58e7",
       "reviewRequired": false,
-      "githubPath": "account/onboarding.company.page.json",
+      "githubPath": "account/onboarding.dashboard.page.json",
       "sourcePath": "apps/admin-web /onboarding"
+    },
+    {
+      "pageId": "account.onboarding.provision_email",
+      "surface": "account",
+      "route": "/onboarding/launch",
+      "version": 1,
+      "sourceHash": "sha256:d39a8707134218d7ba1cb2598967994d5f63a2ec5540b392404cffbdabd52cae",
+      "reviewRequired": false,
+      "githubPath": "account/onboarding.provision_email.page.json",
+      "sourcePath": "apps/admin-web /onboarding/launch"
+    },
+    {
+      "pageId": "account.onboarding.payment_success",
+      "surface": "account",
+      "route": "/onboarding/payment-success",
+      "version": 1,
+      "sourceHash": "sha256:363b4975bad1ed5248a6909d5b132c234644c5dd8a53d2c982258f7ffb7db06f",
+      "reviewRequired": false,
+      "githubPath": "account/onboarding.payment_success.page.json",
+      "sourcePath": "apps/admin-web /onboarding/payment-success"
     },
     {
       "pageId": "account.billing.upgrade",
       "surface": "account",
       "route": "/billing/upgrade",
       "version": 1,
-      "sourceHash": "sha256:7428f7bac7c24316234874d4f490cd00ef9f55561ac56104b1810dd3ba424d78",
+      "sourceHash": "sha256:c27edb78c826b70992a1032767dbb760d57974afb0b172c0b25fca23c88dd49a",
       "reviewRequired": false,
       "githubPath": "account/billing.upgrade.page.json",
       "sourcePath": "apps/admin-web /billing/upgrade"
+    },
+    {
+      "pageId": "account.billing.upgrade_success",
+      "surface": "account",
+      "route": "/billing/upgrade/success",
+      "version": 1,
+      "sourceHash": "sha256:1cb63be9bc2381be9a48de30b061426e716ee01ed85b7b5b25a24f3fe1e73dbc",
+      "reviewRequired": false,
+      "githubPath": "account/billing.upgrade_success.page.json",
+      "sourcePath": "apps/admin-web /billing/upgrade/success"
+    },
+    {
+      "pageId": "account.shell.dashboard",
+      "surface": "account",
+      "route": "/dashboard",
+      "version": 1,
+      "sourceHash": "sha256:e6f240877e65ee243353d0fb18280c2145b45bf9a9193ad0ae86381b5259e86f",
+      "reviewRequired": false,
+      "githubPath": "account/shell.dashboard.page.json",
+      "sourcePath": "apps/admin-web /dashboard"
+    },
+    {
+      "pageId": "account.shell.common",
+      "surface": "account",
+      "route": null,
+      "version": 1,
+      "sourceHash": "sha256:b75b60e59bb2624afe54cf5abaeb9ccb342c94a6b15b12175d79c4466b711346",
+      "reviewRequired": false,
+      "githubPath": "account/shell.common.page.json",
+      "sourcePath": "apps/admin-web null"
+    },
+    {
+      "pageId": "account.shell.billing",
+      "surface": "account",
+      "route": "/billing",
+      "version": 1,
+      "sourceHash": "sha256:7435cf8f871ac4b90d28ed927000595a96e04e8926e3f025dc48a3fe3a8e1e3a",
+      "reviewRequired": false,
+      "githubPath": "account/shell.billing.page.json",
+      "sourcePath": "apps/admin-web /billing"
+    },
+    {
+      "pageId": "account.shell.profile",
+      "surface": "account",
+      "route": "/profile",
+      "version": 1,
+      "sourceHash": "sha256:119605f707e26aec0a235727e9b890fd6bab9389e15d1200a6645d79415bad0f",
+      "reviewRequired": false,
+      "githubPath": "account/shell.profile.page.json",
+      "sourcePath": "apps/admin-web /profile"
+    },
+    {
+      "pageId": "account.shell.integrations",
+      "surface": "account",
+      "route": "/integrations",
+      "version": 1,
+      "sourceHash": "sha256:ebfff6ab6ea6fbec2a9cca947ffee3484a6bea747fa8e04104d437bc6e0d4dcf",
+      "reviewRequired": false,
+      "githubPath": "account/shell.integrations.page.json",
+      "sourcePath": "apps/admin-web /integrations"
+    },
+    {
+      "pageId": "account.shell.usage",
+      "surface": "account",
+      "route": "/usage",
+      "version": 1,
+      "sourceHash": "sha256:85679828a819e862b67be9fcc40c7433ed66802a37ad08ff3e48000292331aeb",
+      "reviewRequired": false,
+      "githubPath": "account/shell.usage.page.json",
+      "sourcePath": "apps/admin-web /usage"
+    },
+    {
+      "pageId": "account.shell.users",
+      "surface": "account",
+      "route": "/users",
+      "version": 1,
+      "sourceHash": "sha256:dd22291f406177fcdb9e19da57a1ea4d81406bff7ba99ce2bf9b876501565a91",
+      "reviewRequired": false,
+      "githubPath": "account/shell.users.page.json",
+      "sourcePath": "apps/admin-web /users"
+    },
+    {
+      "pageId": "account.shell.backup",
+      "surface": "account",
+      "route": "/backup",
+      "version": 1,
+      "sourceHash": "sha256:2e83a550d07bdcabd0451d00a05e0b54684d0d8c4d9233805ed0afdac7cd2e6e",
+      "reviewRequired": false,
+      "githubPath": "account/shell.backup.page.json",
+      "sourcePath": "apps/admin-web /backup"
+    },
+    {
+      "pageId": "account.integrations.xero_migration",
+      "surface": "account",
+      "route": "/integrations/xero/migration/:jobId",
+      "version": 1,
+      "sourceHash": "sha256:ac954eeb90ec840750fb390bad8f425fe1eb4b013359cb4efc88bdecae2c8777",
+      "reviewRequired": false,
+      "githubPath": "account/integrations.xero_migration.page.json",
+      "sourcePath": "apps/admin-web /integrations/xero/migration/:jobId"
     }
   ]
 }

@@ -2,17 +2,33 @@
   "pageId": "account.auth.signin",
   "surface": "account",
   "route": "/sign-in",
-  "version": 1,
+  "version": 3,
   "sourceHash": "sha256:5c0e153e8e9f912431db0c4ad1aa88966c7d8c5b46a0b667b8bef912f425c521",
   "keys": {
-    "title": "Sign in",
-    "submit": "Continue"
+    "title": "سائن ان",
+    "submit": "جاری رکھیں",
+    "titleLogin": "لاگ ان",
+    "titleGetStarted": "شروع کریں",
+    "titlePortalPasswordSetup": "سروس منتظم کا پاس ورڈ سیٹ کریں",
+    "descriptionDefault": "اپنے workspace کے لیے رجسٹرڈ ای میل سے سائن ان کریں۔",
+    "descriptionEmailLocked": "سائن ان کے لیے ہم اس پتے پر تصدیقی کوڈ بھیجیں گے۔",
+    "descriptionPackageFunnel": "ادائیگی جاری رکھنے کے لیے سائن ان کریں یا اکاؤنٹ بنائیں۔",
+    "descriptionPortalPassword": "اپنی ای میل درج کریں۔ ہم تصدیقی کوڈ بھیجیں گے، پھر آپ سروس منتظم کا پاس ورڈ بنا سکتے ہیں۔",
+    "descriptionLoginGate": "اپنی ای میل اور پاس ورڈ سے سائن ان کریں۔ ہم اگلے مرحلے میں تصدیقی کوڈ ای میل کریں گے۔",
+    "submitLogin": "لاگ ان",
+    "submitSendCode": "تصدیقی کوڈ بھیجیں",
+    "submitting": "بھیجا جا رہا ہے…",
+    "submittingLogin": "لاگ ان ہو رہا ہے…",
+    "submittingVerify": "تصدیق ہو رہی ہے…",
+    "emailLabel": "ای میل پتہ",
+    "passwordLabel": "پاس ورڈ"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /sign-in",
     "githubPath": "account/auth.signin.page.json",
-    "translationStatus": "ai_draft",
-    "method": "cursor-ai"
+    "translationStatus": "review",
+    "method": "cursor-ai-2",
+    "reviewedAt": "2026-06-30"
   }
 }

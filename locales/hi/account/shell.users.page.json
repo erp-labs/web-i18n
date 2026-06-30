@@ -1,0 +1,22 @@
+{
+  "pageId": "account.shell.users",
+  "surface": "account",
+  "route": "/users",
+  "version": 3,
+  "sourceHash": "sha256:bbcf07f6b82362e65502a964bd838f809801bfdd344c8eb824c4e603614373d8",
+  "keys": {
+    "title": "Users",
+    "subtitle": "उन कर्मचारियों को प्रबंधित करें जो आपके employee portal में साइन इन कर सकते हैं।",
+    "retryUserSeed": "Retry user seed",
+    "retryingUserSeed": "Retrying…",
+    "seedPendingHint": "Employee invites from onboarding are waiting to be seeded. Use Retry user seed below once provisioning finishes."
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /users",
+    "githubPath": "account/shell.users.page.json",
+    "translationStatus": "review",
+    "method": "cursor-ai-2",
+    "reviewedAt": "2026-06-30"
+  }
+}

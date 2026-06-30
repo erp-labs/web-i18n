@@ -2,18 +2,25 @@
   "pageId": "www.trial",
   "surface": "www",
   "route": "/trial",
-  "version": 1,
+  "version": 3,
   "sourceHash": "sha256:93a2ccb07f9f6b359df85859f95c03fc17ddcc7b76b8cb872c434ecd032b193b",
   "keys": {
     "path": "/trial",
-    "meta_title": "Start your trial | Vouus",
-    "meta_description": "Enter your work email to start a guided trial. Business domains get instant access; we will guide you through setup."
+    "meta_title": "ඔබගේ trial ආරම්භ කරන්න | Vouus",
+    "meta_description": "මගපෙන්වන trial එකක් ආරම්භ කිරීමට work email ඇතුළත් කරන්න. business domains වලට instant access; setup හරහා අපි ඔබට මග පෙන්වමු.",
+    "hero_title": "14 දින Pro නොමිලේ අත්හදා බලන්න",
+    "hero_subtitle": "ලියාපදිංචියට ඉදිරියට යාමට work email සත්‍යාපනය කරන්න",
+    "whyWorkEmailLabel": "work email ඇයි?",
+    "bullet1": "14 දින සම්පූර්ණ Pro access",
+    "bullet2": "credit card අවශ්‍ය නැත",
+    "bullet3": "trial එකෙන් පසුවත් ඔබගේ server සහ data එලෙසම"
   },
   "meta": {
     "productRepo": "infra-control-plane",
     "sourcePath": "src/marketing-pages/registry.ts trial",
     "githubPath": "www/trial.page.json",
-    "translationStatus": "ai_draft",
-    "method": "cursor-ai"
+    "translationStatus": "review",
+    "method": "cursor-ai-2",
+    "reviewedAt": "2026-06-30"
   }
 }

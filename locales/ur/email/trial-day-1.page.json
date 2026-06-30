@@ -1,0 +1,25 @@
+{
+  "pageId": "email.trial_day_1",
+  "surface": "email",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:3030ddbc15d87cb4ca52a10226b7bc969cb757abe4d4ff47718e18063bc2fb2b",
+  "keys": {
+    "subject": "Your 14-day free trial has started — ${service}",
+    "headerTitle": "Your trial ends tomorrow",
+    "headline": "Trial ends tomorrow",
+    "greetingHtml": "Hi <strong>{name}</strong>,",
+    "introHtml": "<strong>Your free trial expires tomorrow.</strong> Upgrade today to avoid losing access to your workspace and data.",
+    "closingHtml": "After the trial ends your server will remain powered on for 7 more days, but ERP access will be blocked until you upgrade.",
+    "ctaLabel": "Upgrade now",
+    "textBody": "Hi {name},\n\nYour trial expires tomorrow. Upgrade now: {upgradeUrl}\n\nThe {serviceName} Team",
+    "_sourceNote": "Extracted from trial-day-1.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
+  },
+  "meta": {
+    "productRepo": "infra-email",
+    "sourcePath": "packages/email-templates/src/trial.ts",
+    "githubPath": "email/trial-day-1.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

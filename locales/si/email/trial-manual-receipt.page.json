@@ -1,0 +1,34 @@
+{
+  "pageId": "email.trial_manual_receipt",
+  "surface": "email",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:cf8af9cd26b3a7bf7ca383b15323d1095f40f8b7be08fb2736ccb9d405a35d4d",
+  "keys": {
+    "subject": "Dynamic subject (trial-manual-receipt)",
+    "headerTitle": "Application received",
+    "headline": "Application received",
+    "greetingHello": "Hello,",
+    "greetingNamed": "Hello {name},",
+    "thankYouParagraph": "Thank you for submitting your trial application. Our team will review your organization details.",
+    "whatHappensNextTitle": "What happens next?",
+    "stepReview": "Review: We verify your organization details within 24 hours.",
+    "stepApproval": "Approval: If approved, you receive an account setup link at your work email.",
+    "stepProvisioning": "Provisioning: After signup, a dedicated workspace is prepared for your company.",
+    "referenceIdLabel": "Reference ID",
+    "expectedReviewLabel": "Expected review time",
+    "expectedReviewValue": "Within 24 hours",
+    "supportLabel": "Support",
+    "securityCallout": "Questions? Contact {supportEmail}. This message was sent automatically. Please do not reply.",
+    "footerNote": "This message was sent automatically. Please do not reply.",
+    "textHeader": "Application received",
+    "_sourceNote": "Extracted from trial-manual-receipt.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
+  },
+  "meta": {
+    "productRepo": "infra-email",
+    "sourcePath": "packages/email-templates/src/trial-manual.ts",
+    "githubPath": "email/trial-manual-receipt.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

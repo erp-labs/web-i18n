@@ -3,9 +3,22 @@
   "surface": "email",
   "route": null,
   "version": 1,
-  "sourceHash": "sha256:0e5b46ab6d59e0a532fc67cf43151af686e2fa9643cbbeaec5126e5e6d8ed4b2",
+  "sourceHash": "sha256:14aab62e34906c68b2f7fe500bf5c21db5a643193d48d4502bef1d7df0d224cb",
   "keys": {
     "subject": "Dynamic subject (billing-invoice-paid)",
+    "headerTitle": "Your invoice",
+    "greetingTemplate": "Hello, {contactName},",
+    "introTemplate": "Here is your paid invoice for {companyName}.",
+    "invoiceLabel": "Invoice",
+    "amountPaidLabel": "Amount paid",
+    "billingPeriodLabel": "Billing period",
+    "paidAtLabel": "Paid at",
+    "paymentMethodLabel": "Payment method",
+    "viewInvoiceOnlineLabel": "View invoice online",
+    "downloadPdfLabel": "Download PDF",
+    "paymentReceiptLabel": "Payment receipt",
+    "stripeNote": "A copy may also be sent by Stripe. Support: {supportEmail}.",
+    "textHeader": "Invoice paid",
     "_sourceNote": "Extracted from billing-invoice-paid.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
   },
   "meta": {

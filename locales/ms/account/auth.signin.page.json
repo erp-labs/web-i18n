@@ -2,17 +2,33 @@
   "pageId": "account.auth.signin",
   "surface": "account",
   "route": "/sign-in",
-  "version": 1,
+  "version": 3,
   "sourceHash": "sha256:5c0e153e8e9f912431db0c4ad1aa88966c7d8c5b46a0b667b8bef912f425c521",
   "keys": {
-    "title": "Sign in",
-    "submit": "Continue"
+    "title": "Log masuk",
+    "submit": "Teruskan",
+    "titleLogin": "Log masuk",
+    "titleGetStarted": "Mulakan",
+    "titlePortalPasswordSetup": "Sediakan kata laluan pentadbir perkhidmatan",
+    "descriptionDefault": "Log masuk dengan e-mel yang didaftarkan untuk ruang kerja anda.",
+    "descriptionEmailLocked": "Kami akan hantar kod pengesahan ke alamat ini untuk log masuk.",
+    "descriptionPackageFunnel": "Log masuk atau cipta akaun untuk meneruskan ke pembayaran.",
+    "descriptionPortalPassword": "Masukkan e-mel anda. Kami akan hantar kod pengesahan, kemudian anda boleh cipta kata laluan pentadbir perkhidmatan.",
+    "descriptionLoginGate": "Log masuk dengan e-mel dan kata laluan anda. Kami akan e-mel kod pengesahan seterusnya.",
+    "submitLogin": "Log masuk",
+    "submitSendCode": "Hantar kod pengesahan",
+    "submitting": "Menghantar…",
+    "submittingLogin": "Sedang log masuk…",
+    "submittingVerify": "Mengesahkan…",
+    "emailLabel": "Alamat e-mel",
+    "passwordLabel": "Kata laluan"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /sign-in",
     "githubPath": "account/auth.signin.page.json",
-    "translationStatus": "ai_draft",
-    "method": "cursor-ai"
+    "translationStatus": "review",
+    "method": "cursor-ai-2",
+    "reviewedAt": "2026-06-30"
   }
 }

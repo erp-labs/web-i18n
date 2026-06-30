@@ -2,17 +2,43 @@
   "pageId": "account.onboarding.company",
   "surface": "account",
   "route": "/onboarding",
-  "version": 1,
+  "version": 3,
   "sourceHash": "sha256:09105b9a9ea26ffc02ad4ef9cb4bb03ae6ccf6b578413b8d802a9d0f0197e444",
   "keys": {
-    "title": "Company setup",
-    "submit": "Continue"
+    "title": "Syarikat",
+    "submit": "Teruskan",
+    "submitNext": "Next",
+    "submitting": "Loading…",
+    "companyNameLabel": "Company name (full legal name)",
+    "companyNamePlaceholder": "company pte ltd",
+    "subdomainLabel": "Subdomain",
+    "subdomainRules": "Lowercase letters (a-z), numbers (0-9), and hyphens (-), Max 10 Character are allowed",
+    "subdomainAvailable": "This subdomain name is available.",
+    "subdomainUnavailable": "This subdomain name is unavailable.",
+    "subdomainChecking": "Checking…",
+    "employeePortalSectionTitle": "Employee portal",
+    "includeAdminLabel": "Also give me access to the employee portal using my admin email",
+    "adminEmailNotLoaded": "We couldn't load your admin email yet. Refresh the page, or sign out and sign in again.",
+    "emailPlaceholder": "teammate@company.com",
+    "firstNamePlaceholder": "First name",
+    "lastNamePlaceholder": "Last name",
+    "addPeople": "Add people",
+    "removeInviteRowAria": "Remove this invite row",
+    "removeAdminRowAria": "Uncheck the option above to remove your admin row",
+    "fieldLabelCompany": "Company name",
+    "fieldLabelSubdomain": "Subdomain",
+    "fieldLabelEmployeePortal": "Employee portal",
+    "inviteEmailFieldLabel": "Invite {index} — Email",
+    "inviteFirstNameFieldLabel": "Invite {index} — First name",
+    "inviteLastNameFieldLabel": "Invite {index} — Last name",
+    "employeePortalIntro": "Add people who should sign in to your company's employee portal."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /onboarding",
     "githubPath": "account/onboarding.company.page.json",
-    "translationStatus": "ai_draft",
-    "method": "cursor-ai"
+    "translationStatus": "review",
+    "method": "cursor-ai-2",
+    "reviewedAt": "2026-06-30"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "pageId": "account.auth.verify",
+  "surface": "account",
+  "route": "/signup/verify",
+  "version": 3,
+  "sourceHash": "sha256:d99e1c700de571c41953cbd91e31d58db2a680c883620e8c67362e781b6e86c7",
+  "keys": {
+    "title": "اپنی شناخت کی تصدیق کریں",
+    "intro": "جاری رکھنے کے لیے براہ کرم اپنی ای میل پر بھیجا گیا یک بار کا کوڈ درج کریں۔",
+    "emailPrefix": "ای میل:",
+    "sendUncertainBanner": "ہم ترسیل کی تصدیق نہیں کر سکے، مگر تصدیقی ای میل شاید پہلے سے آپ کے ان باکس میں ہو۔ نیچے تازہ ترین کوڈ درج کریں۔",
+    "verify": "تصدیق کریں",
+    "verifying": "تصدیق ہو رہی ہے…",
+    "loading": "لوڈ ہو رہا ہے…"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /signup/verify",
+    "githubPath": "account/auth.verify.page.json",
+    "translationStatus": "review",
+    "method": "cursor-ai-2",
+    "reviewedAt": "2026-06-30"
+  }
+}

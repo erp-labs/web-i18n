@@ -6,7 +6,11 @@
   "sourceHash": "sha256:987d8f6afe835071745e81dfce7a1fde78aef376b375a914af9fe16e82e1ff79",
   "keys": {
     "subject": "Dynamic subject (welcome)",
-    "_sourceNote": "Extracted from welcome.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
+    "_sourceNote": "Extracted from welcome.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver.",
+    "headerTitle": "Your subscription is active",
+    "bodyIntro": "Your {company_name} subscription to {package_name} plan is now active.",
+    "nextStepsTitle": "Next steps",
+    "textHeader": "Your subscription is active"
   },
   "meta": {
     "productRepo": "infra-email",

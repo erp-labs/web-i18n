@@ -1,0 +1,24 @@
+{
+  "pageId": "email.trial_start",
+  "surface": "email",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:eafbf225f8a2dddfa40f6688d30448a1a878759f8b82683b47452fae09eec65b",
+  "keys": {
+    "subject": "Your 14-day free trial has started — ${service}",
+    "headerTitle": "Your trial has started",
+    "headline": "Your free trial is live",
+    "greetingHtml": "Hi <strong>{name}</strong>,",
+    "introHtml": "Your 14-day Professional trial is now live. You have full access to all features{expirySuffix}.",
+    "ctaLabel": "Choose a plan",
+    "textBody": "Hi {name},\n\nYour 14-day Professional trial is now live{expirySuffix}.\n\nChoose a plan: {upgradeUrl}\n\nThe {serviceName} Team",
+    "_sourceNote": "Extracted from trial-start.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
+  },
+  "meta": {
+    "productRepo": "infra-email",
+    "sourcePath": "packages/email-templates/src/trial.ts",
+    "githubPath": "email/trial-start.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

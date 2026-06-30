@@ -6,7 +6,12 @@
   "sourceHash": "sha256:1e838c652f9a0533d3772ae6e744f55aa4b5b538241e5fbfb537b6af2c25c9ab",
   "keys": {
     "subject": "Dynamic subject (employee-feedback)",
-    "_sourceNote": "Extracted from employee-feedback.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
+    "_sourceNote": "Extracted from employee-feedback.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver.",
+    "headerTitle": "Employee portal feedback",
+    "categoryLabel": "Category",
+    "tenantLabel": "Tenant",
+    "employeeLabel": "Employee",
+    "replyToLabel": "Reply-To"
   },
   "meta": {
     "productRepo": "infra-email",

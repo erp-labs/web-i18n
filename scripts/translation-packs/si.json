@@ -1,0 +1,167 @@
+{
+  "pages": {
+    "account.auth.signin": {
+      "title": "පිවිසෙන්න",
+      "titleLogin": "පිවිසෙන්න",
+      "titleGetStarted": "ආරම්භ කරන්න",
+      "titlePortalPasswordSetup": "සේවා පරිපාලක මුරපදය සකසන්න",
+      "descriptionDefault": "ඔබගේ workspace සඳහා ලියාපදිංචි කළ විද්‍යුත් තැපෑලෙන් පිවිසෙන්න.",
+      "descriptionEmailLocked": "පිවිසීමට අපි මෙම ලිපිනයට සත්‍යාපන කේතයක් යවමු.",
+      "descriptionPackageFunnel": "ගෙවීමට ඉදිරියට යාමට පිවිසෙන්න හෝ ගිණුමක් සාදන්න.",
+      "descriptionPortalPassword": "ඔබගේ විද්‍යුත් තැපෑල ඇතුළත් කරන්න. අපි සත්‍යාපන කේතයක් යවමු, ඉන්පසු ඔබට සේවා පරිපාලක මුරපදය සෑදිය හැක.",
+      "descriptionLoginGate": "ඔබගේ විද්‍යුත් තැපෑල සහ මුරපදයෙන් පිවිසෙන්න. අපි ඊළඟට සත්‍යාපන කේතයක් ඊ-තැපෑලෙන් යවමු.",
+      "submit": "ඉදිරියට",
+      "submitLogin": "පිවිසෙන්න",
+      "submitSendCode": "සත්‍යාපන කේතය යවන්න",
+      "submitting": "යවමින්…",
+      "submittingLogin": "පිවිසෙමින්…",
+      "submittingVerify": "සත්‍යාපනය කරමින්…",
+      "emailLabel": "විද්‍යුත් තැපැල් ලිපිනය",
+      "passwordLabel": "මුරපදය"
+    },
+    "account.auth.signup": {
+      "title": "ලියාපදිංචි වන්න",
+      "titleEmailLocked": "විද්‍යුත් තැපෑල",
+      "intro": "ආරම්භ කිරීමට ඔබගේ ගිණුම සාදන්න.",
+      "introEmailLocked": "ගිණුම සෑදීම සම්පූර්ණ කිරීමට ඔබට උදව් කිරීමට අපි මෙම ලිපිනයට සත්‍යාපන කේතයක් යවමු.",
+      "emailLabel": "විද්‍යුත් තැපැල් ලිපිනය",
+      "emailLockedHint": "මෙම ලිපිනය pregoi.com හි සත්‍යාපනය කර ඇති අතර මෙහි වෙනස් කළ නොහැක.",
+      "submit": "සත්‍යාපන කේතය යවන්න",
+      "submitting": "යවමින්…"
+    },
+    "account.auth.verify": {
+      "title": "ඔබගේ අනන්‍යතාවය සත්‍යාපනය කරන්න",
+      "intro": "ඉදිරියට යාමට ඔබගේ විද්‍යුත් තැපෑලට යැවූ එක්-වර කේතය ඇතුළත් කරන්න.",
+      "emailPrefix": "විද්‍යුත් තැපෑල:",
+      "sendUncertainBanner": "භාරදීම තහවුරු කළ නොහැකි වුවත්, සත්‍යාපන විද්‍යුත් තැපෑල දැනටමත් ඔබගේ එන ලිපි පෙට්ටියේ තිබිය හැක. පහත නවතම කේතය ඇතුළත් කරන්න.",
+      "verify": "සත්‍යාපනය කරන්න",
+      "verifying": "සත්‍යාපනය කරමින්…",
+      "loading": "පූරණය වෙමින්…"
+    },
+    "account.onboarding.company": {
+      "title": "සමාගම",
+      "submit": "ඉදිරියට"
+    },
+    "account.onboarding.platform": {
+      "title": "වේදිකාව",
+      "intro": "මෙම workspace සඳහා ඔබගේ ERP stack සහ cloud provider තෝරන්න.",
+      "submit": "ඉදිරියට"
+    },
+    "account.onboarding.review": {
+      "title": "සමාලෝචනය කර තහවුරු කරන්න",
+      "intro": "අපි ඔබගේ workspace සාදා provisioning ආරම්භ කිරීමට පෙර සමාගම් විස්තර පරීක්ෂා කරන්න.",
+      "submit": "දියත් කිරීම ආරම්භ කරන්න"
+    },
+    "account.onboarding.launch": {
+      "title": "අවසානයට ළඟ",
+      "titleProgress": "සැකසුම් ප්‍රගතිය",
+      "titleVerifying": "සර්වර් තත්ත්වය සත්‍යාපනය කරමින්",
+      "titleSettingUp": "ඔබගේ සර්වර් සකසමින්",
+      "titleStopped": "සැකසුම නවතා ඇත"
+    },
+    "account.billing.upgrade": {
+      "title": "පැකේජය උත්ශ්‍රේණි කරන්න",
+      "subtitle": "ඔබගේ workspace සඳහා ඉහළ plan එකක් තෝරන්න.",
+      "bodyNote": "ඉහළ plan එකකට ගිය විට ඔබගේ dedicated server සහ දත්ත එලෙසම පවතී.",
+      "submit": "උත්ශ්‍රේණි කරන්න",
+      "backToBilling": "← billing වෙත ආපසු"
+    },
+    "account.billing.upgrade_success": {
+      "titlePayment": "ගෙවීම සාර්ථකයි",
+      "titleInline": "පැකේජය යාවත්කාලීන කරන ලදී",
+      "body": "Stripe වෙතින් subscription විස්තර sync වීමට මිනිත්තුවක් ගත විය හැක.",
+      "bodyWithPlan": "ඔබගේ workspace {plan} වෙත ගමන් කරමින්. Stripe වෙතින් subscription විස්තර sync වීමට මිනිත්තුවක් ගත විය හැක.",
+      "cta": "billing බලන්න"
+    },
+    "account.shell.dashboard": {
+      "title": "Dashboard",
+      "subtitle": "ඔබගේ ගිණුම සහ සේවාවන්ගේ සාරාංශය",
+      "subtitleSignedIn": "සාදරයෙන් පිළිගනිමු, {name} — subscription, portal, සහ usage කළමනාකරණය කරන්න."
+    },
+    "account.shell.billing": {
+      "title": "Billing",
+      "subtitle": "subscription, ගෙවීම් ක්‍රමය, සහ ඉතිහාසය කළමනාකරණය කරන්න",
+      "subtitleWithEmail": "{email} සඳහා subscription, ගෙවීම් ක්‍රමය, සහ ඉතිහාසය කළමනාකරණය කරන්න."
+    },
+    "account.shell.profile": {
+      "title": "Profile",
+      "subtitle": "ඔබගේ ගිණුම සහ සංවිධාන විස්තර."
+    },
+    "account.shell.integrations": {
+      "title": "Integrations",
+      "subtitle": "බාහිර මෙවලම් ඔබගේ workspace වෙත සම්බන්ධ කරන්න."
+    },
+    "account.shell.usage": {
+      "title": "සේවා Usage",
+      "subtitle": "storage, email, AI tokens, සහ employee portal seats සඳහා quota ඔබගේ plan මත නිරීක්ෂණය කරන්න."
+    },
+    "account.shell.users": {
+      "title": "Users",
+      "subtitle": "employee portal වෙත පිවිසිය හැකි සේවකයින් කළමනාකරණය කරන්න."
+    },
+    "www.trial": {
+      "path": "/trial",
+      "meta_title": "ඔබගේ trial ආරම්භ කරන්න | Vouus",
+      "meta_description": "මගපෙන්වන trial එකක් ආරම්භ කිරීමට work email ඇතුළත් කරන්න. business domains වලට instant access; setup හරහා අපි ඔබට මග පෙන්වමු.",
+      "hero_title": "14 දින Pro නොමිලේ අත්හදා බලන්න",
+      "hero_subtitle": "ලියාපදිංචියට ඉදිරියට යාමට work email සත්‍යාපනය කරන්න",
+      "whyWorkEmailLabel": "work email ඇයි?",
+      "bullet1": "14 දින සම්පූර්ණ Pro access",
+      "bullet2": "credit card අවශ්‍ය නැත",
+      "bullet3": "trial එකෙන් පසුවත් ඔබගේ server සහ data එලෙසම"
+    },
+    "www.about": {
+      "path": "/about",
+      "meta_title": "About",
+      "meta_description": "අපගේ mission, values, සහ කතාව.",
+      "hero_title": "Work moves here.",
+      "hero_subtitle": "Singapore හි fast teams සඳහා නිර්මාණය කරන ලදී",
+      "missionTitle": "අපගේ mission",
+      "valuesTitle": "අපි විශ්වාස කරන දේ",
+      "ctaTitle": "Vouus action එකේ බැලීමට සූදානම්ද?",
+      "ctaBody": "14-දින Pro trial එකක් අත්හදා බලන්න, හෝ අපගේ team සමඟ personal demo එකක් schedule කරන්න."
+    },
+    "www.contact": {
+      "path": "/contact",
+      "meta_title": "Contact",
+      "meta_description": "Sales, support, සහ enterprise contact channels.",
+      "hero_title": "අප හා සම්බන්ධ වන්න",
+      "hero_subtitle": "platform evaluate කරනවාද, ආරම්භ කිරීමට සූදානම්ද, නැතහොත් existing account එකකට help අවශ්‍යද—business day එකක් ඇතුළත අපි පිළිතුරු දෙමු.",
+      "faqTitle": "ඉක්මන් පිළිතුරු"
+    },
+    "email.welcome": {
+      "subject": "ගතික subject (welcome)",
+      "headerTitle": "ඔබගේ subscription active",
+      "bodyIntro": "{company_name} subscription {package_name} plan වෙත දැන් active.",
+      "nextStepsTitle": "ඊළඟ පියවර",
+      "textHeader": "ඔබගේ subscription active"
+    },
+    "email.provisioning": {
+      "subject": "ගතික subject (provisioning)",
+      "headerTitle": "ඔබගේ workspace සූදානම්",
+      "introTemplate": "ඔබගේ {serviceName} workspace provisioning සම්පූර්ණ විය. පිවිසී ආරම්භ කිරීමට පහත links භාවිතා කරන්න.",
+      "textHeader": "ඔබගේ workspace සූදානම්"
+    },
+    "email.desk_credentials": {
+      "subject": "ගතික subject (desk-credentials)",
+      "headerTitle": "Work Desk sign-in විස්තර",
+      "introTemplate": "Hi, ඔබගේ {serviceName} workspace සූදානම්. Work Desk සහ Work App සඳහා පහත විස්තර පමණක් භාවිතා කරන්න.",
+      "passwordLabel": "මුරපදය (Work Desk සහ Work App)",
+      "workAppLabel": "Work App URL",
+      "accountPortalLabel": "Account portal"
+    },
+    "account.shell.backup": {
+      "pageTitle": "Backup",
+      "pageDescription": "ඔබගේ සංවිධානය සඳහා ස්වයංක්‍රීය backup තත්ත්වය, රඳවා තබා ගැනීමේ ප්‍රතිපත්තිය සහ recovery points බලන්න.",
+      "loadError": "Backup තත්ත්වය පූරණය කළ නොහැක. නැවත උත්සාහ කරන්න.",
+      "maintenanceError": "Backup තත්ත්වය තාවකාලිකව ලබා ගත නොහැක. අපගේ කණ්ඩායම දැනුවත් කර ඇත — නැවත උත්සාහ කරන්න හෝ Support අමතන්න.",
+      "forbiddenError": "මෙම සංවිධානයේ backup තත්ත්වයට ප්‍රවේශයක් ඔබට නැත.",
+      "statusHeroTitle": "Backup තත්ත්වය",
+      "noOrganizations": "ඔබගේ ගිණුමට සම්බන්ධ සංවිධාන නැත."
+    },
+    "account.integrations.xero_migration": {
+      "title": "Xero migration job",
+      "subtitleLoading": "Job තත්ත්වය පූරණය වෙමින්…"
+    }
+  }
+}

@@ -2,17 +2,21 @@
   "pageId": "account.billing.upgrade",
   "surface": "account",
   "route": "/billing/upgrade",
-  "version": 1,
+  "version": 3,
   "sourceHash": "sha256:7428f7bac7c24316234874d4f490cd00ef9f55561ac56104b1810dd3ba424d78",
   "keys": {
-    "title": "Upgrade plan",
-    "submit": "Upgrade"
+    "title": "پیکج اپ گریڈ کریں",
+    "submit": "اپ گریڈ",
+    "subtitle": "اپنے workspace کے لیے اعلیٰ پلان منتخب کریں۔",
+    "bodyNote": "اعلیٰ پلان پر جانے پر آپ کا dedicated server اور ڈیٹا برقرار رہتا ہے۔",
+    "backToBilling": "← billing پر واپس"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /billing/upgrade",
     "githubPath": "account/billing.upgrade.page.json",
-    "translationStatus": "ai_draft",
-    "method": "cursor-ai"
+    "translationStatus": "review",
+    "method": "cursor-ai-2",
+    "reviewedAt": "2026-06-30"
   }
 }

@@ -2,17 +2,21 @@
   "pageId": "email.provisioning",
   "surface": "email",
   "route": null,
-  "version": 1,
+  "version": 3,
   "sourceHash": "sha256:47d18968d16ff2fbe043a22e42ab86814ab26342a6564626903439e5c5d5c0e8",
   "keys": {
-    "subject": "Dynamic subject (provisioning)",
-    "_sourceNote": "Extracted from provisioning.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
+    "subject": "หัวข้อแบบไดนามิก (การจัดเตรียม)",
+    "_sourceNote": "Extracted from provisioning.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver.",
+    "headerTitle": "workspace ของคุณพร้อมแล้ว",
+    "introTemplate": "workspace {serviceName} ของคุณจัดเตรียมเสร็จแล้ว ใช้ลิงก์ด้านล่างเพื่อเข้าสู่ระบบและเริ่มต้นใช้งาน",
+    "textHeader": "workspace ของคุณพร้อมแล้ว"
   },
   "meta": {
     "productRepo": "infra-email",
     "sourcePath": "packages/email-templates/src/provisioning.ts",
     "githubPath": "email/provisioning.page.json",
-    "translationStatus": "ai_draft",
-    "method": "cursor-ai"
+    "translationStatus": "review",
+    "method": "cursor-ai-2",
+    "reviewedAt": "2026-06-30"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "pageId": "email.trial_day_7",
+  "surface": "email",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:7ce28fea5307e10d724f75fafe6cc36eacdf2d1e969dd6b4c574fa18759e41cc",
+  "keys": {
+    "subject": "Your 14-day free trial has started — ${service}",
+    "headerTitle": "One week left in your trial",
+    "headline": "7 days left on your trial",
+    "greetingHtml": "Hi <strong>{name}</strong>,",
+    "introHtml": "You have <strong>7 days remaining</strong> on your free trial. Choose a plan now to keep your dedicated server and all your data.",
+    "closingHtml": "Upgrading takes less than 2 minutes — no downtime, no data migration.",
+    "ctaLabel": "Choose your plan",
+    "textBody": "Hi {name},\n\n7 days remaining on your free trial. Upgrade to keep your server: {upgradeUrl}\n\nThe {serviceName} Team",
+    "_sourceNote": "Extracted from trial-day-7.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
+  },
+  "meta": {
+    "productRepo": "infra-email",
+    "sourcePath": "packages/email-templates/src/trial.ts",
+    "githubPath": "email/trial-day-7.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

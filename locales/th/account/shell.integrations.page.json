@@ -1,0 +1,20 @@
+{
+  "pageId": "account.shell.integrations",
+  "surface": "account",
+  "route": "/integrations",
+  "version": 3,
+  "sourceHash": "sha256:0db22bd829016de978fb1b3db8ee3818accb27bfe6971bd7c102043a1dcd183e",
+  "keys": {
+    "title": "การเชื่อมต่อ",
+    "subtitle": "เชื่อมต่อเครื่องมือภายนอกกับ workspace ของคุณ",
+    "loadError": "Failed to load integrations."
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /integrations",
+    "githubPath": "account/shell.integrations.page.json",
+    "translationStatus": "review",
+    "method": "cursor-ai-2",
+    "reviewedAt": "2026-06-30"
+  }
+}

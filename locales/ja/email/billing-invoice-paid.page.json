@@ -6,7 +6,20 @@
   "sourceHash": "sha256:0e5b46ab6d59e0a532fc67cf43151af686e2fa9643cbbeaec5126e5e6d8ed4b2",
   "keys": {
     "subject": "Dynamic subject (billing-invoice-paid)",
-    "_sourceNote": "Extracted from billing-invoice-paid.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
+    "_sourceNote": "Extracted from billing-invoice-paid.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver.",
+    "headerTitle": "Invoice paid",
+    "introTemplate": "Your invoice {invoiceNumber} for {companyName} is paid.",
+    "textHeader": "Invoice paid",
+    "greetingTemplate": "Hello, {contactName},",
+    "invoiceLabel": "Invoice",
+    "amountPaidLabel": "Amount paid",
+    "billingPeriodLabel": "Billing period",
+    "paidAtLabel": "Paid at",
+    "paymentMethodLabel": "Payment method",
+    "viewInvoiceOnlineLabel": "View invoice online",
+    "downloadPdfLabel": "Download PDF",
+    "paymentReceiptLabel": "Payment receipt",
+    "stripeNote": "A copy may also be sent by Stripe. Support: {supportEmail}."
   },
   "meta": {
     "productRepo": "infra-email",

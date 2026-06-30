@@ -7,7 +7,13 @@
   "keys": {
     "path": "/blog",
     "meta_title": "Blog",
-    "meta_description": "Articles on ERP, workflows, and operations."
+    "meta_description": "Articles on ERP, workflows, and operations.",
+    "hero_title": "Blog",
+    "hero_subtitle": "Business automation, ERP, and operational insights.",
+    "emptyTitle": "Articles coming soon",
+    "emptyBody": "We're preparing guides on business automation, workflow design, and ERP best practices. Be the first to know when we publish.",
+    "emptyTrialCta": "Start free trial",
+    "emptyTalkCta": "Talk to us"
   },
   "meta": {
     "productRepo": "infra-control-plane",

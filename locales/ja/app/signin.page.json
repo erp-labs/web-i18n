@@ -13,7 +13,13 @@
       "ja": "日本語",
       "ar": "العربية",
       "vi": "ベトナム語",
-      "zh": "中国語"
+      "zh": "中国語",
+      "th": "Thai",
+      "id": "Indonesian",
+      "ms": "Malay",
+      "si": "Sinhala",
+      "ur": "Urdu",
+      "hi": "Hindi"
     },
     "emailLabel": "メールアドレス",
     "emailPlaceholder": "example@company.com",

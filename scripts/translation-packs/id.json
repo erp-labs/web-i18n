@@ -1,0 +1,167 @@
+{
+  "pages": {
+    "account.auth.signin": {
+      "title": "Masuk",
+      "titleLogin": "Masuk",
+      "titleGetStarted": "Mulai",
+      "titlePortalPasswordSetup": "Atur kata sandi administrator layanan",
+      "descriptionDefault": "Masuk dengan email yang terdaftar untuk workspace Anda.",
+      "descriptionEmailLocked": "Kami akan mengirim kode verifikasi ke alamat ini untuk masuk.",
+      "descriptionPackageFunnel": "Masuk atau buat akun untuk melanjutkan ke pembayaran.",
+      "descriptionPortalPassword": "Masukkan email Anda. Kami akan mengirim kode verifikasi, lalu Anda dapat membuat kata sandi administrator layanan.",
+      "descriptionLoginGate": "Masuk dengan email dan kata sandi Anda. Kami akan mengirim kode verifikasi melalui email pada langkah berikutnya.",
+      "submit": "Lanjutkan",
+      "submitLogin": "Masuk",
+      "submitSendCode": "Kirim kode verifikasi",
+      "submitting": "Mengirim…",
+      "submittingLogin": "Sedang masuk…",
+      "submittingVerify": "Memverifikasi…",
+      "emailLabel": "Alamat email",
+      "passwordLabel": "Kata sandi"
+    },
+    "account.auth.signup": {
+      "title": "Daftar",
+      "titleEmailLocked": "Email",
+      "intro": "Buat akun Anda untuk memulai.",
+      "introEmailLocked": "Kami akan mengirim kode verifikasi ke alamat ini agar Anda dapat menyelesaikan pembuatan akun.",
+      "emailLabel": "Alamat email",
+      "emailLockedHint": "Alamat ini telah diverifikasi di pregoi.com dan tidak dapat diubah di sini.",
+      "submit": "Kirim kode verifikasi",
+      "submitting": "Mengirim…"
+    },
+    "account.auth.verify": {
+      "title": "Verifikasi identitas Anda",
+      "intro": "Masukkan kode sekali pakai yang dikirim ke email Anda untuk melanjutkan.",
+      "emailPrefix": "Email:",
+      "sendUncertainBanner": "Kami tidak dapat mengonfirmasi pengiriman, tetapi email verifikasi mungkin sudah ada di kotak masuk Anda. Masukkan kode terbaru di bawah.",
+      "verify": "Verifikasi",
+      "verifying": "Memverifikasi…",
+      "loading": "Memuat…"
+    },
+    "account.onboarding.company": {
+      "title": "Perusahaan",
+      "submit": "Lanjutkan"
+    },
+    "account.onboarding.platform": {
+      "title": "Platform",
+      "intro": "Pilih stack ERP dan penyedia cloud untuk workspace ini.",
+      "submit": "Lanjutkan"
+    },
+    "account.onboarding.review": {
+      "title": "Tinjau & Konfirmasi",
+      "intro": "Periksa detail perusahaan Anda sebelum kami membuat workspace dan memulai provisioning.",
+      "submit": "Mulai peluncuran"
+    },
+    "account.onboarding.launch": {
+      "title": "Hampir selesai",
+      "titleProgress": "Progres penyiapan",
+      "titleVerifying": "Memverifikasi status server",
+      "titleSettingUp": "Menyiapkan server Anda",
+      "titleStopped": "Penyiapan dihentikan"
+    },
+    "account.billing.upgrade": {
+      "title": "Tingkatkan paket",
+      "subtitle": "Pilih paket yang lebih tinggi untuk workspace Anda.",
+      "bodyNote": "Server khusus dan data Anda tetap ada saat Anda pindah ke paket yang lebih tinggi.",
+      "submit": "Tingkatkan",
+      "backToBilling": "← Kembali ke penagihan"
+    },
+    "account.billing.upgrade_success": {
+      "titlePayment": "Pembayaran berhasil",
+      "titleInline": "Paket diperbarui",
+      "body": "Detail langganan mungkin memerlukan waktu beberapa menit untuk disinkronkan dari Stripe.",
+      "bodyWithPlan": "Workspace Anda sedang beralih ke {plan}. Detail langganan mungkin memerlukan waktu beberapa menit untuk disinkronkan dari Stripe.",
+      "cta": "Lihat penagihan"
+    },
+    "account.shell.dashboard": {
+      "title": "Dasbor",
+      "subtitle": "Ikhtisar akun dan layanan Anda",
+      "subtitleSignedIn": "Selamat datang, {name} — kelola langganan, portal, dan penggunaan Anda."
+    },
+    "account.shell.billing": {
+      "title": "Penagihan",
+      "subtitle": "Kelola langganan, metode pembayaran, dan riwayat Anda",
+      "subtitleWithEmail": "Kelola langganan, metode pembayaran, dan riwayat untuk {email}."
+    },
+    "account.shell.profile": {
+      "title": "Profil",
+      "subtitle": "Detail akun dan organisasi Anda."
+    },
+    "account.shell.integrations": {
+      "title": "Integrasi",
+      "subtitle": "Hubungkan alat eksternal ke workspace Anda."
+    },
+    "account.shell.usage": {
+      "title": "Penggunaan Layanan",
+      "subtitle": "Lacak kuota penyimpanan, email, token AI, dan kursi portal karyawan sesuai paket Anda."
+    },
+    "account.shell.users": {
+      "title": "Pengguna",
+      "subtitle": "Kelola karyawan yang dapat masuk ke portal karyawan Anda."
+    },
+    "www.trial": {
+      "path": "/trial",
+      "meta_title": "Mulai uji coba | Vouus",
+      "meta_description": "Masukkan email kerja Anda untuk memulai uji coba terpandu. Domain bisnis mendapat akses instan; kami akan memandu Anda melalui penyiapan.",
+      "hero_title": "Coba Pro gratis selama 14 hari",
+      "hero_subtitle": "Verifikasi email kerja Anda untuk melanjutkan pendaftaran",
+      "whyWorkEmailLabel": "Mengapa email kerja?",
+      "bullet1": "Akses Pro penuh selama 14 hari",
+      "bullet2": "Tanpa kartu kredit",
+      "bullet3": "Server dan data Anda tetap ada setelah uji coba"
+    },
+    "www.about": {
+      "path": "/about",
+      "meta_title": "Tentang",
+      "meta_description": "Misi, nilai, dan cerita kami.",
+      "hero_title": "Pekerjaan bergerak di sini.",
+      "hero_subtitle": "Dibangun di Singapura untuk tim yang bergerak cepat",
+      "missionTitle": "Misi kami",
+      "valuesTitle": "Apa yang kami percayai",
+      "ctaTitle": "Siap melihat Vouus beraksi?",
+      "ctaBody": "Uji coba Pro 14 hari atau demo personal dengan tim kami."
+    },
+    "www.contact": {
+      "path": "/contact",
+      "meta_title": "Kontak",
+      "meta_description": "Saluran kontak penjualan, dukungan, dan perusahaan.",
+      "hero_title": "Hubungi kami",
+      "hero_subtitle": "Baik Anda sedang mengevaluasi platform, siap memulai, atau butuh bantuan dengan akun yang ada—kami membalas dalam satu hari kerja.",
+      "faqTitle": "Jawaban cepat"
+    },
+    "email.welcome": {
+      "subject": "Subjek dinamis (selamat datang)",
+      "headerTitle": "Langganan Anda aktif",
+      "bodyIntro": "Langganan {company_name} Anda ke paket {package_name} sekarang aktif.",
+      "nextStepsTitle": "Langkah selanjutnya",
+      "textHeader": "Langganan Anda aktif"
+    },
+    "email.provisioning": {
+      "subject": "Subjek dinamis (provisioning)",
+      "headerTitle": "Workspace Anda siap",
+      "introTemplate": "Workspace {serviceName} Anda telah selesai diprovisi. Gunakan tautan di bawah untuk masuk dan memulai.",
+      "textHeader": "Workspace Anda siap"
+    },
+    "email.desk_credentials": {
+      "subject": "Subjek dinamis (desk-credentials)",
+      "headerTitle": "Kredensial masuk Work Desk",
+      "introTemplate": "Halo, workspace {serviceName} Anda sudah siap. Gunakan kredensial di bawah hanya untuk Work Desk dan Work App.",
+      "passwordLabel": "Kata sandi (Work Desk & Work App)",
+      "workAppLabel": "Work App URL",
+      "accountPortalLabel": "Portal akun"
+    },
+    "account.shell.backup": {
+      "pageTitle": "Cadangan",
+      "pageDescription": "Lihat status cadangan otomatis, kebijakan retensi, dan titik pemulihan untuk organisasi Anda.",
+      "loadError": "Tidak dapat memuat status cadangan. Silakan coba lagi.",
+      "maintenanceError": "Status cadangan sementara tidak tersedia. Tim kami telah diberitahu — coba lagi nanti atau hubungi Dukungan.",
+      "forbiddenError": "Anda tidak memiliki akses ke status cadangan organisasi ini.",
+      "statusHeroTitle": "Status cadangan",
+      "noOrganizations": "Tidak ada organisasi yang terhubung ke akun Anda."
+    },
+    "account.integrations.xero_migration": {
+      "title": "Pekerjaan migrasi Xero",
+      "subtitleLoading": "Memuat status pekerjaan…"
+    }
+  }
+}

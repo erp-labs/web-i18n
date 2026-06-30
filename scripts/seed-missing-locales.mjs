@@ -6,7 +6,7 @@
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { PATHS, loadNonEnLocales, ERP_LABS_ROOT } from './lib/constants.mjs'
-import { deepClone } from './lib/flatten-keys.mjs'
+import { deepClone, flattenKeys, unflattenKeys } from './lib/flatten-keys.mjs'
 
 const NEW_APP_LOCALES = ['th', 'id', 'ms', 'si', 'ur', 'hi']
 
@@ -121,6 +121,36 @@ function listEnPageFiles(dir, acc = []) {
   return acc
 }
 
+function mergeMissingKeys(enKeys, locKeys) {
+  const enFlat = flattenKeys(enKeys ?? {})
+  const locFlat = flattenKeys(locKeys ?? {})
+  for (const [path, value] of Object.entries(enFlat)) {
+    if (!(path in locFlat)) locFlat[path] = value
+  }
+  return unflattenKeys(locFlat)
+}
+
+function backfillExistingLocaleKeys() {
+  let updated = 0
+  for (const enFile of listEnPageFiles(PATHS.sourcesEn)) {
+    const rel = enFile.slice(PATHS.sourcesEn.length + 1)
+    const enDoc = JSON.parse(readFileSync(enFile, 'utf8'))
+    for (const locale of loadNonEnLocales()) {
+      const locFile = join(PATHS.locales, locale, rel)
+      if (!existsSync(locFile)) continue
+      const locDoc = JSON.parse(readFileSync(locFile, 'utf8'))
+      const merged = mergeMissingKeys(enDoc.keys, locDoc.keys)
+      const before = JSON.stringify(locDoc.keys)
+      const after = JSON.stringify(merged)
+      if (before === after) continue
+      locDoc.keys = merged
+      writeJson(locFile, locDoc)
+      updated++
+    }
+  }
+  return updated
+}
+
 function main() {
   const targetLocales = loadNonEnLocales()
   let count = 0
@@ -158,7 +188,9 @@ function main() {
     }
   }
 
+  const backfilled = backfillExistingLocaleKeys()
   console.log(`seed-missing-locales: created ${count} locale page files`)
+  console.log(`seed-missing-locales: backfilled keys in ${backfilled} existing files`)
 }
 
 main()

@@ -2,18 +2,42 @@
   "pageId": "www.contact",
   "surface": "www",
   "route": "/contact",
-  "version": 1,
+  "version": 3,
   "sourceHash": "sha256:6c37c213ea598111e64e2c7a2db9690024851717a0b4603c8c52568d81028a66",
   "keys": {
     "path": "/contact",
-    "meta_title": "Contact",
-    "meta_description": "Sales, support, and enterprise contact channels."
+    "meta_title": "ติดต่อเรา",
+    "meta_description": "ช่องทางติดต่อฝ่ายขาย การสนับสนุน และองค์กร",
+    "hero_title": "ติดต่อเรา",
+    "hero_subtitle": "ไม่ว่าคุณจะกำลังประเมินแพลตฟอร์ม พร้อมเริ่มต้น หรือต้องการความช่วยเหลือกับบัญชีที่มีอยู่ — เราตอบกลับภายในหนึ่งวันทำการ",
+    "faqTitle": "คำตอบด่วน",
+    "channels_0_title": "Sales",
+    "channels_0_description": "Discuss pricing, migration support, or a custom Enterprise plan.",
+    "channels_0_cta": "Book a Demo",
+    "channels_1_title": "General enquiries",
+    "channels_1_description": "Email our team directly for questions about the platform, billing, or partnerships.",
+    "channels_1_cta": "Email us",
+    "channels_2_title": "Technical support",
+    "channels_2_description": "For existing customers with platform issues, visit our documentation and help centre.",
+    "channels_2_cta": "Open docs",
+    "channels_3_title": "Enterprise & partnerships",
+    "channels_3_description": "Dedicated infrastructure, custom SLA, on-premise deployment, or technology partnerships.",
+    "channels_3_cta": "Contact enterprise sales",
+    "faq_0_q": "How quickly will I hear back?",
+    "faq_0_a": "Sales enquiries are typically responded to within one business day. For existing customers, support response times depend on your plan tier.",
+    "faq_1_q": "Is there a free trial?",
+    "faq_2_q": "I want to migrate from an existing ERP. Who should I contact?",
+    "faq_2_a": "Reach out via the Sales channel above. Our team will assess your current setup and guide you through the migration process.",
+    "legalNote": "Vouus is a product of PREGO Labs Pte. Ltd., incorporated in Singapore. For legal and privacy matters, see our Privacy Policy and Terms of Service.",
+    "privacyLinkLabel": "Privacy Policy",
+    "termsLinkLabel": "Terms of Service"
   },
   "meta": {
     "productRepo": "infra-control-plane",
     "sourcePath": "src/marketing-pages/registry.ts contact",
     "githubPath": "www/contact.page.json",
-    "translationStatus": "ai_draft",
-    "method": "cursor-ai"
+    "translationStatus": "review",
+    "method": "cursor-ai-2",
+    "reviewedAt": "2026-06-30"
   }
 }

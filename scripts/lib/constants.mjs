@@ -36,6 +36,22 @@ export function loadNonEnLocales() {
   return loadLocales().filter((c) => c !== 'en')
 }
 
+/** Template key → source file when not `{key}.ts` (multi-template modules). */
+export const EMAIL_TEMPLATE_SOURCE_FILE = {
+  'trial-start': 'trial.ts',
+  'trial-day-7': 'trial.ts',
+  'trial-day-1': 'trial.ts',
+  'trial-last-chance': 'trial.ts',
+  'trial-manual-receipt': 'trial-manual.ts',
+  'trial-manual-approved': 'trial-manual.ts',
+  'trial-manual-rejected': 'trial-manual.ts',
+  'trial-verify-reminder': 'trial-manual.ts',
+  'xero-migration-completed': 'xero-bridge.ts',
+  'xero-migration-failed': 'xero-bridge.ts',
+  'xero-token-expired': 'xero-bridge.ts',
+  'xero-rate-limit-paused': 'xero-bridge.ts',
+}
+
 export const EMAIL_TEMPLATE_KEYS = [
   'otp',
   'provisioning',

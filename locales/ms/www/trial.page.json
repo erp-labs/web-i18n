@@ -2,18 +2,25 @@
   "pageId": "www.trial",
   "surface": "www",
   "route": "/trial",
-  "version": 1,
+  "version": 3,
   "sourceHash": "sha256:93a2ccb07f9f6b359df85859f95c03fc17ddcc7b76b8cb872c434ecd032b193b",
   "keys": {
     "path": "/trial",
-    "meta_title": "Start your trial | Vouus",
-    "meta_description": "Enter your work email to start a guided trial. Business domains get instant access; we will guide you through setup."
+    "meta_title": "Mulakan percubaan anda | Vouus",
+    "meta_description": "Masukkan e-mel kerja anda untuk memulakan percubaan berpandu. Domain perniagaan mendapat akses segera; kami akan bimbing anda melalui persediaan.",
+    "hero_title": "Cuba Pro percuma selama 14 hari",
+    "hero_subtitle": "Sahkan e-mel kerja anda untuk meneruskan pendaftaran",
+    "whyWorkEmailLabel": "Mengapa e-mel kerja?",
+    "bullet1": "Akses Pro penuh selama 14 hari",
+    "bullet2": "Tiada kad kredit diperlukan",
+    "bullet3": "Pelayan dan data anda kekal selepas percubaan"
   },
   "meta": {
     "productRepo": "infra-control-plane",
     "sourcePath": "src/marketing-pages/registry.ts trial",
     "githubPath": "www/trial.page.json",
-    "translationStatus": "ai_draft",
-    "method": "cursor-ai"
+    "translationStatus": "review",
+    "method": "cursor-ai-2",
+    "reviewedAt": "2026-06-30"
   }
 }

@@ -1,0 +1,167 @@
+{
+  "pages": {
+    "account.auth.signin": {
+      "title": "سائن ان",
+      "titleLogin": "لاگ ان",
+      "titleGetStarted": "شروع کریں",
+      "titlePortalPasswordSetup": "سروس منتظم کا پاس ورڈ سیٹ کریں",
+      "descriptionDefault": "اپنے workspace کے لیے رجسٹرڈ ای میل سے سائن ان کریں۔",
+      "descriptionEmailLocked": "سائن ان کے لیے ہم اس پتے پر تصدیقی کوڈ بھیجیں گے۔",
+      "descriptionPackageFunnel": "ادائیگی جاری رکھنے کے لیے سائن ان کریں یا اکاؤنٹ بنائیں۔",
+      "descriptionPortalPassword": "اپنی ای میل درج کریں۔ ہم تصدیقی کوڈ بھیجیں گے، پھر آپ سروس منتظم کا پاس ورڈ بنا سکتے ہیں۔",
+      "descriptionLoginGate": "اپنی ای میل اور پاس ورڈ سے سائن ان کریں۔ ہم اگلے مرحلے میں تصدیقی کوڈ ای میل کریں گے۔",
+      "submit": "جاری رکھیں",
+      "submitLogin": "لاگ ان",
+      "submitSendCode": "تصدیقی کوڈ بھیجیں",
+      "submitting": "بھیجا جا رہا ہے…",
+      "submittingLogin": "لاگ ان ہو رہا ہے…",
+      "submittingVerify": "تصدیق ہو رہی ہے…",
+      "emailLabel": "ای میل پتہ",
+      "passwordLabel": "پاس ورڈ"
+    },
+    "account.auth.signup": {
+      "title": "سائن اپ",
+      "titleEmailLocked": "ای میل",
+      "intro": "شروع کرنے کے لیے اپنا اکاؤنٹ بنائیں۔",
+      "introEmailLocked": "ہم اس پتے پر تصدیقی کوڈ بھیجیں گے تاکہ آپ اکاؤنٹ بنانا مکمل کر سکیں۔",
+      "emailLabel": "ای میل پتہ",
+      "emailLockedHint": "یہ پتہ pregoi.com پر تصدیق شدہ ہے اور یہاں تبدیل نہیں کیا جا سکتا۔",
+      "submit": "تصدیقی کوڈ بھیجیں",
+      "submitting": "بھیجا جا رہا ہے…"
+    },
+    "account.auth.verify": {
+      "title": "اپنی شناخت کی تصدیق کریں",
+      "intro": "جاری رکھنے کے لیے براہ کرم اپنی ای میل پر بھیجا گیا یک بار کا کوڈ درج کریں۔",
+      "emailPrefix": "ای میل:",
+      "sendUncertainBanner": "ہم ترسیل کی تصدیق نہیں کر سکے، مگر تصدیقی ای میل شاید پہلے سے آپ کے ان باکس میں ہو۔ نیچے تازہ ترین کوڈ درج کریں۔",
+      "verify": "تصدیق کریں",
+      "verifying": "تصدیق ہو رہی ہے…",
+      "loading": "لوڈ ہو رہا ہے…"
+    },
+    "account.onboarding.company": {
+      "title": "کمپنی",
+      "submit": "جاری رکھیں"
+    },
+    "account.onboarding.platform": {
+      "title": "پلیٹ فارم",
+      "intro": "اس workspace کے لیے اپنا ERP stack اور cloud provider منتخب کریں۔",
+      "submit": "جاری رکھیں"
+    },
+    "account.onboarding.review": {
+      "title": "جائزہ اور تصدیق",
+      "intro": "workspace بنانے اور provisioning شروع کرنے سے پہلے اپنی کمپنی کی تفصیلات چیک کریں۔",
+      "submit": "لانچ شروع کریں"
+    },
+    "account.onboarding.launch": {
+      "title": "تقریباً مکمل",
+      "titleProgress": "سیٹ اپ کی پیش رفت",
+      "titleVerifying": "سرور کی حالت کی تصدیق",
+      "titleSettingUp": "آپ کا سرور سیٹ اپ ہو رہا ہے",
+      "titleStopped": "سیٹ اپ رک گیا"
+    },
+    "account.billing.upgrade": {
+      "title": "پیکج اپ گریڈ کریں",
+      "subtitle": "اپنے workspace کے لیے اعلیٰ پلان منتخب کریں۔",
+      "bodyNote": "اعلیٰ پلان پر جانے پر آپ کا dedicated server اور ڈیٹا برقرار رہتا ہے۔",
+      "submit": "اپ گریڈ",
+      "backToBilling": "← billing پر واپس"
+    },
+    "account.billing.upgrade_success": {
+      "titlePayment": "ادائیگی کامیاب",
+      "titleInline": "پیکج اپ ڈیٹ ہو گیا",
+      "body": "Stripe سے subscription کی تفصیلات sync ہونے میں ایک منٹ لگ سکتا ہے۔",
+      "bodyWithPlan": "آپ کا workspace {plan} پر منتقل ہو رہا ہے۔ Stripe سے subscription کی تفصیلات sync ہونے میں ایک منٹ لگ سکتا ہے۔",
+      "cta": "billing دیکھیں"
+    },
+    "account.shell.dashboard": {
+      "title": "Dashboard",
+      "subtitle": "آپ کے اکاؤنٹ اور سروسز کا جائزہ",
+      "subtitleSignedIn": "خوش آمدید، {name} — اپنی subscription، portals، اور usage منظم کریں۔"
+    },
+    "account.shell.billing": {
+      "title": "Billing",
+      "subtitle": "اپنی subscription، ادائیگی کا طریقہ، اور تاریخ منظم کریں",
+      "subtitleWithEmail": "{email} کے لیے subscription، ادائیگی کا طریقہ، اور تاریخ منظم کریں۔"
+    },
+    "account.shell.profile": {
+      "title": "Profile",
+      "subtitle": "آپ کے اکاؤنٹ اور تنظیم کی تفصیلات۔"
+    },
+    "account.shell.integrations": {
+      "title": "Integrations",
+      "subtitle": "بیرونی ٹولز اپنے workspace سے جوڑیں۔"
+    },
+    "account.shell.usage": {
+      "title": "سروس Usage",
+      "subtitle": "storage، email، AI tokens، اور employee portal seats کے لیے اپنے پلان پر quota ٹریک کریں۔"
+    },
+    "account.shell.users": {
+      "title": "Users",
+      "subtitle": "وہ ملازمین منظم کریں جو آپ کے employee portal میں سائن ان کر سکتے ہیں۔"
+    },
+    "www.trial": {
+      "path": "/trial",
+      "meta_title": "اپنا trial شروع کریں | Vouus",
+      "meta_description": "رہنمائی شدہ trial شروع کرنے کے لیے اپنی work email درج کریں۔ business domains کو فوری رسائی ملتی ہے؛ ہم آپ کو setup میں رہنمائی کریں گے۔",
+      "hero_title": "14 دن Pro مفت آزمائیں",
+      "hero_subtitle": "سائن اپ جاری رکھنے کے لیے اپنی work email کی تصدیق کریں",
+      "whyWorkEmailLabel": "work email کیوں؟",
+      "bullet1": "14 دنوں کے لیے مکمل Pro access",
+      "bullet2": "کریڈٹ کارڈ درکار نہیں",
+      "bullet3": "trial کے بعد بھی آپ کا server اور ڈیٹا برقرار رہتا ہے"
+    },
+    "www.about": {
+      "path": "/about",
+      "meta_title": "ہمارے بارے میں",
+      "meta_description": "ہمارا mission، values، اور کہانی۔",
+      "hero_title": "Work moves here.",
+      "hero_subtitle": "Singapore میں تیز teams کے لیے بنایا گیا",
+      "missionTitle": "ہمارا mission",
+      "valuesTitle": "ہم کیا مانتے ہیں",
+      "ctaTitle": "Vouus کو action میں دیکھنے کے لیے تیار ہیں؟",
+      "ctaBody": "14 دن کا Pro trial آزمائیں، یا ہماری team کے ساتھ ذاتی demo شیڈول کریں۔"
+    },
+    "www.contact": {
+      "path": "/contact",
+      "meta_title": "رابطہ",
+      "meta_description": "Sales، support، اور enterprise contact channels۔",
+      "hero_title": "رابطہ کریں",
+      "hero_subtitle": "چاہے آپ platform کا جائزہ لے رہے ہوں، شروع کرنے کے لیے تیار ہوں، یا موجودہ account میں مدد چاہتے ہوں—ہم ایک business day میں جواب دیتے ہیں۔",
+      "faqTitle": "فوری جوابات"
+    },
+    "email.welcome": {
+      "subject": "متحرک subject (welcome)",
+      "headerTitle": "آپ کی subscription فعال ہے",
+      "bodyIntro": "{company_name} کی {package_name} plan subscription اب فعال ہے۔",
+      "nextStepsTitle": "اگلے مراحل",
+      "textHeader": "آپ کی subscription فعال ہے"
+    },
+    "email.provisioning": {
+      "subject": "متحرک subject (provisioning)",
+      "headerTitle": "آپ کا workspace تیار ہے",
+      "introTemplate": "آپ کا {serviceName} workspace provisioning مکمل ہو گیا ہے۔ سائن ان اور شروع کرنے کے لیے نیچے دیے گئے links استعمال کریں۔",
+      "textHeader": "آپ کا workspace تیار ہے"
+    },
+    "email.desk_credentials": {
+      "subject": "متحرک subject (desk-credentials)",
+      "headerTitle": "Work Desk سائن ان کی تفصیلات",
+      "introTemplate": "سلام، آپ کا {serviceName} workspace تیار ہے۔ نیچے دی گئی تفصیلات صرف Work Desk اور Work App کے لیے استعمال کریں۔",
+      "passwordLabel": "پاس ورڈ (Work Desk اور Work App)",
+      "workAppLabel": "Work App URL",
+      "accountPortalLabel": "Account portal"
+    },
+    "account.shell.backup": {
+      "pageTitle": "بیک اپ",
+      "pageDescription": "اپنی تنظیم کے لیے خودکار بیک اپ کی حالت، retention پالیسی اور recovery points دیکھیں۔",
+      "loadError": "بیک اپ کی حالت لوڈ نہیں ہو سکی۔ دوبارہ کوشش کریں۔",
+      "maintenanceError": "بیک اپ کی حالت عارضی طور پر دستیاب نہیں۔ ہماری ٹیم کو مطلع کر دیا گیا — بعد میں کوشش کریں یا Support سے رابطہ کریں۔",
+      "forbiddenError": "آپ کو اس تنظیم کی بیک اپ حالت تک رسائی نہیں۔",
+      "statusHeroTitle": "بیک اپ کی حالت",
+      "noOrganizations": "آپ کے اکاؤنٹ سے کوئی تنظیم منسلک نہیں۔"
+    },
+    "account.integrations.xero_migration": {
+      "title": "Xero migration job",
+      "subtitleLoading": "Job کی حالت لوڈ ہو رہی ہے…"
+    }
+  }
+}
