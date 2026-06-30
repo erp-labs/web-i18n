@@ -7,7 +7,9 @@
   "keys": {
     "path": "/solutions/finance",
     "meta_title": "Finance Teams | Vouus",
-    "meta_description": "Close faster: expenses, eInvoice, approvals, and reports in one workflow."
+    "meta_description": "Close faster: expenses, eInvoice, approvals, and reports in one workflow.",
+    "hero_title": "請求書から元帳までつながる財務",
+    "hero_description": "経費・eInvoice・締めを連結ワークフローで—機械的ステップはScheduler・Automation、承認は監査向けに可視。"
   },
   "meta": {
     "productRepo": "infra-control-plane",

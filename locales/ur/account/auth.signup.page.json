@@ -6,12 +6,12 @@
   "sourceHash": "sha256:b157861ca3ef1a6277cabe3ce03f14b8448cadc23cd00733a8103a651dbfc23c",
   "keys": {
     "title": "سائن اپ",
-    "submit": "تصدیقی کوڈ بھیجیں",
     "titleEmailLocked": "ای میل",
     "intro": "شروع کرنے کے لیے اپنا اکاؤنٹ بنائیں۔",
     "introEmailLocked": "ہم اس پتے پر تصدیقی کوڈ بھیجیں گے تاکہ آپ اکاؤنٹ بنانا مکمل کر سکیں۔",
     "emailLabel": "ای میل پتہ",
     "emailLockedHint": "یہ پتہ pregoi.com پر تصدیق شدہ ہے اور یہاں تبدیل نہیں کیا جا سکتا۔",
+    "submit": "تصدیقی کوڈ بھیجیں",
     "submitting": "بھیجا جا رہا ہے…"
   },
   "meta": {

@@ -6,11 +6,11 @@
   "sourceHash": "sha256:987d8f6afe835071745e81dfce7a1fde78aef376b375a914af9fe16e82e1ff79",
   "keys": {
     "subject": "ගතික subject (welcome)",
-    "_sourceNote": "Extracted from welcome.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver.",
     "headerTitle": "ඔබගේ subscription active",
     "bodyIntro": "{company_name} subscription {package_name} plan වෙත දැන් active.",
     "nextStepsTitle": "ඊළඟ පියවර",
-    "textHeader": "ඔබගේ subscription active"
+    "textHeader": "ඔබගේ subscription active",
+    "_sourceNote": "Extracted from welcome.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
   },
   "meta": {
     "productRepo": "infra-email",

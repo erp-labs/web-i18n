@@ -3,11 +3,13 @@
   "surface": "www",
   "route": "/solutions",
   "version": 1,
-  "sourceHash": "sha256:6ba7998c35f9b1668eab31fd5770f6a04f29b064b5e543242af6b45a971ec8eb",
+  "sourceHash": "sha256:e06eddc9d64148bf66f499d8dba4ecd1165ced3d5ca7b13feb5e8fbf231e833b",
   "keys": {
     "path": "/solutions",
     "meta_title": "Solutions",
-    "meta_description": "Solutions by role and company size."
+    "meta_description": "Solutions by role and company size.",
+    "hero_title": "Built for how your team works",
+    "hero_description": "Tailored by role and company size—one workflow spine for people, money, and approvals."
   },
   "meta": {
     "productRepo": "infra-control-plane",

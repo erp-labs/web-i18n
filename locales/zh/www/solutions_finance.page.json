@@ -7,7 +7,9 @@
   "keys": {
     "path": "/solutions/finance",
     "meta_title": "Finance Teams | Vouus",
-    "meta_description": "Close faster: expenses, eInvoice, approvals, and reports in one workflow."
+    "meta_description": "Close faster: expenses, eInvoice, approvals, and reports in one workflow.",
+    "hero_title": "从发票到总账的财务主线",
+    "hero_description": "费用、eInvoice 与关账作为连通工作流—Scheduler 与 Automation 处理机械步骤，审批对审计可见。"
   },
   "meta": {
     "productRepo": "infra-control-plane",

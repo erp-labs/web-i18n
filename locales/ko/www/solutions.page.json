@@ -7,7 +7,9 @@
   "keys": {
     "path": "/solutions",
     "meta_title": "Solutions",
-    "meta_description": "Solutions by role and company size."
+    "meta_description": "Solutions by role and company size.",
+    "hero_title": "팀이 일하는 방식에 맞게",
+    "hero_description": "역할과 회사 규모별 맞춤—사람, 자금, 승인을 위한 하나의 워크플로우 축."
   },
   "meta": {
     "productRepo": "infra-control-plane",

@@ -3,11 +3,13 @@
   "surface": "www",
   "route": "/product/crm",
   "version": 1,
-  "sourceHash": "sha256:a272a35d2bd486da8cd768da6676de2f25c7f207a523ba663ec5f46222c86b45",
+  "sourceHash": "sha256:21750e137be86c1aa1ba6bbaebb2fe57c1121c605439d18970166572ac8076de",
   "keys": {
     "path": "/product/crm",
     "meta_title": "Sales & CRM",
-    "meta_description": "Pipeline, customer records, and sales insights."
+    "meta_description": "Pipeline, customer records, and sales insights.",
+    "hero_title": "Revenue your finance can reconcile",
+    "hero_description": "Sales pipeline, customer records, and billing share one workflow spine—finance sees the same thread sales does."
   },
   "meta": {
     "productRepo": "infra-control-plane",

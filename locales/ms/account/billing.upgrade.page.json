@@ -6,9 +6,9 @@
   "sourceHash": "sha256:7428f7bac7c24316234874d4f490cd00ef9f55561ac56104b1810dd3ba424d78",
   "keys": {
     "title": "Naik taraf pakej",
-    "submit": "Naik taraf",
     "subtitle": "Pilih pelan yang lebih tinggi untuk ruang kerja anda.",
     "bodyNote": "Pelayan khusus dan data anda kekal apabila anda beralih ke pelan yang lebih tinggi.",
+    "submit": "Naik taraf",
     "backToBilling": "← Kembali ke bil"
   },
   "meta": {

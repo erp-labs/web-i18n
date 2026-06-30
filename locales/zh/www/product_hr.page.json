@@ -1,0 +1,21 @@
+{
+  "pageId": "www.product_hr",
+  "surface": "www",
+  "route": "/product/hr",
+  "version": 1,
+  "sourceHash": "sha256:37ba96c3d049ef77d5dabc2d05d19f9235ef0de818558ccc2bbb574e4aade652",
+  "keys": {
+    "path": "/product/hr",
+    "meta_title": "People & HR",
+    "meta_description": "HR wired to real approvals—attendance, leave, and payroll on one connected spine.",
+    "hero_title": "与真实审批联动的 HR",
+    "hero_description": "考勤、请假与薪资在同一工作流主轴上共享可审计记录——在 {brand}。"
+  },
+  "meta": {
+    "productRepo": "web-public",
+    "sourcePath": "apps/marketing-web/app/product/hr/page.tsx",
+    "githubPath": "www/product_hr.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

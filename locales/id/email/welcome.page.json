@@ -6,11 +6,11 @@
   "sourceHash": "sha256:987d8f6afe835071745e81dfce7a1fde78aef376b375a914af9fe16e82e1ff79",
   "keys": {
     "subject": "Subjek dinamis (selamat datang)",
-    "_sourceNote": "Extracted from welcome.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver.",
     "headerTitle": "Langganan Anda aktif",
     "bodyIntro": "Langganan {company_name} Anda ke paket {package_name} sekarang aktif.",
     "nextStepsTitle": "Langkah selanjutnya",
-    "textHeader": "Langganan Anda aktif"
+    "textHeader": "Langganan Anda aktif",
+    "_sourceNote": "Extracted from welcome.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
   },
   "meta": {
     "productRepo": "infra-email",

@@ -6,12 +6,12 @@
   "sourceHash": "sha256:b157861ca3ef1a6277cabe3ce03f14b8448cadc23cd00733a8103a651dbfc23c",
   "keys": {
     "title": "Daftar",
-    "submit": "Hantar kod pengesahan",
     "titleEmailLocked": "E-mel",
     "intro": "Cipta akaun anda untuk bermula.",
     "introEmailLocked": "Kami akan hantar kod pengesahan ke alamat ini supaya anda boleh menyelesaikan pendaftaran akaun.",
     "emailLabel": "Alamat e-mel",
     "emailLockedHint": "Alamat ini telah disahkan di pregoi.com dan tidak boleh diubah di sini.",
+    "submit": "Hantar kod pengesahan",
     "submitting": "Menghantar…"
   },
   "meta": {

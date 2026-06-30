@@ -7,7 +7,9 @@
   "keys": {
     "path": "/solutions/sales",
     "meta_title": "Sales Teams | Vouus",
-    "meta_description": "CRM-aligned quotes, orders, and billing handoff to finance."
+    "meta_description": "CRM-aligned quotes, orders, and billing handoff to finance.",
+    "hero_title": "재무가 볼 수 있는 매출 흐름",
+    "hero_description": "파이프라인·견적·주문을 청구·인식과 동기화하는 워크플로우에서 운영—리스크는 분석이, 후속은 Automation이."
   },
   "meta": {
     "productRepo": "infra-control-plane",

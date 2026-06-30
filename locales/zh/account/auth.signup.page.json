@@ -6,12 +6,12 @@
   "sourceHash": "sha256:b157861ca3ef1a6277cabe3ce03f14b8448cadc23cd00733a8103a651dbfc23c",
   "keys": {
     "title": "Create your account",
-    "submit": "Sign up",
     "titleEmailLocked": "Email",
     "intro": "Create your account to get started.",
     "introEmailLocked": "We'll send a verification code to this address so you can finish creating your account.",
     "emailLabel": "Email address",
     "emailLockedHint": "This address was verified on pregoi.com and cannot be changed here.",
+    "submit": "Sign up",
     "submitting": "Sending…"
   },
   "meta": {

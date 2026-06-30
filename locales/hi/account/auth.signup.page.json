@@ -6,12 +6,12 @@
   "sourceHash": "sha256:b157861ca3ef1a6277cabe3ce03f14b8448cadc23cd00733a8103a651dbfc23c",
   "keys": {
     "title": "साइन अप",
-    "submit": "सत्यापन कोड भेजें",
     "titleEmailLocked": "ईमेल",
     "intro": "शुरू करने के लिए अपना खाता बनाएँ।",
     "introEmailLocked": "खाता बनाना पूरा करने के लिए हम इस पते पर सत्यापन कोड भेजेंगे।",
     "emailLabel": "ईमेल पता",
     "emailLockedHint": "यह पता pregoi.com पर सत्यापित है और यहाँ बदला नहीं जा सकता।",
+    "submit": "सत्यापन कोड भेजें",
     "submitting": "भेजा जा रहा है…"
   },
   "meta": {

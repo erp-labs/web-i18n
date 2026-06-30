@@ -7,7 +7,9 @@
   "keys": {
     "path": "/product/ocr",
     "meta_title": "OCR / Receipt & Invoice Scan",
-    "meta_description": "Mobile capture and receipt extraction."
+    "meta_description": "Mobile capture and receipt extraction.",
+    "hero_title": "영수증 캡처. 장부 자동 반영.",
+    "hero_description": "촬영·추출·승인—OCR이 종이를 경비 워크플로우 데이터로 바꿉니다."
   },
   "meta": {
     "productRepo": "infra-control-plane",

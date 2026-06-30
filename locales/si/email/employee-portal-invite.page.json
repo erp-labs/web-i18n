@@ -6,7 +6,6 @@
   "sourceHash": "sha256:740e4617c13619da36a51a7beffc11222ba7cdc216a2f5a15c5df15668a28df7",
   "keys": {
     "subject": "Dynamic subject (employee-portal-invite)",
-    "_sourceNote": "Extracted from employee-portal-invite.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver.",
     "headerTitle": "Welcome to {company}",
     "introTemplate": "Hello {displayName}, you have been invited to join {company} on {serviceName}. Use the links below to activate your account.",
     "workAppLabel": "Work App",
@@ -16,7 +15,8 @@
     "credentialsTitle": "Sign-in credentials",
     "emailLabel": "Email",
     "passwordLabel": "Temporary password",
-    "textHeader": "Employee portal invite"
+    "textHeader": "Employee portal invite",
+    "_sourceNote": "Extracted from employee-portal-invite.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
   },
   "meta": {
     "productRepo": "infra-email",

@@ -6,14 +6,39 @@
   "sourceHash": "sha256:804e0493f97b567a9b055d326338c420cc6b9d201efc393a9f611ca7676c583b",
   "keys": {
     "path": "/responsible-ai",
-    "meta_title": "Responsible Use Policy",
-    "meta_description": "Responsible AI use policy."
+    "meta_title": "负责任使用政策",
+    "meta_description": "负责任 AI 使用政策。",
+    "page_title": "负责任使用政策",
+    "rai01_title": "1. 引言",
+    "rai01_p0": "This policy describes how iPrego Pte. Ltd. designs and operates assisted and automated capabilities in the {brand} platform with transparency, accountability, and data protection.",
+    "rai02_title": "2. {brand} 平台内的目的",
+    "rai02_p0": "Assisted capabilities support productivity — financial insights, classification, workforce analytics, pipeline analysis, workflow recommendations, and forecasting. They assist decision-making; they do not replace human oversight.",
+    "rai03_title": "3. 人工监督",
+    "rai03_p0": "Users remain responsible for reviewing financial decisions, HR actions, workflows, and automated recommendations.",
+    "rai04_title": "4. 数据保护与隐私",
+    "rai04_p0": "Customer data remains under customer ownership, is processed only for platform functionality, and follows Singapore PDPA. Customer data is not used to train shared foundation models without explicit consent.",
+    "rai05_title": "5. 透明度",
+    "rai05_p0": "Users are informed when insights, recommendations, or automated workflows are machine-assisted.",
+    "rai06_title": "6. 公平与负责任使用",
+    "rai06_p0": "Do not use automated suggestions for unfair treatment or discrimination. Organizations must comply with applicable laws.",
+    "rai07_title": "7. 安全",
+    "rai07_p0": "Assisted features are protected by access controls, secure infrastructure, monitoring, and unauthorized-access safeguards.",
+    "rai08_title": "8. 持续改进",
+    "rai08_p0": "Capabilities may improve through product updates, performance monitoring, and user feedback.",
+    "rai09_title": "9. 局限性",
+    "rai09_p0": "Outputs may be inaccurate; predictions may not reflect outcomes; recommendations require contextual interpretation and human judgment.",
+    "rai10_title": "10. 报告问题",
+    "rai10_p0": "Report incorrect outputs, unexpected behavior, or potential misuse to iPrego Pte. Ltd. for review.",
+    "rai11_title": "11. 政策更新",
+    "rai11_p0": "This policy may be updated periodically; the latest version is published on the {brand} website.",
+    "rai12_title": "联系我们",
+    "rai12_p0": "Governance questions: contact support via the email published on our website."
   },
   "meta": {
     "productRepo": "infra-control-plane",
     "sourcePath": "src/marketing-pages/registry.ts responsible-ai",
     "githubPath": "www/responsible-ai.page.json",
-    "translationStatus": "ai_draft",
-    "method": "cursor-ai"
+    "translationStatus": "reviewed",
+    "method": "patch-legal-full-body"
   }
 }

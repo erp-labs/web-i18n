@@ -6,10 +6,10 @@
   "sourceHash": "sha256:47d18968d16ff2fbe043a22e42ab86814ab26342a6564626903439e5c5d5c0e8",
   "keys": {
     "subject": "หัวข้อแบบไดนามิก (การจัดเตรียม)",
-    "_sourceNote": "Extracted from provisioning.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver.",
     "headerTitle": "workspace ของคุณพร้อมแล้ว",
     "introTemplate": "workspace {serviceName} ของคุณจัดเตรียมเสร็จแล้ว ใช้ลิงก์ด้านล่างเพื่อเข้าสู่ระบบและเริ่มต้นใช้งาน",
-    "textHeader": "workspace ของคุณพร้อมแล้ว"
+    "textHeader": "workspace ของคุณพร้อมแล้ว",
+    "_sourceNote": "Extracted from provisioning.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
   },
   "meta": {
     "productRepo": "infra-email",

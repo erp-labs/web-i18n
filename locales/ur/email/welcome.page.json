@@ -6,11 +6,11 @@
   "sourceHash": "sha256:987d8f6afe835071745e81dfce7a1fde78aef376b375a914af9fe16e82e1ff79",
   "keys": {
     "subject": "متحرک subject (welcome)",
-    "_sourceNote": "Extracted from welcome.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver.",
     "headerTitle": "آپ کی subscription فعال ہے",
     "bodyIntro": "{company_name} کی {package_name} plan subscription اب فعال ہے۔",
     "nextStepsTitle": "اگلے مراحل",
-    "textHeader": "آپ کی subscription فعال ہے"
+    "textHeader": "آپ کی subscription فعال ہے",
+    "_sourceNote": "Extracted from welcome.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
   },
   "meta": {
     "productRepo": "infra-email",

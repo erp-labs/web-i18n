@@ -3,11 +3,13 @@
   "surface": "www",
   "route": "/product/ocr",
   "version": 1,
-  "sourceHash": "sha256:35910878ad79bc3e3fa7dc5254b91586784ef065c6ac3ad1e69b7782b7479c6a",
+  "sourceHash": "sha256:f1303ba6f008178b4165d55548a7011314d2d75dc6d52cbc8ec5a14b0195971d",
   "keys": {
     "path": "/product/ocr",
     "meta_title": "OCR / Receipt & Invoice Scan",
-    "meta_description": "Mobile capture and receipt extraction."
+    "meta_description": "Mobile capture and receipt extraction.",
+    "hero_title": "Receipts captured. Books updated.",
+    "hero_description": "Snap, extract, and approve—OCR turns paper into structured data on the expense workflow spine."
   },
   "meta": {
     "productRepo": "infra-control-plane",

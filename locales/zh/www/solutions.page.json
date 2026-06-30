@@ -7,7 +7,9 @@
   "keys": {
     "path": "/solutions",
     "meta_title": "Solutions",
-    "meta_description": "Solutions by role and company size."
+    "meta_description": "Solutions by role and company size.",
+    "hero_title": "贴合团队的工作方式",
+    "hero_description": "按角色与公司规模定制—人、资金与审批共享一条工作流主轴。"
   },
   "meta": {
     "productRepo": "infra-control-plane",

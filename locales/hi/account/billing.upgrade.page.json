@@ -6,9 +6,9 @@
   "sourceHash": "sha256:7428f7bac7c24316234874d4f490cd00ef9f55561ac56104b1810dd3ba424d78",
   "keys": {
     "title": "पैकेज अपग्रेड करें",
-    "submit": "अपग्रेड",
     "subtitle": "अपने workspace के लिए उच्च योजना चुनें।",
     "bodyNote": "उच्च योजना पर जाने पर आपका dedicated server और डेटा वैसा ही रहता है।",
+    "submit": "अपग्रेड",
     "backToBilling": "← billing पर वापस"
   },
   "meta": {

@@ -34,6 +34,21 @@ function scanSecrets(text, file) {
   return true
 }
 
+const P0_LOCALES = ['ko', 'ja', 'zh']
+const P0_MAX_EN_IDENTICAL_RATIO = 0.85
+
+function enIdenticalRatio(enFlat, locFlat) {
+  let comparable = 0
+  let identical = 0
+  for (const key of Object.keys(locFlat)) {
+    if (!(key in enFlat)) continue
+    if (typeof enFlat[key] !== 'string' || typeof locFlat[key] !== 'string') continue
+    comparable += 1
+    if (enFlat[key] === locFlat[key]) identical += 1
+  }
+  return comparable === 0 ? 0 : identical / comparable
+}
+
 function main() {
   let ok = true
   const locales = loadNonEnLocales()
@@ -64,7 +79,18 @@ function main() {
       }
       for (const key of Object.keys(locFlat)) {
         if (!(key in enFlat)) {
+          if (key === 'translationStatus') continue
           console.error(`validate: ${locale}/${rel} extra key ${key}`)
+          ok = false
+        }
+      }
+
+      if (P0_LOCALES.includes(locale) && locFlat.translationStatus === 'reviewed') {
+        const ratio = enIdenticalRatio(enFlat, locFlat)
+        if (ratio > P0_MAX_EN_IDENTICAL_RATIO) {
+          console.error(
+            `validate: ${locale}/${rel} is ${(ratio * 100).toFixed(0)}% EN-identical (max ${P0_MAX_EN_IDENTICAL_RATIO * 100}%)`,
+          )
           ok = false
         }
       }

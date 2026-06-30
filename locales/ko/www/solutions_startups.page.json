@@ -7,7 +7,9 @@
   "keys": {
     "path": "/solutions/startups",
     "meta_title": "Startups (5 users)",
-    "meta_description": "Lean ERP for early-stage teams."
+    "meta_description": "Lean ERP for early-stage teams.",
+    "hero_title": "5명. 하나의 시스템. 첫날부터.",
+    "hero_description": "핵심 ERP·승인·워크플로우 자동화가 포함된 Basic 플랜—깔끔한 장부가 필요한 창업자를 위해."
   },
   "meta": {
     "productRepo": "infra-control-plane",
