@@ -6,7 +6,10 @@
   "sourceHash": "sha256:47d18968d16ff2fbe043a22e42ab86814ab26342a6564626903439e5c5d5c0e8",
   "keys": {
     "subject": "Dynamic subject (provisioning)",
-    "_sourceNote": "Extracted from provisioning.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
+    "_sourceNote": "Extracted from provisioning.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver.",
+    "headerTitle": "Your workspace is ready",
+    "introTemplate": "Your {serviceName} workspace has finished provisioning. Use the links below to sign in and get started.",
+    "textHeader": "Your workspace is ready"
   },
   "meta": {
     "productRepo": "infra-email",

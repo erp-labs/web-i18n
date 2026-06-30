@@ -1,0 +1,34 @@
+{
+  "pageId": "account.onboarding.payment_success",
+  "surface": "account",
+  "route": "/onboarding/payment-success",
+  "version": 1,
+  "sourceHash": "sha256:363b4975bad1ed5248a6909d5b132c234644c5dd8a53d2c982258f7ffb7db06f",
+  "keys": {
+    "title": "Payment Successful!",
+    "loadingReceipt": "Loading receipt…",
+    "linkingWorkspace": "Linking your paid workspace to this browser session…",
+    "workspaceBlocked": "We could not register your workspace from this payment session. Refresh this page while signed in, or contact support with your transaction id.",
+    "amountLabel": "Amount",
+    "transactionIdLabel": "Transaction ID",
+    "paymentMethodLabel": "Payment method",
+    "paymentMethodDefault": "Card",
+    "dateLabel": "Date",
+    "planLabel": "Plan",
+    "confirmationEmail": "A confirmation and invoice will be sent to {email} from Vouus. You may also receive a receipt from Stripe.",
+    "emailMissingHint": "Enter your email on Stripe Checkout to receive Vouus billing email, or use Download receipt when available. Stripe may also send its own receipt.",
+    "submitNext": "Next",
+    "submitLoading": "Loading…",
+    "submitLinking": "Linking workspace…",
+    "downloadReceipt": "Download receipt",
+    "receiptEmailHint": "Receipt link will appear in your confirmation email if not shown here.",
+    "needHelp": "Need help? Contact our support team at"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /onboarding/payment-success",
+    "githubPath": "account/onboarding.payment_success.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

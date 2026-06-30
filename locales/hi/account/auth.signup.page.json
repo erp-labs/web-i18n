@@ -2,17 +2,24 @@
   "pageId": "account.auth.signup",
   "surface": "account",
   "route": "/signup",
-  "version": 1,
+  "version": 3,
   "sourceHash": "sha256:b157861ca3ef1a6277cabe3ce03f14b8448cadc23cd00733a8103a651dbfc23c",
   "keys": {
-    "title": "Create your account",
-    "submit": "Sign up"
+    "title": "साइन अप",
+    "submit": "सत्यापन कोड भेजें",
+    "titleEmailLocked": "ईमेल",
+    "intro": "शुरू करने के लिए अपना खाता बनाएँ।",
+    "introEmailLocked": "खाता बनाना पूरा करने के लिए हम इस पते पर सत्यापन कोड भेजेंगे।",
+    "emailLabel": "ईमेल पता",
+    "emailLockedHint": "यह पता pregoi.com पर सत्यापित है और यहाँ बदला नहीं जा सकता।",
+    "submitting": "भेजा जा रहा है…"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /signup",
     "githubPath": "account/auth.signup.page.json",
-    "translationStatus": "ai_draft",
-    "method": "cursor-ai"
+    "translationStatus": "review",
+    "method": "cursor-ai-2",
+    "reviewedAt": "2026-06-30"
   }
 }

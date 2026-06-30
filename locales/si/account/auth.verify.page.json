@@ -1,0 +1,24 @@
+{
+  "pageId": "account.auth.verify",
+  "surface": "account",
+  "route": "/signup/verify",
+  "version": 3,
+  "sourceHash": "sha256:d99e1c700de571c41953cbd91e31d58db2a680c883620e8c67362e781b6e86c7",
+  "keys": {
+    "title": "ඔබගේ අනන්‍යතාවය සත්‍යාපනය කරන්න",
+    "intro": "ඉදිරියට යාමට ඔබගේ විද්‍යුත් තැපෑලට යැවූ එක්-වර කේතය ඇතුළත් කරන්න.",
+    "emailPrefix": "විද්‍යුත් තැපෑල:",
+    "sendUncertainBanner": "භාරදීම තහවුරු කළ නොහැකි වුවත්, සත්‍යාපන විද්‍යුත් තැපෑල දැනටමත් ඔබගේ එන ලිපි පෙට්ටියේ තිබිය හැක. පහත නවතම කේතය ඇතුළත් කරන්න.",
+    "verify": "සත්‍යාපනය කරන්න",
+    "verifying": "සත්‍යාපනය කරමින්…",
+    "loading": "පූරණය වෙමින්…"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /signup/verify",
+    "githubPath": "account/auth.verify.page.json",
+    "translationStatus": "review",
+    "method": "cursor-ai-2",
+    "reviewedAt": "2026-06-30"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "pageId": "email.xero_token_expired",
+  "surface": "email",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:e9bec95e463bce9a07b8588c03bc09806aa2b27a003dd6ea3135d86beec06057",
+  "keys": {
+    "subject": "xero-token-expired email",
+    "headerTitle": "Reconnect Xero",
+    "bodyTemplate": "The Xero connection {connectionId} for tenant {tenantId} needs re-authorization.",
+    "textHeader": "Reconnect Xero",
+    "_sourceNote": "Extracted from xero-token-expired.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
+  },
+  "meta": {
+    "productRepo": "infra-email",
+    "sourcePath": "packages/email-templates/src/xero-bridge.ts",
+    "githubPath": "email/xero-token-expired.page.json"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "pageId": "account.shell.profile",
+  "surface": "account",
+  "route": "/profile",
+  "version": 3,
+  "sourceHash": "sha256:119605f707e26aec0a235727e9b890fd6bab9389e15d1200a6645d79415bad0f",
+  "keys": {
+    "title": "प्रोफ़ाइल",
+    "subtitle": "आपके खाते और संगठन का विवरण।"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /profile",
+    "githubPath": "account/shell.profile.page.json",
+    "translationStatus": "review",
+    "method": "cursor-ai-2",
+    "reviewedAt": "2026-06-30"
+  }
+}

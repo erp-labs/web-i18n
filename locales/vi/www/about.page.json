@@ -7,7 +7,21 @@
   "keys": {
     "path": "/about",
     "meta_title": "About",
-    "meta_description": "Our mission, values, and story."
+    "meta_description": "Our mission, values, and story.",
+    "hero_title": "Work moves here.",
+    "hero_subtitle": "Built in Singapore for teams that move fast",
+    "missionTitle": "Our mission",
+    "valuesTitle": "What we believe",
+    "ctaTitle": "Ready to see Vouus in action?",
+    "ctaBody": "14-day Pro trial or a personalised demo with our team.",
+    "missionParagraph1": "Most ERP platforms are systems of record. They store what happened. Vouus stores what happened and moves work to whoever needs to act next.",
+    "missionParagraph2": "We built Vouus for the teams who spend too much time chasing approvals, reconciling spreadsheets, and explaining last month's numbers. Our mission is to give those teams a platform where work has a spine—connected steps, clear ownership, and a full audit trail.",
+    "seaTitle": "Why Singapore & Southeast Asia",
+    "sinceParagraph": "Since 2021 in Singapore—workflow-first ERP from core HR and finance to enterprise infrastructure, eInvoice compliance, and mobile operations.",
+    "legalParagraph": "Vouus is a product of PREGO Labs Pte. Ltd., incorporated in Singapore. Our platform serves businesses across Southeast Asia and beyond.",
+    "hero_intro": "{brand} is a workflow-first ERP platform. We build the layer between your data and the people who need to act on it—approvals, automation, and audit trails included.",
+    "hero_talk_cta": "Talk to us",
+    "hero_trial_cta": "Start free trial"
   },
   "meta": {
     "productRepo": "infra-control-plane",

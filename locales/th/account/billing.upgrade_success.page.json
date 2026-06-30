@@ -1,0 +1,22 @@
+{
+  "pageId": "account.billing.upgrade_success",
+  "surface": "account",
+  "route": "/billing/upgrade/success",
+  "version": 3,
+  "sourceHash": "sha256:1cb63be9bc2381be9a48de30b061426e716ee01ed85b7b5b25a24f3fe1e73dbc",
+  "keys": {
+    "titlePayment": "ชำระเงินสำเร็จ",
+    "titleInline": "อัปเดตแพ็กเกจแล้ว",
+    "body": "รายละเอียดการสมัครสมาชิกอาจใช้เวลาสักครู่ในการซิงค์จาก Stripe",
+    "bodyWithPlan": "workspace ของคุณกำลังย้ายไปยัง {plan} รายละเอียดการสมัครสมาชิกอาจใช้เวลาสักครู่ในการซิงค์จาก Stripe",
+    "cta": "ดูการเรียกเก็บเงิน"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /billing/upgrade/success",
+    "githubPath": "account/billing.upgrade_success.page.json",
+    "translationStatus": "review",
+    "method": "cursor-ai-2",
+    "reviewedAt": "2026-06-30"
+  }
+}

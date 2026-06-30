@@ -3,17 +3,21 @@
  * Sync locale bundles from web-i18n back into product repos.
  */
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs'
-import { join } from 'node:path'
+import { join, dirname } from 'node:path'
 import { PATHS, loadLocales, ERP_LABS_ROOT } from './lib/constants.mjs'
-import { deepClone } from './lib/flatten-keys.mjs'
 
 function ensureDir(p) {
   mkdirSync(p, { recursive: true })
 }
 
 function writeJson(path, data) {
-  ensureDir(join(path, '..'))
+  ensureDir(dirname(path))
   writeFileSync(path, `${JSON.stringify(data, null, 2)}\n`, 'utf8')
+}
+
+function writeText(path, data) {
+  ensureDir(dirname(path))
+  writeFileSync(path, data, 'utf8')
 }
 
 function listLocalePageFiles(locale, surface, acc = []) {
@@ -25,21 +29,121 @@ function listLocalePageFiles(locale, surface, acc = []) {
   return acc
 }
 
+function mergeSurfacePagesAtRoot(rootDir, surface) {
+  /** @type {Record<string, unknown>} */
+  const merged = {}
+  const surfaceDir = join(rootDir, surface)
+  if (!existsSync(surfaceDir)) return merged
+  for (const name of readdirSync(surfaceDir)) {
+    if (!name.endsWith('.page.json')) continue
+    const doc = JSON.parse(readFileSync(join(surfaceDir, name), 'utf8'))
+    const ns = doc.pageId.replace(new RegExp(`^${surface}\\.`), '').replace(/\./g, '_')
+    merged[ns] = doc.keys
+  }
+  return merged
+}
+
+function mergeSurfacePages(locale, surface) {
+  const root = locale === 'en' ? PATHS.sourcesEn : join(PATHS.locales, locale)
+  return mergeSurfacePagesAtRoot(root, surface)
+}
+
 function syncEmployeeWeb() {
   const locales = loadLocales().filter((l) => l !== 'en')
-  /** @type {Record<string, Record<string, unknown>>} */
-  const merged = {}
   for (const locale of locales) {
-    merged[locale] = {}
+    const merged = mergeSurfacePages(locale, 'app')
+    if (Object.keys(merged).length === 0) continue
+    const outPath = join(PATHS.employeeWebDict, `${locale}.json`)
+    /** @type {Record<string, unknown>} */
+    const byNamespace = {}
     for (const file of listLocalePageFiles(locale, 'app')) {
       const doc = JSON.parse(readFileSync(file, 'utf8'))
       const ns = doc.pageId.replace(/^app\./, '')
-      merged[locale][ns] = doc.keys
+      byNamespace[ns] = doc.keys
     }
-    if (Object.keys(merged[locale]).length === 0) continue
-    const outPath = join(PATHS.employeeWebDict, `${locale}.json`)
-    writeJson(outPath, merged[locale])
+    writeJson(outPath, byNamespace)
     console.log(`sync-to-apps: wrote ${outPath}`)
+  }
+}
+
+function syncAdminWeb() {
+  const adminDict = join(ERP_LABS_ROOT, 'core-platform', 'apps', 'admin-web', 'dictionaries')
+  ensureDir(adminDict)
+  for (const locale of loadLocales()) {
+    /** @type {Record<string, unknown>} */
+    const merged = {}
+    const surface = locale === 'en' ? PATHS.sourcesEn : join(PATHS.locales, locale)
+    const accountDir = join(surface, 'account')
+    if (!existsSync(accountDir)) continue
+    for (const name of readdirSync(accountDir)) {
+      if (!name.endsWith('.page.json')) continue
+      const doc = JSON.parse(readFileSync(join(accountDir, name), 'utf8'))
+      const key = doc.pageId.replace(/^account\./, '').replace(/\./g, '_')
+      merged[key] = doc.keys
+    }
+    if (Object.keys(merged).length === 0) continue
+    writeJson(join(adminDict, `${locale}.json`), merged)
+    console.log(`sync-to-apps: wrote admin-web/dictionaries/${locale}.json`)
+  }
+}
+
+function syncMarketingWeb() {
+  const outRoot = join(ERP_LABS_ROOT, 'web-public', 'apps', 'marketing-web', 'lib', 'i18n')
+  ensureDir(outRoot)
+  writeJson(join(outRoot, 'en.json'), mergeSurfacePages('en', 'www'))
+  for (const locale of loadLocales().filter((l) => l !== 'en')) {
+    const merged = mergeSurfacePages(locale, 'www')
+    if (Object.keys(merged).length === 0) continue
+    writeJson(join(outRoot, `${locale}.json`), merged)
+    console.log(`sync-to-apps: wrote marketing-web/lib/i18n/${locale}.json`)
+  }
+}
+
+function slugToMdxFilename(pageId) {
+  const slug = pageId.replace(/^docs\.legal\./, '').replace(/_/g, '-')
+  return `${slug}.mdx`
+}
+
+function syncDocsLegal() {
+  const docsContent = join(
+    ERP_LABS_ROOT,
+    'web-public',
+    'apps',
+    'docs',
+    'src',
+    'content',
+    'docs',
+  )
+  const enDir = join(PATHS.sourcesEn, 'docs')
+  if (!existsSync(enDir)) return
+
+  for (const name of readdirSync(enDir)) {
+    if (!name.endsWith('.page.json')) continue
+    const slug = name.replace('.page.json', '').replace(/_/g, '-')
+    const mdxName = `${slug}.mdx`
+
+    for (const locale of loadLocales().filter((l) => l !== 'en')) {
+      const locFile = join(PATHS.locales, locale, 'docs', name)
+      if (!existsSync(locFile)) continue
+      const locDoc = JSON.parse(readFileSync(locFile, 'utf8'))
+      const body = String(locDoc.keys?.body ?? '').trim()
+      if (!body) continue
+      const outDir = join(docsContent, 'legal-translations', locale)
+      ensureDir(outDir)
+      const title = locDoc.keys?.title ?? slug
+      const mdx = `---
+title: ${JSON.stringify(title)}
+description: Legal document (${locale})
+pageId: ${JSON.stringify(locDoc.pageId)}
+locale: ${locale}
+sourceSlug: ${JSON.stringify(slug)}
+---
+
+${body}
+`
+      writeText(join(outDir, mdxName), mdx)
+      console.log(`sync-to-apps: wrote docs legal-translations/${locale}/${mdxName}`)
+    }
   }
 }
 
@@ -65,13 +169,13 @@ function syncEmailLocales() {
 }
 
 function main() {
-  if (!existsSync(PATHS.employeeWebDict)) {
-    console.warn('sync-to-apps: employee-web dictionaries path missing — skip app')
-  } else {
-    syncEmployeeWeb()
-  }
+  if (existsSync(PATHS.employeeWebDict)) syncEmployeeWeb()
+  else console.warn('sync-to-apps: employee-web dictionaries missing — skip app')
+  syncAdminWeb()
+  syncMarketingWeb()
+  syncDocsLegal()
   syncEmailLocales()
-  console.log('sync-to-apps: done (www/account/docs sync is Phase 2 — MDX and admin dictionaries)')
+  console.log('sync-to-apps: done')
 }
 
 main()

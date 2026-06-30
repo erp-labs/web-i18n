@@ -3,7 +3,7 @@
   "surface": "app",
   "route": "/{companyId}/{locale}/signin",
   "version": 1,
-  "sourceHash": "sha256:d11db4e2568fff0acd1a3e537126e705c035b887877f2da41867c16f01d45730",
+  "sourceHash": "sha256:b61dd77a92d1b93ec0a17e819f49b7fe6ee4a05d3e75cfd8500c3712433b4c84",
   "keys": {
     "title": "Login",
     "languageLabel": "Language",
@@ -13,7 +13,13 @@
       "ja": "Japanese",
       "ar": "Arabic",
       "vi": "Vietnamese",
-      "zh": "Chinese"
+      "zh": "Chinese",
+      "th": "Thai",
+      "id": "Indonesian",
+      "ms": "Malay",
+      "si": "Sinhala",
+      "ur": "Urdu",
+      "hi": "Hindi"
     },
     "emailLabel": "Email",
     "emailPlaceholder": "johndoe@gmail.com",

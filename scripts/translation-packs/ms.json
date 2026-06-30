@@ -1,0 +1,167 @@
+{
+  "pages": {
+    "account.auth.signin": {
+      "title": "Log masuk",
+      "titleLogin": "Log masuk",
+      "titleGetStarted": "Mulakan",
+      "titlePortalPasswordSetup": "Sediakan kata laluan pentadbir perkhidmatan",
+      "descriptionDefault": "Log masuk dengan e-mel yang didaftarkan untuk ruang kerja anda.",
+      "descriptionEmailLocked": "Kami akan hantar kod pengesahan ke alamat ini untuk log masuk.",
+      "descriptionPackageFunnel": "Log masuk atau cipta akaun untuk meneruskan ke pembayaran.",
+      "descriptionPortalPassword": "Masukkan e-mel anda. Kami akan hantar kod pengesahan, kemudian anda boleh cipta kata laluan pentadbir perkhidmatan.",
+      "descriptionLoginGate": "Log masuk dengan e-mel dan kata laluan anda. Kami akan e-mel kod pengesahan seterusnya.",
+      "submit": "Teruskan",
+      "submitLogin": "Log masuk",
+      "submitSendCode": "Hantar kod pengesahan",
+      "submitting": "Menghantar…",
+      "submittingLogin": "Sedang log masuk…",
+      "submittingVerify": "Mengesahkan…",
+      "emailLabel": "Alamat e-mel",
+      "passwordLabel": "Kata laluan"
+    },
+    "account.auth.signup": {
+      "title": "Daftar",
+      "titleEmailLocked": "E-mel",
+      "intro": "Cipta akaun anda untuk bermula.",
+      "introEmailLocked": "Kami akan hantar kod pengesahan ke alamat ini supaya anda boleh menyelesaikan pendaftaran akaun.",
+      "emailLabel": "Alamat e-mel",
+      "emailLockedHint": "Alamat ini telah disahkan di pregoi.com dan tidak boleh diubah di sini.",
+      "submit": "Hantar kod pengesahan",
+      "submitting": "Menghantar…"
+    },
+    "account.auth.verify": {
+      "title": "Sahkan identiti anda",
+      "intro": "Sila masukkan kod sekali guna yang dihantar ke e-mel anda untuk meneruskan.",
+      "emailPrefix": "E-mel:",
+      "sendUncertainBanner": "Kami tidak dapat mengesahkan penghantaran, tetapi e-mel pengesahan mungkin sudah ada dalam peti masuk anda. Masukkan kod terkini di bawah.",
+      "verify": "Sahkan",
+      "verifying": "Mengesahkan…",
+      "loading": "Memuatkan…"
+    },
+    "account.onboarding.company": {
+      "title": "Syarikat",
+      "submit": "Teruskan"
+    },
+    "account.onboarding.platform": {
+      "title": "Platform",
+      "intro": "Pilih stack ERP dan penyedia awan untuk ruang kerja ini.",
+      "submit": "Teruskan"
+    },
+    "account.onboarding.review": {
+      "title": "Semak & Sahkan",
+      "intro": "Semak butiran syarikat anda sebelum kami mencipta ruang kerja dan memulakan penyediaan.",
+      "submit": "Mulakan pelancaran"
+    },
+    "account.onboarding.launch": {
+      "title": "Hampir siap",
+      "titleProgress": "Kemajuan persediaan",
+      "titleVerifying": "Mengesahkan keadaan pelayan",
+      "titleSettingUp": "Menyediakan pelayan anda",
+      "titleStopped": "Persediaan dihentikan"
+    },
+    "account.billing.upgrade": {
+      "title": "Naik taraf pakej",
+      "subtitle": "Pilih pelan yang lebih tinggi untuk ruang kerja anda.",
+      "bodyNote": "Pelayan khusus dan data anda kekal apabila anda beralih ke pelan yang lebih tinggi.",
+      "submit": "Naik taraf",
+      "backToBilling": "← Kembali ke bil"
+    },
+    "account.billing.upgrade_success": {
+      "titlePayment": "Pembayaran berjaya",
+      "titleInline": "Pakej dikemas kini",
+      "body": "Butiran langganan mungkin mengambil masa seminit untuk disegerakkan daripada Stripe.",
+      "bodyWithPlan": "Ruang kerja anda sedang beralih ke {plan}. Butiran langganan mungkin mengambil masa seminit untuk disegerakkan daripada Stripe.",
+      "cta": "Lihat bil"
+    },
+    "account.shell.dashboard": {
+      "title": "Papan pemuka",
+      "subtitle": "Gambaran keseluruhan akaun dan perkhidmatan anda",
+      "subtitleSignedIn": "Selamat datang, {name} — urus langganan, portal, dan penggunaan anda."
+    },
+    "account.shell.billing": {
+      "title": "Bil",
+      "subtitle": "Urus langganan, kaedah pembayaran, dan sejarah anda",
+      "subtitleWithEmail": "Urus langganan, kaedah pembayaran, dan sejarah untuk {email}."
+    },
+    "account.shell.profile": {
+      "title": "Profil",
+      "subtitle": "Butiran akaun dan organisasi anda."
+    },
+    "account.shell.integrations": {
+      "title": "Integrasi",
+      "subtitle": "Sambungkan alat luaran ke ruang kerja anda."
+    },
+    "account.shell.usage": {
+      "title": "Penggunaan Perkhidmatan",
+      "subtitle": "Jejaki kuota untuk storan, e-mel, token AI, dan tempat duduk portal pekerja pada pelan anda."
+    },
+    "account.shell.users": {
+      "title": "Pengguna",
+      "subtitle": "Urus pekerja yang boleh log masuk ke portal pekerja anda."
+    },
+    "www.trial": {
+      "path": "/trial",
+      "meta_title": "Mulakan percubaan anda | Vouus",
+      "meta_description": "Masukkan e-mel kerja anda untuk memulakan percubaan berpandu. Domain perniagaan mendapat akses segera; kami akan bimbing anda melalui persediaan.",
+      "hero_title": "Cuba Pro percuma selama 14 hari",
+      "hero_subtitle": "Sahkan e-mel kerja anda untuk meneruskan pendaftaran",
+      "whyWorkEmailLabel": "Mengapa e-mel kerja?",
+      "bullet1": "Akses Pro penuh selama 14 hari",
+      "bullet2": "Tiada kad kredit diperlukan",
+      "bullet3": "Pelayan dan data anda kekal selepas percubaan"
+    },
+    "www.about": {
+      "path": "/about",
+      "meta_title": "Perihal",
+      "meta_description": "Misi, nilai, dan kisah kami.",
+      "hero_title": "Kerja berlaku di sini.",
+      "hero_subtitle": "Dibina di Singapura untuk pasukan yang bergerak pantas",
+      "missionTitle": "Misi kami",
+      "valuesTitle": "Apa yang kami percayai",
+      "ctaTitle": "Bersedia melihat Vouus dalam tindakan?",
+      "ctaBody": "Cuba Pro 14 hari, atau jadualkan demo peribadi dengan pasukan kami."
+    },
+    "www.contact": {
+      "path": "/contact",
+      "meta_title": "Hubungi",
+      "meta_description": "Saluran hubungan jualan, sokongan, dan perusahaan.",
+      "hero_title": "Hubungi kami",
+      "hero_subtitle": "Sama ada anda menilai platform, bersedia untuk bermula, atau memerlukan bantuan dengan akaun sedia ada—kami membalas dalam satu hari perniagaan.",
+      "faqTitle": "Jawapan pantas"
+    },
+    "email.welcome": {
+      "subject": "Subjek dinamik (selamat datang)",
+      "headerTitle": "Langganan anda aktif",
+      "bodyIntro": "Langganan {company_name} anda ke pelan {package_name} kini aktif.",
+      "nextStepsTitle": "Langkah seterusnya",
+      "textHeader": "Langganan anda aktif"
+    },
+    "email.provisioning": {
+      "subject": "Subjek dinamik (penyediaan)",
+      "headerTitle": "Ruang kerja anda sedia",
+      "introTemplate": "Ruang kerja {serviceName} anda telah selesai disediakan. Gunakan pautan di bawah untuk log masuk dan bermula.",
+      "textHeader": "Ruang kerja anda sedia"
+    },
+    "email.desk_credentials": {
+      "subject": "Subjek dinamik (desk-credentials)",
+      "headerTitle": "Butiran log masuk Work Desk",
+      "introTemplate": "Hai, ruang kerja {serviceName} anda sudah sedia. Gunakan butiran di bawah untuk Work Desk dan Work App sahaja.",
+      "passwordLabel": "Kata laluan (Work Desk dan Work App)",
+      "workAppLabel": "Work App URL",
+      "accountPortalLabel": "Portal akaun"
+    },
+    "account.shell.backup": {
+      "pageTitle": "Sandaran",
+      "pageDescription": "Lihat status sandaran automatik, dasar pengekalan, dan titik pemulihan untuk organisasi anda.",
+      "loadError": "Tidak dapat memuat status sandaran. Sila cuba lagi.",
+      "maintenanceError": "Status sandaran tidak tersedia buat sementara. Pasukan kami telah dimaklumkan — cuba lagi atau hubungi Sokongan.",
+      "forbiddenError": "Anda tidak mempunyai akses kepada status sandaran organisasi ini.",
+      "statusHeroTitle": "Status sandaran",
+      "noOrganizations": "Tiada organisasi yang dipautkan ke akaun anda."
+    },
+    "account.integrations.xero_migration": {
+      "title": "Kerja migrasi Xero",
+      "subtitleLoading": "Memuatkan status kerja…"
+    }
+  }
+}

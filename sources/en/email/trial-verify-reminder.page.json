@@ -1,0 +1,26 @@
+{
+  "pageId": "email.trial_verify_reminder",
+  "surface": "email",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:3a2f0e6d86fc94c658e5f8928e6b66d6ffdb203b4f339deeab032ef68c86176c",
+  "keys": {
+    "subject": "Dynamic subject (trial-verify-reminder)",
+    "headerTitle": "Continue trial verification",
+    "headline": "Continue trial verification",
+    "greetingHello": "Hello,",
+    "introTemplate": "Use the link below to continue your trial verification and submit your company details.",
+    "ctaLabel": "Continue verification",
+    "copyLinkLabel": "Or copy this link:",
+    "referenceIdLabel": "Reference ID",
+    "securityCallout": "If you did not request a trial, contact {supportEmail}. This message was sent automatically. Please do not reply.",
+    "footerNote": "This message was sent automatically. Please do not reply.",
+    "textHeader": "Continue trial verification",
+    "_sourceNote": "Extracted from trial-verify-reminder.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
+  },
+  "meta": {
+    "productRepo": "infra-email",
+    "sourcePath": "packages/email-templates/src/trial-manual.ts",
+    "githubPath": "email/trial-verify-reminder.page.json"
+  }
+}

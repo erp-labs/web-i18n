@@ -13,7 +13,13 @@
       "ja": "日本語",
       "ar": "العربية",
       "vi": "Tiếng Việt",
-      "zh": "简体中文"
+      "zh": "简体中文",
+      "th": "Thai",
+      "id": "Indonesian",
+      "ms": "Malay",
+      "si": "Sinhala",
+      "ur": "Urdu",
+      "hi": "Hindi"
     },
     "emailLabel": "邮箱",
     "emailPlaceholder": "johndoe@gmail.com",

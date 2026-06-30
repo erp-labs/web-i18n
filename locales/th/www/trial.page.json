@@ -2,18 +2,25 @@
   "pageId": "www.trial",
   "surface": "www",
   "route": "/trial",
-  "version": 1,
+  "version": 3,
   "sourceHash": "sha256:93a2ccb07f9f6b359df85859f95c03fc17ddcc7b76b8cb872c434ecd032b193b",
   "keys": {
     "path": "/trial",
-    "meta_title": "Start your trial | Vouus",
-    "meta_description": "Enter your work email to start a guided trial. Business domains get instant access; we will guide you through setup."
+    "meta_title": "เริ่มทดลองใช้ | Vouus",
+    "meta_description": "กรอกอีเมลงานของคุณเพื่อเริ่มทดลองใช้แบบมีคำแนะนำ โดเมนธุรกิจจะได้รับสิทธิ์ทันที เราจะแนะนำคุณตลอดการตั้งค่า",
+    "hero_title": "ทดลองใช้ Pro ฟรี 14 วัน",
+    "hero_subtitle": "ยืนยันอีเมลงานของคุณเพื่อดำเนินการสมัครต่อ",
+    "whyWorkEmailLabel": "ทำไมต้องใช้อีเมลงาน?",
+    "bullet1": "เข้าถึง Pro เต็มรูปแบบ 14 วัน",
+    "bullet2": "ไม่ต้องใช้บัตรเครดิต",
+    "bullet3": "เซิร์ฟเวอร์และข้อมูลของคุณยังคงอยู่หลังทดลองใช้"
   },
   "meta": {
     "productRepo": "infra-control-plane",
     "sourcePath": "src/marketing-pages/registry.ts trial",
     "githubPath": "www/trial.page.json",
-    "translationStatus": "ai_draft",
-    "method": "cursor-ai"
+    "translationStatus": "review",
+    "method": "cursor-ai-2",
+    "reviewedAt": "2026-06-30"
   }
 }

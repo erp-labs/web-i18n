@@ -1,0 +1,21 @@
+{
+  "pageId": "email.xero_migration_completed",
+  "surface": "email",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:e1c790a7fd9821628f10fc080b12ec8a8b35264c916363313cdd32f6875c6d47",
+  "keys": {
+    "subject": "xero-migration-completed email",
+    "headerTitle": "Migration completed",
+    "bodyTemplate": "Tenant {tenantId} migration job {jobId} finished successfully.",
+    "textHeader": "Xero migration completed",
+    "_sourceNote": "Extracted from xero-migration-completed.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
+  },
+  "meta": {
+    "productRepo": "infra-email",
+    "sourcePath": "packages/email-templates/src/xero-bridge.ts",
+    "githubPath": "email/xero-migration-completed.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

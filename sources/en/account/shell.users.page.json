@@ -1,0 +1,19 @@
+{
+  "pageId": "account.shell.users",
+  "surface": "account",
+  "route": "/users",
+  "version": 1,
+  "sourceHash": "sha256:dd22291f406177fcdb9e19da57a1ea4d81406bff7ba99ce2bf9b876501565a91",
+  "keys": {
+    "title": "Users",
+    "subtitle": "Manage employees who can sign in to your employee portal.",
+    "retryUserSeed": "Retry user seed",
+    "retryingUserSeed": "Retrying…",
+    "seedPendingHint": "Employee invites from onboarding are waiting to be seeded. Use Retry user seed below once provisioning finishes."
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /users",
+    "githubPath": "account/shell.users.page.json"
+  }
+}

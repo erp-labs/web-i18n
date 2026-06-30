@@ -1,0 +1,31 @@
+{
+  "pageId": "email.trial_manual_approved",
+  "surface": "email",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:0302349587549754323493ee588c81b0a29b484abb22498274a63a0f8f798269",
+  "keys": {
+    "subject": "Dynamic subject (trial-manual-approved)",
+    "headerTitle": "Application approved",
+    "headline": "Application approved",
+    "greetingHello": "Hello,",
+    "greetingNamed": "Hello {name},",
+    "introTemplate": "Your trial application has been approved. Continue to verify your work email and complete account setup.",
+    "ctaLabel": "Continue to account setup",
+    "copyLinkLabel": "Or copy this link:",
+    "referenceIdLabel": "Reference ID",
+    "linkExpiryLabel": "Link expiry",
+    "linkExpiryValue": "{linkHours} hours",
+    "securityCallout": "This link is valid for {linkHours} hours. Do not forward it. Questions? Contact {supportEmail}.",
+    "footerNote": "This message was sent automatically. Please do not reply.",
+    "textHeader": "Application approved",
+    "_sourceNote": "Extracted from trial-manual-approved.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
+  },
+  "meta": {
+    "productRepo": "infra-email",
+    "sourcePath": "packages/email-templates/src/trial-manual.ts",
+    "githubPath": "email/trial-manual-approved.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

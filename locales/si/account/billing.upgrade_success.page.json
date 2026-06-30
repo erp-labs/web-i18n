@@ -1,0 +1,22 @@
+{
+  "pageId": "account.billing.upgrade_success",
+  "surface": "account",
+  "route": "/billing/upgrade/success",
+  "version": 3,
+  "sourceHash": "sha256:1cb63be9bc2381be9a48de30b061426e716ee01ed85b7b5b25a24f3fe1e73dbc",
+  "keys": {
+    "titlePayment": "ගෙවීම සාර්ථකයි",
+    "titleInline": "පැකේජය යාවත්කාලීන කරන ලදී",
+    "body": "Stripe වෙතින් subscription විස්තර sync වීමට මිනිත්තුවක් ගත විය හැක.",
+    "bodyWithPlan": "ඔබගේ workspace {plan} වෙත ගමන් කරමින්. Stripe වෙතින් subscription විස්තර sync වීමට මිනිත්තුවක් ගත විය හැක.",
+    "cta": "billing බලන්න"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /billing/upgrade/success",
+    "githubPath": "account/billing.upgrade_success.page.json",
+    "translationStatus": "review",
+    "method": "cursor-ai-2",
+    "reviewedAt": "2026-06-30"
+  }
+}

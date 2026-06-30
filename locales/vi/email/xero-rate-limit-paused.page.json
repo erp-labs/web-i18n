@@ -1,0 +1,21 @@
+{
+  "pageId": "email.xero_rate_limit_paused",
+  "surface": "email",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:f0dc57acd881f0251dde68abfd0bac5c3ccabd6e69afbeeb720593729f72144e",
+  "keys": {
+    "subject": "xero-rate-limit-paused email",
+    "headerTitle": "Migration paused",
+    "bodyTemplate": "Job {jobId} was paused due to Xero API rate limits. It will resume when limits allow.",
+    "textHeader": "Xero migration paused",
+    "_sourceNote": "Extracted from xero-rate-limit-paused.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
+  },
+  "meta": {
+    "productRepo": "infra-email",
+    "sourcePath": "packages/email-templates/src/xero-bridge.ts",
+    "githubPath": "email/xero-rate-limit-paused.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

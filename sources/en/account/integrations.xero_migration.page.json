@@ -1,0 +1,40 @@
+{
+  "pageId": "account.integrations.xero_migration",
+  "surface": "account",
+  "route": "/integrations/xero/migration/:jobId",
+  "version": 1,
+  "sourceHash": "sha256:ac954eeb90ec840750fb390bad8f425fe1eb4b013359cb4efc88bdecae2c8777",
+  "keys": {
+    "title": "Xero migration job",
+    "subtitleLoading": "Loading job status…",
+    "jobIdPrefix": "Job",
+    "statusLabel": "Status",
+    "modeLabel": "Mode",
+    "targetErpLabel": "Target ERP",
+    "entitiesExtractedTitle": "Entities extracted",
+    "validationLabel": "Validation — L1 errors: {l1}, L2 warnings: {l2}",
+    "attachmentLoadLabel": "Attachment upload — uploaded: {uploaded}, skipped: {skipped}, errors: {errors}",
+    "reconcilePassed": "L3 trial balance reconcile: passed",
+    "reconcileNeedsReview": "L3 trial balance reconcile: needs review",
+    "reconcileAccountsSuffix": "{count} accounts",
+    "reconcileOutOfTolerance": "{count} out of tolerance",
+    "columnAccount": "Account",
+    "columnXero": "Xero",
+    "columnErp": "ERP",
+    "columnDelta": "Delta",
+    "columnReasons": "Reasons",
+    "agingReconcileTitle": "AR/AP aging reconcile",
+    "agingPassed": "passed",
+    "agingNeedsReview": "needs review",
+    "agingSkipped": "Skipped ({reason})",
+    "agingCompare": "Xero {source} vs ERP {target} (delta {delta})",
+    "rawSummaryLabel": "Raw summary JSON",
+    "jobNotAvailable": "Job not available.",
+    "loadFailed": "Load failed"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /integrations/xero/migration/:jobId",
+    "githubPath": "account/integrations.xero_migration.page.json"
+  }
+}

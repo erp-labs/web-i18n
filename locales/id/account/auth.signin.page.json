@@ -2,17 +2,33 @@
   "pageId": "account.auth.signin",
   "surface": "account",
   "route": "/sign-in",
-  "version": 1,
+  "version": 3,
   "sourceHash": "sha256:5c0e153e8e9f912431db0c4ad1aa88966c7d8c5b46a0b667b8bef912f425c521",
   "keys": {
-    "title": "Sign in",
-    "submit": "Continue"
+    "title": "Masuk",
+    "submit": "Lanjutkan",
+    "titleLogin": "Masuk",
+    "titleGetStarted": "Mulai",
+    "titlePortalPasswordSetup": "Atur kata sandi administrator layanan",
+    "descriptionDefault": "Masuk dengan email yang terdaftar untuk workspace Anda.",
+    "descriptionEmailLocked": "Kami akan mengirim kode verifikasi ke alamat ini untuk masuk.",
+    "descriptionPackageFunnel": "Masuk atau buat akun untuk melanjutkan ke pembayaran.",
+    "descriptionPortalPassword": "Masukkan email Anda. Kami akan mengirim kode verifikasi, lalu Anda dapat membuat kata sandi administrator layanan.",
+    "descriptionLoginGate": "Masuk dengan email dan kata sandi Anda. Kami akan mengirim kode verifikasi melalui email pada langkah berikutnya.",
+    "submitLogin": "Masuk",
+    "submitSendCode": "Kirim kode verifikasi",
+    "submitting": "Mengirim…",
+    "submittingLogin": "Sedang masuk…",
+    "submittingVerify": "Memverifikasi…",
+    "emailLabel": "Alamat email",
+    "passwordLabel": "Kata sandi"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /sign-in",
     "githubPath": "account/auth.signin.page.json",
-    "translationStatus": "ai_draft",
-    "method": "cursor-ai"
+    "translationStatus": "review",
+    "method": "cursor-ai-2",
+    "reviewedAt": "2026-06-30"
   }
 }

@@ -1,0 +1,128 @@
+name: Sync to product repos
+
+on:
+  workflow_dispatch:
+    inputs:
+      skip_validate:
+        description: Skip web-i18n validate before sync
+        required: false
+        default: 'false'
+      open_prs:
+        description: Open PRs in product repos (requires PRODUCT_REPOS_TOKEN)
+        required: false
+        default: 'true'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync-core-platform:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout web-i18n
+        uses: actions/checkout@v4
+        with:
+          path: web-i18n
+
+      - name: Checkout core-platform
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/core-platform
+          token: ${{ secrets.PRODUCT_REPOS_TOKEN || secrets.GITHUB_TOKEN }}
+          path: core-platform
+
+      - name: Validate web-i18n
+        if: inputs.skip_validate != 'true'
+        working-directory: web-i18n
+        run: npm run validate
+
+      - name: Run sync-to-apps
+        working-directory: web-i18n
+        run: npm run sync
+
+      - name: Create PR (core-platform)
+        if: inputs.open_prs == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.PRODUCT_REPOS_TOKEN || secrets.GITHUB_TOKEN }}
+          path: core-platform
+          commit-message: 'chore(i18n): sync locale bundles from web-i18n'
+          title: 'chore(i18n): sync locale bundles from web-i18n'
+          body: |
+            Automated sync from [web-i18n](https://github.com/${{ github.repository }}).
+            Paths: `apps/admin-web/dictionaries/`, `apps/employee-web/dictionaries/`
+          branch: chore/web-i18n-sync-${{ github.run_id }}-core
+          delete-branch: true
+
+  sync-web-public:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: web-i18n
+
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/web-public
+          token: ${{ secrets.PRODUCT_REPOS_TOKEN || secrets.GITHUB_TOKEN }}
+          path: web-public
+
+      - name: Validate web-i18n
+        if: inputs.skip_validate != 'true'
+        working-directory: web-i18n
+        run: npm run validate
+
+      - name: Run sync-to-apps
+        working-directory: web-i18n
+        run: npm run sync
+
+      - name: Create PR (web-public)
+        if: inputs.open_prs == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.PRODUCT_REPOS_TOKEN || secrets.GITHUB_TOKEN }}
+          path: web-public
+          commit-message: 'chore(i18n): sync locale bundles from web-i18n'
+          title: 'chore(i18n): sync locale bundles from web-i18n'
+          body: |
+            Automated sync from [web-i18n](https://github.com/${{ github.repository }}).
+            Paths: `apps/marketing-web/lib/i18n/`, legal MDX translations
+          branch: chore/web-i18n-sync-${{ github.run_id }}-www
+          delete-branch: true
+
+  sync-infra-email:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: web-i18n
+
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/infra-email
+          token: ${{ secrets.PRODUCT_REPOS_TOKEN || secrets.GITHUB_TOKEN }}
+          path: infra-email
+
+      - name: Validate web-i18n
+        if: inputs.skip_validate != 'true'
+        working-directory: web-i18n
+        run: npm run validate
+
+      - name: Run sync-to-apps
+        working-directory: web-i18n
+        run: npm run sync
+
+      - name: Create PR (infra-email)
+        if: inputs.open_prs == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.PRODUCT_REPOS_TOKEN || secrets.GITHUB_TOKEN }}
+          path: infra-email
+          commit-message: 'chore(i18n): sync locale bundles from web-i18n'
+          title: 'chore(i18n): sync locale bundles from web-i18n'
+          body: |
+            Automated sync from [web-i18n](https://github.com/${{ github.repository }}).
+            Paths: `packages/email-templates/locales/`
+          branch: chore/web-i18n-sync-${{ github.run_id }}-email
+          delete-branch: true

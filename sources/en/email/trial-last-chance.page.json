@@ -1,0 +1,23 @@
+{
+  "pageId": "email.trial_last_chance",
+  "surface": "email",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:0df3ae6f779373b19f3bbfe10207df27ce3864b2f86d3aa889c33614072a0c4d",
+  "keys": {
+    "subject": "Your 14-day free trial has started — ${service}",
+    "headerTitle": "Last chance to upgrade",
+    "headline": "Don't lose your data",
+    "greetingHtml": "Hi <strong>{name}</strong>,",
+    "introHtml": "Your trial ended 3 days ago. Your data is still safe on your dedicated server, but it will be <strong>powered off in 4 days</strong> if you do not upgrade.",
+    "closingHtml": "After powering off, you have 30 more days before the server and all data are permanently deleted.",
+    "ctaLabel": "Upgrade and keep your data",
+    "textBody": "Hi {name},\n\nYour trial ended 3 days ago. Server will be powered off in 4 days. Upgrade now: {upgradeUrl}\n\nThe {serviceName} Team",
+    "_sourceNote": "Extracted from trial-last-chance.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
+  },
+  "meta": {
+    "productRepo": "infra-email",
+    "sourcePath": "packages/email-templates/src/trial.ts",
+    "githubPath": "email/trial-last-chance.page.json"
+  }
+}

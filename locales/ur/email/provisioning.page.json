@@ -2,17 +2,21 @@
   "pageId": "email.provisioning",
   "surface": "email",
   "route": null,
-  "version": 1,
+  "version": 3,
   "sourceHash": "sha256:47d18968d16ff2fbe043a22e42ab86814ab26342a6564626903439e5c5d5c0e8",
   "keys": {
-    "subject": "Dynamic subject (provisioning)",
-    "_sourceNote": "Extracted from provisioning.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
+    "subject": "متحرک subject (provisioning)",
+    "_sourceNote": "Extracted from provisioning.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver.",
+    "headerTitle": "آپ کا workspace تیار ہے",
+    "introTemplate": "آپ کا {serviceName} workspace provisioning مکمل ہو گیا ہے۔ سائن ان اور شروع کرنے کے لیے نیچے دیے گئے links استعمال کریں۔",
+    "textHeader": "آپ کا workspace تیار ہے"
   },
   "meta": {
     "productRepo": "infra-email",
     "sourcePath": "packages/email-templates/src/provisioning.ts",
     "githubPath": "email/provisioning.page.json",
-    "translationStatus": "ai_draft",
-    "method": "cursor-ai"
+    "translationStatus": "review",
+    "method": "cursor-ai-2",
+    "reviewedAt": "2026-06-30"
   }
 }

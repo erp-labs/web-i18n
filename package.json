@@ -11,7 +11,8 @@
     "validate": "node scripts/validate.mjs",
     "verify": "npm run validate && npm run index",
     "batch:import-existing": "node scripts/import-existing-locales.mjs",
-    "batch:seed-missing": "node scripts/seed-missing-locales.mjs"
+    "batch:seed-missing": "node scripts/seed-missing-locales.mjs",
+    "batch:translate-2": "node scripts/batch-translate-second-pass.mjs"
   },
   "engines": {
     "node": ">=20"

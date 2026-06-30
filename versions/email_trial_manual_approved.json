@@ -1,0 +1,128 @@
+[
+  {
+    "version": 1,
+    "enHash": "sha256:0302349587549754323493ee588c81b0a29b484abb22498274a63a0f8f798269",
+    "locale": "en",
+    "method": "extract",
+    "at": "2026-06-30T08:47:34.573Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:0302349587549754323493ee588c81b0a29b484abb22498274a63a0f8f798269",
+    "locale": "ja",
+    "method": "cursor-ai",
+    "at": "2026-06-30T08:47:35.135Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:0302349587549754323493ee588c81b0a29b484abb22498274a63a0f8f798269",
+    "locale": "ko",
+    "method": "cursor-ai",
+    "at": "2026-06-30T08:47:35.135Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:0302349587549754323493ee588c81b0a29b484abb22498274a63a0f8f798269",
+    "locale": "zh",
+    "method": "cursor-ai",
+    "at": "2026-06-30T08:47:35.135Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:0302349587549754323493ee588c81b0a29b484abb22498274a63a0f8f798269",
+    "locale": "ar",
+    "method": "cursor-ai",
+    "at": "2026-06-30T08:47:35.136Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:0302349587549754323493ee588c81b0a29b484abb22498274a63a0f8f798269",
+    "locale": "vi",
+    "method": "cursor-ai",
+    "at": "2026-06-30T08:47:35.136Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:0302349587549754323493ee588c81b0a29b484abb22498274a63a0f8f798269",
+    "locale": "th",
+    "method": "cursor-ai",
+    "at": "2026-06-30T08:47:35.136Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:0302349587549754323493ee588c81b0a29b484abb22498274a63a0f8f798269",
+    "locale": "id",
+    "method": "cursor-ai",
+    "at": "2026-06-30T08:47:35.137Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:0302349587549754323493ee588c81b0a29b484abb22498274a63a0f8f798269",
+    "locale": "ms",
+    "method": "cursor-ai",
+    "at": "2026-06-30T08:47:35.140Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:0302349587549754323493ee588c81b0a29b484abb22498274a63a0f8f798269",
+    "locale": "si",
+    "method": "cursor-ai",
+    "at": "2026-06-30T08:47:35.141Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:0302349587549754323493ee588c81b0a29b484abb22498274a63a0f8f798269",
+    "locale": "ur",
+    "method": "cursor-ai",
+    "at": "2026-06-30T08:47:35.142Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:0302349587549754323493ee588c81b0a29b484abb22498274a63a0f8f798269",
+    "locale": "hi",
+    "method": "cursor-ai",
+    "at": "2026-06-30T08:47:35.142Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:0302349587549754323493ee588c81b0a29b484abb22498274a63a0f8f798269",
+    "locale": "en",
+    "method": "extract",
+    "at": "2026-06-30T08:48:27.351Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:0302349587549754323493ee588c81b0a29b484abb22498274a63a0f8f798269",
+    "locale": "en",
+    "method": "extract",
+    "at": "2026-06-30T08:49:47.532Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:0302349587549754323493ee588c81b0a29b484abb22498274a63a0f8f798269",
+    "locale": "en",
+    "method": "extract",
+    "at": "2026-06-30T09:59:25.338Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:0302349587549754323493ee588c81b0a29b484abb22498274a63a0f8f798269",
+    "locale": "en",
+    "method": "extract",
+    "at": "2026-06-30T10:01:24.414Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:0302349587549754323493ee588c81b0a29b484abb22498274a63a0f8f798269",
+    "locale": "en",
+    "method": "extract",
+    "at": "2026-06-30T10:13:11.359Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:0302349587549754323493ee588c81b0a29b484abb22498274a63a0f8f798269",
+    "locale": "en",
+    "method": "extract",
+    "at": "2026-06-30T10:22:41.133Z"
+  }
+]
