@@ -57,7 +57,7 @@ npm run mark:reviewed -- ar vi si ur hi
 
 ```
 Translate values in this page JSON to {locale}. Keep all keys identical.
-Preserve ICU placeholders like {n} and HTML tags. Do not translate: Vouus, Pregoi, Work App, Work Desk.
+Preserve ICU placeholders like {n} and HTML tags. Do not translate: Vouus, Pregoi, Work App, Work Desk, AI Agent.
 Output only the `keys` object as JSON for locales/{locale}/...
 ```
 
