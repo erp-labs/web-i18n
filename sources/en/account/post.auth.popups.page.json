@@ -1,0 +1,25 @@
+{
+  "pageId": "account.post.auth.popups",
+  "surface": "account",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:ea1343b49798d9e547a40c4f5854d94f73e8f7f0711c257a21e3c2f969a18b2d",
+  "keys": {
+    "session_invalid_title": "Session invalid or expired",
+    "session_invalid_body": "Your login session could not be verified. Please sign in again.",
+    "auth_service_misconfigured_title": "Login service temporarily unavailable",
+    "auth_service_misconfigured_body": "Your sign-in could not be verified due to a service configuration issue. Try again in a private browser window, or sign out of the employee app (app.vouus.com) first.",
+    "onboarding_continue_title": "Complete your workspace setup",
+    "onboarding_continue_body": "Add your company details and finish launch steps to activate your workspace.",
+    "unregistered_admin_title": "Account not registered",
+    "unregistered_admin_body": "This email is not registered for admin sign-in. Visit our website to get started.",
+    "trial_onboarding_title": "Continue onboarding",
+    "trial_onboarding_body": "Complete your company profile to set up your workspace.",
+    "primaryOk": "OK"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web null",
+    "githubPath": "account/post.auth.popups.page.json"
+  }
+}

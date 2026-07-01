@@ -31,6 +31,7 @@ import {
   DASHBOARD_SETUP_KEYS,
   DASHBOARD_WIDGETS_KEYS,
   PROFILE_FIELDS_KEYS,
+  POST_AUTH_POPUPS_KEYS,
   ONBOARDING_COMPANY_KEYS,
   ONBOARDING_PLATFORM_KEYS,
   ONBOARDING_REVIEW_KEYS,
@@ -853,6 +854,11 @@ function extractAccountPlaceholders() {
       pageId: 'account.profile.fields',
       route: '/profile',
       keys: PROFILE_FIELDS_KEYS,
+    },
+    {
+      pageId: 'account.post.auth.popups',
+      route: null,
+      keys: POST_AUTH_POPUPS_KEYS,
     },
   ]
   for (const p of pages) {
