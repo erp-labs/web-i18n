@@ -71,6 +71,20 @@ Output only the `keys` object as JSON for locales/{locale}/...
 - `index/keywords.json` — EN keyword index for CP search
 - `versions/` — per-page version history
 
+## CI sync to product repos
+
+Workflow [`.github/workflows/sync-product-repos.yml`](.github/workflows/sync-product-repos.yml) runs on pushes to `main` under `locales/**`, `sources/en/**`, or `manifest/**`, and opens PRs in the product repos.
+
+**Required secret:** `PRODUCT_REPOS_TOKEN` on this repository. The default `GITHUB_TOKEN` cannot read private sibling repos (`core-platform`, `web-public`, `infra-email`).
+
+Create a fine-grained PAT (or classic PAT with `repo` scope) granted **Contents: Read and write** and **Pull requests: Read and write** on:
+
+- `erp-labs/core-platform`
+- `erp-labs/web-public`
+- `erp-labs/infra-email`
+
+Add it under **Settings → Secrets and variables → Actions → New repository secret** as `PRODUCT_REPOS_TOKEN`.
+
 ## Docs
 
 - [PLAN-ko.md](docs/PLAN-ko.md) — Korean planning spec

@@ -26,32 +26,54 @@ jobs:
   sync-core-platform:
     runs-on: ubuntu-latest
     steps:
+      - name: Require cross-repo token
+        id: token
+        env:
+          PRODUCT_REPOS_TOKEN: ${{ secrets.PRODUCT_REPOS_TOKEN }}
+        run: |
+          if [ -n "$PRODUCT_REPOS_TOKEN" ]; then
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "configured=false" >> "$GITHUB_OUTPUT"
+          echo "PRODUCT_REPOS_TOKEN is not set on this repository."
+          echo "Create a fine-grained or classic PAT with Contents + Pull requests on erp-labs/core-platform, web-public, and infra-email, then add it as a repository secret."
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "::error::PRODUCT_REPOS_TOKEN is required for manual sync."
+            exit 1
+          fi
+          echo "Skipping sync on push until PRODUCT_REPOS_TOKEN is configured."
+
       - name: Checkout web-i18n
+        if: steps.token.outputs.configured == 'true'
         uses: actions/checkout@v4
         with:
           path: web-i18n
 
       - name: Checkout core-platform
+        if: steps.token.outputs.configured == 'true'
         uses: actions/checkout@v4
         with:
           repository: ${{ github.repository_owner }}/core-platform
-          token: ${{ secrets.PRODUCT_REPOS_TOKEN || secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PRODUCT_REPOS_TOKEN }}
+          ref: main
           path: core-platform
 
       - name: Validate web-i18n
-        if: inputs.skip_validate != 'true'
+        if: steps.token.outputs.configured == 'true' && inputs.skip_validate != 'true'
         working-directory: web-i18n
         run: npm run validate
 
       - name: Run sync-to-apps
+        if: steps.token.outputs.configured == 'true'
         working-directory: web-i18n
         run: npm run sync
 
       - name: Create PR (core-platform)
-        if: inputs.open_prs == 'true'
+        if: steps.token.outputs.configured == 'true' && inputs.open_prs == 'true'
         uses: peter-evans/create-pull-request@v7
         with:
-          token: ${{ secrets.PRODUCT_REPOS_TOKEN || secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PRODUCT_REPOS_TOKEN }}
           path: core-platform
           commit-message: 'chore(i18n): sync locale bundles from web-i18n'
           title: 'chore(i18n): sync locale bundles from web-i18n'
@@ -65,30 +87,51 @@ jobs:
   sync-web-public:
     runs-on: ubuntu-latest
     steps:
+      - name: Require cross-repo token
+        id: token
+        env:
+          PRODUCT_REPOS_TOKEN: ${{ secrets.PRODUCT_REPOS_TOKEN }}
+        run: |
+          if [ -n "$PRODUCT_REPOS_TOKEN" ]; then
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "configured=false" >> "$GITHUB_OUTPUT"
+          echo "PRODUCT_REPOS_TOKEN is not set on this repository."
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "::error::PRODUCT_REPOS_TOKEN is required for manual sync."
+            exit 1
+          fi
+          echo "Skipping sync on push until PRODUCT_REPOS_TOKEN is configured."
+
       - uses: actions/checkout@v4
+        if: steps.token.outputs.configured == 'true'
         with:
           path: web-i18n
 
       - uses: actions/checkout@v4
+        if: steps.token.outputs.configured == 'true'
         with:
           repository: ${{ github.repository_owner }}/web-public
-          token: ${{ secrets.PRODUCT_REPOS_TOKEN || secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PRODUCT_REPOS_TOKEN }}
+          ref: main
           path: web-public
 
       - name: Validate web-i18n
-        if: inputs.skip_validate != 'true'
+        if: steps.token.outputs.configured == 'true' && inputs.skip_validate != 'true'
         working-directory: web-i18n
         run: npm run validate
 
       - name: Run sync-to-apps
+        if: steps.token.outputs.configured == 'true'
         working-directory: web-i18n
         run: npm run sync
 
       - name: Create PR (web-public)
-        if: inputs.open_prs == 'true'
+        if: steps.token.outputs.configured == 'true' && inputs.open_prs == 'true'
         uses: peter-evans/create-pull-request@v7
         with:
-          token: ${{ secrets.PRODUCT_REPOS_TOKEN || secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PRODUCT_REPOS_TOKEN }}
           path: web-public
           commit-message: 'chore(i18n): sync locale bundles from web-i18n'
           title: 'chore(i18n): sync locale bundles from web-i18n'
@@ -102,30 +145,51 @@ jobs:
   sync-infra-email:
     runs-on: ubuntu-latest
     steps:
+      - name: Require cross-repo token
+        id: token
+        env:
+          PRODUCT_REPOS_TOKEN: ${{ secrets.PRODUCT_REPOS_TOKEN }}
+        run: |
+          if [ -n "$PRODUCT_REPOS_TOKEN" ]; then
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "configured=false" >> "$GITHUB_OUTPUT"
+          echo "PRODUCT_REPOS_TOKEN is not set on this repository."
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "::error::PRODUCT_REPOS_TOKEN is required for manual sync."
+            exit 1
+          fi
+          echo "Skipping sync on push until PRODUCT_REPOS_TOKEN is configured."
+
       - uses: actions/checkout@v4
+        if: steps.token.outputs.configured == 'true'
         with:
           path: web-i18n
 
       - uses: actions/checkout@v4
+        if: steps.token.outputs.configured == 'true'
         with:
           repository: ${{ github.repository_owner }}/infra-email
-          token: ${{ secrets.PRODUCT_REPOS_TOKEN || secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PRODUCT_REPOS_TOKEN }}
+          ref: main
           path: infra-email
 
       - name: Validate web-i18n
-        if: inputs.skip_validate != 'true'
+        if: steps.token.outputs.configured == 'true' && inputs.skip_validate != 'true'
         working-directory: web-i18n
         run: npm run validate
 
       - name: Run sync-to-apps
+        if: steps.token.outputs.configured == 'true'
         working-directory: web-i18n
         run: npm run sync
 
       - name: Create PR (infra-email)
-        if: inputs.open_prs == 'true'
+        if: steps.token.outputs.configured == 'true' && inputs.open_prs == 'true'
         uses: peter-evans/create-pull-request@v7
         with:
-          token: ${{ secrets.PRODUCT_REPOS_TOKEN || secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PRODUCT_REPOS_TOKEN }}
           path: infra-email
           commit-message: 'chore(i18n): sync locale bundles from web-i18n'
           title: 'chore(i18n): sync locale bundles from web-i18n'
