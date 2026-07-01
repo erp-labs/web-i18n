@@ -6,8 +6,8 @@
   "sourceHash": "sha256:292e7567ee4d8f96c82b74417d12a258e5cfa3f3fded3604891a18e21ce379bb",
   "keys": {
     "path": "/trial/manual-approval/verify",
-    "meta_title": "Verify email",
-    "meta_description": "Manual trial email verification."
+    "meta_title": "Trial — Verify",
+    "meta_description": "Trial အတွက် work email verify လုပ်ပါ။"
   },
   "meta": {
     "productRepo": "infra-control-plane",

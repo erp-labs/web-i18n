@@ -1,0 +1,25 @@
+{
+  "pageId": "account.auth.loginChrome",
+  "surface": "account",
+  "route": "/login",
+  "version": 1,
+  "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000002",
+  "keys": {
+    "newToPlatform": "Mới tham gia nền tảng?",
+    "signUp": "Đăng ký",
+    "forgotPassword": "Quên mật khẩu",
+    "backToLogin": "Quay lại để đăng nhập",
+    "loadingOnboarding": "Đang tải giới thiệu",
+    "signingYouIn": "Đang đăng nhập cho bạn",
+    "backToTrialLink": "Quay lại bản dùng thử {host}",
+    "continueWithGoogle": "Tiếp tục với Google",
+    "comingSoon": "Sắp ra mắt"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /login",
+    "githubPath": "account/auth.loginChrome.page.json",
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
+  }
+}

@@ -1,23 +1,31 @@
 {
   "pageId": "account.auth.verify",
   "surface": "account",
-  "route": "/signup/verify",
-  "version": 1,
+  "route": "/login/verify",
+  "version": 2,
   "sourceHash": "sha256:d99e1c700de571c41953cbd91e31d58db2a680c883620e8c67362e781b6e86c7",
   "keys": {
     "title": "本人確認",
-    "intro": "続行するには、メールに送信されたワンタイムコードを入力してください。",
+    "intro": "続行するには、メールで送信されたワンタイムコードを入力してください。",
     "emailPrefix": "メール:",
-    "sendUncertainBanner": "配信を確認できませんでしたが、確認メールが届いている可能性があります。最新のコードを入力してください。",
+    "sendUncertainBanner": "送信を確認できませんでしたが、確認メールが受信トレイにある可能性があります。以下に最新のコードを入力してください。",
     "verify": "確認",
     "verifying": "確認中…",
-    "loading": "読み込み中…"
+    "loading": "読み込み中…",
+    "confirming": "確認中…",
+    "resendCode": "コードを再送信",
+    "resendCodeIn": "コード再送信まで",
+    "digitAriaLabel": "6桁中 {n} 桁目",
+    "verificationCodeField": "確認コード",
+    "verificationField": "確認",
+    "invalidCredentials": "メールアドレスまたはパスワードが正しくありません。もう一度お試しください。",
+    "goToWebsite": "ウェブサイトへ"
   },
   "meta": {
     "productRepo": "core-platform",
-    "sourcePath": "apps/admin-web /signup/verify",
+    "sourcePath": "apps/admin-web /login/verify",
     "githubPath": "account/auth.verify.page.json",
     "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "method": "login-funnel-i18n"
   }
 }

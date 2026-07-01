@@ -1,0 +1,28 @@
+{
+  "pageId": "account.auth.oauthErrors",
+  "surface": "account",
+  "route": "/login",
+  "version": 1,
+  "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000004",
+  "keys": {
+    "social_auth_disabled": "Google proses masuk belum tersedia. Gunakan verifikasi email untuk melanjutkan.",
+    "google_not_configured": "Google proses masuk tidak tersedia saat ini. Gunakan verifikasi email untuk melanjutkan.",
+    "oauth_config": "Proses masuk untuk sementara tidak tersedia. Coba lagi nanti atau gunakan verifikasi email.",
+    "invalid_state": "Sesi masuk berakhir. Silakan coba Google masuk lagi.",
+    "missing_code": "Google tidak mengembalikan kode otorisasi. Silakan coba lagi.",
+    "token_exchange": "Tidak dapat menyelesaikan proses masuk dengan Google. Coba lagi atau gunakan verifikasi email.",
+    "no_access_token": "Google proses masuk tidak mengembalikan token. Silakan coba lagi.",
+    "zuplo_session": "Tidak dapat membuat sesi Anda. Coba lagi atau gunakan verifikasi email.",
+    "no_jwt": "Layanan otentikasi mengembalikan respons yang tidak valid. Hubungi dukungan.",
+    "access_denied": "Google proses masuk dibatalkan.",
+    "signInFailedGeneric": "Gagal masuk. Coba lagi atau gunakan verifikasi email.",
+    "signInFailedWithCode": "Gagal masuk ({code}). Coba lagi atau gunakan verifikasi email."
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /login",
+    "githubPath": "account/auth.oauthErrors.page.json",
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
+  }
+}

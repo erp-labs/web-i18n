@@ -1,0 +1,27 @@
+{
+  "pageId": "account.post.auth.popups",
+  "surface": "account",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:ea1343b49798d9e547a40c4f5854d94f73e8f7f0711c257a21e3c2f969a18b2d",
+  "keys": {
+    "session_invalid_title": "Phiên không hợp lệ hoặc đã hết hạn",
+    "session_invalid_body": "Phiên đăng nhập của bạn không thể được xác minh. Vui lòng đăng nhập lại.",
+    "auth_service_misconfigured_title": "Dịch vụ đăng nhập tạm thời không khả dụng",
+    "auth_service_misconfigured_body": "Không thể xác minh thông tin đăng nhập của bạn do sự cố cấu hình dịch vụ. Hãy thử lại trong cửa sổ trình duyệt riêng tư hoặc đăng xuất khỏi ứng dụng nhân viên (app.vouus.com) trước.",
+    "onboarding_continue_title": "Hoàn tất thiết lập không gian làm việc của bạn",
+    "onboarding_continue_body": "Thêm thông tin chi tiết về công ty của bạn và hoàn tất các bước khởi chạy để kích hoạt không gian làm việc của bạn.",
+    "unregistered_admin_title": "Tài khoản chưa được đăng ký",
+    "unregistered_admin_body": "Email này chưa được đăng ký để đăng nhập quản trị viên. Hãy truy cập trang web của chúng tôi để bắt đầu.",
+    "trial_onboarding_title": "Tiếp tục tham gia",
+    "trial_onboarding_body": "Hoàn thành hồ sơ công ty của bạn để thiết lập không gian làm việc của bạn.",
+    "primaryOk": "ĐƯỢC RỒI"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web null",
+    "githubPath": "account/post.auth.popups.page.json",
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
+  }
+}

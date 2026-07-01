@@ -6,10 +6,10 @@
   "sourceHash": "sha256:37ba96c3d049ef77d5dabc2d05d19f9235ef0de818558ccc2bbb574e4aade652",
   "keys": {
     "path": "/product/hr",
-    "meta_title": "People & HR",
+    "meta_title": "HR | Vouus",
     "meta_description": "HR wired to real approvals—attendance, leave, and payroll on one connected spine.",
     "hero_title": "HR wired to real approvals",
-    "hero_description": "People ops on one workflow spine—attendance, leave, and payroll share audit-ready history in {brand}."
+    "hero_description": "HR ops က workflow spine တစ်ခုတည်းတွင် — attendance၊ leave နှင့် payroll သည် {brand} တွင် audit-ready history မျှဝေသည်။"
   },
   "meta": {
     "productRepo": "web-public",

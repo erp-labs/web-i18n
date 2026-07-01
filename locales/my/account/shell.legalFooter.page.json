@@ -1,0 +1,24 @@
+{
+  "pageId": "account.shell.legalFooter",
+  "surface": "account",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000005",
+  "keys": {
+    "support": "အထောက်အပံ့",
+    "copyright": "© 2026 {wordmark}။ မူပိုင်ခွင့်ကိုလက်ဝယ်ထားသည်။",
+    "termsOfService": "ဝန်ဆောင်မှုစည်းမျဉ်းများ",
+    "privacyPolicy": "ကိုယ်ရေးအချက်အလက်မူဝါဒ",
+    "cookiePolicy": "ကွတ်ကီးမူဝါဒ",
+    "dataProcessingAgreement": "Data Processing Agreement",
+    "serviceLevelAgreement": "ဝန်ဆောင်မှုအဆင့် သဘောတူညီချက်",
+    "responsibleUsePolicy": "အသုံးပြုမှုမူဝါဒ"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web AdminLegalFooter",
+    "githubPath": "account/shell.legalFooter.page.json",
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
+  }
+}

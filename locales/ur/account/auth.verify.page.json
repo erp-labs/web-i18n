@@ -1,8 +1,8 @@
 {
   "pageId": "account.auth.verify",
   "surface": "account",
-  "route": "/signup/verify",
-  "version": 3,
+  "route": "/login/verify",
+  "version": 2,
   "sourceHash": "sha256:d99e1c700de571c41953cbd91e31d58db2a680c883620e8c67362e781b6e86c7",
   "keys": {
     "title": "اپنی شناخت کی تصدیق کریں۔",
@@ -11,14 +11,21 @@
     "sendUncertainBanner": "ہم ترسیل کی تصدیق نہیں کر سکے، لیکن ایک توثیقی ای میل آپ کے ان باکس میں پہلے سے موجود ہو سکتی ہے۔ ذیل میں تازہ ترین کوڈ درج کریں۔",
     "verify": "تصدیق کریں۔",
     "verifying": "تصدیق ہو رہی ہے…",
-    "loading": "لوڈ ہو رہا ہے…"
+    "loading": "لوڈ ہو رہا ہے…",
+    "confirming": "تصدیق ہو رہی ہے…",
+    "resendCode": "کوڈ دوبارہ بھیجیں۔",
+    "resendCodeIn": "کوڈ دوبارہ بھیجیں۔",
+    "digitAriaLabel": "ہندسہ {n} از 6",
+    "verificationCodeField": "تصدیقی کوڈ",
+    "verificationField": "تصدیق",
+    "invalidCredentials": "غلط ای میل یا پاس ورڈ۔ براہ کرم دوبارہ کوشش کریں۔",
+    "goToWebsite": "ویب سائٹ پر جائیں۔"
   },
   "meta": {
     "productRepo": "core-platform",
-    "sourcePath": "apps/admin-web /signup/verify",
+    "sourcePath": "apps/admin-web /login/verify",
     "githubPath": "account/auth.verify.page.json",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai",
-    "reviewedAt": "2026-06-30"
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
   }
 }

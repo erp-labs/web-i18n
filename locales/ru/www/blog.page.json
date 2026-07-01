@@ -6,9 +6,9 @@
   "sourceHash": "sha256:40ce9b7e0e506e283b5a7b31917c0343f98f7a86b610a6042340a7cf659feadb",
   "keys": {
     "path": "/blog",
-    "meta_title": "Blog",
+    "meta_title": "Vouus | Блог",
     "meta_description": "Articles on ERP, workflows, and operations.",
-    "hero_title": "Blog",
+    "hero_title": "Блог Vouus",
     "hero_subtitle": "Business automation, ERP, and operational insights.",
     "emptyTitle": "Articles coming soon",
     "emptyBody": "We're preparing guides on business automation, workflow design, and ERP best practices. Be the first to know when we publish.",

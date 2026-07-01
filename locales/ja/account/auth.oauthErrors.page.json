@@ -1,0 +1,28 @@
+{
+  "pageId": "account.auth.oauthErrors",
+  "surface": "account",
+  "route": "/login",
+  "version": 1,
+  "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000004",
+  "keys": {
+    "social_auth_disabled": "Google ログインはまだ利用できません。メール確認で続行してください。",
+    "google_not_configured": "Google ログインは現在利用できません。メール確認で続行してください。",
+    "oauth_config": "ログインは一時的に利用できません。後でもう一度お試しいただくか、メール確認をご利用ください。",
+    "invalid_state": "ログインセッションの有効期限が切れました。Google ログインを再度お試しください。",
+    "missing_code": "Google から認可コードが返されませんでした。もう一度お試しください。",
+    "token_exchange": "Google ログインを完了できませんでした。再試行するか、メール確認をご利用ください。",
+    "no_access_token": "Google ログインからトークンが返されませんでした。もう一度お試しください。",
+    "zuplo_session": "セッションを作成できませんでした。再試行するか、メール確認をご利用ください。",
+    "no_jwt": "認証サービスから無効な応答が返されました。サポートにお問い合わせください。",
+    "access_denied": "Google ログインがキャンセルされました。",
+    "signInFailedGeneric": "ログインに失敗しました。再試行するか、メール確認をご利用ください。",
+    "signInFailedWithCode": "ログインに失敗しました（{code}）。再試行するか、メール確認をご利用ください。"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /login",
+    "githubPath": "account/auth.oauthErrors.page.json",
+    "translationStatus": "reviewed",
+    "method": "login-funnel-i18n"
+  }
+}

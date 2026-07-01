@@ -1,0 +1,24 @@
+{
+  "pageId": "account.shell.legalFooter",
+  "surface": "account",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000005",
+  "keys": {
+    "support": "สนับสนุน",
+    "copyright": "© 2026 {wordmark}. สงวนลิขสิทธิ์.",
+    "termsOfService": "ข้อกำหนดในการให้บริการ",
+    "privacyPolicy": "นโยบายความเป็นส่วนตัว",
+    "cookiePolicy": "นโยบายคุกกี้",
+    "dataProcessingAgreement": "ข้อตกลงการประมวลผลข้อมูล",
+    "serviceLevelAgreement": "ข้อตกลงระดับการให้บริการ",
+    "responsibleUsePolicy": "นโยบายการใช้งานอย่างมีความรับผิดชอบ"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web AdminLegalFooter",
+    "githubPath": "account/shell.legalFooter.page.json",
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "pageId": "account.auth.loginChrome",
+  "surface": "account",
+  "route": "/login",
+  "version": 1,
+  "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000002",
+  "keys": {
+    "newToPlatform": "New to the platform?",
+    "signUp": "Sign up",
+    "forgotPassword": "Forgot password",
+    "backToLogin": "Back to log in",
+    "loadingOnboarding": "Loading onboarding",
+    "signingYouIn": "Signing you in",
+    "backToTrialLink": "Back to {host} trial",
+    "continueWithGoogle": "Continue with Google",
+    "comingSoon": "Coming soon"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /login",
+    "githubPath": "account/auth.loginChrome.page.json"
+  }
+}

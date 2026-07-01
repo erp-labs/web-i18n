@@ -6,8 +6,8 @@
   "sourceHash": "sha256:9481100af65c5d2b338da820095bd627f733216130ac540b770c74adf870b220",
   "keys": {
     "path": "/solutions/enterprise/system-status",
-    "meta_title": "System Status | Vouus",
-    "meta_description": "Uptime, incidents, and maintenance transparency.",
+    "meta_title": "Статус системы | Vouus",
+    "meta_description": "Статус серверов и сервисов {brand} в реальном времени.",
     "hero_title": "System Status",
     "hero_description": "Real-time server and service status for {brand}."
   },

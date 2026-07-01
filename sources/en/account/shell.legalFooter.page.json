@@ -1,0 +1,22 @@
+{
+  "pageId": "account.shell.legalFooter",
+  "surface": "account",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000005",
+  "keys": {
+    "support": "Support",
+    "copyright": "© 2026 {wordmark}. All rights reserved.",
+    "termsOfService": "Terms of Service",
+    "privacyPolicy": "Privacy Policy",
+    "cookiePolicy": "Cookie Policy",
+    "dataProcessingAgreement": "Data Processing Agreement",
+    "serviceLevelAgreement": "Service Level Agreement",
+    "responsibleUsePolicy": "Responsible use policy"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web AdminLegalFooter",
+    "githubPath": "account/shell.legalFooter.page.json"
+  }
+}

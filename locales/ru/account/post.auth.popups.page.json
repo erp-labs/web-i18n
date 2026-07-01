@@ -1,0 +1,27 @@
+{
+  "pageId": "account.post.auth.popups",
+  "surface": "account",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:ea1343b49798d9e547a40c4f5854d94f73e8f7f0711c257a21e3c2f969a18b2d",
+  "keys": {
+    "session_invalid_title": "Сессия недействительна или срок ее действия истек",
+    "session_invalid_body": "Ваш сеанс входа в систему не удалось подтвердить. Пожалуйста, войдите снова.",
+    "auth_service_misconfigured_title": "Служба входа временно недоступна",
+    "auth_service_misconfigured_body": "Ваш вход в систему не удалось подтвердить из-за проблемы с конфигурацией службы. Попробуйте еще раз в приватном окне браузера или сначала выйдите из приложения для сотрудников (app.vouus.com).",
+    "onboarding_continue_title": "Завершите настройку рабочего пространства",
+    "onboarding_continue_body": "Добавьте сведения о своей компании и завершите шаги запуска, чтобы активировать свое рабочее пространство.",
+    "unregistered_admin_title": "Аккаунт не зарегистрирован",
+    "unregistered_admin_body": "Этот адрес электронной почты не зарегистрирован для входа администратора. Посетите наш сайт, чтобы начать.",
+    "trial_onboarding_title": "Продолжить регистрацию",
+    "trial_onboarding_body": "Заполните профиль своей компании, чтобы настроить рабочее пространство.",
+    "primaryOk": "ХОРОШО"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web null",
+    "githubPath": "account/post.auth.popups.page.json",
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
+  }
+}

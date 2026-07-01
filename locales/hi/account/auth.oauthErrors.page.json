@@ -1,0 +1,28 @@
+{
+  "pageId": "account.auth.oauthErrors",
+  "surface": "account",
+  "route": "/login",
+  "version": 1,
+  "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000004",
+  "keys": {
+    "social_auth_disabled": "Google साइन-इन अभी उपलब्ध नहीं है. जारी रखने के लिए ईमेल सत्यापन का उपयोग करें.",
+    "google_not_configured": "Google साइन-इन अभी उपलब्ध नहीं है। जारी रखने के लिए ईमेल सत्यापन का उपयोग करें.",
+    "oauth_config": "साइन-इन अस्थायी रूप से अनुपलब्ध है. बाद में पुनः प्रयास करें या ईमेल सत्यापन का उपयोग करें।",
+    "invalid_state": "साइन-इन सत्र समाप्त हो गया. कृपया Google साइन-इन पुनः प्रयास करें।",
+    "missing_code": "Google ने प्राधिकरण कोड नहीं लौटाया। कृपया पुन: प्रयास करें।",
+    "token_exchange": "Google के साथ साइन-इन पूरा नहीं किया जा सका. पुनः प्रयास करें या ईमेल सत्यापन का उपयोग करें।",
+    "no_access_token": "Google साइन-इन ने टोकन वापस नहीं किया। कृपया पुन: प्रयास करें।",
+    "zuplo_session": "आपका सत्र नहीं बनाया जा सका. पुनः प्रयास करें या ईमेल सत्यापन का उपयोग करें।",
+    "no_jwt": "प्रमाणीकरण सेवा ने एक अमान्य प्रतिक्रिया दी। समर्थन से संपर्क करें।",
+    "access_denied": "Google साइन-इन रद्द कर दिया गया।",
+    "signInFailedGeneric": "भाग लेना विफल हुआ। पुनः प्रयास करें या ईमेल सत्यापन का उपयोग करें।",
+    "signInFailedWithCode": "साइन-इन विफल ({code})। पुनः प्रयास करें या ईमेल सत्यापन का उपयोग करें।"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /login",
+    "githubPath": "account/auth.oauthErrors.page.json",
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "pageId": "account.post.auth.popups",
+  "surface": "account",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:ea1343b49798d9e547a40c4f5854d94f73e8f7f0711c257a21e3c2f969a18b2d",
+  "keys": {
+    "session_invalid_title": "سیشن غلط یا ختم ہو گیا۔",
+    "session_invalid_body": "آپ کے لاگ ان سیشن کی تصدیق نہیں ہو سکی۔ براہ کرم دوبارہ سائن ان کریں۔",
+    "auth_service_misconfigured_title": "لاگ ان سروس عارضی طور پر دستیاب نہیں ہے۔",
+    "auth_service_misconfigured_body": "سروس کنفیگریشن کے مسئلے کی وجہ سے آپ کے سائن ان کی تصدیق نہیں ہو سکی۔ نجی براؤزر ونڈو میں دوبارہ کوشش کریں، یا پہلے ملازم ایپ (app.vouus.com) سے سائن آؤٹ کریں۔",
+    "onboarding_continue_title": "اپنا ورک اسپیس سیٹ اپ مکمل کریں۔",
+    "onboarding_continue_body": "اپنی کمپنی کی تفصیلات شامل کریں اور اپنے ورک اسپیس کو فعال کرنے کے لیے لانچ کے مراحل مکمل کریں۔",
+    "unregistered_admin_title": "اکاؤنٹ رجسٹرڈ نہیں ہے۔",
+    "unregistered_admin_body": "یہ ای میل ایڈمن سائن ان کے لیے رجسٹرڈ نہیں ہے۔ شروع کرنے کے لیے ہماری ویب سائٹ ملاحظہ کریں۔",
+    "trial_onboarding_title": "آن بورڈنگ جاری رکھیں",
+    "trial_onboarding_body": "اپنے ورک اسپیس کو ترتیب دینے کے لیے اپنی کمپنی کا پروفائل مکمل کریں۔",
+    "primaryOk": "ٹھیک ہے"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web null",
+    "githubPath": "account/post.auth.popups.page.json",
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
+  }
+}

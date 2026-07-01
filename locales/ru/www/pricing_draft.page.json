@@ -6,8 +6,8 @@
   "sourceHash": "sha256:bf0175833fff8579671ea6af68f6d4143715201d1f194b021e302bedb2cbab6e",
   "keys": {
     "path": "/pricing/draft",
-    "meta_title": "Pricing (draft)",
-    "meta_description": "Draft pricing preview."
+    "meta_title": "Цены (черновик)",
+    "meta_description": "Предпросмотр черновика цен."
   },
   "meta": {
     "productRepo": "infra-control-plane",

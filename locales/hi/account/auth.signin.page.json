@@ -1,8 +1,8 @@
 {
   "pageId": "account.auth.signin",
   "surface": "account",
-  "route": "/sign-in",
-  "version": 3,
+  "route": "/login",
+  "version": 2,
   "sourceHash": "sha256:61a538e2f390109a5e1ce43ddfcc944d3bd23f704f3d8bb1f2b5096c56b96f77",
   "keys": {
     "title": "दाखिल करना",
@@ -17,18 +17,36 @@
     "submit": "जारी रखना",
     "submitLogin": "लॉग इन करें",
     "submitSendCode": "सत्यापन कोड भेजें",
-    "submitting": "भेजा जा रहा है...",
+    "submitting": "भेजा जा रहा है…",
     "submittingLogin": "प्रवेश किया…",
-    "submittingVerify": "सत्यापन किया जा रहा है...",
+    "submittingVerify": "सत्यापन किया जा रहा है…",
     "emailLabel": "मेल पता",
-    "passwordLabel": "पासवर्ड"
+    "emailPlaceholder": "मेल पता",
+    "passwordLabel": "पासवर्ड",
+    "passwordPlaceholder": "पासवर्ड",
+    "emailLockedHint": "यह पता pregoi.com पर सत्यापित किया गया था और इसे यहां नहीं बदला जा सकता है।",
+    "somethingWentWrong": "कुछ गलत हो गया",
+    "signInFailed": "भाग लेना विफल हुआ",
+    "invalidCredentials": "अमान्य ईमेल या पासवर्ड. कृपया पुन: प्रयास करें।",
+    "enterPortalPassword": "अपना सेवा व्यवस्थापक पासवर्ड दर्ज करें",
+    "socialDivider": "या जारी रखें",
+    "singpassUnavailable": "Singpass अनुपलब्ध",
+    "singpassUnavailableBody": "Singpass कॉन्फ़िगर नहीं है. कृपया ईमेल सत्यापन का उपयोग करें या सहायता से संपर्क करें।",
+    "goToWebsite": "वेबसाइट पर जाएं",
+    "verifyingTrialEmail": "आपका परीक्षण ईमेल सत्यापित किया जा रहा है…",
+    "passwordResetSuccess": "आपका सेवा व्यवस्थापक पासवर्ड अपडेट किया गया था. अपने नए पासवर्ड से साइन इन करें.",
+    "packageFunnelSignedInIntro": "आप {email} के रूप में साइन इन हैं। अपनी चयनित योजना के लिए भुगतान जारी रखें, या किसी भिन्न खाते का उपयोग करें।",
+    "continueToPayment": "भुगतान जारी रखें",
+    "useDifferentAccount": "किसी भिन्न खाते का उपयोग करें",
+    "trialContinueTrial": "{host} परीक्षण जारी रखें - अपना 14-दिवसीय निःशुल्क परीक्षण (कोई भुगतान आवश्यक नहीं) शुरू करने के लिए साइन इन करें।",
+    "trialContinueFree": "{host} परीक्षण जारी रखें - फ्री-प्लान ऑनबोर्डिंग (कोई भुगतान नहीं) समाप्त करने के लिए साइन इन करें।",
+    "backToTrial": "{host} परीक्षण पर वापस जाएँ"
   },
   "meta": {
     "productRepo": "core-platform",
-    "sourcePath": "apps/admin-web /sign-in",
+    "sourcePath": "apps/admin-web /login",
     "githubPath": "account/auth.signin.page.json",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai",
-    "reviewedAt": "2026-06-30"
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
   }
 }

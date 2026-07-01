@@ -1,8 +1,8 @@
 {
   "pageId": "account.auth.verify",
   "surface": "account",
-  "route": "/signup/verify",
-  "version": 3,
+  "route": "/login/verify",
+  "version": 2,
   "sourceHash": "sha256:d99e1c700de571c41953cbd91e31d58db2a680c883620e8c67362e781b6e86c7",
   "keys": {
     "title": "अपनी पहचान सत्यापित करो",
@@ -10,15 +10,22 @@
     "emailPrefix": "ईमेल:",
     "sendUncertainBanner": "हम डिलीवरी की पुष्टि नहीं कर सके, लेकिन एक सत्यापन ईमेल पहले से ही आपके इनबॉक्स में हो सकता है। नीचे नवीनतम कोड दर्ज करें.",
     "verify": "सत्यापित करें",
-    "verifying": "सत्यापन किया जा रहा है...",
-    "loading": "लोड हो रहा है..."
+    "verifying": "सत्यापन किया जा रहा है…",
+    "loading": "लोड हो रहा है…",
+    "confirming": "पुष्टि हो रही है…",
+    "resendCode": "पुन: कोड भेजे",
+    "resendCodeIn": "कोड पुनः भेजें",
+    "digitAriaLabel": "6 का अंक {n}",
+    "verificationCodeField": "सत्यापन कोड",
+    "verificationField": "सत्यापन",
+    "invalidCredentials": "अमान्य ईमेल या पासवर्ड. कृपया पुन: प्रयास करें।",
+    "goToWebsite": "वेबसाइट पर जाएं"
   },
   "meta": {
     "productRepo": "core-platform",
-    "sourcePath": "apps/admin-web /signup/verify",
+    "sourcePath": "apps/admin-web /login/verify",
     "githubPath": "account/auth.verify.page.json",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai",
-    "reviewedAt": "2026-06-30"
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
   }
 }

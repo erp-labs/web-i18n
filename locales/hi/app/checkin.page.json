@@ -2,9 +2,10 @@
   "pageId": "app.checkin",
   "surface": "app",
   "route": "/{companyId}/{locale}/checkin",
-  "version": 1,
+  "version": 2,
   "sourceHash": "sha256:b8bb3c18bd42b70bca261f65f4bb9c6682e6e728c7631b3d7e36056a40106391",
   "keys": {
+    "title": "समय ट्रैकिंग",
     "office": "कार्यालय",
     "home": "घर",
     "checkIn": "चेक इन",

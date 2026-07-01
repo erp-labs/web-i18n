@@ -1,0 +1,27 @@
+{
+  "pageId": "account.post.auth.popups",
+  "surface": "account",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:ea1343b49798d9e547a40c4f5854d94f73e8f7f0711c257a21e3c2f969a18b2d",
+  "keys": {
+    "session_invalid_title": "세션이 유효하지 않거나 만료됨",
+    "session_invalid_body": "로그인 세션을 확인할 수 없습니다. 다시 로그인해 주세요.",
+    "auth_service_misconfigured_title": "로그인 서비스 일시 중단",
+    "auth_service_misconfigured_body": "서비스 구성 문제로 로그인을 확인할 수 없습니다. 비공개 브라우저 창에서 다시 시도하거나, 먼저 직원 앱(app.vouus.com)에서 로그아웃해 주세요.",
+    "onboarding_continue_title": "워크스페이스 설정 완료",
+    "onboarding_continue_body": "회사 정보를 추가하고 시작 단계를 완료하여 워크스페이스를 활성화하세요.",
+    "unregistered_admin_title": "등록되지 않은 계정",
+    "unregistered_admin_body": "이 이메일은 관리자 로그인에 등록되어 있지 않습니다. 시작하려면 웹사이트를 방문해 주세요.",
+    "trial_onboarding_title": "온보딩 계속",
+    "trial_onboarding_body": "회사 프로필을 완료하여 워크스페이스를 설정하세요.",
+    "primaryOk": "확인"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web null",
+    "githubPath": "account/post.auth.popups.page.json",
+    "translationStatus": "reviewed",
+    "method": "login-funnel-i18n"
+  }
+}

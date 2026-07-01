@@ -71,8 +71,8 @@
     "joinedLabel": "Joined",
     "advancedWork": "Advanced work",
     "advancedWorkHint": "Work Desk and Frappe CRM use the same account. Switch when you need detailed ERP or pipeline tools.",
-    "openWorkDesk": "Open Work Desk",
-    "openInCrm": "Open CRM"
+    "openWorkDesk": "Открыть Work Desk",
+    "openSalesCrm": "Открыть CRM продаж"
   },
   "meta": {
     "productRepo": "core-platform",

@@ -1,0 +1,27 @@
+{
+  "pageId": "account.post.auth.popups",
+  "surface": "account",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:ea1343b49798d9e547a40c4f5854d94f73e8f7f0711c257a21e3c2f969a18b2d",
+  "keys": {
+    "session_invalid_title": "सत्र अमान्य या समाप्त हो गया",
+    "session_invalid_body": "आपका लॉगिन सत्र सत्यापित नहीं किया जा सका. कृपया पुनः साइन इन करें.",
+    "auth_service_misconfigured_title": "लॉगिन सेवा अस्थायी रूप से अनुपलब्ध है",
+    "auth_service_misconfigured_body": "सेवा कॉन्फ़िगरेशन समस्या के कारण आपका साइन-इन सत्यापित नहीं किया जा सका। निजी ब्राउज़र विंडो में पुनः प्रयास करें, या पहले कर्मचारी ऐप (app.vouus.com) से साइन आउट करें।",
+    "onboarding_continue_title": "अपना कार्यक्षेत्र सेटअप पूरा करें",
+    "onboarding_continue_body": "अपनी कंपनी का विवरण जोड़ें और अपने कार्यक्षेत्र को सक्रिय करने के लिए लॉन्च चरण समाप्त करें।",
+    "unregistered_admin_title": "खाता पंजीकृत नहीं है",
+    "unregistered_admin_body": "यह ईमेल एडमिन साइन-इन के लिए पंजीकृत नहीं है. आरंभ करने के लिए हमारी वेबसाइट पर जाएँ.",
+    "trial_onboarding_title": "ऑनबोर्डिंग जारी रखें",
+    "trial_onboarding_body": "अपना कार्यक्षेत्र स्थापित करने के लिए अपनी कंपनी प्रोफ़ाइल पूरी करें।",
+    "primaryOk": "ठीक है"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web null",
+    "githubPath": "account/post.auth.popups.page.json",
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
+  }
+}

@@ -6,8 +6,8 @@
   "sourceHash": "sha256:2d6cc8679f524705a16515f526400d4730adb59a3a2349aff45ee1929b865a0d",
   "keys": {
     "path": "/sla",
-    "meta_title": "Service Level Agreement",
-    "meta_description": "Service level agreement.",
+    "meta_title": "Соглашение об уровне обслуживания",
+    "meta_description": "SLA и доступность сервиса.",
     "page_title": "Service Level Agreement (SLA)",
     "sla01_title": "1. Introduction",
     "sla01_p0": "This Service Level Agreement (\"SLA\") describes service availability and support policies for the {brand} platform provided by iPrego Pte. Ltd., Singapore.",

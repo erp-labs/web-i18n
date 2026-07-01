@@ -1,0 +1,25 @@
+{
+  "pageId": "account.auth.loginChrome",
+  "surface": "account",
+  "route": "/login",
+  "version": 1,
+  "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000002",
+  "keys": {
+    "newToPlatform": "初めてご利用ですか？",
+    "signUp": "サインアップ",
+    "forgotPassword": "パスワードをお忘れですか",
+    "backToLogin": "ログインに戻る",
+    "loadingOnboarding": "オンボーディングを読み込み中",
+    "signingYouIn": "ログイン中",
+    "backToTrialLink": "{host} のトライアルに戻る",
+    "continueWithGoogle": "Google で続行",
+    "comingSoon": "近日公開"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /login",
+    "githubPath": "account/auth.loginChrome.page.json",
+    "translationStatus": "reviewed",
+    "method": "login-funnel-i18n"
+  }
+}

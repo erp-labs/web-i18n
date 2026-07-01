@@ -1,0 +1,25 @@
+{
+  "pageId": "account.auth.loginChrome",
+  "surface": "account",
+  "route": "/login",
+  "version": 1,
+  "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000002",
+  "keys": {
+    "newToPlatform": "Впервые на платформе?",
+    "signUp": "Зарегистрироваться",
+    "forgotPassword": "Забыли пароль",
+    "backToLogin": "Вернуться, чтобы войти",
+    "loadingOnboarding": "Загрузка",
+    "signingYouIn": "Вход в систему",
+    "backToTrialLink": "Вернуться к пробной версии {host}",
+    "continueWithGoogle": "Продолжить с Google",
+    "comingSoon": "Вскоре"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /login",
+    "githubPath": "account/auth.loginChrome.page.json",
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
+  }
+}

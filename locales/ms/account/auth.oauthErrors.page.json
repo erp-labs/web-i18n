@@ -1,0 +1,28 @@
+{
+  "pageId": "account.auth.oauthErrors",
+  "surface": "account",
+  "route": "/login",
+  "version": 1,
+  "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000004",
+  "keys": {
+    "social_auth_disabled": "Google log masuk belum tersedia lagi. Gunakan pengesahan e-mel untuk meneruskan.",
+    "google_not_configured": "Google log masuk tidak tersedia sekarang. Gunakan pengesahan e-mel untuk meneruskan.",
+    "oauth_config": "Log masuk tidak tersedia buat sementara waktu. Cuba lagi kemudian atau gunakan pengesahan e-mel.",
+    "invalid_state": "Sesi log masuk tamat tempoh. Sila cuba Google log masuk sekali lagi.",
+    "missing_code": "Google tidak mengembalikan kod kebenaran. Sila cuba lagi.",
+    "token_exchange": "Could not complete sign-in with Google. Cuba lagi atau gunakan pengesahan e-mel.",
+    "no_access_token": "Google log masuk tidak mengembalikan token. Sila cuba lagi.",
+    "zuplo_session": "Could not create your session. Cuba lagi atau gunakan pengesahan e-mel.",
+    "no_jwt": "Perkhidmatan pengesahan mengembalikan respons yang tidak sah. Hubungi sokongan.",
+    "access_denied": "Google log masuk telah dibatalkan.",
+    "signInFailedGeneric": "Log masuk gagal. Cuba lagi atau gunakan pengesahan e-mel.",
+    "signInFailedWithCode": "Sign-in failed ({code}). Cuba lagi atau gunakan pengesahan e-mel."
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /login",
+    "githubPath": "account/auth.oauthErrors.page.json",
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
+  }
+}

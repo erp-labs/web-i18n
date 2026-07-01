@@ -6,8 +6,8 @@
   "sourceHash": "sha256:d76c194b6d1d60d3f3f503ecdfd4db6678278d2800bf3bfbb806bb8d01b5141a",
   "keys": {
     "path": "/terms",
-    "meta_title": "Terms of Service",
-    "meta_description": "Terms of service.",
+    "meta_title": "Условия обслуживания",
+    "meta_description": "Условия использования платформы Vouus.",
     "page_title": "Terms of Service",
     "page_subtitle": "{brand} Platform Terms of Service",
     "s01_title": "1. Introduction",

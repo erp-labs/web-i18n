@@ -1,8 +1,8 @@
 {
   "pageId": "account.auth.signin",
   "surface": "account",
-  "route": "/sign-in",
-  "version": 3,
+  "route": "/login",
+  "version": 2,
   "sourceHash": "sha256:61a538e2f390109a5e1ce43ddfcc944d3bd23f704f3d8bb1f2b5096c56b96f77",
   "keys": {
     "title": "පුරන්න",
@@ -17,18 +17,36 @@
     "submit": "දිගටම කරගෙන යන්න",
     "submitLogin": "ඇතුල් වන්න",
     "submitSendCode": "සත්‍යාපන කේතය යවන්න",
-    "submitting": "යවමින්...",
-    "submittingLogin": "පුරනය වෙමින්...",
-    "submittingVerify": "සත්‍යාපනය කරමින්...",
+    "submitting": "යවමින්…",
+    "submittingLogin": "පුරනය වෙමින්…",
+    "submittingVerify": "සත්‍යාපනය කරමින්…",
     "emailLabel": "ඊතැපැල් ලිපිනය",
-    "passwordLabel": "මුරපදය"
+    "emailPlaceholder": "ඊතැපැල් ලිපිනය",
+    "passwordLabel": "මුරපදය",
+    "passwordPlaceholder": "මුරපදය",
+    "emailLockedHint": "මෙම ලිපිනය pregoi.com මත තහවුරු කර ඇති අතර මෙහි වෙනස් කළ නොහැක.",
+    "somethingWentWrong": "යමක් වැරදී ඇත",
+    "signInFailed": "පුරනය වීම අසාර්ථක විය",
+    "invalidCredentials": "වලංගු නොවන ඊමේල් හෝ මුරපදය. කරුණාකර නැවත උත්සාහ කරන්න.",
+    "enterPortalPassword": "ඔබගේ සේවා පරිපාලක මුරපදය ඇතුළත් කරන්න",
+    "socialDivider": "Or continue with",
+    "singpassUnavailable": "Singpass නොමැත",
+    "singpassUnavailableBody": "Singpass වින්‍යාස කර නැත. කරුණාකර විද්‍යුත් තැපැල් සත්‍යාපනය භාවිතා කරන්න හෝ සහාය සම්බන්ධ කර ගන්න.",
+    "goToWebsite": "වෙබ් අඩවියට යන්න",
+    "verifyingTrialEmail": "ඔබගේ අත්හදා බැලීමේ විද්‍යුත් තැපෑල සත්‍යාපනය කරමින්…",
+    "passwordResetSuccess": "ඔබගේ සේවා පරිපාලක මුරපදය යාවත්කාලීන කරන ලදී. ඔබගේ නව මුරපදය සමඟ පුරන්න.",
+    "packageFunnelSignedInIntro": "ඔබ {email} ලෙස පුරනය වී ඇත. ඔබ තෝරාගත් සැලැස්ම සඳහා ගෙවීම දිගටම කරගෙන යන්න, නැතහොත් වෙනත් ගිණුමක් භාවිතා කරන්න.",
+    "continueToPayment": "ගෙවීම දිගටම කරගෙන යන්න",
+    "useDifferentAccount": "වෙනත් ගිණුමක් භාවිතා කරන්න",
+    "trialContinueTrial": "{host} අත්හදා බැලීමේ සිට ඉදිරියට යන්න — ඔබේ දින 14 නොමිලේ අත්හදා බැලීම ආරම්භ කිරීමට පුරන්න (ගෙවීම් අවශ්‍ය නොවේ).",
+    "trialContinueFree": "{host} අත්හදා බැලීමේ සිට ඉදිරියට යන්න — නොමිලේ-සැලසුම් ඇතුල්වීම අවසන් කිරීමට පුරන්න (ගෙවීම් නැත).",
+    "backToTrial": "{host} අත්හදා බැලීම වෙත ආපසු"
   },
   "meta": {
     "productRepo": "core-platform",
-    "sourcePath": "apps/admin-web /sign-in",
+    "sourcePath": "apps/admin-web /login",
     "githubPath": "account/auth.signin.page.json",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai",
-    "reviewedAt": "2026-06-30"
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
   }
 }

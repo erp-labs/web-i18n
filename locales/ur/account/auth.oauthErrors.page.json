@@ -1,0 +1,28 @@
+{
+  "pageId": "account.auth.oauthErrors",
+  "surface": "account",
+  "route": "/login",
+  "version": 1,
+  "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000004",
+  "keys": {
+    "social_auth_disabled": "Google سائن ان ابھی دستیاب نہیں ہے۔ جاری رکھنے کے لیے ای میل کی توثیق کا استعمال کریں۔",
+    "google_not_configured": "Google سائن ان ابھی دستیاب نہیں ہے۔ جاری رکھنے کے لیے ای میل کی توثیق کا استعمال کریں۔",
+    "oauth_config": "سائن ان عارضی طور پر دستیاب نہیں ہے۔ بعد میں دوبارہ کوشش کریں یا ای میل کی توثیق کا استعمال کریں۔",
+    "invalid_state": "سائن ان سیشن کی میعاد ختم ہو گئی۔ براہ کرم Google دوبارہ سائن ان کرنے کی کوشش کریں۔",
+    "missing_code": "Google نے اجازت کا کوڈ واپس نہیں کیا۔ براہ کرم دوبارہ کوشش کریں۔",
+    "token_exchange": "Google کے ساتھ سائن ان مکمل نہیں ہو سکا۔ دوبارہ کوشش کریں یا ای میل کی توثیق کا استعمال کریں۔",
+    "no_access_token": "Google سائن ان نے کوئی ٹوکن واپس نہیں کیا۔ براہ کرم دوبارہ کوشش کریں۔",
+    "zuplo_session": "آپ کا سیشن نہیں بنایا جا سکا۔ دوبارہ کوشش کریں یا ای میل کی توثیق کا استعمال کریں۔",
+    "no_jwt": "توثیق سروس نے غلط جواب دیا ہے۔ سپورٹ سے رابطہ کریں۔",
+    "access_denied": "Google سائن ان منسوخ کر دیا گیا تھا۔",
+    "signInFailedGeneric": "سائن ان ناکام ہو گیا۔ دوبارہ کوشش کریں یا ای میل کی توثیق کا استعمال کریں۔",
+    "signInFailedWithCode": "سائن ان ناکام ({code})۔ دوبارہ کوشش کریں یا ای میل کی توثیق کا استعمال کریں۔"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /login",
+    "githubPath": "account/auth.oauthErrors.page.json",
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
+  }
+}

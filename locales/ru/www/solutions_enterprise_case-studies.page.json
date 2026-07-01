@@ -6,8 +6,8 @@
   "sourceHash": "sha256:471056f9c620d044183da9980751b5514689675cf95c2957d39ca7707716bf0d",
   "keys": {
     "path": "/solutions/enterprise/case-studies",
-    "meta_title": "Case Studies | Vouus",
-    "meta_description": "Enterprise rollout patterns and customer outcomes.",
+    "meta_title": "Кейсы | Vouus Enterprise",
+    "meta_description": "Реальные шаблоны рабочих процессов команд, использующих {brand}.",
     "hero_title": "Use case snapshots",
     "hero_description": "Real workflow patterns from teams using {brand}—names anonymised, outcomes representative."
   },

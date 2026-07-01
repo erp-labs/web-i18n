@@ -1,8 +1,8 @@
 {
   "pageId": "account.auth.verify",
   "surface": "account",
-  "route": "/signup/verify",
-  "version": 3,
+  "route": "/login/verify",
+  "version": 2,
   "sourceHash": "sha256:d99e1c700de571c41953cbd91e31d58db2a680c883620e8c67362e781b6e86c7",
   "keys": {
     "title": "ඔබගේ අනන්‍යතාවය තහවුරු කරන්න",
@@ -10,15 +10,22 @@
     "emailPrefix": "විද්‍යුත් තැපෑල:",
     "sendUncertainBanner": "අපට බෙදා හැරීම තහවුරු කළ නොහැකි විය, නමුත් සත්‍යාපන ඊමේල් දැනටමත් ඔබගේ එන ලිපි තුළ තිබිය හැක. පහත නවතම කේතය ඇතුලත් කරන්න.",
     "verify": "තහවුරු කරන්න",
-    "verifying": "සත්‍යාපනය කරමින්...",
-    "loading": "පූරණය වෙමින්..."
+    "verifying": "සත්‍යාපනය කරමින්…",
+    "loading": "පූරණය වෙමින්…",
+    "confirming": "තහවුරු කරමින්…",
+    "resendCode": "කේතය නැවත යවන්න",
+    "resendCodeIn": "කේතය නැවත යවන්න",
+    "digitAriaLabel": "6 න් {n} ඉලක්කම්",
+    "verificationCodeField": "තහවුරු කිරීමේ කේතය",
+    "verificationField": "සත්යාපනය",
+    "invalidCredentials": "වලංගු නොවන ඊමේල් හෝ මුරපදය. කරුණාකර නැවත උත්සාහ කරන්න.",
+    "goToWebsite": "වෙබ් අඩවියට යන්න"
   },
   "meta": {
     "productRepo": "core-platform",
-    "sourcePath": "apps/admin-web /signup/verify",
+    "sourcePath": "apps/admin-web /login/verify",
     "githubPath": "account/auth.verify.page.json",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai",
-    "reviewedAt": "2026-06-30"
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
   }
 }

@@ -6,8 +6,8 @@
   "sourceHash": "sha256:67884ba0b0fd2eb8b9a0b52809f324b80ce0828842223e1f620524f2bed8262f",
   "keys": {
     "path": "/product/bi",
-    "meta_title": "Business Intelligence",
-    "meta_description": "Dashboards and operational KPIs.",
+    "meta_title": "Бизнес-аналитика",
+    "meta_description": "Дашборды и операционные KPI.",
     "hero_title": "Numbers with provenance",
     "hero_description": "{brand} analytics run on the same workflow spine as HR and finance—every chart traces back to an approval."
   },

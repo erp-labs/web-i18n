@@ -1,0 +1,24 @@
+{
+  "pageId": "account.shell.legalFooter",
+  "surface": "account",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000005",
+  "keys": {
+    "support": "සහාය",
+    "copyright": "© 2026 {wordmark}. සියලු හිමිකම් ඇවිරිණි.",
+    "termsOfService": "සේවා කොන්දේසි",
+    "privacyPolicy": "රහස්යතා ප්රතිපත්තිය",
+    "cookiePolicy": "කුකී ප්‍රතිපත්තිය",
+    "dataProcessingAgreement": "දත්ත සැකසුම් ගිවිසුම",
+    "serviceLevelAgreement": "සේවා මට්ටමේ ගිවිසුම",
+    "responsibleUsePolicy": "වගකීම් සහිත භාවිත ප්‍රතිපත්තිය"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web AdminLegalFooter",
+    "githubPath": "account/shell.legalFooter.page.json",
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
+  }
+}

@@ -1,8 +1,8 @@
 {
   "pageId": "account.auth.verify",
   "surface": "account",
-  "route": "/signup/verify",
-  "version": 1,
+  "route": "/login/verify",
+  "version": 2,
   "sourceHash": "sha256:d99e1c700de571c41953cbd91e31d58db2a680c883620e8c67362e781b6e86c7",
   "keys": {
     "title": "Verify your identity",
@@ -11,11 +11,19 @@
     "sendUncertainBanner": "We could not confirm delivery, but a verification email may already be in your inbox. Enter the latest code below.",
     "verify": "Verify",
     "verifying": "Verifying…",
-    "loading": "Loading…"
+    "loading": "Loading…",
+    "confirming": "Confirming…",
+    "resendCode": "Resend code",
+    "resendCodeIn": "Resend code in",
+    "digitAriaLabel": "Digit {n} of 6",
+    "verificationCodeField": "Verification code",
+    "verificationField": "Verification",
+    "invalidCredentials": "Invalid email or password. Please try again.",
+    "goToWebsite": "Go to website"
   },
   "meta": {
     "productRepo": "core-platform",
-    "sourcePath": "apps/admin-web /signup/verify",
+    "sourcePath": "apps/admin-web /login/verify",
     "githubPath": "account/auth.verify.page.json"
   }
 }

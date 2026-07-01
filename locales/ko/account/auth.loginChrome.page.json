@@ -1,0 +1,25 @@
+{
+  "pageId": "account.auth.loginChrome",
+  "surface": "account",
+  "route": "/login",
+  "version": 1,
+  "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000002",
+  "keys": {
+    "newToPlatform": "플랫폼이 처음이신가요?",
+    "signUp": "회원가입",
+    "forgotPassword": "비밀번호 찾기",
+    "backToLogin": "로그인으로 돌아가기",
+    "loadingOnboarding": "온보딩 로딩 중",
+    "signingYouIn": "로그인 중",
+    "backToTrialLink": "{host} 체험으로 돌아가기",
+    "continueWithGoogle": "Google로 계속",
+    "comingSoon": "곧 제공"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /login",
+    "githubPath": "account/auth.loginChrome.page.json",
+    "translationStatus": "reviewed",
+    "method": "login-funnel-i18n"
+  }
+}
