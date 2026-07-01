@@ -7,9 +7,7 @@
   "keys": {
     "path": "/solutions/sales",
     "meta_title": "Решения для отделов продаж | Vouus",
-    "meta_description": "Воронка, предложения и заказы в рабочих процессах, синхронизированных с биллингом.",
-    "hero_title": "Revenue motion finance can see",
-    "hero_description": "Run pipeline, quotes, and orders on workflows that sync with billing and recognition—pipeline analytics flag risk; Automation keeps follow-ups from slipping between teams."
+    "meta_description": "Воронка, предложения и заказы в рабочих процессах, синхронизированных с биллингом."
   },
   "meta": {
     "productRepo": "infra-control-plane",

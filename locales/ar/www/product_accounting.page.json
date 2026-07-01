@@ -7,9 +7,7 @@
   "keys": {
     "path": "/product/accounting",
     "meta_title": "Finance Automation",
-    "meta_description": "Finance automation and reporting.",
-    "hero_title": "Invoice to ledger—one chain",
-    "hero_description": "{brand} connects billing, approvals, and accounting on one workflow spine—no swivel-chair re-entry."
+    "meta_description": "Finance automation and reporting."
   },
   "meta": {
     "productRepo": "infra-control-plane",

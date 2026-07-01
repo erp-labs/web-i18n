@@ -7,9 +7,7 @@
   "keys": {
     "path": "/solutions/enterprise/security",
     "meta_title": "Security | Vouus",
-    "meta_description": "Tenant isolation, encryption, access controls, and secure SDLC for enterprise deployments.",
-    "hero_title": "Security Whitepapers",
-    "hero_description": "Compliance, security practices, and data protection at {brand}."
+    "meta_description": "Tenant isolation, encryption, access controls, and secure SDLC for enterprise deployments."
   },
   "meta": {
     "productRepo": "infra-control-plane",

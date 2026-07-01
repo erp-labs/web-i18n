@@ -7,9 +7,7 @@
   "keys": {
     "path": "/solutions/enterprise/security",
     "meta_title": "Security | Vouus Enterprise",
-    "meta_description": "{brand} တွင် compliance၊ security practices နှင့် data protection။",
-    "hero_title": "Security Whitepapers",
-    "hero_description": "Compliance, security practices, and data protection at {brand}."
+    "meta_description": "{brand} တွင် compliance၊ security practices နှင့် data protection။"
   },
   "meta": {
     "productRepo": "infra-control-plane",

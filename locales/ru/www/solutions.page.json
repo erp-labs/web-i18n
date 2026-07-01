@@ -7,9 +7,7 @@
   "keys": {
     "path": "/solutions",
     "meta_title": "Решения | Vouus",
-    "meta_description": "Решения по роли и размеру компании — одна основа рабочих процессов для людей, финансов и согласований.",
-    "hero_title": "Built for how your team works",
-    "hero_description": "Tailored by role and company size—one workflow spine for people, money, and approvals."
+    "meta_description": "Решения по роли и размеру компании — одна основа рабочих процессов для людей, финансов и согласований."
   },
   "meta": {
     "productRepo": "infra-control-plane",

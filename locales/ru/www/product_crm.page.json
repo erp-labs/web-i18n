@@ -7,9 +7,7 @@
   "keys": {
     "path": "/product/crm",
     "meta_title": "Продажи и CRM",
-    "meta_description": "Воронка, записи клиентов и аналитика продаж.",
-    "hero_title": "Revenue your finance can reconcile",
-    "hero_description": "Sales pipeline, customer records, and billing share one workflow spine—finance sees the same thread sales does."
+    "meta_description": "Воронка, записи клиентов и аналитика продаж."
   },
   "meta": {
     "productRepo": "infra-control-plane",

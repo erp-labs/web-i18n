@@ -7,9 +7,7 @@
   "keys": {
     "path": "/solutions/enterprise/case-studies",
     "meta_title": "Case Studies | Vouus Enterprise",
-    "meta_description": "{brand} သုံးသော teams ၏ real workflow patterns။",
-    "hero_title": "Use case snapshots",
-    "hero_description": "Real workflow patterns from teams using {brand}—names anonymised, outcomes representative."
+    "meta_description": "{brand} သုံးသော teams ၏ real workflow patterns။"
   },
   "meta": {
     "productRepo": "infra-control-plane",
