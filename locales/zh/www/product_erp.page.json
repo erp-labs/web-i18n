@@ -7,9 +7,7 @@
   "keys": {
     "path": "/product/erp",
     "meta_title": "Unified ERP Platform",
-    "meta_description": "Unified ERP for HR, finance, and operations.",
-    "hero_title": "一套系统驱动业务流转",
-    "hero_description": "{brand} 将分散工具整合为工作流优先平台—从小规模起步，扩展至企业级。"
+    "meta_description": "Unified ERP for HR, finance, and operations."
   },
   "meta": {
     "productRepo": "infra-control-plane",

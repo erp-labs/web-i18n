@@ -7,9 +7,7 @@
   "keys": {
     "path": "/solutions/hr",
     "meta_title": "Решения для HR-команд | Vouus",
-    "meta_description": "Кадры, зарплата, посещаемость и отпуска на одном пути с автоматизацией.",
-    "hero_title": "HR operations wired to real workflows",
-    "hero_description": "Keep records, payroll, attendance, leave, and hiring on one path—Automation nudges the routine work while approvals and Scheduler keep cutoffs honest."
+    "meta_description": "Кадры, зарплата, посещаемость и отпуска на одном пути с автоматизацией."
   },
   "meta": {
     "productRepo": "infra-control-plane",

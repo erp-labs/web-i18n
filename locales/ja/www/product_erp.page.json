@@ -7,9 +7,7 @@
   "keys": {
     "path": "/product/erp",
     "meta_title": "Unified ERP Platform",
-    "meta_description": "Unified ERP for HR, finance, and operations.",
-    "hero_title": "業務の流れのための一つのシステム",
-    "hero_description": "{brand}はバラバラなツールをワークフロー優先の一つのプラットフォームに—小さく始めてエンタープライズまで。"
+    "meta_description": "Unified ERP for HR, finance, and operations."
   },
   "meta": {
     "productRepo": "infra-control-plane",

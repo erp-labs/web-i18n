@@ -7,9 +7,7 @@
   "keys": {
     "path": "/solutions/enterprise/case-studies",
     "meta_title": "Кейсы | Vouus Enterprise",
-    "meta_description": "Реальные шаблоны рабочих процессов команд, использующих {brand}.",
-    "hero_title": "Use case snapshots",
-    "hero_description": "Real workflow patterns from teams using {brand}—names anonymised, outcomes representative."
+    "meta_description": "Реальные шаблоны рабочих процессов команд, использующих {brand}."
   },
   "meta": {
     "productRepo": "infra-control-plane",

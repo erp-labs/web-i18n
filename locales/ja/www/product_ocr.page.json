@@ -7,9 +7,7 @@
   "keys": {
     "path": "/product/ocr",
     "meta_title": "OCR / Receipt & Invoice Scan",
-    "meta_description": "Mobile capture and receipt extraction.",
-    "hero_title": "領収書を撮影。帳簿を更新。",
-    "hero_description": "撮影・抽出・承認—OCRが紙を経費ワークフローのデータに変換します。"
+    "meta_description": "Mobile capture and receipt extraction."
   },
   "meta": {
     "productRepo": "infra-control-plane",

@@ -7,9 +7,7 @@
   "keys": {
     "path": "/solutions/enterprise/system-status",
     "meta_title": "System Status | Vouus",
-    "meta_description": "Uptime, incidents, and maintenance transparency.",
-    "hero_title": "System Status",
-    "hero_description": "Real-time server and service status for {brand}."
+    "meta_description": "Uptime, incidents, and maintenance transparency."
   },
   "meta": {
     "productRepo": "infra-control-plane",

@@ -7,9 +7,7 @@
   "keys": {
     "path": "/solutions",
     "meta_title": "ဖြေရှင်းချက်များ | Vouus",
-    "meta_description": "Role နှင့် company size အလိုက် — လူများ၊ ငွေနှင့် approvals အတွက် workflow spine တစ်ခု။",
-    "hero_title": "Built for how your team works",
-    "hero_description": "Tailored by role and company size—one workflow spine for people, money, and approvals."
+    "meta_description": "Role နှင့် company size အလိုက် — လူများ၊ ငွေနှင့် approvals အတွက် workflow spine တစ်ခု။"
   },
   "meta": {
     "productRepo": "infra-control-plane",

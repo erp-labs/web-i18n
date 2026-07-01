@@ -7,9 +7,7 @@
   "keys": {
     "path": "/solutions",
     "meta_title": "Solutions",
-    "meta_description": "Solutions by role and company size.",
-    "hero_title": "チームの働き方に合わせて",
-    "hero_description": "役割と会社規模に合わせて—人・お金・承認のための一つのワークフロー基盤。"
+    "meta_description": "Solutions by role and company size."
   },
   "meta": {
     "productRepo": "infra-control-plane",

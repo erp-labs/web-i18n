@@ -7,9 +7,7 @@
   "keys": {
     "path": "/solutions/startups",
     "meta_title": "Startups (5 users)",
-    "meta_description": "Lean ERP for early-stage teams.",
-    "hero_title": "5 people. One system. Day one ready.",
-    "hero_description": "Basic plan with core ERP, approvals, and workflow automation—built for founders who need clean books without shelfware."
+    "meta_description": "Lean ERP for early-stage teams."
   },
   "meta": {
     "productRepo": "infra-control-plane",

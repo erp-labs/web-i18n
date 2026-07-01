@@ -87,14 +87,38 @@ function syncAdminWeb() {
   }
 }
 
+/** Drop locale page keys not present in EN (marketing-web verify:i18n-bundles requires parity). */
+function filterPagesToEnKeys(enPages, localePages) {
+  /** @type {Record<string, Record<string, unknown>>} */
+  const filtered = {}
+  for (const [pageId, enPage] of Object.entries(enPages)) {
+    if (!enPage || typeof enPage !== 'object' || Array.isArray(enPage)) continue
+    const enKeys = Object.keys(enPage)
+    const locPage = localePages[pageId]
+    /** @type {Record<string, unknown>} */
+    const page = {}
+    for (const key of enKeys) {
+      if (locPage && typeof locPage === 'object' && !Array.isArray(locPage) && key in locPage) {
+        page[key] = locPage[key]
+      } else if (key in enPage) {
+        page[key] = enPage[key]
+      }
+    }
+    filtered[pageId] = page
+  }
+  return filtered
+}
+
 function syncMarketingWeb() {
   const outRoot = join(ERP_LABS_ROOT, 'web-public', 'apps', 'marketing-web', 'lib', 'i18n')
   ensureDir(outRoot)
-  writeJson(join(outRoot, 'en.json'), mergeSurfacePages('en', 'www'))
+  const enPages = mergeSurfacePages('en', 'www')
+  writeJson(join(outRoot, 'en.json'), enPages)
   for (const locale of loadLocales().filter((l) => l !== 'en')) {
     const merged = mergeSurfacePages(locale, 'www')
     if (Object.keys(merged).length === 0) continue
-    writeJson(join(outRoot, `${locale}.json`), merged)
+    const filtered = filterPagesToEnKeys(enPages, merged)
+    writeJson(join(outRoot, `${locale}.json`), filtered)
     console.log(`sync-to-apps: wrote marketing-web/lib/i18n/${locale}.json`)
   }
 }

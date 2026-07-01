@@ -7,9 +7,7 @@
   "keys": {
     "path": "/solutions/enterprise/dpa",
     "meta_title": "DPA | Vouus Enterprise",
-    "meta_description": "DPA в соответствии с PDPA между iPrego Pte. Ltd. и клиентами {brand}.",
-    "hero_title": "Data Processing Agreement",
-    "hero_description": "PDPA-aligned DPA between iPrego Pte. Ltd. and customers using {brand}."
+    "meta_description": "DPA в соответствии с PDPA между iPrego Pte. Ltd. и клиентами {brand}."
   },
   "meta": {
     "productRepo": "infra-control-plane",

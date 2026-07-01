@@ -7,9 +7,7 @@
   "keys": {
     "path": "/solutions/finance",
     "meta_title": "Finance Teams | Vouus",
-    "meta_description": "Close faster: expenses, eInvoice, approvals, and reports in one workflow.",
-    "hero_title": "송장에서 원장까지 이어지는 재무",
-    "hero_description": "경비·전자세금계산서·마감을 연결된 워크플로우로—기계적 단계는 Scheduler·Automation, 승인은 감사인에게 투명."
+    "meta_description": "Close faster: expenses, eInvoice, approvals, and reports in one workflow."
   },
   "meta": {
     "productRepo": "infra-control-plane",
