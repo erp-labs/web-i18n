@@ -9,9 +9,9 @@
     "markAllRead": "Đánh dấu tất cả đã đọc",
     "read": "Đã đọc",
     "unread": "Chưa đọc",
-    "viewDetails": "View details",
-    "markReadFailed": "Could not mark notice as read. Try again.",
-    "markAllReadFailed": "Could not mark all notices as read. Try again.",
+    "viewDetails": "Xem chi tiết",
+    "markReadFailed": "Không thể đánh dấu thông báo là đã đọc. Vui lòng thử lại.",
+    "markAllReadFailed": "Không thể đánh dấu tất cả thông báo là đã đọc. Vui lòng thử lại.",
     "noNotices": "Không có thông báo",
     "allCaughtUp": "Đã xem hết!",
     "timeAgoJustNow": "Vừa xong",
@@ -24,6 +24,8 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#notices",
     "githubPath": "app/notices.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/vi.json#notices"
+    "importedFrom": "apps/employee-web/dictionaries/vi.json#notices",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

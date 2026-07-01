@@ -5,16 +5,16 @@
   "version": 3,
   "sourceHash": "sha256:e6f240877e65ee243353d0fb18280c2145b45bf9a9193ad0ae86381b5259e86f",
   "keys": {
-    "title": "Dashboard",
-    "subtitle": "آپ کے اکاؤنٹ اور سروسز کا جائزہ",
-    "subtitleSignedIn": "خوش آمدید، {name} — اپنی subscription، portals، اور usage منظم کریں۔"
+    "title": "ڈیش بورڈ",
+    "subtitle": "آپ کے اکاؤنٹ اور خدمات کا جائزہ",
+    "subtitleSignedIn": "خوش آمدید، {name} — اپنی رکنیت، پورٹلز اور استعمال کا نظم کریں۔"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /dashboard",
     "githubPath": "account/shell.dashboard.page.json",
-    "translationStatus": "review",
-    "method": "cursor-ai-2",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai",
     "reviewedAt": "2026-06-30"
   }
 }

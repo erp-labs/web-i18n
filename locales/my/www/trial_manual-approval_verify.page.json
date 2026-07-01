@@ -1,0 +1,19 @@
+{
+  "pageId": "www.trial_manual-approval_verify",
+  "surface": "www",
+  "route": "/trial/manual-approval/verify",
+  "version": 1,
+  "sourceHash": "sha256:292e7567ee4d8f96c82b74417d12a258e5cfa3f3fded3604891a18e21ce379bb",
+  "keys": {
+    "path": "/trial/manual-approval/verify",
+    "meta_title": "Verify email",
+    "meta_description": "Manual trial email verification."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts trial/manual-approval/verify",
+    "githubPath": "www/trial_manual-approval_verify.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

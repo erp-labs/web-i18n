@@ -2,23 +2,22 @@
   "pageId": "account.auth.verify",
   "surface": "account",
   "route": "/signup/verify",
-  "version": 3,
+  "version": 1,
   "sourceHash": "sha256:d99e1c700de571c41953cbd91e31d58db2a680c883620e8c67362e781b6e86c7",
   "keys": {
-    "title": "Sahkan identiti anda",
-    "intro": "Sila masukkan kod sekali guna yang dihantar ke e-mel anda untuk meneruskan.",
-    "emailPrefix": "E-mel:",
-    "sendUncertainBanner": "Kami tidak dapat mengesahkan penghantaran, tetapi e-mel pengesahan mungkin sudah ada dalam peti masuk anda. Masukkan kod terkini di bawah.",
-    "verify": "Sahkan",
-    "verifying": "Mengesahkan…",
+    "title": "Verify your identity",
+    "intro": "Sila masukkan kod sekali sahaja yang dihantar ke e-mel anda untuk meneruskan.",
+    "emailPrefix": "Email:",
+    "sendUncertainBanner": "We could not confirm delivery, but a verification email may already be in your inbox. Enter the latest code below.",
+    "verify": "Verify",
+    "verifying": "Verifying…",
     "loading": "Memuatkan…"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /signup/verify",
     "githubPath": "account/auth.verify.page.json",
-    "translationStatus": "review",
-    "method": "cursor-ai-2",
-    "reviewedAt": "2026-06-30"
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
   }
 }

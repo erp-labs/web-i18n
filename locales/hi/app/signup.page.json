@@ -6,27 +6,27 @@
   "sourceHash": "sha256:ddb5417f701bc66105f54e1db3bac33ffdab5057c480dd09cf5f531e7b0ea8d2",
   "keys": {
     "brandName": "Pregoi",
-    "title": "साइन अप",
-    "firstNameLabel": "First Name",
-    "firstNamePlaceholder": "Enter your first name",
-    "emailLabel": "Email",
+    "title": "साइन अप करें",
+    "firstNameLabel": "पहला नाम",
+    "firstNamePlaceholder": "अपना पहला नाम दर्ज करें",
+    "emailLabel": "ईमेल",
     "emailPlaceholder": "johndoe@gmail.com",
-    "passwordLabel": "Password",
-    "passwordPlaceholder": "Use a secure password",
-    "confirmPasswordLabel": "Confirm password",
-    "confirmPasswordPlaceholder": "Re-enter your password",
+    "passwordLabel": "पासवर्ड",
+    "passwordPlaceholder": "सुरक्षित पासवर्ड का प्रयोग करें",
+    "confirmPasswordLabel": "पासवर्ड की पुष्टि कीजिये",
+    "confirmPasswordPlaceholder": "अपना पासवर्ड पुनः दर्ज करें",
     "submitButton": "खाता बनाएं",
-    "alreadyHaveAccount": "Already have an account?",
-    "logIn": "Log in",
-    "errorPasswordsDoNotMatch": "Passwords do not match",
-    "errorGeneric": "Something went wrong. Please try again.",
-    "signingUp": "Creating account…"
+    "alreadyHaveAccount": "क्या आपके पास पहले से एक खाता मौजूद है?",
+    "logIn": "लॉग इन करें",
+    "errorPasswordsDoNotMatch": "सांकेतिक शब्द मेल नहीं खाते",
+    "errorGeneric": "कुछ गलत हो गया। कृपया पुन: प्रयास करें।",
+    "signingUp": "खाता बनाया जा रहा है..."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#signup",
     "githubPath": "app/signup.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

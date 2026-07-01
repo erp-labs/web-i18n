@@ -54,5 +54,19 @@
     "locale": "hi",
     "method": "cursor-ai",
     "at": "2026-06-30T12:00:42.198Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:shell-v1",
+    "locale": "ru",
+    "method": "cursor-ai",
+    "at": "2026-07-01T06:05:12.989Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:shell-v1",
+    "locale": "my",
+    "method": "cursor-ai",
+    "at": "2026-07-01T06:05:12.990Z"
   }
 ]

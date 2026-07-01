@@ -19,13 +19,15 @@
     "alreadyHaveAccount": "既にアカウントをお持ちの場合",
     "logIn": "ログイン",
     "errorPasswordsDoNotMatch": "パスワードが一致しません",
-    "errorGeneric": "Something went wrong. Please try again.",
-    "signingUp": "Creating account…"
+    "errorGeneric": "問題が発生しました。もう一度お試しください。",
+    "signingUp": "アカウント作成中…"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#signup",
     "githubPath": "app/signup.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ja.json#signup"
+    "importedFrom": "apps/employee-web/dictionaries/ja.json#signup",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

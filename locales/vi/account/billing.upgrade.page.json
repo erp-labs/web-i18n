@@ -3,19 +3,19 @@
   "surface": "account",
   "route": "/billing/upgrade",
   "version": 1,
-  "sourceHash": "sha256:7428f7bac7c24316234874d4f490cd00ef9f55561ac56104b1810dd3ba424d78",
+  "sourceHash": "sha256:c27edb78c826b70992a1032767dbb760d57974afb0b172c0b25fca23c88dd49a",
   "keys": {
-    "title": "Upgrade plan",
-    "subtitle": "Choose a higher plan for your workspace.",
-    "bodyNote": "Your dedicated server and data stay in place when you move to a higher plan.",
-    "submit": "Upgrade",
-    "backToBilling": "← Back to billing"
+    "title": "Nâng cấp gói",
+    "subtitle": "Chọn gói cao hơn cho workspace của Quý vị.",
+    "bodyNote": "Máy chủ riêng và dữ liệu của Quý vị vẫn giữ nguyên khi nâng cấp.",
+    "submit": "Nâng cấp",
+    "backToBilling": "← Quay lại thanh toán"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /billing/upgrade",
     "githubPath": "account/billing.upgrade.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

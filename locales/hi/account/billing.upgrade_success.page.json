@@ -6,17 +6,17 @@
   "sourceHash": "sha256:1cb63be9bc2381be9a48de30b061426e716ee01ed85b7b5b25a24f3fe1e73dbc",
   "keys": {
     "titlePayment": "भुगतान सफल",
-    "titleInline": "पैकेज अपडेट हुआ",
-    "body": "Stripe से subscription विवरण sync होने में एक मिनट लग सकता है।",
-    "bodyWithPlan": "आपका workspace {plan} पर जा रहा है। Stripe से subscription विवरण sync होने में एक मिनट लग सकता है।",
-    "cta": "billing देखें"
+    "titleInline": "पैकेज अपडेट किया गया",
+    "body": "सदस्यता विवरण को Stripe से सिंक होने में एक मिनट लग सकता है।",
+    "bodyWithPlan": "आपका कार्यक्षेत्र {plan} पर जा रहा है। सदस्यता विवरण को Stripe से सिंक होने में एक मिनट का समय लग सकता है।",
+    "cta": "बिलिंग देखें"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /billing/upgrade/success",
     "githubPath": "account/billing.upgrade_success.page.json",
-    "translationStatus": "review",
-    "method": "cursor-ai-2",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai",
     "reviewedAt": "2026-06-30"
   }
 }

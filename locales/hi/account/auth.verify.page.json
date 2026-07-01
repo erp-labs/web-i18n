@@ -5,20 +5,20 @@
   "version": 3,
   "sourceHash": "sha256:d99e1c700de571c41953cbd91e31d58db2a680c883620e8c67362e781b6e86c7",
   "keys": {
-    "title": "अपनी पहचान सत्यापित करें",
-    "intro": "जारी रखने के लिए कृपया अपने ईमेल पर भेजा गया एक-बार का कोड दर्ज करें।",
+    "title": "अपनी पहचान सत्यापित करो",
+    "intro": "जारी रखने के लिए कृपया अपने ईमेल पर भेजा गया एक बार का कोड दर्ज करें।",
     "emailPrefix": "ईमेल:",
-    "sendUncertainBanner": "हम डिलीवरी की पुष्टि नहीं कर सके, लेकिन सत्यापन ईमेल शायद पहले से आपके इनबॉक्स में है। नीचे नवीनतम कोड दर्ज करें।",
+    "sendUncertainBanner": "हम डिलीवरी की पुष्टि नहीं कर सके, लेकिन एक सत्यापन ईमेल पहले से ही आपके इनबॉक्स में हो सकता है। नीचे नवीनतम कोड दर्ज करें.",
     "verify": "सत्यापित करें",
-    "verifying": "सत्यापित किया जा रहा है…",
-    "loading": "लोड हो रहा है…"
+    "verifying": "सत्यापन किया जा रहा है...",
+    "loading": "लोड हो रहा है..."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /signup/verify",
     "githubPath": "account/auth.verify.page.json",
-    "translationStatus": "review",
-    "method": "cursor-ai-2",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai",
     "reviewedAt": "2026-06-30"
   }
 }

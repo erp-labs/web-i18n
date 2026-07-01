@@ -83,7 +83,7 @@
     "productRepo": "web-public",
     "sourcePath": "packages/shell/src/nav-config.ts",
     "githubPath": "www/shell.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

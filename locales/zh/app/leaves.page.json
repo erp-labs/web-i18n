@@ -14,8 +14,8 @@
     "selectEndDate": "选择结束日期",
     "leaveHistory": "请假记录",
     "submitRequest": "提交申请",
-    "requestSubmitted": "Leave request submitted",
-    "requestSubmitFailed": "Could not submit your request. Please try again.",
+    "requestSubmitted": "休假申请已提交",
+    "requestSubmitFailed": "无法提交申请。请重试。",
     "sickLeave": "病假",
     "hospitalisationLeave": "住院假",
     "maternityLeave": "产假",
@@ -40,14 +40,16 @@
     "noLeaveHistoryYet": "暂无请假记录",
     "startByRequestingLeave": "需要休息时，请在上方提交请假申请",
     "requestLeaveCta": "申请请假",
-    "addLeave": "Add leave",
-    "selectDatesOnCalendar": "Select your leave dates on the calendar above.",
-    "noLeaveAllocation": "No leave balance is assigned yet. Contact your HR administrator."
+    "addLeave": "添加休假",
+    "selectDatesOnCalendar": "请在上方日历中选择休假日期。",
+    "noLeaveAllocation": "尚未分配休假余额。请联系 HR 管理员。"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#leaves",
     "githubPath": "app/leaves.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/zh.json#leaves"
+    "importedFrom": "apps/employee-web/dictionaries/zh.json#leaves",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

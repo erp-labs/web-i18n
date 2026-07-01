@@ -5,19 +5,19 @@
   "version": 1,
   "sourceHash": "sha256:d99e1c700de571c41953cbd91e31d58db2a680c883620e8c67362e781b6e86c7",
   "keys": {
-    "title": "Verify your identity",
-    "intro": "Please enter the one-time code sent to your email to continue.",
-    "emailPrefix": "Email:",
-    "sendUncertainBanner": "We could not confirm delivery, but a verification email may already be in your inbox. Enter the latest code below.",
-    "verify": "Verify",
-    "verifying": "Verifying…",
-    "loading": "Loading…"
+    "title": "本人確認",
+    "intro": "続行するには、メールに送信されたワンタイムコードを入力してください。",
+    "emailPrefix": "メール:",
+    "sendUncertainBanner": "配信を確認できませんでしたが、確認メールが届いている可能性があります。最新のコードを入力してください。",
+    "verify": "確認",
+    "verifying": "確認中…",
+    "loading": "読み込み中…"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /signup/verify",
     "githubPath": "account/auth.verify.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

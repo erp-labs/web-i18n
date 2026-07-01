@@ -1,0 +1,36 @@
+{
+  "pageId": "app.calendar",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/calendar",
+  "version": 1,
+  "sourceHash": "sha256:5f5eff059e509b3ca6733f5423d7dd223962783e7bc7525eea37cc2328d19490",
+  "keys": {
+    "monthJanuary": "January",
+    "monthFebruary": "February",
+    "monthMarch": "March",
+    "monthApril": "April",
+    "monthMay": "May",
+    "monthJune": "June",
+    "monthJuly": "July",
+    "monthAugust": "August",
+    "monthSeptember": "September",
+    "monthOctober": "October",
+    "monthNovember": "November",
+    "monthDecember": "December",
+    "dayStatusWork": "Work",
+    "dayStatusDone": "Done",
+    "dayStatusMissed": "Missed",
+    "dayStatusAbsent": "Absent",
+    "dayStatusTardy": "Tardy",
+    "dayStatusOff": "Off",
+    "dayStatusAway": "Away",
+    "dayStatusPublicHoliday": "PH"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#calendar",
+    "githubPath": "app/calendar.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

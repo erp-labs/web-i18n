@@ -9,9 +9,9 @@
     "markAllRead": "تعليم الكل كمقروء",
     "read": "مقروء",
     "unread": "غير مقروء",
-    "viewDetails": "View details",
-    "markReadFailed": "Could not mark notice as read. Try again.",
-    "markAllReadFailed": "Could not mark all notices as read. Try again.",
+    "viewDetails": "عرض التفاصيل",
+    "markReadFailed": "تعذّر تحديد الإشعار كمقروء. حاول مرة أخرى.",
+    "markAllReadFailed": "تعذّر تحديد جميع الإشعارات كمقروءة. حاول مرة أخرى.",
     "noNotices": "لا توجد إشعارات",
     "allCaughtUp": "لقد اطلعت على الكل!",
     "timeAgoJustNow": "الآن",
@@ -24,6 +24,8 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#notices",
     "githubPath": "app/notices.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ar.json#notices"
+    "importedFrom": "apps/employee-web/dictionaries/ar.json#notices",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

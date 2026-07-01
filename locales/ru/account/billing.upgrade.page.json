@@ -1,0 +1,21 @@
+{
+  "pageId": "account.billing.upgrade",
+  "surface": "account",
+  "route": "/billing/upgrade",
+  "version": 1,
+  "sourceHash": "sha256:c27edb78c826b70992a1032767dbb760d57974afb0b172c0b25fca23c88dd49a",
+  "keys": {
+    "title": "Upgrade package",
+    "subtitle": "Choose a higher plan for your workspace.",
+    "bodyNote": "Your dedicated server and data stay in place when you move to a higher plan.",
+    "submit": "Upgrade",
+    "backToBilling": "← Back to billing"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /billing/upgrade",
+    "githubPath": "account/billing.upgrade.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

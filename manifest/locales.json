@@ -12,6 +12,8 @@
     { "code": "ms", "label": "Bahasa Melayu", "bcp47": "ms", "rtl": false },
     { "code": "si", "label": "සිංහල", "bcp47": "si", "rtl": false },
     { "code": "ur", "label": "اردو", "bcp47": "ur", "rtl": true },
-    { "code": "hi", "label": "हिन्दी", "bcp47": "hi", "rtl": false }
+    { "code": "hi", "label": "हिन्दी", "bcp47": "hi", "rtl": false },
+    { "code": "ru", "label": "Русский", "bcp47": "ru", "rtl": false },
+    { "code": "my", "label": "မြန်မာ", "bcp47": "my", "rtl": false }
   ]
 }

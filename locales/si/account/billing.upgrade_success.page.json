@@ -7,16 +7,16 @@
   "keys": {
     "titlePayment": "ගෙවීම සාර්ථකයි",
     "titleInline": "පැකේජය යාවත්කාලීන කරන ලදී",
-    "body": "Stripe වෙතින් subscription විස්තර sync වීමට මිනිත්තුවක් ගත විය හැක.",
-    "bodyWithPlan": "ඔබගේ workspace {plan} වෙත ගමන් කරමින්. Stripe වෙතින් subscription විස්තර sync වීමට මිනිත්තුවක් ගත විය හැක.",
-    "cta": "billing බලන්න"
+    "body": "දායකත්ව විස්තර Stripe වෙතින් සමමුහුර්ත කිරීමට මිනිත්තුවක් ගත විය හැක.",
+    "bodyWithPlan": "ඔබේ වැඩබිම {plan} වෙත ගමන් කරයි. දායකත්ව විස්තර Stripe වෙතින් සමමුහුර්ත කිරීමට මිනිත්තුවක් ගත විය හැක.",
+    "cta": "බිල්පත් බැලීම"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /billing/upgrade/success",
     "githubPath": "account/billing.upgrade_success.page.json",
-    "translationStatus": "review",
-    "method": "cursor-ai-2",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai",
     "reviewedAt": "2026-06-30"
   }
 }

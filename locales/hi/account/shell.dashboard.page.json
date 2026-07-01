@@ -7,14 +7,14 @@
   "keys": {
     "title": "डैशबोर्ड",
     "subtitle": "आपके खाते और सेवाओं का अवलोकन",
-    "subtitleSignedIn": "स्वागत है, {name} — अपनी subscription, portals और usage प्रबंधित करें।"
+    "subtitleSignedIn": "आपका स्वागत है, {name} - अपनी सदस्यता, पोर्टल और उपयोग प्रबंधित करें।"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /dashboard",
     "githubPath": "account/shell.dashboard.page.json",
-    "translationStatus": "review",
-    "method": "cursor-ai-2",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai",
     "reviewedAt": "2026-06-30"
   }
 }

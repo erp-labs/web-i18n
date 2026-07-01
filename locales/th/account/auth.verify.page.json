@@ -2,23 +2,22 @@
   "pageId": "account.auth.verify",
   "surface": "account",
   "route": "/signup/verify",
-  "version": 3,
+  "version": 1,
   "sourceHash": "sha256:d99e1c700de571c41953cbd91e31d58db2a680c883620e8c67362e781b6e86c7",
   "keys": {
-    "title": "ยืนยันตัวตนของคุณ",
-    "intro": "กรุณากรอกรหัสใช้ครั้งเดียวที่ส่งไปยังอีเมลของคุณเพื่อดำเนินการต่อ",
-    "emailPrefix": "อีเมล:",
-    "sendUncertainBanner": "เราไม่สามารถยืนยันการส่งได้ แต่อีเมลยืนยันอาจอยู่ในกล่องจดหมายของคุณแล้ว กรุณากรอกรหัสล่าสุดด้านล่าง",
-    "verify": "ยืนยัน",
-    "verifying": "กำลังยืนยัน…",
-    "loading": "กำลังโหลด…"
+    "title": "Verify your identity",
+    "intro": "โปรดป้อนรหัสแบบครั้งเดียวที่ส่งไปยังอีเมลของคุณเพื่อดำเนินการต่อ",
+    "emailPrefix": "Email:",
+    "sendUncertainBanner": "We could not confirm delivery, but a verification email may already be in your inbox. Enter the latest code below.",
+    "verify": "Verify",
+    "verifying": "Verifying…",
+    "loading": "กำลังโหลด..."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /signup/verify",
     "githubPath": "account/auth.verify.page.json",
-    "translationStatus": "review",
-    "method": "cursor-ai-2",
-    "reviewedAt": "2026-06-30"
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
   }
 }

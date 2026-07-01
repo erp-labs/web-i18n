@@ -3,19 +3,19 @@
   "surface": "account",
   "route": "/billing/upgrade",
   "version": 1,
-  "sourceHash": "sha256:7428f7bac7c24316234874d4f490cd00ef9f55561ac56104b1810dd3ba424d78",
+  "sourceHash": "sha256:c27edb78c826b70992a1032767dbb760d57974afb0b172c0b25fca23c88dd49a",
   "keys": {
-    "title": "Upgrade plan",
-    "subtitle": "Choose a higher plan for your workspace.",
-    "bodyNote": "Your dedicated server and data stay in place when you move to a higher plan.",
-    "submit": "Upgrade",
-    "backToBilling": "← Back to billing"
+    "title": "升级套餐",
+    "subtitle": "为您的工作区选择更高级别的计划。",
+    "bodyNote": "升级到更高级别计划时，您的专属服务器和数据将保持不变。",
+    "submit": "升级",
+    "backToBilling": "← 返回账单"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /billing/upgrade",
     "githubPath": "account/billing.upgrade.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

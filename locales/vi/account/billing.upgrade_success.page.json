@@ -5,17 +5,17 @@
   "version": 1,
   "sourceHash": "sha256:1cb63be9bc2381be9a48de30b061426e716ee01ed85b7b5b25a24f3fe1e73dbc",
   "keys": {
-    "titlePayment": "Payment successful",
-    "titleInline": "Package updated",
-    "body": "Subscription details may take a minute to sync from Stripe.",
-    "bodyWithPlan": "Your workspace is moving to {plan}. Subscription details may take a minute to sync from Stripe.",
-    "cta": "View billing"
+    "titlePayment": "Thanh toán thành công",
+    "titleInline": "Đã cập nhật gói",
+    "body": "Chi tiết đăng ký có thể mất một phút để đồng bộ từ Stripe.",
+    "bodyWithPlan": "Workspace của Quý vị đang chuyển sang {plan}. Chi tiết đăng ký có thể mất một phút để đồng bộ từ Stripe.",
+    "cta": "Xem thanh toán"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /billing/upgrade/success",
     "githubPath": "account/billing.upgrade_success.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

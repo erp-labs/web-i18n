@@ -34,6 +34,8 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#auth",
     "githubPath": "app/auth.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/vi.json#auth"
+    "importedFrom": "apps/employee-web/dictionaries/vi.json#auth",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

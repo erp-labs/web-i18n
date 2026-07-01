@@ -58,11 +58,11 @@
       "startCta": "Tạo hóa đơn"
     },
     "customers": {
-      "whatTitle": "Your customer list",
-      "whatBody": "Browse ERP customers synced from your company workspace.",
-      "howTitle": "Need pipeline or deals?",
-      "howStep1": "Use Open in CRM for Frappe CRM on your tenant host.",
-      "howStep2": "Use Work Desk for full ERP customer records and accounting links."
+      "whatTitle": "Danh sách khách hàng của bạn",
+      "whatBody": "Duyệt khách hàng ERP được đồng bộ từ workspace công ty của bạn.",
+      "howTitle": "Cần quản lý pipeline hoặc giao dịch?",
+      "howStep1": "Dùng Mở trong CRM để truy cập Frappe CRM trên tenant host của bạn.",
+      "howStep2": "Dùng Work Desk để xem đầy đủ hồ sơ khách hàng ERP và các liên kết kế toán."
     },
     "leaves": {
       "whatTitle": "Xin nghỉ phép",
@@ -87,6 +87,8 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#moduleGuide",
     "githubPath": "app/moduleGuide.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/vi.json#moduleGuide"
+    "importedFrom": "apps/employee-web/dictionaries/vi.json#moduleGuide",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

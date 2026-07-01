@@ -6,88 +6,88 @@
   "sourceHash": "sha256:6a17eb3392f9231509390565517d774d2c9f981b45c9c523e1659755c053bd6e",
   "keys": {
     "common": {
-      "showGuide": "How it works",
-      "dontShowAgain": "Don't show again",
-      "gotIt": "Got it",
-      "next": "Next",
-      "back": "Back",
-      "stepOf": "Step {current} of {total}"
+      "showGuide": "එය ක්රියා කරන ආකාරය",
+      "dontShowAgain": "නැවත පෙන්වන්න එපා",
+      "gotIt": "තේරුම් ගත්තා ද",
+      "next": "ඊළඟ",
+      "back": "ආපසු",
+      "stepOf": "{total} හි {current} පියවර"
     },
     "attendance": {
-      "whatTitle": "Track your work hours",
-      "whatBody": "Check in when you start work and check out when you finish. Your attendance history appears here automatically.",
-      "howTitle": "How check-in works",
-      "howStep1": "Tap Check In when you arrive at work (office or home).",
-      "howStep2": "Tap Check Out when your shift ends.",
-      "howStep3": "Review daily hours and totals in this list.",
-      "startTitle": "Ready to check in?",
-      "startBody": "Use the check-in button at the top of the home screen.",
-      "startCta": "Start check-in"
+      "whatTitle": "ඔබගේ වැඩ කරන වේලාවන් නිරීක්ෂණය කරන්න",
+      "whatBody": "ඔබ වැඩ ආරම්භ කරන විට පරීක්ෂා කර අවසන් වූ විට පරීක්ෂා කරන්න. ඔබගේ පැමිණීමේ ඉතිහාසය ස්වයංක්‍රීයව මෙහි දිස්වේ.",
+      "howTitle": "ඇතුල් වීම ක්‍රියා කරන ආකාරය",
+      "howStep1": "ඔබ රැකියාවට (කාර්යාලයට හෝ නිවසට) පැමිණෙන විට පරීක්ෂා කරන්න තට්ටු කරන්න.",
+      "howStep2": "ඔබගේ මාරුව අවසන් වූ විට Check Out තට්ටු කරන්න.",
+      "howStep3": "මෙම ලැයිස්තුවේ දෛනික පැය ගණන් සහ එකතුව සමාලෝචනය කරන්න.",
+      "startTitle": "ඇතුළු වීමට සූදානම්ද?",
+      "startBody": "මුල් තිරයේ ඉහළින් ඇති පිරික්සුම් බොත්තම භාවිතා කරන්න.",
+      "startCta": "ඇතුල්වීම ආරම්භ කරන්න"
     },
     "expenses": {
-      "whatTitle": "Submit expense claims",
-      "whatBody": "Capture receipts and submit expenses for reimbursement. Approved claims are tracked here.",
-      "howTitle": "How to add an expense",
-      "howStep1": "Tap + and photograph or upload your receipt.",
-      "howStep2": "Choose a category and enter the amount.",
-      "howStep3": "Submit for approval — status updates appear in this list.",
-      "startTitle": "Add your first expense",
-      "startBody": "Keep a photo of your receipt handy.",
-      "startCta": "Add expense"
+      "whatTitle": "වියදම් හිමිකම් ඉදිරිපත් කරන්න",
+      "whatBody": "රිසිට්පත් අල්ලා ආපසු ගෙවීම සඳහා වියදම් ඉදිරිපත් කරන්න. අනුමත හිමිකම් පෑම් මෙහි නිරීක්ෂණය කෙරේ.",
+      "howTitle": "වියදමක් එකතු කරන්නේ කෙසේද",
+      "howStep1": "+ තට්ටු කර ඡායාරූප ගන්න හෝ ඔබේ රිසිට්පත උඩුගත කරන්න.",
+      "howStep2": "කාණ්ඩයක් තෝරා මුදල ඇතුළත් කරන්න.",
+      "howStep3": "අනුමැතිය සඳහා ඉදිරිපත් කරන්න - තත්ව යාවත්කාලීන කිරීම් මෙම ලැයිස්තුවේ දිස්වේ.",
+      "startTitle": "ඔබේ පළමු වියදම එකතු කරන්න",
+      "startBody": "ඔබේ රිසිට්පතේ ඡායාරූපයක් ළඟ තබා ගන්න.",
+      "startCta": "වියදම් එකතු කරන්න"
     },
     "checklist": {
-      "whatTitle": "Manage your tasks",
-      "whatBody": "Keep work, home, and personal tasks in one checklist with due dates and progress.",
-      "howTitle": "How to use the checklist",
-      "howStep1": "Tap + to create a task with a name and due date.",
-      "howStep2": "Mark tasks done as you complete them.",
-      "howStep3": "Track overall progress on the overview bar.",
-      "startTitle": "Create your first task",
-      "startBody": "Start with one small task due today.",
-      "startCta": "Add task"
+      "whatTitle": "ඔබගේ කාර්යයන් කළමනාකරණය කරන්න",
+      "whatBody": "නියමිත දින සහ ප්‍රගතිය සමඟ වැඩ, නිවස සහ පුද්ගලික කාර්යයන් එක් පිරික්සුම් ලැයිස්තුවක තබා ගන්න.",
+      "howTitle": "පිරික්සුම් ලැයිස්තුව භාවිතා කරන්නේ කෙසේද",
+      "howStep1": "නමක් සහ නියමිත දිනයක් සහිත කාර්යයක් සෑදීමට + තට්ටු කරන්න.",
+      "howStep2": "ඔබ ඒවා සම්පූර්ණ කරන විට කළ කාර්යයන් සලකුණු කරන්න.",
+      "howStep3": "දළ විශ්ලේෂණය තීරුවේ සමස්ත ප්‍රගතිය නිරීක්ෂණය කරන්න.",
+      "startTitle": "ඔබේ පළමු කාර්යය සාදන්න",
+      "startBody": "අද කිරීමට නියමිත එක් කුඩා කාර්යයකින් ආරම්භ කරන්න.",
+      "startCta": "කාර්යය එක් කරන්න"
     },
     "invoices": {
-      "whatTitle": "Create and send invoices",
-      "whatBody": "Build professional invoices, preview them, and track payment status.",
-      "howTitle": "How to create an invoice",
-      "howStep1": "Tap + and enter client details and line items.",
-      "howStep2": "Preview the invoice before sending.",
-      "howStep3": "Send to your client and monitor open vs paid here.",
-      "startTitle": "Create your first invoice",
-      "startBody": "You can save a draft and finish later.",
-      "startCta": "Create invoice"
+      "whatTitle": "ඉන්වොයිසි සාදන්න සහ යවන්න",
+      "whatBody": "වෘත්තීය ඉන්වොයිසි සාදන්න, ඒවා පෙරදසුන් කරන්න, සහ ගෙවීම් තත්ත්වය නිරීක්ෂණය කරන්න.",
+      "howTitle": "ඉන්වොයිසියක් සාදා ගන්නේ කෙසේද",
+      "howStep1": "+ තට්ටු කර සේවාදායක විස්තර සහ රේඛා අයිතම ඇතුළත් කරන්න.",
+      "howStep2": "යැවීමට පෙර ඉන්වොයිසිය පෙරදසුන් කරන්න.",
+      "howStep3": "ඔබේ සේවාදායකයා වෙත යවා මෙහි ගෙවන ලද එදිරිව විවෘතව නිරීක්ෂණය කරන්න.",
+      "startTitle": "ඔබේ පළමු ඉන්වොයිසිය සාදන්න",
+      "startBody": "ඔබට කෙටුම්පතක් සුරැකිය හැකි අතර පසුව අවසන් කරන්න.",
+      "startCta": "ඉන්වොයිසිය සාදන්න"
     },
     "customers": {
-      "whatTitle": "Your customer list",
-      "whatBody": "Browse ERP customers synced from your company workspace.",
-      "howTitle": "Need pipeline or deals?",
-      "howStep1": "Use Open in CRM for Frappe CRM on your tenant host.",
-      "howStep2": "Use Work Desk for full ERP customer records and accounting links."
+      "whatTitle": "ඔබේ පාරිභෝගික ලැයිස්තුව",
+      "whatBody": "ඔබේ සමාගමේ වැඩබිමෙන් සමමුහුර්ත කළ ERP පාරිභෝගිකයින් බ්‍රවුස් කරන්න.",
+      "howTitle": "නල මාර්ගයක් හෝ ගනුදෙනු අවශ්‍යද?",
+      "howStep1": "ඔබේ කුලී නිවැසියන් මත Frappe CRM සඳහා CRM හි විවෘත කරන්න.",
+      "howStep2": "සම්පූර්ණ ERP පාරිභෝගික වාර්තා සහ ගිණුම් සම්බන්ධතා සඳහා Work Desk භාවිතා කරන්න."
     },
     "leaves": {
-      "whatTitle": "Request time off",
-      "whatBody": "Apply for annual, sick, and other leave types. Your balance and history stay in one place.",
-      "howTitle": "How to request leave",
-      "howStep1": "Check your remaining leave balance at the top.",
-      "howStep2": "Select dates on the calendar and choose a leave type.",
-      "howStep3": "Submit your request — approved leave appears in history.",
-      "startTitle": "Submit a leave request",
-      "startBody": "Tap Leave application or the + button to pick dates and leave type.",
-      "startCta": "Leave application"
+      "whatTitle": "නිවාඩු කාලය ඉල්ලන්න",
+      "whatBody": "වාර්ෂික, අසනීප සහ අනෙකුත් නිවාඩු වර්ග සඳහා අයදුම් කරන්න. ඔබගේ ශේෂය සහ ඉතිහාසය එක තැනක පවතී.",
+      "howTitle": "නිවාඩු ඉල්ලන ආකාරය",
+      "howStep1": "ඉහළින් ඔබගේ ඉතිරි නිවාඩු ශේෂය පරීක්ෂා කරන්න.",
+      "howStep2": "දින දර්ශනයේ දිනයන් තෝරා නිවාඩු වර්ගයක් තෝරන්න.",
+      "howStep3": "ඔබගේ ඉල්ලීම ඉදිරිපත් කරන්න - අනුමත නිවාඩු ඉතිහාසයේ දිස්වේ.",
+      "startTitle": "නිවාඩු ඉල්ලීමක් ඉදිරිපත් කරන්න",
+      "startBody": "දින තෝරා ගැනීමට සහ නිවාඩු වර්ගය සඳහා නිවාඩු යෙදුම හෝ + බොත්තම තට්ටු කරන්න.",
+      "startCta": "ඉල්ලුම් කරන්න"
     },
     "notices": {
-      "whatTitle": "Your work notifications",
-      "whatBody": "Updates about leave, expenses, invoices, and tasks from your company ERP appear here.",
-      "howTitle": "How notices work",
-      "howStep1": "Tap the bell icon on a notice to mark it as read.",
-      "howStep2": "Use View details to open the related module when a link is available."
+      "whatTitle": "ඔබගේ වැඩ දැනුම්දීම්",
+      "whatBody": "ඔබේ සමාගම ERP වෙතින් නිවාඩු, වියදම්, ඉන්වොයිසි සහ කාර්යයන් පිළිබඳ යාවත්කාලීන මෙහි දිස් වේ.",
+      "howTitle": "දැනුම්දීම් ක්‍රියාත්මක වන ආකාරය",
+      "howStep1": "එය කියවූ ලෙස සලකුණු කිරීමට දැන්වීමක් මත සීනු නිරූපකය තට්ටු කරන්න.",
+      "howStep2": "සබැඳියක් ඇති විට අදාළ මොඩියුලය විවෘත කිරීමට View details භාවිතා කරන්න."
     }
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#moduleGuide",
     "githubPath": "app/moduleGuide.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

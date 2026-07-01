@@ -14,8 +14,8 @@
     "selectEndDate": "اختر تاريخ النهاية",
     "leaveHistory": "سجل الإجازات",
     "submitRequest": "إرسال الطلب",
-    "requestSubmitted": "Leave request submitted",
-    "requestSubmitFailed": "Could not submit your request. Please try again.",
+    "requestSubmitted": "تم إرسال طلب الإجازة",
+    "requestSubmitFailed": "تعذّر إرسال طلبك. يرجى المحاولة مرة أخرى.",
     "sickLeave": "إجازة مرضية",
     "hospitalisationLeave": "إجازة استشفاء",
     "maternityLeave": "إجازة أمومة",
@@ -40,14 +40,16 @@
     "noLeaveHistoryYet": "لا يوجد سجل إجازات بعد",
     "startByRequestingLeave": "عند الحاجة إلى إجازة، أرسل طلبًا من النموذج أعلاه",
     "requestLeaveCta": "طلب إجازة",
-    "addLeave": "Add leave",
-    "selectDatesOnCalendar": "Select your leave dates on the calendar above.",
-    "noLeaveAllocation": "No leave balance is assigned yet. Contact your HR administrator."
+    "addLeave": "إضافة إجازة",
+    "selectDatesOnCalendar": "اختر تواريخ إجازتك في التقويم أعلاه.",
+    "noLeaveAllocation": "لم يتم تخصيص رصيد إجازات بعد. تواصل مع مسؤول الموارد البشرية لديك."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#leaves",
     "githubPath": "app/leaves.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ar.json#leaves"
+    "importedFrom": "apps/employee-web/dictionaries/ar.json#leaves",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

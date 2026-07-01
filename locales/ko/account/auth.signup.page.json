@@ -3,22 +3,22 @@
   "surface": "account",
   "route": "/signup",
   "version": 1,
-  "sourceHash": "sha256:b157861ca3ef1a6277cabe3ce03f14b8448cadc23cd00733a8103a651dbfc23c",
+  "sourceHash": "sha256:319a31913f5531ac441ab9b4d1fb66c7317c85420afdbc8c74e12298a12b901f",
   "keys": {
-    "title": "Create your account",
-    "titleEmailLocked": "Email",
-    "intro": "Create your account to get started.",
-    "introEmailLocked": "We'll send a verification code to this address so you can finish creating your account.",
-    "emailLabel": "Email address",
-    "emailLockedHint": "This address was verified on pregoi.com and cannot be changed here.",
-    "submit": "Sign up",
-    "submitting": "Sending…"
+    "title": "회원가입",
+    "titleEmailLocked": "이메일",
+    "intro": "시작하려면 계정을 만드세요.",
+    "introEmailLocked": "계정 생성을 완료할 수 있도록 이 주소로 인증 코드를 보내드립니다.",
+    "emailLabel": "이메일 주소",
+    "emailLockedHint": "이 주소는 pregoi.com에서 인증되었으며 여기서는 변경할 수 없습니다.",
+    "submit": "인증 코드 보내기",
+    "submitting": "보내는 중…"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /signup",
     "githubPath": "account/auth.signup.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

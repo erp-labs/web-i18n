@@ -1,0 +1,28 @@
+{
+  "pageId": "email.employee_portal_invite",
+  "surface": "email",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:7fc814ca6e0a439363fdf37a3933f2c81dd3bd0aa381126173430c534511234e",
+  "keys": {
+    "subject": "Dynamic subject (employee-portal-invite)",
+    "headerTitle": "Welcome to {company}",
+    "introTemplate": "Hello {displayName}, you have been invited to join {company} on {serviceName}. Use the links below to activate your account.",
+    "workAppLabel": "Work App",
+    "workDeskLabel": "Work Desk",
+    "activationLabel": "Activation link",
+    "onboardingLabel": "Onboarding link",
+    "credentialsTitle": "Sign-in credentials",
+    "emailLabel": "Email",
+    "passwordLabel": "Temporary password",
+    "textHeader": "Employee portal invite",
+    "_sourceNote": "Extracted from employee-portal-invite.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
+  },
+  "meta": {
+    "productRepo": "infra-email",
+    "sourcePath": "packages/email-templates/src/employee-portal-invite.ts",
+    "githubPath": "email/employee-portal-invite.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

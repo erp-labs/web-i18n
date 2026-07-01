@@ -38,19 +38,21 @@
     "daySaturday": "Thứ Bảy",
     "daysSelected": "Đã chọn {n} ngày",
     "cookieSettings": "Cài đặt cookie",
-    "saving": "Saving…",
+    "saving": "Đang lưu…",
     "loadError": "Hiện không thể tải dữ liệu. Vui lòng thử lại.",
     "loadConnectionHint": "Không thể tải mục. Có thể do kết nối hoặc cấu hình.",
     "retryLoad": "Tải lại",
     "retry": "Thử lại",
-    "submitFailedTitle": "Submission failed",
-    "erpExpenseClaimTypeAccount": "Expense categories are not fully set up. Please contact your administrator.",
-    "erpLeaveTypeNotFound": "Leave types are not set up yet. Please contact your administrator."
+    "submitFailedTitle": "Gửi không thành công",
+    "erpExpenseClaimTypeAccount": "Danh mục chi phí chưa được thiết lập đầy đủ. Vui lòng liên hệ quản trị viên của bạn.",
+    "erpLeaveTypeNotFound": "Loại nghỉ phép chưa được thiết lập. Vui lòng liên hệ quản trị viên của bạn."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#common",
     "githubPath": "app/common.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/vi.json#common"
+    "importedFrom": "apps/employee-web/dictionaries/vi.json#common",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

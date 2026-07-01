@@ -3,20 +3,20 @@
   "surface": "account",
   "route": "/billing/upgrade",
   "version": 3,
-  "sourceHash": "sha256:7428f7bac7c24316234874d4f490cd00ef9f55561ac56104b1810dd3ba424d78",
+  "sourceHash": "sha256:c27edb78c826b70992a1032767dbb760d57974afb0b172c0b25fca23c88dd49a",
   "keys": {
     "title": "පැකේජය උත්ශ්‍රේණි කරන්න",
-    "subtitle": "ඔබගේ workspace සඳහා ඉහළ plan එකක් තෝරන්න.",
-    "bodyNote": "ඉහළ plan එකකට ගිය විට ඔබගේ dedicated server සහ දත්ත එලෙසම පවතී.",
+    "subtitle": "ඔබේ වැඩබිම සඳහා ඉහළ සැලැස්මක් තෝරන්න.",
+    "bodyNote": "ඔබ ඉහළ සැලසුමකට යන විට ඔබේ කැප වූ සේවාදායකය සහ දත්ත එහි පවතී.",
     "submit": "උත්ශ්‍රේණි කරන්න",
-    "backToBilling": "← billing වෙත ආපසු"
+    "backToBilling": "← නැවත බිල්පත් වෙත"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /billing/upgrade",
     "githubPath": "account/billing.upgrade.page.json",
-    "translationStatus": "review",
-    "method": "cursor-ai-2",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai",
     "reviewedAt": "2026-06-30"
   }
 }

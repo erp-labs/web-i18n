@@ -19,13 +19,15 @@
     "alreadyHaveAccount": "Đã có tài khoản?",
     "logIn": "Đăng nhập",
     "errorPasswordsDoNotMatch": "Mật khẩu không khớp",
-    "errorGeneric": "Something went wrong. Please try again.",
-    "signingUp": "Creating account…"
+    "errorGeneric": "Đã xảy ra lỗi. Vui lòng thử lại.",
+    "signingUp": "Đang tạo tài khoản…"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#signup",
     "githubPath": "app/signup.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/vi.json#signup"
+    "importedFrom": "apps/employee-web/dictionaries/vi.json#signup",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

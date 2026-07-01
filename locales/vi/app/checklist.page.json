@@ -40,16 +40,18 @@
     "daysLeft": "ngày còn lại",
     "toDo": "cần làm",
     "done": "xong",
-    "overviewProgress": "Progress",
+    "overviewProgress": "Tiến độ",
     "countSuffix": "",
     "noTasksYet": "Chưa có công việc",
     "startByAddingTask": "Bắt đầu bằng cách thêm công việc đầu tiên",
-    "loadingMore": "Loading more"
+    "loadingMore": "Đang tải thêm"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#checklist",
     "githubPath": "app/checklist.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/vi.json#checklist"
+    "importedFrom": "apps/employee-web/dictionaries/vi.json#checklist",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

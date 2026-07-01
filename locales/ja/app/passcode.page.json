@@ -38,6 +38,8 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#passcode",
     "githubPath": "app/passcode.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ja.json#passcode"
+    "importedFrom": "apps/employee-web/dictionaries/ja.json#passcode",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

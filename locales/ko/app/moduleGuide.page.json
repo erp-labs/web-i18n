@@ -58,11 +58,11 @@
       "startCta": "인보이스 작성"
     },
     "customers": {
-      "whatTitle": "Your customer list",
-      "whatBody": "Browse ERP customers synced from your company workspace.",
-      "howTitle": "Need pipeline or deals?",
-      "howStep1": "Use Open in CRM for Frappe CRM on your tenant host.",
-      "howStep2": "Use Work Desk for full ERP customer records and accounting links."
+      "whatTitle": "고객 목록",
+      "whatBody": "회사 워크스페이스에서 동기화된 ERP 고객을 둘러보세요.",
+      "howTitle": "파이프라인이나 딜이 필요하신가요?",
+      "howStep1": "테넌트 호스트의 Frappe CRM은 CRM에서 열기를 사용하세요.",
+      "howStep2": "전체 ERP 고객 기록과 회계 연결은 Work Desk를 사용하세요."
     },
     "leaves": {
       "whatTitle": "휴가를 신청하세요",
@@ -87,6 +87,8 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#moduleGuide",
     "githubPath": "app/moduleGuide.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ko.json#moduleGuide"
+    "importedFrom": "apps/employee-web/dictionaries/ko.json#moduleGuide",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

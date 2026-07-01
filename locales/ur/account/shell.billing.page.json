@@ -5,16 +5,16 @@
   "version": 3,
   "sourceHash": "sha256:7435cf8f871ac4b90d28ed927000595a96e04e8926e3f025dc48a3fe3a8e1e3a",
   "keys": {
-    "title": "Billing",
-    "subtitle": "اپنی subscription، ادائیگی کا طریقہ، اور تاریخ منظم کریں",
-    "subtitleWithEmail": "{email} کے لیے subscription، ادائیگی کا طریقہ، اور تاریخ منظم کریں۔"
+    "title": "بلنگ",
+    "subtitle": "اپنی سبسکرپشن، ادائیگی کا طریقہ اور تاریخ کا نظم کریں۔",
+    "subtitleWithEmail": "{email} کے لیے اپنی سبسکرپشن، ادائیگی کا طریقہ اور تاریخ کا نظم کریں۔"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /billing",
     "githubPath": "account/shell.billing.page.json",
-    "translationStatus": "review",
-    "method": "cursor-ai-2",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai",
     "reviewedAt": "2026-06-30"
   }
 }

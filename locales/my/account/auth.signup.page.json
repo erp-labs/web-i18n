@@ -1,0 +1,24 @@
+{
+  "pageId": "account.auth.signup",
+  "surface": "account",
+  "route": "/signup",
+  "version": 1,
+  "sourceHash": "sha256:319a31913f5531ac441ab9b4d1fb66c7317c85420afdbc8c74e12298a12b901f",
+  "keys": {
+    "title": "Sign up",
+    "titleEmailLocked": "Email",
+    "intro": "Create your account to get started.",
+    "introEmailLocked": "We'll send a verification code to this address so you can finish creating your account.",
+    "emailLabel": "Email address",
+    "emailLockedHint": "This address was verified on pregoi.com and cannot be changed here.",
+    "submit": "Send verification code",
+    "submitting": "Sending…"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /signup",
+    "githubPath": "account/auth.signup.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

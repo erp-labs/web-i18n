@@ -3,26 +3,26 @@
   "surface": "account",
   "route": "/onboarding/platform",
   "version": 1,
-  "sourceHash": "sha256:27b0c003e837d202c7b9af46206a6ed105c05bd805900a2dad1097483d646a90",
+  "sourceHash": "sha256:a1fd967f3ed9374a8eee27f783d845a3c6c351a6ee9793638fcb33ebebbdf187",
   "keys": {
-    "title": "Platform",
-    "intro": "Choose your ERP stack and cloud provider for this workspace.",
-    "submit": "Continue",
-    "submitting": "Continuing…",
-    "recommendedSetupLabel": "Recommended setup:",
-    "recommendedSetupIntro": "For the fastest, most reliable launch today, we recommend",
-    "recommendedSetupOutro": "Additional ERP and cloud options will be available soon.",
-    "optionNotAvailableNotice": "This option is not available yet. Please select the Recommended option, or contact support for early access.",
-    "badgeRecommended": "Recommended",
-    "badgeComingSoon": "Coming soon",
-    "erpSectionHeading": "Select ERP solution:",
-    "cloudSectionHeading": "Select cloud provider:"
+    "title": "플랫폼",
+    "intro": "이 워크스페이스의 ERP 스택과 클라우드 제공업체를 선택하세요.",
+    "submit": "계속",
+    "submitting": "진행 중…",
+    "recommendedSetupLabel": "권장 설정:",
+    "recommendedSetupIntro": "오늘 가장 빠르고 안정적인 시작을 위해 다음을 권장합니다",
+    "recommendedSetupOutro": "추가 ERP 및 클라우드 옵션은 곧 제공될 예정입니다.",
+    "optionNotAvailableNotice": "이 옵션은 아직 사용할 수 없습니다. 권장 옵션을 선택하거나 조기 액세스를 위해 지원팀에 문의하세요.",
+    "badgeRecommended": "권장",
+    "badgeComingSoon": "곧 제공",
+    "erpSectionHeading": "ERP 솔루션 선택:",
+    "cloudSectionHeading": "클라우드 제공업체 선택:"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /onboarding/platform",
     "githubPath": "account/onboarding.platform.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

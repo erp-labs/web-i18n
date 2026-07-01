@@ -2,28 +2,27 @@
   "pageId": "account.onboarding.platform",
   "surface": "account",
   "route": "/onboarding/platform",
-  "version": 3,
-  "sourceHash": "sha256:27b0c003e837d202c7b9af46206a6ed105c05bd805900a2dad1097483d646a90",
+  "version": 1,
+  "sourceHash": "sha256:a1fd967f3ed9374a8eee27f783d845a3c6c351a6ee9793638fcb33ebebbdf187",
   "keys": {
-    "title": "แพลตฟอร์ม",
-    "intro": "เลือก ERP stack และผู้ให้บริการคลาวด์สำหรับ workspace นี้",
-    "submit": "ดำเนินการต่อ",
-    "submitting": "Continuing…",
-    "recommendedSetupLabel": "Recommended setup:",
-    "recommendedSetupIntro": "For the fastest, most reliable launch today, we recommend",
-    "recommendedSetupOutro": "Additional ERP and cloud options will be available soon.",
-    "optionNotAvailableNotice": "This option is not available yet. Please select the Recommended option, or contact support for early access.",
+    "title": "Platform",
+    "intro": "เลือกผู้ให้บริการสแต็กและคลาวด์ของคุณสำหรับพื้นที่ทำงานนี้",
+    "submit": "Continue",
+    "submitting": "ดำเนินการต่อ...",
+    "recommendedSetupLabel": "การตั้งค่าที่แนะนำ:",
+    "recommendedSetupIntro": "เราขอแนะนำเพื่อการเปิดตัวที่รวดเร็วและน่าเชื่อถือที่สุดในวันนี้",
+    "recommendedSetupOutro": "ตัวเลือกเพิ่มเติม ERP และคลาวด์จะพร้อมใช้งานเร็วๆ นี้",
+    "optionNotAvailableNotice": "ตัวเลือกนี้ยังไม่มีให้บริการ โปรดเลือกตัวเลือกที่แนะนำ หรือติดต่อฝ่ายสนับสนุนเพื่อการเข้าถึงก่อนใคร",
     "badgeRecommended": "Recommended",
-    "badgeComingSoon": "Coming soon",
-    "erpSectionHeading": "Select ERP solution:",
-    "cloudSectionHeading": "Select cloud provider:"
+    "badgeComingSoon": "เร็วๆ นี้",
+    "erpSectionHeading": "เลือกโซลูชัน ERP:",
+    "cloudSectionHeading": "เลือกผู้ให้บริการคลาวด์:"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /onboarding/platform",
     "githubPath": "account/onboarding.platform.page.json",
-    "translationStatus": "review",
-    "method": "cursor-ai-2",
-    "reviewedAt": "2026-06-30"
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
   }
 }

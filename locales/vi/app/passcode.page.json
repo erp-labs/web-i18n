@@ -7,9 +7,9 @@
   "keys": {
     "title": "Mã PIN",
     "enterPin": "Vui lòng nhập mã 6 chữ số",
-    "enterCurrentPin": "Enter current passcode",
-    "changeNewPrompt": "Enter new passcode",
-    "changeConfirmPrompt": "Enter new passcode again to confirm",
+    "enterCurrentPin": "Nhập mã passcode hiện tại",
+    "changeNewPrompt": "Nhập mã passcode mới",
+    "changeConfirmPrompt": "Nhập lại mã passcode mới để xác nhận",
     "rememberDevice": "Ghi nhớ thiết bị này (chỉ chọn trên PC cá nhân)",
     "rememberDeviceShort": "Ghi nhớ thiết bị này",
     "reset": "Đặt lại",
@@ -38,6 +38,8 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#passcode",
     "githubPath": "app/passcode.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/vi.json#passcode"
+    "importedFrom": "apps/employee-web/dictionaries/vi.json#passcode",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

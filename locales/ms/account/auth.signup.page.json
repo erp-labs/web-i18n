@@ -2,15 +2,15 @@
   "pageId": "account.auth.signup",
   "surface": "account",
   "route": "/signup",
-  "version": 3,
-  "sourceHash": "sha256:b157861ca3ef1a6277cabe3ce03f14b8448cadc23cd00733a8103a651dbfc23c",
+  "version": 1,
+  "sourceHash": "sha256:319a31913f5531ac441ab9b4d1fb66c7317c85420afdbc8c74e12298a12b901f",
   "keys": {
-    "title": "Daftar",
-    "titleEmailLocked": "E-mel",
-    "intro": "Cipta akaun anda untuk bermula.",
-    "introEmailLocked": "Kami akan hantar kod pengesahan ke alamat ini supaya anda boleh menyelesaikan pendaftaran akaun.",
-    "emailLabel": "Alamat e-mel",
-    "emailLockedHint": "Alamat ini telah disahkan di pregoi.com dan tidak boleh diubah di sini.",
+    "title": "daftar",
+    "titleEmailLocked": "Email",
+    "intro": "Buat akaun anda untuk bermula.",
+    "introEmailLocked": "We'll send a verification code to this address so you can finish creating your account.",
+    "emailLabel": "Email alamat",
+    "emailLockedHint": "This address was verified on pregoi.com and cannot be changed here.",
     "submit": "Hantar kod pengesahan",
     "submitting": "Menghantar…"
   },
@@ -18,8 +18,7 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /signup",
     "githubPath": "account/auth.signup.page.json",
-    "translationStatus": "review",
-    "method": "cursor-ai-2",
-    "reviewedAt": "2026-06-30"
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
   }
 }

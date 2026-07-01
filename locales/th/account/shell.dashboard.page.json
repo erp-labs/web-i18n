@@ -2,19 +2,18 @@
   "pageId": "account.shell.dashboard",
   "surface": "account",
   "route": "/dashboard",
-  "version": 3,
+  "version": 1,
   "sourceHash": "sha256:e6f240877e65ee243353d0fb18280c2145b45bf9a9193ad0ae86381b5259e86f",
   "keys": {
-    "title": "แดชบอร์ด",
+    "title": "Dashboard",
     "subtitle": "ภาพรวมบัญชีและบริการของคุณ",
-    "subtitleSignedIn": "ยินดีต้อนรับ {name} — จัดการการสมัครสมาชิก พอร์ทัล และการใช้งานของคุณ"
+    "subtitleSignedIn": "Welcome, {name} — manage your subscription, portals, and usage."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /dashboard",
     "githubPath": "account/shell.dashboard.page.json",
-    "translationStatus": "review",
-    "method": "cursor-ai-2",
-    "reviewedAt": "2026-06-30"
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
   }
 }

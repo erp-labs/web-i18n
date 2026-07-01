@@ -30,6 +30,8 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#calendar",
     "githubPath": "app/calendar.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ja.json#calendar"
+    "importedFrom": "apps/employee-web/dictionaries/ja.json#calendar",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

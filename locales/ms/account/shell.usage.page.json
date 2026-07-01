@@ -2,18 +2,17 @@
   "pageId": "account.shell.usage",
   "surface": "account",
   "route": "/usage",
-  "version": 3,
+  "version": 1,
   "sourceHash": "sha256:85679828a819e862b67be9fcc40c7433ed66802a37ad08ff3e48000292331aeb",
   "keys": {
     "title": "Penggunaan Perkhidmatan",
-    "subtitle": "Jejaki kuota untuk storan, e-mel, token AI, dan tempat duduk portal pekerja pada pelan anda."
+    "subtitle": "Track quotas for storage, email, AI tokens, and employee portal seats on your plan."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /usage",
     "githubPath": "account/shell.usage.page.json",
-    "translationStatus": "review",
-    "method": "cursor-ai-2",
-    "reviewedAt": "2026-06-30"
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
   }
 }

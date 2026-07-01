@@ -5,17 +5,17 @@
   "version": 1,
   "sourceHash": "sha256:1cb63be9bc2381be9a48de30b061426e716ee01ed85b7b5b25a24f3fe1e73dbc",
   "keys": {
-    "titlePayment": "Payment successful",
-    "titleInline": "Package updated",
-    "body": "Subscription details may take a minute to sync from Stripe.",
-    "bodyWithPlan": "Your workspace is moving to {plan}. Subscription details may take a minute to sync from Stripe.",
-    "cta": "View billing"
+    "titlePayment": "결제 완료",
+    "titleInline": "패키지 업데이트됨",
+    "body": "Stripe에서 구독 정보가 반영되기까지 1분 정도 걸릴 수 있습니다.",
+    "bodyWithPlan": "워크스페이스가 {plan}(으)로 변경 중입니다. Stripe에서 구독 정보가 반영되기까지 1분 정도 걸릴 수 있습니다.",
+    "cta": "청구 보기"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /billing/upgrade/success",
     "githubPath": "account/billing.upgrade_success.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

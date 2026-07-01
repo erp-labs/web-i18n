@@ -1,0 +1,6854 @@
+{
+  "account.auth.signin": {
+    "title": {
+      "en": "Sign in",
+      "vi": "Đăng nhập"
+    },
+    "titleLogin": {
+      "en": "Log in",
+      "vi": "Đăng nhập"
+    },
+    "titleGetStarted": {
+      "en": "Get started",
+      "vi": "Bắt đầu"
+    },
+    "titlePortalPasswordSetup": {
+      "en": "Set up service administrator password",
+      "vi": "Thiết lập mật khẩu quản trị dịch vụ"
+    },
+    "descriptionDefault": {
+      "en": "Sign in with the email registered for your workspace.",
+      "vi": "Đăng nhập bằng email đã đăng ký cho workspace của Quý vị."
+    },
+    "descriptionEmailLocked": {
+      "en": "We'll send a verification code to this address to sign in.",
+      "vi": "Chúng tôi sẽ gửi mã xác minh đến địa chỉ này để Quý vị đăng nhập."
+    },
+    "descriptionPackageFunnel": {
+      "en": "Sign in or create an account to continue to payment.",
+      "vi": "Đăng nhập hoặc tạo tài khoản để tiếp tục thanh toán."
+    },
+    "descriptionPortalPassword": {
+      "en": "Enter your email. We will send a verification code, then you can create your service administrator password.",
+      "vi": "Nhập email của Quý vị. Chúng tôi sẽ gửi mã xác minh, sau đó Quý vị có thể tạo mật khẩu quản trị dịch vụ."
+    },
+    "descriptionLoginGate": {
+      "en": "Sign in with your email and password. We will email a verification code next.",
+      "vi": "Đăng nhập bằng email và mật khẩu. Bước tiếp theo, chúng tôi sẽ gửi mã xác minh qua email."
+    },
+    "submit": {
+      "en": "Continue",
+      "vi": "Tiếp tục"
+    },
+    "submitLogin": {
+      "en": "Log in",
+      "vi": "Đăng nhập"
+    },
+    "submitSendCode": {
+      "en": "Send verification code",
+      "vi": "Gửi mã xác minh"
+    },
+    "submitting": {
+      "en": "Sending…",
+      "vi": "Đang gửi…"
+    },
+    "submittingLogin": {
+      "en": "Logging in…",
+      "vi": "Đang đăng nhập…"
+    },
+    "submittingVerify": {
+      "en": "Verifying…",
+      "vi": "Đang xác minh…"
+    },
+    "emailLabel": {
+      "en": "Email address",
+      "vi": "Địa chỉ email"
+    },
+    "passwordLabel": {
+      "en": "Password",
+      "vi": "Mật khẩu"
+    }
+  },
+  "account.auth.signup": {
+    "title": {
+      "en": "Sign up",
+      "vi": "Đăng ký"
+    },
+    "titleEmailLocked": {
+      "en": "Email",
+      "vi": "Email"
+    },
+    "intro": {
+      "en": "Create your account to get started.",
+      "vi": "Tạo tài khoản để bắt đầu."
+    },
+    "introEmailLocked": {
+      "en": "We'll send a verification code to this address so you can finish creating your account.",
+      "vi": "Chúng tôi sẽ gửi mã xác minh đến địa chỉ này để Quý vị hoàn tất tạo tài khoản."
+    },
+    "emailLabel": {
+      "en": "Email address",
+      "vi": "Địa chỉ email"
+    },
+    "emailLockedHint": {
+      "en": "This address was verified on pregoi.com and cannot be changed here.",
+      "vi": "Địa chỉ này đã được xác minh trên pregoi.com và không thể thay đổi tại đây."
+    },
+    "submit": {
+      "en": "Send verification code",
+      "vi": "Gửi mã xác minh"
+    },
+    "submitting": {
+      "en": "Sending…",
+      "vi": "Đang gửi…"
+    }
+  },
+  "account.auth.verify": {
+    "title": {
+      "en": "Verify your identity",
+      "vi": "Xác minh danh tính"
+    },
+    "intro": {
+      "en": "Please enter the one-time code sent to your email to continue.",
+      "vi": "Vui lòng nhập mã một lần đã gửi đến email để tiếp tục."
+    },
+    "emailPrefix": {
+      "en": "Email:",
+      "vi": "Email:"
+    },
+    "sendUncertainBanner": {
+      "en": "We could not confirm delivery, but a verification email may already be in your inbox. Enter the latest code below.",
+      "vi": "Chúng tôi không thể xác nhận đã gửi, nhưng email xác minh có thể đã có trong hộp thư. Nhập mã mới nhất bên dưới."
+    },
+    "verify": {
+      "en": "Verify",
+      "vi": "Xác minh"
+    },
+    "verifying": {
+      "en": "Verifying…",
+      "vi": "Đang xác minh…"
+    },
+    "loading": {
+      "en": "Loading…",
+      "vi": "Đang tải…"
+    }
+  },
+  "account.billing.upgrade": {
+    "title": {
+      "en": "Upgrade package",
+      "vi": "Nâng cấp gói"
+    },
+    "subtitle": {
+      "en": "Choose a higher plan for your workspace.",
+      "vi": "Chọn gói cao hơn cho workspace của Quý vị."
+    },
+    "bodyNote": {
+      "en": "Your dedicated server and data stay in place when you move to a higher plan.",
+      "vi": "Máy chủ riêng và dữ liệu của Quý vị vẫn giữ nguyên khi nâng cấp."
+    },
+    "submit": {
+      "en": "Upgrade",
+      "vi": "Nâng cấp"
+    },
+    "backToBilling": {
+      "en": "← Back to billing",
+      "vi": "← Quay lại thanh toán"
+    }
+  },
+  "account.billing.upgrade_success": {
+    "titlePayment": {
+      "en": "Payment successful",
+      "vi": "Thanh toán thành công"
+    },
+    "titleInline": {
+      "en": "Package updated",
+      "vi": "Đã cập nhật gói"
+    },
+    "body": {
+      "en": "Subscription details may take a minute to sync from Stripe.",
+      "vi": "Chi tiết đăng ký có thể mất một phút để đồng bộ từ Stripe."
+    },
+    "bodyWithPlan": {
+      "en": "Your workspace is moving to {plan}. Subscription details may take a minute to sync from Stripe.",
+      "vi": "Workspace của Quý vị đang chuyển sang {plan}. Chi tiết đăng ký có thể mất một phút để đồng bộ từ Stripe."
+    },
+    "cta": {
+      "en": "View billing",
+      "vi": "Xem thanh toán"
+    }
+  },
+  "account.integrations.xero_migration": {
+    "title": {
+      "en": "Xero migration job",
+      "vi": "Tác vụ di chuyển Xero"
+    },
+    "subtitleLoading": {
+      "en": "Loading job status…",
+      "vi": "Đang tải trạng thái tác vụ…"
+    },
+    "jobIdPrefix": {
+      "en": "Job",
+      "vi": "Tác vụ"
+    },
+    "statusLabel": {
+      "en": "Status",
+      "vi": "Trạng thái"
+    },
+    "modeLabel": {
+      "en": "Mode",
+      "vi": "Chế độ"
+    },
+    "targetErpLabel": {
+      "en": "Target ERP",
+      "vi": "ERP đích"
+    },
+    "entitiesExtractedTitle": {
+      "en": "Entities extracted",
+      "vi": "Đối tượng đã trích xuất"
+    },
+    "validationLabel": {
+      "en": "Validation — L1 errors: {l1}, L2 warnings: {l2}",
+      "vi": "Kiểm tra hợp lệ — Lỗi L1: {l1}, Cảnh báo L2: {l2}"
+    },
+    "attachmentLoadLabel": {
+      "en": "Attachment upload — uploaded: {uploaded}, skipped: {skipped}, errors: {errors}",
+      "vi": "Tải lên tệp đính kèm — đã tải lên: {uploaded}, đã bỏ qua: {skipped}, lỗi: {errors}"
+    },
+    "reconcilePassed": {
+      "en": "L3 trial balance reconcile: passed",
+      "vi": "Đối chiếu bảng cân đối thử L3: đạt"
+    },
+    "reconcileNeedsReview": {
+      "en": "L3 trial balance reconcile: needs review",
+      "vi": "Đối chiếu bảng cân đối thử L3: cần xem lại"
+    },
+    "reconcileAccountsSuffix": {
+      "en": "{count} accounts",
+      "vi": "{count} tài khoản"
+    },
+    "reconcileOutOfTolerance": {
+      "en": "{count} out of tolerance",
+      "vi": "{count} vượt ngưỡng cho phép"
+    },
+    "columnAccount": {
+      "en": "Account",
+      "vi": "Tài khoản"
+    },
+    "columnXero": {
+      "en": "Xero",
+      "vi": "Xero"
+    },
+    "columnErp": {
+      "en": "ERP",
+      "vi": "ERP"
+    },
+    "columnDelta": {
+      "en": "Delta",
+      "vi": "Chênh lệch"
+    },
+    "columnReasons": {
+      "en": "Reasons",
+      "vi": "Lý do"
+    },
+    "agingReconcileTitle": {
+      "en": "AR/AP aging reconcile",
+      "vi": "Đối chiếu tuổi nợ AR/AP"
+    },
+    "agingPassed": {
+      "en": "passed",
+      "vi": "đạt"
+    },
+    "agingNeedsReview": {
+      "en": "needs review",
+      "vi": "cần xem lại"
+    },
+    "agingSkipped": {
+      "en": "Skipped ({reason})",
+      "vi": "Đã bỏ qua ({reason})"
+    },
+    "agingCompare": {
+      "en": "Xero {source} vs ERP {target} (delta {delta})",
+      "vi": "Xero {source} so với ERP {target} (chênh lệch {delta})"
+    },
+    "rawSummaryLabel": {
+      "en": "Raw summary JSON",
+      "vi": "JSON tóm tắt thô"
+    },
+    "jobNotAvailable": {
+      "en": "Job not available.",
+      "vi": "Tác vụ không khả dụng."
+    },
+    "loadFailed": {
+      "en": "Load failed",
+      "vi": "Tải thất bại"
+    }
+  },
+  "account.onboarding.company": {
+    "title": {
+      "en": "Company",
+      "vi": "Công ty"
+    },
+    "submit": {
+      "en": "Continue",
+      "vi": "Tiếp tục"
+    },
+    "submitNext": {
+      "en": "Next",
+      "vi": "Tiếp theo"
+    },
+    "submitting": {
+      "en": "Loading…",
+      "vi": "Đang tải…"
+    },
+    "companyNameLabel": {
+      "en": "Company name (full legal name)",
+      "vi": "Tên công ty (tên pháp lý đầy đủ)"
+    },
+    "companyNamePlaceholder": {
+      "en": "company pte ltd",
+      "vi": "company pte ltd"
+    },
+    "subdomainLabel": {
+      "en": "Subdomain",
+      "vi": "Tên miền phụ"
+    },
+    "subdomainRules": {
+      "en": "Lowercase letters (a-z), numbers (0-9), and hyphens (-), Max 10 Character are allowed",
+      "vi": "Chỉ cho phép chữ thường (a-z), số (0-9) và dấu gạch ngang (-), tối đa 10 ký tự"
+    },
+    "subdomainAvailable": {
+      "en": "This subdomain name is available.",
+      "vi": "Tên miền phụ này có sẵn."
+    },
+    "subdomainUnavailable": {
+      "en": "This subdomain name is unavailable.",
+      "vi": "Tên miền phụ này không khả dụng."
+    },
+    "subdomainChecking": {
+      "en": "Checking…",
+      "vi": "Đang kiểm tra…"
+    },
+    "employeePortalSectionTitle": {
+      "en": "Employee portal",
+      "vi": "Cổng nhân viên"
+    },
+    "includeAdminLabel": {
+      "en": "Also give me access to the employee portal using my admin email",
+      "vi": "Cũng cho tôi truy cập cổng nhân viên bằng email quản trị"
+    },
+    "adminEmailNotLoaded": {
+      "en": "We couldn't load your admin email yet. Refresh the page, or sign out and sign in again.",
+      "vi": "Chúng tôi chưa tải được email quản trị. Vui lòng làm mới trang hoặc đăng xuất và đăng nhập lại."
+    },
+    "emailPlaceholder": {
+      "en": "teammate@company.com",
+      "vi": "teammate@company.com"
+    },
+    "firstNamePlaceholder": {
+      "en": "First name",
+      "vi": "Tên"
+    },
+    "lastNamePlaceholder": {
+      "en": "Last name",
+      "vi": "Họ"
+    },
+    "addPeople": {
+      "en": "Add people",
+      "vi": "Thêm người"
+    },
+    "removeInviteRowAria": {
+      "en": "Remove this invite row",
+      "vi": "Xóa dòng mời này"
+    },
+    "removeAdminRowAria": {
+      "en": "Uncheck the option above to remove your admin row",
+      "vi": "Bỏ chọn tùy chọn phía trên để xóa dòng quản trị"
+    },
+    "fieldLabelCompany": {
+      "en": "Company name",
+      "vi": "Tên công ty"
+    },
+    "fieldLabelSubdomain": {
+      "en": "Subdomain",
+      "vi": "Tên miền phụ"
+    },
+    "fieldLabelEmployeePortal": {
+      "en": "Employee portal",
+      "vi": "Cổng nhân viên"
+    },
+    "inviteEmailFieldLabel": {
+      "en": "Invite {index} — Email",
+      "vi": "Mời {index} — Email"
+    },
+    "inviteFirstNameFieldLabel": {
+      "en": "Invite {index} — First name",
+      "vi": "Mời {index} — Tên"
+    },
+    "inviteLastNameFieldLabel": {
+      "en": "Invite {index} — Last name",
+      "vi": "Mời {index} — Họ"
+    },
+    "employeePortalIntro": {
+      "en": "Add people who should sign in to your company's employee portal.",
+      "vi": "Thêm người sẽ đăng nhập cổng nhân viên của công ty Quý vị."
+    }
+  },
+  "account.onboarding.dashboard": {
+    "loadingLabel": {
+      "en": "Loading onboarding",
+      "vi": "Đang tải onboarding"
+    },
+    "title": {
+      "en": "Welcome to Prego!",
+      "vi": "Chào mừng đến Prego!"
+    },
+    "intro": {
+      "en": "Complete the following steps to set up your account and launch your server.",
+      "vi": "Hoàn tất các bước sau để thiết lập tài khoản và khởi chạy máy chủ."
+    },
+    "signedInAs": {
+      "en": "Signed in as",
+      "vi": "Đã đăng nhập với"
+    },
+    "companySetupTitle": {
+      "en": "Company Setup",
+      "vi": "Thiết lập công ty"
+    },
+    "companySetupCompleted": {
+      "en": "Completed",
+      "vi": "Đã hoàn tất"
+    },
+    "companySetupPending": {
+      "en": "Set up your company information",
+      "vi": "Thiết lập thông tin công ty"
+    },
+    "launchServerTitle": {
+      "en": "Launch Server",
+      "vi": "Khởi chạy máy chủ"
+    },
+    "launchServerRunning": {
+      "en": "Server is running",
+      "vi": "Máy chủ đang chạy"
+    },
+    "launchServerReady": {
+      "en": "Launch your Prego server",
+      "vi": "Khởi chạy máy chủ Prego"
+    },
+    "launchServerLocked": {
+      "en": "Complete Step 1 first",
+      "vi": "Hoàn tất Bước 1 trước"
+    },
+    "edit": {
+      "en": "Edit",
+      "vi": "Sửa"
+    },
+    "start": {
+      "en": "Start",
+      "vi": "Bắt đầu"
+    },
+    "dashboard": {
+      "en": "Dashboard",
+      "vi": "Bảng điều khiển"
+    },
+    "launch": {
+      "en": "Launch",
+      "vi": "Khởi chạy"
+    },
+    "needHelp": {
+      "en": "Need help?",
+      "vi": "Cần trợ giúp?"
+    },
+    "contactSupport": {
+      "en": "Contact our support team",
+      "vi": "Liên hệ đội hỗ trợ"
+    }
+  },
+  "account.onboarding.launch": {
+    "title": {
+      "en": "Almost there",
+      "vi": "Sắp hoàn tất"
+    },
+    "titleProgress": {
+      "en": "Setup progress",
+      "vi": "Tiến trình thiết lập"
+    },
+    "titleVerifying": {
+      "en": "Verifying server state",
+      "vi": "Đang xác minh trạng thái máy chủ"
+    },
+    "titleSettingUp": {
+      "en": "Setting up your server",
+      "vi": "Đang thiết lập máy chủ của Quý vị"
+    },
+    "titleStopped": {
+      "en": "Setup stopped",
+      "vi": "Thiết lập đã dừng"
+    },
+    "minimalIntro": {
+      "en": "Your workspace is being prepared. You can close this tab — we will email you when everything is ready.",
+      "vi": "Workspace của Quý vị đang được chuẩn bị. Quý vị có thể đóng tab này — chúng tôi sẽ gửi email khi mọi thứ đã sẵn sàng."
+    },
+    "preparingWorkspace": {
+      "en": "Preparing your workspace…",
+      "vi": "Đang chuẩn bị workspace của Quý vị…"
+    },
+    "verifyingServerEllipsis": {
+      "en": "Verifying server state…",
+      "vi": "Đang xác minh trạng thái máy chủ…"
+    },
+    "fetchingStatus": {
+      "en": "Fetching live provisioning status…",
+      "vi": "Đang lấy trạng thái provisioning trực tiếp…"
+    },
+    "reconnecting": {
+      "en": "Trying to reconnect to the control plane…",
+      "vi": "Đang thử kết nối lại với control plane…"
+    },
+    "workspaceReadyTitle": {
+      "en": "Your workspace will be ready shortly.",
+      "vi": "Workspace của Quý vị sẽ sớm sẵn sàng."
+    },
+    "workspaceReadyBody": {
+      "en": "Please feel free to activate your tenant on your subdomain at your earliest convenience. Once the setup is confirmed, we will send all necessary access details—including your workspace links, API gateway, and portal URLs—directly to your registered email address, so please be sure to check your inbox.",
+      "vi": "Quý vị có thể kích hoạt tenant của mình trên tên miền phụ bất cứ khi nào thuận tiện. Sau khi thiết lập được xác nhận, chúng tôi sẽ gửi toàn bộ thông tin truy cập cần thiết — bao gồm liên kết workspace, API gateway và URL cổng thông tin — trực tiếp đến địa chỉ email đã đăng ký của Quý vị, vì vậy vui lòng kiểm tra hộp thư đến."
+    },
+    "waitingSelfTestIntro": {
+      "en": "Your workspace is provisioned; we are running API self-tests and final gateway checks. You can close this tab — we will email you when everything is ready.",
+      "vi": "Workspace của Quý vị đã được provisioning; chúng tôi đang chạy tự kiểm tra API và kiểm tra gateway cuối cùng. Quý vị có thể đóng tab này — chúng tôi sẽ gửi email khi mọi thứ đã sẵn sàng."
+    },
+    "waitingVerifyIntro": {
+      "en": "Provisioning finished; we are verifying DNS, secure tunnel connectivity, gateways, and final handoff. This usually completes within a minute.",
+      "vi": "Provisioning đã hoàn tất; chúng tôi đang xác minh DNS, kết nối tunnel bảo mật, gateway và bàn giao cuối cùng. Việc này thường hoàn tất trong vòng một phút."
+    },
+    "gracePeriodIntro": {
+      "en": "Your server was created. We are verifying installation status — this may take up to a minute.",
+      "vi": "Máy chủ của Quý vị đã được tạo. Chúng tôi đang xác minh trạng thái cài đặt — việc này có thể mất đến một phút."
+    },
+    "awaitingServerIntro": {
+      "en": "Your server is booting and connecting to our platform. This usually takes a few minutes — please keep this tab open.",
+      "vi": "Máy chủ của Quý vị đang khởi động và kết nối với nền tảng của chúng tôi. Việc này thường mất vài phút — vui lòng giữ tab này mở."
+    },
+    "reconnectBannerIntro": {
+      "en": "Connection to the control plane is unstable. This page will keep retrying. If it lasts several minutes, contact",
+      "vi": "Kết nối đến control plane không ổn định. Trang này sẽ tiếp tục thử lại. Nếu tình trạng này kéo dài vài phút, hãy liên hệ"
+    },
+    "reconnectBannerIncludeReference": {
+      "en": "and include this reference:",
+      "vi": "và kèm theo mã tham chiếu này:"
+    },
+    "reconnectBannerReferenceFallback": {
+      "en": "with your support reference (shown when available).",
+      "vi": "kèm theo mã tham chiếu hỗ trợ của Quý vị (hiển thị khi có sẵn)."
+    },
+    "earlyPipelineHintIntro": {
+      "en": "This label is the first install stage until the server pipeline reports step events to the control plane. If it stays here for several minutes, the workflow may be queued or blocked—use your support reference or contact",
+      "vi": "Nhãn này là giai đoạn cài đặt đầu tiên cho đến khi pipeline máy chủ báo cáo các sự kiện bước đến control plane. Nếu nhãn này giữ nguyên trong vài phút, quy trình có thể đang xếp hàng hoặc bị chặn — hãy dùng mã tham chiếu hỗ trợ của Quý vị hoặc liên hệ"
+    },
+    "pipelineNeverTriggered": {
+      "en": "Provisioning was accepted, but the platform did not start the install pipeline. The progress bar may stay near the first step. Contact {supportEmail}{traceSuffix}",
+      "vi": "Yêu cầu provisioning đã được chấp nhận, nhưng nền tảng chưa khởi động pipeline cài đặt. Thanh tiến trình có thể vẫn ở gần bước đầu tiên. Liên hệ {supportEmail}{traceSuffix}"
+    },
+    "labelFailedAt": {
+      "en": "Failed at",
+      "vi": "Thất bại tại"
+    },
+    "labelSupportReference": {
+      "en": "Support reference",
+      "vi": "Mã tham chiếu hỗ trợ"
+    },
+    "openTenant": {
+      "en": "Open tenant",
+      "vi": "Mở tenant"
+    },
+    "readinessTitle": {
+      "en": "Readiness checks",
+      "vi": "Kiểm tra sẵn sàng"
+    },
+    "readinessVerifying": {
+      "en": "Verifying your workspace…",
+      "vi": "Đang xác minh workspace của Quý vị…"
+    },
+    "readiness_dns_a": {
+      "en": "DNS records",
+      "vi": "Bản ghi DNS"
+    },
+    "readiness_frappe_http": {
+      "en": "ERP portal",
+      "vi": "Cổng ERP"
+    },
+    "readiness_admin_api": {
+      "en": "ERP API",
+      "vi": "API ERP"
+    },
+    "readiness_zuplo_route": {
+      "en": "Gateway route",
+      "vi": "Tuyến gateway"
+    },
+    "readiness_zuplo_smoke": {
+      "en": "Gateway API smoke",
+      "vi": "Kiểm tra nhanh API gateway"
+    },
+    "readiness_employee_portal": {
+      "en": "Employee portal",
+      "vi": "Cổng nhân viên"
+    },
+    "readiness_employee_portal_auth": {
+      "en": "Employee portal auth",
+      "vi": "Xác thực cổng nhân viên"
+    },
+    "readiness_api_self_test": {
+      "en": "API self-test",
+      "vi": "Tự kiểm tra API"
+    }
+  },
+  "account.onboarding.payment_success": {
+    "title": {
+      "en": "Payment Successful!",
+      "vi": "Thanh toán thành công!"
+    },
+    "loadingReceipt": {
+      "en": "Loading receipt…",
+      "vi": "Đang tải biên nhận…"
+    },
+    "linkingWorkspace": {
+      "en": "Linking your paid workspace to this browser session…",
+      "vi": "Đang liên kết workspace đã thanh toán với phiên trình duyệt này…"
+    },
+    "workspaceBlocked": {
+      "en": "We could not register your workspace from this payment session. Refresh this page while signed in, or contact support with your transaction id.",
+      "vi": "Chúng tôi không thể đăng ký workspace của Quý vị từ phiên thanh toán này. Vui lòng làm mới trang này trong khi đã đăng nhập, hoặc liên hệ hỗ trợ kèm theo mã giao dịch của Quý vị."
+    },
+    "amountLabel": {
+      "en": "Amount",
+      "vi": "Số tiền"
+    },
+    "transactionIdLabel": {
+      "en": "Transaction ID",
+      "vi": "Mã giao dịch"
+    },
+    "paymentMethodLabel": {
+      "en": "Payment method",
+      "vi": "Phương thức thanh toán"
+    },
+    "paymentMethodDefault": {
+      "en": "Card",
+      "vi": "Thẻ"
+    },
+    "dateLabel": {
+      "en": "Date",
+      "vi": "Ngày"
+    },
+    "planLabel": {
+      "en": "Plan",
+      "vi": "Gói"
+    },
+    "confirmationEmail": {
+      "en": "A confirmation and invoice will be sent to {email} from Vouus. You may also receive a receipt from Stripe.",
+      "vi": "Email xác nhận và hóa đơn sẽ được gửi đến {email} từ Vouus. Quý vị cũng có thể nhận được biên nhận từ Stripe."
+    },
+    "emailMissingHint": {
+      "en": "Enter your email on Stripe Checkout to receive Vouus billing email, or use Download receipt when available. Stripe may also send its own receipt.",
+      "vi": "Nhập email của Quý vị trên Stripe Checkout để nhận email thanh toán từ Vouus, hoặc dùng Tải biên nhận khi có sẵn. Stripe cũng có thể gửi biên nhận riêng."
+    },
+    "submitNext": {
+      "en": "Next",
+      "vi": "Tiếp theo"
+    },
+    "submitLoading": {
+      "en": "Loading…",
+      "vi": "Đang tải…"
+    },
+    "submitLinking": {
+      "en": "Linking workspace…",
+      "vi": "Đang liên kết workspace…"
+    },
+    "downloadReceipt": {
+      "en": "Download receipt",
+      "vi": "Tải biên nhận"
+    },
+    "receiptEmailHint": {
+      "en": "Receipt link will appear in your confirmation email if not shown here.",
+      "vi": "Liên kết biên nhận sẽ xuất hiện trong email xác nhận của Quý vị nếu không hiển thị ở đây."
+    },
+    "needHelp": {
+      "en": "Need help? Contact our support team at",
+      "vi": "Cần trợ giúp? Liên hệ đội hỗ trợ của chúng tôi tại"
+    }
+  },
+  "account.onboarding.platform": {
+    "title": {
+      "en": "Platform",
+      "vi": "Nền tảng"
+    },
+    "intro": {
+      "en": "Choose your ERP stack and cloud provider for this workspace.",
+      "vi": "Chọn stack ERP và nhà cung cấp đám mây cho workspace này."
+    },
+    "submit": {
+      "en": "Continue",
+      "vi": "Tiếp tục"
+    },
+    "submitting": {
+      "en": "Continuing…",
+      "vi": "Đang tiếp tục…"
+    },
+    "recommendedSetupLabel": {
+      "en": "Recommended setup:",
+      "vi": "Thiết lập khuyến nghị:"
+    },
+    "recommendedSetupIntro": {
+      "en": "For the fastest, most reliable launch today, we recommend",
+      "vi": "Để khởi chạy nhanh và ổn định nhất hiện nay, chúng tôi khuyến nghị"
+    },
+    "recommendedSetupOutro": {
+      "en": "Additional ERP and cloud options will be available soon.",
+      "vi": "Các tùy chọn ERP và đám mây khác sẽ sớm có."
+    },
+    "optionNotAvailableNotice": {
+      "en": "This option is not available yet. Please select the Recommended option, or contact support for early access.",
+      "vi": "Tùy chọn này chưa khả dụng. Vui lòng chọn Khuyến nghị hoặc liên hệ hỗ trợ để truy cập sớm."
+    },
+    "badgeRecommended": {
+      "en": "Recommended",
+      "vi": "Khuyến nghị"
+    },
+    "badgeComingSoon": {
+      "en": "Coming soon",
+      "vi": "Sắp ra mắt"
+    },
+    "erpSectionHeading": {
+      "en": "Select ERP solution:",
+      "vi": "Chọn giải pháp ERP:"
+    },
+    "cloudSectionHeading": {
+      "en": "Select cloud provider:",
+      "vi": "Chọn nhà cung cấp đám mây:"
+    }
+  },
+  "account.onboarding.provision_email": {
+    "sectionTitle": {
+      "en": "Email delivery",
+      "vi": "Gửi email"
+    },
+    "welcomeLabel": {
+      "en": "Welcome email:",
+      "vi": "Email chào mừng:"
+    },
+    "deskLabel": {
+      "en": "Desk login details:",
+      "vi": "Thông tin đăng nhập Work Desk:"
+    },
+    "employeeInvitesLabel": {
+      "en": "Employee portal invites:",
+      "vi": "Lời mời cổng nhân viên:"
+    },
+    "sent": {
+      "en": "Sent",
+      "vi": "Đã gửi"
+    },
+    "pending": {
+      "en": "Pending",
+      "vi": "Đang chờ"
+    },
+    "deskTierNote": {
+      "en": "(Managed Tier 0: use your admin email for Work Desk — no ERP super-user password in email. Open Work Desk from the dashboard after sign-in.)",
+      "vi": "(Managed Tier 0: sử dụng email quản trị của Quý vị cho Work Desk — không gửi mật khẩu super-user ERP qua email. Mở Work Desk từ bảng điều khiển sau khi đăng nhập.)"
+    },
+    "accountEmailHint": {
+      "en": "Account email (Work App / invites): {email}. If login fails after desk email only, use Resend provisioning emails below to send employee portal invites.",
+      "vi": "Email tài khoản (Work App / lời mời): {email}. Nếu đăng nhập thất bại sau khi chỉ có email Work Desk, hãy dùng Gửi lại email provisioning bên dưới để gửi lời mời cổng nhân viên."
+    },
+    "resendEmails": {
+      "en": "Resend emails",
+      "vi": "Gửi lại email"
+    },
+    "sending": {
+      "en": "Sending…",
+      "vi": "Đang gửi…"
+    },
+    "welcomeSent": {
+      "en": "Welcome email sent",
+      "vi": "Đã gửi email chào mừng"
+    },
+    "welcomeSkipped": {
+      "en": "Welcome email already sent",
+      "vi": "Email chào mừng đã được gửi trước đó"
+    },
+    "deskSent": {
+      "en": "Desk credentials email sent",
+      "vi": "Đã gửi email thông tin đăng nhập Work Desk"
+    },
+    "deskSkipped": {
+      "en": "Desk email already sent",
+      "vi": "Email Work Desk đã được gửi trước đó"
+    },
+    "employeeInvitesSent": {
+      "en": "{count} employee invite email(s) sent",
+      "vi": "Đã gửi {count} email mời nhân viên"
+    },
+    "employeeInvitesSkipped": {
+      "en": "Employee invites already sent",
+      "vi": "Lời mời nhân viên đã được gửi trước đó"
+    },
+    "someEmailsFailed": {
+      "en": "Some emails could not be sent",
+      "vi": "Một số email không thể gửi được"
+    },
+    "noEmailsSent": {
+      "en": "No emails were sent",
+      "vi": "Chưa có email nào được gửi"
+    },
+    "employeeInvitesStatus": {
+      "en": "{sent} sent, {pending} pending",
+      "vi": "{sent} đã gửi, {pending} đang chờ"
+    }
+  },
+  "account.onboarding.review": {
+    "title": {
+      "en": "Review & Confirm",
+      "vi": "Xem lại & xác nhận"
+    },
+    "intro": {
+      "en": "Check your company details before we create your workspace and start provisioning.",
+      "vi": "Kiểm tra thông tin công ty trước khi chúng tôi tạo workspace và bắt đầu provisioning."
+    },
+    "submit": {
+      "en": "Start launch",
+      "vi": "Bắt đầu khởi chạy"
+    },
+    "submitting": {
+      "en": "Starting…",
+      "vi": "Đang bắt đầu…"
+    },
+    "submitUnavailable": {
+      "en": "Start Launch unavailable",
+      "vi": "Không thể bắt đầu khởi chạy"
+    },
+    "backToEdit": {
+      "en": "Back to edit",
+      "vi": "Quay lại chỉnh sửa"
+    },
+    "labelCompanyName": {
+      "en": "Company name",
+      "vi": "Tên công ty"
+    },
+    "labelSubdomain": {
+      "en": "Subdomain",
+      "vi": "Tên miền phụ"
+    },
+    "labelEmployeePortal": {
+      "en": "Employee portal",
+      "vi": "Cổng nhân viên"
+    },
+    "labelErpSolution": {
+      "en": "ERP solution",
+      "vi": "Giải pháp ERP"
+    },
+    "labelCloudProvider": {
+      "en": "Cloud provider",
+      "vi": "Nhà cung cấp đám mây"
+    },
+    "editCompany": {
+      "en": "Edit company",
+      "vi": "Sửa công ty"
+    },
+    "editPlatform": {
+      "en": "Edit platform",
+      "vi": "Sửa nền tảng"
+    }
+  },
+  "account.shell.backup": {
+    "pageTitle": {
+      "en": "Backup",
+      "vi": "Sao lưu"
+    },
+    "pageDescription": {
+      "en": "View automated backup status, retention policy, and recovery points for your organization.",
+      "vi": "Xem trạng thái sao lưu tự động, chính sách lưu trữ và các điểm khôi phục cho tổ chức của Quý vị."
+    },
+    "organizationSelector": {
+      "en": "Organization",
+      "vi": "Tổ chức"
+    },
+    "noOrganizations": {
+      "en": "No organizations linked to your account.",
+      "vi": "Không có tổ chức nào được liên kết với tài khoản của Quý vị."
+    },
+    "loadError": {
+      "en": "Could not load backup status. Please try again.",
+      "vi": "Không thể tải trạng thái sao lưu. Vui lòng thử lại."
+    },
+    "maintenanceError": {
+      "en": "Backup status is temporarily unavailable. Our team has been notified — please try again later or contact Support.",
+      "vi": "Trạng thái sao lưu tạm thời không khả dụng. Đội ngũ của chúng tôi đã được thông báo — vui lòng thử lại sau hoặc liên hệ Hỗ trợ."
+    },
+    "forbiddenError": {
+      "en": "You do not have access to backup status for this organization.",
+      "vi": "Quý vị không có quyền truy cập trạng thái sao lưu của tổ chức này."
+    },
+    "statusHeroTitle": {
+      "en": "Backup status",
+      "vi": "Trạng thái sao lưu"
+    },
+    "rpoLabel": {
+      "en": "Recovery point objective (RPO)",
+      "vi": "Mục tiêu điểm khôi phục (RPO)"
+    },
+    "rtoLabel": {
+      "en": "Recovery time objective (RTO)",
+      "vi": "Mục tiêu thời gian khôi phục (RTO)"
+    },
+    "lastBackupLabel": {
+      "en": "Last logical backup",
+      "vi": "Lần sao lưu logic gần nhất"
+    },
+    "lastSnapshotLabel": {
+      "en": "Last VM snapshot",
+      "vi": "Lần chụp nhanh VM gần nhất"
+    },
+    "planLabel": {
+      "en": "Plan",
+      "vi": "Gói"
+    },
+    "never": {
+      "en": "Not yet available",
+      "vi": "Chưa có"
+    },
+    "pausedUntil": {
+      "en": "Autopilot paused until",
+      "vi": "Autopilot tạm dừng đến"
+    },
+    "rpoStatus_ok": {
+      "en": "On schedule",
+      "vi": "Đúng lịch trình"
+    },
+    "rpoStatus_catch_up": {
+      "en": "Catching up",
+      "vi": "Đang bắt kịp"
+    },
+    "rpoStatus_breach": {
+      "en": "Attention needed",
+      "vi": "Cần chú ý"
+    },
+    "rpoStatusHint_ok": {
+      "en": "Your latest backup meets the RPO target for your plan.",
+      "vi": "Bản sao lưu gần nhất của Quý vị đáp ứng mục tiêu RPO của gói."
+    },
+    "rpoStatusHint_catch_up": {
+      "en": "A backup is overdue but Autopilot is scheduling a catch-up run.",
+      "vi": "Một bản sao lưu đã quá hạn nhưng Autopilot đang lên lịch chạy bắt kịp."
+    },
+    "rpoStatusHint_breach": {
+      "en": "Backups are significantly overdue. Contact Support if this persists.",
+      "vi": "Các bản sao lưu đã quá hạn đáng kể. Liên hệ Hỗ trợ nếu tình trạng này tiếp diễn."
+    },
+    "byoBannerTitle": {
+      "en": "Self-managed hosting",
+      "vi": "Hosting tự quản lý"
+    },
+    "byoBannerBody": {
+      "en": "Your organization uses Enterprise BYO hosting. Database and infrastructure backups are your responsibility. Vouus platform backups do not apply to your ERP VM.",
+      "vi": "Tổ chức của Quý vị sử dụng hosting Enterprise BYO. Việc sao lưu cơ sở dữ liệu và hạ tầng thuộc trách nhiệm của Quý vị. Sao lưu của nền tảng Vouus không áp dụng cho VM ERP của Quý vị."
+    },
+    "byoLearnMore": {
+      "en": "View credential governance",
+      "vi": "Xem quản trị thông tin xác thực"
+    },
+    "policyTitle": {
+      "en": "Your backup policy",
+      "vi": "Chính sách sao lưu của Quý vị"
+    },
+    "policyByoNote": {
+      "en": "Reference policy for Vouus Managed hosting. Your BYO environment is not covered by platform backups.",
+      "vi": "Chính sách tham khảo dành cho hosting Vouus Managed. Môi trường BYO của Quý vị không được bảo vệ bởi sao lưu nền tảng."
+    },
+    "layerALabel": {
+      "en": "Logical backups (Layer A)",
+      "vi": "Sao lưu logic (Lớp A)"
+    },
+    "layerALabelDetail": {
+      "en": "Database and weekly site files — all plans",
+      "vi": "Cơ sở dữ liệu và tệp trang web hàng tuần — tất cả các gói"
+    },
+    "layerBEnabled": {
+      "en": "Included on your plan (monthly, up to 2 retained)",
+      "vi": "Đã bao gồm trong gói của Quý vị (hàng tháng, lưu giữ tối đa 2 bản)"
+    },
+    "layerBDisabled": {
+      "en": "Available on Business and Enterprise plans",
+      "vi": "Khả dụng trên gói Business và Enterprise"
+    },
+    "logicalIntervalTemplate": {
+      "en": "Logical backups scheduled every {hours} hours",
+      "vi": "Sao lưu logic được lên lịch mỗi {hours} giờ"
+    },
+    "retentionDaysTemplate": {
+      "en": "{days} days in secure cloud storage",
+      "vi": "{days} ngày trong lưu trữ đám mây bảo mật"
+    },
+    "siteFilesIntervalTemplate": {
+      "en": "Site files included every {days} days",
+      "vi": "Tệp trang web được bao gồm mỗi {days} ngày"
+    },
+    "breachContactSupport": {
+      "en": "Contact Support now",
+      "vi": "Liên hệ Hỗ trợ ngay"
+    },
+    "catchUpContactSupport": {
+      "en": "Contact Support",
+      "vi": "Liên hệ Hỗ trợ"
+    },
+    "upsellLayerBTitle": {
+      "en": "Need faster recovery and VM snapshots?",
+      "vi": "Cần khôi phục nhanh hơn và chụp nhanh VM?"
+    },
+    "upsellLayerBBody": {
+      "en": "Business and Enterprise plans include Layer B VM snapshots and shorter recovery time objectives (RTO).",
+      "vi": "Gói Business và Enterprise bao gồm chụp nhanh VM Lớp B và mục tiêu thời gian khôi phục (RTO) ngắn hơn."
+    },
+    "upsellLayerBLink": {
+      "en": "View upgrade options",
+      "vi": "Xem tùy chọn nâng cấp"
+    },
+    "jobKindLabels_tenant_logical": {
+      "en": "Logical backup",
+      "vi": "Sao lưu logic"
+    },
+    "jobKindLabels_tenant_snapshot": {
+      "en": "VM snapshot",
+      "vi": "Chụp nhanh VM"
+    },
+    "jobKindLabels_restore_new_vm": {
+      "en": "Restore (new VM)",
+      "vi": "Khôi phục (VM mới)"
+    },
+    "jobKindLabels_restore_in_place": {
+      "en": "Restore (in place)",
+      "vi": "Khôi phục (tại chỗ)"
+    },
+    "recoveryPointsTitle": {
+      "en": "Recovery points",
+      "vi": "Điểm khôi phục"
+    },
+    "recoveryPointsEmpty": {
+      "en": "No verified recovery points yet. Autopilot will create the first backup soon.",
+      "vi": "Chưa có điểm khôi phục nào được xác minh. Autopilot sẽ sớm tạo bản sao lưu đầu tiên."
+    },
+    "recoveryPointsColumns_capturedAt": {
+      "en": "Captured",
+      "vi": "Thời điểm chụp"
+    },
+    "recoveryPointsColumns_layer": {
+      "en": "Layer",
+      "vi": "Lớp"
+    },
+    "recoveryPointsColumns_kind": {
+      "en": "Type",
+      "vi": "Loại"
+    },
+    "recoveryPointsColumns_verified": {
+      "en": "Verified",
+      "vi": "Đã xác minh"
+    },
+    "recoveryPointsColumns_size": {
+      "en": "Approx. size",
+      "vi": "Kích thước ước tính"
+    },
+    "verifiedYes": {
+      "en": "Yes",
+      "vi": "Có"
+    },
+    "verifiedNo": {
+      "en": "Pending",
+      "vi": "Đang chờ"
+    },
+    "recentActivityTitle": {
+      "en": "Recent backup activity",
+      "vi": "Hoạt động sao lưu gần đây"
+    },
+    "recentActivityEmpty": {
+      "en": "No recent backup jobs.",
+      "vi": "Không có tác vụ sao lưu gần đây."
+    },
+    "recentActivityColumns_kind": {
+      "en": "Job",
+      "vi": "Tác vụ"
+    },
+    "recentActivityColumns_status": {
+      "en": "Status",
+      "vi": "Trạng thái"
+    },
+    "recentActivityColumns_finishedAt": {
+      "en": "Finished",
+      "vi": "Hoàn tất"
+    },
+    "howItWorksTitle": {
+      "en": "How backups work",
+      "vi": "Cách thức sao lưu hoạt động"
+    },
+    "howItWorksLayers_0_title": {
+      "en": "Layer A — Logical backup",
+      "vi": "Lớp A — Sao lưu logic"
+    },
+    "howItWorksLayers_0_body": {
+      "en": "Frappe bench backup exports your database (and weekly site files) to encrypted cloud storage. Runs automatically on an Autopilot schedule.",
+      "vi": "Sao lưu Frappe bench xuất cơ sở dữ liệu của Quý vị (và tệp trang web hàng tuần) sang lưu trữ đám mây được mã hóa. Chạy tự động theo lịch Autopilot."
+    },
+    "howItWorksLayers_1_title": {
+      "en": "Layer B — VM snapshot",
+      "vi": "Lớp B — Chụp nhanh VM"
+    },
+    "howItWorksLayers_1_body": {
+      "en": "Business and Enterprise plans also receive full VM snapshots for faster recovery when the server itself fails.",
+      "vi": "Gói Business và Enterprise cũng nhận được bản chụp nhanh VM đầy đủ để khôi phục nhanh hơn khi bản thân máy chủ gặp sự cố."
+    },
+    "howItWorksLayers_2_title": {
+      "en": "Layer C — Golden template",
+      "vi": "Lớp C — Mẫu Golden"
+    },
+    "howItWorksLayers_2_body": {
+      "en": "Platform golden images help rebuild VMs. They do not replace your ERP data — Layer A and B protect your tenant data.",
+      "vi": "Golden image của nền tảng giúp xây dựng lại VM. Chúng không thay thế dữ liệu ERP của Quý vị — Lớp A và B bảo vệ dữ liệu tenant của Quý vị."
+    },
+    "recoveryGuideTitle": {
+      "en": "Recovery guide",
+      "vi": "Hướng dẫn khôi phục"
+    },
+    "recoveryGuideIntro": {
+      "en": "Restore operations are performed by Vouus Support to protect your data. When you need recovery, contact Support with your organization and the recovery point timestamp from the table above.",
+      "vi": "Các thao tác khôi phục được thực hiện bởi Đội Hỗ trợ Vouus để bảo vệ dữ liệu của Quý vị. Khi cần khôi phục, hãy liên hệ Hỗ trợ kèm theo tên tổ chức và thời điểm điểm khôi phục từ bảng trên."
+    },
+    "recoveryScenarios_0_title": {
+      "en": "Data corruption (VM healthy)",
+      "vi": "Hỏng dữ liệu (VM vẫn hoạt động bình thường)"
+    },
+    "recoveryScenarios_0_body": {
+      "en": "Support can restore from a Layer A recovery point to the current or a new VM.",
+      "vi": "Đội Hỗ trợ có thể khôi phục từ điểm khôi phục Lớp A đến VM hiện tại hoặc VM mới."
+    },
+    "recoveryScenarios_1_title": {
+      "en": "Server or disk failure",
+      "vi": "Sự cố máy chủ hoặc ổ đĩa"
+    },
+    "recoveryScenarios_1_body": {
+      "en": "Support uses Restore to New VM — Layer B snapshot when available, otherwise Layer A plus a fresh VM.",
+      "vi": "Đội Hỗ trợ dùng Khôi phục sang VM mới — bản chụp nhanh Lớp B khi có sẵn, nếu không sẽ dùng Lớp A cùng với một VM mới."
+    },
+    "recoveryScenarios_2_title": {
+      "en": "Security incident",
+      "vi": "Sự cố bảo mật"
+    },
+    "recoveryScenarios_2_body": {
+      "en": "Support can restore an older verified recovery point to a clean VM. Report the incident promptly.",
+      "vi": "Đội Hỗ trợ có thể khôi phục một điểm khôi phục cũ hơn đã được xác minh sang một VM sạch. Vui lòng báo cáo sự cố kịp thời."
+    },
+    "securityTitle": {
+      "en": "Security & retention",
+      "vi": "Bảo mật & lưu giữ"
+    },
+    "securityBullets_0": {
+      "en": "Backup artifacts are stored in tenant-isolated cloud storage — not downloadable from this portal.",
+      "vi": "Các tệp sao lưu được lưu trữ trong không gian đám mây cách ly theo tenant — không thể tải xuống từ cổng thông tin này."
+    },
+    "securityBullets_1": {
+      "en": "Manifest checksums verify backup integrity; optional HMAC signing on platform side.",
+      "vi": "Checksum manifest xác minh tính toàn vẹn của bản sao lưu; có thể ký HMAC tùy chọn ở phía nền tảng."
+    },
+    "securityBullets_2": {
+      "en": "Expired backups are purged automatically per your plan retention period.",
+      "vi": "Các bản sao lưu đã hết hạn sẽ tự động bị xóa theo thời gian lưu giữ của gói Quý vị."
+    },
+    "securityBullets_3": {
+      "en": "Restore requests are audited; subdomain confirmation prevents mistaken restores.",
+      "vi": "Các yêu cầu khôi phục đều được kiểm toán; việc xác nhận tên miền phụ giúp ngăn ngừa khôi phục nhầm."
+    },
+    "securityBullets_4": {
+      "en": "The platform periodically verifies restore readiness (DiRT sampling).",
+      "vi": "Nền tảng định kỳ xác minh khả năng sẵn sàng khôi phục (lấy mẫu DiRT)."
+    },
+    "contactSupport": {
+      "en": "Contact Support",
+      "vi": "Liên hệ Hỗ trợ"
+    },
+    "contactSupportHint": {
+      "en": "Include your organization name and desired recovery point when requesting restore.",
+      "vi": "Vui lòng kèm theo tên tổ chức và điểm khôi phục mong muốn khi yêu cầu khôi phục."
+    }
+  },
+  "account.shell.billing": {
+    "title": {
+      "en": "Billing",
+      "vi": "Thanh toán"
+    },
+    "subtitle": {
+      "en": "Manage your subscription, payment method, and history",
+      "vi": "Quản lý đăng ký, phương thức thanh toán và lịch sử"
+    },
+    "subtitleWithEmail": {
+      "en": "Manage your subscription, payment method, and history for {email}.",
+      "vi": "Quản lý đăng ký, phương thức thanh toán và lịch sử cho {email}."
+    }
+  },
+  "account.shell.common": {
+    "loading": {
+      "en": "Loading…",
+      "vi": "Đang tải…"
+    },
+    "loadOrganizationsError": {
+      "en": "Could not load your organizations.",
+      "vi": "Không thể tải tổ chức của Quý vị."
+    },
+    "loadOrganizationError": {
+      "en": "Could not load your organization.",
+      "vi": "Không thể tải tổ chức của Quý vị."
+    },
+    "loadBillingError": {
+      "en": "Could not load billing details. Try again or contact support.",
+      "vi": "Không thể tải chi tiết thanh toán. Vui lòng thử lại hoặc liên hệ hỗ trợ."
+    },
+    "loadIntegrationsError": {
+      "en": "Failed to load integrations.",
+      "vi": "Không thể tải tích hợp."
+    },
+    "selectLanguage": {
+      "en": "Select language",
+      "vi": "Chọn ngôn ngữ"
+    },
+    "language": {
+      "en": "Language",
+      "vi": "Ngôn ngữ"
+    },
+    "retry": {
+      "en": "Retry",
+      "vi": "Thử lại"
+    },
+    "networkError": {
+      "en": "Network error. Please try again.",
+      "vi": "Lỗi mạng. Vui lòng thử lại."
+    },
+    "networkErrorCheckConnection": {
+      "en": "Network error. Please check your connection.",
+      "vi": "Lỗi mạng. Vui lòng kiểm tra kết nối."
+    },
+    "networkErrorCheckConnectionRetry": {
+      "en": "Network error. Please check your connection and try again.",
+      "vi": "Lỗi mạng. Vui lòng kiểm tra kết nối và thử lại."
+    },
+    "networkErrorLoadingUsage": {
+      "en": "Network error loading usage.",
+      "vi": "Lỗi mạng khi tải mức sử dụng."
+    },
+    "networkErrorBillingPortal": {
+      "en": "Network error while opening the billing portal.",
+      "vi": "Lỗi mạng khi mở cổng thanh toán."
+    }
+  },
+  "account.shell.dashboard": {
+    "title": {
+      "en": "Dashboard",
+      "vi": "Bảng điều khiển"
+    },
+    "subtitle": {
+      "en": "Overview of your account and services",
+      "vi": "Tổng quan tài khoản và dịch vụ của Quý vị"
+    },
+    "subtitleSignedIn": {
+      "en": "Welcome, {name} — manage your subscription, portals, and usage.",
+      "vi": "Chào {name} — quản lý đăng ký, cổng thông tin và mức sử dụng."
+    }
+  },
+  "account.shell.integrations": {
+    "title": {
+      "en": "Integrations",
+      "vi": "Tích hợp"
+    },
+    "subtitle": {
+      "en": "Connect external tools to your workspace.",
+      "vi": "Kết nối công cụ bên ngoài với workspace của Quý vị."
+    },
+    "loadError": {
+      "en": "Failed to load integrations.",
+      "vi": "Không thể tải tích hợp."
+    }
+  },
+  "account.shell.profile": {
+    "title": {
+      "en": "Profile",
+      "vi": "Hồ sơ"
+    },
+    "subtitle": {
+      "en": "Your account and organization details.",
+      "vi": "Thông tin tài khoản và tổ chức của Quý vị."
+    }
+  },
+  "account.shell.usage": {
+    "title": {
+      "en": "Service Usage",
+      "vi": "Mức sử dụng dịch vụ"
+    },
+    "subtitle": {
+      "en": "Track quotas for storage, email, AI tokens, and employee portal seats on your plan.",
+      "vi": "Theo dõi hạn mức lưu trữ, email, token AI và ghế cổng nhân viên theo gói của Quý vị."
+    }
+  },
+  "account.shell.users": {
+    "title": {
+      "en": "Users",
+      "vi": "Người dùng"
+    },
+    "subtitle": {
+      "en": "Manage employees who can sign in to your employee portal.",
+      "vi": "Quản lý nhân viên có thể đăng nhập cổng nhân viên."
+    },
+    "retryUserSeed": {
+      "en": "Retry user seed",
+      "vi": "Thử lại khởi tạo người dùng"
+    },
+    "retryingUserSeed": {
+      "en": "Retrying…",
+      "vi": "Đang thử lại…"
+    },
+    "seedPendingHint": {
+      "en": "Employee invites from onboarding are waiting to be seeded. Use Retry user seed below once provisioning finishes.",
+      "vi": "Lời mời nhân viên từ onboarding đang chờ khởi tạo. Dùng Thử lại khởi tạo người dùng bên dưới khi provisioning hoàn tất."
+    }
+  },
+  "app.auth": {
+    "verifyEmailTitle": {
+      "en": "Enter the 6-digit verification code sent to your email",
+      "vi": "Nhập mã xác minh 6 chữ số đã gửi đến email của bạn"
+    },
+    "sendCode": {
+      "en": "Send verification code",
+      "vi": "Gửi mã xác minh"
+    },
+    "sendCodePrompt": {
+      "en": "Send a verification code to your email",
+      "vi": "Gửi mã xác minh đến email của bạn"
+    },
+    "sending": {
+      "en": "Sending...",
+      "vi": "Đang gửi..."
+    },
+    "lockedMinutes": {
+      "en": "Too many failed attempts. Please try again in 5 minutes.",
+      "vi": "Vượt quá số lần thử. Vui lòng thử lại sau 5 phút."
+    },
+    "remainingAttempts": {
+      "en": "Remaining attempts",
+      "vi": "Số lần thử còn lại"
+    },
+    "invalidPasscode": {
+      "en": "Invalid passcode",
+      "vi": "Mã không đúng"
+    },
+    "resendCode": {
+      "en": "Resend code",
+      "vi": "Gửi lại mã"
+    },
+    "resendCodeCooldown": {
+      "en": "Resend available in {seconds}s",
+      "vi": "Gửi lại sau {seconds} giây"
+    },
+    "resendCodeSuccess": {
+      "en": "A new code was sent.",
+      "vi": "Đã gửi mã mới."
+    },
+    "resendCodeFailed": {
+      "en": "Could not resend code. Try again.",
+      "vi": "Không thể gửi lại mã. Vui lòng thử lại."
+    },
+    "verifyEmailSentTo": {
+      "en": "We sent a code to {email}",
+      "vi": "Chúng tôi đã gửi mã tới {email}"
+    },
+    "verifyEmailSpamHint": {
+      "en": "Check spam or junk. Corporate email filters may delay delivery by a few minutes.",
+      "vi": "Kiểm tra thư rác. Bộ lọc email doanh nghiệp có thể trì hoãn vài phút."
+    },
+    "useDifferentEmail": {
+      "en": "Use a different email",
+      "vi": "Dùng email khác"
+    },
+    "otpEmailNotConfigured": {
+      "en": "Verification email is not available. Please contact your administrator.",
+      "vi": "Không thể gửi email xác minh. Liên hệ quản trị viên."
+    },
+    "otpEmailSendFailed": {
+      "en": "We could not send the verification email. Check spam or try again in a moment.",
+      "vi": "Không thể gửi email xác minh. Kiểm tra thư rác hoặc thử lại sau."
+    },
+    "otpUserNotFound": {
+      "en": "No employee account found for this email.",
+      "vi": "Không tìm thấy tài khoản nhân viên cho email này."
+    },
+    "tryDemo": {
+      "en": "Try demo",
+      "vi": "Thử bản demo"
+    },
+    "emailLabel": {
+      "en": "Email",
+      "vi": "Email"
+    },
+    "emailRequired": {
+      "en": "Email is required",
+      "vi": "Vui lòng nhập email"
+    },
+    "passwordLabel": {
+      "en": "Password",
+      "vi": "Mật khẩu"
+    },
+    "signInWithPassword": {
+      "en": "Sign in with your email and password",
+      "vi": "Đăng nhập bằng email và mật khẩu"
+    },
+    "signInWithPasswordInstead": {
+      "en": "Sign in with password instead",
+      "vi": "Đăng nhập bằng mật khẩu"
+    },
+    "useVerificationCode": {
+      "en": "Use verification code instead",
+      "vi": "Sử dụng mã xác minh thay thế"
+    }
+  },
+  "app.calendar": {
+    "monthJanuary": {
+      "en": "January",
+      "vi": "Tháng 1"
+    },
+    "monthFebruary": {
+      "en": "February",
+      "vi": "Tháng 2"
+    },
+    "monthMarch": {
+      "en": "March",
+      "vi": "Tháng 3"
+    },
+    "monthApril": {
+      "en": "April",
+      "vi": "Tháng 4"
+    },
+    "monthMay": {
+      "en": "May",
+      "vi": "Tháng 5"
+    },
+    "monthJune": {
+      "en": "June",
+      "vi": "Tháng 6"
+    },
+    "monthJuly": {
+      "en": "July",
+      "vi": "Tháng 7"
+    },
+    "monthAugust": {
+      "en": "August",
+      "vi": "Tháng 8"
+    },
+    "monthSeptember": {
+      "en": "September",
+      "vi": "Tháng 9"
+    },
+    "monthOctober": {
+      "en": "October",
+      "vi": "Tháng 10"
+    },
+    "monthNovember": {
+      "en": "November",
+      "vi": "Tháng 11"
+    },
+    "monthDecember": {
+      "en": "December",
+      "vi": "Tháng 12"
+    },
+    "dayStatusWork": {
+      "en": "Work",
+      "vi": "Làm việc"
+    },
+    "dayStatusDone": {
+      "en": "Done",
+      "vi": "Xong"
+    },
+    "dayStatusMissed": {
+      "en": "Missed",
+      "vi": "Chưa xong"
+    },
+    "dayStatusAbsent": {
+      "en": "Absent",
+      "vi": "Vắng mặt"
+    },
+    "dayStatusTardy": {
+      "en": "Tardy",
+      "vi": "Đi trễ"
+    },
+    "dayStatusOff": {
+      "en": "Off",
+      "vi": "Ngày nghỉ"
+    },
+    "dayStatusAway": {
+      "en": "Away",
+      "vi": "Nghỉ phép"
+    },
+    "dayStatusPublicHoliday": {
+      "en": "PH",
+      "vi": "Ngày nghỉ"
+    }
+  },
+  "app.checkin": {
+    "office": {
+      "en": "Office",
+      "vi": "Văn phòng"
+    },
+    "home": {
+      "en": "Home",
+      "vi": "Nhà"
+    },
+    "checkIn": {
+      "en": "Check In",
+      "vi": "Vào ca"
+    },
+    "checkOut": {
+      "en": "Check Out",
+      "vi": "Tan ca"
+    },
+    "totalHrs": {
+      "en": "Total Hrs",
+      "vi": "Tổng giờ"
+    },
+    "attendance": {
+      "en": "Attendance",
+      "vi": "Chấm công"
+    },
+    "goodMorning": {
+      "en": "Good Morning!",
+      "vi": "Chào buổi sáng, {{name}}!"
+    },
+    "goodAfternoon": {
+      "en": "Have a good day!",
+      "vi": "Chào {{name}}, làm việc vui vẻ!"
+    },
+    "loading": {
+      "en": "Loading...",
+      "vi": "Đang tải..."
+    },
+    "gpsEnabled": {
+      "en": "GPS tracking enabled",
+      "vi": "Đã bật theo dõi GPS"
+    },
+    "ipVerification": {
+      "en": "IP-based verification",
+      "vi": "Xác minh theo IP"
+    },
+    "reminderCheckOut": {
+      "en": "Great work today! Don't forget to check out.",
+      "vi": "Làm tốt lắm! Đừng quên chấm công ra."
+    },
+    "reminderCheckIn": {
+      "en": "Check in and kick off your awesome day!",
+      "vi": "Chấm công vào và bắt đầu ngày làm việc!"
+    },
+    "loadingMore": {
+      "en": "Loading more",
+      "vi": "Đang tải thêm"
+    },
+    "noMoreRecords": {
+      "en": "No more records to load",
+      "vi": "Không còn bản ghi để tải"
+    },
+    "timePlaceholder": {
+      "en": "--:--",
+      "vi": "--:--"
+    },
+    "todayCheckin": {
+      "en": "Today's check-in",
+      "vi": "Check-in hôm nay"
+    },
+    "hoursUnit": {
+      "en": "h",
+      "vi": "h"
+    },
+    "minutesUnit": {
+      "en": "m",
+      "vi": "ph"
+    },
+    "hoursDecimalUnit": {
+      "en": " hours",
+      "vi": " giờ"
+    },
+    "approxHoursPrefix": {
+      "en": "approx. ",
+      "vi": "xấp xỉ "
+    },
+    "noAttendanceYet": {
+      "en": "No attendance records yet",
+      "vi": "Chưa có bản ghi chấm công"
+    },
+    "startByCheckingIn": {
+      "en": "Check in to start tracking your work hours here",
+      "vi": "Chấm công vào để bắt đầu theo dõi giờ làm tại đây"
+    },
+    "startCheckInCta": {
+      "en": "Start check-in",
+      "vi": "Bắt đầu chấm công"
+    }
+  },
+  "app.checklist": {
+    "title": {
+      "en": "Checklist",
+      "vi": "Danh sách công việc"
+    },
+    "addTitle": {
+      "en": "Add Checklist",
+      "vi": "Thêm danh sách"
+    },
+    "work": {
+      "en": "Work",
+      "vi": "Công việc"
+    },
+    "home": {
+      "en": "Home",
+      "vi": "Nhà"
+    },
+    "friends": {
+      "en": "Friends",
+      "vi": "Bạn bè"
+    },
+    "dueToday": {
+      "en": "Due today",
+      "vi": "Hết hạn hôm nay"
+    },
+    "dueSoon": {
+      "en": "Due soon",
+      "vi": "Sắp hết hạn"
+    },
+    "completed": {
+      "en": "Completed",
+      "vi": "Hoàn thành"
+    },
+    "addTask": {
+      "en": "Add task",
+      "vi": "Thêm công việc"
+    },
+    "createNewTask": {
+      "en": "Create new task",
+      "vi": "Tạo công việc mới"
+    },
+    "createNewTaskDescription": {
+      "en": "Create a new task for your checklist",
+      "vi": "Tạo công việc mới cho danh sách của bạn"
+    },
+    "taskNameLabel": {
+      "en": "Task Name",
+      "vi": "Tên công việc"
+    },
+    "taskNamePlaceholder": {
+      "en": "Meeting with clients",
+      "vi": "Họp với khách hàng"
+    },
+    "taskTypeLabel": {
+      "en": "Task Type",
+      "vi": "Loại công việc"
+    },
+    "firstTimeLabel": {
+      "en": "First Time",
+      "vi": "Lần đầu"
+    },
+    "lastTimeLabel": {
+      "en": "Last Time",
+      "vi": "Lần cuối"
+    },
+    "dateLabel": {
+      "en": "Date",
+      "vi": "Ngày"
+    },
+    "today": {
+      "en": "Today",
+      "vi": "Hôm nay"
+    },
+    "tomorrow": {
+      "en": "Tomorrow",
+      "vi": "Ngày mai"
+    },
+    "nextWeek": {
+      "en": "Next Week",
+      "vi": "Tuần sau"
+    },
+    "custom": {
+      "en": "Custom",
+      "vi": "Tùy chọn"
+    },
+    "taskTypeDailyJob": {
+      "en": "Daily Job",
+      "vi": "Công việc hàng ngày"
+    },
+    "taskTypeSupport": {
+      "en": "Support",
+      "vi": "Hỗ trợ"
+    },
+    "taskTypeHighPriority": {
+      "en": "High Priority",
+      "vi": "Ưu tiên cao"
+    },
+    "taskTypeWeeklyJob": {
+      "en": "Weekly Job",
+      "vi": "Công việc hàng tuần"
+    },
+    "taskTypeSpecialTask": {
+      "en": "Special Task",
+      "vi": "Công việc đặc biệt"
+    },
+    "taskTypeCollaboration": {
+      "en": "Collaboration",
+      "vi": "Hợp tác"
+    },
+    "taskTypeMeeting": {
+      "en": "Meeting",
+      "vi": "Cuộc họp"
+    },
+    "selectDaysMinimum": {
+      "en": "Select days (minimum 1):",
+      "vi": "Chọn ngày (tối thiểu 1):"
+    },
+    "daysSelected": {
+      "en": "{n} day(s) selected",
+      "vi": "Đã chọn {n} ngày"
+    },
+    "noDaysSelected": {
+      "en": "No days selected",
+      "vi": "Chưa chọn ngày"
+    },
+    "save": {
+      "en": "Save",
+      "vi": "Lưu"
+    },
+    "daysLeft": {
+      "en": "days left",
+      "vi": "ngày còn lại"
+    },
+    "toDo": {
+      "en": "to do",
+      "vi": "cần làm"
+    },
+    "done": {
+      "en": "done",
+      "vi": "xong"
+    },
+    "overviewProgress": {
+      "en": "Progress",
+      "vi": "Tiến độ"
+    },
+    "countSuffix": {
+      "en": "",
+      "vi": ""
+    },
+    "noTasksYet": {
+      "en": "No tasks yet",
+      "vi": "Chưa có công việc"
+    },
+    "startByAddingTask": {
+      "en": "Start by adding your first task",
+      "vi": "Bắt đầu bằng cách thêm công việc đầu tiên"
+    },
+    "loadingMore": {
+      "en": "Loading more",
+      "vi": "Đang tải thêm"
+    }
+  },
+  "app.common": {
+    "appName": {
+      "en": "Pregoi",
+      "vi": "Pregoi"
+    },
+    "logOut": {
+      "en": "Log out",
+      "vi": "Đăng xuất"
+    },
+    "loading": {
+      "en": "Loading...",
+      "vi": "Đang tải..."
+    },
+    "loadingMore": {
+      "en": "Loading more",
+      "vi": "Đang tải thêm"
+    },
+    "noMoreRecords": {
+      "en": "No more records to load",
+      "vi": "Không còn bản ghi để tải"
+    },
+    "returnHome": {
+      "en": "Return Home",
+      "vi": "Về trang chủ"
+    },
+    "notFound": {
+      "en": "Not Found",
+      "vi": "Không tìm thấy"
+    },
+    "notFoundDescription": {
+      "en": "Could not find requested resource",
+      "vi": "Không tìm thấy tài nguyên yêu cầu"
+    },
+    "today": {
+      "en": "TODAY",
+      "vi": "HÔM NAY"
+    },
+    "total": {
+      "en": "Total",
+      "vi": "Tổng"
+    },
+    "daySunShort": {
+      "en": "Sun",
+      "vi": "CN"
+    },
+    "dayMonShort": {
+      "en": "Mon",
+      "vi": "T2"
+    },
+    "dayTueShort": {
+      "en": "Tue",
+      "vi": "T3"
+    },
+    "dayWedShort": {
+      "en": "Wed",
+      "vi": "T4"
+    },
+    "dayThuShort": {
+      "en": "Thu",
+      "vi": "T5"
+    },
+    "dayFriShort": {
+      "en": "Fri",
+      "vi": "T6"
+    },
+    "daySatShort": {
+      "en": "Sat",
+      "vi": "T7"
+    },
+    "daySu": {
+      "en": "Su",
+      "vi": "CN"
+    },
+    "dayMo": {
+      "en": "Mo",
+      "vi": "T2"
+    },
+    "dayTu": {
+      "en": "Tu",
+      "vi": "T3"
+    },
+    "dayWe": {
+      "en": "We",
+      "vi": "T4"
+    },
+    "dayTh": {
+      "en": "Th",
+      "vi": "T5"
+    },
+    "dayFr": {
+      "en": "Fr",
+      "vi": "T6"
+    },
+    "daySa": {
+      "en": "Sa",
+      "vi": "T7"
+    },
+    "daySunday": {
+      "en": "Sunday",
+      "vi": "Chủ Nhật"
+    },
+    "dayMonday": {
+      "en": "Monday",
+      "vi": "Thứ Hai"
+    },
+    "dayTuesday": {
+      "en": "Tuesday",
+      "vi": "Thứ Ba"
+    },
+    "dayWednesday": {
+      "en": "Wednesday",
+      "vi": "Thứ Tư"
+    },
+    "dayThursday": {
+      "en": "Thursday",
+      "vi": "Thứ Năm"
+    },
+    "dayFriday": {
+      "en": "Friday",
+      "vi": "Thứ Sáu"
+    },
+    "daySaturday": {
+      "en": "Saturday",
+      "vi": "Thứ Bảy"
+    },
+    "daysSelected": {
+      "en": "{n} days selected",
+      "vi": "Đã chọn {n} ngày"
+    },
+    "cookieSettings": {
+      "en": "Cookie settings",
+      "vi": "Cài đặt cookie"
+    },
+    "saving": {
+      "en": "Saving…",
+      "vi": "Đang lưu…"
+    },
+    "loadError": {
+      "en": "Unable to load data right now. Please try again.",
+      "vi": "Hiện không thể tải dữ liệu. Vui lòng thử lại."
+    },
+    "loadConnectionHint": {
+      "en": "Unable to load items. This may be a connection or setup issue.",
+      "vi": "Không thể tải mục. Có thể do kết nối hoặc cấu hình."
+    },
+    "retryLoad": {
+      "en": "Retry loading",
+      "vi": "Tải lại"
+    },
+    "retry": {
+      "en": "Retry",
+      "vi": "Thử lại"
+    },
+    "submitFailedTitle": {
+      "en": "Submission failed",
+      "vi": "Gửi không thành công"
+    },
+    "erpExpenseClaimTypeAccount": {
+      "en": "Expense categories are not fully set up. Please contact your administrator.",
+      "vi": "Danh mục chi phí chưa được thiết lập đầy đủ. Vui lòng liên hệ quản trị viên của bạn."
+    },
+    "erpLeaveTypeNotFound": {
+      "en": "Leave types are not set up yet. Please contact your administrator.",
+      "vi": "Loại nghỉ phép chưa được thiết lập. Vui lòng liên hệ quản trị viên của bạn."
+    }
+  },
+  "app.customers": {
+    "title": {
+      "en": "Customers",
+      "vi": "Khách hàng"
+    },
+    "empty": {
+      "en": "No customers yet",
+      "vi": "Chưa có khách hàng nào"
+    },
+    "emptyHint": {
+      "en": "Customers from your ERP will appear here.",
+      "vi": "Khách hàng từ ERP của bạn sẽ xuất hiện tại đây."
+    },
+    "loadError": {
+      "en": "Could not load customers",
+      "vi": "Không thể tải danh sách khách hàng"
+    },
+    "openInCrm": {
+      "en": "Open in CRM",
+      "vi": "Mở trong CRM"
+    },
+    "openWorkDesk": {
+      "en": "Open Work Desk",
+      "vi": "Mở Work Desk"
+    },
+    "type": {
+      "en": "Type",
+      "vi": "Loại"
+    },
+    "group": {
+      "en": "Group",
+      "vi": "Nhóm"
+    },
+    "createTitle": {
+      "en": "New customer",
+      "vi": "Khách hàng mới"
+    },
+    "createSubmit": {
+      "en": "Create customer",
+      "vi": "Tạo khách hàng"
+    },
+    "creating": {
+      "en": "Creating…",
+      "vi": "Đang tạo…"
+    },
+    "nameLabel": {
+      "en": "Customer name",
+      "vi": "Tên khách hàng"
+    },
+    "addCustomer": {
+      "en": "Add customer",
+      "vi": "Thêm khách hàng"
+    }
+  },
+  "app.expenses": {
+    "title": {
+      "en": "Expenses",
+      "vi": "Chi phí"
+    },
+    "addExpense": {
+      "en": "Add expense",
+      "vi": "Thêm chi phí"
+    },
+    "captureReceipt": {
+      "en": "Capture Receipt",
+      "vi": "Chụp hóa đơn"
+    },
+    "captureDescription": {
+      "en": "Take a photo or select from gallery",
+      "vi": "Chụp ảnh hoặc chọn từ thư viện"
+    },
+    "captureHint": {
+      "en": "Tap the camera button below to capture a receipt",
+      "vi": "Nhấn nút camera bên dưới để chụp hóa đơn"
+    },
+    "takePhoto": {
+      "en": "Take Photo",
+      "vi": "Chụp ảnh"
+    },
+    "selectFromGallery": {
+      "en": "Select from Gallery",
+      "vi": "Chọn từ thư viện"
+    },
+    "noExpensesYet": {
+      "en": "No expenses yet",
+      "vi": "Chưa có chi phí nào"
+    },
+    "startByAddingExpense": {
+      "en": "Start by adding your first expense",
+      "vi": "Bắt đầu bằng cách thêm chi phí đầu tiên"
+    },
+    "mainCategoryLabel": {
+      "en": "Main Category",
+      "vi": "Danh mục chính"
+    },
+    "subCategoryLabel": {
+      "en": "Sub-category",
+      "vi": "Danh mục phụ"
+    },
+    "selectCategory": {
+      "en": "Select a category",
+      "vi": "Chọn danh mục"
+    },
+    "selectSubCategory": {
+      "en": "Select a sub-category",
+      "vi": "Chọn danh mục phụ"
+    },
+    "totalAmountLabel": {
+      "en": "Total Amount (SGD)",
+      "vi": "Tổng số tiền (SGD)"
+    },
+    "confirmAndContinue": {
+      "en": "Confirm & Continue",
+      "vi": "Xác nhận và tiếp tục"
+    },
+    "submitFailed": {
+      "en": "Could not submit expense. Please try again.",
+      "vi": "Không thể gửi chi phí. Vui lòng thử lại."
+    },
+    "categoryTransport": {
+      "en": "Transport",
+      "vi": "Di chuyển"
+    },
+    "categoryTravel": {
+      "en": "Travel",
+      "vi": "Du lịch"
+    },
+    "categoryBusinessExpense": {
+      "en": "Business Expense",
+      "vi": "Chi phí kinh doanh"
+    },
+    "categoryStaffWelfare": {
+      "en": "Staff Welfare",
+      "vi": "Phúc lợi nhân viên"
+    },
+    "categoryUtilityAndOffice": {
+      "en": "Utility & Office",
+      "vi": "Tiện ích và văn phòng"
+    },
+    "categoryOthers": {
+      "en": "Others",
+      "vi": "Khác"
+    },
+    "subPublicTransport": {
+      "en": "Public Transport (Bus, MRT/SimplyGo)",
+      "vi": "Xe buýt, MRT/SimplyGo"
+    },
+    "subTaxiGrab": {
+      "en": "Taxi / Grab",
+      "vi": "Taxi / Grab"
+    },
+    "subMileageClaim": {
+      "en": "Mileage Claim",
+      "vi": "Chi phí di chuyển"
+    },
+    "subParkingErp": {
+      "en": "Parking & ERP",
+      "vi": "Đỗ xe và ERP"
+    },
+    "subAirfare": {
+      "en": "Airfare (0% GST)",
+      "vi": "Vé máy bay (0% GST)"
+    },
+    "subAccommodation": {
+      "en": "Accommodation",
+      "vi": "Chỗ ở"
+    },
+    "subPerDiem": {
+      "en": "Per Diem",
+      "vi": "Phụ cấp"
+    },
+    "subEntertainment": {
+      "en": "Entertainment",
+      "vi": "Giải trí"
+    },
+    "subBusinessGift": {
+      "en": "Business Gift",
+      "vi": "Quà kinh doanh"
+    },
+    "subMarketingAds": {
+      "en": "Marketing / Ads",
+      "vi": "Marketing / Quảng cáo"
+    },
+    "subMedical": {
+      "en": "Medical (GP/Dental)",
+      "vi": "Y tế (Bác sĩ/Nha khoa)"
+    },
+    "subTeamMeal": {
+      "en": "Team Meal",
+      "vi": "Bữa ăn nhóm"
+    },
+    "subTrainingCourse": {
+      "en": "Training / Course",
+      "vi": "Đào tạo / Khóa học"
+    },
+    "subTelecommunication": {
+      "en": "Telecommunication",
+      "vi": "Viễn thông"
+    },
+    "subOfficeSupplies": {
+      "en": "Office Supplies",
+      "vi": "Văn phòng phẩm"
+    },
+    "subSoftwareSaaS": {
+      "en": "Software Subscription (SaaS)",
+      "vi": "Đăng ký phần mềm (SaaS)"
+    },
+    "subMiscellaneous": {
+      "en": "Miscellaneous",
+      "vi": "Khác"
+    },
+    "irasEntertainmentCompliance": {
+      "en": "IRAS Entertainment Compliance",
+      "vi": "Tuân thủ IRAS giải trí"
+    },
+    "purposeOfMeeting": {
+      "en": "Purpose of Meeting",
+      "vi": "Mục đích cuộc họp"
+    },
+    "selectPurpose": {
+      "en": "Select purpose",
+      "vi": "Chọn mục đích"
+    },
+    "numberOfGuests": {
+      "en": "Number of Guests",
+      "vi": "Số khách"
+    },
+    "selectNumberOfGuests": {
+      "en": "Select number of guests",
+      "vi": "Chọn số khách"
+    },
+    "guest": {
+      "en": "Guest",
+      "vi": "Khách"
+    },
+    "guests": {
+      "en": "Guests",
+      "vi": "Khách"
+    },
+    "guestNames": {
+      "en": "Guest Names",
+      "vi": "Tên khách"
+    },
+    "guestNamePlaceholder": {
+      "en": "Guest {n} Name",
+      "vi": "Tên khách {n}"
+    },
+    "purposeClientRelationship": {
+      "en": "Client Relationship",
+      "vi": "Quan hệ khách hàng"
+    },
+    "purposeSalesProspecting": {
+      "en": "Sales Prospecting",
+      "vi": "Tìm kiếm bán hàng"
+    },
+    "purposePartnershipDiscussion": {
+      "en": "Partnership Discussion",
+      "vi": "Thảo luận đối tác"
+    },
+    "purposeContractNegotiation": {
+      "en": "Contract Negotiation",
+      "vi": "Đàm phán hợp đồng"
+    },
+    "purposeProjectKickoff": {
+      "en": "Project Kick-off",
+      "vi": "Khởi động dự án"
+    },
+    "purposeStaffWelfareApproved": {
+      "en": "Staff Welfare (Approved)",
+      "vi": "Phúc lợi nhân viên (Đã duyệt)"
+    },
+    "statusPending": {
+      "en": "Pending",
+      "vi": "Đang chờ"
+    },
+    "statusApproved": {
+      "en": "Approved",
+      "vi": "Đã duyệt"
+    },
+    "statusRejected": {
+      "en": "Rejected",
+      "vi": "Từ chối"
+    },
+    "statusUnpaid": {
+      "en": "Unpaid",
+      "vi": "Chưa thanh toán"
+    },
+    "statusPaid": {
+      "en": "Paid",
+      "vi": "Đã thanh toán"
+    },
+    "statusPartiallyPaid": {
+      "en": "Partially Paid",
+      "vi": "Thanh toán một phần"
+    },
+    "created": {
+      "en": "Created: ",
+      "vi": "Ngày nộp: "
+    },
+    "overviewTotal": {
+      "en": "Total",
+      "vi": "Tổng"
+    },
+    "overviewPaid": {
+      "en": "Paid",
+      "vi": "Đã thanh toán"
+    },
+    "overviewPending": {
+      "en": "Pending",
+      "vi": "Đang chờ"
+    }
+  },
+  "app.invoices": {
+    "title": {
+      "en": "Invoices",
+      "vi": "Hóa đơn"
+    },
+    "addInvoice": {
+      "en": "Add Invoice",
+      "vi": "Thêm hóa đơn"
+    },
+    "createDescription": {
+      "en": "Create a new invoice for your client",
+      "vi": "Tạo hóa đơn mới cho khách hàng"
+    },
+    "details": {
+      "en": "Invoice Details",
+      "vi": "Chi tiết hóa đơn"
+    },
+    "senderDetails": {
+      "en": "Sender (your company)",
+      "vi": "Người gửi (công ty của bạn)"
+    },
+    "senderCompanyName": {
+      "en": "Company name",
+      "vi": "Tên công ty"
+    },
+    "senderCompanyNameHint": {
+      "en": "Set automatically from your organization and cannot be changed here.",
+      "vi": "Được đặt tự động từ tổ chức của bạn và không thể thay đổi tại đây."
+    },
+    "senderAddress": {
+      "en": "Company address",
+      "vi": "Địa chỉ công ty"
+    },
+    "senderAddressPlaceholder": {
+      "en": "Street, city, postal code, country",
+      "vi": "Đường, thành phố, mã bưu điện, quốc gia"
+    },
+    "senderTaxId": {
+      "en": "Tax ID (GST / VAT)",
+      "vi": "Mã số thuế (GST / VAT)"
+    },
+    "senderTaxIdPlaceholder": {
+      "en": "e.g. 201234567A",
+      "vi": "ví dụ: 201234567A"
+    },
+    "senderEmail": {
+      "en": "Contact email",
+      "vi": "Email liên hệ"
+    },
+    "senderEmailPlaceholder": {
+      "en": "billing@yourcompany.com",
+      "vi": "billing@yourcompany.com"
+    },
+    "senderPhone": {
+      "en": "Contact phone",
+      "vi": "Số điện thoại liên hệ"
+    },
+    "senderPhonePlaceholder": {
+      "en": "+65 6123 4567",
+      "vi": "+65 6123 4567"
+    },
+    "invoiceNumber": {
+      "en": "Invoice number",
+      "vi": "Số hóa đơn"
+    },
+    "invoiceNumberHint": {
+      "en": "Leave blank to auto-generate on save.",
+      "vi": "Để trống để tự động tạo khi lưu."
+    },
+    "invoiceNumberPlaceholder": {
+      "en": "e.g. INV-2026-001",
+      "vi": "ví dụ: INV-2026-001"
+    },
+    "optionalSenderContact": {
+      "en": "Additional sender details (optional)",
+      "vi": "Thông tin người gửi bổ sung (tùy chọn)"
+    },
+    "optionalInvoiceSettings": {
+      "en": "Invoice number & currency (optional)",
+      "vi": "Số hóa đơn & tiền tệ (tùy chọn)"
+    },
+    "paymentDetails": {
+      "en": "Payment details (optional)",
+      "vi": "Payment details"
+    },
+    "paymentTerms": {
+      "en": "Payment terms",
+      "vi": "Điều khoản thanh toán"
+    },
+    "paymentTermsPlaceholder": {
+      "en": "e.g. Net 30 — payment due within 30 days",
+      "vi": "ví dụ: Net 30 — thanh toán trong vòng 30 ngày"
+    },
+    "bankDetails": {
+      "en": "Bank account details",
+      "vi": "Thông tin tài khoản ngân hàng"
+    },
+    "bankDetailsPlaceholder": {
+      "en": "Bank name, account name, account number, SWIFT/BIC",
+      "vi": "Tên ngân hàng, tên tài khoản, số tài khoản, mã SWIFT/BIC"
+    },
+    "clientName": {
+      "en": "Client name",
+      "vi": "Tên khách hàng"
+    },
+    "recipient": {
+      "en": "Recipient",
+      "vi": "Người nhận"
+    },
+    "recipientAddress": {
+      "en": "Billing address",
+      "vi": "Địa chỉ thanh toán"
+    },
+    "recipientAddressPlaceholder": {
+      "en": "Client billing address",
+      "vi": "Địa chỉ thanh toán của khách hàng"
+    },
+    "email": {
+      "en": "Email",
+      "vi": "Email"
+    },
+    "subject": {
+      "en": "Subject",
+      "vi": "Tiêu đề"
+    },
+    "dueDate": {
+      "en": "Due date",
+      "vi": "Ngày đến hạn"
+    },
+    "taxRate": {
+      "en": "Tax rate (%)",
+      "vi": "Thuế suất (%)"
+    },
+    "requiredField": {
+      "en": "Required",
+      "vi": "Bắt buộc"
+    },
+    "created": {
+      "en": "Created: ",
+      "vi": "Đã tạo: "
+    },
+    "payoutTime": {
+      "en": "Payout at 12:00 PM",
+      "vi": "Thanh toán lúc 12:00 trưa"
+    },
+    "currency": {
+      "en": "Currency",
+      "vi": "Tiền tệ"
+    },
+    "productsServices": {
+      "en": "Products / Services",
+      "vi": "Sản phẩm / Dịch vụ"
+    },
+    "description": {
+      "en": "Description",
+      "vi": "Mô tả"
+    },
+    "qty": {
+      "en": "Qty",
+      "vi": "SL"
+    },
+    "price": {
+      "en": "Price",
+      "vi": "Đơn giá"
+    },
+    "amount": {
+      "en": "Amount",
+      "vi": "Số tiền"
+    },
+    "viewForm": {
+      "en": "View Form",
+      "vi": "Xem biểu mẫu"
+    },
+    "viewPreview": {
+      "en": "View Preview",
+      "vi": "Xem trước"
+    },
+    "save": {
+      "en": "Save",
+      "vi": "Lưu"
+    },
+    "removeLine": {
+      "en": "Remove line",
+      "vi": "Xóa dòng"
+    },
+    "notes": {
+      "en": "Additional notes (optional)",
+      "vi": "Notes (optional)"
+    },
+    "notesPlaceholder": {
+      "en": "Extra instructions or comments for your client",
+      "vi": "Payment terms, bank details, or other notes"
+    },
+    "clientNamePlaceholder": {
+      "en": "Client name",
+      "vi": "Tên khách hàng"
+    },
+    "emailPlaceholder": {
+      "en": "client@example.com",
+      "vi": "client@example.com"
+    },
+    "subjectPlaceholder": {
+      "en": "Invoice subject",
+      "vi": "Tiêu đề hóa đơn"
+    },
+    "createInvoice": {
+      "en": "Create Invoice",
+      "vi": "Tạo hóa đơn"
+    },
+    "previewFrom": {
+      "en": "FROM",
+      "vi": "TỪ"
+    },
+    "previewBillTo": {
+      "en": "BILL TO",
+      "vi": "GỬI ĐẾN"
+    },
+    "previewInvoiceNumber": {
+      "en": "Invoice #",
+      "vi": "Số HĐ"
+    },
+    "previewPaymentTerms": {
+      "en": "PAYMENT TERMS",
+      "vi": "ĐIỀU KHOẢN THANH TOÁN"
+    },
+    "previewBankDetails": {
+      "en": "BANK DETAILS",
+      "vi": "THÔNG TIN NGÂN HÀNG"
+    },
+    "actionPdf": {
+      "en": "PDF",
+      "vi": "PDF"
+    },
+    "actionEmail": {
+      "en": "Email",
+      "vi": "Email"
+    },
+    "actionPaymentPage": {
+      "en": "Payment Page",
+      "vi": "Trang thanh toán"
+    },
+    "actionPdfAria": {
+      "en": "Download invoice PDF",
+      "vi": "Tải xuống hóa đơn PDF"
+    },
+    "actionEmailAria": {
+      "en": "Send invoice by email",
+      "vi": "Gửi hóa đơn qua email"
+    },
+    "actionPaymentPageAria": {
+      "en": "Preview customer payment page",
+      "vi": "Xem trước trang thanh toán của khách hàng"
+    },
+    "pdfGenerating": {
+      "en": "Generating PDF…",
+      "vi": "Đang tạo PDF…"
+    },
+    "pdfDownloaded": {
+      "en": "PDF downloaded",
+      "vi": "Đã tải xuống PDF"
+    },
+    "pdfDownloadError": {
+      "en": "PDF failed",
+      "vi": "Tạo PDF thất bại"
+    },
+    "emailSendTitle": {
+      "en": "Send invoice",
+      "vi": "Gửi hóa đơn"
+    },
+    "emailSendDescription": {
+      "en": "Email the invoice to your client with an optional PDF attachment and payment link.",
+      "vi": "Gửi hóa đơn cho khách hàng của bạn qua email kèm tệp PDF đính kèm tùy chọn và liên kết thanh toán."
+    },
+    "emailSendMessage": {
+      "en": "Message (optional)",
+      "vi": "Lời nhắn (tùy chọn)"
+    },
+    "emailSendMessagePlaceholder": {
+      "en": "Add a short note for your client…",
+      "vi": "Thêm ghi chú ngắn cho khách hàng của bạn…"
+    },
+    "emailSendAttachPdf": {
+      "en": "Attach PDF",
+      "vi": "Đính kèm PDF"
+    },
+    "emailSendIncludePaymentLink": {
+      "en": "Include payment page link",
+      "vi": "Kèm theo liên kết trang thanh toán"
+    },
+    "emailSendCancel": {
+      "en": "Cancel",
+      "vi": "Hủy"
+    },
+    "emailSendConfirm": {
+      "en": "Send",
+      "vi": "Gửi"
+    },
+    "emailSendSending": {
+      "en": "Sending…",
+      "vi": "Đang gửi…"
+    },
+    "emailSentSuccess": {
+      "en": "Invoice email sent",
+      "vi": "Đã gửi email hóa đơn"
+    },
+    "emailSendError": {
+      "en": "Failed to send invoice email",
+      "vi": "Gửi email hóa đơn thất bại"
+    },
+    "paymentPagePreviewBadge": {
+      "en": "Customer view",
+      "vi": "Xem như khách hàng"
+    },
+    "paymentPagePayButton": {
+      "en": "Pay {amount}",
+      "vi": "Thanh toán {amount}"
+    },
+    "paymentPagePayDisabledHint": {
+      "en": "Save the invoice to enable online payment.",
+      "vi": "Lưu hóa đơn để kích hoạt thanh toán trực tuyến."
+    },
+    "paymentPagePaidBadge": {
+      "en": "Paid",
+      "vi": "Đã thanh toán"
+    },
+    "paymentPageLinkTitle": {
+      "en": "Payment page link",
+      "vi": "Liên kết trang thanh toán"
+    },
+    "paymentPageSaveRequired": {
+      "en": "Save the invoice to generate a payment link.",
+      "vi": "Lưu hóa đơn để tạo liên kết thanh toán."
+    },
+    "paymentPageCopyLink": {
+      "en": "Copy link",
+      "vi": "Sao chép liên kết"
+    },
+    "paymentPageOpenLink": {
+      "en": "Open in new tab",
+      "vi": "Mở trong tab mới"
+    },
+    "paymentPageCopied": {
+      "en": "Link copied",
+      "vi": "Đã sao chép liên kết"
+    },
+    "paymentPageLoading": {
+      "en": "Preparing payment page…",
+      "vi": "Đang chuẩn bị trang thanh toán…"
+    },
+    "paymentPageCreateError": {
+      "en": "Failed to create payment page",
+      "vi": "Tạo trang thanh toán thất bại"
+    },
+    "paymentPageNotFound": {
+      "en": "Payment page not found",
+      "vi": "Không tìm thấy trang thanh toán"
+    },
+    "paymentPagePublicTitle": {
+      "en": "Invoice payment",
+      "vi": "Thanh toán hóa đơn"
+    },
+    "allInvoices": {
+      "en": "All invoices",
+      "vi": "Tất cả hóa đơn"
+    },
+    "open": {
+      "en": "Open",
+      "vi": "Chưa thanh toán"
+    },
+    "paid": {
+      "en": "Paid",
+      "vi": "Đã thanh toán"
+    },
+    "noInvoicesFound": {
+      "en": "No invoices found",
+      "vi": "Không tìm thấy hóa đơn"
+    },
+    "startByCreatingInvoice": {
+      "en": "Start by creating your first invoice",
+      "vi": "Bắt đầu bằng cách tạo hóa đơn đầu tiên"
+    },
+    "noFilterInvoices": {
+      "en": "No {filter} invoices at the moment",
+      "vi": "Hiện không có hóa đơn {filter}"
+    }
+  },
+  "app.leaves": {
+    "title": {
+      "en": "Leaves",
+      "vi": "Nghỉ phép"
+    },
+    "leaveType": {
+      "en": "Leave type",
+      "vi": "Loại nghỉ phép"
+    },
+    "annualLeave": {
+      "en": "Annual Leave",
+      "vi": "Nghỉ phép hàng năm"
+    },
+    "requestingFrom": {
+      "en": "Requesting leave from:",
+      "vi": "Xin nghỉ từ:"
+    },
+    "selectStartDate": {
+      "en": "Select start date",
+      "vi": "Chọn ngày bắt đầu"
+    },
+    "ending": {
+      "en": "Ending:",
+      "vi": "Đến:"
+    },
+    "selectEndDate": {
+      "en": "Select end date",
+      "vi": "Chọn ngày kết thúc"
+    },
+    "leaveHistory": {
+      "en": "Leave History",
+      "vi": "Lịch sử nghỉ phép"
+    },
+    "submitRequest": {
+      "en": "Submit request",
+      "vi": "Gửi yêu cầu"
+    },
+    "requestSubmitted": {
+      "en": "Leave request submitted",
+      "vi": "Đã gửi yêu cầu nghỉ phép"
+    },
+    "requestSubmitFailed": {
+      "en": "Could not submit your request. Please try again.",
+      "vi": "Không thể gửi yêu cầu của bạn. Vui lòng thử lại."
+    },
+    "sickLeave": {
+      "en": "Sick Leave",
+      "vi": "Nghỉ ốm"
+    },
+    "hospitalisationLeave": {
+      "en": "Hospitalisation Leave",
+      "vi": "Nghỉ nằm viện"
+    },
+    "maternityLeave": {
+      "en": "Maternity Leave",
+      "vi": "Nghỉ thai sản"
+    },
+    "paternityLeave": {
+      "en": "Paternity Leave",
+      "vi": "Nghỉ thai sản (cha)"
+    },
+    "childcareLeave": {
+      "en": "Childcare Leave",
+      "vi": "Nghỉ chăm con"
+    },
+    "compassionateLeave": {
+      "en": "Compassionate Leave",
+      "vi": "Nghỉ tang"
+    },
+    "marriageLeave": {
+      "en": "Marriage Leave",
+      "vi": "Nghỉ cưới"
+    },
+    "studyLeave": {
+      "en": "Study/Exam Leave",
+      "vi": "Nghỉ học/Thi"
+    },
+    "unpaidLeave": {
+      "en": "Unpaid Leave/Leave of Absence",
+      "vi": "Nghỉ không lương"
+    },
+    "statusCompleted": {
+      "en": "Completed",
+      "vi": "Hoàn thành"
+    },
+    "statusScheduled": {
+      "en": "Scheduled",
+      "vi": "Đã lên lịch"
+    },
+    "usedAllowanceLabel": {
+      "en": "(Used/Allowance)",
+      "vi": "(Đã dùng/Định mức)"
+    },
+    "durationDay": {
+      "en": "1 day",
+      "vi": "1 ngày"
+    },
+    "durationDays": {
+      "en": "{{n}} days",
+      "vi": "{{n}} ngày"
+    },
+    "leavePeriodLabel": {
+      "en": "Leave period",
+      "vi": "Kỳ nghỉ"
+    },
+    "usedDaysLabel": {
+      "en": "Used days",
+      "vi": "Đã dùng"
+    },
+    "allowanceLabel": {
+      "en": "Allowance",
+      "vi": "Định mức"
+    },
+    "totalDaysRemaining": {
+      "en": "{{n}} days remaining",
+      "vi": "Còn {{n}} ngày"
+    },
+    "remainingLabel": {
+      "en": "Remaining",
+      "vi": "Còn"
+    },
+    "totalDaysAssigned": {
+      "en": "{{n}} days assigned",
+      "vi": "{{n}} ngày được cấp"
+    },
+    "leaveTypeSuffix": {
+      "en": "leave",
+      "vi": "nghỉ phép"
+    },
+    "noLeaveHistoryYet": {
+      "en": "No leave application yet",
+      "vi": "Chưa có lịch sử nghỉ phép"
+    },
+    "startByRequestingLeave": {
+      "en": "Submit your first leave request when you need time off",
+      "vi": "Khi cần nghỉ, hãy gửi yêu cầu ở phía trên"
+    },
+    "requestLeaveCta": {
+      "en": "Leave application",
+      "vi": "Xin nghỉ phép"
+    },
+    "addLeave": {
+      "en": "Add leave",
+      "vi": "Thêm nghỉ phép"
+    },
+    "selectDatesOnCalendar": {
+      "en": "Select your leave dates on the calendar above.",
+      "vi": "Chọn ngày nghỉ phép của bạn trên lịch phía trên."
+    },
+    "noLeaveAllocation": {
+      "en": "No leave balance is assigned yet. Contact your HR administrator.",
+      "vi": "Chưa có số ngày phép nào được cấp. Liên hệ quản trị viên nhân sự của bạn."
+    }
+  },
+  "app.locationPermission": {
+    "title": {
+      "en": "Enable your location",
+      "vi": "Bật vị trí của bạn"
+    },
+    "description": {
+      "en": "This app requires that location services are turned on your device and for this app. You must enable them in Settings before using this app.",
+      "vi": "Ứng dụng yêu cầu bật dịch vụ vị trí trên thiết bị và cho ứng dụng. Bạn cần bật trong Cài đặt trước khi sử dụng ứng dụng."
+    },
+    "allowButton": {
+      "en": "Allow only while using this app",
+      "vi": "Chỉ cho phép khi dùng ứng dụng"
+    },
+    "denyButton": {
+      "en": "Don't allow this app",
+      "vi": "Không cho phép ứng dụng này"
+    }
+  },
+  "app.menu": {
+    "checkIn": {
+      "en": "Check-in",
+      "vi": "Chấm công"
+    },
+    "leaves": {
+      "en": "Leaves",
+      "vi": "Nghỉ phép"
+    },
+    "expenses": {
+      "en": "Expenses",
+      "vi": "Chi phí"
+    },
+    "checklist": {
+      "en": "Checklist",
+      "vi": "Danh sách"
+    },
+    "myAi": {
+      "en": "Prego AI",
+      "vi": "Prego AI"
+    },
+    "billing": {
+      "en": "Billing",
+      "vi": "Thanh toán"
+    },
+    "notices": {
+      "en": "Notices",
+      "vi": "Thông báo"
+    },
+    "noticeTooltip": {
+      "en": "Notice",
+      "vi": "Thông báo"
+    },
+    "dashboard": {
+      "en": "Dashboard",
+      "vi": "Bảng điều khiển"
+    },
+    "invoices": {
+      "en": "Invoices",
+      "vi": "Hóa đơn"
+    },
+    "customers": {
+      "en": "Customer",
+      "vi": "Khách hàng"
+    },
+    "accounting": {
+      "en": "Accounting",
+      "vi": "Kế toán"
+    },
+    "payment": {
+      "en": "Payment",
+      "vi": "Thanh toán"
+    },
+    "reservation": {
+      "en": "Reservation",
+      "vi": "Đặt chỗ"
+    },
+    "calendar": {
+      "en": "Calendar",
+      "vi": "Lịch"
+    },
+    "mailing": {
+      "en": "Mailing",
+      "vi": "Thư tín"
+    }
+  },
+  "app.moduleGuide": {
+    "common.showGuide": {
+      "en": "How it works",
+      "vi": "Cách sử dụng"
+    },
+    "common.dontShowAgain": {
+      "en": "Don't show again",
+      "vi": "Không hiển thị lại"
+    },
+    "common.gotIt": {
+      "en": "Got it",
+      "vi": "Đã hiểu"
+    },
+    "common.next": {
+      "en": "Next",
+      "vi": "Tiếp"
+    },
+    "common.back": {
+      "en": "Back",
+      "vi": "Quay lại"
+    },
+    "common.stepOf": {
+      "en": "Step {current} of {total}",
+      "vi": "Bước {current} / {total}"
+    },
+    "attendance.whatTitle": {
+      "en": "Track your work hours",
+      "vi": "Theo dõi giờ làm"
+    },
+    "attendance.whatBody": {
+      "en": "Check in when you start work and check out when you finish. Your attendance history appears here automatically.",
+      "vi": "Chấm công vào khi bắt đầu và chấm công ra khi kết thúc. Lịch sử chấm công sẽ tự động hiển thị tại đây."
+    },
+    "attendance.howTitle": {
+      "en": "How check-in works",
+      "vi": "Cách chấm công"
+    },
+    "attendance.howStep1": {
+      "en": "Tap Check In when you arrive at work (office or home).",
+      "vi": "Nhấn Vào ca khi đến nơi làm việc (văn phòng hoặc tại nhà)."
+    },
+    "attendance.howStep2": {
+      "en": "Tap Check Out when your shift ends.",
+      "vi": "Nhấn Tan ca khi kết thúc ca làm."
+    },
+    "attendance.howStep3": {
+      "en": "Review daily hours and totals in this list.",
+      "vi": "Xem giờ làm hằng ngày và tổng cộng trong danh sách này."
+    },
+    "attendance.startTitle": {
+      "en": "Ready to check in?",
+      "vi": "Sẵn sàng chấm công?"
+    },
+    "attendance.startBody": {
+      "en": "Use the check-in button at the top of the home screen.",
+      "vi": "Dùng nút chấm công ở đầu màn hình chính."
+    },
+    "attendance.startCta": {
+      "en": "Start check-in",
+      "vi": "Bắt đầu chấm công"
+    },
+    "expenses.whatTitle": {
+      "en": "Submit expense claims",
+      "vi": "Nộp yêu cầu chi phí"
+    },
+    "expenses.whatBody": {
+      "en": "Capture receipts and submit expenses for reimbursement. Approved claims are tracked here.",
+      "vi": "Chụp hóa đơn và nộp chi phí để được hoàn trả. Các khoản đã duyệt được theo dõi tại đây."
+    },
+    "expenses.howTitle": {
+      "en": "How to add an expense",
+      "vi": "Cách thêm chi phí"
+    },
+    "expenses.howStep1": {
+      "en": "Tap + and photograph or upload your receipt.",
+      "vi": "Nhấn + và chụp hoặc tải hóa đơn lên."
+    },
+    "expenses.howStep2": {
+      "en": "Choose a category and enter the amount.",
+      "vi": "Chọn danh mục và nhập số tiền."
+    },
+    "expenses.howStep3": {
+      "en": "Submit for approval — status updates appear in this list.",
+      "vi": "Gửi để phê duyệt — cập nhật trạng thái hiển thị trong danh sách này."
+    },
+    "expenses.startTitle": {
+      "en": "Add your first expense",
+      "vi": "Thêm chi phí đầu tiên"
+    },
+    "expenses.startBody": {
+      "en": "Keep a photo of your receipt handy.",
+      "vi": "Hãy chuẩn bị sẵn ảnh hóa đơn."
+    },
+    "expenses.startCta": {
+      "en": "Add expense",
+      "vi": "Thêm chi phí"
+    },
+    "checklist.whatTitle": {
+      "en": "Manage your tasks",
+      "vi": "Quản lý công việc"
+    },
+    "checklist.whatBody": {
+      "en": "Keep work, home, and personal tasks in one checklist with due dates and progress.",
+      "vi": "Gom việc làm, việc nhà và việc cá nhân trong một danh sách với hạn chót và tiến độ."
+    },
+    "checklist.howTitle": {
+      "en": "How to use the checklist",
+      "vi": "Cách dùng danh sách việc"
+    },
+    "checklist.howStep1": {
+      "en": "Tap + to create a task with a name and due date.",
+      "vi": "Nhấn + để tạo việc với tên và hạn chót."
+    },
+    "checklist.howStep2": {
+      "en": "Mark tasks done as you complete them.",
+      "vi": "Đánh dấu hoàn thành khi làm xong."
+    },
+    "checklist.howStep3": {
+      "en": "Track overall progress on the overview bar.",
+      "vi": "Theo dõi tiến độ tổng thể trên thanh tổng quan."
+    },
+    "checklist.startTitle": {
+      "en": "Create your first task",
+      "vi": "Tạo việc đầu tiên"
+    },
+    "checklist.startBody": {
+      "en": "Start with one small task due today.",
+      "vi": "Bắt đầu với một việc nhỏ hết hạn hôm nay."
+    },
+    "checklist.startCta": {
+      "en": "Add task",
+      "vi": "Thêm việc"
+    },
+    "invoices.whatTitle": {
+      "en": "Create and send invoices",
+      "vi": "Tạo và gửi hóa đơn"
+    },
+    "invoices.whatBody": {
+      "en": "Build professional invoices, preview them, and track payment status.",
+      "vi": "Lập hóa đơn chuyên nghiệp, xem trước và theo dõi trạng thái thanh toán."
+    },
+    "invoices.howTitle": {
+      "en": "How to create an invoice",
+      "vi": "Cách tạo hóa đơn"
+    },
+    "invoices.howStep1": {
+      "en": "Tap + and enter client details and line items.",
+      "vi": "Nhấn + và nhập thông tin khách hàng và các dòng chi tiết."
+    },
+    "invoices.howStep2": {
+      "en": "Preview the invoice before sending.",
+      "vi": "Xem trước hóa đơn trước khi gửi."
+    },
+    "invoices.howStep3": {
+      "en": "Send to your client and monitor open vs paid here.",
+      "vi": "Gửi cho khách hàng và theo dõi chưa thanh toán và đã thanh toán tại đây."
+    },
+    "invoices.startTitle": {
+      "en": "Create your first invoice",
+      "vi": "Tạo hóa đơn đầu tiên"
+    },
+    "invoices.startBody": {
+      "en": "You can save a draft and finish later.",
+      "vi": "Bạn có thể lưu bản nháp và hoàn tất sau."
+    },
+    "invoices.startCta": {
+      "en": "Create invoice",
+      "vi": "Tạo hóa đơn"
+    },
+    "customers.whatTitle": {
+      "en": "Your customer list",
+      "vi": "Danh sách khách hàng của bạn"
+    },
+    "customers.whatBody": {
+      "en": "Browse ERP customers synced from your company workspace.",
+      "vi": "Duyệt khách hàng ERP được đồng bộ từ workspace công ty của bạn."
+    },
+    "customers.howTitle": {
+      "en": "Need pipeline or deals?",
+      "vi": "Cần quản lý pipeline hoặc giao dịch?"
+    },
+    "customers.howStep1": {
+      "en": "Use Open in CRM for Frappe CRM on your tenant host.",
+      "vi": "Dùng Mở trong CRM để truy cập Frappe CRM trên tenant host của bạn."
+    },
+    "customers.howStep2": {
+      "en": "Use Work Desk for full ERP customer records and accounting links.",
+      "vi": "Dùng Work Desk để xem đầy đủ hồ sơ khách hàng ERP và các liên kết kế toán."
+    },
+    "leaves.whatTitle": {
+      "en": "Request time off",
+      "vi": "Xin nghỉ phép"
+    },
+    "leaves.whatBody": {
+      "en": "Apply for annual, sick, and other leave types. Your balance and history stay in one place.",
+      "vi": "Đăng ký nghỉ phép hàng năm, nghỉ ốm và các loại khác. Số ngày còn lại và lịch sử ở cùng một nơi."
+    },
+    "leaves.howTitle": {
+      "en": "How to request leave",
+      "vi": "Cách xin nghỉ phép"
+    },
+    "leaves.howStep1": {
+      "en": "Check your remaining leave balance at the top.",
+      "vi": "Kiểm tra số ngày nghỉ còn lại ở phía trên."
+    },
+    "leaves.howStep2": {
+      "en": "Select dates on the calendar and choose a leave type.",
+      "vi": "Chọn ngày trên lịch và chọn loại nghỉ phép."
+    },
+    "leaves.howStep3": {
+      "en": "Submit your request — approved leave appears in history.",
+      "vi": "Gửi yêu cầu — nghỉ phép đã duyệt hiển thị trong lịch sử."
+    },
+    "leaves.startTitle": {
+      "en": "Submit a leave request",
+      "vi": "Gửi yêu cầu nghỉ phép"
+    },
+    "leaves.startBody": {
+      "en": "Tap Leave application or the + button to pick dates and leave type.",
+      "vi": "Dùng biểu mẫu phía trên để chọn ngày và loại nghỉ."
+    },
+    "leaves.startCta": {
+      "en": "Leave application",
+      "vi": "Xin nghỉ phép"
+    },
+    "notices.whatTitle": {
+      "en": "Your work notifications",
+      "vi": "Thông báo công việc"
+    },
+    "notices.whatBody": {
+      "en": "Updates about leave, expenses, invoices, and tasks from your company ERP appear here.",
+      "vi": "Cập nhật về nghỉ phép, chi phí, hóa đơn và công việc từ ERP của công ty hiển thị tại đây."
+    },
+    "notices.howTitle": {
+      "en": "How notices work",
+      "vi": "Cách hoạt động của thông báo"
+    },
+    "notices.howStep1": {
+      "en": "Tap the bell icon on a notice to mark it as read.",
+      "vi": "Nhấn biểu tượng chuông trên thông báo để đánh dấu đã đọc."
+    },
+    "notices.howStep2": {
+      "en": "Use View details to open the related module when a link is available.",
+      "vi": "Dùng Xem chi tiết để mở module liên quan khi có liên kết."
+    }
+  },
+  "app.myAi": {
+    "title": {
+      "en": "Prego AI",
+      "vi": "Prego AI"
+    },
+    "newChat": {
+      "en": "New chat",
+      "vi": "Cuộc trò chuyện mới"
+    },
+    "navMegaSectionLabel": {
+      "en": "Prego AI",
+      "vi": "Prego AI"
+    },
+    "navAssistantTitle": {
+      "en": "Assistant",
+      "vi": "Trợ lý"
+    },
+    "navAssistantDescription": {
+      "en": "Chat with AI for policies, HR, and daily work — open a fresh conversation.",
+      "vi": "Trò chuyện AI về chính sách, nhân sự và công việc hằng ngày — bắt đầu cuộc trò chuyện mới."
+    },
+    "navAutopilotTitle": {
+      "en": "Autopilot",
+      "vi": "Autopilot"
+    },
+    "navAutopilotDescription": {
+      "en": "Automate workflows on your data — design and run self-driving tasks.",
+      "vi": "Tự động hóa quy trình trên dữ liệu — tạo và chạy tác vụ tự vận hành."
+    },
+    "knowledge": {
+      "en": "Knowledge",
+      "vi": "Kiến thức"
+    },
+    "autopilot": {
+      "en": "Autopilot",
+      "vi": "Tự động lái"
+    },
+    "autopilotPilotSidebarAria": {
+      "en": "Autopilot: {label}",
+      "vi": "Tự động lái: {label}"
+    },
+    "uploadFile": {
+      "en": "Upload file",
+      "vi": "Tải tệp lên"
+    },
+    "dragDropHint": {
+      "en": "Click or drag files here",
+      "vi": "Nhấp hoặc kéo tệp vào đây"
+    },
+    "dragDropHere": {
+      "en": "Drag and drop files here",
+      "vi": "Kéo và thả tệp vào đây"
+    },
+    "browseFiles": {
+      "en": "Browse Files",
+      "vi": "Duyệt tệp"
+    },
+    "filesAllowed": {
+      "en": "PNG, JPG, SVG, WEBP, GIF, and PDF are allowed.",
+      "vi": "Cho phép các định dạng PNG, JPG, SVG, WEBP, GIF và PDF."
+    },
+    "uploading": {
+      "en": "Uploading",
+      "vi": "Đang tải lên"
+    },
+    "done": {
+      "en": "done",
+      "vi": "hoàn tất"
+    },
+    "uploadedFiles": {
+      "en": "Uploaded files",
+      "vi": "Tệp đã tải lên"
+    },
+    "noFilesYet": {
+      "en": "No files uploaded yet.",
+      "vi": "Chưa có tệp nào được tải lên."
+    },
+    "fileUploaded": {
+      "en": "File uploaded",
+      "vi": "Đã tải tệp lên"
+    },
+    "uploadFailed": {
+      "en": "Upload failed",
+      "vi": "Tải lên thất bại"
+    },
+    "deleteFailed": {
+      "en": "Delete failed",
+      "vi": "Xóa thất bại"
+    },
+    "pilotCreated": {
+      "en": "Pilot created",
+      "vi": "Đã tạo phi công"
+    },
+    "createFailed": {
+      "en": "Create failed",
+      "vi": "Tạo thất bại"
+    },
+    "updateFailed": {
+      "en": "Update failed",
+      "vi": "Cập nhật thất bại"
+    },
+    "loading": {
+      "en": "Loading…",
+      "vi": "Đang tải…"
+    },
+    "runNow": {
+      "en": "Run now",
+      "vi": "Chạy ngay"
+    },
+    "runQueued": {
+      "en": "Run queued",
+      "vi": "Đã thêm vào hàng đợi"
+    },
+    "runCompleted": {
+      "en": "Run completed",
+      "vi": "Chạy hoàn tất"
+    },
+    "runFailed": {
+      "en": "Run failed",
+      "vi": "Chạy thất bại"
+    },
+    "lastRun": {
+      "en": "Last run",
+      "vi": "Lần chạy cuối"
+    },
+    "executionHistory": {
+      "en": "Execution history",
+      "vi": "Lịch sử chạy"
+    },
+    "noExecutions": {
+      "en": "No executions yet",
+      "vi": "Chưa có lịch sử chạy"
+    },
+    "notRunYet": {
+      "en": "Not run yet",
+      "vi": "Chưa chạy"
+    },
+    "triggeredManual": {
+      "en": "Manual",
+      "vi": "Thủ công"
+    },
+    "triggeredCron": {
+      "en": "Scheduled",
+      "vi": "Theo lịch"
+    },
+    "autopilotCopy": {
+      "en": "Streamline your workflow by automating repetitive tasks and managing complex operations. From scheduling to document generation, I take care of the execution so you can focus on what matters.",
+      "vi": "Bật tự động lái để AI xử lý thay bạn."
+    },
+    "autopilotTitle": {
+      "en": "Autopilot",
+      "vi": "Autopilot"
+    },
+    "promptWizard": {
+      "en": "Prompt Wizard",
+      "vi": "Trình hướng dẫn prompt"
+    },
+    "promptWizardPageTitle": {
+      "en": "Prompt Wizard",
+      "vi": "Trình hướng dẫn Prompt"
+    },
+    "promptWizardBackAria": {
+      "en": "Back to My AI",
+      "vi": "Quay lại My AI"
+    },
+    "promptWizardGenerate": {
+      "en": "Prompt Generate",
+      "vi": "Tạo Prompt"
+    },
+    "promptWizardFillAll": {
+      "en": "Please fill When, What, How, and Output.",
+      "vi": "Vui lòng điền Khi nào, Cái gì, Cách nào và Đầu ra."
+    },
+    "promptWizardGenerated": {
+      "en": "Prompt generated.",
+      "vi": "Đã tạo prompt."
+    },
+    "promptWizardNothingToCopy": {
+      "en": "Generate a prompt first.",
+      "vi": "Hãy tạo prompt trước."
+    },
+    "promptWizardNothingToSubmit": {
+      "en": "Generate a prompt first.",
+      "vi": "Hãy tạo prompt trước."
+    },
+    "promptWizardSubmitFailed": {
+      "en": "Could not submit. Try again.",
+      "vi": "Không thể gửi. Vui lòng thử lại."
+    },
+    "generatedPromptTitle": {
+      "en": "Generated prompt",
+      "vi": "Prompt đã tạo"
+    },
+    "submitToChat": {
+      "en": "Submit",
+      "vi": "Gửi"
+    },
+    "copyGeneratedPrompt": {
+      "en": "Copy",
+      "vi": "Sao chép"
+    },
+    "copyGeneratedSuccess": {
+      "en": "Copied to clipboard",
+      "vi": "Đã sao chép vào clipboard"
+    },
+    "historyAutopilotSession": {
+      "en": "Autopilot chat",
+      "vi": "Trò chuyện Autopilot"
+    },
+    "historyAutopilotSessionAria": {
+      "en": "Autopilot chat: {title}",
+      "vi": "Trò chuyện Autopilot: {title}"
+    },
+    "historyAutopilotDraftSession": {
+      "en": "Draft autopilot chat (not saved yet)",
+      "vi": "Trò chuyện Autopilot bản nháp (chưa lưu)"
+    },
+    "historyAutopilotDraftSessionAria": {
+      "en": "Draft autopilot chat (not saved yet): {title}",
+      "vi": "Trò chuyện Autopilot bản nháp (chưa lưu): {title}"
+    },
+    "historyOpenChatAria": {
+      "en": "Open chat: {title}",
+      "vi": "Mở trò chuyện: {title}"
+    },
+    "historySheetTitle": {
+      "en": "Chat History",
+      "vi": "Lịch sử trò chuyện"
+    },
+    "historySheetDescription": {
+      "en": "Browse and manage your previous AI conversations",
+      "vi": "Xem và quản lý các cuộc trò chuyện AI trước đây"
+    },
+    "historySheetCloseAria": {
+      "en": "Close chat list",
+      "vi": "Đóng danh sách trò chuyện"
+    },
+    "autopilotActionRun": {
+      "en": "Run",
+      "vi": "Chạy"
+    },
+    "autopilotActionRunTooltip": {
+      "en": "Run",
+      "vi": "Chạy"
+    },
+    "autopilotActionRunComingSoon": {
+      "en": "Run workflow: connect API to execute.",
+      "vi": "Chạy quy trình: kết nối API để thực thi."
+    },
+    "autopilotActionAdjustment": {
+      "en": "Adjustment",
+      "vi": "Điều chỉnh"
+    },
+    "autopilotActionAdjustmentTooltip": {
+      "en": "Adjustment",
+      "vi": "Điều chỉnh"
+    },
+    "autopilotAdjustmentInputHint": {
+      "en": "Adjust this automation:",
+      "vi": "Điều chỉnh tự động hóa này:"
+    },
+    "autopilotActionSave": {
+      "en": "Save to autopilot",
+      "vi": "Lưu vào Autopilot"
+    },
+    "autopilotActionSaveTooltip": {
+      "en": "Save to autopilot",
+      "vi": "Lưu vào Autopilot"
+    },
+    "autopilotActionSaveComingSoon": {
+      "en": "Save as pilot: connect API to persist.",
+      "vi": "Để lưu dạng pilot cần kết nối API."
+    },
+    "autopilotActionSaveSuccess": {
+      "en": "Saved to Autopilot",
+      "vi": "Đã lưu vào Autopilot"
+    },
+    "autopilotActionSaveFailed": {
+      "en": "Could not save to Autopilot",
+      "vi": "Không lưu được vào Autopilot"
+    },
+    "autopilotActionSaveLoading": {
+      "en": "Saving to Autopilot…",
+      "vi": "Đang lưu vào Autopilot…"
+    },
+    "autopilotActionSaveRetry": {
+      "en": "Retry",
+      "vi": "Thử lại"
+    },
+    "autopilotActionSaveBusy": {
+      "en": "Another save is in progress",
+      "vi": "Đang lưu mục khác, vui lòng đợi"
+    },
+    "autopilotActionUnlink": {
+      "en": "Remove saved selection",
+      "vi": "Bỏ chọn đã lưu"
+    },
+    "autopilotActionUnlinkTooltip": {
+      "en": "Saved to autopilot — click to clear selection",
+      "vi": "Đã lưu vào Autopilot — nhấp để bỏ chọn"
+    },
+    "backToAutopilot": {
+      "en": "Back",
+      "vi": "Quay lại"
+    },
+    "whenLabel": {
+      "en": "When",
+      "vi": "Khi nào"
+    },
+    "whatLabel": {
+      "en": "What",
+      "vi": "Cái gì"
+    },
+    "howLabel": {
+      "en": "How",
+      "vi": "Cách nào"
+    },
+    "outputChannelLabel": {
+      "en": "Output",
+      "vi": "Đầu ra"
+    },
+    "whenPlaceholder": {
+      "en": "e.g. Every Monday at 09:00",
+      "vi": "ví dụ: Mỗi thứ Hai lúc 09:00"
+    },
+    "whatPlaceholder": {
+      "en": "What should the automation do?",
+      "vi": "Tự động hóa này nên làm gì?"
+    },
+    "howPlaceholder": {
+      "en": "e.g. Draft only; I approve the final version",
+      "vi": "ví dụ: Chỉ tạo bản nháp; tôi sẽ phê duyệt phiên bản cuối cùng"
+    },
+    "outputChannelPlaceholder": {
+      "en": "e.g. Show in chat + Slack #channel",
+      "vi": "ví dụ: Hiển thị trong chat + kênh Slack #channel"
+    },
+    "templatesPageTitle": {
+      "en": "Templates",
+      "vi": "Mẫu"
+    },
+    "templatesPageSubtitle": {
+      "en": "Browse by area and open the Prompt Wizard with fields pre-filled.",
+      "vi": "Duyệt theo lĩnh vực và mở Trình hướng dẫn Prompt với các trường đã điền sẵn."
+    },
+    "templateCategoryHr": {
+      "en": "Human Resources (HR)",
+      "vi": "Nhân sự (HR)"
+    },
+    "templateCategoryCrmSales": {
+      "en": "CRM & Sales",
+      "vi": "CRM & Bán hàng"
+    },
+    "templateCategoryAccounting": {
+      "en": "Accounting",
+      "vi": "Kế toán"
+    },
+    "templateCategoryFinance": {
+      "en": "Finance",
+      "vi": "Tài chính"
+    },
+    "templateCategoryCompliance": {
+      "en": "Audit & Compliance",
+      "vi": "Kiểm toán & Tuân thủ"
+    },
+    "newAutopilot": {
+      "en": "New Autopilot",
+      "vi": "Autopilot mới"
+    },
+    "sidebarChats": {
+      "en": "Chats",
+      "vi": "Trò chuyện"
+    },
+    "sidebarMoreSavedAutopilotChats": {
+      "en": "More saved Autopilot chats",
+      "vi": "Thêm cuộc trò chuyện Autopilot đã lưu"
+    },
+    "sidebarAutopilots": {
+      "en": "Autopilots",
+      "vi": "Autopilot"
+    },
+    "hubEmptyAutopilotThreads": {
+      "en": "No autopilot conversations yet.",
+      "vi": "Chưa có cuộc trò chuyện Autopilot."
+    },
+    "hubInputPlaceholder": {
+      "en": "Describe a new autopilot or automation…",
+      "vi": "Mô tả Autopilot mới hoặc tác vụ tự động…"
+    },
+    "chatsListAllLoaded": {
+      "en": "All conversations loaded",
+      "vi": "Đã tải hết cuộc trò chuyện"
+    },
+    "myAutopilot": {
+      "en": "My Autopilot",
+      "vi": "Autopilot của tôi"
+    },
+    "configure": {
+      "en": "Configure →",
+      "vi": "Cấu hình →"
+    },
+    "autopilotSave": {
+      "en": "Save Autopilot",
+      "vi": "Lưu Autopilot"
+    },
+    "autopilotSaveSuccess": {
+      "en": "Autopilot saved! Next run: Monday 09:00",
+      "vi": "Đã lưu Autopilot! Lần chạy tiếp: Thứ 2 09:00"
+    },
+    "autopilotReset": {
+      "en": "Reset",
+      "vi": "Đặt lại"
+    },
+    "flowTab": {
+      "en": "Execution flow",
+      "vi": "Luồng thực thi"
+    },
+    "previewTab": {
+      "en": "Result preview",
+      "vi": "Xem trước kết quả"
+    },
+    "trustTab": {
+      "en": "Trust info",
+      "vi": "Thông tin tin cậy"
+    },
+    "useful": {
+      "en": "Useful",
+      "vi": "Hữu ích"
+    },
+    "improve": {
+      "en": "Needs improvement",
+      "vi": "Cần cải thiện"
+    },
+    "active": {
+      "en": "Active",
+      "vi": "Hoạt động"
+    },
+    "paused": {
+      "en": "Paused",
+      "vi": "Tạm dừng"
+    },
+    "resetDone": {
+      "en": "Reset complete.",
+      "vi": "Đã đặt lại."
+    },
+    "feedbackThanks": {
+      "en": "Thanks! We'll reflect this in the next run.",
+      "vi": "Cảm ơn! Sẽ phản ánh trong lần chạy tiếp theo."
+    },
+    "feedbackReceived": {
+      "en": "Feedback received. We'll suggest improvements.",
+      "vi": "Đã nhận phản hồi. Chúng tôi sẽ đề xuất cải tiến."
+    },
+    "autopilotPlaceholder": {
+      "en": "e.g. Send weekly HR attendance status to Slack every Monday",
+      "vi": "VD: Gửi tình trạng chấm công HR hàng tuần vào Slack"
+    },
+    "inputRequired": {
+      "en": "Please enter your request.",
+      "vi": "Vui lòng nhập nội dung."
+    },
+    "saveFailed": {
+      "en": "Save failed",
+      "vi": "Lưu thất bại"
+    },
+    "flowDiagram": {
+      "en": "Flow diagram",
+      "vi": "Sơ đồ luồng"
+    },
+    "flowDiagramRendering": {
+      "en": "Rendering chart…",
+      "vi": "Đang kết xuất biểu đồ…"
+    },
+    "viewAutopilotOutput": {
+      "en": "View output",
+      "vi": "Xem đầu ra"
+    },
+    "stepPending": {
+      "en": "Pending",
+      "vi": "Chờ"
+    },
+    "executionProgress": {
+      "en": "Execution progress",
+      "vi": "Tiến độ thực thi"
+    },
+    "resultCardOutput": {
+      "en": "Output",
+      "vi": "Đầu ra"
+    },
+    "resultCardConnection": {
+      "en": "Connection",
+      "vi": "Kết nối"
+    },
+    "defaultConversationTitle": {
+      "en": "New conversation",
+      "vi": "Cuộc trò chuyện mới"
+    },
+    "autopilotSourcesSnippetFallback": {
+      "en": "Autopilot workflow",
+      "vi": "Quy trình Autopilot"
+    },
+    "autopilotSourcesSnippetDraft": {
+      "en": "Autopilot workflow draft",
+      "vi": "Bản nháp quy trình Autopilot"
+    },
+    "stepStatus": {
+      "en": "Step status",
+      "vi": "Trạng thái bước"
+    },
+    "runControl": {
+      "en": "Run control",
+      "vi": "Điều khiển chạy"
+    },
+    "testRunCaption": {
+      "en": "Step-by-step preview",
+      "vi": "Xem trước từng bước"
+    },
+    "testRunDesc": {
+      "en": "Walks through plan steps and updates the preview. Check the flow before you save or schedule.",
+      "vi": "Chạy lần lượt từng bước trong kế hoạch và làm mới phần xem trước. Kiểm tra luồng trước khi lưu hoặc lên lịch."
+    },
+    "runningLabel": {
+      "en": "Running",
+      "vi": "Đang chạy"
+    },
+    "doneLabel": {
+      "en": "Done",
+      "vi": "Hoàn thành"
+    },
+    "expectedKpi": {
+      "en": "Expected KPI results",
+      "vi": "Kết quả KPI dự kiến"
+    },
+    "aiSummary": {
+      "en": "AI summary example",
+      "vi": "Ví dụ tóm tắt AI"
+    },
+    "outputChannel": {
+      "en": "Output channel",
+      "vi": "Kênh đầu ra"
+    },
+    "formatSelect": {
+      "en": "Format",
+      "vi": "Định dạng"
+    },
+    "previewEmpty": {
+      "en": "Preview will be generated after configuration",
+      "vi": "Xem trước sẽ được tạo sau khi cấu hình"
+    },
+    "connectionStatus": {
+      "en": "Connection status",
+      "vi": "Trạng thái kết nối"
+    },
+    "dataSource": {
+      "en": "Data source",
+      "vi": "Nguồn dữ liệu"
+    },
+    "errorLog": {
+      "en": "Error log",
+      "vi": "Nhật ký lỗi"
+    },
+    "runHistory": {
+      "en": "Run history",
+      "vi": "Lịch sử chạy"
+    },
+    "noRunHistory": {
+      "en": "No run history",
+      "vi": "Không có lịch sử chạy"
+    },
+    "trustDemoRunDate1": {
+      "en": "Mar 10, 09:00",
+      "vi": "10 thg 3, 09:00"
+    },
+    "trustDemoRunDate2": {
+      "en": "Mar 3, 09:00",
+      "vi": "3 thg 3, 09:00"
+    },
+    "trustDemoRunDate3": {
+      "en": "Feb 24, 09:00",
+      "vi": "24 thg 2, 09:00"
+    },
+    "trustDemoRunDate4": {
+      "en": "Feb 17, 09:00",
+      "vi": "17 thg 2, 09:00"
+    },
+    "success": {
+      "en": "Success",
+      "vi": "Thành công"
+    },
+    "failed": {
+      "en": "Failed",
+      "vi": "Thất bại"
+    },
+    "none": {
+      "en": "None",
+      "vi": "Không có"
+    },
+    "connected": {
+      "en": "Connected",
+      "vi": "Đã kết nối"
+    },
+    "disconnected": {
+      "en": "Disconnected",
+      "vi": "Đã ngắt"
+    },
+    "unknown": {
+      "en": "Unknown",
+      "vi": "Không xác định"
+    },
+    "usefulnessFeedback": {
+      "en": "Usefulness feedback",
+      "vi": "Phản hồi hữu ích"
+    },
+    "avgUsefulness": {
+      "en": "Average usefulness",
+      "vi": "Độ hữu ích TB"
+    },
+    "last4Weeks": {
+      "en": "Last 4 weeks",
+      "vi": "4 tuần gần đây"
+    },
+    "aiExplain": {
+      "en": "AI Explain",
+      "vi": "Giải thích AI"
+    },
+    "explainDesc": {
+      "en": "This Autopilot executes the following",
+      "vi": "Autopilot này thực hiện các bước sau"
+    },
+    "advancedSettings": {
+      "en": "Advanced settings",
+      "vi": "Cài đặt nâng cao"
+    },
+    "addAutopilot": {
+      "en": "Add autopilot",
+      "vi": "Thêm Autopilot"
+    },
+    "promptGenerate": {
+      "en": "Prompt Generate",
+      "vi": "Tạo prompt"
+    },
+    "viewInPanel": {
+      "en": "View in panel",
+      "vi": "Xem trong bảng điều khiển"
+    },
+    "outputPreview": {
+      "en": "Output Preview",
+      "vi": "Xem trước kết quả"
+    },
+    "adjustSettings": {
+      "en": "Adjust settings",
+      "vi": "Điều chỉnh chi tiết"
+    },
+    "automationLevel": {
+      "en": "Automation level",
+      "vi": "Mức tự động hóa"
+    },
+    "scheduleTime": {
+      "en": "Schedule",
+      "vi": "Thời điểm chạy"
+    },
+    "resultSend": {
+      "en": "Result delivery",
+      "vi": "Gửi kết quả"
+    },
+    "dsHr": {
+      "en": "HR",
+      "vi": "Nhân sự"
+    },
+    "dsFinance": {
+      "en": "Finance",
+      "vi": "Tài chính"
+    },
+    "dsCrm": {
+      "en": "CRM",
+      "vi": "CRM"
+    },
+    "dsKnowledgeBase": {
+      "en": "Knowledge Base",
+      "vi": "Cơ sở tri thức"
+    },
+    "levelDraft": {
+      "en": "Draft only",
+      "vi": "Chỉ nháp"
+    },
+    "levelDraftDesc": {
+      "en": "Review before send",
+      "vi": "Xem xét trước khi gửi"
+    },
+    "levelAutoSend": {
+      "en": "Auto send",
+      "vi": "Tự động gửi"
+    },
+    "levelAutoSendDesc": {
+      "en": "Send automatically",
+      "vi": "Gửi tự động"
+    },
+    "levelAutoAction": {
+      "en": "Auto action",
+      "vi": "Tự động thực thi"
+    },
+    "levelAutoActionDesc": {
+      "en": "Full automation to ERP",
+      "vi": "Tự động hoàn toàn đến ERP"
+    },
+    "scheduleDaily8": {
+      "en": "Daily 08:00",
+      "vi": "Hàng ngày 08:00"
+    },
+    "scheduleWeeklyMon": {
+      "en": "Mon 09:00",
+      "vi": "Thứ Hai 09:00"
+    },
+    "scheduleMonthly1st": {
+      "en": "1st of month",
+      "vi": "Ngày 1 hàng tháng"
+    },
+    "scheduleManual": {
+      "en": "Manual only",
+      "vi": "Chỉ thủ công"
+    },
+    "channelSlack": {
+      "en": "Slack",
+      "vi": "Slack"
+    },
+    "channelEmail": {
+      "en": "Email",
+      "vi": "Email"
+    },
+    "channelDrive": {
+      "en": "Google Drive",
+      "vi": "Google Drive"
+    },
+    "channelErp": {
+      "en": "ERP Dashboard",
+      "vi": "Bảng điều khiển ERP"
+    },
+    "configCompleteSuffix": {
+      "en": "Autopilot configured",
+      "vi": "Autopilot đã cấu hình"
+    },
+    "activeAutopilot": {
+      "en": "Active Autopilots",
+      "vi": "Autopilot hoạt động"
+    },
+    "successRate": {
+      "en": "Success rate",
+      "vi": "Tỷ lệ thành công"
+    },
+    "nextRun": {
+      "en": "Next run",
+      "vi": "Lần chạy tiếp"
+    },
+    "tableName": {
+      "en": "Name",
+      "vi": "Tên"
+    },
+    "tableStatus": {
+      "en": "Status",
+      "vi": "Trạng thái"
+    },
+    "tableNextRun": {
+      "en": "Next run",
+      "vi": "Lần chạy tiếp"
+    },
+    "tableUsefulness": {
+      "en": "Usefulness",
+      "vi": "Hữu ích"
+    },
+    "tableAction": {
+      "en": "Action",
+      "vi": "Thao tác"
+    },
+    "chipHrReport": {
+      "en": "HR weekly report",
+      "vi": "Báo cáo HR hàng tuần"
+    },
+    "chipApprovalAlert": {
+      "en": "Approval pending alert",
+      "vi": "Cảnh báo chờ duyệt"
+    },
+    "chipFinanceSummary": {
+      "en": "Monthly exec summary",
+      "vi": "Tóm tắt kinh doanh tháng"
+    },
+    "chipCrmPipeline": {
+      "en": "CRM pipeline",
+      "vi": "Pipeline CRM"
+    },
+    "chipExpenseDetect": {
+      "en": "Expense anomaly detection",
+      "vi": "Phát hiện bất thường chi phí"
+    },
+    "t_hr_name": {
+      "en": "HR weekly report",
+      "vi": "Báo cáo HR hàng tuần"
+    },
+    "t_hr_pill_0": {
+      "en": "HR data",
+      "vi": "Dữ liệu HR"
+    },
+    "t_hr_pill_1": {
+      "en": "Every Monday",
+      "vi": "Thứ Hai hàng tuần"
+    },
+    "t_hr_pill_2": {
+      "en": "Slack · Email",
+      "vi": "Slack · Email"
+    },
+    "t_hr_schedule": {
+      "en": "Mon 09:00",
+      "vi": "T2 09:00"
+    },
+    "t_hr_step_0_label": {
+      "en": "HR data fetch",
+      "vi": "Lấy dữ liệu HR"
+    },
+    "t_hr_step_0_desc": {
+      "en": "Attendance·leave ERP connection",
+      "vi": "Kết nối ERP chấm công·nghỉ phép"
+    },
+    "t_hr_step_1_label": {
+      "en": "Week-over-week analysis",
+      "vi": "Phân tích so tuần"
+    },
+    "t_hr_step_1_desc": {
+      "en": "Attendance rate·anomaly pattern detection",
+      "vi": "Tỷ lệ đi làm·phát hiện bất thường"
+    },
+    "t_hr_step_2_label": {
+      "en": "Report generation",
+      "vi": "Tạo báo cáo"
+    },
+    "t_hr_step_2_desc": {
+      "en": "Auto Markdown writing",
+      "vi": "Tự động viết Markdown"
+    },
+    "t_hr_step_3_label": {
+      "en": "Slack · Email send",
+      "vi": "Gửi Slack · Email"
+    },
+    "t_hr_step_3_desc": {
+      "en": "#hr-team + admin",
+      "vi": "#hr-team + quản lý"
+    },
+    "t_hr_mermaid_a": {
+      "en": "HR ERP",
+      "vi": "ERP Nhân sự"
+    },
+    "t_hr_mermaid_b": {
+      "en": "Data fetch",
+      "vi": "Lấy dữ liệu"
+    },
+    "t_hr_mermaid_c": {
+      "en": "AI analysis",
+      "vi": "Phân tích AI"
+    },
+    "t_hr_mermaid_d": {
+      "en": "Report generation",
+      "vi": "Tạo báo cáo"
+    },
+    "t_hr_mermaid_e": {
+      "en": "Slack·Email",
+      "vi": "Slack·Email"
+    },
+    "t_hr_metric_0_key": {
+      "en": "Attendance rate",
+      "vi": "Tỷ lệ đi làm"
+    },
+    "t_hr_metric_1_key": {
+      "en": "Leave requests",
+      "vi": "Đơn nghỉ phép"
+    },
+    "t_hr_metric_2_key": {
+      "en": "Late·early leave",
+      "vi": "Đi muộn·về sớm"
+    },
+    "t_hr_metric_3_key": {
+      "en": "vs last week",
+      "vi": "So tuần trước"
+    },
+    "t_hr_summary": {
+      "en": "This week attendance 94%, up 2%p vs last week. 12 leave requests, 3 late/early. Productivity +5%.",
+      "vi": "Tuần này 94% đi làm, +2%p so tuần trước. 12 đơn nghỉ, 3 đi muộn/về sớm. Năng suất +5%."
+    },
+    "t_hr_output": {
+      "en": "Slack #hr-team · Manager email",
+      "vi": "Slack #hr-team · Email quản lý"
+    },
+    "t_approval_name": {
+      "en": "Approval pending alert",
+      "vi": "Cảnh báo chờ duyệt"
+    },
+    "t_approval_pill_0": {
+      "en": "Approval module",
+      "vi": "Mô-đun duyệt"
+    },
+    "t_approval_pill_1": {
+      "en": "Daily 08:00",
+      "vi": "Hàng ngày 08:00"
+    },
+    "t_approval_pill_2": {
+      "en": "Email",
+      "vi": "Email"
+    },
+    "t_approval_schedule": {
+      "en": "Daily 08:00",
+      "vi": "Hàng ngày 08:00"
+    },
+    "t_approval_step_0_label": {
+      "en": "Pending approval fetch",
+      "vi": "Lấy chờ duyệt"
+    },
+    "t_approval_step_0_desc": {
+      "en": "ERP approval module scan",
+      "vi": "Quét mô-đun ERP"
+    },
+    "t_approval_step_1_label": {
+      "en": "Priority classification",
+      "vi": "Phân loại ưu tiên"
+    },
+    "t_approval_step_1_desc": {
+      "en": "Urgent/normal split",
+      "vi": "Khẩn cấp/thường"
+    },
+    "t_approval_step_2_label": {
+      "en": "Message drafting",
+      "vi": "Soạn tin nhắn"
+    },
+    "t_approval_step_2_desc": {
+      "en": "Item summary generation",
+      "vi": "Tạo tóm tắt"
+    },
+    "t_approval_step_3_label": {
+      "en": "Manager email",
+      "vi": "Email quản lý"
+    },
+    "t_approval_step_3_desc": {
+      "en": "With approval link",
+      "vi": "Có link duyệt"
+    },
+    "t_approval_mermaid_a": {
+      "en": "Approval ERP",
+      "vi": "ERP duyệt"
+    },
+    "t_approval_mermaid_b": {
+      "en": "Pending fetch",
+      "vi": "Lấy chờ duyệt"
+    },
+    "t_approval_mermaid_c": {
+      "en": "Priority classification",
+      "vi": "Phân loại ưu tiên"
+    },
+    "t_approval_mermaid_d": {
+      "en": "Message drafting",
+      "vi": "Soạn tin nhắn"
+    },
+    "t_approval_mermaid_e": {
+      "en": "Email",
+      "vi": "Email"
+    },
+    "t_approval_metric_0_key": {
+      "en": "Pending approvals",
+      "vi": "Chờ duyệt"
+    },
+    "t_approval_metric_1_key": {
+      "en": "Urgent",
+      "vi": "Khẩn cấp"
+    },
+    "t_approval_metric_2_key": {
+      "en": "Avg wait",
+      "vi": "Chờ TB"
+    },
+    "t_approval_metric_3_key": {
+      "en": "Completion rate",
+      "vi": "Tỷ lệ hoàn thành"
+    },
+    "t_approval_summary": {
+      "en": "8 pending (2 urgent). Avg wait 2.3 days, 78% completion.",
+      "vi": "8 chờ duyệt (2 khẩn). Chờ TB 2.3 ngày, 78% hoàn thành."
+    },
+    "t_approval_output": {
+      "en": "Manager email (with approval link)",
+      "vi": "Email quản lý (có link duyệt)"
+    },
+    "t_approval_warning_0": {
+      "en": "2 urgent — process immediately",
+      "vi": "2 khẩn—xử lý ngay"
+    },
+    "t_finance_name": {
+      "en": "Monthly exec summary",
+      "vi": "Tóm tắt kinh doanh tháng"
+    },
+    "t_finance_pill_0": {
+      "en": "Finance",
+      "vi": "Tài chính"
+    },
+    "t_finance_pill_1": {
+      "en": "1st of month",
+      "vi": "Ngày 1 hàng tháng"
+    },
+    "t_finance_pill_2": {
+      "en": "Email · Drive",
+      "vi": "Email · Drive"
+    },
+    "t_finance_schedule": {
+      "en": "1st 09:00",
+      "vi": "1 09:00"
+    },
+    "t_finance_step_0_label": {
+      "en": "Revenue·expense aggregation",
+      "vi": "Tổng hợp doanh thu·chi phí"
+    },
+    "t_finance_step_0_desc": {
+      "en": "Finance ERP fetch",
+      "vi": "Lấy Finance ERP"
+    },
+    "t_finance_step_1_label": {
+      "en": "Month-over-month analysis",
+      "vi": "Phân tích so tháng"
+    },
+    "t_finance_step_1_desc": {
+      "en": "Growth rate·anomaly detection",
+      "vi": "Tỷ lệ tăng·phát hiện bất thường"
+    },
+    "t_finance_step_2_label": {
+      "en": "PDF report generation",
+      "vi": "Tạo báo cáo PDF"
+    },
+    "t_finance_step_2_desc": {
+      "en": "Exec summary writing",
+      "vi": "Viết tóm tắt"
+    },
+    "t_finance_step_3_label": {
+      "en": "Exec distribution",
+      "vi": "Phân phối lãnh đạo"
+    },
+    "t_finance_step_3_desc": {
+      "en": "Email + Drive",
+      "vi": "Email + Drive"
+    },
+    "t_finance_mermaid_a": {
+      "en": "Finance ERP",
+      "vi": "ERP Tài chính"
+    },
+    "t_finance_mermaid_b": {
+      "en": "Aggregation",
+      "vi": "Tổng hợp"
+    },
+    "t_finance_mermaid_c": {
+      "en": "AI analysis",
+      "vi": "Phân tích AI"
+    },
+    "t_finance_mermaid_d": {
+      "en": "PDF generation",
+      "vi": "Tạo PDF"
+    },
+    "t_finance_mermaid_e": {
+      "en": "Email·Drive",
+      "vi": "Email·Drive"
+    },
+    "t_finance_metric_0_key": {
+      "en": "This month revenue",
+      "vi": "Doanh thu tháng"
+    },
+    "t_finance_metric_1_key": {
+      "en": "Expenses",
+      "vi": "Chi phí"
+    },
+    "t_finance_metric_2_key": {
+      "en": "vs last month",
+      "vi": "So tháng trước"
+    },
+    "t_finance_metric_3_key": {
+      "en": "Anomaly items",
+      "vi": "Mục bất thường"
+    },
+    "t_finance_summary": {
+      "en": "Revenue ₩240M, +12% vs last month. Expenses ₩82M. 3 anomaly items detected.",
+      "vi": "Doanh thu 240M, +12% so tháng trước. Chi phí 82M. 3 bất thường."
+    },
+    "t_finance_output": {
+      "en": "Exec email · Google Drive",
+      "vi": "Email lãnh đạo · Google Drive"
+    },
+    "t_finance_warning_0": {
+      "en": "3 anomaly items need review",
+      "vi": "3 bất thường cần xem"
+    },
+    "t_crm_name": {
+      "en": "CRM pipeline",
+      "vi": "Pipeline CRM"
+    },
+    "t_crm_pill_0": {
+      "en": "CRM data",
+      "vi": "Dữ liệu CRM"
+    },
+    "t_crm_pill_1": {
+      "en": "2x per week",
+      "vi": "2 lần/tuần"
+    },
+    "t_crm_pill_2": {
+      "en": "Slack",
+      "vi": "Slack"
+    },
+    "t_crm_schedule": {
+      "en": "2x per week",
+      "vi": "2 lần/tuần"
+    },
+    "t_crm_step_0_label": {
+      "en": "Pipeline fetch",
+      "vi": "Lấy pipeline"
+    },
+    "t_crm_step_0_desc": {
+      "en": "CRM deal·lead collection",
+      "vi": "Thu thập deal·lead CRM"
+    },
+    "t_crm_step_1_label": {
+      "en": "Conversion analysis",
+      "vi": "Phân tích chuyển đổi"
+    },
+    "t_crm_step_1_desc": {
+      "en": "Stage movement tracking",
+      "vi": "Theo dõi chuyển giai đoạn"
+    },
+    "t_crm_step_2_label": {
+      "en": "Closing forecast",
+      "vi": "Dự báo đóng"
+    },
+    "t_crm_step_2_desc": {
+      "en": "This week expected close",
+      "vi": "Dự kiến tuần này"
+    },
+    "t_crm_step_3_label": {
+      "en": "Sales Slack",
+      "vi": "Slack bán hàng"
+    },
+    "t_crm_step_3_desc": {
+      "en": "#sales channel share",
+      "vi": "Chia sẻ #sales"
+    },
+    "t_crm_mermaid_a": {
+      "en": "CRM",
+      "vi": "CRM"
+    },
+    "t_crm_mermaid_b": {
+      "en": "Pipeline fetch",
+      "vi": "Lấy pipeline"
+    },
+    "t_crm_mermaid_c": {
+      "en": "Conversion analysis",
+      "vi": "Phân tích chuyển đổi"
+    },
+    "t_crm_mermaid_d": {
+      "en": "Closing forecast",
+      "vi": "Dự báo đóng"
+    },
+    "t_crm_mermaid_e": {
+      "en": "Slack",
+      "vi": "Slack"
+    },
+    "t_crm_metric_0_key": {
+      "en": "Active deals",
+      "vi": "Deal hoạt động"
+    },
+    "t_crm_metric_1_key": {
+      "en": "Expected closing",
+      "vi": "Dự kiến đóng"
+    },
+    "t_crm_metric_2_key": {
+      "en": "Conversion rate",
+      "vi": "Tỷ lệ chuyển"
+    },
+    "t_crm_metric_3_key": {
+      "en": "Stalled deals",
+      "vi": "Deal trì trệ"
+    },
+    "t_crm_summary": {
+      "en": "24 active deals, 3 expected this week. Conversion 18%, +2%p vs last week.",
+      "vi": "24 deal hoạt động, 3 dự kiến tuần này. Chuyển 18%, +2%p."
+    },
+    "t_crm_output": {
+      "en": "Slack #sales channel",
+      "vi": "Slack #sales"
+    },
+    "t_expense_name": {
+      "en": "Expense anomaly detection",
+      "vi": "Phát hiện bất thường chi phí"
+    },
+    "t_expense_pill_0": {
+      "en": "Finance data",
+      "vi": "Dữ liệu Finance"
+    },
+    "t_expense_pill_1": {
+      "en": "Daily 09:00",
+      "vi": "Hàng ngày 09:00"
+    },
+    "t_expense_pill_2": {
+      "en": "Finance team alert",
+      "vi": "Thông báo tài chính"
+    },
+    "t_expense_schedule": {
+      "en": "Daily 09:00",
+      "vi": "Hàng ngày 09:00"
+    },
+    "t_expense_step_0_label": {
+      "en": "Daily expense fetch",
+      "vi": "Lấy chi phí hôm trước"
+    },
+    "t_expense_step_0_desc": {
+      "en": "Finance ERP collection",
+      "vi": "Thu thập Finance ERP"
+    },
+    "t_expense_step_1_label": {
+      "en": "Anomaly pattern detection",
+      "vi": "Phát hiện bất thường"
+    },
+    "t_expense_step_1_desc": {
+      "en": "AI vs average analysis",
+      "vi": "AI so với TB"
+    },
+    "t_expense_step_2_label": {
+      "en": "Risk classification",
+      "vi": "Phân loại rủi ro"
+    },
+    "t_expense_step_2_desc": {
+      "en": "High-risk·normal split",
+      "vi": "Cao·thường"
+    },
+    "t_expense_step_3_label": {
+      "en": "Finance team alert",
+      "vi": "Thông báo tài chính"
+    },
+    "t_expense_step_3_desc": {
+      "en": "Slack + email",
+      "vi": "Slack + email"
+    },
+    "t_expense_mermaid_a": {
+      "en": "Finance ERP",
+      "vi": "ERP Tài chính"
+    },
+    "t_expense_mermaid_b": {
+      "en": "Expense fetch",
+      "vi": "Lấy chi phí"
+    },
+    "t_expense_mermaid_c": {
+      "en": "Anomaly detection",
+      "vi": "Phát hiện bất thường"
+    },
+    "t_expense_mermaid_d": {
+      "en": "Risk classification",
+      "vi": "Phân loại rủi ro"
+    },
+    "t_expense_mermaid_e": {
+      "en": "Finance team alert",
+      "vi": "Thông báo tài chính"
+    },
+    "t_expense_metric_0_key": {
+      "en": "Review count",
+      "vi": "Số xem xét"
+    },
+    "t_expense_metric_1_key": {
+      "en": "Anomalies detected",
+      "vi": "Bất thường"
+    },
+    "t_expense_metric_2_key": {
+      "en": "High risk",
+      "vi": "Rủi ro cao"
+    },
+    "t_expense_metric_3_key": {
+      "en": "Detection rate",
+      "vi": "Tỷ lệ phát hiện"
+    },
+    "t_expense_summary": {
+      "en": "4 anomalies in 142 expenses. 1 high-risk — review immediately.",
+      "vi": "4 bất thường trong 142 chi phí. 1 rủi ro cao—xem ngay."
+    },
+    "t_expense_output": {
+      "en": "Slack #finance · Finance team email",
+      "vi": "Slack #finance · Email tài chính"
+    },
+    "t_expense_warning_0": {
+      "en": "1 high-risk anomaly — review immediately",
+      "vi": "1 rủi ro cao—xem ngay"
+    },
+    "t_custom_name": {
+      "en": "Custom Autopilot",
+      "vi": "Autopilot tùy chỉnh"
+    },
+    "t_custom_schedule": {
+      "en": "On request only",
+      "vi": "Chỉ khi yêu cầu"
+    },
+    "t_custom_step_0_label": {
+      "en": "Data fetch",
+      "vi": "Lấy dữ liệu"
+    },
+    "t_custom_step_0_desc": {
+      "en": "ERP connection",
+      "vi": "Kết nối ERP"
+    },
+    "t_custom_step_1_label": {
+      "en": "AI analysis",
+      "vi": "Phân tích AI"
+    },
+    "t_custom_step_1_desc": {
+      "en": "Pattern analysis",
+      "vi": "Phân tích mẫu"
+    },
+    "t_custom_step_2_label": {
+      "en": "Report generation",
+      "vi": "Tạo báo cáo"
+    },
+    "t_custom_step_2_desc": {
+      "en": "LLM generation",
+      "vi": "LLM tạo"
+    },
+    "t_custom_step_3_label": {
+      "en": "Result delivery",
+      "vi": "Gửi kết quả"
+    },
+    "t_custom_step_3_desc": {
+      "en": "Output channel",
+      "vi": "Kênh đầu ra"
+    },
+    "t_custom_mermaid_a": {
+      "en": "ERP",
+      "vi": "ERP"
+    },
+    "t_custom_mermaid_b": {
+      "en": "Data fetch",
+      "vi": "Lấy dữ liệu"
+    },
+    "t_custom_mermaid_c": {
+      "en": "AI analysis",
+      "vi": "Phân tích AI"
+    },
+    "t_custom_mermaid_d": {
+      "en": "Report generation",
+      "vi": "Tạo báo cáo"
+    },
+    "t_custom_mermaid_e": {
+      "en": "Output",
+      "vi": "Đầu ra"
+    },
+    "t_custom_summary": {
+      "en": "Preview will be generated after configuration.",
+      "vi": "Xem trước sau khi cấu hình."
+    },
+    "t_custom_output": {
+      "en": "-",
+      "vi": "-"
+    },
+    "pilotType": {
+      "en": "Select pilot type",
+      "vi": "Chọn loại phi công"
+    },
+    "reportPilot": {
+      "en": "Report pilot",
+      "vi": "Phi công báo cáo"
+    },
+    "reportPilotDesc": {
+      "en": "Auto-generate weekly/monthly reports",
+      "vi": "Tự động tạo báo cáo tuần/tháng"
+    },
+    "approvalPilot": {
+      "en": "Approval pilot",
+      "vi": "Phi công phê duyệt"
+    },
+    "approvalPilotDesc": {
+      "en": "Summary and alerts for pending approvals",
+      "vi": "Tóm tắt và thông báo mục chờ duyệt"
+    },
+    "hrPilot": {
+      "en": "HR pilot",
+      "vi": "Phi công nhân sự"
+    },
+    "hrPilotDesc": {
+      "en": "Monitor attendance and leave status",
+      "vi": "Giám sát chấm công và nghỉ phép"
+    },
+    "createCustom": {
+      "en": "Create custom",
+      "vi": "Tạo tùy chỉnh"
+    },
+    "when": {
+      "en": "When",
+      "vi": "Khi nào chạy?"
+    },
+    "whenDesc": {
+      "en": "Schedule execution",
+      "vi": "Thiết lập thời điểm chạy"
+    },
+    "what": {
+      "en": "What",
+      "vi": "Làm gì?"
+    },
+    "whatDesc": {
+      "en": "Target tasks/data",
+      "vi": "Công việc/dữ liệu đích"
+    },
+    "how": {
+      "en": "How",
+      "vi": "Làm thế nào?"
+    },
+    "howDesc": {
+      "en": "Auto / Confirm before run / Draft only",
+      "vi": "Tự động / Chạy sau khi xác nhận / Chỉ nháp"
+    },
+    "output": {
+      "en": "Output",
+      "vi": "Kết quả gửi đến đâu?"
+    },
+    "outputDesc": {
+      "en": "Where to deliver results",
+      "vi": "Đích nhận kết quả"
+    },
+    "outputWebhook": {
+      "en": "Output webhook (optional)",
+      "vi": "Webhook đầu ra (tùy chọn)"
+    },
+    "whatQueryLabel": {
+      "en": "Custom RAG query (optional)",
+      "vi": "Truy vấn RAG tùy chỉnh (tùy chọn)"
+    },
+    "whatQueryPlaceholder": {
+      "en": "e.g. leave requests, approvals...",
+      "vi": "vd: đơn nghỉ phép, chờ duyệt..."
+    },
+    "whatQueryExpand": {
+      "en": "Configure RAG query",
+      "vi": "Cấu hình truy vấn RAG"
+    },
+    "whatQueryCollapse": {
+      "en": "Collapse",
+      "vi": "Thu gọn"
+    },
+    "configNode": {
+      "en": "Configure",
+      "vi": "Cấu hình"
+    },
+    "whenScheduleLabel": {
+      "en": "Schedule",
+      "vi": "Lịch"
+    },
+    "scheduleDaily": {
+      "en": "Daily (9:00 UTC)",
+      "vi": "Hàng ngày (9:00 UTC)"
+    },
+    "scheduleWeekly": {
+      "en": "Weekly (Mon 9:00 UTC)",
+      "vi": "Hàng tuần (T2 9:00 UTC)"
+    },
+    "howModeLabel": {
+      "en": "Execution mode",
+      "vi": "Chế độ thực thi"
+    },
+    "modeAuto": {
+      "en": "Auto (run immediately)",
+      "vi": "Tự động (chạy ngay)"
+    },
+    "modeConfirm": {
+      "en": "Confirm before sending",
+      "vi": "Xác nhận trước khi gửi"
+    },
+    "modeDraft": {
+      "en": "Draft only (no send)",
+      "vi": "Chỉnh bản nháp (không gửi)"
+    },
+    "retry": {
+      "en": "Retry",
+      "vi": "Thử lại"
+    },
+    "pilots": {
+      "en": "My pilots",
+      "vi": "Phi công của tôi"
+    },
+    "designFlow": {
+      "en": "Flow design (drag to reorder)",
+      "vi": "Thiết kế luồng (kéo để sắp xếp)"
+    },
+    "flow": {
+      "en": "Flow",
+      "vi": "Quy trình"
+    },
+    "generate": {
+      "en": "Generate",
+      "vi": "Tạo"
+    },
+    "template": {
+      "en": "Template",
+      "vi": "Mẫu"
+    },
+    "text": {
+      "en": "Text",
+      "vi": "Văn bản"
+    },
+    "image": {
+      "en": "Image",
+      "vi": "Hình ảnh"
+    },
+    "noResultYet": {
+      "en": "Click Generate to see the result.",
+      "vi": "Nhấp nút Tạo để xem kết quả."
+    },
+    "close": {
+      "en": "Close",
+      "vi": "Đóng"
+    },
+    "closeSidebar": {
+      "en": "Close sidebar",
+      "vi": "Đóng thanh bên"
+    },
+    "openSidebar": {
+      "en": "Open sidebar",
+      "vi": "Mở thanh bên"
+    },
+    "backToAutopilotAria": {
+      "en": "Back to Autopilot",
+      "vi": "Quay lại Autopilot"
+    },
+    "rightPanelOpenAria": {
+      "en": "Open panel",
+      "vi": "Mở bảng"
+    },
+    "rightPanelCloseAria": {
+      "en": "Close panel",
+      "vi": "Đóng bảng"
+    },
+    "autopilotPanelSheetTitle": {
+      "en": "Autopilot panel",
+      "vi": "Bảng Autopilot"
+    },
+    "promptGeneratorSectionTitle": {
+      "en": "Prompt Generator",
+      "vi": "Trình tạo prompt"
+    },
+    "rightPanelTabPrompt": {
+      "en": "Prompt",
+      "vi": "Prompt"
+    },
+    "promptGeneratorToggleOpenAria": {
+      "en": "Open Prompt Generator",
+      "vi": "Mở trình tạo prompt"
+    },
+    "promptGeneratorToggleCloseAria": {
+      "en": "Close Prompt Generator",
+      "vi": "Đóng trình tạo prompt"
+    },
+    "indexingDocs": {
+      "en": "Indexing Docs",
+      "vi": "Đang lập chỉ mục tài liệu"
+    },
+    "knowledgePageSubtitle": {
+      "en": "The Brain Behind Every Assistant & Autopilot",
+      "vi": "Nền tảng tri thức cho mọi Trợ lý & Autopilot"
+    },
+    "edit": {
+      "en": "Edit",
+      "vi": "Chỉnh sửa"
+    },
+    "reindex": {
+      "en": "Reindex",
+      "vi": "Lập chỉ mục lại"
+    },
+    "seePages": {
+      "en": "See pages",
+      "vi": "Xem trang"
+    },
+    "comingSoon": {
+      "en": "Coming soon",
+      "vi": "Sắp ra mắt"
+    },
+    "renameFile": {
+      "en": "Rename file",
+      "vi": "Đổi tên tệp"
+    },
+    "renameFileSaved": {
+      "en": "File renamed",
+      "vi": "Đã đổi tên tệp"
+    },
+    "reindexStarted": {
+      "en": "Reindexing started",
+      "vi": "Đã bắt đầu lập chỉ mục lại"
+    },
+    "reindexFailed": {
+      "en": "Reindexing failed",
+      "vi": "Lập chỉ mục lại thất bại"
+    },
+    "pagesEmpty": {
+      "en": "No pages indexed yet",
+      "vi": "Chưa có trang nào được lập chỉ mục"
+    },
+    "openInNewTab": {
+      "en": "Open in new tab",
+      "vi": "Mở trong tab mới"
+    },
+    "download": {
+      "en": "Download",
+      "vi": "Tải xuống"
+    },
+    "searchChats": {
+      "en": "Search chats",
+      "vi": "Tìm kiếm trò chuyện"
+    },
+    "searchChatsPlaceholder": {
+      "en": "Search chats…",
+      "vi": "Tìm kiếm trò chuyện…"
+    },
+    "searchPopupRecentHeading": {
+      "en": "Previous 7 Days",
+      "vi": "7 ngày trước"
+    },
+    "searchPopupNoRecent": {
+      "en": "No recent searches",
+      "vi": "Chưa có tìm kiếm gần đây"
+    },
+    "searchPopupSubmit": {
+      "en": "Search",
+      "vi": "Tìm kiếm"
+    },
+    "openPilotDashboard": {
+      "en": "Open dashboard",
+      "vi": "Mở bảng điều khiển"
+    },
+    "pilotDeleted": {
+      "en": "Pilot removed",
+      "vi": "Đã xóa pilot"
+    },
+    "share": {
+      "en": "Share",
+      "vi": "Chia sẻ"
+    },
+    "rename": {
+      "en": "Rename",
+      "vi": "Đổi tên"
+    },
+    "delete": {
+      "en": "Delete",
+      "vi": "Xóa"
+    },
+    "linkCopied": {
+      "en": "Link copied to clipboard",
+      "vi": "Đã sao chép liên kết vào clipboard"
+    },
+    "linkCopyFailed": {
+      "en": "Failed to copy link",
+      "vi": "Không thể sao chép liên kết"
+    },
+    "renameChat": {
+      "en": "Rename chat",
+      "vi": "Đổi tên cuộc trò chuyện"
+    },
+    "renamePlaceholder": {
+      "en": "Chat title",
+      "vi": "Tiêu đề cuộc trò chuyện"
+    },
+    "renameSaved": {
+      "en": "Chat renamed",
+      "vi": "Đã đổi tên cuộc trò chuyện"
+    },
+    "renamePilot": {
+      "en": "Rename pilot",
+      "vi": "Đổi tên pilot"
+    },
+    "renamePilotPlaceholder": {
+      "en": "Pilot name",
+      "vi": "Tên pilot"
+    },
+    "renamePilotSaved": {
+      "en": "Pilot renamed",
+      "vi": "Đã đổi tên pilot"
+    },
+    "pilotRunStarted": {
+      "en": "Run started",
+      "vi": "Đã bắt đầu chạy"
+    },
+    "pilotRunFailed": {
+      "en": "Could not run pilot",
+      "vi": "Không thể chạy pilot"
+    },
+    "cancel": {
+      "en": "Cancel",
+      "vi": "Hủy"
+    },
+    "save": {
+      "en": "Save",
+      "vi": "Lưu"
+    },
+    "description": {
+      "en": "Get instant answers to company policies, procedures, and any work-related inquiries. I analyze your uploaded documents to provide accurate, context-aware information in seconds.",
+      "vi": "Đặt câu hỏi về chính sách, quy trình công ty hoặc chủ đề liên quan công việc. Tôi có thể giúp bạn tìm thông tin từ tài liệu."
+    },
+    "askAnything": {
+      "en": "Ask anything",
+      "vi": "Hỏi bất cứ điều gì"
+    },
+    "inputPlaceholder": {
+      "en": "Ask about company policies, procedures...",
+      "vi": "Hỏi về chính sách, quy trình công ty..."
+    },
+    "promptComposerPlaceholder": {
+      "en": "Enter a prompt for Prego AI",
+      "vi": "Nhập lời nhắc cho Prego AI"
+    },
+    "landingHi": {
+      "en": "Hi, {{name}}",
+      "vi": "Xin chào, {{name}}"
+    },
+    "landingHiFallbackName": {
+      "en": "there",
+      "vi": "bạn"
+    },
+    "landingHeadingChat": {
+      "en": "Where should we start?",
+      "vi": "Chúng ta bắt đầu từ đâu?"
+    },
+    "landingHeadingAutopilot": {
+      "en": "What should Autopilot handle?",
+      "vi": "Autopilot nên xử lý việc gì?"
+    },
+    "landingHeadingHub": {
+      "en": "New autopilot",
+      "vi": "Autopilot mới"
+    },
+    "landingBrandAssistantTitle": {
+      "en": "Assistant",
+      "vi": "Trợ lý"
+    },
+    "landingBrandAssistantSubtitle": {
+      "en": "Your AI Workflow, Simplified",
+      "vi": "Quy trình làm việc đơn giản hơn với AI"
+    },
+    "landingBrandAutopilotTitle": {
+      "en": "Autopilot",
+      "vi": "Autopilot"
+    },
+    "landingBrandAutopilotSubtitle": {
+      "en": "The Self-Driving Engine for Your Data",
+      "vi": "Cỗ máy tự hành cho dữ liệu của bạn"
+    },
+    "autopilotLandingTabChats": {
+      "en": "Autopilots",
+      "vi": "Autopilot"
+    },
+    "autopilotLandingTabTemplate": {
+      "en": "Template",
+      "vi": "Mẫu"
+    },
+    "autopilotLandingTabWizard": {
+      "en": "Wizard",
+      "vi": "Trình hướng dẫn"
+    },
+    "wizardMagic": {
+      "en": "Magic",
+      "vi": "Kỳ diệu"
+    },
+    "wizardRun": {
+      "en": "Run",
+      "vi": "Chạy"
+    },
+    "wizardTestRun": {
+      "en": "Test Run",
+      "vi": "Chạy thử"
+    },
+    "wizardFillWhenWhatHow": {
+      "en": "Please fill When, What, and How before Test Run.",
+      "vi": "Vui lòng điền đủ Khi nào / Làm gì / Làm thế nào trước khi chạy thử."
+    },
+    "wizardRunFullAutopilot": {
+      "en": "Run full Autopilot",
+      "vi": "Chạy toàn bộ Autopilot"
+    },
+    "wizardMagicFailed": {
+      "en": "AI unavailable; applied a local refinement.",
+      "vi": "Không dùng được AI; đã tinh chỉnh cục bộ."
+    },
+    "wizardPrev": {
+      "en": "Previous",
+      "vi": "Trước"
+    },
+    "wizardNext": {
+      "en": "Next",
+      "vi": "Tiếp"
+    },
+    "autopilotLandingTemplateStarted": {
+      "en": "Running template: {{title}}",
+      "vi": "Đang chạy mẫu: {{title}}"
+    },
+    "wizardEnterTextFirst": {
+      "en": "Please enter text in this field first.",
+      "vi": "Vui lòng nhập nội dung vào ô này trước."
+    },
+    "wizardMagicUpdated": {
+      "en": "Updated.",
+      "vi": "Đã cập nhật."
+    },
+    "wizardMagicUpdatedDemo": {
+      "en": "Updated (demo mode).",
+      "vi": "Đã cập nhật (chế độ demo)."
+    },
+    "wizardTestRunMockOutput": {
+      "en": "Demo: Prego AI would merge your When / What / How brief with RAG context from connected HR, CRM, and finance data, then draft the next automation steps and a short report outline.",
+      "vi": "Demo: Prego AI gộp Khi nào / Làm gì / Làm thế nào với dữ liệu HR, CRM và tài chính đã kết nối, rồi phác thảo bước tự động hóa tiếp theo và dàn ý báo cáo ngắn."
+    },
+    "wizardTestRunAiUnavailable": {
+      "en": "Could not reach AI. Locally, your When / What / How would feed the Autopilot plan builder together with Output.",
+      "vi": "Không kết nối được AI. Ở chế độ cục bộ, Khi nào / Làm gì / Làm thế nào và đầu ra vẫn được dùng để lập kế hoạch Autopilot."
+    },
+    "wizardTestRunAiUnavailableShort": {
+      "en": "Could not reach AI. Your fields will still be included in the full Autopilot prompt.",
+      "vi": "Không kết nối được AI. Các trường bạn nhập vẫn nằm trong toàn bộ prompt Autopilot."
+    },
+    "wizardFallbackRefinedLine": {
+      "en": "— Refined ({{label}}): Add concrete scope, data sources, actors, and measurable outcomes where applicable.",
+      "vi": "— Tinh chỉnh ({{label}}): Hãy nêu rõ phạm vi, nguồn dữ liệu, vai trò và kết quả đo lường được."
+    },
+    "wizardStepsAriaLabel": {
+      "en": "Wizard steps",
+      "vi": "Các bước trình hướng dẫn"
+    },
+    "autopilotStatDash": {
+      "en": "—",
+      "vi": "—"
+    },
+    "autopilotStatActiveAutopilots": {
+      "en": "Active Autopilots",
+      "vi": "Autopilot đang hoạt động"
+    },
+    "autopilotStatSuccessRate": {
+      "en": "Success rate",
+      "vi": "Tỷ lệ thành công"
+    },
+    "autopilotStatNextRun": {
+      "en": "Next run",
+      "vi": "Lần chạy tiếp"
+    },
+    "autopilotStatAvgUsefulness": {
+      "en": "Average usefulness",
+      "vi": "Mức hữu ích trung bình"
+    },
+    "autopilotLandingStatusActive": {
+      "en": "Active",
+      "vi": "Hoạt động"
+    },
+    "autopilotLandingStatusPaused": {
+      "en": "Paused",
+      "vi": "Tạm dừng"
+    },
+    "autopilotLandingEdit": {
+      "en": "Edit",
+      "vi": "Sửa"
+    },
+    "autopilotLandingDisable": {
+      "en": "Disable",
+      "vi": "Tắt"
+    },
+    "autopilotLandingEnable": {
+      "en": "Enable",
+      "vi": "Bật"
+    },
+    "autopilotLandingEnabledToast": {
+      "en": "Autopilot enabled",
+      "vi": "Đã bật Autopilot"
+    },
+    "autopilotLandingDisabledToast": {
+      "en": "Autopilot paused",
+      "vi": "Autopilot đã tạm dừng"
+    },
+    "autopilotLandingChatRowBadge": {
+      "en": "Chat",
+      "vi": "Trò chuyện"
+    },
+    "autopilotLandingConfirmedEmpty": {
+      "en": "No saved autopilots or Autopilot conversations yet.",
+      "vi": "Chưa có Autopilot đã lưu hay cuộc trò chuyện Autopilot."
+    },
+    "autopilotLandingSourcesDraftsHeading": {
+      "en": "Draft Autopilot chats",
+      "vi": "Cuộc trò chuyện Autopilot nháp"
+    },
+    "autopilotLandingSourcesAllEmpty": {
+      "en": "No knowledge files or draft Autopilot chats yet.",
+      "vi": "Chưa có tệp tri thức hay cuộc trò chuyện Autopilot nháp."
+    },
+    "autopilotLandingSourcesKnowledgeLabel": {
+      "en": "Knowledge",
+      "vi": "Tri thức"
+    },
+    "autopilotLandingSourcesLoading": {
+      "en": "Loading…",
+      "vi": "Đang tải…"
+    },
+    "assistantMessageSourcesLabel": {
+      "en": "Sources",
+      "vi": "Nguồn"
+    },
+    "assistantMessageViewSourceAria": {
+      "en": "View source: {title}",
+      "vi": "Xem nguồn: {title}"
+    },
+    "assistantSourceUntitledFallback": {
+      "en": "Source",
+      "vi": "Nguồn"
+    },
+    "autopilotLandingRowSubtitleAutopilot": {
+      "en": "Autopilot",
+      "vi": "Autopilot"
+    },
+    "autopilotLandingRowSubtitleDraftPilot": {
+      "en": "Draft",
+      "vi": "Bản nháp"
+    },
+    "indexingBannerMessage": {
+      "en": "File is being indexed. You can send your message; it may be included in answers shortly.",
+      "vi": "Tệp đang được lập chỉ mục. Bạn có thể gửi tin nhắn; nội dung có thể được đưa vào câu trả lời sau."
+    },
+    "attachFile": {
+      "en": "Attach file",
+      "vi": "Đính kèm tệp"
+    },
+    "composerMessageAria": {
+      "en": "Type your message",
+      "vi": "Nhập tin nhắn"
+    },
+    "hubComposerMessageAria": {
+      "en": "New autopilot message",
+      "vi": "Tin nhắn Autopilot mới"
+    },
+    "removeAttachmentAria": {
+      "en": "Remove {name}",
+      "vi": "Gỡ {name}"
+    },
+    "removeAria": {
+      "en": "Remove",
+      "vi": "Gỡ"
+    },
+    "removeMenu": {
+      "en": "Remove",
+      "vi": "Gỡ"
+    },
+    "knowledgeRenameTooltip": {
+      "en": "Rename",
+      "vi": "Đổi tên"
+    },
+    "knowledgeRemoveTooltip": {
+      "en": "Remove",
+      "vi": "Gỡ"
+    },
+    "sidebarAutopilotRun": {
+      "en": "Run",
+      "vi": "Chạy"
+    },
+    "suggestionButtonAria": {
+      "en": "Ask about {suggestion}",
+      "vi": "Hỏi về {suggestion}"
+    },
+    "scrollToBottomAria": {
+      "en": "Scroll to bottom",
+      "vi": "Cuộn xuống cuối"
+    },
+    "knowledgeSelectFilesAria": {
+      "en": "Select files to upload",
+      "vi": "Chọn tệp để tải lên"
+    },
+    "templateCategoriesTablistAria": {
+      "en": "Template categories",
+      "vi": "Danh mục mẫu"
+    },
+    "aiEngineMenuTitle": {
+      "en": "AI Engine",
+      "vi": "Công cụ AI"
+    },
+    "aiEngineUpsellTitle": {
+      "en": "Get more from AI",
+      "vi": "Tận dụng tối đa AI"
+    },
+    "aiEngineUpsellSubtitle": {
+      "en": "Unlock exclusive tools & higher limits",
+      "vi": "Mở khóa công cụ độc quyền và giới hạn cao hơn"
+    },
+    "aiEngineUpgrade": {
+      "en": "Upgrade",
+      "vi": "Nâng cấp"
+    },
+    "selectedModelPrefix": {
+      "en": "Model:",
+      "vi": "Mô hình:"
+    },
+    "enginePregoProLabel": {
+      "en": "Assistant",
+      "vi": "Trợ lý"
+    },
+    "enginePregoProSubtitle": {
+      "en": "Best for most tasks",
+      "vi": "Phù hợp hầu hết tác vụ"
+    },
+    "engineAutopilotLabel": {
+      "en": "Autopilot",
+      "vi": "Autopilot"
+    },
+    "engineAutopilotSubtitle": {
+      "en": "Routine automation",
+      "vi": "Tự động hóa thường xuyên"
+    },
+    "engineGemini3Label": {
+      "en": "Gemini 3",
+      "vi": "Gemini 3"
+    },
+    "engineGemini3Subtitle": {
+      "en": "Solves complex problems",
+      "vi": "Giải quyết vấn đề phức tạp"
+    },
+    "engineChatGptLabel": {
+      "en": "ChatGPT",
+      "vi": "ChatGPT"
+    },
+    "engineChatGptSubtitle": {
+      "en": "Answers quickly",
+      "vi": "Trả lời nhanh"
+    },
+    "engineClaudeLabel": {
+      "en": "Claude",
+      "vi": "Claude"
+    },
+    "engineClaudeSubtitle": {
+      "en": "Advanced reasoning and code",
+      "vi": "Lập luận nâng cao và mã"
+    },
+    "flowCanvasEmpty": {
+      "en": "No flow nodes",
+      "vi": "Chưa có nút luồng"
+    },
+    "selectEngine": {
+      "en": "Select engine",
+      "vi": "Chọn engine"
+    },
+    "composerTools": {
+      "en": "Tools",
+      "vi": "Công cụ"
+    },
+    "voiceInput": {
+      "en": "Voice input",
+      "vi": "Nhập bằng giọng nói"
+    },
+    "sendMessage": {
+      "en": "Send message",
+      "vi": "Gửi tin nhắn"
+    },
+    "dictate": {
+      "en": "Dictate",
+      "vi": "Đọc chính tả"
+    },
+    "dictateListening": {
+      "en": "Listening…",
+      "vi": "Đang nghe…"
+    },
+    "dictateUnsupported": {
+      "en": "Speech recognition is not supported in this browser.",
+      "vi": "Trình duyệt này không hỗ trợ nhận dạng giọng nói."
+    },
+    "dictateError": {
+      "en": "Could not start speech recognition. Please check microphone permission.",
+      "vi": "Không thể bắt đầu nhận dạng giọng nói. Vui lòng kiểm tra quyền micro."
+    },
+    "useVoice": {
+      "en": "Use Voice",
+      "vi": "Dùng giọng nói"
+    },
+    "end": {
+      "en": "End",
+      "vi": "Kết thúc"
+    },
+    "voiceChatEnded": {
+      "en": "Voice chat ended",
+      "vi": "Trò chuyện bằng giọng nói đã kết thúc"
+    },
+    "clear": {
+      "en": "Clear",
+      "vi": "Xóa"
+    },
+    "disclaimerNotice": {
+      "en": "AI models can make mistakes. So can AI-powered features in Pregoi.",
+      "vi": "Mô hình AI có thể mắc lỗi, Pregoi là AI và có thể mắc lỗi."
+    },
+    "disclaimerLink": {
+      "en": "Your privacy & Pregoi",
+      "vi": "Quyền riêng tư & Pregoi"
+    },
+    "goodResponse": {
+      "en": "Good response",
+      "vi": "Phản hồi tốt"
+    },
+    "badResponse": {
+      "en": "Bad response",
+      "vi": "Phản hồi không tốt"
+    },
+    "copyResponse": {
+      "en": "Copy response",
+      "vi": "Sao chép phản hồi"
+    },
+    "testRun": {
+      "en": "Test run",
+      "vi": "Chạy thử"
+    },
+    "testRunOutputHeading": {
+      "en": "Test run",
+      "vi": "Chạy thử"
+    },
+    "adjustment": {
+      "en": "Adjustment",
+      "vi": "Điều chỉnh"
+    },
+    "redo": {
+      "en": "Redo",
+      "vi": "Thử lại"
+    },
+    "more": {
+      "en": "More",
+      "vi": "Thêm"
+    },
+    "readAloud": {
+      "en": "Read aloud",
+      "vi": "Đọc to"
+    },
+    "stop": {
+      "en": "Stop",
+      "vi": "Dừng"
+    },
+    "useVoiceMode": {
+      "en": "Use voice mode",
+      "vi": "Sử dụng chế độ giọng nói"
+    },
+    "branch": {
+      "en": "Branch",
+      "vi": "Nhánh"
+    },
+    "branchInNewChat": {
+      "en": "Branch in new chat",
+      "vi": "Nhánh trong cuộc trò chuyện mới"
+    },
+    "exportToDocs": {
+      "en": "Export to Docs",
+      "vi": "Xuất sang Tài liệu"
+    },
+    "exportToDocsComingSoon": {
+      "en": "Export to Docs is coming soon.",
+      "vi": "Tính năng xuất sang Tài liệu đang được phát triển."
+    },
+    "suggestions.leavePolicy": {
+      "en": "Leave policy",
+      "vi": "Chính sách nghỉ phép"
+    },
+    "suggestions.expenseGuidelines": {
+      "en": "Expense guidelines",
+      "vi": "Hướng dẫn chi phí"
+    },
+    "suggestions.checkinHelp": {
+      "en": "Check-in help",
+      "vi": "Trợ giúp chấm công"
+    },
+    "suggestions.holidaySchedule": {
+      "en": "Holiday schedule",
+      "vi": "Lịch nghỉ lễ"
+    }
+  },
+  "app.notFound": {
+    "title": {
+      "en": "Not Found",
+      "vi": "Không tìm thấy"
+    },
+    "description": {
+      "en": "Could not find requested resource",
+      "vi": "Không tìm thấy tài nguyên yêu cầu"
+    },
+    "returnHome": {
+      "en": "Return Home",
+      "vi": "Về trang chủ"
+    }
+  },
+  "app.notices": {
+    "title": {
+      "en": "Notices",
+      "vi": "Thông báo"
+    },
+    "markAllRead": {
+      "en": "Mark all read",
+      "vi": "Đánh dấu tất cả đã đọc"
+    },
+    "read": {
+      "en": "Read",
+      "vi": "Đã đọc"
+    },
+    "unread": {
+      "en": "Unread",
+      "vi": "Chưa đọc"
+    },
+    "viewDetails": {
+      "en": "View details",
+      "vi": "Xem chi tiết"
+    },
+    "markReadFailed": {
+      "en": "Could not mark notice as read. Try again.",
+      "vi": "Không thể đánh dấu thông báo là đã đọc. Vui lòng thử lại."
+    },
+    "markAllReadFailed": {
+      "en": "Could not mark all notices as read. Try again.",
+      "vi": "Không thể đánh dấu tất cả thông báo là đã đọc. Vui lòng thử lại."
+    },
+    "noNotices": {
+      "en": "No notices",
+      "vi": "Không có thông báo"
+    },
+    "allCaughtUp": {
+      "en": "You're all caught up!",
+      "vi": "Đã xem hết!"
+    },
+    "timeAgoJustNow": {
+      "en": "Just now",
+      "vi": "Vừa xong"
+    },
+    "timeAgoMinutes": {
+      "en": "{{n}} min ago",
+      "vi": "{{n}} phút trước"
+    },
+    "timeAgoHours": {
+      "en": "{{n}} hours ago",
+      "vi": "{{n}} giờ trước"
+    },
+    "timeAgoDays": {
+      "en": "{{n}} days ago",
+      "vi": "{{n}} ngày trước"
+    },
+    "timeAgoWeeks": {
+      "en": "{{n}} weeks ago",
+      "vi": "{{n}} tuần trước"
+    }
+  },
+  "app.onboarding": {
+    "title": {
+      "en": "Welcome Onboard!",
+      "vi": "Chào mừng bạn!"
+    },
+    "language": {
+      "en": "Language",
+      "vi": "Ngôn ngữ"
+    },
+    "selectLanguage": {
+      "en": "Select Language",
+      "vi": "Chọn ngôn ngữ"
+    },
+    "step1Title": {
+      "en": "Profile",
+      "vi": "Hồ sơ"
+    },
+    "step2Title": {
+      "en": "Contact",
+      "vi": "Liên hệ"
+    },
+    "step3Title": {
+      "en": "Address",
+      "vi": "Địa chỉ"
+    },
+    "step4Title": {
+      "en": "Work",
+      "vi": "Công việc"
+    },
+    "step5Title": {
+      "en": "Banking",
+      "vi": "Lương"
+    },
+    "step6Title": {
+      "en": "Leave",
+      "vi": "Nghỉ phép"
+    },
+    "step7Title": {
+      "en": "Review",
+      "vi": "Xem lại"
+    },
+    "step8Title": {
+      "en": "Final Review & Affirmation",
+      "vi": "Xem xét dữ liệu và đồng ý nộp pháp lý (Final Review & Affirmation)"
+    },
+    "countryCodePlaceholder": {
+      "en": "Code",
+      "vi": "Mã"
+    },
+    "affirmationText": {
+      "en": "Final Review & Legal Submission Affirmation\n\nThe information you have entered will be registered as an official personnel record. Please review the details carefully and provide your consent before clicking the submit button.",
+      "vi": "Xác nhận Rà soát Cuối cùng & Gửi hồ sơ Pháp lý\n\nThông tin bạn đã nhập sẽ được đăng ký thành hồ sơ nhân sự chính thức. Vui lòng xem lại kỹ các chi tiết và xác nhận đồng ý trước khi nhấn nút gửi."
+    },
+    "consentButton": {
+      "en": "Agree and continue",
+      "vi": "Đồng ý và tiếp tục"
+    },
+    "noticeLoadError": {
+      "en": "The notice could not be loaded. Please refresh the page or try again. You can still continue below.",
+      "vi": "Không thể tải thông báo. Vui lòng tải lại trang hoặc thử lại. Bạn vẫn có thể tiếp tục bên dưới."
+    },
+    "languageSelectLabel": {
+      "en": "Language",
+      "vi": "Chọn ngôn ngữ"
+    },
+    "languageLabel": {
+      "en": "Language",
+      "vi": "Ngôn ngữ"
+    },
+    "emergencyContactSection": {
+      "en": "Emergency Contact",
+      "vi": "Liên hệ khẩn cấp"
+    },
+    "reviewApproversSection": {
+      "en": "Approvers",
+      "vi": "Người phê duyệt"
+    },
+    "companyCheckLoading": {
+      "en": "Checking company...",
+      "vi": "Đang kiểm tra công ty..."
+    },
+    "companyNotReadyTitle": {
+      "en": "Onboarding not available",
+      "vi": "Chưa thể sử dụng onboarding"
+    },
+    "companyNotReadyMessage": {
+      "en": "This company is not yet set up for onboarding. Please contact your administrator.",
+      "vi": "Công ty này chưa được thiết lập onboarding. Vui lòng liên hệ quản trị viên."
+    },
+    "inviteInvalidTitle": {
+      "en": "Invitation unavailable",
+      "vi": "Lời mời không khả dụng"
+    },
+    "inviteNotFoundMessage": {
+      "en": "This invitation link is no longer valid. Your administrator may have sent a newer invite — check your latest email.",
+      "vi": "Liên kết mời này không còn hiệu lực. Quản trị viên của bạn có thể đã gửi lời mời mới hơn — hãy kiểm tra email gần nhất."
+    },
+    "inviteExpiredMessage": {
+      "en": "This invitation link has expired. Ask your administrator to resend the invite email.",
+      "vi": "Liên kết mời này đã hết hạn. Hãy yêu cầu quản trị viên gửi lại email mời."
+    },
+    "inviteTenantUnavailableMessage": {
+      "en": "This company is not yet set up for onboarding. Please contact your administrator.",
+      "vi": "Công ty này chưa được thiết lập để onboarding. Vui lòng liên hệ quản trị viên của bạn."
+    },
+    "invitePortalUserIncompleteMessage": {
+      "en": "Your employee record is not ready. Contact your administrator.",
+      "vi": "Hồ sơ nhân viên của bạn chưa sẵn sàng. Liên hệ quản trị viên của bạn."
+    },
+    "inviteGenericErrorMessage": {
+      "en": "Invalid invitation link. Please check your invite email.",
+      "vi": "Liên kết mời không hợp lệ. Vui lòng kiểm tra email mời của bạn."
+    },
+    "next": {
+      "en": "Next",
+      "vi": "Tiếp"
+    },
+    "back": {
+      "en": "Back",
+      "vi": "Quay lại"
+    },
+    "submit": {
+      "en": "Submit",
+      "vi": "Gửi"
+    },
+    "companyName": {
+      "en": "Company Name",
+      "vi": "Tên công ty"
+    },
+    "companyNameHint": {
+      "en": "Full legal name of the company (e.g. Acme Pte Ltd).",
+      "vi": "Tên pháp lý đầy đủ của công ty (ví dụ: Acme Pte Ltd)."
+    },
+    "companyNamePlaceholder": {
+      "en": "e.g. Acme Pte Ltd",
+      "vi": "ví dụ: Acme Pte Ltd"
+    },
+    "legalEnglishName": {
+      "en": "Legal English Name",
+      "vi": "Tên pháp lý (tiếng Anh)"
+    },
+    "firstName": {
+      "en": "First Name",
+      "vi": "Tên"
+    },
+    "firstNameHint": {
+      "en": "Letters only, no numbers (e.g. John).",
+      "vi": "Chỉ chữ cái, không có số (ví dụ: John)."
+    },
+    "firstNameEnglish": {
+      "en": "First Name (English)",
+      "vi": "Tên (Tiếng Anh)"
+    },
+    "lastName": {
+      "en": "Last Name",
+      "vi": "Họ"
+    },
+    "lastNameHint": {
+      "en": "Letters only, no numbers (e.g. Smith).",
+      "vi": "Chỉ chữ cái, không có số (ví dụ: Smith)."
+    },
+    "lastNameEnglish": {
+      "en": "Last Name (English)",
+      "vi": "Họ (Tiếng Anh)"
+    },
+    "nameFormatLabel": {
+      "en": "Select name format",
+      "vi": "Chọn định dạng tên"
+    },
+    "nameFormatFirstMiddleLast": {
+      "en": "First / Middle / Last",
+      "vi": "Tên / Tên đệm / Họ"
+    },
+    "nameFormatFullName": {
+      "en": "Full Name",
+      "vi": "Họ tên đầy đủ"
+    },
+    "middleName": {
+      "en": "Middle Name (English)",
+      "vi": "Tên đệm (Tiếng Anh)"
+    },
+    "middleNamePlaceholder": {
+      "en": "e.g. James",
+      "vi": "ví dụ: James"
+    },
+    "nativeFirstName": {
+      "en": "First Name (Native)",
+      "vi": "Tên (Ngôn ngữ bản địa)"
+    },
+    "nativeLastName": {
+      "en": "Last Name (Native)",
+      "vi": "Họ (Ngôn ngữ bản địa)"
+    },
+    "nativeMiddleName": {
+      "en": "Middle Name (Native)",
+      "vi": "Tên đệm (Ngôn ngữ bản địa)"
+    },
+    "fullNameHint": {
+      "en": "Alternatively, enter both full names below to complete name entry.",
+      "vi": "Ngoài ra, bạn có thể nhập đầy đủ cả hai họ tên bên dưới để hoàn tất phần nhập tên."
+    },
+    "englishFullName": {
+      "en": "English Full Name",
+      "vi": "Họ tên đầy đủ (Tiếng Anh)"
+    },
+    "englishFullNamePlaceholder": {
+      "en": "e.g. John Smith",
+      "vi": "ví dụ: John Smith"
+    },
+    "nativeFullName": {
+      "en": "Native Full Name",
+      "vi": "Họ tên đầy đủ (Ngôn ngữ bản địa)"
+    },
+    "nativeFullNamePlaceholder": {
+      "en": "e.g. Native script name",
+      "vi": "ví dụ: tên viết bằng ngôn ngữ bản địa"
+    },
+    "nativeFullNameHintKo": {
+      "en": "Enter your full name in Korean (e.g. 홍길동).",
+      "vi": "Nhập họ tên đầy đủ của bạn bằng tiếng Hàn (ví dụ: 홍길동)."
+    },
+    "nativeLastNameJa": {
+      "en": "姓 (Family)",
+      "vi": "姓 (Họ)"
+    },
+    "nativeFirstNameJa": {
+      "en": "名 (Given)",
+      "vi": "名 (Tên)"
+    },
+    "nativeFuriganaFamily": {
+      "en": "姓フリガナ",
+      "vi": "姓フリガナ"
+    },
+    "nativeFuriganaGiven": {
+      "en": "名フリガナ",
+      "vi": "名フリガナ"
+    },
+    "nativeLastNameZh": {
+      "en": "姓 (Family)",
+      "vi": "姓 (Họ)"
+    },
+    "nativeFirstNameZh": {
+      "en": "名 (Given)",
+      "vi": "名 (Tên)"
+    },
+    "nativeNameHintZh": {
+      "en": "请使用汉字输入 (Enter in Chinese characters).",
+      "vi": "请使用汉字输入 (Nhập bằng chữ Hán)."
+    },
+    "nativeLastNameVi": {
+      "en": "Họ (Family)",
+      "vi": "Họ"
+    },
+    "nativeMiddleNameVi": {
+      "en": "Tên đệm (Middle)",
+      "vi": "Tên đệm"
+    },
+    "nativeFirstNameVi": {
+      "en": "Tên (Given)",
+      "vi": "Tên"
+    },
+    "nativeNameHintVi": {
+      "en": "Family - Middle - Given (e.g. Nguyễn Văn A).",
+      "vi": "Họ - Tên đệm - Tên (ví dụ: Nguyễn Văn A)."
+    },
+    "motherTongue": {
+      "en": "Mother Tongue",
+      "vi": "Tiếng mẹ đẻ"
+    },
+    "nativeName": {
+      "en": "Native Name",
+      "vi": "Tên bản ngữ"
+    },
+    "nativeNameHint": {
+      "en": "Enter your name in your local script (e.g. native language).",
+      "vi": "Nhập tên của bạn bằng chữ viết bản địa (ví dụ: ngôn ngữ mẹ đẻ)."
+    },
+    "nativeNamePlaceholder": {
+      "en": "Enter in your local script",
+      "vi": "Nhập bằng chữ viết bản địa của bạn"
+    },
+    "gender": {
+      "en": "Gender",
+      "vi": "Giới tính"
+    },
+    "nationality": {
+      "en": "Nationality",
+      "vi": "Quốc tịch"
+    },
+    "nationalityPlaceholder": {
+      "en": "Select country",
+      "vi": "Chọn quốc gia"
+    },
+    "dateOfBirth": {
+      "en": "Date of Birth",
+      "vi": "Ngày sinh"
+    },
+    "dateOfBirthHint": {
+      "en": "Format: YYYY-MM-DD (e.g. 1990-01-15).",
+      "vi": "Định dạng: YYYY-MM-DD (ví dụ: 1990-01-15)."
+    },
+    "dateInputPlaceholder": {
+      "en": "YYYY-MM-DD",
+      "vi": "YYYY-MM-DD"
+    },
+    "invalidFormat": {
+      "en": "Invalid format. Please check and re-enter.",
+      "vi": "Định dạng không hợp lệ. Vui lòng kiểm tra và nhập lại."
+    },
+    "emergencyContactName": {
+      "en": "Emergency Contact Name",
+      "vi": "Tên liên hệ khẩn cấp"
+    },
+    "emergencyContactNamePlaceholder": {
+      "en": "e.g. Jane Doe",
+      "vi": "ví dụ: Jane Doe"
+    },
+    "emergencyContactPhone": {
+      "en": "Emergency Contact Phone",
+      "vi": "Số điện thoại liên hệ khẩn cấp"
+    },
+    "emergencyContactPhonePlaceholder": {
+      "en": "e.g. +65 9123 4567",
+      "vi": "ví dụ: +65 9123 4567"
+    },
+    "emergencyContactRelation": {
+      "en": "Emergency Contact Relation",
+      "vi": "Quan hệ với người liên hệ khẩn cấp"
+    },
+    "emergencyContactRelationPlaceholder": {
+      "en": "e.g. Spouse",
+      "vi": "ví dụ: Vợ/Chồng"
+    },
+    "personalMobile": {
+      "en": "Personal Mobile",
+      "vi": "Số di động"
+    },
+    "personalMobilePlaceholder": {
+      "en": "e.g. +65 9123 4567",
+      "vi": "ví dụ: +65 9123 4567"
+    },
+    "personalEmail": {
+      "en": "Personal Email",
+      "vi": "Email cá nhân"
+    },
+    "personalEmailPlaceholder": {
+      "en": "e.g. you@gmail.com",
+      "vi": "ví dụ: you@gmail.com"
+    },
+    "companyEmail": {
+      "en": "Company Email",
+      "vi": "Email công ty"
+    },
+    "companyEmailPlaceholder": {
+      "en": "e.g. you@company.com",
+      "vi": "ví dụ: you@company.com"
+    },
+    "residenceCountry": {
+      "en": "Residence Country",
+      "vi": "Quốc gia cư trú"
+    },
+    "residenceCountryPlaceholder": {
+      "en": "e.g. Singapore",
+      "vi": "ví dụ: Singapore"
+    },
+    "registeredAddress": {
+      "en": "Registered Address",
+      "vi": "Địa chỉ đăng ký"
+    },
+    "registeredAddressPlaceholder": {
+      "en": "e.g. 123 Main St",
+      "vi": "ví dụ: 123 Đường Chính"
+    },
+    "postalCode": {
+      "en": "Postal Code",
+      "vi": "Mã bưu điện"
+    },
+    "postalCodeHint": {
+      "en": "Numeric or alphanumeric (e.g. 123456 or 408600).",
+      "vi": "Chữ số hoặc chữ-số kết hợp (ví dụ: 123456 hoặc 408600)."
+    },
+    "postalCodePlaceholder": {
+      "en": "e.g. 123456",
+      "vi": "ví dụ: 123456"
+    },
+    "visaType": {
+      "en": "Visa Type",
+      "vi": "Loại visa"
+    },
+    "idNumber": {
+      "en": "ID Number (NRIC/FIN)",
+      "vi": "Số ID (NRIC/FIN)"
+    },
+    "idNumberNotice": {
+      "en": "NRIC/FIN is legally required for salary reporting (IRAS/CPF) and visa validity under Singapore law. Data is encrypted in transit; masking is applied during input to prevent exposure.",
+      "vi": "NRIC/FIN là yêu cầu pháp lý bắt buộc cho báo cáo lương (IRAS/CPF) và hiệu lực visa theo luật pháp Singapore. Dữ liệu được mã hóa khi truyền tải; việc che giấu được áp dụng trong quá trình nhập để ngăn ngừa lộ thông tin."
+    },
+    "idNumberHint": {
+      "en": "Singapore NRIC/FIN format (e.g. S1234567D).",
+      "vi": "Định dạng NRIC/FIN Singapore (ví dụ: S1234567D)."
+    },
+    "idNumberPlaceholder": {
+      "en": "e.g. S1234567D",
+      "vi": "ví dụ: S1234567D"
+    },
+    "validity": {
+      "en": "Validity",
+      "vi": "Hiệu lực"
+    },
+    "validityHint": {
+      "en": "Visa or pass expiry date.",
+      "vi": "Ngày hết hạn visa hoặc pass."
+    },
+    "joiningDate": {
+      "en": "Joining Date",
+      "vi": "Ngày vào làm"
+    },
+    "joiningDateHint": {
+      "en": "First day of work at the company.",
+      "vi": "Ngày làm việc đầu tiên tại công ty."
+    },
+    "joiningDatePlaceholder": {
+      "en": "e.g. 2025-03-01",
+      "vi": "ví dụ: 2025-03-01"
+    },
+    "designation": {
+      "en": "Designation",
+      "vi": "Chức danh"
+    },
+    "designationPlaceholder": {
+      "en": "e.g. Software Engineer",
+      "vi": "ví dụ: Kỹ sư phần mềm"
+    },
+    "department": {
+      "en": "Department",
+      "vi": "Phòng ban"
+    },
+    "departmentPlaceholder": {
+      "en": "e.g. Engineering",
+      "vi": "ví dụ: Kỹ thuật"
+    },
+    "workType": {
+      "en": "Work Type",
+      "vi": "Loại hình làm việc"
+    },
+    "workTypeHint": {
+      "en": "Employment type (e.g. Singapore MOM).",
+      "vi": "Loại hình việc làm (ví dụ: Singapore MOM)."
+    },
+    "workTypeOptions.Full-time": {
+      "en": "Full-time",
+      "vi": "Toàn thời gian"
+    },
+    "workTypeOptions.Part-time": {
+      "en": "Part-time",
+      "vi": "Bán thời gian"
+    },
+    "workTypeOptions.Contract": {
+      "en": "Contract",
+      "vi": "Hợp đồng"
+    },
+    "workTypeOptions.Temporary": {
+      "en": "Temporary",
+      "vi": "Tạm thời"
+    },
+    "reportsTo": {
+      "en": "Reports To",
+      "vi": "Báo cáo cho"
+    },
+    "reportsToPlaceholder": {
+      "en": "e.g. Manager name",
+      "vi": "ví dụ: Tên quản lý"
+    },
+    "leaveApprover": {
+      "en": "Leave Approver",
+      "vi": "Người duyệt nghỉ phép"
+    },
+    "leaveApproverPlaceholder": {
+      "en": "Name or email",
+      "vi": "Tên hoặc email"
+    },
+    "expenseApprover": {
+      "en": "Expense Approver",
+      "vi": "Người duyệt chi phí"
+    },
+    "expenseApproverPlaceholder": {
+      "en": "Name or email",
+      "vi": "Tên hoặc email"
+    },
+    "attendanceApprover": {
+      "en": "Attendance Approver",
+      "vi": "Người duyệt chấm công"
+    },
+    "attendanceApproverPlaceholder": {
+      "en": "Name or email",
+      "vi": "Tên hoặc email"
+    },
+    "paymentMethod": {
+      "en": "Payment Method",
+      "vi": "Hình thức thanh toán"
+    },
+    "bankName": {
+      "en": "Bank Name",
+      "vi": "Tên ngân hàng"
+    },
+    "bankNameHint": {
+      "en": "Name of the bank (e.g. DBS, OCBC).",
+      "vi": "Tên ngân hàng (ví dụ: DBS, OCBC)."
+    },
+    "bankNamePlaceholder": {
+      "en": "e.g. DBS",
+      "vi": "ví dụ: DBS"
+    },
+    "bankAccountNumber": {
+      "en": "Bank Account Number",
+      "vi": "Số tài khoản"
+    },
+    "bankAccountNumberHint": {
+      "en": "Account number, digits only or with hyphens (e.g. 123-456-789).",
+      "vi": "Số tài khoản, chỉ gồm chữ số hoặc có dấu gạch ngang (ví dụ: 123-456-789)."
+    },
+    "bankAccountNumberPlaceholder": {
+      "en": "e.g. 123-456-789",
+      "vi": "ví dụ: 123-456-789"
+    },
+    "contractedLeave": {
+      "en": "Contracted Leave (days/year)",
+      "vi": "Nghỉ phép theo hợp đồng (ngày/năm)"
+    },
+    "contractedLeavePlaceholder": {
+      "en": "e.g. 14",
+      "vi": "ví dụ: 14"
+    },
+    "usedLeave": {
+      "en": "Used Leave (this year)",
+      "vi": "Đã dùng (năm nay)"
+    },
+    "usedLeaveHint": {
+      "en": "Number of leave days already used (e.g. 0).",
+      "vi": "Số ngày nghỉ phép đã sử dụng (ví dụ: 0)."
+    },
+    "usedLeavePlaceholder": {
+      "en": "e.g. 0",
+      "vi": "ví dụ: 0"
+    },
+    "proRataPreview": {
+      "en": "Pro-rata Leave Preview",
+      "vi": "Xem nghỉ phép theo tỷ lệ"
+    },
+    "proRataFormulaHint": {
+      "en": "(months of service / 12) × contracted leave (Singapore MOM)",
+      "vi": "(số tháng làm việc / 12) × số ngày phép theo hợp đồng (Singapore MOM)"
+    },
+    "submitSuccess": {
+      "en": "Submitted successfully.",
+      "vi": "Đã gửi thành công."
+    },
+    "magicLinkSent": {
+      "en": "A link to edit your information has been sent to your email.",
+      "vi": "Liên kết chỉnh sửa đã được gửi đến email của bạn."
+    },
+    "loadingSession": {
+      "en": "Loading...",
+      "vi": "Đang tải..."
+    },
+    "submitting": {
+      "en": "Submitting...",
+      "vi": "Đang gửi..."
+    },
+    "genderOptions.Male": {
+      "en": "Male",
+      "vi": "Nam"
+    },
+    "genderOptions.Female": {
+      "en": "Female",
+      "vi": "Nữ"
+    },
+    "genderOptions.Other": {
+      "en": "Other",
+      "vi": "Khác"
+    },
+    "genderOptions.Prefer not to say": {
+      "en": "Prefer not to say",
+      "vi": "Không trả lời"
+    },
+    "visaTypes.Citizen": {
+      "en": "Citizen",
+      "vi": "Công dân"
+    },
+    "visaTypes.PR": {
+      "en": "PR",
+      "vi": "PR"
+    },
+    "visaTypes.EP": {
+      "en": "EP",
+      "vi": "EP"
+    },
+    "visaTypes.S-Pass": {
+      "en": "S-Pass",
+      "vi": "S-Pass"
+    },
+    "visaTypes.WP": {
+      "en": "WP",
+      "vi": "WP"
+    },
+    "paymentMethods.BankTransfer": {
+      "en": "Bank Transfer",
+      "vi": "Chuyển khoản"
+    },
+    "editLinkLabel": {
+      "en": "Edit link (save this link to update your info later)",
+      "vi": "Liên kết chỉnh sửa (lưu để cập nhật sau)"
+    },
+    "copyLink": {
+      "en": "Copy link",
+      "vi": "Sao chép liên kết"
+    },
+    "copyLinkDone": {
+      "en": "Copied!",
+      "vi": "Đã sao chép!"
+    },
+    "sessionExpiredAction": {
+      "en": "Start a new onboarding form",
+      "vi": "Bắt đầu mẫu onboarding mới"
+    },
+    "consentText": {
+      "en": "By submitting, you agree that the company may collect and use the information you provided for onboarding, payroll, HR and legal compliance purposes, in accordance with its privacy policy and applicable law (e.g. PDPA). You may request access to or correction of your data.",
+      "vi": "Bằng việc gửi, bạn đồng ý rằng công ty có thể thu thập và sử dụng thông tin bạn cung cấp cho mục đích onboarding, lương, nhân sự và tuân thủ pháp luật."
+    },
+    "consentAgree": {
+      "en": "I agree",
+      "vi": "Tôi đồng ý"
+    },
+    "printVersion": {
+      "en": "Print version",
+      "vi": "In"
+    }
+  },
+  "app.passcode": {
+    "title": {
+      "en": "Passcode",
+      "vi": "Mã PIN"
+    },
+    "enterPin": {
+      "en": "Please enter your 6-digit passcode",
+      "vi": "Vui lòng nhập mã 6 chữ số"
+    },
+    "enterCurrentPin": {
+      "en": "Enter current passcode",
+      "vi": "Nhập mã passcode hiện tại"
+    },
+    "changeNewPrompt": {
+      "en": "Enter new passcode",
+      "vi": "Nhập mã passcode mới"
+    },
+    "changeConfirmPrompt": {
+      "en": "Enter new passcode again to confirm",
+      "vi": "Nhập lại mã passcode mới để xác nhận"
+    },
+    "rememberDevice": {
+      "en": "Remember this device (check only on personal PC)",
+      "vi": "Ghi nhớ thiết bị này (chỉ chọn trên PC cá nhân)"
+    },
+    "rememberDeviceShort": {
+      "en": "Remember this device",
+      "vi": "Ghi nhớ thiết bị này"
+    },
+    "reset": {
+      "en": "Reset",
+      "vi": "Đặt lại"
+    },
+    "setTitle": {
+      "en": "Set passcode",
+      "vi": "Đặt mã PIN"
+    },
+    "setPrompt": {
+      "en": "Enter 6-digit passcode",
+      "vi": "Nhập mã 6 chữ số"
+    },
+    "setConfirmPrompt": {
+      "en": "Enter again to confirm",
+      "vi": "Nhập lại để xác nhận"
+    },
+    "submit": {
+      "en": "Submit",
+      "vi": "Xác nhận"
+    },
+    "mismatch": {
+      "en": "Passcodes do not match",
+      "vi": "Mã không khớp"
+    },
+    "invalidLength": {
+      "en": "Enter 6 digits",
+      "vi": "Nhập 6 chữ số"
+    },
+    "forgotPasscode": {
+      "en": "Forgot passcode?",
+      "vi": "Quên mã truy cập?"
+    },
+    "resetNewPrompt": {
+      "en": "Enter a new 6-digit passcode",
+      "vi": "Nhập mã truy cập 6 số mới"
+    },
+    "requestReset": {
+      "en": "Request reset link",
+      "vi": "Gửi link đặt lại"
+    },
+    "resetFailed": {
+      "en": "Invalid or expired link. Request a new one.",
+      "vi": "Link không hợp lệ hoặc đã hết hạn. Vui lòng yêu cầu link mới."
+    },
+    "resetInvalidLink": {
+      "en": "Invalid or expired link. Please request a new passcode reset.",
+      "vi": "Link không hợp lệ hoặc đã hết hạn. Vui lòng yêu cầu đặt lại mã truy cập."
+    },
+    "requestResetFailed": {
+      "en": "Request failed. Please try again.",
+      "vi": "Yêu cầu thất bại. Vui lòng thử lại."
+    },
+    "forgotPrompt": {
+      "en": "Enter your email to receive a link to reset your passcode.",
+      "vi": "Nhập email để nhận link đặt lại mã truy cập."
+    },
+    "resetEmailSent": {
+      "en": "If an account exists for that email, we sent a reset link. Check your inbox.",
+      "vi": "Nếu có tài khoản với email đó, chúng tôi đã gửi link đặt lại. Vui lòng kiểm tra hộp thư."
+    },
+    "sendResetLink": {
+      "en": "Send reset link",
+      "vi": "Gửi link đặt lại"
+    },
+    "backToSignIn": {
+      "en": "Back to sign in",
+      "vi": "Quay lại đăng nhập"
+    },
+    "sessionExpired": {
+      "en": "Session expired. Please sign in again from the start.",
+      "vi": "Phiên đã hết hạn. Vui lòng đăng nhập lại từ đầu."
+    },
+    "resetExpiryNotice": {
+      "en": "This link expires in 15 minutes. If it has expired, request a new reset link from the sign-in page.",
+      "vi": "Link này hết hạn sau 15 phút. Nếu đã hết hạn, vui lòng yêu cầu link mới từ trang đăng nhập."
+    },
+    "resetLinkExpiryAndRateLimit": {
+      "en": "The link expires in 15 minutes. If you don't receive an email, check spam or try again later.",
+      "vi": "Link hết hạn sau 15 phút. Nếu không nhận được email, hãy kiểm tra thư rác hoặc thử lại sau."
+    },
+    "rateLimitNotice": {
+      "en": "Too many requests. Please try again in a few minutes.",
+      "vi": "Quá nhiều yêu cầu. Vui lòng thử lại sau vài phút."
+    }
+  },
+  "app.profile": {
+    "userSetting": {
+      "en": "User setting",
+      "vi": "Cài đặt người dùng"
+    },
+    "title": {
+      "en": "Profile",
+      "vi": "Hồ sơ"
+    },
+    "general": {
+      "en": "General",
+      "vi": "Chung"
+    },
+    "generalInfo": {
+      "en": "General information",
+      "vi": "Thông tin chung"
+    },
+    "language": {
+      "en": "Language",
+      "vi": "Ngôn ngữ"
+    },
+    "companyName": {
+      "en": "Company",
+      "vi": "Công ty"
+    },
+    "name": {
+      "en": "Name",
+      "vi": "Tên"
+    },
+    "email": {
+      "en": "Email",
+      "vi": "Email"
+    },
+    "phone": {
+      "en": "Phone",
+      "vi": "Điện thoại"
+    },
+    "country": {
+      "en": "Country",
+      "vi": "Quốc gia"
+    },
+    "countryValue": {
+      "en": "Singapore",
+      "vi": "Singapore"
+    },
+    "currency": {
+      "en": "Currency",
+      "vi": "Tiền tệ"
+    },
+    "currencyValue": {
+      "en": "SGD",
+      "vi": "SGD"
+    },
+    "baseTimeGmt": {
+      "en": "Base time (GMT)",
+      "vi": "Giờ chuẩn (GMT)"
+    },
+    "baseTimeGmtValue": {
+      "en": "GMT+8",
+      "vi": "GMT+8"
+    },
+    "security": {
+      "en": "Security",
+      "vi": "Bảo mật"
+    },
+    "changePasscode": {
+      "en": "Change passcode",
+      "vi": "Đổi mã PIN"
+    },
+    "feedback": {
+      "en": "Feedback",
+      "vi": "Phản hồi"
+    },
+    "feedbackTitle": {
+      "en": "Send feedback",
+      "vi": "Gửi phản hồi"
+    },
+    "feedbackCategory": {
+      "en": "Category",
+      "vi": "Danh mục"
+    },
+    "feedbackCategory_bug": {
+      "en": "Bug report",
+      "vi": "Báo lỗi"
+    },
+    "feedbackCategory_feature": {
+      "en": "Feature request",
+      "vi": "Yêu cầu tính năng"
+    },
+    "feedbackCategory_other": {
+      "en": "Other",
+      "vi": "Khác"
+    },
+    "feedbackMessage": {
+      "en": "Message",
+      "vi": "Nội dung"
+    },
+    "feedbackMessagePlaceholder": {
+      "en": "Tell us what happened or what you need…",
+      "vi": "Cho chúng tôi biết chuyện gì đã xảy ra hoặc điều bạn cần…"
+    },
+    "feedbackContactEmail": {
+      "en": "Contact email (optional)",
+      "vi": "Email liên hệ (tùy chọn)"
+    },
+    "feedbackSubmit": {
+      "en": "Send feedback",
+      "vi": "Gửi phản hồi"
+    },
+    "feedbackSuccess": {
+      "en": "Thank you — your feedback was sent.",
+      "vi": "Cảm ơn bạn — phản hồi của bạn đã được gửi."
+    },
+    "feedbackBack": {
+      "en": "Back to profile",
+      "vi": "Quay lại hồ sơ"
+    },
+    "feedbackError": {
+      "en": "Could not send feedback. Try again later.",
+      "vi": "Không thể gửi phản hồi. Vui lòng thử lại sau."
+    },
+    "leaveDaySingle": {
+      "en": "{{n}} day",
+      "vi": "{{n}} ngày"
+    },
+    "leaveDaysPlural": {
+      "en": "{{n}} days",
+      "vi": "{{n}} ngày"
+    },
+    "notifications": {
+      "en": "Notifications",
+      "vi": "Thông báo"
+    },
+    "pushNotifications": {
+      "en": "Push notifications",
+      "vi": "Thông báo đẩy"
+    },
+    "smsNotifications": {
+      "en": "SMS notifications",
+      "vi": "SMS"
+    },
+    "joined": {
+      "en": "Joined {{date}}",
+      "vi": "Đã tham gia {{date}}"
+    },
+    "signOut": {
+      "en": "Sign out",
+      "vi": "Đăng xuất"
+    },
+    "registeredDevices": {
+      "en": "Registered devices",
+      "vi": "Thiết bị đã đăng ký"
+    },
+    "devicesWarning": {
+      "en": "You have more than 5 devices registered. You can remove unused devices.",
+      "vi": "Bạn đã đăng ký hơn 5 thiết bị. Có thể xóa thiết bị không dùng."
+    },
+    "noDevices": {
+      "en": "No devices registered",
+      "vi": "Chưa có thiết bị đăng ký"
+    },
+    "lastActive": {
+      "en": "Last active",
+      "vi": "Hoạt động gần đây"
+    },
+    "accessLog": {
+      "en": "Access log",
+      "vi": "Nhật ký truy cập"
+    },
+    "noAccessLog": {
+      "en": "No access log",
+      "vi": "Chưa có nhật ký"
+    },
+    "demoSecurityDisabled": {
+      "en": "Demo mode: security settings disabled.",
+      "vi": "Chế độ demo: cài đặt bảo mật bị tắt."
+    },
+    "privacyAndCookies": {
+      "en": "Privacy & cookies",
+      "vi": "Quyền riêng tư và cookie"
+    },
+    "cookieSettingsHint": {
+      "en": "Manage analytics and marketing preferences.",
+      "vi": "Quản lý tùy chọn phân tích và tiếp thị."
+    },
+    "leaveAllowance": {
+      "en": "Leave allowance",
+      "vi": "Số ngày phép"
+    },
+    "annualLeave": {
+      "en": "Annual leave",
+      "vi": "Nghỉ phép năm"
+    },
+    "annualLeaveDays": {
+      "en": "10 days",
+      "vi": "10 ngày"
+    },
+    "mc": {
+      "en": "Medical leave (MC)",
+      "vi": "Nghỉ ốm (MC)"
+    },
+    "mcPerMonth": {
+      "en": "1 day per month",
+      "vi": "1 ngày mỗi tháng"
+    },
+    "loading": {
+      "en": "Loading profile…",
+      "vi": "Đang tải hồ sơ…"
+    },
+    "loadError": {
+      "en": "Could not load profile data. Sign in again or try later.",
+      "vi": "Không thể tải dữ liệu hồ sơ. Đăng nhập lại hoặc thử lại sau."
+    },
+    "localeDefaultHint": {
+      "en": "Using default locale settings for your company.",
+      "vi": "Đang sử dụng cài đặt ngôn ngữ mặc định của công ty bạn."
+    },
+    "changeEmail": {
+      "en": "Change email",
+      "vi": "Đổi email"
+    },
+    "newEmail": {
+      "en": "New email",
+      "vi": "Email mới"
+    },
+    "verificationCode": {
+      "en": "Verification code",
+      "vi": "Mã xác minh"
+    },
+    "sendVerificationCode": {
+      "en": "Send code",
+      "vi": "Gửi mã"
+    },
+    "confirmEmailChange": {
+      "en": "Confirm change",
+      "vi": "Xác nhận thay đổi"
+    },
+    "emailChangeSuccess": {
+      "en": "Email updated. Sign in again if needed.",
+      "vi": "Đã cập nhật email. Đăng nhập lại nếu cần."
+    },
+    "emailChangeError": {
+      "en": "Could not update email. Check the code and try again.",
+      "vi": "Không thể cập nhật email. Kiểm tra mã và thử lại."
+    },
+    "removeDevice": {
+      "en": "Remove",
+      "vi": "Xóa"
+    },
+    "accessLogIp": {
+      "en": "IP",
+      "vi": "IP"
+    },
+    "joinedLabel": {
+      "en": "Joined",
+      "vi": "Đã tham gia"
+    },
+    "advancedWork": {
+      "en": "Advanced work",
+      "vi": "Công cụ nâng cao"
+    },
+    "advancedWorkHint": {
+      "en": "Work Desk and Frappe CRM use the same account. Switch when you need detailed ERP or pipeline tools.",
+      "vi": "Work Desk và Frappe CRM dùng chung một tài khoản. Chuyển đổi khi bạn cần công cụ ERP chi tiết hoặc quản lý pipeline."
+    },
+    "openWorkDesk": {
+      "en": "Open Work Desk",
+      "vi": "Mở Work Desk"
+    },
+    "openInCrm": {
+      "en": "Open CRM",
+      "vi": "Mở CRM"
+    }
+  },
+  "app.signin": {
+    "title": {
+      "en": "Login",
+      "vi": "Đăng nhập"
+    },
+    "languageLabel": {
+      "en": "Language",
+      "vi": "Ngôn ngữ"
+    },
+    "languageOptions.en": {
+      "en": "English",
+      "vi": "Tiếng Anh"
+    },
+    "languageOptions.ko": {
+      "en": "Korean",
+      "vi": "한국어"
+    },
+    "languageOptions.ja": {
+      "en": "Japanese",
+      "vi": "日本語"
+    },
+    "languageOptions.ar": {
+      "en": "Arabic",
+      "vi": "العربية"
+    },
+    "languageOptions.vi": {
+      "en": "Vietnamese",
+      "vi": "Tiếng Việt"
+    },
+    "languageOptions.zh": {
+      "en": "Chinese",
+      "vi": "中文"
+    },
+    "languageOptions.th": {
+      "en": "Thai",
+      "vi": "Tiếng Thái"
+    },
+    "languageOptions.id": {
+      "en": "Indonesian",
+      "vi": "Tiếng Indonesia"
+    },
+    "languageOptions.ms": {
+      "en": "Malay",
+      "vi": "Tiếng Mã Lai"
+    },
+    "languageOptions.si": {
+      "en": "Sinhala",
+      "vi": "Tiếng Sinhala"
+    },
+    "languageOptions.ur": {
+      "en": "Urdu",
+      "vi": "Tiếng Urdu"
+    },
+    "languageOptions.hi": {
+      "en": "Hindi",
+      "vi": "Tiếng Hindi"
+    },
+    "emailLabel": {
+      "en": "Email",
+      "vi": "Email"
+    },
+    "emailPlaceholder": {
+      "en": "johndoe@gmail.com",
+      "vi": "johndoe@gmail.com"
+    },
+    "passwordLabel": {
+      "en": "Password",
+      "vi": "Mật khẩu"
+    },
+    "passwordPlaceholder": {
+      "en": "Use a secure password",
+      "vi": "Nhập mật khẩu bảo mật"
+    },
+    "forgotPassword": {
+      "en": "Forgot password?",
+      "vi": "Quên mật khẩu?"
+    },
+    "submitButton": {
+      "en": "Login",
+      "vi": "Đăng nhập"
+    },
+    "signingIn": {
+      "en": "Signing in...",
+      "vi": "Đang đăng nhập..."
+    },
+    "noAccount": {
+      "en": "Don't have an account yet?",
+      "vi": "Chưa có tài khoản?"
+    },
+    "signUp": {
+      "en": "Sign Up",
+      "vi": "Đăng ký"
+    },
+    "errorSignInFailed": {
+      "en": "Sign in failed",
+      "vi": "Đăng nhập thất bại"
+    },
+    "errorAccountNotFound": {
+      "en": "This email is not registered for Work App sign-in yet. Ask your administrator to resend your invitation or sync Work App access.",
+      "vi": "Email này chưa được đăng ký để đăng nhập Work App. Hãy yêu cầu quản trị viên gửi lại lời mời hoặc đồng bộ quyền truy cập Work App."
+    },
+    "errorAccountSuspended": {
+      "en": "This account has been suspended. Contact your administrator.",
+      "vi": "Tài khoản này đã bị tạm ngưng. Liên hệ quản trị viên của bạn."
+    },
+    "staleSessionHint": {
+      "en": "A previous sign-in session for another workspace is still stored in this browser.",
+      "vi": "Một phiên đăng nhập trước đó cho workspace khác vẫn đang được lưu trong trình duyệt này."
+    },
+    "clearStaleSession": {
+      "en": "Clear stored session",
+      "vi": "Xóa phiên đã lưu"
+    },
+    "clearingStaleSession": {
+      "en": "Clearing…",
+      "vi": "Đang xóa…"
+    },
+    "errorGeneric": {
+      "en": "An error occurred. Please try again.",
+      "vi": "Đã xảy ra lỗi. Vui lòng thử lại."
+    }
+  },
+  "app.signup": {
+    "brandName": {
+      "en": "Pregoi",
+      "vi": "Pregoi"
+    },
+    "title": {
+      "en": "Sign up",
+      "vi": "Đăng ký"
+    },
+    "firstNameLabel": {
+      "en": "First Name",
+      "vi": "Tên"
+    },
+    "firstNamePlaceholder": {
+      "en": "Enter your first name",
+      "vi": "Nhập tên của bạn"
+    },
+    "emailLabel": {
+      "en": "Email",
+      "vi": "Email"
+    },
+    "emailPlaceholder": {
+      "en": "johndoe@gmail.com",
+      "vi": "johndoe@gmail.com"
+    },
+    "passwordLabel": {
+      "en": "Password",
+      "vi": "Mật khẩu"
+    },
+    "passwordPlaceholder": {
+      "en": "Use a secure password",
+      "vi": "Nhập mật khẩu bảo mật"
+    },
+    "confirmPasswordLabel": {
+      "en": "Confirm password",
+      "vi": "Xác nhận mật khẩu"
+    },
+    "confirmPasswordPlaceholder": {
+      "en": "Re-enter your password",
+      "vi": "Nhập lại mật khẩu"
+    },
+    "submitButton": {
+      "en": "Create Account",
+      "vi": "Tạo tài khoản"
+    },
+    "alreadyHaveAccount": {
+      "en": "Already have an account?",
+      "vi": "Đã có tài khoản?"
+    },
+    "logIn": {
+      "en": "Log in",
+      "vi": "Đăng nhập"
+    },
+    "errorPasswordsDoNotMatch": {
+      "en": "Passwords do not match",
+      "vi": "Mật khẩu không khớp"
+    },
+    "errorGeneric": {
+      "en": "Something went wrong. Please try again.",
+      "vi": "Đã xảy ra lỗi. Vui lòng thử lại."
+    },
+    "signingUp": {
+      "en": "Creating account…",
+      "vi": "Đang tạo tài khoản…"
+    }
+  },
+  "www.home": {
+    "path": {
+      "en": "/",
+      "vi": "/"
+    },
+    "meta_title": {
+      "en": "Vouus | Easy, unified ERP",
+      "vi": "Vouus | ERP hợp nhất, dễ sử dụng"
+    },
+    "meta_description": {
+      "en": "Unify HR, finance, and operations on one workflow platform. Approvals, automation, and books that stay in sync—built for growing teams in APAC.",
+      "vi": "Hợp nhất nhân sự, tài chính và vận hành trên một nền tảng quy trình làm việc duy nhất. Phê duyệt, tự động hóa và sổ sách luôn đồng bộ — được xây dựng cho các đội ngũ đang phát triển tại khu vực Châu Á - Thái Bình Dương."
+    },
+    "hero_title": {
+      "en": "Run your business in one flow",
+      "vi": "Vận hành doanh nghiệp của Quý vị trong một quy trình duy nhất"
+    },
+    "hero_description": {
+      "en": "One platform for people, money, and approvals—without spreadsheets or swivel-chair work.",
+      "vi": "Một nền tảng duy nhất cho con người, tài chính và phê duyệt — không cần bảng tính hay thao tác chuyển đổi thủ công giữa các hệ thống."
+    },
+    "pillars_0_title": {
+      "en": "Connected",
+      "vi": "Kết nối"
+    },
+    "pillars_0_description": {
+      "en": "HR, finance, and ops on one record.",
+      "vi": "Nhân sự, tài chính và vận hành trên cùng một bản ghi."
+    },
+    "pillars_1_title": {
+      "en": "Automated",
+      "vi": "Tự động hóa"
+    },
+    "pillars_1_description": {
+      "en": "Approvals and tasks without the chase.",
+      "vi": "Phê duyệt và công việc không cần nhắc nhở."
+    },
+    "pillars_2_title": {
+      "en": "Defensible",
+      "vi": "Đáng tin cậy"
+    },
+    "pillars_2_description": {
+      "en": "Audit trails and regional compliance built in.",
+      "vi": "Nhật ký kiểm toán và tuân thủ khu vực được tích hợp sẵn."
+    },
+    "proof_0": {
+      "en": "14-day trial, no credit card",
+      "vi": "Dùng thử 14 ngày, không cần thẻ tín dụng"
+    },
+    "proof_1": {
+      "en": "Go live in ~2 weeks",
+      "vi": "Triển khai chính thức trong khoảng 2 tuần"
+    },
+    "proof_2": {
+      "en": "InvoiceNow-ready eInvoice",
+      "vi": "Hóa đơn điện tử sẵn sàng cho InvoiceNow"
+    },
+    "proof_3": {
+      "en": "Mobile capture and approvals",
+      "vi": "Chụp và phê duyệt trên thiết bị di động"
+    },
+    "proof_4": {
+      "en": "Scale 5 to 500+ users",
+      "vi": "Mở rộng từ 5 đến hơn 500 người dùng"
+    },
+    "proof_5": {
+      "en": "Singapore-built for SEA",
+      "vi": "Được xây dựng tại Singapore cho khu vực Đông Nam Á"
+    },
+    "problem_title": {
+      "en": "The problem",
+      "vi": "Vấn đề"
+    },
+    "problem_subtitle": {
+      "en": "When work stalls, teams pay the cost.",
+      "vi": "Khi công việc bị đình trệ, đội ngũ phải trả giá."
+    },
+    "problem_0_title": {
+      "en": "Approvals stuck in chat",
+      "vi": "Phê duyệt bị mắc kẹt trong tin nhắn"
+    },
+    "problem_0_tagline": {
+      "en": "Hand-offs stall when status lives in DMs.",
+      "vi": "Việc bàn giao bị đình trệ khi trạng thái chỉ nằm trong tin nhắn riêng."
+    },
+    "problem_1_title": {
+      "en": "Month-end scavenger hunt",
+      "vi": "Cuộc săn lùng cuối tháng"
+    },
+    "problem_1_tagline": {
+      "en": "Finance chases receipts across tools and files.",
+      "vi": "Bộ phận tài chính phải lùng sục biên lai qua nhiều công cụ và tệp tin."
+    },
+    "problem_2_title": {
+      "en": "Decisions without proof",
+      "vi": "Quyết định thiếu bằng chứng"
+    },
+    "problem_2_tagline": {
+      "en": "Leaders act on stale data with no audit trail.",
+      "vi": "Lãnh đạo hành động dựa trên dữ liệu lỗi thời mà không có nhật ký kiểm toán."
+    },
+    "features_title": {
+      "en": "Product modules",
+      "vi": "Các phân hệ sản phẩm"
+    },
+    "features_subtitle": {
+      "en": "One spine for how work runs.",
+      "vi": "Một trục xương sống cho cách công việc vận hành."
+    },
+    "modules_0_title": {
+      "en": "HR & Attendance",
+      "vi": "Nhân sự & Chấm công"
+    },
+    "modules_0_tagline": {
+      "en": "Check-in to payroll on one approval path.",
+      "vi": "Từ chấm công đến lương trên một quy trình phê duyệt duy nhất."
+    },
+    "modules_1_title": {
+      "en": "Expense Management",
+      "vi": "Quản lý Chi phí"
+    },
+    "modules_1_tagline": {
+      "en": "Capture and approve without the chase.",
+      "vi": "Ghi nhận và phê duyệt mà không cần nhắc nhở."
+    },
+    "modules_2_title": {
+      "en": "eInvoice & Accounting",
+      "vi": "Hóa đơn điện tử & Kế toán"
+    },
+    "modules_2_tagline": {
+      "en": "Invoice to ledger—no re-entry.",
+      "vi": "Từ hóa đơn đến sổ cái — không cần nhập lại."
+    },
+    "modules_3_title": {
+      "en": "Workflow Builder",
+      "vi": "Trình xây dựng Quy trình"
+    },
+    "modules_3_tagline": {
+      "en": "Publish approvals your team can maintain.",
+      "vi": "Xuất bản các quy trình phê duyệt mà đội ngũ của Quý vị có thể duy trì."
+    },
+    "modules_view_all": {
+      "en": "View all modules",
+      "vi": "Xem tất cả phân hệ"
+    },
+    "learn_more": {
+      "en": "Learn more",
+      "vi": "Tìm hiểu thêm"
+    },
+    "stats_0_value": {
+      "en": "80%",
+      "vi": "80%"
+    },
+    "stats_0_label": {
+      "en": "Less manual work",
+      "vi": "Giảm công việc thủ công"
+    },
+    "stats_1_value": {
+      "en": "3×",
+      "vi": "3×"
+    },
+    "stats_1_label": {
+      "en": "Faster close",
+      "vi": "Đóng sổ nhanh hơn"
+    },
+    "stats_2_value": {
+      "en": "Day 1",
+      "vi": "Ngày đầu tiên"
+    },
+    "stats_2_label": {
+      "en": "Ready to run",
+      "vi": "Sẵn sàng vận hành"
+    },
+    "stats_context": {
+      "en": "Teams report less manual work and faster month-end after switching.",
+      "vi": "Các đội ngũ báo cáo giảm công việc thủ công và đóng sổ cuối tháng nhanh hơn sau khi chuyển đổi."
+    },
+    "testimonial_title": {
+      "en": "Build automation on a real workflow spine",
+      "vi": "Xây dựng tự động hóa trên một trục quy trình thực sự"
+    },
+    "testimonial_quote": {
+      "en": "Month-end used to take us three days of chasing data. Now it is a one-day review—the workflow spine handles what used to be manual hand-offs.",
+      "vi": "Trước đây, việc chốt sổ cuối tháng của chúng tôi mất ba ngày để lùng sục dữ liệu. Giờ đây chỉ còn một ngày để rà soát — trục quy trình đảm nhận những gì trước kia là bàn giao thủ công."
+    },
+    "testimonial_author_line": {
+      "en": "Sarah Lim, CFO at NovaTech Solutions",
+      "vi": "Sarah Lim, Giám đốc Tài chính tại NovaTech Solutions"
+    },
+    "testimonial_footnote": {
+      "en": "Join teams across Singapore and Southeast Asia.",
+      "vi": "Tham gia cùng các đội ngũ trên khắp Singapore và Đông Nam Á."
+    },
+    "pricing_headline": {
+      "en": "Plans that scale with you",
+      "vi": "Các gói phát triển cùng Quý vị"
+    },
+    "pricing_subline": {
+      "en": "Start small. Add automation as you grow.",
+      "vi": "Bắt đầu nhỏ. Thêm tự động hóa khi Quý vị phát triển."
+    },
+    "pricing_cta": {
+      "en": "View pricing",
+      "vi": "Xem bảng giá"
+    },
+    "support_title": {
+      "en": "Ready to get started?",
+      "vi": "Sẵn sàng bắt đầu?"
+    },
+    "support_subtitle": {
+      "en": "Talk to our team, see a live demo, or start your free trial today.",
+      "vi": "Trao đổi với đội ngũ của chúng tôi, xem bản demo trực tiếp, hoặc bắt đầu dùng thử miễn phí ngay hôm nay."
+    },
+    "support_0_title": {
+      "en": "Book a live demo",
+      "vi": "Đặt lịch demo trực tiếp"
+    },
+    "support_0_description": {
+      "en": "See the platform in action with a personalised walkthrough.",
+      "vi": "Xem nền tảng hoạt động thực tế với hướng dẫn được cá nhân hóa."
+    },
+    "support_0_cta": {
+      "en": "Book a demo",
+      "vi": "Đặt lịch demo"
+    },
+    "support_1_title": {
+      "en": "Start for free",
+      "vi": "Bắt đầu miễn phí"
+    },
+    "support_1_description": {
+      "en": "14-day Pro trial, work email required, no credit card.",
+      "vi": "Dùng thử Pro 14 ngày, yêu cầu email công việc, không cần thẻ tín dụng."
+    },
+    "support_1_cta": {
+      "en": "Start free trial",
+      "vi": "Bắt đầu dùng thử miễn phí"
+    },
+    "support_2_title": {
+      "en": "Talk to sales",
+      "vi": "Trao đổi với bộ phận kinh doanh"
+    },
+    "support_2_description": {
+      "en": "Discuss pricing, migration, or enterprise requirements.",
+      "vi": "Trao đổi về bảng giá, di chuyển dữ liệu hoặc yêu cầu doanh nghiệp."
+    },
+    "support_2_cta": {
+      "en": "Contact Sales",
+      "vi": "Liên hệ Kinh doanh"
+    },
+    "faq_title": {
+      "en": "FAQ",
+      "vi": "Câu hỏi thường gặp"
+    },
+    "faq_more_docs": {
+      "en": "More questions in the docs →",
+      "vi": "Thêm câu hỏi trong tài liệu →"
+    },
+    "faq_0_q": {
+      "en": "How is {brand} different from a traditional ERP?",
+      "vi": "{brand} khác gì so với một ERP truyền thống?"
+    },
+    "faq_0_a": {
+      "en": "Traditional ERPs are systems of record built around storage. {brand} keeps that record of truth and adds a workflow layer—approvals, schedules, and automation—so work moves with context instead of stalling in hand-offs.",
+      "vi": "Các ERP truyền thống là hệ thống ghi nhận được xây dựng xoay quanh việc lưu trữ. {brand} vẫn giữ nguyên bản ghi sự thật đó và bổ sung một lớp quy trình làm việc — phê duyệt, lịch trình và tự động hóa — để công việc di chuyển có bối cảnh thay vì bị đình trệ trong khâu bàn giao."
+    },
+    "faq_1_q": {
+      "en": "What do you mean by workflow automation?",
+      "vi": "Tự động hóa quy trình làm việc có nghĩa là gì?"
+    },
+    "faq_1_a": {
+      "en": "It is the ability to run recurring business steps—notifications, routing, payroll windows, invoice dispatch—on rules you define, with full history instead of one-off manual clicks.",
+      "vi": "Đó là khả năng chạy các bước nghiệp vụ lặp lại — thông báo, định tuyến, kỳ tính lương, phát hành hóa đơn — theo các quy tắc do Quý vị định nghĩa, với lịch sử đầy đủ thay vì các thao tác thủ công đơn lẻ."
+    },
+    "faq_2_q": {
+      "en": "What is included in the platform subscription?",
+      "vi": "Gói đăng ký nền tảng bao gồm những gì?"
+    },
+    "faq_2_a": {
+      "en": "The subscription covers infrastructure, data compliance, and your core ERP modules. Higher tiers add capacity, dedicated resources, and richer support options.",
+      "vi": "Gói đăng ký bao gồm hạ tầng, tuân thủ dữ liệu và các phân hệ ERP cốt lõi của Quý vị. Các gói cao hơn bổ sung dung lượng, tài nguyên chuyên dụng và các tùy chọn hỗ trợ phong phú hơn."
+    },
+    "faq_3_q": {
+      "en": "How is our business data protected?",
+      "vi": "Dữ liệu doanh nghiệp của chúng tôi được bảo vệ như thế nào?"
+    },
+    "faq_3_a": {
+      "en": "Your tenant data is isolated and processed for your organization's use of the service. We apply strict access controls and do not use your operational records for unrelated purposes.",
+      "vi": "Dữ liệu tenant của Quý vị được cách ly và xử lý cho việc sử dụng dịch vụ của tổ chức Quý vị. Chúng tôi áp dụng kiểm soát truy cập nghiêm ngặt và không sử dụng dữ liệu vận hành của Quý vị cho các mục đích không liên quan."
+    },
+    "faq_4_q": {
+      "en": "Is there a free trial?",
+      "vi": "Có bản dùng thử miễn phí không?"
+    },
+    "faq_4_a": {
+      "en": "Yes. Start a 14-day free trial with full Pro access—verify your work email and begin onboarding the same day. No credit card required.",
+      "vi": "Có. Bắt đầu dùng thử miễn phí 14 ngày với đầy đủ quyền truy cập Pro — xác minh email công việc của Quý vị và bắt đầu onboarding ngay trong ngày. Không cần thẻ tín dụng."
+    }
+  }
+}

@@ -19,13 +19,15 @@
     "alreadyHaveAccount": "已有账号？",
     "logIn": "登录",
     "errorPasswordsDoNotMatch": "两次密码不一致",
-    "errorGeneric": "Something went wrong. Please try again.",
-    "signingUp": "Creating account…"
+    "errorGeneric": "出现问题。请重试。",
+    "signingUp": "正在创建账户…"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#signup",
     "githubPath": "app/signup.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/zh.json#signup"
+    "importedFrom": "apps/employee-web/dictionaries/zh.json#signup",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

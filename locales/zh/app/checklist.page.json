@@ -40,16 +40,18 @@
     "daysLeft": "天剩余",
     "toDo": "待办",
     "done": "完成",
-    "overviewProgress": "Progress",
+    "overviewProgress": "进度",
     "countSuffix": "",
     "noTasksYet": "暂无任务",
     "startByAddingTask": "添加第一个任务开始",
-    "loadingMore": "Loading more"
+    "loadingMore": "加载更多"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#checklist",
     "githubPath": "app/checklist.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/zh.json#checklist"
+    "importedFrom": "apps/employee-web/dictionaries/zh.json#checklist",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

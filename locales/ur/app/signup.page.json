@@ -6,27 +6,27 @@
   "sourceHash": "sha256:ddb5417f701bc66105f54e1db3bac33ffdab5057c480dd09cf5f531e7b0ea8d2",
   "keys": {
     "brandName": "Pregoi",
-    "title": "سائن اپ",
-    "firstNameLabel": "First Name",
-    "firstNamePlaceholder": "Enter your first name",
-    "emailLabel": "Email",
+    "title": "سائن اپ کریں۔",
+    "firstNameLabel": "پہلا نام",
+    "firstNamePlaceholder": "اپنا پہلا نام درج کریں۔",
+    "emailLabel": "ای میل",
     "emailPlaceholder": "johndoe@gmail.com",
-    "passwordLabel": "Password",
-    "passwordPlaceholder": "Use a secure password",
-    "confirmPasswordLabel": "Confirm password",
-    "confirmPasswordPlaceholder": "Re-enter your password",
+    "passwordLabel": "پاس ورڈ",
+    "passwordPlaceholder": "ایک محفوظ پاس ورڈ استعمال کریں۔",
+    "confirmPasswordLabel": "پاس ورڈ کی تصدیق کریں۔",
+    "confirmPasswordPlaceholder": "اپنا پاس ورڈ دوبارہ درج کریں۔",
     "submitButton": "اکاؤنٹ بنائیں",
-    "alreadyHaveAccount": "Already have an account?",
-    "logIn": "Log in",
-    "errorPasswordsDoNotMatch": "Passwords do not match",
-    "errorGeneric": "Something went wrong. Please try again.",
-    "signingUp": "Creating account…"
+    "alreadyHaveAccount": "پہلے سے ہی اکاؤنٹ ہے؟",
+    "logIn": "لاگ ان کریں۔",
+    "errorPasswordsDoNotMatch": "پاس ورڈز مماثل نہیں ہیں۔",
+    "errorGeneric": "کچھ غلط ہو گیا۔ براہ کرم دوبارہ کوشش کریں۔",
+    "signingUp": "اکاؤنٹ بنایا جا رہا ہے…"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#signup",
     "githubPath": "app/signup.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

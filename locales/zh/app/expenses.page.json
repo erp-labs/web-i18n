@@ -20,7 +20,7 @@
     "selectSubCategory": "选择子类别",
     "totalAmountLabel": "总金额 (SGD)",
     "confirmAndContinue": "确认并继续",
-    "submitFailed": "Could not submit expense. Please try again.",
+    "submitFailed": "无法提交费用。请重试。",
     "categoryTransport": "交通",
     "categoryTravel": "差旅",
     "categoryBusinessExpense": "业务费用",
@@ -74,6 +74,8 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#expenses",
     "githubPath": "app/expenses.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/zh.json#expenses"
+    "importedFrom": "apps/employee-web/dictionaries/zh.json#expenses",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "pageId": "www.trial",
+  "surface": "www",
+  "route": "/trial",
+  "version": 1,
+  "sourceHash": "sha256:f21294b3dc1bb05e1f4d1b3507dfb14cf169fdf6bfd39204417961f52c551b16",
+  "keys": {
+    "path": "/trial",
+    "meta_title": "Start your trial | Vouus",
+    "meta_description": "Enter your work email to start a guided trial. Business domains get instant access; we will guide you through setup.",
+    "hero_title": "Try Pro free for 14 days",
+    "hero_subtitle": "Verify your work email to continue to sign up",
+    "whyWorkEmailLabel": "Why work email?",
+    "bullet1": "Full Pro access for 14 days",
+    "bullet2": "No credit card required",
+    "bullet3": "Your server and data stay in place after trial"
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts trial",
+    "githubPath": "www/trial.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

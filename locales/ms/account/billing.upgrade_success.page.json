@@ -2,21 +2,20 @@
   "pageId": "account.billing.upgrade_success",
   "surface": "account",
   "route": "/billing/upgrade/success",
-  "version": 3,
+  "version": 1,
   "sourceHash": "sha256:1cb63be9bc2381be9a48de30b061426e716ee01ed85b7b5b25a24f3fe1e73dbc",
   "keys": {
     "titlePayment": "Pembayaran berjaya",
     "titleInline": "Pakej dikemas kini",
-    "body": "Butiran langganan mungkin mengambil masa seminit untuk disegerakkan daripada Stripe.",
-    "bodyWithPlan": "Ruang kerja anda sedang beralih ke {plan}. Butiran langganan mungkin mengambil masa seminit untuk disegerakkan daripada Stripe.",
-    "cta": "Lihat bil"
+    "body": "Butiran langganan mungkin mengambil masa seminit untuk disegerakkan dari Stripe.",
+    "bodyWithPlan": "Your workspace is moving to {plan}. Subscription details may take a minute to sync from Stripe.",
+    "cta": "View billing"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /billing/upgrade/success",
     "githubPath": "account/billing.upgrade_success.page.json",
-    "translationStatus": "review",
-    "method": "cursor-ai-2",
-    "reviewedAt": "2026-06-30"
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
   }
 }

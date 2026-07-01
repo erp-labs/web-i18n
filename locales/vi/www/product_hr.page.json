@@ -15,7 +15,7 @@
     "productRepo": "web-public",
     "sourcePath": "apps/marketing-web/app/product/hr/page.tsx",
     "githubPath": "www/product_hr.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

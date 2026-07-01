@@ -19,13 +19,15 @@
     "alreadyHaveAccount": "이미 계정이 있으신가요?",
     "logIn": "로그인",
     "errorPasswordsDoNotMatch": "비밀번호가 일치하지 않습니다",
-    "errorGeneric": "Something went wrong. Please try again.",
-    "signingUp": "Creating account…"
+    "errorGeneric": "문제가 발생했습니다. 다시 시도해 주세요.",
+    "signingUp": "계정 만드는 중…"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#signup",
     "githubPath": "app/signup.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ko.json#signup"
+    "importedFrom": "apps/employee-web/dictionaries/ko.json#signup",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

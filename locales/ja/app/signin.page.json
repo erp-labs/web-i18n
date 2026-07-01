@@ -3,7 +3,7 @@
   "surface": "app",
   "route": "/{companyId}/{locale}/signin",
   "version": 2,
-  "sourceHash": "sha256:d11db4e2568fff0acd1a3e537126e705c035b887877f2da41867c16f01d45730",
+  "sourceHash": "sha256:b61dd77a92d1b93ec0a17e819f49b7fe6ee4a05d3e75cfd8500c3712433b4c84",
   "keys": {
     "title": "ログイン",
     "languageLabel": "表示言語",
@@ -14,12 +14,12 @@
       "ar": "العربية",
       "vi": "ベトナム語",
       "zh": "中国語",
-      "th": "Thai",
-      "id": "Indonesian",
-      "ms": "Malay",
-      "si": "Sinhala",
-      "ur": "Urdu",
-      "hi": "Hindi"
+      "th": "タイ語",
+      "id": "インドネシア語",
+      "ms": "マレー語",
+      "si": "シンハラ語",
+      "ur": "ウルドゥー語",
+      "hi": "ヒンディー語"
     },
     "emailLabel": "メールアドレス",
     "emailPlaceholder": "example@company.com",
@@ -31,17 +31,19 @@
     "noAccount": "アカウントをお持ちでない場合",
     "signUp": "新規登録",
     "errorSignInFailed": "ログインに失敗しました。",
-    "errorAccountNotFound": "This email is not registered for Work App sign-in yet. Ask your administrator to resend your invitation or sync Work App access.",
-    "errorAccountSuspended": "This account has been suspended. Contact your administrator.",
-    "staleSessionHint": "A previous sign-in session for another workspace is still stored in this browser.",
-    "clearStaleSession": "Clear stored session",
-    "clearingStaleSession": "Clearing…",
+    "errorAccountNotFound": "このメールは Work App サインイン用にまだ登録されていません。管理者に招待の再送信または Work App アクセスの同期を依頼してください。",
+    "errorAccountSuspended": "このアカウントは停止されています。管理者にお問い合わせください。",
+    "staleSessionHint": "別のワークスペースの以前のサインインセッションがこのブラウザに残っています。",
+    "clearStaleSession": "保存されたセッションをクリア",
+    "clearingStaleSession": "クリア中…",
     "errorGeneric": "エラーが発生しました。再度お試しください。"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#signin",
     "githubPath": "app/signin.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ja.json#signin"
+    "importedFrom": "apps/employee-web/dictionaries/ja.json#signin",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

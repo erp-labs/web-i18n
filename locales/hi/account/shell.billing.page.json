@@ -5,16 +5,16 @@
   "version": 3,
   "sourceHash": "sha256:7435cf8f871ac4b90d28ed927000595a96e04e8926e3f025dc48a3fe3a8e1e3a",
   "keys": {
-    "title": "Billing",
-    "subtitle": "अपनी subscription, भुगतान विधि और इतिहास प्रबंधित करें",
-    "subtitleWithEmail": "{email} के लिए subscription, भुगतान विधि और इतिहास प्रबंधित करें।"
+    "title": "बिलिंग",
+    "subtitle": "अपनी सदस्यता, भुगतान विधि और इतिहास प्रबंधित करें",
+    "subtitleWithEmail": "{email} के लिए अपनी सदस्यता, भुगतान विधि और इतिहास प्रबंधित करें।"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /billing",
     "githubPath": "account/shell.billing.page.json",
-    "translationStatus": "review",
-    "method": "cursor-ai-2",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai",
     "reviewedAt": "2026-06-30"
   }
 }

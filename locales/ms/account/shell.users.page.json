@@ -2,21 +2,20 @@
   "pageId": "account.shell.users",
   "surface": "account",
   "route": "/users",
-  "version": 3,
-  "sourceHash": "sha256:bbcf07f6b82362e65502a964bd838f809801bfdd344c8eb824c4e603614373d8",
+  "version": 1,
+  "sourceHash": "sha256:dd22291f406177fcdb9e19da57a1ea4d81406bff7ba99ce2bf9b876501565a91",
   "keys": {
-    "title": "Pengguna",
+    "title": "Users",
     "subtitle": "Urus pekerja yang boleh log masuk ke portal pekerja anda.",
-    "retryUserSeed": "Retry user seed",
-    "retryingUserSeed": "Retrying…",
-    "seedPendingHint": "Employee invites from onboarding are waiting to be seeded. Use Retry user seed below once provisioning finishes."
+    "retryUserSeed": "Cuba semula benih pengguna",
+    "retryingUserSeed": "Mencuba semula…",
+    "seedPendingHint": "Jemputan pekerja dari onboarding sedang menunggu untuk disemai. Gunakan Cuba semula benih pengguna di bawah setelah penyediaan selesai."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /users",
     "githubPath": "account/shell.users.page.json",
-    "translationStatus": "review",
-    "method": "cursor-ai-2",
-    "reviewedAt": "2026-06-30"
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
   }
 }

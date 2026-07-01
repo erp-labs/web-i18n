@@ -3,27 +3,27 @@
   "surface": "account",
   "route": "/onboarding/platform",
   "version": 3,
-  "sourceHash": "sha256:27b0c003e837d202c7b9af46206a6ed105c05bd805900a2dad1097483d646a90",
+  "sourceHash": "sha256:a1fd967f3ed9374a8eee27f783d845a3c6c351a6ee9793638fcb33ebebbdf187",
   "keys": {
     "title": "پلیٹ فارم",
-    "intro": "اس workspace کے لیے اپنا ERP stack اور cloud provider منتخب کریں۔",
+    "intro": "اس ورک اسپیس کے لیے اپنے ERP اسٹیک اور کلاؤڈ فراہم کنندہ کا انتخاب کریں۔",
     "submit": "جاری رکھیں",
-    "submitting": "Continuing…",
-    "recommendedSetupLabel": "Recommended setup:",
-    "recommendedSetupIntro": "For the fastest, most reliable launch today, we recommend",
-    "recommendedSetupOutro": "Additional ERP and cloud options will be available soon.",
-    "optionNotAvailableNotice": "This option is not available yet. Please select the Recommended option, or contact support for early access.",
-    "badgeRecommended": "Recommended",
-    "badgeComingSoon": "Coming soon",
-    "erpSectionHeading": "Select ERP solution:",
-    "cloudSectionHeading": "Select cloud provider:"
+    "submitting": "جاری ہے…",
+    "recommendedSetupLabel": "تجویز کردہ سیٹ اپ:",
+    "recommendedSetupIntro": "آج کے تیز ترین، سب سے زیادہ قابل اعتماد لانچ کے لیے، ہم تجویز کرتے ہیں۔",
+    "recommendedSetupOutro": "اضافی ERP اور کلاؤڈ کے اختیارات جلد ہی دستیاب ہوں گے۔",
+    "optionNotAvailableNotice": "یہ آپشن ابھی تک دستیاب نہیں ہے۔ براہ کرم تجویز کردہ آپشن کو منتخب کریں، یا جلد رسائی کے لیے سپورٹ سے رابطہ کریں۔",
+    "badgeRecommended": "تجویز کردہ",
+    "badgeComingSoon": "جلد آرہا ہے۔",
+    "erpSectionHeading": "ERP حل منتخب کریں:",
+    "cloudSectionHeading": "کلاؤڈ فراہم کنندہ کو منتخب کریں:"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /onboarding/platform",
     "githubPath": "account/onboarding.platform.page.json",
-    "translationStatus": "review",
-    "method": "cursor-ai-2",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai",
     "reviewedAt": "2026-06-30"
   }
 }

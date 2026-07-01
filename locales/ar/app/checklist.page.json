@@ -44,12 +44,14 @@
     "countSuffix": "",
     "noTasksYet": "لا توجد مهام بعد",
     "startByAddingTask": "ابدأ بإضافة مهمتك الأولى",
-    "loadingMore": "Loading more"
+    "loadingMore": "جارٍ تحميل المزيد"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#checklist",
     "githubPath": "app/checklist.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ar.json#checklist"
+    "importedFrom": "apps/employee-web/dictionaries/ar.json#checklist",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

@@ -14,6 +14,8 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#locationPermission",
     "githubPath": "app/locationPermission.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/zh.json#locationPermission"
+    "importedFrom": "apps/employee-web/dictionaries/zh.json#locationPermission",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

@@ -3,27 +3,27 @@
   "surface": "account",
   "route": "/onboarding/review",
   "version": 1,
-  "sourceHash": "sha256:4877f538fd9a59ba4f0c09ba25417ade0e362e35dcd80c757e455755583ad485",
+  "sourceHash": "sha256:2bb9911f0afa71f2c3f4616539403328a7868c8b698b272cdcf328c95834d04c",
   "keys": {
-    "title": "Review & Confirm",
-    "intro": "Check your company details before we create your workspace and start provisioning.",
-    "submit": "Start launch",
-    "submitting": "Starting…",
-    "submitUnavailable": "Start Launch unavailable",
-    "backToEdit": "Back to edit",
-    "labelCompanyName": "Company name",
-    "labelSubdomain": "Subdomain",
-    "labelEmployeePortal": "Employee portal",
-    "labelErpSolution": "ERP solution",
-    "labelCloudProvider": "Cloud provider",
-    "editCompany": "Edit company",
-    "editPlatform": "Edit platform"
+    "title": "검토 및 확인",
+    "intro": "워크스페이스를 생성하고 프로비저닝을 시작하기 전에 회사 정보를 확인하세요.",
+    "submit": "시작",
+    "submitting": "시작 중…",
+    "submitUnavailable": "시작 불가",
+    "backToEdit": "수정으로 돌아가기",
+    "labelCompanyName": "회사명",
+    "labelSubdomain": "서브도메인",
+    "labelEmployeePortal": "직원 포털",
+    "labelErpSolution": "ERP 솔루션",
+    "labelCloudProvider": "클라우드 제공업체",
+    "editCompany": "회사 수정",
+    "editPlatform": "플랫폼 수정"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /onboarding/review",
     "githubPath": "account/onboarding.review.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

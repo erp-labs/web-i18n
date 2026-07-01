@@ -3,27 +3,27 @@
   "surface": "account",
   "route": "/onboarding/review",
   "version": 1,
-  "sourceHash": "sha256:4877f538fd9a59ba4f0c09ba25417ade0e362e35dcd80c757e455755583ad485",
+  "sourceHash": "sha256:2bb9911f0afa71f2c3f4616539403328a7868c8b698b272cdcf328c95834d04c",
   "keys": {
-    "title": "Review & Confirm",
-    "intro": "Check your company details before we create your workspace and start provisioning.",
-    "submit": "Start launch",
-    "submitting": "Starting…",
-    "submitUnavailable": "Start Launch unavailable",
-    "backToEdit": "Back to edit",
-    "labelCompanyName": "Company name",
-    "labelSubdomain": "Subdomain",
-    "labelEmployeePortal": "Employee portal",
-    "labelErpSolution": "ERP solution",
-    "labelCloudProvider": "Cloud provider",
-    "editCompany": "Edit company",
-    "editPlatform": "Edit platform"
+    "title": "审核与确认",
+    "intro": "在创建工作区并开始配置之前，请核对公司详情。",
+    "submit": "开始启动",
+    "submitting": "启动中…",
+    "submitUnavailable": "无法开始启动",
+    "backToEdit": "返回编辑",
+    "labelCompanyName": "公司名称",
+    "labelSubdomain": "子域名",
+    "labelEmployeePortal": "员工门户",
+    "labelErpSolution": "ERP 方案",
+    "labelCloudProvider": "云服务商",
+    "editCompany": "编辑公司",
+    "editPlatform": "编辑平台"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /onboarding/review",
     "githubPath": "account/onboarding.review.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

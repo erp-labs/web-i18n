@@ -5,15 +5,15 @@
   "version": 3,
   "sourceHash": "sha256:85679828a819e862b67be9fcc40c7433ed66802a37ad08ff3e48000292331aeb",
   "keys": {
-    "title": "සේවා Usage",
-    "subtitle": "storage, email, AI tokens, සහ employee portal seats සඳහා quota ඔබගේ plan මත නිරීක්ෂණය කරන්න."
+    "title": "සේවා භාවිතය",
+    "subtitle": "ඔබේ සැලසුමේ ගබඩා කිරීම, ඊමේල්, AI ටෝකන සහ සේවක ද්වාර ආසන සඳහා කෝටාවන් නිරීක්ෂණය කරන්න."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /usage",
     "githubPath": "account/shell.usage.page.json",
-    "translationStatus": "review",
-    "method": "cursor-ai-2",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai",
     "reviewedAt": "2026-06-30"
   }
 }

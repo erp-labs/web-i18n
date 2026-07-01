@@ -16,16 +16,18 @@
     "dashboard": "業務概況",
     "invoices": "請求管理",
     "customers": "顧客",
-    "accounting": "Accounting",
-    "payment": "Payment",
-    "reservation": "Reservation",
-    "calendar": "Calendar",
-    "mailing": "Mailing"
+    "accounting": "会計",
+    "payment": "支払",
+    "reservation": "予約",
+    "calendar": "カレンダー",
+    "mailing": "メール"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#menu",
     "githubPath": "app/menu.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ja.json#menu"
+    "importedFrom": "apps/employee-web/dictionaries/ja.json#menu",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

@@ -6,17 +6,17 @@
   "sourceHash": "sha256:1cb63be9bc2381be9a48de30b061426e716ee01ed85b7b5b25a24f3fe1e73dbc",
   "keys": {
     "titlePayment": "ادائیگی کامیاب",
-    "titleInline": "پیکج اپ ڈیٹ ہو گیا",
-    "body": "Stripe سے subscription کی تفصیلات sync ہونے میں ایک منٹ لگ سکتا ہے۔",
-    "bodyWithPlan": "آپ کا workspace {plan} پر منتقل ہو رہا ہے۔ Stripe سے subscription کی تفصیلات sync ہونے میں ایک منٹ لگ سکتا ہے۔",
-    "cta": "billing دیکھیں"
+    "titleInline": "پیکیج اپ ڈیٹ کر دیا گیا۔",
+    "body": "سبسکرپشن کی تفصیلات کو Stripe سے مطابقت پذیر ہونے میں ایک منٹ لگ سکتا ہے۔",
+    "bodyWithPlan": "آپ کی ورک اسپیس {plan} میں منتقل ہو رہی ہے۔ سبسکرپشن کی تفصیلات کو Stripe سے مطابقت پذیر ہونے میں ایک منٹ لگ سکتا ہے۔",
+    "cta": "بلنگ دیکھیں"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /billing/upgrade/success",
     "githubPath": "account/billing.upgrade_success.page.json",
-    "translationStatus": "review",
-    "method": "cursor-ai-2",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai",
     "reviewedAt": "2026-06-30"
   }
 }

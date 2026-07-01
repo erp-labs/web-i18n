@@ -15,17 +15,19 @@
     "noticeTooltip": "إشعار",
     "dashboard": "لوحة التحكم",
     "invoices": "الفواتير",
-    "customers": "Customer",
-    "accounting": "Accounting",
-    "payment": "Payment",
-    "reservation": "Reservation",
-    "calendar": "Calendar",
-    "mailing": "Mailing"
+    "customers": "العملاء",
+    "accounting": "المحاسبة",
+    "payment": "الدفع",
+    "reservation": "الحجز",
+    "calendar": "التقويم",
+    "mailing": "المراسلات"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#menu",
     "githubPath": "app/menu.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ar.json#menu"
+    "importedFrom": "apps/employee-web/dictionaries/ar.json#menu",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

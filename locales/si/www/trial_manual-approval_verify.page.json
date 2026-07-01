@@ -13,7 +13,7 @@
     "productRepo": "infra-control-plane",
     "sourcePath": "src/marketing-pages/registry.ts trial/manual-approval/verify",
     "githubPath": "www/trial_manual-approval_verify.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }
