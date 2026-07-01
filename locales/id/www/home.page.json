@@ -3,7 +3,7 @@
   "surface": "www",
   "route": "/",
   "version": 2,
-  "sourceHash": "sha256:home-v2-full-sections",
+  "sourceHash": "sha256:2d04cbaad54b8b323886c2c6ddf364f933b2abe4d5ad3febf2638c7f25bdeddc",
   "keys": {
     "path": "/",
     "meta_title": "Vouus | Mudah, terpadu ERP",
@@ -78,13 +78,15 @@
     "faq_3_q": "Bagaimana data bisnis kami dilindungi?",
     "faq_3_a": "Your tenant data is isolated and processed for your organization's use of the service. We apply strict access controls and do not use your operational records for unrelated purposes.",
     "faq_4_q": "Apakah ada uji coba gratis?",
-    "faq_4_a": "Yes. Start a 14-day free trial with full Pro access—verify your work email and begin onboarding the same day. No credit card required."
+    "faq_4_a": "Yes. Start a 14-day free trial with full Pro access—verify your work email and begin onboarding the same day. No credit card required.",
+    "hero_cta_primary": "Mulai uji coba gratis",
+    "hero_cta_secondary": "Lihat dalam 15 menit"
   },
   "meta": {
     "productRepo": "web-public",
     "sourcePath": "apps/marketing-web/lib/home-section-content.ts",
     "githubPath": "www/home.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

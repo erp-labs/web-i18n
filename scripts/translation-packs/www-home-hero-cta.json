@@ -1,0 +1,54 @@
+{
+  "ko": {
+    "hero_cta_primary": "무료 체험 시작",
+    "hero_cta_secondary": "15분 데모 보기"
+  },
+  "ja": {
+    "hero_cta_primary": "無料トライアルを開始",
+    "hero_cta_secondary": "15分デモを見る"
+  },
+  "zh": {
+    "hero_cta_primary": "开始免费试用",
+    "hero_cta_secondary": "15 分钟演示"
+  },
+  "ar": {
+    "hero_cta_primary": "ابدأ تجربة مجانية",
+    "hero_cta_secondary": "شاهد في 15 دقيقة"
+  },
+  "vi": {
+    "hero_cta_primary": "Bắt đầu dùng thử miễn phí",
+    "hero_cta_secondary": "Xem trong 15 phút"
+  },
+  "th": {
+    "hero_cta_primary": "เริ่มทดลองใช้ฟรี",
+    "hero_cta_secondary": "ดูใน 15 นาที"
+  },
+  "id": {
+    "hero_cta_primary": "Mulai uji coba gratis",
+    "hero_cta_secondary": "Lihat dalam 15 menit"
+  },
+  "ms": {
+    "hero_cta_primary": "Mulakan percubaan percuma",
+    "hero_cta_secondary": "Lihat dalam 15 minit"
+  },
+  "si": {
+    "hero_cta_primary": "Free trial ආරම්‍භ කරන්න",
+    "hero_cta_secondary": "15 min තුළ බලන්න"
+  },
+  "ur": {
+    "hero_cta_primary": "مفت ٹرائل شروع کریں",
+    "hero_cta_secondary": "15 منٹ میں دیکھیں"
+  },
+  "hi": {
+    "hero_cta_primary": "मुफ़्त ट्रायल शुरू करें",
+    "hero_cta_secondary": "15 मिनट में देखें"
+  },
+  "ru": {
+    "hero_cta_primary": "Начать бесплатную пробную версию",
+    "hero_cta_secondary": "Посмотреть за 15 минут"
+  },
+  "my": {
+    "hero_cta_primary": "Free trial စတင်ရန်",
+    "hero_cta_secondary": "15 min တွင် ကြည့်ရန်"
+  }
+}

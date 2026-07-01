@@ -3,7 +3,7 @@
   "surface": "www",
   "route": "/",
   "version": 1,
-  "sourceHash": "sha256:home-v2-full-sections",
+  "sourceHash": "sha256:2d04cbaad54b8b323886c2c6ddf364f933b2abe4d5ad3febf2638c7f25bdeddc",
   "keys": {
     "path": "/",
     "meta_title": "Vouus | ERP hợp nhất, dễ sử dụng",
@@ -78,13 +78,15 @@
     "faq_3_q": "Dữ liệu doanh nghiệp của chúng tôi được bảo vệ như thế nào?",
     "faq_3_a": "Dữ liệu tenant của Quý vị được cách ly và xử lý cho việc sử dụng dịch vụ của tổ chức Quý vị. Chúng tôi áp dụng kiểm soát truy cập nghiêm ngặt và không sử dụng dữ liệu vận hành của Quý vị cho các mục đích không liên quan.",
     "faq_4_q": "Có bản dùng thử miễn phí không?",
-    "faq_4_a": "Có. Bắt đầu dùng thử miễn phí 14 ngày với đầy đủ quyền truy cập Pro — xác minh email công việc của Quý vị và bắt đầu onboarding ngay trong ngày. Không cần thẻ tín dụng."
+    "faq_4_a": "Có. Bắt đầu dùng thử miễn phí 14 ngày với đầy đủ quyền truy cập Pro — xác minh email công việc của Quý vị và bắt đầu onboarding ngay trong ngày. Không cần thẻ tín dụng.",
+    "hero_cta_primary": "Bắt đầu dùng thử miễn phí",
+    "hero_cta_secondary": "Xem trong 15 phút"
   },
   "meta": {
     "productRepo": "infra-control-plane",
     "sourcePath": "src/marketing-pages/registry.ts home",
     "githubPath": "www/home.page.json",
-    "translationStatus": "reviewed",
+    "translationStatus": "ai_draft",
     "method": "cursor-ai"
   }
 }

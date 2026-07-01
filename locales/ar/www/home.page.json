@@ -3,7 +3,7 @@
   "surface": "www",
   "route": "/",
   "version": 1,
-  "sourceHash": "sha256:home-v2-full-sections",
+  "sourceHash": "sha256:2d04cbaad54b8b323886c2c6ddf364f933b2abe4d5ad3febf2638c7f25bdeddc",
   "keys": {
     "path": "/",
     "meta_title": "Vouus | نظام ERP موحّد وسهل الاستخدام",
@@ -78,13 +78,15 @@
     "faq_3_q": "كيف تتم حماية بيانات أعمالنا؟",
     "faq_3_a": "يتم عزل بيانات المستأجر الخاص بك ومعالجتها لاستخدام مؤسستك للخدمة. نطبّق ضوابط وصول صارمة ولا نستخدم سجلاتك التشغيلية لأغراض غير ذات صلة.",
     "faq_4_q": "هل توجد تجربة مجانية؟",
-    "faq_4_a": "نعم. ابدأ تجربة مجانية لمدة 14 يومًا مع وصول كامل إلى Pro — تحقّق من بريدك الإلكتروني الخاص بالعمل وابدأ الإعداد في اليوم نفسه. لا حاجة إلى بطاقة ائتمان."
+    "faq_4_a": "نعم. ابدأ تجربة مجانية لمدة 14 يومًا مع وصول كامل إلى Pro — تحقّق من بريدك الإلكتروني الخاص بالعمل وابدأ الإعداد في اليوم نفسه. لا حاجة إلى بطاقة ائتمان.",
+    "hero_cta_primary": "ابدأ تجربة مجانية",
+    "hero_cta_secondary": "شاهد في 15 دقيقة"
   },
   "meta": {
     "productRepo": "infra-control-plane",
     "sourcePath": "src/marketing-pages/registry.ts home",
     "githubPath": "www/home.page.json",
-    "translationStatus": "reviewed",
+    "translationStatus": "ai_draft",
     "method": "cursor-ai"
   }
 }

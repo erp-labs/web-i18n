@@ -3,7 +3,7 @@
   "surface": "www",
   "route": "/",
   "version": 2,
-  "sourceHash": "sha256:home-v2-full-sections",
+  "sourceHash": "sha256:2d04cbaad54b8b323886c2c6ddf364f933b2abe4d5ad3febf2638c7f25bdeddc",
   "keys": {
     "path": "/",
     "meta_title": "Vouus | 简单统一的 ERP",
@@ -78,13 +78,15 @@
     "faq_3_q": "业务数据如何保护？",
     "faq_3_a": "租户数据隔离处理，仅供贵组织使用服务。我们实施严格访问控制，不会将运营记录用于无关目的。",
     "faq_4_q": "有免费试用吗？",
-    "faq_4_a": "有。14 天全 Pro 访问免费试用—验证工作邮箱，当天开始 onboarding。无需信用卡。"
+    "faq_4_a": "有。14 天全 Pro 访问免费试用—验证工作邮箱，当天开始 onboarding。无需信用卡。",
+    "hero_cta_primary": "开始免费试用",
+    "hero_cta_secondary": "15 分钟演示"
   },
   "meta": {
     "productRepo": "web-public",
     "sourcePath": "apps/marketing-web/lib/home-section-content.ts",
     "githubPath": "www/home.page.json",
-    "translationStatus": "reviewed",
+    "translationStatus": "ai_draft",
     "method": "cursor-ai"
   }
 }

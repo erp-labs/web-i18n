@@ -3,7 +3,7 @@
   "surface": "www",
   "route": "/",
   "version": 2,
-  "sourceHash": "sha256:home-v2-full-sections",
+  "sourceHash": "sha256:2d04cbaad54b8b323886c2c6ddf364f933b2abe4d5ad3febf2638c7f25bdeddc",
   "keys": {
     "path": "/",
     "meta_title": "Vouus | 쉽고 통합된 ERP",
@@ -78,13 +78,15 @@
     "faq_3_q": "비즈니스 데이터는 어떻게 보호되나요?",
     "faq_3_a": "테넌트 데이터는 격리되어 귀하의 조직 서비스 이용을 위해 처리됩니다. 엄격한 접근 제어를 적용하며 운영 기록을 무관한 목적으로 사용하지 않습니다.",
     "faq_4_q": "무료 체험이 있나요?",
-    "faq_4_a": "네. 전체 Pro 접근 14일 무료 체험—업무 이메일을 인증하고 당일 온보딩을 시작하세요. 신용카드 불필요."
+    "faq_4_a": "네. 전체 Pro 접근 14일 무료 체험—업무 이메일을 인증하고 당일 온보딩을 시작하세요. 신용카드 불필요.",
+    "hero_cta_primary": "무료 체험 시작",
+    "hero_cta_secondary": "15분 데모 보기"
   },
   "meta": {
     "productRepo": "web-public",
     "sourcePath": "apps/marketing-web/lib/home-section-content.ts",
     "githubPath": "www/home.page.json",
-    "translationStatus": "reviewed",
+    "translationStatus": "ai_draft",
     "method": "cursor-ai"
   }
 }
