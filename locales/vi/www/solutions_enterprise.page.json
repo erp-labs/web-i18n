@@ -45,7 +45,7 @@
     "productRepo": "infra-control-plane",
     "sourcePath": "src/marketing-pages/registry.ts solutions/enterprise",
     "githubPath": "www/solutions_enterprise.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

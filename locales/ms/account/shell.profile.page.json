@@ -2,18 +2,17 @@
   "pageId": "account.shell.profile",
   "surface": "account",
   "route": "/profile",
-  "version": 3,
+  "version": 1,
   "sourceHash": "sha256:119605f707e26aec0a235727e9b890fd6bab9389e15d1200a6645d79415bad0f",
   "keys": {
-    "title": "Profil",
-    "subtitle": "Butiran akaun dan organisasi anda."
+    "title": "Profile",
+    "subtitle": "Your account and organization details."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /profile",
     "githubPath": "account/shell.profile.page.json",
-    "translationStatus": "review",
-    "method": "cursor-ai-2",
-    "reviewedAt": "2026-06-30"
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
   }
 }

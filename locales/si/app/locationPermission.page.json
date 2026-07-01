@@ -5,16 +5,16 @@
   "version": 1,
   "sourceHash": "sha256:d925f25b9680bbb3902ef950b535e206b9d76a665fdbca0f80ce2c5004fa3ece",
   "keys": {
-    "title": "Enable your location",
-    "description": "This app requires that location services are turned on your device and for this app. You must enable them in Settings before using this app.",
-    "allowButton": "Allow only while using this app",
-    "denyButton": "Don't allow this app"
+    "title": "ඔබගේ ස්ථානය සබල කරන්න",
+    "description": "මෙම යෙදුමට ඔබගේ උපාංගය සහ මෙම යෙදුම සඳහා ස්ථාන සේවා ක්‍රියාත්මක කර තිබීම අවශ්‍ය වේ. මෙම යෙදුම භාවිතා කිරීමට පෙර ඔබ ඒවා සැකසීම් තුළ සබල කළ යුතුය.",
+    "allowButton": "මෙම යෙදුම භාවිතා කරන අතරතුර පමණක් ඉඩ දෙන්න",
+    "denyButton": "මෙම යෙදුමට ඉඩ නොදෙන්න"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#locationPermission",
     "githubPath": "app/locationPermission.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

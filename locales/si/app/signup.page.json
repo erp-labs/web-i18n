@@ -7,26 +7,26 @@
   "keys": {
     "brandName": "Pregoi",
     "title": "ලියාපදිංචි වන්න",
-    "firstNameLabel": "First Name",
-    "firstNamePlaceholder": "Enter your first name",
-    "emailLabel": "Email",
+    "firstNameLabel": "මුල් නම",
+    "firstNamePlaceholder": "ඔබගේ මුල් නම ඇතුලත් කරන්න",
+    "emailLabel": "ඊමේල් කරන්න",
     "emailPlaceholder": "johndoe@gmail.com",
-    "passwordLabel": "Password",
-    "passwordPlaceholder": "Use a secure password",
-    "confirmPasswordLabel": "Confirm password",
-    "confirmPasswordPlaceholder": "Re-enter your password",
-    "submitButton": "ගිණුම සාදන්න",
-    "alreadyHaveAccount": "Already have an account?",
-    "logIn": "Log in",
-    "errorPasswordsDoNotMatch": "Passwords do not match",
-    "errorGeneric": "Something went wrong. Please try again.",
-    "signingUp": "Creating account…"
+    "passwordLabel": "මුරපදය",
+    "passwordPlaceholder": "ආරක්ෂිත මුරපදයක් භාවිතා කරන්න",
+    "confirmPasswordLabel": "මුරපදය තහවුරු කරන්න",
+    "confirmPasswordPlaceholder": "ඔබගේ මුරපදය නැවත ඇතුල් කරන්න",
+    "submitButton": "ගිණුම තනන්න",
+    "alreadyHaveAccount": "දැනටමත් ගිණුමක් තිබේද?",
+    "logIn": "ඇතුල් වන්න",
+    "errorPasswordsDoNotMatch": "මුරපද නොගැලපේ",
+    "errorGeneric": "යමක් වැරදී ඇත. කරුණාකර නැවත උත්සාහ කරන්න.",
+    "signingUp": "ගිණුම සාදමින්..."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#signup",
     "githubPath": "app/signup.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

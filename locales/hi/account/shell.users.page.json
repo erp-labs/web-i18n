@@ -3,20 +3,20 @@
   "surface": "account",
   "route": "/users",
   "version": 3,
-  "sourceHash": "sha256:bbcf07f6b82362e65502a964bd838f809801bfdd344c8eb824c4e603614373d8",
+  "sourceHash": "sha256:dd22291f406177fcdb9e19da57a1ea4d81406bff7ba99ce2bf9b876501565a91",
   "keys": {
-    "title": "Users",
-    "subtitle": "उन कर्मचारियों को प्रबंधित करें जो आपके employee portal में साइन इन कर सकते हैं।",
-    "retryUserSeed": "Retry user seed",
-    "retryingUserSeed": "Retrying…",
-    "seedPendingHint": "Employee invites from onboarding are waiting to be seeded. Use Retry user seed below once provisioning finishes."
+    "title": "उपयोगकर्ताओं",
+    "subtitle": "उन कर्मचारियों को प्रबंधित करें जो आपके कर्मचारी पोर्टल पर साइन इन कर सकते हैं।",
+    "retryUserSeed": "उपयोगकर्ता बीज पुनः प्रयास करें",
+    "retryingUserSeed": "पुनः प्रयास किया जा रहा है...",
+    "seedPendingHint": "ऑनबोर्डिंग से कर्मचारी आमंत्रण सीड होने की प्रतीक्षा कर रहे हैं। प्रावधान समाप्त होने पर नीचे पुन: प्रयास उपयोगकर्ता बीज का उपयोग करें।"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /users",
     "githubPath": "account/shell.users.page.json",
-    "translationStatus": "review",
-    "method": "cursor-ai-2",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai",
     "reviewedAt": "2026-06-30"
   }
 }

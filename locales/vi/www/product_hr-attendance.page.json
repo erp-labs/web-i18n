@@ -45,7 +45,7 @@
     "productRepo": "infra-control-plane",
     "sourcePath": "src/marketing-pages/registry.ts product/hr-attendance",
     "githubPath": "www/product_hr-attendance.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

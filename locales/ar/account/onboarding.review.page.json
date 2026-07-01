@@ -3,27 +3,27 @@
   "surface": "account",
   "route": "/onboarding/review",
   "version": 1,
-  "sourceHash": "sha256:4877f538fd9a59ba4f0c09ba25417ade0e362e35dcd80c757e455755583ad485",
+  "sourceHash": "sha256:2bb9911f0afa71f2c3f4616539403328a7868c8b698b272cdcf328c95834d04c",
   "keys": {
-    "title": "Review & Confirm",
-    "intro": "Check your company details before we create your workspace and start provisioning.",
-    "submit": "Start launch",
-    "submitting": "Starting…",
-    "submitUnavailable": "Start Launch unavailable",
-    "backToEdit": "Back to edit",
-    "labelCompanyName": "Company name",
-    "labelSubdomain": "Subdomain",
-    "labelEmployeePortal": "Employee portal",
-    "labelErpSolution": "ERP solution",
-    "labelCloudProvider": "Cloud provider",
-    "editCompany": "Edit company",
-    "editPlatform": "Edit platform"
+    "title": "المراجعة والتأكيد",
+    "intro": "راجع تفاصيل شركتك قبل أن ننشئ مساحة عملك ونبدأ التهيئة.",
+    "submit": "بدء الإطلاق",
+    "submitting": "جارٍ البدء…",
+    "submitUnavailable": "بدء الإطلاق غير متاح",
+    "backToEdit": "العودة إلى التعديل",
+    "labelCompanyName": "اسم الشركة",
+    "labelSubdomain": "النطاق الفرعي",
+    "labelEmployeePortal": "بوابة الموظفين",
+    "labelErpSolution": "حل تخطيط الموارد (ERP)",
+    "labelCloudProvider": "مزوّد الخدمة السحابية",
+    "editCompany": "تعديل الشركة",
+    "editPlatform": "تعديل المنصة"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /onboarding/review",
     "githubPath": "account/onboarding.review.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

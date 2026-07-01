@@ -1,0 +1,22 @@
+{
+  "pageId": "email.welcome",
+  "surface": "email",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:a2e1d0e232ffce775bc99e7d1c29eda988cbd94d44e0525cd60271240ac3d82a",
+  "keys": {
+    "subject": "Dynamic subject (welcome)",
+    "headerTitle": "Your subscription is active",
+    "bodyIntro": "Your {company_name} subscription to {package_name} plan is now active.",
+    "nextStepsTitle": "Next steps",
+    "textHeader": "Your subscription is active",
+    "_sourceNote": "Extracted from welcome.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
+  },
+  "meta": {
+    "productRepo": "infra-email",
+    "sourcePath": "packages/email-templates/src/welcome.ts",
+    "githubPath": "email/welcome.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

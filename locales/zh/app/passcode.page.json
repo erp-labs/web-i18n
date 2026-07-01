@@ -7,9 +7,9 @@
   "keys": {
     "title": "密码",
     "enterPin": "请输入您的6位密码",
-    "enterCurrentPin": "Enter current passcode",
-    "changeNewPrompt": "Enter new passcode",
-    "changeConfirmPrompt": "Enter new passcode again to confirm",
+    "enterCurrentPin": "输入当前通行码",
+    "changeNewPrompt": "输入新通行码",
+    "changeConfirmPrompt": "再次输入新通行码以确认",
     "rememberDevice": "记住此设备（仅在个人电脑上勾选）",
     "rememberDeviceShort": "记住此设备",
     "reset": "重置",
@@ -38,6 +38,8 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#passcode",
     "githubPath": "app/passcode.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/zh.json#passcode"
+    "importedFrom": "apps/employee-web/dictionaries/zh.json#passcode",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

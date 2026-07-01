@@ -2,19 +2,18 @@
   "pageId": "account.shell.billing",
   "surface": "account",
   "route": "/billing",
-  "version": 3,
+  "version": 1,
   "sourceHash": "sha256:7435cf8f871ac4b90d28ed927000595a96e04e8926e3f025dc48a3fe3a8e1e3a",
   "keys": {
-    "title": "Penagihan",
-    "subtitle": "Kelola langganan, metode pembayaran, dan riwayat Anda",
-    "subtitleWithEmail": "Kelola langganan, metode pembayaran, dan riwayat untuk {email}."
+    "title": "Billing",
+    "subtitle": "Kelola langganan Anda, metode pembayaran, dan riwayat",
+    "subtitleWithEmail": "Kelola langganan Anda, metode pembayaran, dan riwayat untuk {email}."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /billing",
     "githubPath": "account/shell.billing.page.json",
-    "translationStatus": "review",
-    "method": "cursor-ai-2",
-    "reviewedAt": "2026-06-30"
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
   }
 }

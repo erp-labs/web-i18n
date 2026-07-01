@@ -3,20 +3,20 @@
   "surface": "account",
   "route": "/billing/upgrade",
   "version": 3,
-  "sourceHash": "sha256:7428f7bac7c24316234874d4f490cd00ef9f55561ac56104b1810dd3ba424d78",
+  "sourceHash": "sha256:c27edb78c826b70992a1032767dbb760d57974afb0b172c0b25fca23c88dd49a",
   "keys": {
     "title": "पैकेज अपग्रेड करें",
-    "subtitle": "अपने workspace के लिए उच्च योजना चुनें।",
-    "bodyNote": "उच्च योजना पर जाने पर आपका dedicated server और डेटा वैसा ही रहता है।",
-    "submit": "अपग्रेड",
-    "backToBilling": "← billing पर वापस"
+    "subtitle": "अपने कार्यक्षेत्र के लिए एक उच्च योजना चुनें।",
+    "bodyNote": "जब आप किसी उच्च योजना पर जाते हैं तो आपका समर्पित सर्वर और डेटा यथावत रहता है।",
+    "submit": "उन्नत करना",
+    "backToBilling": "← बिलिंग पर वापस जाएँ"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /billing/upgrade",
     "githubPath": "account/billing.upgrade.page.json",
-    "translationStatus": "review",
-    "method": "cursor-ai-2",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai",
     "reviewedAt": "2026-06-30"
   }
 }

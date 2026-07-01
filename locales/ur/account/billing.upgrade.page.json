@@ -3,20 +3,20 @@
   "surface": "account",
   "route": "/billing/upgrade",
   "version": 3,
-  "sourceHash": "sha256:7428f7bac7c24316234874d4f490cd00ef9f55561ac56104b1810dd3ba424d78",
+  "sourceHash": "sha256:c27edb78c826b70992a1032767dbb760d57974afb0b172c0b25fca23c88dd49a",
   "keys": {
-    "title": "پیکج اپ گریڈ کریں",
-    "subtitle": "اپنے workspace کے لیے اعلیٰ پلان منتخب کریں۔",
-    "bodyNote": "اعلیٰ پلان پر جانے پر آپ کا dedicated server اور ڈیٹا برقرار رہتا ہے۔",
-    "submit": "اپ گریڈ",
-    "backToBilling": "← billing پر واپس"
+    "title": "پیکیج کو اپ گریڈ کریں۔",
+    "subtitle": "اپنے کام کی جگہ کے لیے ایک اعلیٰ منصوبہ منتخب کریں۔",
+    "bodyNote": "جب آپ کسی اعلیٰ پلان پر جاتے ہیں تو آپ کا سرشار سرور اور ڈیٹا اپنی جگہ پر رہتا ہے۔",
+    "submit": "اپ گریڈ کریں۔",
+    "backToBilling": "← واپس بلنگ پر"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /billing/upgrade",
     "githubPath": "account/billing.upgrade.page.json",
-    "translationStatus": "review",
-    "method": "cursor-ai-2",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai",
     "reviewedAt": "2026-06-30"
   }
 }

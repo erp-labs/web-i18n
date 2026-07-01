@@ -1,0 +1,29 @@
+{
+  "pageId": "account.onboarding.review",
+  "surface": "account",
+  "route": "/onboarding/review",
+  "version": 1,
+  "sourceHash": "sha256:2bb9911f0afa71f2c3f4616539403328a7868c8b698b272cdcf328c95834d04c",
+  "keys": {
+    "title": "Review & Confirm",
+    "intro": "Check your company details before we create your workspace and start provisioning.",
+    "submit": "Start launch",
+    "submitting": "Starting…",
+    "submitUnavailable": "Start Launch unavailable",
+    "backToEdit": "Back to edit",
+    "labelCompanyName": "Company name",
+    "labelSubdomain": "Subdomain",
+    "labelEmployeePortal": "Employee portal",
+    "labelErpSolution": "ERP solution",
+    "labelCloudProvider": "Cloud provider",
+    "editCompany": "Edit company",
+    "editPlatform": "Edit platform"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /onboarding/review",
+    "githubPath": "account/onboarding.review.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

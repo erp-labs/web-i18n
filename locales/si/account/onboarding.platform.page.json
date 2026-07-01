@@ -3,27 +3,27 @@
   "surface": "account",
   "route": "/onboarding/platform",
   "version": 3,
-  "sourceHash": "sha256:27b0c003e837d202c7b9af46206a6ed105c05bd805900a2dad1097483d646a90",
+  "sourceHash": "sha256:a1fd967f3ed9374a8eee27f783d845a3c6c351a6ee9793638fcb33ebebbdf187",
   "keys": {
     "title": "වේදිකාව",
-    "intro": "මෙම workspace සඳහා ඔබගේ ERP stack සහ cloud provider තෝරන්න.",
-    "submit": "ඉදිරියට",
-    "submitting": "Continuing…",
-    "recommendedSetupLabel": "Recommended setup:",
-    "recommendedSetupIntro": "For the fastest, most reliable launch today, we recommend",
-    "recommendedSetupOutro": "Additional ERP and cloud options will be available soon.",
-    "optionNotAvailableNotice": "This option is not available yet. Please select the Recommended option, or contact support for early access.",
-    "badgeRecommended": "Recommended",
-    "badgeComingSoon": "Coming soon",
-    "erpSectionHeading": "Select ERP solution:",
-    "cloudSectionHeading": "Select cloud provider:"
+    "intro": "මෙම වැඩබිම සඳහා ඔබේ ERP තොගය සහ වලාකුළු සපයන්නා තෝරන්න.",
+    "submit": "දිගටම කරගෙන යන්න",
+    "submitting": "දිගටම…",
+    "recommendedSetupLabel": "නිර්දේශිත සැකසුම:",
+    "recommendedSetupIntro": "අද වේගවත්ම, වඩාත්ම විශ්වාසදායක දියත් කිරීම සඳහා, අපි නිර්දේශ කරමු",
+    "recommendedSetupOutro": "අතිරේක ERP සහ වලාකුළු විකල්ප ඉක්මනින් ලබා ගත හැක.",
+    "optionNotAvailableNotice": "මෙම විකල්පය තවමත් නොමැත. කරුණාකර නිර්දේශිත විකල්පය තෝරන්න, නැතහොත් ඉක්මන් ප්‍රවේශය සඳහා සහාය අමතන්න.",
+    "badgeRecommended": "නිර්දේශ කර ඇත",
+    "badgeComingSoon": "ඉක්මණින් පැමිණෙන",
+    "erpSectionHeading": "ERP විසඳුම තෝරන්න:",
+    "cloudSectionHeading": "වලාකුළු සපයන්නා තෝරන්න:"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /onboarding/platform",
     "githubPath": "account/onboarding.platform.page.json",
-    "translationStatus": "review",
-    "method": "cursor-ai-2",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai",
     "reviewedAt": "2026-06-30"
   }
 }

@@ -15,7 +15,7 @@
     "productRepo": "infra-control-plane",
     "sourcePath": "src/marketing-pages/registry.ts product/erp",
     "githubPath": "www/product_erp.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

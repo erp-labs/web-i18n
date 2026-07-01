@@ -1,0 +1,21 @@
+{
+  "pageId": "email.provisioning",
+  "surface": "email",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:cebada216d85b5cc4bbe5a2544931924aa48005894acf9465cc126bd98302f38",
+  "keys": {
+    "subject": "Dynamic subject (provisioning)",
+    "headerTitle": "Your workspace is ready",
+    "introTemplate": "Your {serviceName} workspace has finished provisioning. Use the links below to sign in and get started.",
+    "textHeader": "Your workspace is ready",
+    "_sourceNote": "Extracted from provisioning.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
+  },
+  "meta": {
+    "productRepo": "infra-email",
+    "sourcePath": "packages/email-templates/src/provisioning.ts",
+    "githubPath": "email/provisioning.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

@@ -58,11 +58,11 @@
       "startCta": "請求書を作成"
     },
     "customers": {
-      "whatTitle": "Your customer list",
-      "whatBody": "Browse ERP customers synced from your company workspace.",
-      "howTitle": "Need pipeline or deals?",
-      "howStep1": "Use Open in CRM for Frappe CRM on your tenant host.",
-      "howStep2": "Use Work Desk for full ERP customer records and accounting links."
+      "whatTitle": "顧客リスト",
+      "whatBody": "会社ワークスペースから同期された ERP 顧客を閲覧できます。",
+      "howTitle": "パイプラインや商談が必要ですか？",
+      "howStep1": "テナントホストの Frappe CRM は「CRM で開く」をご利用ください。",
+      "howStep2": "完全な ERP 顧客レコードと会計リンクには Work Desk をご利用ください。"
     },
     "leaves": {
       "whatTitle": "休暇を申請する",
@@ -87,6 +87,8 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#moduleGuide",
     "githubPath": "app/moduleGuide.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ja.json#moduleGuide"
+    "importedFrom": "apps/employee-web/dictionaries/ja.json#moduleGuide",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

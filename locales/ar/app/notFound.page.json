@@ -13,6 +13,7 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#notFound",
     "githubPath": "app/notFound.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ar.json#notFound"
+    "importedFrom": "apps/employee-web/dictionaries/ar.json#notFound",
+    "translationStatus": "reviewed"
   }
 }

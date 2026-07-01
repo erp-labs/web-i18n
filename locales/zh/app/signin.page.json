@@ -3,23 +3,23 @@
   "surface": "app",
   "route": "/{companyId}/{locale}/signin",
   "version": 2,
-  "sourceHash": "sha256:d11db4e2568fff0acd1a3e537126e705c035b887877f2da41867c16f01d45730",
+  "sourceHash": "sha256:b61dd77a92d1b93ec0a17e819f49b7fe6ee4a05d3e75cfd8500c3712433b4c84",
   "keys": {
     "title": "登录",
     "languageLabel": "语言",
     "languageOptions": {
-      "en": "English",
+      "en": "英语",
       "ko": "한국어",
       "ja": "日本語",
       "ar": "العربية",
       "vi": "Tiếng Việt",
       "zh": "简体中文",
-      "th": "Thai",
-      "id": "Indonesian",
-      "ms": "Malay",
-      "si": "Sinhala",
-      "ur": "Urdu",
-      "hi": "Hindi"
+      "th": "泰语",
+      "id": "印度尼西亚语",
+      "ms": "马来语",
+      "si": "僧伽罗语",
+      "ur": "乌尔都语",
+      "hi": "印地语"
     },
     "emailLabel": "邮箱",
     "emailPlaceholder": "johndoe@gmail.com",
@@ -31,17 +31,19 @@
     "noAccount": "还没有账号？",
     "signUp": "注册",
     "errorSignInFailed": "登录失败",
-    "errorAccountNotFound": "This email is not registered for Work App sign-in yet. Ask your administrator to resend your invitation or sync Work App access.",
-    "errorAccountSuspended": "This account has been suspended. Contact your administrator.",
-    "staleSessionHint": "A previous sign-in session for another workspace is still stored in this browser.",
-    "clearStaleSession": "Clear stored session",
-    "clearingStaleSession": "Clearing…",
+    "errorAccountNotFound": "此邮箱尚未注册 Work App 登录。请让管理员重新发送邀请或同步 Work App 访问权限。",
+    "errorAccountSuspended": "此账户已被暂停。请联系管理员。",
+    "staleSessionHint": "此浏览器中仍存储着另一工作区的先前登录会话。",
+    "clearStaleSession": "清除存储的会话",
+    "clearingStaleSession": "清除中…",
     "errorGeneric": "发生错误，请重试。"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#signin",
     "githubPath": "app/signin.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/zh.json#signin"
+    "importedFrom": "apps/employee-web/dictionaries/zh.json#signin",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

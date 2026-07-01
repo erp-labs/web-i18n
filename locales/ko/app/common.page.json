@@ -38,7 +38,7 @@
     "daySaturday": "토요일",
     "daysSelected": "{n}일 선택됨",
     "cookieSettings": "쿠키 설정",
-    "saving": "Saving…",
+    "saving": "저장 중…",
     "loadError": "지금 데이터를 불러올 수 없습니다. 다시 시도해 주세요.",
     "loadConnectionHint": "항목을 불러올 수 없습니다. 연결 또는 설정 문제일 수 있습니다.",
     "retryLoad": "다시 불러오기",
@@ -51,6 +51,8 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#common",
     "githubPath": "app/common.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ko.json#common"
+    "importedFrom": "apps/employee-web/dictionaries/ko.json#common",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

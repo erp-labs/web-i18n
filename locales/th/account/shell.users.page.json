@@ -2,21 +2,20 @@
   "pageId": "account.shell.users",
   "surface": "account",
   "route": "/users",
-  "version": 3,
-  "sourceHash": "sha256:bbcf07f6b82362e65502a964bd838f809801bfdd344c8eb824c4e603614373d8",
+  "version": 1,
+  "sourceHash": "sha256:dd22291f406177fcdb9e19da57a1ea4d81406bff7ba99ce2bf9b876501565a91",
   "keys": {
-    "title": "ผู้ใช้",
-    "subtitle": "จัดการพนักงานที่สามารถเข้าสู่ระบบพอร์ทัลพนักงานของคุณได้",
-    "retryUserSeed": "Retry user seed",
-    "retryingUserSeed": "Retrying…",
-    "seedPendingHint": "Employee invites from onboarding are waiting to be seeded. Use Retry user seed below once provisioning finishes."
+    "title": "Users",
+    "subtitle": "จัดการพนักงานที่สามารถลงชื่อเข้าใช้พอร์ทัลพนักงานของคุณได้",
+    "retryUserSeed": "ลองเริ่มต้นผู้ใช้อีกครั้ง",
+    "retryingUserSeed": "กำลังลองอีกครั้ง...",
+    "seedPendingHint": "คำเชิญของพนักงานจากการเตรียมความพร้อมกำลังรอการเริ่มใช้งาน ใช้เมล็ดพันธุ์ผู้ใช้ลองใหม่ด้านล่างเมื่อการจัดสรรเสร็จสิ้น"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /users",
     "githubPath": "account/shell.users.page.json",
-    "translationStatus": "review",
-    "method": "cursor-ai-2",
-    "reviewedAt": "2026-06-30"
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
   }
 }

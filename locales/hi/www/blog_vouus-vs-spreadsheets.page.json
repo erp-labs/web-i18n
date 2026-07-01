@@ -13,7 +13,7 @@
     "productRepo": "infra-control-plane",
     "sourcePath": "src/marketing-pages/registry.ts blog/vouus-vs-spreadsheets",
     "githubPath": "www/blog_vouus-vs-spreadsheets.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

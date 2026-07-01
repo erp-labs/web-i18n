@@ -1,0 +1,21 @@
+{
+  "pageId": "www.solutions_finance",
+  "surface": "www",
+  "route": "/solutions/finance",
+  "version": 1,
+  "sourceHash": "sha256:169882093820d761ae188309ff87af30f5c17751bb16bb19a1488115f848dc01",
+  "keys": {
+    "path": "/solutions/finance",
+    "meta_title": "Finance Teams | Vouus",
+    "meta_description": "Close faster: expenses, eInvoice, approvals, and reports in one workflow.",
+    "hero_title": "Finance that follows the invoice-to-ledger thread",
+    "hero_description": "Run expense, eInvoice, and close as connected workflows—Scheduler and Automation handle the mechanical steps while approvals stay visible for auditors and leadership."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts solutions/finance",
+    "githubPath": "www/solutions_finance.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

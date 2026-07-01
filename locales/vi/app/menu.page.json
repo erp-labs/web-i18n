@@ -15,17 +15,19 @@
     "noticeTooltip": "Thông báo",
     "dashboard": "Bảng điều khiển",
     "invoices": "Hóa đơn",
-    "customers": "Customer",
-    "accounting": "Accounting",
-    "payment": "Payment",
-    "reservation": "Reservation",
-    "calendar": "Calendar",
-    "mailing": "Mailing"
+    "customers": "Khách hàng",
+    "accounting": "Kế toán",
+    "payment": "Thanh toán",
+    "reservation": "Đặt chỗ",
+    "calendar": "Lịch",
+    "mailing": "Thư tín"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#menu",
     "githubPath": "app/menu.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/vi.json#menu"
+    "importedFrom": "apps/employee-web/dictionaries/vi.json#menu",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

@@ -14,8 +14,8 @@
     "selectEndDate": "終了日選択",
     "leaveHistory": "申請履歴",
     "submitRequest": "申請提出",
-    "requestSubmitted": "Leave request submitted",
-    "requestSubmitFailed": "Could not submit your request. Please try again.",
+    "requestSubmitted": "休暇申請を送信しました",
+    "requestSubmitFailed": "申請を送信できませんでした。もう一度お試しください。",
     "sickLeave": "病気休暇",
     "hospitalisationLeave": "入院休暇",
     "maternityLeave": "産前産後休暇",
@@ -40,14 +40,16 @@
     "noLeaveHistoryYet": "休暇の申請履歴はまだありません",
     "startByRequestingLeave": "休暇が必要なときは、上のフォームから申請してください",
     "requestLeaveCta": "休暇を申請",
-    "addLeave": "Add leave",
-    "selectDatesOnCalendar": "Select your leave dates on the calendar above.",
-    "noLeaveAllocation": "No leave balance is assigned yet. Contact your HR administrator."
+    "addLeave": "休暇を追加",
+    "selectDatesOnCalendar": "上のカレンダーで休暇日を選択してください。",
+    "noLeaveAllocation": "休暇残高がまだ割り当てられていません。人事管理者にお問い合わせください。"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#leaves",
     "githubPath": "app/leaves.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ja.json#leaves"
+    "importedFrom": "apps/employee-web/dictionaries/ja.json#leaves",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

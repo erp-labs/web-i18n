@@ -58,11 +58,11 @@
       "startCta": "إنشاء فاتورة"
     },
     "customers": {
-      "whatTitle": "Your customer list",
-      "whatBody": "Browse ERP customers synced from your company workspace.",
-      "howTitle": "Need pipeline or deals?",
-      "howStep1": "Use Open in CRM for Frappe CRM on your tenant host.",
-      "howStep2": "Use Work Desk for full ERP customer records and accounting links."
+      "whatTitle": "قائمة عملائك",
+      "whatBody": "تصفّح عملاء ERP المتزامنين من مساحة عمل شركتك.",
+      "howTitle": "هل تحتاج إلى مسار مبيعات أو صفقات؟",
+      "howStep1": "استخدم فتح في CRM للوصول إلى Frappe CRM على مضيف المستأجر الخاص بك.",
+      "howStep2": "استخدم Work Desk للاطلاع على سجلات عملاء ERP الكاملة وروابط المحاسبة."
     },
     "leaves": {
       "whatTitle": "طلب إجازة",
@@ -87,6 +87,8 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#moduleGuide",
     "githubPath": "app/moduleGuide.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ar.json#moduleGuide"
+    "importedFrom": "apps/employee-web/dictionaries/ar.json#moduleGuide",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

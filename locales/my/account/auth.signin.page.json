@@ -1,0 +1,33 @@
+{
+  "pageId": "account.auth.signin",
+  "surface": "account",
+  "route": "/sign-in",
+  "version": 1,
+  "sourceHash": "sha256:61a538e2f390109a5e1ce43ddfcc944d3bd23f704f3d8bb1f2b5096c56b96f77",
+  "keys": {
+    "title": "Sign in",
+    "titleLogin": "Log in",
+    "titleGetStarted": "Get started",
+    "titlePortalPasswordSetup": "Set up service administrator password",
+    "descriptionDefault": "Sign in with the email registered for your workspace.",
+    "descriptionEmailLocked": "We'll send a verification code to this address to sign in.",
+    "descriptionPackageFunnel": "Sign in or create an account to continue to payment.",
+    "descriptionPortalPassword": "Enter your email. We will send a verification code, then you can create your service administrator password.",
+    "descriptionLoginGate": "Sign in with your email and password. We will email a verification code next.",
+    "submit": "Continue",
+    "submitLogin": "Log in",
+    "submitSendCode": "Send verification code",
+    "submitting": "Sending…",
+    "submittingLogin": "Logging in…",
+    "submittingVerify": "Verifying…",
+    "emailLabel": "Email address",
+    "passwordLabel": "Password"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /sign-in",
+    "githubPath": "account/auth.signin.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

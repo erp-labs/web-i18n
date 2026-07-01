@@ -3,19 +3,19 @@
   "surface": "account",
   "route": "/users",
   "version": 1,
-  "sourceHash": "sha256:bbcf07f6b82362e65502a964bd838f809801bfdd344c8eb824c4e603614373d8",
+  "sourceHash": "sha256:dd22291f406177fcdb9e19da57a1ea4d81406bff7ba99ce2bf9b876501565a91",
   "keys": {
-    "title": "Users",
-    "subtitle": "Manage employees who can sign in to your employee portal.",
-    "retryUserSeed": "Retry user seed",
-    "retryingUserSeed": "Retrying…",
-    "seedPendingHint": "Employee invites from onboarding are waiting to be seeded. Use Retry user seed below once provisioning finishes."
+    "title": "ユーザー",
+    "subtitle": "従業員ポータルにサインインできる従業員を管理",
+    "retryUserSeed": "ユーザーシードを再試行",
+    "retryingUserSeed": "再試行中…",
+    "seedPendingHint": "オンボーディングからの従業員招待はシード待ちです。プロビジョニング完了後、下のユーザーシード再試行をご利用ください。"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /users",
     "githubPath": "account/shell.users.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

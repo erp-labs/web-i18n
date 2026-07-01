@@ -3,23 +3,23 @@
   "surface": "app",
   "route": "/{companyId}/{locale}/signin",
   "version": 2,
-  "sourceHash": "sha256:d11db4e2568fff0acd1a3e537126e705c035b887877f2da41867c16f01d45730",
+  "sourceHash": "sha256:b61dd77a92d1b93ec0a17e819f49b7fe6ee4a05d3e75cfd8500c3712433b4c84",
   "keys": {
     "title": "Đăng nhập",
     "languageLabel": "Ngôn ngữ",
     "languageOptions": {
-      "en": "English",
+      "en": "Tiếng Anh",
       "ko": "한국어",
       "ja": "日本語",
       "ar": "العربية",
       "vi": "Tiếng Việt",
       "zh": "中文",
-      "th": "Thai",
-      "id": "Indonesian",
-      "ms": "Malay",
-      "si": "Sinhala",
-      "ur": "Urdu",
-      "hi": "Hindi"
+      "th": "Tiếng Thái",
+      "id": "Tiếng Indonesia",
+      "ms": "Tiếng Mã Lai",
+      "si": "Tiếng Sinhala",
+      "ur": "Tiếng Urdu",
+      "hi": "Tiếng Hindi"
     },
     "emailLabel": "Email",
     "emailPlaceholder": "johndoe@gmail.com",
@@ -31,17 +31,19 @@
     "noAccount": "Chưa có tài khoản?",
     "signUp": "Đăng ký",
     "errorSignInFailed": "Đăng nhập thất bại",
-    "errorAccountNotFound": "This email is not registered for Work App sign-in yet. Ask your administrator to resend your invitation or sync Work App access.",
-    "errorAccountSuspended": "This account has been suspended. Contact your administrator.",
-    "staleSessionHint": "A previous sign-in session for another workspace is still stored in this browser.",
-    "clearStaleSession": "Clear stored session",
-    "clearingStaleSession": "Clearing…",
+    "errorAccountNotFound": "Email này chưa được đăng ký để đăng nhập Work App. Hãy yêu cầu quản trị viên gửi lại lời mời hoặc đồng bộ quyền truy cập Work App.",
+    "errorAccountSuspended": "Tài khoản này đã bị tạm ngưng. Liên hệ quản trị viên của bạn.",
+    "staleSessionHint": "Một phiên đăng nhập trước đó cho workspace khác vẫn đang được lưu trong trình duyệt này.",
+    "clearStaleSession": "Xóa phiên đã lưu",
+    "clearingStaleSession": "Đang xóa…",
     "errorGeneric": "Đã xảy ra lỗi. Vui lòng thử lại."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#signin",
     "githubPath": "app/signin.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/vi.json#signin"
+    "importedFrom": "apps/employee-web/dictionaries/vi.json#signin",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

@@ -38,19 +38,21 @@
     "daySaturday": "土曜日",
     "daysSelected": "{n}日選択中",
     "cookieSettings": "Cookie設定",
-    "saving": "Saving…",
+    "saving": "保存中…",
     "loadError": "現在データを読み込めません。もう一度お試しください。",
     "loadConnectionHint": "項目を読み込めませんでした。接続または設定の問題の可能性があります。",
     "retryLoad": "再読み込み",
     "retry": "再試行",
-    "submitFailedTitle": "Submission failed",
-    "erpExpenseClaimTypeAccount": "Expense categories are not fully set up. Please contact your administrator.",
-    "erpLeaveTypeNotFound": "Leave types are not set up yet. Please contact your administrator."
+    "submitFailedTitle": "送信に失敗しました",
+    "erpExpenseClaimTypeAccount": "経費カテゴリの設定が完了していません。管理者にお問い合わせください。",
+    "erpLeaveTypeNotFound": "休暇種別がまだ設定されていません。管理者にお問い合わせください。"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#common",
     "githubPath": "app/common.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ja.json#common"
+    "importedFrom": "apps/employee-web/dictionaries/ja.json#common",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

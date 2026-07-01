@@ -14,8 +14,8 @@
     "selectEndDate": "종료일 선택",
     "leaveHistory": "휴가신청기록",
     "submitRequest": "휴가신청",
-    "requestSubmitted": "Leave request submitted",
-    "requestSubmitFailed": "Could not submit your request. Please try again.",
+    "requestSubmitted": "휴가 신청이 제출되었습니다",
+    "requestSubmitFailed": "신청을 제출할 수 없습니다. 다시 시도해 주세요.",
     "sickLeave": "병가 휴가",
     "hospitalisationLeave": "입원 휴가",
     "maternityLeave": "출산 휴가",
@@ -41,13 +41,15 @@
     "startByRequestingLeave": "휴가가 필요할 때 첫 신청을 제출하세요",
     "requestLeaveCta": "휴가 신청",
     "addLeave": "휴가 추가",
-    "selectDatesOnCalendar": "Select your leave dates on the calendar above.",
-    "noLeaveAllocation": "No leave balance is assigned yet. Contact your HR administrator."
+    "selectDatesOnCalendar": "위 달력에서 휴가 날짜를 선택하세요.",
+    "noLeaveAllocation": "아직 휴가 잔여일이 할당되지 않았습니다. HR 관리자에게 문의하세요."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#leaves",
     "githubPath": "app/leaves.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ko.json#leaves"
+    "importedFrom": "apps/employee-web/dictionaries/ko.json#leaves",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

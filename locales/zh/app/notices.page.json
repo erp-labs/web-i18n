@@ -9,9 +9,9 @@
     "markAllRead": "全部标为已读",
     "read": "已读",
     "unread": "未读",
-    "viewDetails": "View details",
-    "markReadFailed": "Could not mark notice as read. Try again.",
-    "markAllReadFailed": "Could not mark all notices as read. Try again.",
+    "viewDetails": "查看详情",
+    "markReadFailed": "无法标记通知为已读。请重试。",
+    "markAllReadFailed": "无法将全部通知标记为已读。请重试。",
     "noNotices": "暂无通知",
     "allCaughtUp": "已全部读完！",
     "timeAgoJustNow": "刚刚",
@@ -24,6 +24,8 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#notices",
     "githubPath": "app/notices.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/zh.json#notices"
+    "importedFrom": "apps/employee-web/dictionaries/zh.json#notices",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

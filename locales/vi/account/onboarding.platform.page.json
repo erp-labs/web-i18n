@@ -3,26 +3,26 @@
   "surface": "account",
   "route": "/onboarding/platform",
   "version": 1,
-  "sourceHash": "sha256:27b0c003e837d202c7b9af46206a6ed105c05bd805900a2dad1097483d646a90",
+  "sourceHash": "sha256:a1fd967f3ed9374a8eee27f783d845a3c6c351a6ee9793638fcb33ebebbdf187",
   "keys": {
-    "title": "Platform",
-    "intro": "Choose your ERP stack and cloud provider for this workspace.",
-    "submit": "Continue",
-    "submitting": "Continuing…",
-    "recommendedSetupLabel": "Recommended setup:",
-    "recommendedSetupIntro": "For the fastest, most reliable launch today, we recommend",
-    "recommendedSetupOutro": "Additional ERP and cloud options will be available soon.",
-    "optionNotAvailableNotice": "This option is not available yet. Please select the Recommended option, or contact support for early access.",
-    "badgeRecommended": "Recommended",
-    "badgeComingSoon": "Coming soon",
-    "erpSectionHeading": "Select ERP solution:",
-    "cloudSectionHeading": "Select cloud provider:"
+    "title": "Nền tảng",
+    "intro": "Chọn stack ERP và nhà cung cấp đám mây cho workspace này.",
+    "submit": "Tiếp tục",
+    "submitting": "Đang tiếp tục…",
+    "recommendedSetupLabel": "Thiết lập khuyến nghị:",
+    "recommendedSetupIntro": "Để khởi chạy nhanh và ổn định nhất hiện nay, chúng tôi khuyến nghị",
+    "recommendedSetupOutro": "Các tùy chọn ERP và đám mây khác sẽ sớm có.",
+    "optionNotAvailableNotice": "Tùy chọn này chưa khả dụng. Vui lòng chọn Khuyến nghị hoặc liên hệ hỗ trợ để truy cập sớm.",
+    "badgeRecommended": "Khuyến nghị",
+    "badgeComingSoon": "Sắp ra mắt",
+    "erpSectionHeading": "Chọn giải pháp ERP:",
+    "cloudSectionHeading": "Chọn nhà cung cấp đám mây:"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /onboarding/platform",
     "githubPath": "account/onboarding.platform.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

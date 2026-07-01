@@ -16,16 +16,18 @@
     "dashboard": "대시보드",
     "invoices": "인보이스",
     "customers": "고객",
-    "accounting": "Accounting",
-    "payment": "Payment",
-    "reservation": "Reservation",
-    "calendar": "Calendar",
-    "mailing": "Mailing"
+    "accounting": "회계",
+    "payment": "결제",
+    "reservation": "예약",
+    "calendar": "캘린더",
+    "mailing": "메일"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#menu",
     "githubPath": "app/menu.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ko.json#menu"
+    "importedFrom": "apps/employee-web/dictionaries/ko.json#menu",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

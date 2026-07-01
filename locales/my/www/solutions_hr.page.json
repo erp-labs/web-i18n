@@ -1,0 +1,21 @@
+{
+  "pageId": "www.solutions_hr",
+  "surface": "www",
+  "route": "/solutions/hr",
+  "version": 1,
+  "sourceHash": "sha256:d3741d0b547e1413108dd31f3c9a6ded53e9c4314724010aac8bdf208004ceac",
+  "keys": {
+    "path": "/solutions/hr",
+    "meta_title": "HR Teams | Vouus",
+    "meta_description": "Payroll-ready attendance, leave policies, and employee self-service on one path.",
+    "hero_title": "HR operations wired to real workflows",
+    "hero_description": "Keep records, payroll, attendance, leave, and hiring on one path—Automation nudges the routine work while approvals and Scheduler keep cutoffs honest."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts solutions/hr",
+    "githubPath": "www/solutions_hr.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

@@ -5,19 +5,19 @@
   "version": 1,
   "sourceHash": "sha256:d99e1c700de571c41953cbd91e31d58db2a680c883620e8c67362e781b6e86c7",
   "keys": {
-    "title": "Verify your identity",
-    "intro": "Please enter the one-time code sent to your email to continue.",
+    "title": "Xác minh danh tính",
+    "intro": "Vui lòng nhập mã một lần đã gửi đến email để tiếp tục.",
     "emailPrefix": "Email:",
-    "sendUncertainBanner": "We could not confirm delivery, but a verification email may already be in your inbox. Enter the latest code below.",
-    "verify": "Verify",
-    "verifying": "Verifying…",
-    "loading": "Loading…"
+    "sendUncertainBanner": "Chúng tôi không thể xác nhận đã gửi, nhưng email xác minh có thể đã có trong hộp thư. Nhập mã mới nhất bên dưới.",
+    "verify": "Xác minh",
+    "verifying": "Đang xác minh…",
+    "loading": "Đang tải…"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /signup/verify",
     "githubPath": "account/auth.verify.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

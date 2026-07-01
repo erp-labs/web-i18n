@@ -5,19 +5,19 @@
   "version": 1,
   "sourceHash": "sha256:d99e1c700de571c41953cbd91e31d58db2a680c883620e8c67362e781b6e86c7",
   "keys": {
-    "title": "Verify your identity",
-    "intro": "Please enter the one-time code sent to your email to continue.",
-    "emailPrefix": "Email:",
-    "sendUncertainBanner": "We could not confirm delivery, but a verification email may already be in your inbox. Enter the latest code below.",
-    "verify": "Verify",
-    "verifying": "Verifying…",
-    "loading": "Loading…"
+    "title": "본인 인증",
+    "intro": "계속하려면 이메일로 전송된 일회용 코드를 입력하세요.",
+    "emailPrefix": "이메일:",
+    "sendUncertainBanner": "전송 여부를 확인할 수 없지만, 인증 이메일이 이미 받은편지함에 있을 수 있습니다. 아래에 최신 코드를 입력하세요.",
+    "verify": "확인",
+    "verifying": "확인 중…",
+    "loading": "로딩 중…"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /signup/verify",
     "githubPath": "account/auth.verify.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

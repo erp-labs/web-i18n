@@ -5,17 +5,17 @@
   "version": 1,
   "sourceHash": "sha256:1cb63be9bc2381be9a48de30b061426e716ee01ed85b7b5b25a24f3fe1e73dbc",
   "keys": {
-    "titlePayment": "Payment successful",
-    "titleInline": "Package updated",
-    "body": "Subscription details may take a minute to sync from Stripe.",
-    "bodyWithPlan": "Your workspace is moving to {plan}. Subscription details may take a minute to sync from Stripe.",
-    "cta": "View billing"
+    "titlePayment": "付款成功",
+    "titleInline": "套餐已更新",
+    "body": "订阅详情可能需要一分钟从 Stripe 同步。",
+    "bodyWithPlan": "您的工作区正在迁移至 {plan}。订阅详情可能需要一分钟从 Stripe 同步。",
+    "cta": "查看账单"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /billing/upgrade/success",
     "githubPath": "account/billing.upgrade_success.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

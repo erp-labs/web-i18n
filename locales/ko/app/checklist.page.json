@@ -44,12 +44,14 @@
     "countSuffix": "건",
     "noTasksYet": "아직 할 일이 없습니다",
     "startByAddingTask": "첫 번째 할 일을 추가해 보세요",
-    "loadingMore": "Loading more"
+    "loadingMore": "더 불러오는 중"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#checklist",
     "githubPath": "app/checklist.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ko.json#checklist"
+    "importedFrom": "apps/employee-web/dictionaries/ko.json#checklist",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

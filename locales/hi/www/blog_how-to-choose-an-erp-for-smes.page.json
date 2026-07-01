@@ -13,7 +13,7 @@
     "productRepo": "infra-control-plane",
     "sourcePath": "src/marketing-pages/registry.ts blog/how-to-choose-an-erp-for-smes",
     "githubPath": "www/blog_how-to-choose-an-erp-for-smes.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

@@ -14,11 +14,13 @@ Public canonical **English** UI copy and locale bundles for the Vouus platform.
 
 Control Plane **`/cp/i18n`** (English UI) tracks coverage and links here. Operator CP chrome is **not** translated.
 
-## Locales (12)
+## Locales (14)
 
-`en` (canonical), `ja`, `ko`, `zh`, `ar`, `vi`, `th`, `id`, `ms`, `si`, `ur`, `hi`
+`en` (canonical), `ja`, `ko`, `zh`, `ar`, `vi`, `th`, `id`, `ms`, `si`, `ur`, `hi`, `ru`, `my`
 
 See [`manifest/locales.json`](manifest/locales.json).
+
+Scoped rollout plan (account + app + www/home): [`docs/PLAN-translation-account-www-app.md`](docs/PLAN-translation-account-www-app.md) — includes Phase F (ru/my) and Phase G (cross-domain locale cookie).
 
 ## Workflow
 
@@ -37,6 +39,15 @@ npm run verify
 
 # 5. Push locale bundles back to product repos
 npm run sync
+
+# SEA locales (th, id, ms): generate + apply
+npm run sea:generate && npm run sea:build
+
+# New locales (ru, my): generate + apply
+npm run locale:generate -- ru my && npm run locale:build -- ru my
+
+# Mark human-reviewed locales
+npm run mark:reviewed -- ar vi si ur hi
 ```
 
 ## Cursor AI page translation
@@ -64,6 +75,7 @@ Output only the `keys` object as JSON for locales/{locale}/...
 
 - [PLAN-ko.md](docs/PLAN-ko.md) — Korean planning spec
 - [PLAN-en.md](docs/PLAN-en.md) — English planning spec
+- [PLAN-translation-account-www-app.md](docs/PLAN-translation-account-www-app.md) — account / www home / app scoped translation (11 locales, docs excluded)
 
 ## License
 

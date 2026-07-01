@@ -20,7 +20,7 @@
     "selectSubCategory": "小分類を選択",
     "totalAmountLabel": "合計金額（SGD）",
     "confirmAndContinue": "内容確認",
-    "submitFailed": "Could not submit expense. Please try again.",
+    "submitFailed": "経費を送信できませんでした。もう一度お試しください。",
     "categoryTransport": "交通費",
     "categoryTravel": "出張費",
     "categoryBusinessExpense": "業務経費",
@@ -74,6 +74,8 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#expenses",
     "githubPath": "app/expenses.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ja.json#expenses"
+    "importedFrom": "apps/employee-web/dictionaries/ja.json#expenses",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

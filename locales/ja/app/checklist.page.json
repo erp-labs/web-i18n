@@ -44,12 +44,14 @@
     "countSuffix": "件",
     "noTasksYet": "登録された業務はありません",
     "startByAddingTask": "最初の業務を登録してください",
-    "loadingMore": "Loading more"
+    "loadingMore": "さらに読み込み"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#checklist",
     "githubPath": "app/checklist.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ja.json#checklist"
+    "importedFrom": "apps/employee-web/dictionaries/ja.json#checklist",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

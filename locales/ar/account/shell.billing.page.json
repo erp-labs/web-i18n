@@ -5,15 +5,15 @@
   "version": 1,
   "sourceHash": "sha256:7435cf8f871ac4b90d28ed927000595a96e04e8926e3f025dc48a3fe3a8e1e3a",
   "keys": {
-    "title": "Billing",
-    "subtitle": "Manage your subscription, payment method, and history",
-    "subtitleWithEmail": "Manage your subscription, payment method, and history for {email}."
+    "title": "الفوترة",
+    "subtitle": "إدارة اشتراكك وطريقة الدفع والسجل",
+    "subtitleWithEmail": "إدارة الاشتراك وطريقة الدفع والسجل لـ {email}."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /billing",
     "githubPath": "account/shell.billing.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

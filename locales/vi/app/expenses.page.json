@@ -20,7 +20,7 @@
     "selectSubCategory": "Chọn danh mục phụ",
     "totalAmountLabel": "Tổng số tiền (SGD)",
     "confirmAndContinue": "Xác nhận và tiếp tục",
-    "submitFailed": "Could not submit expense. Please try again.",
+    "submitFailed": "Không thể gửi chi phí. Vui lòng thử lại.",
     "categoryTransport": "Di chuyển",
     "categoryTravel": "Du lịch",
     "categoryBusinessExpense": "Chi phí kinh doanh",
@@ -74,6 +74,8 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#expenses",
     "githubPath": "app/expenses.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/vi.json#expenses"
+    "importedFrom": "apps/employee-web/dictionaries/vi.json#expenses",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

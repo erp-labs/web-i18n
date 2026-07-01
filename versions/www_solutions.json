@@ -173,5 +173,19 @@
     "locale": "en",
     "method": "extract",
     "at": "2026-06-30T10:22:41.154Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:e06eddc9d64148bf66f499d8dba4ecd1165ced3d5ca7b13feb5e8fbf231e833b",
+    "locale": "ru",
+    "method": "cursor-ai",
+    "at": "2026-07-01T06:05:13.004Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:e06eddc9d64148bf66f499d8dba4ecd1165ced3d5ca7b13feb5e8fbf231e833b",
+    "locale": "my",
+    "method": "cursor-ai",
+    "at": "2026-07-01T06:05:13.004Z"
   }
 ]

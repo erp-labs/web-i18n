@@ -3,17 +3,17 @@
   "surface": "account",
   "route": "/integrations",
   "version": 1,
-  "sourceHash": "sha256:0db22bd829016de978fb1b3db8ee3818accb27bfe6971bd7c102043a1dcd183e",
+  "sourceHash": "sha256:ebfff6ab6ea6fbec2a9cca947ffee3484a6bea747fa8e04104d437bc6e0d4dcf",
   "keys": {
-    "title": "Integrations",
-    "subtitle": "Connect external tools to your workspace.",
-    "loadError": "Failed to load integrations."
+    "title": "Tích hợp",
+    "subtitle": "Kết nối công cụ bên ngoài với workspace của Quý vị.",
+    "loadError": "Không thể tải tích hợp."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /integrations",
     "githubPath": "account/shell.integrations.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

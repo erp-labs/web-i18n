@@ -12,7 +12,15 @@
     "verify": "npm run validate && npm run index",
     "batch:import-existing": "node scripts/import-existing-locales.mjs",
     "batch:seed-missing": "node scripts/seed-missing-locales.mjs",
-    "batch:translate-2": "node scripts/batch-translate-second-pass.mjs"
+    "batch:translate-2": "node scripts/batch-translate-second-pass.mjs",
+    "scoped:build-packs": "node scripts/translation-packs/scoped/build-packs.mjs",
+    "scoped:apply-si-ur-hi": "node scripts/run-si-ur-hi-translations.mjs",
+    "scoped:translate-si-ur-hi": "npm run scoped:build-packs && npm run scoped:apply-si-ur-hi",
+    "sea:build": "node scripts/build-locale-data.mjs th id ms",
+    "sea:generate": "python3 scripts/translation-packs/generate-sea-data.py",
+    "locale:generate": "python3 scripts/generate-locale-data.py",
+    "locale:build": "node scripts/build-locale-data.mjs",
+    "mark:reviewed": "node scripts/mark-reviewed.mjs"
   },
   "engines": {
     "node": ">=20"

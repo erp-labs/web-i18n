@@ -38,19 +38,21 @@
     "daySaturday": "星期六",
     "daysSelected": "已选 {n} 天",
     "cookieSettings": "Cookie 设置",
-    "saving": "Saving…",
+    "saving": "保存中…",
     "loadError": "目前无法加载数据，请重试。",
     "loadConnectionHint": "无法加载项目，可能是连接或配置问题。",
     "retryLoad": "重新加载",
     "retry": "重试",
-    "submitFailedTitle": "Submission failed",
-    "erpExpenseClaimTypeAccount": "Expense categories are not fully set up. Please contact your administrator.",
-    "erpLeaveTypeNotFound": "Leave types are not set up yet. Please contact your administrator."
+    "submitFailedTitle": "提交失败",
+    "erpExpenseClaimTypeAccount": "费用类别尚未完全配置。请联系管理员。",
+    "erpLeaveTypeNotFound": "休假类型尚未配置。请联系管理员。"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#common",
     "githubPath": "app/common.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/zh.json#common"
+    "importedFrom": "apps/employee-web/dictionaries/zh.json#common",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

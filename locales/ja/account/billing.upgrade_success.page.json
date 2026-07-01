@@ -5,17 +5,17 @@
   "version": 1,
   "sourceHash": "sha256:1cb63be9bc2381be9a48de30b061426e716ee01ed85b7b5b25a24f3fe1e73dbc",
   "keys": {
-    "titlePayment": "Payment successful",
-    "titleInline": "Package updated",
-    "body": "Subscription details may take a minute to sync from Stripe.",
-    "bodyWithPlan": "Your workspace is moving to {plan}. Subscription details may take a minute to sync from Stripe.",
-    "cta": "View billing"
+    "titlePayment": "お支払い完了",
+    "titleInline": "プランを更新しました",
+    "body": "Stripe からサブスクリプション情報が反映されるまで、数分かかる場合があります。",
+    "bodyWithPlan": "ワークスペースは {plan} へ移行中です。Stripe からサブスクリプション情報が反映されるまで、数分かかる場合があります。",
+    "cta": "請求を表示"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /billing/upgrade/success",
     "githubPath": "account/billing.upgrade_success.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

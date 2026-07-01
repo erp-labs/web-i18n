@@ -8,18 +8,18 @@
     "title": "로그인",
     "languageLabel": "언어",
     "languageOptions": {
-      "en": "English",
+      "en": "영어",
       "ko": "한국어",
       "ja": "日本語",
       "ar": "العربية",
       "vi": "베트남어",
       "zh": "中文",
-      "th": "Thai",
-      "id": "Indonesian",
-      "ms": "Malay",
-      "si": "Sinhala",
-      "ur": "Urdu",
-      "hi": "Hindi"
+      "th": "태국어",
+      "id": "인도네시아어",
+      "ms": "말레이어",
+      "si": "싱할라어",
+      "ur": "우르두어",
+      "hi": "힌디어"
     },
     "emailLabel": "이메일",
     "emailPlaceholder": "johndoe@gmail.com",
@@ -33,15 +33,17 @@
     "errorSignInFailed": "로그인에 실패했습니다.",
     "errorAccountNotFound": "이 이메일은 Work App 로그인에 등록되지 않았습니다. 관리자에게 초대 재발송 또는 Work App 동기화를 요청하세요.",
     "errorAccountSuspended": "이 계정은 일시 중지되었습니다. 관리자에게 문의하세요.",
-    "staleSessionHint": "A previous sign-in session for another workspace is still stored in this browser.",
-    "clearStaleSession": "Clear stored session",
-    "clearingStaleSession": "Clearing…",
+    "staleSessionHint": "다른 워크스페이스의 이전 로그인 세션이 이 브라우저에 아직 저장되어 있습니다.",
+    "clearStaleSession": "저장된 세션 지우기",
+    "clearingStaleSession": "지우는 중…",
     "errorGeneric": "오류가 발생했습니다. 다시 시도해 주세요."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#signin",
     "githubPath": "app/signin.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ko.json#signin"
+    "importedFrom": "apps/employee-web/dictionaries/ko.json#signin",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

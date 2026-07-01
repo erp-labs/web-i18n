@@ -3,19 +3,19 @@
   "surface": "account",
   "route": "/users",
   "version": 1,
-  "sourceHash": "sha256:bbcf07f6b82362e65502a964bd838f809801bfdd344c8eb824c4e603614373d8",
+  "sourceHash": "sha256:dd22291f406177fcdb9e19da57a1ea4d81406bff7ba99ce2bf9b876501565a91",
   "keys": {
-    "title": "Users",
-    "subtitle": "Manage employees who can sign in to your employee portal.",
-    "retryUserSeed": "Retry user seed",
-    "retryingUserSeed": "Retrying…",
-    "seedPendingHint": "Employee invites from onboarding are waiting to be seeded. Use Retry user seed below once provisioning finishes."
+    "title": "사용자",
+    "subtitle": "직원 포털에 로그인할 수 있는 직원을 관리하세요.",
+    "retryUserSeed": "사용자 시드 재시도",
+    "retryingUserSeed": "재시도 중…",
+    "seedPendingHint": "온보딩의 직원 초대가 시드 대기 중입니다. 프로비저닝이 완료되면 아래에서 사용자 시드 재시도를 사용하세요."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /users",
     "githubPath": "account/shell.users.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

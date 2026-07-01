@@ -3,19 +3,19 @@
   "surface": "account",
   "route": "/billing/upgrade",
   "version": 1,
-  "sourceHash": "sha256:7428f7bac7c24316234874d4f490cd00ef9f55561ac56104b1810dd3ba424d78",
+  "sourceHash": "sha256:c27edb78c826b70992a1032767dbb760d57974afb0b172c0b25fca23c88dd49a",
   "keys": {
-    "title": "Upgrade plan",
-    "subtitle": "Choose a higher plan for your workspace.",
-    "bodyNote": "Your dedicated server and data stay in place when you move to a higher plan.",
-    "submit": "Upgrade",
-    "backToBilling": "← Back to billing"
+    "title": "패키지 업그레이드",
+    "subtitle": "워크스페이스에 상위 요금제를 선택하세요.",
+    "bodyNote": "상위 요금제로 이동해도 전용 서버와 데이터는 그대로 유지됩니다.",
+    "submit": "업그레이드",
+    "backToBilling": "← 청구로 돌아가기"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /billing/upgrade",
     "githubPath": "account/billing.upgrade.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

@@ -19,13 +19,15 @@
     "alreadyHaveAccount": "لديك حساب بالفعل؟",
     "logIn": "تسجيل الدخول",
     "errorPasswordsDoNotMatch": "كلمات المرور غير متطابقة",
-    "errorGeneric": "Something went wrong. Please try again.",
-    "signingUp": "Creating account…"
+    "errorGeneric": "حدث خطأ ما. يرجى المحاولة مرة أخرى.",
+    "signingUp": "جارٍ إنشاء الحساب…"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#signup",
     "githubPath": "app/signup.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ar.json#signup"
+    "importedFrom": "apps/employee-web/dictionaries/ar.json#signup",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

@@ -1,0 +1,23 @@
+{
+  "pageId": "email.employee_feedback",
+  "surface": "email",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:dec371c6775a372831b75bb13cc66a56adf620116a21827a454807217ad1e899",
+  "keys": {
+    "subject": "Dynamic subject (employee-feedback)",
+    "headerTitle": "Employee portal feedback",
+    "categoryLabel": "Category",
+    "tenantLabel": "Tenant",
+    "employeeLabel": "Employee",
+    "replyToLabel": "Reply-To",
+    "_sourceNote": "Extracted from employee-feedback.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
+  },
+  "meta": {
+    "productRepo": "infra-email",
+    "sourcePath": "packages/email-templates/src/employee-feedback.ts",
+    "githubPath": "email/employee-feedback.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

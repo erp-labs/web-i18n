@@ -3,27 +3,27 @@
   "surface": "account",
   "route": "/onboarding/platform",
   "version": 3,
-  "sourceHash": "sha256:27b0c003e837d202c7b9af46206a6ed105c05bd805900a2dad1097483d646a90",
+  "sourceHash": "sha256:a1fd967f3ed9374a8eee27f783d845a3c6c351a6ee9793638fcb33ebebbdf187",
   "keys": {
-    "title": "प्लेटफ़ॉर्म",
-    "intro": "इस workspace के लिए अपना ERP stack और cloud provider चुनें।",
-    "submit": "जारी रखें",
-    "submitting": "Continuing…",
-    "recommendedSetupLabel": "Recommended setup:",
-    "recommendedSetupIntro": "For the fastest, most reliable launch today, we recommend",
-    "recommendedSetupOutro": "Additional ERP and cloud options will be available soon.",
-    "optionNotAvailableNotice": "This option is not available yet. Please select the Recommended option, or contact support for early access.",
-    "badgeRecommended": "Recommended",
-    "badgeComingSoon": "Coming soon",
-    "erpSectionHeading": "Select ERP solution:",
-    "cloudSectionHeading": "Select cloud provider:"
+    "title": "प्लैटफ़ॉर्म",
+    "intro": "इस कार्यक्षेत्र के लिए अपना ERP स्टैक और क्लाउड प्रदाता चुनें।",
+    "submit": "जारी रखना",
+    "submitting": "जारी है...",
+    "recommendedSetupLabel": "अनुशंसित सेटअप:",
+    "recommendedSetupIntro": "आज सबसे तेज़, सबसे विश्वसनीय लॉन्च के लिए, हम अनुशंसा करते हैं",
+    "recommendedSetupOutro": "अतिरिक्त ERP और क्लाउड विकल्प जल्द ही उपलब्ध होंगे।",
+    "optionNotAvailableNotice": "यह विकल्प अभी उपलब्ध नहीं है. कृपया अनुशंसित विकल्प चुनें, या शीघ्र पहुंच के लिए समर्थन से संपर्क करें।",
+    "badgeRecommended": "अनुशंसित",
+    "badgeComingSoon": "जल्द आ रहा है",
+    "erpSectionHeading": "ERP समाधान चुनें:",
+    "cloudSectionHeading": "क्लाउड प्रदाता चुनें:"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /onboarding/platform",
     "githubPath": "account/onboarding.platform.page.json",
-    "translationStatus": "review",
-    "method": "cursor-ai-2",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai",
     "reviewedAt": "2026-06-30"
   }
 }

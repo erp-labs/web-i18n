@@ -6,18 +6,18 @@
   "sourceHash": "sha256:d8409a7a568d2e3107dd1697a8b2163825625bee50c97bf8d4d3702e36023558",
   "keys": {
     "title": "Customers",
-    "empty": "No customers yet",
-    "emptyHint": "Customers from your ERP will appear here.",
-    "loadError": "Could not load customers",
-    "openInCrm": "Open in CRM",
-    "openWorkDesk": "Open Work Desk",
+    "empty": "Belum ada pelanggan",
+    "emptyHint": "Pelanggan daripada ERP anda akan muncul di sini.",
+    "loadError": "Tidak dapat memuatkan pelanggan",
+    "openInCrm": "Dibuka pada CRM",
+    "openWorkDesk": "Buka Work Desk",
     "type": "Type",
     "group": "Group",
-    "createTitle": "New customer",
-    "createSubmit": "Create customer",
-    "creating": "Creating…",
-    "nameLabel": "Customer name",
-    "addCustomer": "Add customer"
+    "createTitle": "Pelanggan baru",
+    "createSubmit": "Buat pelanggan",
+    "creating": "Mencipta…",
+    "nameLabel": "Nama pelanggan",
+    "addCustomer": "Tambah pelanggan"
   },
   "meta": {
     "productRepo": "core-platform",

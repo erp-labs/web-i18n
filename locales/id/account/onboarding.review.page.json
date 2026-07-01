@@ -2,29 +2,28 @@
   "pageId": "account.onboarding.review",
   "surface": "account",
   "route": "/onboarding/review",
-  "version": 3,
-  "sourceHash": "sha256:4877f538fd9a59ba4f0c09ba25417ade0e362e35dcd80c757e455755583ad485",
+  "version": 1,
+  "sourceHash": "sha256:2bb9911f0afa71f2c3f4616539403328a7868c8b698b272cdcf328c95834d04c",
   "keys": {
     "title": "Tinjau & Konfirmasi",
-    "intro": "Periksa detail perusahaan Anda sebelum kami membuat workspace dan memulai provisioning.",
+    "intro": "Periksa detail perusahaan Anda sebelum kami membuat ruang kerja dan memulai penyediaan.",
     "submit": "Mulai peluncuran",
-    "submitting": "Starting…",
-    "submitUnavailable": "Start Launch unavailable",
-    "backToEdit": "Back to edit",
-    "labelCompanyName": "Company name",
+    "submitting": "Mulai…",
+    "submitUnavailable": "Mulai Peluncuran tidak tersedia",
+    "backToEdit": "Kembali untuk mengedit",
+    "labelCompanyName": "Nama perusahaan",
     "labelSubdomain": "Subdomain",
-    "labelEmployeePortal": "Employee portal",
-    "labelErpSolution": "ERP solution",
-    "labelCloudProvider": "Cloud provider",
-    "editCompany": "Edit company",
-    "editPlatform": "Edit platform"
+    "labelEmployeePortal": "Portal karyawan",
+    "labelErpSolution": "ERP solusi",
+    "labelCloudProvider": "Penyedia awan",
+    "editCompany": "Sunting perusahaan",
+    "editPlatform": "Sunting platform"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /onboarding/review",
     "githubPath": "account/onboarding.review.page.json",
-    "translationStatus": "review",
-    "method": "cursor-ai-2",
-    "reviewedAt": "2026-06-30"
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
   }
 }

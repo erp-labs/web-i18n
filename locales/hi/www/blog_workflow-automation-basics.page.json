@@ -13,7 +13,7 @@
     "productRepo": "infra-control-plane",
     "sourcePath": "src/marketing-pages/registry.ts blog/workflow-automation-basics",
     "githubPath": "www/blog_workflow-automation-basics.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

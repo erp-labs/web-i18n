@@ -19,7 +19,7 @@
     "productRepo": "infra-control-plane",
     "sourcePath": "src/marketing-pages/registry.ts trial",
     "githubPath": "www/trial.page.json",
-    "translationStatus": "review",
+    "translationStatus": "reviewed",
     "method": "cursor-ai-2",
     "reviewedAt": "2026-06-30"
   }

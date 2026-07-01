@@ -56,6 +56,10 @@ RTL: `ar`, `ur`
 - Public repo: 문자열만, secrets 금지
 - employee-web: `dictionaries:check` CI
 
+## 9. 범위별 번역 로드맵
+
+- **account + www 메인 + app (docs 제외, 11로케일):** [PLAN-translation-account-www-app.md](./PLAN-translation-account-www-app.md)
+
 ---
 
 English spec: [PLAN-en.md](./PLAN-en.md)

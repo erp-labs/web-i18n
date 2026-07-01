@@ -38,19 +38,21 @@
     "daySaturday": "السبت",
     "daysSelected": "تم اختيار {n} أيام",
     "cookieSettings": "إعدادات ملفات تعريف الارتباط",
-    "saving": "Saving…",
+    "saving": "جارٍ الحفظ…",
     "loadError": "تعذّر تحميل البيانات الآن. يُرجى المحاولة مرة أخرى.",
     "loadConnectionHint": "تعذّر تحميل العناصر. قد تكون هناك مشكلة في الاتصال أو الإعداد.",
     "retryLoad": "إعادة التحميل",
     "retry": "إعادة المحاولة",
-    "submitFailedTitle": "Submission failed",
-    "erpExpenseClaimTypeAccount": "Expense categories are not fully set up. Please contact your administrator.",
-    "erpLeaveTypeNotFound": "Leave types are not set up yet. Please contact your administrator."
+    "submitFailedTitle": "فشل الإرسال",
+    "erpExpenseClaimTypeAccount": "فئات المصروفات غير مُعدّة بالكامل. يرجى التواصل مع مسؤول النظام لديك.",
+    "erpLeaveTypeNotFound": "أنواع الإجازات غير مُعدّة بعد. يرجى التواصل مع مسؤول النظام لديك."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#common",
     "githubPath": "app/common.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ar.json#common"
+    "importedFrom": "apps/employee-web/dictionaries/ar.json#common",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

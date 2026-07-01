@@ -14,8 +14,8 @@
     "selectEndDate": "Chọn ngày kết thúc",
     "leaveHistory": "Lịch sử nghỉ phép",
     "submitRequest": "Gửi yêu cầu",
-    "requestSubmitted": "Leave request submitted",
-    "requestSubmitFailed": "Could not submit your request. Please try again.",
+    "requestSubmitted": "Đã gửi yêu cầu nghỉ phép",
+    "requestSubmitFailed": "Không thể gửi yêu cầu của bạn. Vui lòng thử lại.",
     "sickLeave": "Nghỉ ốm",
     "hospitalisationLeave": "Nghỉ nằm viện",
     "maternityLeave": "Nghỉ thai sản",
@@ -40,14 +40,16 @@
     "noLeaveHistoryYet": "Chưa có lịch sử nghỉ phép",
     "startByRequestingLeave": "Khi cần nghỉ, hãy gửi yêu cầu ở phía trên",
     "requestLeaveCta": "Xin nghỉ phép",
-    "addLeave": "Add leave",
-    "selectDatesOnCalendar": "Select your leave dates on the calendar above.",
-    "noLeaveAllocation": "No leave balance is assigned yet. Contact your HR administrator."
+    "addLeave": "Thêm nghỉ phép",
+    "selectDatesOnCalendar": "Chọn ngày nghỉ phép của bạn trên lịch phía trên.",
+    "noLeaveAllocation": "Chưa có số ngày phép nào được cấp. Liên hệ quản trị viên nhân sự của bạn."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#leaves",
     "githubPath": "app/leaves.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/vi.json#leaves"
+    "importedFrom": "apps/employee-web/dictionaries/vi.json#leaves",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

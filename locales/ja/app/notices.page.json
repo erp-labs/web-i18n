@@ -9,9 +9,9 @@
     "markAllRead": "全て既読",
     "read": "既読",
     "unread": "未読",
-    "viewDetails": "View details",
-    "markReadFailed": "Could not mark notice as read. Try again.",
-    "markAllReadFailed": "Could not mark all notices as read. Try again.",
+    "viewDetails": "詳細を表示",
+    "markReadFailed": "通知を既読にできませんでした。もう一度お試しください。",
+    "markAllReadFailed": "すべての通知を既読にできませんでした。もう一度お試しください。",
     "noNotices": "通知はありません",
     "allCaughtUp": "全て確認済です",
     "timeAgoJustNow": "たった今",
@@ -24,6 +24,8 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#notices",
     "githubPath": "app/notices.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ja.json#notices"
+    "importedFrom": "apps/employee-web/dictionaries/ja.json#notices",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

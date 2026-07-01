@@ -5,16 +5,16 @@
   "version": 3,
   "sourceHash": "sha256:7435cf8f871ac4b90d28ed927000595a96e04e8926e3f025dc48a3fe3a8e1e3a",
   "keys": {
-    "title": "Billing",
-    "subtitle": "subscription, ගෙවීම් ක්‍රමය, සහ ඉතිහාසය කළමනාකරණය කරන්න",
-    "subtitleWithEmail": "{email} සඳහා subscription, ගෙවීම් ක්‍රමය, සහ ඉතිහාසය කළමනාකරණය කරන්න."
+    "title": "බිල්පත්",
+    "subtitle": "ඔබගේ දායකත්වය, ගෙවීම් ක්‍රමය සහ ඉතිහාසය කළමනාකරණය කරන්න",
+    "subtitleWithEmail": "{email} සඳහා ඔබේ දායකත්වය, ගෙවීමේ ක්‍රමය සහ ඉතිහාසය කළමනාකරණය කරන්න."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /billing",
     "githubPath": "account/shell.billing.page.json",
-    "translationStatus": "review",
-    "method": "cursor-ai-2",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai",
     "reviewedAt": "2026-06-30"
   }
 }

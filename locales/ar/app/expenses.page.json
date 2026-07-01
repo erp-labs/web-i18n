@@ -20,7 +20,7 @@
     "selectSubCategory": "اختر فئة فرعية",
     "totalAmountLabel": "المبلغ الإجمالي (SGD)",
     "confirmAndContinue": "تأكيد ومتابعة",
-    "submitFailed": "Could not submit expense. Please try again.",
+    "submitFailed": "تعذّر إرسال المصروف. يرجى المحاولة مرة أخرى.",
     "categoryTransport": "النقل",
     "categoryTravel": "السفر",
     "categoryBusinessExpense": "مصروفات العمل",
@@ -74,6 +74,8 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#expenses",
     "githubPath": "app/expenses.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ar.json#expenses"
+    "importedFrom": "apps/employee-web/dictionaries/ar.json#expenses",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

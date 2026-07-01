@@ -2,24 +2,23 @@
   "pageId": "account.auth.signup",
   "surface": "account",
   "route": "/signup",
-  "version": 3,
-  "sourceHash": "sha256:b157861ca3ef1a6277cabe3ce03f14b8448cadc23cd00733a8103a651dbfc23c",
+  "version": 1,
+  "sourceHash": "sha256:319a31913f5531ac441ab9b4d1fb66c7317c85420afdbc8c74e12298a12b901f",
   "keys": {
-    "title": "สมัครสมาชิก",
-    "titleEmailLocked": "อีเมล",
-    "intro": "สร้างบัญชีของคุณเพื่อเริ่มต้นใช้งาน",
-    "introEmailLocked": "เราจะส่งรหัสยืนยันไปยังที่อยู่นี้เพื่อให้คุณสร้างบัญชีให้เสร็จสมบูรณ์",
-    "emailLabel": "ที่อยู่อีเมล",
-    "emailLockedHint": "ที่อยู่นี้ได้รับการยืนยันบน pregoi.com แล้ว และไม่สามารถเปลี่ยนได้ที่นี่",
+    "title": "ลงทะเบียน",
+    "titleEmailLocked": "Email",
+    "intro": "สร้างบัญชีของคุณเพื่อเริ่มต้น",
+    "introEmailLocked": "We'll send a verification code to this address so you can finish creating your account.",
+    "emailLabel": "Email ที่อยู่",
+    "emailLockedHint": "ที่อยู่นี้ได้รับการยืนยันเมื่อ pregoi.com และไม่สามารถเปลี่ยนแปลงได้ที่นี่",
     "submit": "ส่งรหัสยืนยัน",
-    "submitting": "กำลังส่ง…"
+    "submitting": "กำลังส่ง..."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /signup",
     "githubPath": "account/auth.signup.page.json",
-    "translationStatus": "review",
-    "method": "cursor-ai-2",
-    "reviewedAt": "2026-06-30"
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
   }
 }

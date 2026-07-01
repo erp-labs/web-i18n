@@ -58,11 +58,11 @@
       "startCta": "创建发票"
     },
     "customers": {
-      "whatTitle": "Your customer list",
-      "whatBody": "Browse ERP customers synced from your company workspace.",
-      "howTitle": "Need pipeline or deals?",
-      "howStep1": "Use Open in CRM for Frappe CRM on your tenant host.",
-      "howStep2": "Use Work Desk for full ERP customer records and accounting links."
+      "whatTitle": "您的客户列表",
+      "whatBody": "浏览从公司工作区同步的 ERP 客户。",
+      "howTitle": "需要销售管道或商机？",
+      "howStep1": "使用在租户主机上的 Frappe CRM 中的「在 CRM 中打开」。",
+      "howStep2": "使用 Work Desk 查看完整 ERP 客户记录和会计关联。"
     },
     "leaves": {
       "whatTitle": "申请休假",
@@ -87,6 +87,8 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#moduleGuide",
     "githubPath": "app/moduleGuide.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/zh.json#moduleGuide"
+    "importedFrom": "apps/employee-web/dictionaries/zh.json#moduleGuide",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

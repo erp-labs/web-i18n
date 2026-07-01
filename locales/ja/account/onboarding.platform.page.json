@@ -3,26 +3,26 @@
   "surface": "account",
   "route": "/onboarding/platform",
   "version": 1,
-  "sourceHash": "sha256:27b0c003e837d202c7b9af46206a6ed105c05bd805900a2dad1097483d646a90",
+  "sourceHash": "sha256:a1fd967f3ed9374a8eee27f783d845a3c6c351a6ee9793638fcb33ebebbdf187",
   "keys": {
-    "title": "Platform",
-    "intro": "Choose your ERP stack and cloud provider for this workspace.",
-    "submit": "Continue",
-    "submitting": "Continuing…",
-    "recommendedSetupLabel": "Recommended setup:",
-    "recommendedSetupIntro": "For the fastest, most reliable launch today, we recommend",
-    "recommendedSetupOutro": "Additional ERP and cloud options will be available soon.",
-    "optionNotAvailableNotice": "This option is not available yet. Please select the Recommended option, or contact support for early access.",
-    "badgeRecommended": "Recommended",
-    "badgeComingSoon": "Coming soon",
-    "erpSectionHeading": "Select ERP solution:",
-    "cloudSectionHeading": "Select cloud provider:"
+    "title": "プラットフォーム",
+    "intro": "このワークスペースの ERP スタックとクラウドプロバイダーを選択してください。",
+    "submit": "続ける",
+    "submitting": "続行中…",
+    "recommendedSetupLabel": "推奨構成:",
+    "recommendedSetupIntro": "最も迅速で信頼性の高い起動のため、次を推奨します",
+    "recommendedSetupOutro": "その他の ERP およびクラウドオプションは近日公開予定です。",
+    "optionNotAvailableNotice": "このオプションはまだ利用できません。推奨オプションを選択するか、早期アクセスについてサポートにお問い合わせください。",
+    "badgeRecommended": "推奨",
+    "badgeComingSoon": "近日公開",
+    "erpSectionHeading": "ERP ソリューションを選択:",
+    "cloudSectionHeading": "クラウドプロバイダーを選択:"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /onboarding/platform",
     "githubPath": "account/onboarding.platform.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

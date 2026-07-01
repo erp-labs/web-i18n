@@ -3,20 +3,20 @@
   "surface": "account",
   "route": "/users",
   "version": 3,
-  "sourceHash": "sha256:bbcf07f6b82362e65502a964bd838f809801bfdd344c8eb824c4e603614373d8",
+  "sourceHash": "sha256:dd22291f406177fcdb9e19da57a1ea4d81406bff7ba99ce2bf9b876501565a91",
   "keys": {
-    "title": "Users",
-    "subtitle": "employee portal වෙත පිවිසිය හැකි සේවකයින් කළමනාකරණය කරන්න.",
-    "retryUserSeed": "Retry user seed",
-    "retryingUserSeed": "Retrying…",
-    "seedPendingHint": "Employee invites from onboarding are waiting to be seeded. Use Retry user seed below once provisioning finishes."
+    "title": "පරිශීලකයන්",
+    "subtitle": "ඔබගේ සේවක ද්වාරයට පුරනය විය හැකි සේවකයින් කළමනාකරණය කරන්න.",
+    "retryUserSeed": "පරිශීලක බීජ නැවත උත්සාහ කරන්න",
+    "retryingUserSeed": "නැවත උත්සාහ කරමින්...",
+    "seedPendingHint": "ඇතුළත් වීමේ සේවක ආරාධනා සීඩ් කිරීමට බලා සිටී. ප්‍රතිපාදන අවසන් වූ පසු පහත පරිශීලක බීජ නැවත උත්සාහ කරන්න."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /users",
     "githubPath": "account/shell.users.page.json",
-    "translationStatus": "review",
-    "method": "cursor-ai-2",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai",
     "reviewedAt": "2026-06-30"
   }
 }

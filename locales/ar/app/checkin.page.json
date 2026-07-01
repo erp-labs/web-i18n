@@ -34,6 +34,8 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#checkin",
     "githubPath": "app/checkin.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ar.json#checkin"
+    "importedFrom": "apps/employee-web/dictionaries/ar.json#checkin",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

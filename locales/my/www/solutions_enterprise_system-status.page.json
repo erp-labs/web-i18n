@@ -1,0 +1,21 @@
+{
+  "pageId": "www.solutions_enterprise_system-status",
+  "surface": "www",
+  "route": "/solutions/enterprise/system-status",
+  "version": 1,
+  "sourceHash": "sha256:9481100af65c5d2b338da820095bd627f733216130ac540b770c74adf870b220",
+  "keys": {
+    "path": "/solutions/enterprise/system-status",
+    "meta_title": "System Status | Vouus",
+    "meta_description": "Uptime, incidents, and maintenance transparency.",
+    "hero_title": "System Status",
+    "hero_description": "Real-time server and service status for {brand}."
+  },
+  "meta": {
+    "productRepo": "infra-control-plane",
+    "sourcePath": "src/marketing-pages/registry.ts solutions/enterprise/system-status",
+    "githubPath": "www/solutions_enterprise_system-status.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

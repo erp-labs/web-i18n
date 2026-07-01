@@ -5,16 +5,16 @@
   "version": 1,
   "sourceHash": "sha256:d925f25b9680bbb3902ef950b535e206b9d76a665fdbca0f80ce2c5004fa3ece",
   "keys": {
-    "title": "Enable your location",
-    "description": "This app requires that location services are turned on your device and for this app. You must enable them in Settings before using this app.",
-    "allowButton": "Allow only while using this app",
-    "denyButton": "Don't allow this app"
+    "title": "اپنے مقام کو فعال کریں۔",
+    "description": "اس ایپ کا تقاضہ ہے کہ آپ کے آلے اور اس ایپ کے لیے لوکیشن سروسز کو آن کیا جائے۔ اس ایپ کو استعمال کرنے سے پہلے آپ کو انہیں ترتیبات میں فعال کرنا ہوگا۔",
+    "allowButton": "صرف اس ایپ کو استعمال کرتے وقت اجازت دیں۔",
+    "denyButton": "اس ایپ کو اجازت نہ دیں۔"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#locationPermission",
     "githubPath": "app/locationPermission.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

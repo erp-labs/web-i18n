@@ -15,17 +15,19 @@
     "noticeTooltip": "通知",
     "dashboard": "工作台",
     "invoices": "发票",
-    "customers": "Customer",
-    "accounting": "Accounting",
-    "payment": "Payment",
-    "reservation": "Reservation",
-    "calendar": "Calendar",
-    "mailing": "Mailing"
+    "customers": "客户",
+    "accounting": "会计",
+    "payment": "付款",
+    "reservation": "预订",
+    "calendar": "日历",
+    "mailing": "邮件"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#menu",
     "githubPath": "app/menu.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/zh.json#menu"
+    "importedFrom": "apps/employee-web/dictionaries/zh.json#menu",
+    "translationStatus": "reviewed",
+    "method": "cursor-ai"
   }
 }

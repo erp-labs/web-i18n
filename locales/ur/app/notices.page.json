@@ -5,26 +5,26 @@
   "version": 1,
   "sourceHash": "sha256:9e9feb1f3f533b4e6b3cdf47e0046491512fc861c4b8118737aafe3db4478835",
   "keys": {
-    "title": "Notices",
-    "markAllRead": "Mark all read",
-    "read": "Read",
-    "unread": "Unread",
-    "viewDetails": "View details",
-    "markReadFailed": "Could not mark notice as read. Try again.",
-    "markAllReadFailed": "Could not mark all notices as read. Try again.",
-    "noNotices": "No notices",
-    "allCaughtUp": "You're all caught up!",
-    "timeAgoJustNow": "Just now",
-    "timeAgoMinutes": "{{n}} min ago",
-    "timeAgoHours": "{{n}} hours ago",
-    "timeAgoDays": "{{n}} days ago",
-    "timeAgoWeeks": "{{n}} weeks ago"
+    "title": "نوٹس",
+    "markAllRead": "سب کو پڑھا ہوا نشان زد کریں۔",
+    "read": "پڑھیں",
+    "unread": "ان پڑھ",
+    "viewDetails": "تفصیلات دیکھیں",
+    "markReadFailed": "نوٹس کو پڑھا ہوا نشان زد نہیں کیا جا سکا۔ دوبارہ کوشش کریں۔",
+    "markAllReadFailed": "تمام نوٹسز کو پڑھے ہوئے کے بطور نشان زد نہیں کیا جا سکا۔ دوبارہ کوشش کریں۔",
+    "noNotices": "کوئی نوٹس نہیں۔",
+    "allCaughtUp": "آپ سب پکڑے گئے ہیں!",
+    "timeAgoJustNow": "ابھی ابھی",
+    "timeAgoMinutes": "{{n}} منٹ پہلے",
+    "timeAgoHours": "{{n}} گھنٹے پہلے",
+    "timeAgoDays": "{{n}} دن پہلے",
+    "timeAgoWeeks": "{{n}} ہفتے پہلے"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#notices",
     "githubPath": "app/notices.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }

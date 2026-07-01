@@ -1,0 +1,28 @@
+{
+  "pageId": "account.onboarding.platform",
+  "surface": "account",
+  "route": "/onboarding/platform",
+  "version": 1,
+  "sourceHash": "sha256:a1fd967f3ed9374a8eee27f783d845a3c6c351a6ee9793638fcb33ebebbdf187",
+  "keys": {
+    "title": "Platform",
+    "intro": "Choose your ERP stack and cloud provider for this workspace.",
+    "submit": "Continue",
+    "submitting": "Continuing…",
+    "recommendedSetupLabel": "Recommended setup:",
+    "recommendedSetupIntro": "For the fastest, most reliable launch today, we recommend",
+    "recommendedSetupOutro": "Additional ERP and cloud options will be available soon.",
+    "optionNotAvailableNotice": "This option is not available yet. Please select the Recommended option, or contact support for early access.",
+    "badgeRecommended": "Recommended",
+    "badgeComingSoon": "Coming soon",
+    "erpSectionHeading": "Select ERP solution:",
+    "cloudSectionHeading": "Select cloud provider:"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /onboarding/platform",
+    "githubPath": "account/onboarding.platform.page.json",
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
+  }
+}

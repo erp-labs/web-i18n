@@ -2,33 +2,32 @@
   "pageId": "account.auth.signin",
   "surface": "account",
   "route": "/sign-in",
-  "version": 3,
-  "sourceHash": "sha256:5c0e153e8e9f912431db0c4ad1aa88966c7d8c5b46a0b667b8bef912f425c521",
+  "version": 1,
+  "sourceHash": "sha256:61a538e2f390109a5e1ce43ddfcc944d3bd23f704f3d8bb1f2b5096c56b96f77",
   "keys": {
     "title": "Log masuk",
     "titleLogin": "Log masuk",
     "titleGetStarted": "Mulakan",
     "titlePortalPasswordSetup": "Sediakan kata laluan pentadbir perkhidmatan",
     "descriptionDefault": "Log masuk dengan e-mel yang didaftarkan untuk ruang kerja anda.",
-    "descriptionEmailLocked": "Kami akan hantar kod pengesahan ke alamat ini untuk log masuk.",
-    "descriptionPackageFunnel": "Log masuk atau cipta akaun untuk meneruskan ke pembayaran.",
-    "descriptionPortalPassword": "Masukkan e-mel anda. Kami akan hantar kod pengesahan, kemudian anda boleh cipta kata laluan pentadbir perkhidmatan.",
-    "descriptionLoginGate": "Log masuk dengan e-mel dan kata laluan anda. Kami akan e-mel kod pengesahan seterusnya.",
-    "submit": "Teruskan",
+    "descriptionEmailLocked": "We'll send a verification code to this address to sign in.",
+    "descriptionPackageFunnel": "Log masuk atau buat akaun untuk meneruskan pembayaran.",
+    "descriptionPortalPassword": "Masukkan e-mel anda. Kami akan menghantar kod pengesahan, kemudian anda boleh membuat kata laluan pentadbir perkhidmatan anda.",
+    "descriptionLoginGate": "Log masuk dengan e-mel dan kata laluan anda. Kami akan menghantar kod pengesahan melalui e-mel seterusnya.",
+    "submit": "Continue",
     "submitLogin": "Log masuk",
     "submitSendCode": "Hantar kod pengesahan",
     "submitting": "Menghantar…",
-    "submittingLogin": "Sedang log masuk…",
-    "submittingVerify": "Mengesahkan…",
-    "emailLabel": "Alamat e-mel",
-    "passwordLabel": "Kata laluan"
+    "submittingLogin": "Log masuk…",
+    "submittingVerify": "Verifying…",
+    "emailLabel": "Email alamat",
+    "passwordLabel": "Password"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /sign-in",
     "githubPath": "account/auth.signin.page.json",
-    "translationStatus": "review",
-    "method": "cursor-ai-2",
-    "reviewedAt": "2026-06-30"
+    "translationStatus": "ai_draft",
+    "method": "cursor-ai"
   }
 }

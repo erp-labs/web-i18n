@@ -5,10 +5,10 @@
   "version": 1,
   "sourceHash": "sha256:d925f25b9680bbb3902ef950b535e206b9d76a665fdbca0f80ce2c5004fa3ece",
   "keys": {
-    "title": "Enable your location",
-    "description": "This app requires that location services are turned on your device and for this app. You must enable them in Settings before using this app.",
-    "allowButton": "Allow only while using this app",
-    "denyButton": "Don't allow this app"
+    "title": "เปิดใช้งานตำแหน่งของคุณ",
+    "description": "แอปนี้กำหนดให้ต้องเปิดบริการระบุตำแหน่งบนอุปกรณ์ของคุณและสำหรับแอปนี้ คุณต้องเปิดใช้งานในการตั้งค่าก่อนใช้แอพนี้",
+    "allowButton": "อนุญาตขณะใช้แอพนี้เท่านั้น",
+    "denyButton": "ไม่อนุญาตแอปนี้"
   },
   "meta": {
     "productRepo": "core-platform",

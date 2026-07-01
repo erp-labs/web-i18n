@@ -6,88 +6,88 @@
   "sourceHash": "sha256:6a17eb3392f9231509390565517d774d2c9f981b45c9c523e1659755c053bd6e",
   "keys": {
     "common": {
-      "showGuide": "How it works",
-      "dontShowAgain": "Don't show again",
-      "gotIt": "Got it",
-      "next": "Next",
-      "back": "Back",
-      "stepOf": "Step {current} of {total}"
+      "showGuide": "یہ کیسے کام کرتا ہے۔",
+      "dontShowAgain": "دوبارہ مت دکھانا",
+      "gotIt": "سمجھ گیا",
+      "next": "اگلا",
+      "back": "پیچھے",
+      "stepOf": "{total} کا مرحلہ {current}"
     },
     "attendance": {
-      "whatTitle": "Track your work hours",
-      "whatBody": "Check in when you start work and check out when you finish. Your attendance history appears here automatically.",
-      "howTitle": "How check-in works",
-      "howStep1": "Tap Check In when you arrive at work (office or home).",
-      "howStep2": "Tap Check Out when your shift ends.",
-      "howStep3": "Review daily hours and totals in this list.",
-      "startTitle": "Ready to check in?",
-      "startBody": "Use the check-in button at the top of the home screen.",
-      "startCta": "Start check-in"
+      "whatTitle": "اپنے کام کے اوقات کو ٹریک کریں۔",
+      "whatBody": "جب آپ کام شروع کرتے ہیں تو چیک ان کریں اور جب آپ ختم کریں تو چیک کریں۔ آپ کی حاضری کی تاریخ خود بخود یہاں ظاہر ہوتی ہے۔",
+      "howTitle": "چیک ان کیسے کام کرتا ہے۔",
+      "howStep1": "جب آپ کام پر پہنچیں تو چیک ان پر ٹیپ کریں (دفتر یا گھر)۔",
+      "howStep2": "آپ کی شفٹ ختم ہونے پر چیک آؤٹ پر ٹیپ کریں۔",
+      "howStep3": "اس فہرست میں روزانہ کے اوقات اور ٹوٹل کا جائزہ لیں۔",
+      "startTitle": "چیک ان کرنے کے لیے تیار ہیں؟",
+      "startBody": "ہوم اسکرین کے اوپری حصے میں چیک ان بٹن کا استعمال کریں۔",
+      "startCta": "چیک ان شروع کریں۔"
     },
     "expenses": {
-      "whatTitle": "Submit expense claims",
-      "whatBody": "Capture receipts and submit expenses for reimbursement. Approved claims are tracked here.",
-      "howTitle": "How to add an expense",
-      "howStep1": "Tap + and photograph or upload your receipt.",
-      "howStep2": "Choose a category and enter the amount.",
-      "howStep3": "Submit for approval — status updates appear in this list.",
-      "startTitle": "Add your first expense",
-      "startBody": "Keep a photo of your receipt handy.",
-      "startCta": "Add expense"
+      "whatTitle": "اخراجات کے دعوے جمع کروائیں۔",
+      "whatBody": "رسیدیں حاصل کریں اور معاوضے کے لیے اخراجات جمع کروائیں۔ منظور شدہ دعوے یہاں ٹریک کیے جاتے ہیں۔",
+      "howTitle": "اخراجات کیسے شامل کریں۔",
+      "howStep1": "+ کو تھپتھپائیں اور تصویر کھینچیں یا اپنی رسید اپ لوڈ کریں۔",
+      "howStep2": "ایک زمرہ منتخب کریں اور رقم درج کریں۔",
+      "howStep3": "منظوری کے لیے جمع کرائیں — اسٹیٹس اپ ڈیٹ اس فہرست میں ظاہر ہوتے ہیں۔",
+      "startTitle": "اپنا پہلا خرچ شامل کریں۔",
+      "startBody": "اپنی رسید کی ایک تصویر ہاتھ میں رکھیں۔",
+      "startCta": "اخراجات شامل کریں۔"
     },
     "checklist": {
-      "whatTitle": "Manage your tasks",
-      "whatBody": "Keep work, home, and personal tasks in one checklist with due dates and progress.",
-      "howTitle": "How to use the checklist",
-      "howStep1": "Tap + to create a task with a name and due date.",
-      "howStep2": "Mark tasks done as you complete them.",
-      "howStep3": "Track overall progress on the overview bar.",
-      "startTitle": "Create your first task",
-      "startBody": "Start with one small task due today.",
-      "startCta": "Add task"
+      "whatTitle": "اپنے کاموں کا نظم کریں۔",
+      "whatBody": "کام، گھر، اور ذاتی کاموں کو مقررہ تاریخوں اور پیش رفت کے ساتھ ایک چیک لسٹ میں رکھیں۔",
+      "howTitle": "چیک لسٹ کا استعمال کیسے کریں۔",
+      "howStep1": "نام اور مقررہ تاریخ کے ساتھ ٹاسک بنانے کے لیے + کو تھپتھپائیں۔",
+      "howStep2": "کاموں کو مکمل کرتے ہی نشان زد کریں۔",
+      "howStep3": "جائزہ بار پر مجموعی پیشرفت کو ٹریک کریں۔",
+      "startTitle": "اپنا پہلا کام بنائیں",
+      "startBody": "آج ایک چھوٹے سے کام کے ساتھ شروع کریں۔",
+      "startCta": "کام شامل کریں۔"
     },
     "invoices": {
-      "whatTitle": "Create and send invoices",
-      "whatBody": "Build professional invoices, preview them, and track payment status.",
-      "howTitle": "How to create an invoice",
-      "howStep1": "Tap + and enter client details and line items.",
-      "howStep2": "Preview the invoice before sending.",
-      "howStep3": "Send to your client and monitor open vs paid here.",
-      "startTitle": "Create your first invoice",
-      "startBody": "You can save a draft and finish later.",
-      "startCta": "Create invoice"
+      "whatTitle": "رسیدیں بنائیں اور بھیجیں۔",
+      "whatBody": "پیشہ ورانہ رسیدیں بنائیں، ان کا پیش نظارہ کریں، اور ادائیگی کی حیثیت کو ٹریک کریں۔",
+      "howTitle": "انوائس کیسے بنائیں",
+      "howStep1": "+ کو تھپتھپائیں اور کلائنٹ کی تفصیلات اور لائن آئٹمز درج کریں۔",
+      "howStep2": "بھیجنے سے پہلے رسید کا جائزہ لیں۔",
+      "howStep3": "اپنے کلائنٹ کو بھیجیں اور یہاں کھلے بمقابلہ ادائیگی کی نگرانی کریں۔",
+      "startTitle": "اپنا پہلا انوائس بنائیں",
+      "startBody": "آپ ایک مسودہ محفوظ کر سکتے ہیں اور بعد میں ختم کر سکتے ہیں۔",
+      "startCta": "انوائس بنائیں"
     },
     "customers": {
-      "whatTitle": "Your customer list",
-      "whatBody": "Browse ERP customers synced from your company workspace.",
-      "howTitle": "Need pipeline or deals?",
-      "howStep1": "Use Open in CRM for Frappe CRM on your tenant host.",
-      "howStep2": "Use Work Desk for full ERP customer records and accounting links."
+      "whatTitle": "آپ کے گاہک کی فہرست",
+      "whatBody": "اپنی کمپنی کے کام کی جگہ سے مطابقت پذیر ERP صارفین کو براؤز کریں۔",
+      "howTitle": "پائپ لائن یا سودے کی ضرورت ہے؟",
+      "howStep1": "اپنے کرایہ دار میزبان پر Frappe CRM کے لیے CRM میں Open کا استعمال کریں۔",
+      "howStep2": "مکمل ERP کسٹمر ریکارڈز اور اکاؤنٹنگ لنکس کے لیے Work Desk استعمال کریں۔"
     },
     "leaves": {
-      "whatTitle": "Request time off",
-      "whatBody": "Apply for annual, sick, and other leave types. Your balance and history stay in one place.",
-      "howTitle": "How to request leave",
-      "howStep1": "Check your remaining leave balance at the top.",
-      "howStep2": "Select dates on the calendar and choose a leave type.",
-      "howStep3": "Submit your request — approved leave appears in history.",
-      "startTitle": "Submit a leave request",
-      "startBody": "Tap Leave application or the + button to pick dates and leave type.",
-      "startCta": "Leave application"
+      "whatTitle": "چھٹی کی درخواست کریں۔",
+      "whatBody": "سالانہ، بیمار، اور چھٹی کی دیگر اقسام کے لیے درخواست دیں۔ آپ کا توازن اور تاریخ ایک جگہ پر رہتی ہے۔",
+      "howTitle": "چھٹی کی درخواست کیسے کی جائے۔",
+      "howStep1": "سب سے اوپر اپنی چھٹی کا بقیہ بیلنس چیک کریں۔",
+      "howStep2": "کیلنڈر پر تاریخیں منتخب کریں اور چھٹی کی قسم منتخب کریں۔",
+      "howStep3": "اپنی درخواست جمع کروائیں - منظور شدہ چھٹی تاریخ میں ظاہر ہوتی ہے۔",
+      "startTitle": "چھٹی کی درخواست جمع کروائیں۔",
+      "startBody": "تاریخوں کو منتخب کرنے اور چھوڑنے کی قسم کو چھوڑنے کے لیے درخواست یا + بٹن پر ٹیپ کریں۔",
+      "startCta": "درخواست چھوڑ دیں۔"
     },
     "notices": {
-      "whatTitle": "Your work notifications",
-      "whatBody": "Updates about leave, expenses, invoices, and tasks from your company ERP appear here.",
-      "howTitle": "How notices work",
-      "howStep1": "Tap the bell icon on a notice to mark it as read.",
-      "howStep2": "Use View details to open the related module when a link is available."
+      "whatTitle": "آپ کے کام کی اطلاعات",
+      "whatBody": "آپ کی کمپنی ERP کی چھٹیوں، اخراجات، رسیدوں اور کاموں کے بارے میں اپ ڈیٹس یہاں ظاہر ہوتے ہیں۔",
+      "howTitle": "نوٹس کیسے کام کرتے ہیں۔",
+      "howStep1": "نوٹس پر گھنٹی کے آئیکن کو تھپتھپائیں اور اسے پڑھا ہوا نشان زد کریں۔",
+      "howStep2": "لنک دستیاب ہونے پر متعلقہ ماڈیول کھولنے کے لیے تفصیلات دیکھیں کا استعمال کریں۔"
     }
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#moduleGuide",
     "githubPath": "app/moduleGuide.page.json",
-    "translationStatus": "ai_draft",
+    "translationStatus": "reviewed",
     "method": "cursor-ai"
   }
 }
