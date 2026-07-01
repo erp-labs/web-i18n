@@ -20,6 +20,7 @@
     "sea:generate": "python3 scripts/translation-packs/generate-sea-data.py",
     "locale:generate": "python3 scripts/generate-locale-data.py",
     "locale:build": "node scripts/build-locale-data.mjs",
+    "patch:www-home-shell": "node scripts/patch-www-home-shell-complete.mjs",
     "mark:reviewed": "node scripts/mark-reviewed.mjs"
   },
   "engines": {
