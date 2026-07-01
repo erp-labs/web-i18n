@@ -21,7 +21,24 @@ import {
 } from './lib/constants.mjs'
 import { flattenKeys } from './lib/flatten-keys.mjs'
 import { hashJson } from './lib/hash.mjs'
-import { SHELL_BACKUP_KEYS, XERO_MIGRATION_KEYS, SHELL_COMMON_KEYS, SHELL_USERS_KEYS, SHELL_INTEGRATIONS_KEYS, ONBOARDING_COMPANY_KEYS, ONBOARDING_PLATFORM_KEYS, ONBOARDING_REVIEW_KEYS, ONBOARDING_LAUNCH_KEYS, ONBOARDING_DASHBOARD_KEYS, ONBOARDING_PROVISION_EMAIL_KEYS, ONBOARDING_PAYMENT_SUCCESS_KEYS } from './lib/admin-page-keys.mjs'
+import {
+  SHELL_BACKUP_KEYS,
+  XERO_MIGRATION_KEYS,
+  SHELL_COMMON_KEYS,
+  SHELL_USERS_KEYS,
+  SHELL_INTEGRATIONS_KEYS,
+  SHELL_NAV_KEYS,
+  DASHBOARD_SETUP_KEYS,
+  DASHBOARD_WIDGETS_KEYS,
+  PROFILE_FIELDS_KEYS,
+  ONBOARDING_COMPANY_KEYS,
+  ONBOARDING_PLATFORM_KEYS,
+  ONBOARDING_REVIEW_KEYS,
+  ONBOARDING_LAUNCH_KEYS,
+  ONBOARDING_DASHBOARD_KEYS,
+  ONBOARDING_PROVISION_EMAIL_KEYS,
+  ONBOARDING_PAYMENT_SUCCESS_KEYS,
+} from './lib/admin-page-keys.mjs'
 
 /** @typedef {{ pageId: string, surface: string, route: string | null, version: number, sourceHash: string, reviewRequired?: boolean, keys: Record<string, unknown>, meta: Record<string, string> }} PageDoc */
 
@@ -816,6 +833,26 @@ function extractAccountPlaceholders() {
       pageId: 'account.integrations.xero_migration',
       route: '/integrations/xero/migration/:jobId',
       keys: XERO_MIGRATION_KEYS,
+    },
+    {
+      pageId: 'account.shell.nav',
+      route: null,
+      keys: SHELL_NAV_KEYS,
+    },
+    {
+      pageId: 'account.dashboard.setup',
+      route: '/dashboard',
+      keys: DASHBOARD_SETUP_KEYS,
+    },
+    {
+      pageId: 'account.dashboard.widgets',
+      route: '/dashboard',
+      keys: DASHBOARD_WIDGETS_KEYS,
+    },
+    {
+      pageId: 'account.profile.fields',
+      route: '/profile',
+      keys: PROFILE_FIELDS_KEYS,
     },
   ]
   for (const p of pages) {

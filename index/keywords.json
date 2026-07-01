@@ -1193,6 +1193,16 @@
     "term": "access",
     "hits": [
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "quickLink_profile_desc",
+        "en": "Account, hosting & workspace access"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalsTitle",
+        "en": "Portal access"
+      },
+      {
         "pageId": "account.onboarding.company",
         "keyPath": "includeAdminLabel",
         "en": "Also give me access to the employee portal using my admin email"
@@ -1251,16 +1261,6 @@
         "pageId": "docs.legal.service_level_agreement",
         "keyPath": "body",
         "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — SERV"
-      },
-      {
-        "pageId": "docs.legal.terms_of_service",
-        "keyPath": "body",
-        "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — TERM"
-      },
-      {
-        "pageId": "docs.legal.terms_of_service",
-        "keyPath": "body",
-        "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — TERM"
       },
       {
         "pageId": "docs.legal.terms_of_service",
@@ -1408,6 +1408,41 @@
         "en": "We'll send a verification code to this address so you can finish creating your account."
       },
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "title",
+        "en": "Account setup"
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "overallProgressAria",
+        "en": "Overall account setup progress"
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "allSetBody",
+        "en": "Core account setup is complete."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantTitle",
+        "en": "Account setup status"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantBody",
+        "en": "You are signed in, but no workspace is linked to this account yet. If you already completed payment, request a sign-in c"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "quickLink_profile_desc",
+        "en": "Account, hosting & workspace access"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noPaymentsYet",
+        "en": "No payments recorded yet for this account."
+      },
+      {
         "pageId": "account.integrations.xero_migration",
         "keyPath": "columnAccount",
         "en": "Account"
@@ -1456,41 +1491,6 @@
         "pageId": "app.invoices",
         "keyPath": "bankDetailsPlaceholder",
         "en": "Bank name, account name, account number, SWIFT/BIC"
-      },
-      {
-        "pageId": "app.onboarding",
-        "keyPath": "bankAccountNumber",
-        "en": "Bank Account Number"
-      },
-      {
-        "pageId": "app.onboarding",
-        "keyPath": "bankAccountNumberHint",
-        "en": "Account number, digits only or with hyphens (e.g. 123-456-789)."
-      },
-      {
-        "pageId": "app.passcode",
-        "keyPath": "resetEmailSent",
-        "en": "If an account exists for that email, we sent a reset link. Check your inbox."
-      },
-      {
-        "pageId": "app.profile",
-        "keyPath": "advancedWorkHint",
-        "en": "Work Desk and Frappe CRM use the same account. Switch when you need detailed ERP or pipeline tools."
-      },
-      {
-        "pageId": "app.signin",
-        "keyPath": "noAccount",
-        "en": "Don't have an account yet?"
-      },
-      {
-        "pageId": "app.signin",
-        "keyPath": "errorAccountSuspended",
-        "en": "This account has been suspended. Contact your administrator."
-      },
-      {
-        "pageId": "app.signup",
-        "keyPath": "submitButton",
-        "en": "Create Account"
       }
     ]
   },
@@ -1868,6 +1868,11 @@
     "term": "activate",
     "hits": [
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_subscription_choose_plan",
+        "en": "Choose a plan to activate your workspace."
+      },
+      {
         "pageId": "account.onboarding.launch",
         "keyPath": "workspaceReadyBody",
         "en": "Please feel free to activate your tenant on your subdomain at your earliest convenience. Once the setup is confirmed, we"
@@ -1892,6 +1897,11 @@
   {
     "term": "active",
     "hits": [
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_subscription_active",
+        "en": "Your plan is active."
+      },
       {
         "pageId": "app.myAi",
         "keyPath": "active",
@@ -2058,6 +2068,16 @@
     "term": "add",
     "hits": [
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "actionAddDetails",
+        "en": "Add details"
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_profile_p0_add_details",
+        "en": "Add contact details for support and provisioning."
+      },
+      {
         "pageId": "account.onboarding.company",
         "keyPath": "addPeople",
         "en": "Add people"
@@ -2146,16 +2166,6 @@
         "pageId": "www.pricing",
         "keyPath": "plans_subheading",
         "en": "Start with the essentials. Add capacity and automation as you grow."
-      },
-      {
-        "pageId": "www.pricing",
-        "keyPath": "faq_0_a",
-        "en": "The subscription covers infrastructure, data compliance, and your core ERP modules. Higher tiers add capacity, dedicated"
-      },
-      {
-        "pageId": "www.pricing",
-        "keyPath": "faq_1_a",
-        "en": "You can move to a higher tier to add users, capacity, and support levels. We will help you right-size the plan as your u"
       }
     ]
   },
@@ -2266,6 +2276,11 @@
         "pageId": "account.onboarding.launch",
         "keyPath": "workspaceReadyBody",
         "en": "Please feel free to activate your tenant on your subdomain at your earliest convenience. Once the setup is confirmed, we"
+      },
+      {
+        "pageId": "account.profile.fields",
+        "keyPath": "registered_address",
+        "en": "Registered address"
       },
       {
         "pageId": "app.invoices",
@@ -2488,6 +2503,16 @@
         "en": "Enter your email. We will send a verification code, then you can create your service administrator password."
       },
       {
+        "pageId": "account.profile.fields",
+        "keyPath": "admin_name",
+        "en": "Administrator name"
+      },
+      {
+        "pageId": "account.profile.fields",
+        "keyPath": "admin_phone",
+        "en": "Administrator phone"
+      },
+      {
         "pageId": "app.auth",
         "keyPath": "otpEmailNotConfigured",
         "en": "Verification email is not available. Please contact your administrator."
@@ -2566,16 +2591,6 @@
         "pageId": "email.portal_password_reset",
         "keyPath": "textHeader",
         "en": "Reset your service administrator password"
-      },
-      {
-        "pageId": "email.tenant_admin_credentials",
-        "keyPath": "headerTitle",
-        "en": "Service administrator password"
-      },
-      {
-        "pageId": "email.tenant_admin_credentials",
-        "keyPath": "passwordLabel",
-        "en": "Service administrator password"
       }
     ]
   },
@@ -2596,6 +2611,16 @@
         "pageId": "docs.legal.data_processing_agreement",
         "keyPath": "body",
         "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — DATA"
+      }
+    ]
+  },
+  {
+    "term": "adoption",
+    "hits": [
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "category_team_label",
+        "en": "Team & adoption"
       }
     ]
   },
@@ -2723,6 +2748,11 @@
     "term": "after",
     "hits": [
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "subscriptionSyncPending",
+        "en": "Payment details may take a minute to sync from Stripe after checkout."
+      },
+      {
         "pageId": "account.onboarding.provision_email",
         "keyPath": "deskTierNote",
         "en": "(Managed Tier 0: use your admin email for Work Desk — no ERP super-user password in email. Open Work Desk from the dashb"
@@ -2823,6 +2853,11 @@
     "term": "again",
     "hits": [
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantBody",
+        "en": "You are signed in, but no workspace is linked to this account yet. If you already completed payment, request a sign-in c"
+      },
+      {
         "pageId": "account.onboarding.company",
         "keyPath": "adminEmailNotLoaded",
         "en": "We couldn't load your admin email yet. Refresh the page, or sign out and sign in again."
@@ -2916,11 +2951,6 @@
         "pageId": "app.passcode",
         "keyPath": "setConfirmPrompt",
         "en": "Enter again to confirm"
-      },
-      {
-        "pageId": "app.passcode",
-        "keyPath": "requestResetFailed",
-        "en": "Request failed. Please try again."
       }
     ]
   },
@@ -3243,6 +3273,11 @@
     "term": "ai",
     "hits": [
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "quotaAiTokens",
+        "en": "AI tokens"
+      },
+      {
         "pageId": "account.shell.usage",
         "keyPath": "subtitle",
         "en": "Track quotas for storage, email, AI tokens, and employee portal seats on your plan."
@@ -3336,11 +3371,6 @@
         "pageId": "app.myAi",
         "keyPath": "wizardTestRunAiUnavailable",
         "en": "Could not reach AI. Locally, your When / What / How would feed the Autopilot plan builder together with Output."
-      },
-      {
-        "pageId": "app.myAi",
-        "keyPath": "wizardTestRunAiUnavailableShort",
-        "en": "Could not reach AI. Your fields will still be included in the full Autopilot prompt."
       }
     ]
   },
@@ -3533,6 +3563,11 @@
     "term": "all",
     "hits": [
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "allSetTitle",
+        "en": "You're all set"
+      },
+      {
         "pageId": "account.onboarding.launch",
         "keyPath": "workspaceReadyBody",
         "en": "Please feel free to activate your tenant on your subdomain at your earliest convenience. Once the setup is confirmed, we"
@@ -3626,11 +3661,6 @@
         "pageId": "www.solutions_use-cases",
         "keyPath": "faq_0_a",
         "en": "Professional services, retail, manufacturing, logistics, and healthcare teams all use the platform. The workflow layer a"
-      },
-      {
-        "pageId": "www.terms",
-        "keyPath": "s04_p3",
-        "en": "Users are responsible for all activities conducted through their accounts."
       }
     ]
   },
@@ -3726,6 +3756,11 @@
         "pageId": "account.auth.verify",
         "keyPath": "sendUncertainBanner",
         "en": "We could not confirm delivery, but a verification email may already be in your inbox. Enter the latest code below."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantBody",
+        "en": "You are signed in, but no workspace is linked to this account yet. If you already completed payment, request a sign-in c"
       },
       {
         "pageId": "account.onboarding.provision_email",
@@ -4478,6 +4513,16 @@
     "term": "app",
     "hits": [
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "kpiWorkAppTitle",
+        "en": "Work App today"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalWorkAppTitle",
+        "en": "Work App"
+      },
+      {
         "pageId": "account.onboarding.provision_email",
         "keyPath": "accountEmailHint",
         "en": "Account email (Work App / invites): {email}. If login fails after desk email only, use Resend provisioning emails below "
@@ -4566,11 +4611,6 @@
         "pageId": "www.product_expense",
         "keyPath": "faq_0_a",
         "en": "Yes. The mobile app supports receipt photo capture, line item entry, and submission. OCR can extract data from receipts "
-      },
-      {
-        "pageId": "www.product_hr-attendance",
-        "keyPath": "faq_0_a",
-        "en": "Employees open the mobile app and tap check-in. GPS, IP, or QR validation rules can be configured per location. The reco"
       }
     ]
   },
@@ -4612,6 +4652,11 @@
   {
     "term": "appears",
     "hits": [
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantBody",
+        "en": "You are signed in, but no workspace is linked to this account yet. If you already completed payment, request a sign-in c"
+      },
       {
         "pageId": "app.moduleGuide",
         "keyPath": "attendance.whatBody",
@@ -5713,6 +5758,11 @@
     "term": "attach",
     "hits": [
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantBody",
+        "en": "You are signed in, but no workspace is linked to this account yet. If you already completed payment, request a sign-in c"
+      },
+      {
         "pageId": "app.invoices",
         "keyPath": "emailSendAttachPdf",
         "en": "Attach PDF"
@@ -5882,6 +5932,11 @@
   {
     "term": "attention",
     "hits": [
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_workspace_provisioning_blocked",
+        "en": "Server setup needs attention."
+      },
       {
         "pageId": "account.shell.backup",
         "keyPath": "rpoStatus_breach",
@@ -6658,6 +6713,11 @@
     "term": "available",
     "hits": [
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_team_complete",
+        "en": "Team invited and Work Desk is available."
+      },
+      {
         "pageId": "account.integrations.xero_migration",
         "keyPath": "jobNotAvailable",
         "en": "Job not available."
@@ -7013,14 +7073,14 @@
         "en": "Manifest checksums verify backup integrity; optional HMAC signing on platform side."
       },
       {
+        "pageId": "account.shell.nav",
+        "keyPath": "backup",
+        "en": "Backup"
+      },
+      {
         "pageId": "docs.legal.byo_hosting_addendum",
         "keyPath": "body",
         "en": "# BYO Hosting Addendum\n\n**Version:** 1.0 (draft)\n\nApplies to **Enterprise BYO** customers who operate their own ERP VM o"
-      },
-      {
-        "pageId": "www.sla",
-        "keyPath": "sla07_title",
-        "en": "7. Data Backup and Recovery"
       }
     ]
   },
@@ -7898,9 +7958,64 @@
         "en": "View billing"
       },
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "category_subscription_label",
+        "en": "Subscription & billing"
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "category_profile_p1_label",
+        "en": "Billing & legal"
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_profile_p1_complete",
+        "en": "Billing and legal details are complete."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "quickLink_billing_label",
+        "en": "Billing"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "subscriptionTitle",
+        "en": "Subscription & billing"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "billingTimelineTitle",
+        "en": "Billing timeline"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "labelBilling",
+        "en": "Billing"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "viewBillingDetails",
+        "en": "View billing details"
+      },
+      {
         "pageId": "account.onboarding.payment_success",
         "keyPath": "emailMissingHint",
         "en": "Enter your email on Stripe Checkout to receive Vouus billing email, or use Download receipt when available. Stripe may a"
+      },
+      {
+        "pageId": "account.profile.fields",
+        "keyPath": "billing_contact_email",
+        "en": "Billing contact email"
+      },
+      {
+        "pageId": "account.profile.fields",
+        "keyPath": "bannerTitle",
+        "en": "Complete your profile for faster support, billing, and provisioning"
+      },
+      {
+        "pageId": "account.profile.fields",
+        "keyPath": "bannerRecommendedPrefix",
+        "en": "Recommended for billing & contracts:"
       },
       {
         "pageId": "account.shell.billing",
@@ -7918,6 +8033,11 @@
         "en": "Network error while opening the billing portal."
       },
       {
+        "pageId": "account.shell.nav",
+        "keyPath": "billing",
+        "en": "Billing"
+      },
+      {
         "pageId": "app.invoices",
         "keyPath": "senderEmailPlaceholder",
         "en": "billing@yourcompany.com"
@@ -7926,66 +8046,6 @@
         "pageId": "app.invoices",
         "keyPath": "recipientAddress",
         "en": "Billing address"
-      },
-      {
-        "pageId": "app.invoices",
-        "keyPath": "recipientAddressPlaceholder",
-        "en": "Client billing address"
-      },
-      {
-        "pageId": "app.menu",
-        "keyPath": "billing",
-        "en": "Billing"
-      },
-      {
-        "pageId": "docs.legal.byo_hosting_addendum",
-        "keyPath": "body",
-        "en": "# BYO Hosting Addendum\n\n**Version:** 1.0 (draft)\n\nApplies to **Enterprise BYO** customers who operate their own ERP VM o"
-      },
-      {
-        "pageId": "docs.legal.privacy_policy",
-        "keyPath": "body",
-        "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — PRIV"
-      },
-      {
-        "pageId": "docs.legal.privacy_policy",
-        "keyPath": "body",
-        "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — PRIV"
-      },
-      {
-        "pageId": "email.billing_invoice_paid",
-        "keyPath": "subject",
-        "en": "Dynamic subject (billing-invoice-paid)"
-      },
-      {
-        "pageId": "email.billing_invoice_paid",
-        "keyPath": "billingPeriodLabel",
-        "en": "Billing period"
-      },
-      {
-        "pageId": "email.billing_invoice_paid",
-        "keyPath": "_sourceNote",
-        "en": "Extracted from billing-invoice-paid.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
-      },
-      {
-        "pageId": "email.billing_payment_success",
-        "keyPath": "subject",
-        "en": "Dynamic subject (billing-payment-success)"
-      },
-      {
-        "pageId": "email.billing_payment_success",
-        "keyPath": "_sourceNote",
-        "en": "Extracted from billing-payment-success.ts — full HTML/text managed in web-i18n locales; template code uses locale resolv"
-      },
-      {
-        "pageId": "email.tenant_admin_credentials",
-        "keyPath": "introTemplate",
-        "en": "Hello{adminName}, use this password to sign in to {serviceName} Account at account portal. Manage your company subscript"
-      },
-      {
-        "pageId": "www.contact",
-        "keyPath": "channels_1_description",
-        "en": "Email our team directly for questions about the platform, billing, or partnerships."
       }
     ]
   },
@@ -8833,6 +8893,11 @@
     "term": "business",
     "hits": [
       {
+        "pageId": "account.profile.fields",
+        "keyPath": "business_registration_number",
+        "en": "Business registration number"
+      },
+      {
         "pageId": "account.shell.backup",
         "keyPath": "layerBDisabled",
         "en": "Available on Business and Enterprise plans"
@@ -8926,11 +8991,6 @@
         "pageId": "www.home",
         "keyPath": "faq_3_q",
         "en": "How is our business data protected?"
-      },
-      {
-        "pageId": "www.pricing",
-        "keyPath": "plan_biz_name",
-        "en": "Business"
       }
     ]
   },
@@ -8951,6 +9011,11 @@
         "pageId": "account.auth.verify",
         "keyPath": "sendUncertainBanner",
         "en": "We could not confirm delivery, but a verification email may already be in your inbox. Enter the latest code below."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantBody",
+        "en": "You are signed in, but no workspace is linked to this account yet. If you already completed payment, request a sign-in c"
       },
       {
         "pageId": "account.onboarding.launch",
@@ -9183,6 +9248,11 @@
         "en": "We'll send a verification code to this address so you can finish creating your account."
       },
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantBody",
+        "en": "You are signed in, but no workspace is linked to this account yet. If you already completed payment, request a sign-in c"
+      },
+      {
         "pageId": "account.onboarding.launch",
         "keyPath": "minimalIntro",
         "en": "Your workspace is being prepared. You can close this tab — we will email you when everything is ready."
@@ -9266,11 +9336,6 @@
         "pageId": "www.pricing",
         "keyPath": "faq_1_a",
         "en": "You can move to a higher tier to add users, capacity, and support levels. We will help you right-size the plan as your u"
-      },
-      {
-        "pageId": "www.pricing",
-        "keyPath": "faq_3_q",
-        "en": "Can we start small and expand later?"
       }
     ]
   },
@@ -10468,6 +10533,11 @@
     "term": "checklist",
     "hits": [
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "viewChecklist",
+        "en": "View checklist"
+      },
+      {
         "pageId": "app.checklist",
         "keyPath": "title",
         "en": "Checklist"
@@ -10512,6 +10582,11 @@
   {
     "term": "checkout",
     "hits": [
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "subscriptionSyncPending",
+        "en": "Payment details may take a minute to sync from Stripe after checkout."
+      },
       {
         "pageId": "account.onboarding.payment_success",
         "keyPath": "emailMissingHint",
@@ -10601,6 +10676,11 @@
         "pageId": "account.billing.upgrade",
         "keyPath": "subtitle",
         "en": "Choose a higher plan for your workspace."
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_subscription_choose_plan",
+        "en": "Choose a plan to activate your workspace."
       },
       {
         "pageId": "account.onboarding.platform",
@@ -11273,6 +11353,11 @@
         "en": "We could not confirm delivery, but a verification email may already be in your inbox. Enter the latest code below."
       },
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantBody",
+        "en": "You are signed in, but no workspace is linked to this account yet. If you already completed payment, request a sign-in c"
+      },
+      {
         "pageId": "app.auth",
         "keyPath": "verifyEmailTitle",
         "en": "Enter the 6-digit verification code sent to your email"
@@ -11326,11 +11411,6 @@
         "pageId": "app.onboarding",
         "keyPath": "countryCodePlaceholder",
         "en": "Code"
-      },
-      {
-        "pageId": "app.onboarding",
-        "keyPath": "postalCode",
-        "en": "Postal Code"
       }
     ]
   },
@@ -11362,6 +11442,11 @@
   {
     "term": "collapse",
     "hits": [
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "collapse",
+        "en": "Collapse"
+      },
       {
         "pageId": "app.myAi",
         "keyPath": "whatQueryCollapse",
@@ -11858,6 +11943,16 @@
     "term": "company",
     "hits": [
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_workspace_setup_complete",
+        "en": "Company and platform selection are complete."
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_workspace_setup_incomplete",
+        "en": "Finish company details, platform selection, and launch."
+      },
+      {
         "pageId": "account.onboarding.company",
         "keyPath": "title",
         "en": "Company"
@@ -11913,6 +12008,11 @@
         "en": "Edit company"
       },
       {
+        "pageId": "account.profile.fields",
+        "keyPath": "company_name",
+        "en": "Company name"
+      },
+      {
         "pageId": "app.invoices",
         "keyPath": "senderDetails",
         "en": "Sender (your company)"
@@ -11941,21 +12041,6 @@
         "pageId": "app.myAi",
         "keyPath": "description",
         "en": "Get instant answers to company policies, procedures, and any work-related inquiries. I analyze your uploaded documents t"
-      },
-      {
-        "pageId": "app.myAi",
-        "keyPath": "inputPlaceholder",
-        "en": "Ask about company policies, procedures..."
-      },
-      {
-        "pageId": "app.onboarding",
-        "keyPath": "companyCheckLoading",
-        "en": "Checking company..."
-      },
-      {
-        "pageId": "app.onboarding",
-        "keyPath": "companyNotReadyMessage",
-        "en": "This company is not yet set up for onboarding. Please contact your administrator."
       }
     ]
   },
@@ -12073,6 +12158,56 @@
     "term": "complete",
     "hits": [
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "overallProgress",
+        "en": "Overall · {percent}% complete"
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "percentComplete",
+        "en": "{percent}% complete"
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "allSetBody",
+        "en": "Core account setup is complete."
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "actionComplete",
+        "en": "Complete"
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_workspace_setup_complete",
+        "en": "Company and platform selection are complete."
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_workspace_provisioning_launch",
+        "en": "Launch provisioning when setup is complete."
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_profile_p0_complete",
+        "en": "Required profile fields are complete."
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_profile_p1_complete",
+        "en": "Billing and legal details are complete."
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_profile_p1_p0_first",
+        "en": "Complete required profile first."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalDisabledSetup",
+        "en": "Complete workspace setup to open portals."
+      },
+      {
         "pageId": "account.onboarding.dashboard",
         "keyPath": "intro",
         "en": "Complete the following steps to set up your account and launch your server."
@@ -12081,6 +12216,11 @@
         "pageId": "account.onboarding.dashboard",
         "keyPath": "launchServerLocked",
         "en": "Complete Step 1 first"
+      },
+      {
+        "pageId": "account.profile.fields",
+        "keyPath": "bannerTitle",
+        "en": "Complete your profile for faster support, billing, and provisioning"
       },
       {
         "pageId": "app.moduleGuide",
@@ -12116,22 +12256,17 @@
         "pageId": "www.trial_manual-approval_complete",
         "keyPath": "path",
         "en": "/trial/manual-approval/complete"
-      },
-      {
-        "pageId": "www.trial_manual-approval_complete",
-        "keyPath": "meta_title",
-        "en": "Complete application"
-      },
-      {
-        "pageId": "www.trial_manual-approval_complete",
-        "keyPath": "meta_description",
-        "en": "Complete manual trial application."
       }
     ]
   },
   {
     "term": "completed",
     "hits": [
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantBody",
+        "en": "You are signed in, but no workspace is linked to this account yet. If you already completed payment, request a sign-in c"
+      },
       {
         "pageId": "account.onboarding.dashboard",
         "keyPath": "companySetupCompleted",
@@ -12182,6 +12317,16 @@
   {
     "term": "completes",
     "hits": [
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_team_unlock",
+        "en": "Unlocks when workspace setup completes."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalDisabledInProgress",
+        "en": "Provisioning in progress — portals unlock when setup completes."
+      },
       {
         "pageId": "account.onboarding.launch",
         "keyPath": "waitingVerifyIntro",
@@ -13178,6 +13323,21 @@
     "term": "contact",
     "hits": [
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_profile_p0_add_details",
+        "en": "Add contact details for support and provisioning."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantBody",
+        "en": "You are signed in, but no workspace is linked to this account yet. If you already completed payment, request a sign-in c"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalDisabledFailed",
+        "en": "Provisioning failed — contact support or continue setup."
+      },
+      {
         "pageId": "account.onboarding.dashboard",
         "keyPath": "contactSupport",
         "en": "Contact our support team"
@@ -13211,6 +13371,11 @@
         "pageId": "account.onboarding.platform",
         "keyPath": "optionNotAvailableNotice",
         "en": "This option is not available yet. Please select the Recommended option, or contact support for early access."
+      },
+      {
+        "pageId": "account.profile.fields",
+        "keyPath": "billing_contact_email",
+        "en": "Billing contact email"
       },
       {
         "pageId": "account.shell.backup",
@@ -13256,26 +13421,6 @@
         "pageId": "app.common",
         "keyPath": "erpExpenseClaimTypeAccount",
         "en": "Expense categories are not fully set up. Please contact your administrator."
-      },
-      {
-        "pageId": "app.common",
-        "keyPath": "erpLeaveTypeNotFound",
-        "en": "Leave types are not set up yet. Please contact your administrator."
-      },
-      {
-        "pageId": "app.invoices",
-        "keyPath": "senderEmail",
-        "en": "Contact email"
-      },
-      {
-        "pageId": "app.invoices",
-        "keyPath": "senderPhone",
-        "en": "Contact phone"
-      },
-      {
-        "pageId": "app.leaves",
-        "keyPath": "noLeaveAllocation",
-        "en": "No leave balance is assigned yet. Contact your HR administrator."
       }
     ]
   },
@@ -13448,6 +13593,21 @@
         "en": "Please enter the one-time code sent to your email to continue."
       },
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "actionContinue",
+        "en": "Continue"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantBody",
+        "en": "You are signed in, but no workspace is linked to this account yet. If you already completed payment, request a sign-in c"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalDisabledFailed",
+        "en": "Provisioning failed — contact support or continue setup."
+      },
+      {
         "pageId": "account.onboarding.company",
         "keyPath": "submit",
         "en": "Continue"
@@ -13516,21 +13676,6 @@
         "pageId": "email.trial_verify_reminder",
         "keyPath": "textHeader",
         "en": "Continue trial verification"
-      },
-      {
-        "pageId": "www.pricing",
-        "keyPath": "trial_link_suffix",
-        "en": "— verify your work email, then continue to onboarding."
-      },
-      {
-        "pageId": "www.pricing",
-        "keyPath": "faq_7_a",
-        "en": "Yes — start a 14-day Pro trial with your work email, then continue to onboarding."
-      },
-      {
-        "pageId": "www.trial",
-        "keyPath": "hero_subtitle",
-        "en": "Verify your work email to continue to sign up"
       }
     ]
   },
@@ -13606,6 +13751,21 @@
         "pageId": "docs.legal.byo_hosting_addendum",
         "keyPath": "body",
         "en": "# BYO Hosting Addendum\n\n**Version:** 1.0 (draft)\n\nApplies to **Enterprise BYO** customers who operate their own ERP VM o"
+      }
+    ]
+  },
+  {
+    "term": "contracts",
+    "hits": [
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_profile_p1_recommended",
+        "en": "Recommended for invoices and contracts."
+      },
+      {
+        "pageId": "account.profile.fields",
+        "keyPath": "bannerRecommendedPrefix",
+        "en": "Recommended for billing & contracts:"
       }
     ]
   },
@@ -14197,6 +14357,11 @@
   {
     "term": "core",
     "hits": [
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "allSetBody",
+        "en": "Core account setup is complete."
+      },
       {
         "pageId": "docs.legal.cookie_policy",
         "keyPath": "body",
@@ -14833,6 +14998,11 @@
     "term": "credentials",
     "hits": [
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalWorkAppDesc",
+        "en": "Sign in with your work email and Work password from the credentials email"
+      },
+      {
         "pageId": "account.onboarding.provision_email",
         "keyPath": "deskSent",
         "en": "Desk credentials email sent"
@@ -15167,6 +15337,11 @@
   {
     "term": "current",
     "hits": [
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "currentPlanTitle",
+        "en": "Current plan"
+      },
       {
         "pageId": "account.shell.backup",
         "keyPath": "recoveryScenarios_0_body",
@@ -15628,6 +15803,11 @@
         "en": "Dashboard"
       },
       {
+        "pageId": "account.shell.nav",
+        "keyPath": "dashboard",
+        "en": "Dashboard"
+      },
+      {
         "pageId": "app.menu",
         "keyPath": "dashboard",
         "en": "Dashboard"
@@ -15808,6 +15988,16 @@
     "term": "date",
     "hits": [
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "kpiStorageSnapshot",
+        "en": "Snapshot {date}"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "labelDate",
+        "en": "Date"
+      },
+      {
         "pageId": "account.onboarding.payment_success",
         "keyPath": "dateLabel",
         "en": "Date"
@@ -15896,16 +16086,6 @@
         "pageId": "docs.legal.privacy_policy",
         "keyPath": "body",
         "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — PRIV"
-      },
-      {
-        "pageId": "docs.legal.privacy_policy",
-        "keyPath": "body",
-        "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — PRIV"
-      },
-      {
-        "pageId": "docs.legal.service_level_agreement",
-        "keyPath": "body",
-        "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — SERV"
       }
     ]
   },
@@ -17098,6 +17278,31 @@
     "term": "desk",
     "hits": [
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_team_complete",
+        "en": "Team invited and Work Desk is available."
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_team_open_desk",
+        "en": "Open Work Desk to get started."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "kpiWorkDeskTitle",
+        "en": "Work Desk today"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "kpiWorkDeskSubtitle",
+        "en": "Desk sessions"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalWorkDeskTitle",
+        "en": "Work Desk"
+      },
+      {
         "pageId": "account.onboarding.provision_email",
         "keyPath": "deskLabel",
         "en": "Desk login details:"
@@ -17171,21 +17376,6 @@
         "pageId": "email.desk_credentials",
         "keyPath": "textHeader",
         "en": "Your Work Desk sign-in details"
-      },
-      {
-        "pageId": "email.desk_credentials",
-        "keyPath": "_sourceNote",
-        "en": "Extracted from desk-credentials.ts — full HTML/text managed in web-i18n locales; template code uses locale resolver."
-      },
-      {
-        "pageId": "email.employee_portal_invite",
-        "keyPath": "workDeskLabel",
-        "en": "Work Desk"
-      },
-      {
-        "pageId": "email.tenant_admin_credentials",
-        "keyPath": "separatePasswordNote",
-        "en": "This is not your Work Desk or Work App password. Those credentials were sent in a separate email."
       }
     ]
   },
@@ -17226,6 +17416,36 @@
         "pageId": "account.billing.upgrade_success",
         "keyPath": "bodyWithPlan",
         "en": "Your workspace is moving to {plan}. Subscription details may take a minute to sync from Stripe."
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "actionAddDetails",
+        "en": "Add details"
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_workspace_setup_incomplete",
+        "en": "Finish company details, platform selection, and launch."
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_profile_p0_add_details",
+        "en": "Add contact details for support and provisioning."
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_profile_p1_complete",
+        "en": "Billing and legal details are complete."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "subscriptionSyncPending",
+        "en": "Payment details may take a minute to sync from Stripe after checkout."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "viewBillingDetails",
+        "en": "View billing details"
       },
       {
         "pageId": "account.onboarding.launch",
@@ -17286,36 +17506,6 @@
         "pageId": "app.moduleGuide",
         "keyPath": "notices.howStep2",
         "en": "Use View details to open the related module when a link is available."
-      },
-      {
-        "pageId": "app.notices",
-        "keyPath": "viewDetails",
-        "en": "View details"
-      },
-      {
-        "pageId": "app.onboarding",
-        "keyPath": "affirmationText",
-        "en": "Final Review & Legal Submission Affirmation\n\nThe information you have entered will be registered as an official personne"
-      },
-      {
-        "pageId": "docs.legal.privacy_policy",
-        "keyPath": "body",
-        "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — PRIV"
-      },
-      {
-        "pageId": "docs.legal.privacy_policy",
-        "keyPath": "body",
-        "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — PRIV"
-      },
-      {
-        "pageId": "email.desk_credentials",
-        "keyPath": "headerTitle",
-        "en": "Your Work Desk sign-in details"
-      },
-      {
-        "pageId": "email.desk_credentials",
-        "keyPath": "textHeader",
-        "en": "Your Work Desk sign-in details"
       }
     ]
   },
@@ -17867,6 +18057,11 @@
   {
     "term": "disk",
     "hits": [
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "kpiStorageSubtitle",
+        "en": "Workspace disk usage"
+      },
       {
         "pageId": "account.shell.backup",
         "keyPath": "recoveryScenarios_1_title",
@@ -19423,6 +19618,26 @@
         "en": "We could not confirm delivery, but a verification email may already be in your inbox. Enter the latest code below."
       },
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "quotaEmail",
+        "en": "Email"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalWorkAppDesc",
+        "en": "Sign in with your work email and Work password from the credentials email"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalWorkAppDesc",
+        "en": "Sign in with your work email and Work password from the credentials email"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalWorkDeskDesc",
+        "en": "Frappe workspace — use your work email and Work password at the login page"
+      },
+      {
         "pageId": "account.onboarding.company",
         "keyPath": "includeAdminLabel",
         "en": "Also give me access to the employee portal using my admin email"
@@ -19451,26 +19666,6 @@
         "pageId": "account.onboarding.launch",
         "keyPath": "waitingSelfTestIntro",
         "en": "Your workspace is provisioned; we are running API self-tests and final gateway checks. You can close this tab — we will "
-      },
-      {
-        "pageId": "account.onboarding.payment_success",
-        "keyPath": "confirmationEmail",
-        "en": "A confirmation and invoice will be sent to {email} from Vouus. You may also receive a receipt from Stripe."
-      },
-      {
-        "pageId": "account.onboarding.payment_success",
-        "keyPath": "emailMissingHint",
-        "en": "Enter your email on Stripe Checkout to receive Vouus billing email, or use Download receipt when available. Stripe may a"
-      },
-      {
-        "pageId": "account.onboarding.payment_success",
-        "keyPath": "emailMissingHint",
-        "en": "Enter your email on Stripe Checkout to receive Vouus billing email, or use Download receipt when available. Stripe may a"
-      },
-      {
-        "pageId": "account.onboarding.payment_success",
-        "keyPath": "receiptEmailHint",
-        "en": "Receipt link will appear in your confirmation email if not shown here."
       }
     ]
   },
@@ -19537,6 +19732,26 @@
   {
     "term": "employee",
     "hits": [
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_team_invite",
+        "en": "Invite your first employee on the employee portal."
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_team_invite",
+        "en": "Invite your first employee on the employee portal."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "quickLink_users_desc",
+        "en": "Team & employee portal users"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "kpiSeatsTitle",
+        "en": "Employee portal users"
+      },
       {
         "pageId": "account.onboarding.company",
         "keyPath": "employeePortalSectionTitle",
@@ -19616,26 +19831,6 @@
         "pageId": "app.onboarding",
         "keyPath": "invitePortalUserIncompleteMessage",
         "en": "Your employee record is not ready. Contact your administrator."
-      },
-      {
-        "pageId": "docs.legal.privacy_policy",
-        "keyPath": "body",
-        "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — PRIV"
-      },
-      {
-        "pageId": "docs.legal.privacy_policy",
-        "keyPath": "body",
-        "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — PRIV"
-      },
-      {
-        "pageId": "email.employee_feedback",
-        "keyPath": "subject",
-        "en": "Dynamic subject (employee-feedback)"
-      },
-      {
-        "pageId": "email.employee_feedback",
-        "keyPath": "headerTitle",
-        "en": "Employee portal feedback"
       }
     ]
   },
@@ -20376,6 +20571,16 @@
         "pageId": "www.solutions_enterprise",
         "keyPath": "faq_2_a",
         "en": "The platform supports org-level role boundaries, regional approval chains, and consolidated reporting across entities fr"
+      }
+    ]
+  },
+  {
+    "term": "entity",
+    "hits": [
+      {
+        "pageId": "account.profile.fields",
+        "keyPath": "legal_entity_name",
+        "en": "Legal entity name"
       }
     ]
   },
@@ -22008,6 +22213,16 @@
     "term": "failed",
     "hits": [
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantBody",
+        "en": "You are signed in, but no workspace is linked to this account yet. If you already completed payment, request a sign-in c"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalDisabledFailed",
+        "en": "Provisioning failed — contact support or continue setup."
+      },
+      {
         "pageId": "account.integrations.xero_migration",
         "keyPath": "loadFailed",
         "en": "Load failed"
@@ -22096,16 +22311,6 @@
         "pageId": "app.myAi",
         "keyPath": "linkCopyFailed",
         "en": "Failed to copy link"
-      },
-      {
-        "pageId": "app.passcode",
-        "keyPath": "requestResetFailed",
-        "en": "Request failed. Please try again."
-      },
-      {
-        "pageId": "app.signin",
-        "keyPath": "errorSignInFailed",
-        "en": "Sign in failed"
       }
     ]
   },
@@ -22252,6 +22457,11 @@
   {
     "term": "faster",
     "hits": [
+      {
+        "pageId": "account.profile.fields",
+        "keyPath": "bannerTitle",
+        "en": "Complete your profile for faster support, billing, and provisioning"
+      },
       {
         "pageId": "account.shell.backup",
         "keyPath": "upsellLayerBTitle",
@@ -22698,6 +22908,11 @@
     "term": "fields",
     "hits": [
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_profile_p0_complete",
+        "en": "Required profile fields are complete."
+      },
+      {
         "pageId": "app.myAi",
         "keyPath": "templatesPageSubtitle",
         "en": "Browse by area and open the Prompt Wizard with fields pre-filled."
@@ -23083,6 +23298,11 @@
         "en": "We'll send a verification code to this address so you can finish creating your account."
       },
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_workspace_setup_incomplete",
+        "en": "Finish company details, platform selection, and launch."
+      },
+      {
         "pageId": "app.moduleGuide",
         "keyPath": "attendance.whatBody",
         "en": "Check in when you start work and check out when you finish. Your attendance history appears here automatically."
@@ -23142,6 +23362,16 @@
   {
     "term": "first",
     "hits": [
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_profile_p1_p0_first",
+        "en": "Complete required profile first."
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_team_invite",
+        "en": "Invite your first employee on the employee portal."
+      },
       {
         "pageId": "account.onboarding.company",
         "keyPath": "firstNamePlaceholder",
@@ -23231,16 +23461,6 @@
         "pageId": "app.onboarding",
         "keyPath": "firstName",
         "en": "First Name"
-      },
-      {
-        "pageId": "app.onboarding",
-        "keyPath": "firstNameEnglish",
-        "en": "First Name (English)"
-      },
-      {
-        "pageId": "app.onboarding",
-        "keyPath": "nameFormatFirstMiddleLast",
-        "en": "First / Middle / Last"
       }
     ]
   },
@@ -23787,6 +24007,11 @@
   {
     "term": "frappe",
     "hits": [
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalWorkDeskDesc",
+        "en": "Frappe workspace — use your work email and Work password at the login page"
+      },
       {
         "pageId": "account.shell.backup",
         "keyPath": "howItWorksLayers_0_body",
@@ -24643,6 +24868,11 @@
         "en": "Create your account to get started."
       },
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_team_open_desk",
+        "en": "Open Work Desk to get started."
+      },
+      {
         "pageId": "app.myAi",
         "keyPath": "description",
         "en": "Get instant answers to company policies, procedures, and any work-related inquiries. I analyze your uploaded documents t"
@@ -24726,11 +24956,6 @@
         "pageId": "www.solutions_use-cases",
         "keyPath": "faq_5_q",
         "en": "How do I get a demo?"
-      },
-      {
-        "pageId": "www.trial",
-        "keyPath": "meta_description",
-        "en": "Enter your work email to start a guided trial. Business domains get instant access; we will guide you through setup."
       }
     ]
   },
@@ -26613,6 +26838,11 @@
     "term": "hosting",
     "hits": [
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "quickLink_profile_desc",
+        "en": "Account, hosting & workspace access"
+      },
+      {
         "pageId": "account.shell.backup",
         "keyPath": "byoBannerTitle",
         "en": "Self-managed hosting"
@@ -28450,6 +28680,16 @@
     ]
   },
   {
+    "term": "ins",
+    "hits": [
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "kpiWorkAppSubtitle",
+        "en": "Unique sign-ins"
+      }
+    ]
+  },
+  {
     "term": "insert",
     "hits": [
       {
@@ -28592,6 +28832,11 @@
   {
     "term": "installation",
     "hits": [
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_workspace_provisioning_in_progress",
+        "en": "Resource installation is in progress."
+      },
       {
         "pageId": "account.onboarding.launch",
         "keyPath": "gracePeriodIntro",
@@ -28756,6 +29001,11 @@
         "pageId": "account.shell.integrations",
         "keyPath": "loadError",
         "en": "Failed to load integrations."
+      },
+      {
+        "pageId": "account.shell.nav",
+        "keyPath": "integrations",
+        "en": "Integrations"
       },
       {
         "pageId": "docs.legal.service_level_agreement",
@@ -29283,6 +29533,16 @@
     "term": "invite",
     "hits": [
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "actionInvite",
+        "en": "Invite"
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_team_invite",
+        "en": "Invite your first employee on the employee portal."
+      },
+      {
         "pageId": "account.onboarding.company",
         "keyPath": "removeInviteRowAria",
         "en": "Remove this invite row"
@@ -29342,6 +29602,11 @@
   {
     "term": "invited",
     "hits": [
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_team_complete",
+        "en": "Team invited and Work Desk is available."
+      },
       {
         "pageId": "email.employee_portal_invite",
         "keyPath": "introTemplate",
@@ -29507,6 +29772,16 @@
   {
     "term": "invoices",
     "hits": [
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_profile_p1_recommended",
+        "en": "Recommended for invoices and contracts."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "quickLink_billing_desc",
+        "en": "Subscription & invoices"
+      },
       {
         "pageId": "app.invoices",
         "keyPath": "title",
@@ -30593,6 +30868,11 @@
     "term": "last",
     "hits": [
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "labelLastPayment",
+        "en": "Last payment"
+      },
+      {
         "pageId": "account.onboarding.company",
         "keyPath": "lastNamePlaceholder",
         "en": "Last name"
@@ -30686,11 +30966,6 @@
         "pageId": "docs.legal.data_processing_agreement",
         "keyPath": "body",
         "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — DATA"
-      },
-      {
-        "pageId": "docs.legal.privacy_policy",
-        "keyPath": "body",
-        "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — PRIV"
       }
     ]
   },
@@ -30807,6 +31082,16 @@
   {
     "term": "launch",
     "hits": [
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_workspace_setup_incomplete",
+        "en": "Finish company details, platform selection, and launch."
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_workspace_provisioning_launch",
+        "en": "Launch provisioning when setup is complete."
+      },
       {
         "pageId": "account.onboarding.dashboard",
         "keyPath": "intro",
@@ -31313,9 +31598,24 @@
     "term": "legal",
     "hits": [
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "category_profile_p1_label",
+        "en": "Billing & legal"
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_profile_p1_complete",
+        "en": "Billing and legal details are complete."
+      },
+      {
         "pageId": "account.onboarding.company",
         "keyPath": "companyNameLabel",
         "en": "Company name (full legal name)"
+      },
+      {
+        "pageId": "account.profile.fields",
+        "keyPath": "legal_entity_name",
+        "en": "Legal entity name"
       },
       {
         "pageId": "app.onboarding",
@@ -31391,21 +31691,6 @@
         "pageId": "docs.legal.data_processing_agreement",
         "keyPath": "body",
         "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — DATA"
-      },
-      {
-        "pageId": "docs.legal.privacy_policy",
-        "keyPath": "body",
-        "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — PRIV"
-      },
-      {
-        "pageId": "docs.legal.privacy_policy",
-        "keyPath": "body",
-        "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — PRIV"
-      },
-      {
-        "pageId": "docs.legal.privacy_policy",
-        "keyPath": "body",
-        "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — PRIV"
       },
       {
         "pageId": "docs.legal.privacy_policy",
@@ -31903,6 +32188,11 @@
     "term": "linked",
     "hits": [
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantBody",
+        "en": "You are signed in, but no workspace is linked to this account yet. If you already completed payment, request a sign-in c"
+      },
+      {
         "pageId": "account.shell.backup",
         "keyPath": "noOrganizations",
         "en": "No organizations linked to your account."
@@ -31942,6 +32232,11 @@
   {
     "term": "links",
     "hits": [
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "quickLinksTitle",
+        "en": "Quick links"
+      },
       {
         "pageId": "account.onboarding.launch",
         "keyPath": "workspaceReadyBody",
@@ -32708,6 +33003,11 @@
     "term": "login",
     "hits": [
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalWorkDeskDesc",
+        "en": "Frappe workspace — use your work email and Work password at the login page"
+      },
+      {
         "pageId": "account.onboarding.provision_email",
         "keyPath": "deskLabel",
         "en": "Desk login details:"
@@ -33062,6 +33362,11 @@
   {
     "term": "mailing",
     "hits": [
+      {
+        "pageId": "account.shell.nav",
+        "keyPath": "mailing",
+        "en": "Mailing"
+      },
       {
         "pageId": "app.menu",
         "keyPath": "mailing",
@@ -34173,6 +34478,11 @@
         "en": "Your workspace is moving to {plan}. Subscription details may take a minute to sync from Stripe."
       },
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "subscriptionSyncPending",
+        "en": "Payment details may take a minute to sync from Stripe after checkout."
+      },
+      {
         "pageId": "account.onboarding.launch",
         "keyPath": "gracePeriodIntro",
         "en": "Your server was created. We are verifying installation status — this may take up to a minute."
@@ -34241,11 +34551,6 @@
         "pageId": "docs.legal.cookie_policy",
         "keyPath": "body",
         "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — COOK"
-      },
-      {
-        "pageId": "docs.legal.privacy_policy",
-        "keyPath": "body",
-        "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — PRIV"
       },
       {
         "pageId": "docs.legal.privacy_policy",
@@ -34503,6 +34808,11 @@
     "term": "message",
     "hits": [
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantBody",
+        "en": "You are signed in, but no workspace is linked to this account yet. If you already completed payment, request a sign-in c"
+      },
+      {
         "pageId": "app.invoices",
         "keyPath": "emailSendMessage",
         "en": "Message (optional)"
@@ -34586,6 +34896,21 @@
         "pageId": "docs.legal.service_level_agreement",
         "keyPath": "body",
         "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — SERV"
+      }
+    ]
+  },
+  {
+    "term": "metering",
+    "hits": [
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "quickLink_usage_desc",
+        "en": "Quotas & metering"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "meteringPending",
+        "en": "Metering rollout pending"
       }
     ]
   },
@@ -34843,6 +35168,11 @@
         "en": "Your workspace is moving to {plan}. Subscription details may take a minute to sync from Stripe."
       },
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "subscriptionSyncPending",
+        "en": "Payment details may take a minute to sync from Stripe after checkout."
+      },
+      {
         "pageId": "account.onboarding.launch",
         "keyPath": "waitingVerifyIntro",
         "en": "Provisioning finished; we are verifying DNS, secure tunnel connectivity, gateways, and final handoff. This usually compl"
@@ -34995,6 +35325,16 @@
     ]
   },
   {
+    "term": "missing",
+    "hits": [
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "missingPrefix",
+        "en": "Missing:"
+      }
+    ]
+  },
+  {
     "term": "mission",
     "hits": [
       {
@@ -35087,6 +35427,11 @@
   {
     "term": "mobile",
     "hits": [
+      {
+        "pageId": "account.profile.fields",
+        "keyPath": "user_phone",
+        "en": "Your mobile phone"
+      },
       {
         "pageId": "app.onboarding",
         "keyPath": "personalMobile",
@@ -36148,6 +36493,21 @@
         "en": "Company name"
       },
       {
+        "pageId": "account.profile.fields",
+        "keyPath": "company_name",
+        "en": "Company name"
+      },
+      {
+        "pageId": "account.profile.fields",
+        "keyPath": "admin_name",
+        "en": "Administrator name"
+      },
+      {
+        "pageId": "account.profile.fields",
+        "keyPath": "legal_entity_name",
+        "en": "Legal entity name"
+      },
+      {
         "pageId": "account.shell.backup",
         "keyPath": "contactSupportHint",
         "en": "Include your organization name and desired recovery point when requesting restore."
@@ -36181,21 +36541,6 @@
         "pageId": "app.invoices",
         "keyPath": "bankDetailsPlaceholder",
         "en": "Bank name, account name, account number, SWIFT/BIC"
-      },
-      {
-        "pageId": "app.invoices",
-        "keyPath": "bankDetailsPlaceholder",
-        "en": "Bank name, account name, account number, SWIFT/BIC"
-      },
-      {
-        "pageId": "app.invoices",
-        "keyPath": "clientName",
-        "en": "Client name"
-      },
-      {
-        "pageId": "app.invoices",
-        "keyPath": "clientNamePlaceholder",
-        "en": "Client name"
       }
     ]
   },
@@ -36487,6 +36832,11 @@
   {
     "term": "needs",
     "hits": [
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_workspace_provisioning_blocked",
+        "en": "Server setup needs attention."
+      },
       {
         "pageId": "account.integrations.xero_migration",
         "keyPath": "reconcileNeedsReview",
@@ -36793,6 +37143,16 @@
     "term": "no",
     "hits": [
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantBody",
+        "en": "You are signed in, but no workspace is linked to this account yet. If you already completed payment, request a sign-in c"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noPaymentsYet",
+        "en": "No payments recorded yet for this account."
+      },
+      {
         "pageId": "account.onboarding.provision_email",
         "keyPath": "deskTierNote",
         "en": "(Managed Tier 0: use your admin email for Work Desk — no ERP super-user password in email. Open Work Desk from the dashb"
@@ -36881,16 +37241,6 @@
         "pageId": "app.myAi",
         "keyPath": "noFilesYet",
         "en": "No files uploaded yet."
-      },
-      {
-        "pageId": "app.myAi",
-        "keyPath": "noExecutions",
-        "en": "No executions yet"
-      },
-      {
-        "pageId": "app.myAi",
-        "keyPath": "hubEmptyAutopilotThreads",
-        "en": "No autopilot conversations yet."
       }
     ]
   },
@@ -37272,6 +37622,11 @@
   {
     "term": "number",
     "hits": [
+      {
+        "pageId": "account.profile.fields",
+        "keyPath": "business_registration_number",
+        "en": "Business registration number"
+      },
       {
         "pageId": "app.expenses",
         "keyPath": "numberOfGuests",
@@ -37848,6 +38203,11 @@
     "term": "once",
     "hits": [
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantBody",
+        "en": "You are signed in, but no workspace is linked to this account yet. If you already completed payment, request a sign-in c"
+      },
+      {
         "pageId": "account.onboarding.launch",
         "keyPath": "workspaceReadyBody",
         "en": "Please feel free to activate your tenant on your subdomain at your earliest convenience. Once the setup is confirmed, we"
@@ -38083,6 +38443,26 @@
     "term": "open",
     "hits": [
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "actionOpen",
+        "en": "Open"
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_team_open_desk",
+        "en": "Open Work Desk to get started."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalOpen",
+        "en": "Open"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalDisabledSetup",
+        "en": "Complete workspace setup to open portals."
+      },
+      {
         "pageId": "account.onboarding.launch",
         "keyPath": "awaitingServerIntro",
         "en": "Your server is booting and connecting to our platform. This usually takes a few minutes — please keep this tab open."
@@ -38161,26 +38541,6 @@
         "pageId": "app.myAi",
         "keyPath": "promptGeneratorToggleOpenAria",
         "en": "Open Prompt Generator"
-      },
-      {
-        "pageId": "app.myAi",
-        "keyPath": "openInNewTab",
-        "en": "Open in new tab"
-      },
-      {
-        "pageId": "app.myAi",
-        "keyPath": "openPilotDashboard",
-        "en": "Open dashboard"
-      },
-      {
-        "pageId": "app.profile",
-        "keyPath": "openWorkDesk",
-        "en": "Open Work Desk"
-      },
-      {
-        "pageId": "app.profile",
-        "keyPath": "openInCrm",
-        "en": "Open CRM"
       }
     ]
   },
@@ -39288,6 +39648,16 @@
     "term": "overall",
     "hits": [
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "overallProgress",
+        "en": "Overall · {percent}% complete"
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "overallProgressAria",
+        "en": "Overall account setup progress"
+      },
+      {
         "pageId": "app.moduleGuide",
         "keyPath": "checklist.howStep3",
         "en": "Track overall progress on the overview bar."
@@ -39493,6 +39863,11 @@
     "term": "page",
     "hits": [
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalWorkDeskDesc",
+        "en": "Frappe workspace — use your work email and Work password at the login page"
+      },
+      {
         "pageId": "account.onboarding.company",
         "keyPath": "adminEmailNotLoaded",
         "en": "We couldn't load your admin email yet. Refresh the page, or sign out and sign in again."
@@ -39584,11 +39959,6 @@
       },
       {
         "pageId": "www.product_leave",
-        "keyPath": "faq_4_a",
-        "en": "Use the Pricing page for tiers; Enterprise adds SLA, scale, and governance options."
-      },
-      {
-        "pageId": "www.product_overview",
         "keyPath": "faq_4_a",
         "en": "Use the Pricing page for tiers; Enterprise adds SLA, scale, and governance options."
       }
@@ -40053,6 +40423,16 @@
         "en": "Password"
       },
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalWorkAppDesc",
+        "en": "Sign in with your work email and Work password from the credentials email"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalWorkDeskDesc",
+        "en": "Frappe workspace — use your work email and Work password at the login page"
+      },
+      {
         "pageId": "account.onboarding.provision_email",
         "keyPath": "deskTierNote",
         "en": "(Managed Tier 0: use your admin email for Work Desk — no ERP super-user password in email. Open Work Desk from the dashb"
@@ -40121,16 +40501,6 @@
         "pageId": "email.employee_portal_invite",
         "keyPath": "passwordLabel",
         "en": "Temporary password"
-      },
-      {
-        "pageId": "email.portal_password_reset",
-        "keyPath": "subject",
-        "en": "portal-password-reset email"
-      },
-      {
-        "pageId": "email.portal_password_reset",
-        "keyPath": "headerTitle",
-        "en": "Reset your service administrator password"
       }
     ]
   },
@@ -40418,6 +40788,21 @@
         "en": "Payment successful"
       },
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantBody",
+        "en": "You are signed in, but no workspace is linked to this account yet. If you already completed payment, request a sign-in c"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "subscriptionSyncPending",
+        "en": "Payment details may take a minute to sync from Stripe after checkout."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "labelLastPayment",
+        "en": "Last payment"
+      },
+      {
         "pageId": "account.onboarding.payment_success",
         "keyPath": "title",
         "en": "Payment Successful!"
@@ -40491,27 +40876,17 @@
         "pageId": "app.invoices",
         "keyPath": "paymentPageLinkTitle",
         "en": "Payment page link"
-      },
-      {
-        "pageId": "app.invoices",
-        "keyPath": "paymentPageSaveRequired",
-        "en": "Save the invoice to generate a payment link."
-      },
-      {
-        "pageId": "app.invoices",
-        "keyPath": "paymentPageLoading",
-        "en": "Preparing payment page…"
-      },
-      {
-        "pageId": "app.invoices",
-        "keyPath": "paymentPageCreateError",
-        "en": "Failed to create payment page"
       }
     ]
   },
   {
     "term": "payments",
     "hits": [
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noPaymentsYet",
+        "en": "No payments recorded yet for this account."
+      },
       {
         "pageId": "docs.legal.privacy_policy",
         "keyPath": "body",
@@ -40823,6 +41198,11 @@
     "term": "pending",
     "hits": [
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "meteringPending",
+        "en": "Metering rollout pending"
+      },
+      {
         "pageId": "account.onboarding.provision_email",
         "keyPath": "pending",
         "en": "Pending"
@@ -41026,6 +41406,21 @@
         "pageId": "www.solutions_enterprise",
         "keyPath": "sections_1_body",
         "en": "Roll-up dashboards per org and region on one spine."
+      }
+    ]
+  },
+  {
+    "term": "percent",
+    "hits": [
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "overallProgress",
+        "en": "Overall · {percent}% complete"
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "percentComplete",
+        "en": "{percent}% complete"
       }
     ]
   },
@@ -41248,6 +41643,11 @@
     "term": "persists",
     "hits": [
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantBody",
+        "en": "You are signed in, but no workspace is linked to this account yet. If you already completed payment, request a sign-in c"
+      },
+      {
         "pageId": "account.shell.backup",
         "keyPath": "rpoStatusHint_breach",
         "en": "Backups are significantly overdue. Contact Support if this persists."
@@ -41467,6 +41867,16 @@
   {
     "term": "phone",
     "hits": [
+      {
+        "pageId": "account.profile.fields",
+        "keyPath": "admin_phone",
+        "en": "Administrator phone"
+      },
+      {
+        "pageId": "account.profile.fields",
+        "keyPath": "user_phone",
+        "en": "Your mobile phone"
+      },
       {
         "pageId": "app.invoices",
         "keyPath": "senderPhone",
@@ -41773,6 +42183,31 @@
         "en": "Your workspace is moving to {plan}. Subscription details may take a minute to sync from Stripe."
       },
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_subscription_active",
+        "en": "Your plan is active."
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_subscription_choose_plan",
+        "en": "Choose a plan to activate your workspace."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "kpiSeatsSubtitle",
+        "en": "Users on your plan"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "currentPlanTitle",
+        "en": "Current plan"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "labelPlan",
+        "en": "Plan"
+      },
+      {
         "pageId": "account.onboarding.payment_success",
         "keyPath": "planLabel",
         "en": "Plan"
@@ -41831,31 +42266,6 @@
         "pageId": "email.trial_day_7",
         "keyPath": "ctaLabel",
         "en": "Choose your plan"
-      },
-      {
-        "pageId": "email.trial_start",
-        "keyPath": "ctaLabel",
-        "en": "Choose a plan"
-      },
-      {
-        "pageId": "email.trial_start",
-        "keyPath": "textBody",
-        "en": "Hi {name},\n\nYour 14-day Professional trial is now live{expirySuffix}.\n\nChoose a plan: {upgradeUrl}\n\nThe {serviceName} Te"
-      },
-      {
-        "pageId": "email.welcome",
-        "keyPath": "bodyIntro",
-        "en": "Your {company_name} subscription to {package_name} plan is now active."
-      },
-      {
-        "pageId": "www.contact",
-        "keyPath": "channels_0_description",
-        "en": "Discuss pricing, migration support, or a custom Enterprise plan."
-      },
-      {
-        "pageId": "www.contact",
-        "keyPath": "faq_0_a",
-        "en": "Sales enquiries are typically responded to within one business day. For existing customers, support response times depen"
       }
     ]
   },
@@ -42063,6 +42473,16 @@
     "term": "platform",
     "hits": [
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_workspace_setup_complete",
+        "en": "Company and platform selection are complete."
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_workspace_setup_incomplete",
+        "en": "Finish company details, platform selection, and launch."
+      },
+      {
         "pageId": "account.onboarding.launch",
         "keyPath": "awaitingServerIntro",
         "en": "Your server is booting and connecting to our platform. This usually takes a few minutes — please keep this tab open."
@@ -42136,16 +42556,6 @@
         "pageId": "docs.legal.data_processing_agreement",
         "keyPath": "body",
         "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — DATA"
-      },
-      {
-        "pageId": "docs.legal.privacy_policy",
-        "keyPath": "body",
-        "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — PRIV"
-      },
-      {
-        "pageId": "docs.legal.privacy_policy",
-        "keyPath": "body",
-        "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — PRIV"
       },
       {
         "pageId": "docs.legal.privacy_policy",
@@ -42428,6 +42838,26 @@
     "term": "portal",
     "hits": [
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_team_invite",
+        "en": "Invite your first employee on the employee portal."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "quickLink_users_desc",
+        "en": "Team & employee portal users"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "kpiSeatsTitle",
+        "en": "Employee portal users"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalsTitle",
+        "en": "Portal access"
+      },
+      {
         "pageId": "account.onboarding.company",
         "keyPath": "employeePortalSectionTitle",
         "en": "Employee portal"
@@ -42506,32 +42936,22 @@
         "pageId": "docs.legal.byo_hosting_addendum",
         "keyPath": "body",
         "en": "# BYO Hosting Addendum\n\n**Version:** 1.0 (draft)\n\nApplies to **Enterprise BYO** customers who operate their own ERP VM o"
-      },
-      {
-        "pageId": "docs.legal.byo_hosting_addendum",
-        "keyPath": "body",
-        "en": "# BYO Hosting Addendum\n\n**Version:** 1.0 (draft)\n\nApplies to **Enterprise BYO** customers who operate their own ERP VM o"
-      },
-      {
-        "pageId": "email.billing_payment_success",
-        "keyPath": "continueOnboardingLinkLabel",
-        "en": "admin portal"
-      },
-      {
-        "pageId": "email.desk_credentials",
-        "keyPath": "accountPortalLabel",
-        "en": "Account portal"
-      },
-      {
-        "pageId": "email.employee_feedback",
-        "keyPath": "headerTitle",
-        "en": "Employee portal feedback"
       }
     ]
   },
   {
     "term": "portals",
     "hits": [
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalDisabledInProgress",
+        "en": "Provisioning in progress — portals unlock when setup completes."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalDisabledSetup",
+        "en": "Complete workspace setup to open portals."
+      },
       {
         "pageId": "account.shell.dashboard",
         "keyPath": "subtitleSignedIn",
@@ -44028,6 +44448,36 @@
     "term": "profile",
     "hits": [
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "category_profile_p0_label",
+        "en": "Profile (required)"
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_profile_p0_complete",
+        "en": "Required profile fields are complete."
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_profile_p1_p0_first",
+        "en": "Complete required profile first."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "quickLink_profile_label",
+        "en": "Profile"
+      },
+      {
+        "pageId": "account.profile.fields",
+        "keyPath": "bannerTitle",
+        "en": "Complete your profile for faster support, billing, and provisioning"
+      },
+      {
+        "pageId": "account.shell.nav",
+        "keyPath": "profile",
+        "en": "Profile"
+      },
+      {
         "pageId": "account.shell.profile",
         "keyPath": "title",
         "en": "Profile"
@@ -44072,6 +44522,21 @@
   {
     "term": "progress",
     "hits": [
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "overallProgressAria",
+        "en": "Overall account setup progress"
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_workspace_provisioning_in_progress",
+        "en": "Resource installation is in progress."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalDisabledInProgress",
+        "en": "Provisioning in progress — portals unlock when setup completes."
+      },
       {
         "pageId": "account.onboarding.launch",
         "keyPath": "titleProgress",
@@ -44778,6 +45243,36 @@
     "term": "provisioning",
     "hits": [
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "category_workspace_provisioning_label",
+        "en": "Workspace provisioning"
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_workspace_provisioning_launch",
+        "en": "Launch provisioning when setup is complete."
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_profile_p0_add_details",
+        "en": "Add contact details for support and provisioning."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantBody",
+        "en": "You are signed in, but no workspace is linked to this account yet. If you already completed payment, request a sign-in c"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalDisabledFailed",
+        "en": "Provisioning failed — contact support or continue setup."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalDisabledInProgress",
+        "en": "Provisioning in progress — portals unlock when setup completes."
+      },
+      {
         "pageId": "account.onboarding.launch",
         "keyPath": "fetchingStatus",
         "en": "Fetching live provisioning status…"
@@ -44801,6 +45296,11 @@
         "pageId": "account.onboarding.review",
         "keyPath": "intro",
         "en": "Check your company details before we create your workspace and start provisioning."
+      },
+      {
+        "pageId": "account.profile.fields",
+        "keyPath": "bannerTitle",
+        "en": "Complete your profile for faster support, billing, and provisioning"
       },
       {
         "pageId": "account.shell.users",
@@ -45408,6 +45908,11 @@
     "term": "quick",
     "hits": [
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "quickLinksTitle",
+        "en": "Quick links"
+      },
+      {
         "pageId": "www.contact",
         "keyPath": "faqTitle",
         "en": "Quick answers"
@@ -45452,6 +45957,16 @@
   {
     "term": "quotas",
     "hits": [
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "quickLink_usage_desc",
+        "en": "Quotas & metering"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "usageQuotasTitle",
+        "en": "Service quotas"
+      },
       {
         "pageId": "account.shell.usage",
         "keyPath": "subtitle",
@@ -45618,6 +46133,11 @@
     "term": "re",
     "hits": [
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "allSetTitle",
+        "en": "You're all set"
+      },
+      {
         "pageId": "app.notices",
         "keyPath": "allCaughtUp",
         "en": "You're all caught up!"
@@ -45752,6 +46272,11 @@
   {
     "term": "ready",
     "hits": [
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_workspace_provisioning_ready",
+        "en": "Your workspace is ready."
+      },
       {
         "pageId": "account.onboarding.launch",
         "keyPath": "minimalIntro",
@@ -46298,6 +46823,16 @@
     "term": "recommended",
     "hits": [
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "recommended",
+        "en": "Recommended"
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_profile_p1_recommended",
+        "en": "Recommended for invoices and contracts."
+      },
+      {
         "pageId": "account.onboarding.platform",
         "keyPath": "recommendedSetupLabel",
         "en": "Recommended setup:"
@@ -46311,6 +46846,11 @@
         "pageId": "account.onboarding.platform",
         "keyPath": "badgeRecommended",
         "en": "Recommended"
+      },
+      {
+        "pageId": "account.profile.fields",
+        "keyPath": "bannerRecommendedPrefix",
+        "en": "Recommended for billing & contracts:"
       },
       {
         "pageId": "docs.legal.cookie_policy",
@@ -46451,6 +46991,16 @@
         "pageId": "www.product_workflow-builder",
         "keyPath": "sections_1_body",
         "en": "The canvas is the system of record across modules."
+      }
+    ]
+  },
+  {
+    "term": "recorded",
+    "hits": [
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noPaymentsYet",
+        "en": "No payments recorded yet for this account."
       }
     ]
   },
@@ -46858,6 +47408,11 @@
     "term": "region",
     "hits": [
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "labelRegion",
+        "en": "Region"
+      },
+      {
         "pageId": "docs.legal.privacy_policy",
         "keyPath": "body",
         "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — PRIV"
@@ -46928,6 +47483,11 @@
         "en": "Please feel free to activate your tenant on your subdomain at your earliest convenience. Once the setup is confirmed, we"
       },
       {
+        "pageId": "account.profile.fields",
+        "keyPath": "registered_address",
+        "en": "Registered address"
+      },
+      {
         "pageId": "app.onboarding",
         "keyPath": "affirmationText",
         "en": "Final Review & Legal Submission Affirmation\n\nThe information you have entered will be registered as an official personne"
@@ -46967,6 +47527,11 @@
   {
     "term": "registration",
     "hits": [
+      {
+        "pageId": "account.profile.fields",
+        "keyPath": "business_registration_number",
+        "en": "Business registration number"
+      },
       {
         "pageId": "docs.legal.privacy_policy",
         "keyPath": "body",
@@ -47883,6 +48448,11 @@
     "term": "request",
     "hits": [
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantBody",
+        "en": "You are signed in, but no workspace is linked to this account yet. If you already completed payment, request a sign-in c"
+      },
+      {
         "pageId": "app.leaves",
         "keyPath": "submitRequest",
         "en": "Submit request"
@@ -47971,11 +48541,6 @@
         "pageId": "docs.legal.cookie_policy",
         "keyPath": "body",
         "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — COOK"
-      },
-      {
-        "pageId": "docs.legal.service_level_agreement",
-        "keyPath": "body",
-        "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — SERV"
       },
       {
         "pageId": "docs.legal.service_level_agreement",
@@ -48112,6 +48677,26 @@
   {
     "term": "required",
     "hits": [
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "category_profile_p0_label",
+        "en": "Profile (required)"
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_profile_p0_complete",
+        "en": "Required profile fields are complete."
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_profile_p1_p0_first",
+        "en": "Complete required profile first."
+      },
+      {
+        "pageId": "account.profile.fields",
+        "keyPath": "bannerRequiredPrefix",
+        "en": "Required:"
+      },
       {
         "pageId": "app.auth",
         "keyPath": "emailRequired",
@@ -48532,6 +49117,11 @@
   {
     "term": "resource",
     "hits": [
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_workspace_provisioning_in_progress",
+        "en": "Resource installation is in progress."
+      },
       {
         "pageId": "app.common",
         "keyPath": "notFoundDescription",
@@ -49542,6 +50132,11 @@
   {
     "term": "rollout",
     "hits": [
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "meteringPending",
+        "en": "Metering rollout pending"
+      },
       {
         "pageId": "www.shell",
         "keyPath": "mega_2_item_4_description",
@@ -51423,6 +52018,16 @@
     "term": "selection",
     "hits": [
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_workspace_setup_complete",
+        "en": "Company and platform selection are complete."
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_workspace_setup_incomplete",
+        "en": "Finish company details, platform selection, and launch."
+      },
+      {
         "pageId": "app.myAi",
         "keyPath": "autopilotActionUnlink",
         "en": "Remove saved selection"
@@ -51773,6 +52378,11 @@
         "en": "Your dedicated server and data stay in place when you move to a higher plan."
       },
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_workspace_provisioning_blocked",
+        "en": "Server setup needs attention."
+      },
+      {
         "pageId": "account.onboarding.dashboard",
         "keyPath": "intro",
         "en": "Complete the following steps to set up your account and launch your server."
@@ -51861,11 +52471,6 @@
         "pageId": "email.trial_last_chance",
         "keyPath": "textBody",
         "en": "Hi {name},\n\nYour trial ended 3 days ago. Server will be powered off in 4 days. Upgrade now: {upgradeUrl}\n\nThe {serviceNa"
-      },
-      {
-        "pageId": "www.solutions_enterprise",
-        "keyPath": "faq_0_a",
-        "en": "Enterprise plans get an isolated server, dedicated database and Redis, custom domain, SLA-backed uptime, and a dedicated"
       }
     ]
   },
@@ -51891,6 +52496,16 @@
         "pageId": "account.auth.signin",
         "keyPath": "descriptionPortalPassword",
         "en": "Enter your email. We will send a verification code, then you can create your service administrator password."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "kpiHeading",
+        "en": "Service statistics"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "usageQuotasTitle",
+        "en": "Service quotas"
       },
       {
         "pageId": "account.shell.usage",
@@ -51971,16 +52586,6 @@
         "pageId": "docs.legal.data_processing_agreement",
         "keyPath": "body",
         "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — DATA"
-      },
-      {
-        "pageId": "docs.legal.data_processing_agreement",
-        "keyPath": "body",
-        "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — DATA"
-      },
-      {
-        "pageId": "docs.legal.privacy_policy",
-        "keyPath": "body",
-        "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — PRIV"
       }
     ]
   },
@@ -52230,12 +52835,27 @@
     ]
   },
   {
+    "term": "sessions",
+    "hits": [
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "kpiWorkDeskSubtitle",
+        "en": "Desk sessions"
+      }
+    ]
+  },
+  {
     "term": "set",
     "hits": [
       {
         "pageId": "account.auth.signin",
         "keyPath": "titlePortalPasswordSetup",
         "en": "Set up service administrator password"
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "allSetTitle",
+        "en": "You're all set"
       },
       {
         "pageId": "account.onboarding.dashboard",
@@ -52403,6 +53023,66 @@
     "term": "setup",
     "hits": [
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "title",
+        "en": "Account setup"
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "overallProgressAria",
+        "en": "Overall account setup progress"
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "allSetBody",
+        "en": "Core account setup is complete."
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "category_workspace_setup_label",
+        "en": "Workspace setup"
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_workspace_provisioning_blocked",
+        "en": "Server setup needs attention."
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_workspace_provisioning_launch",
+        "en": "Launch provisioning when setup is complete."
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_team_unlock",
+        "en": "Unlocks when workspace setup completes."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantTitle",
+        "en": "Account setup status"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantBody",
+        "en": "You are signed in, but no workspace is linked to this account yet. If you already completed payment, request a sign-in c"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalDisabledFailed",
+        "en": "Provisioning failed — contact support or continue setup."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalDisabledInProgress",
+        "en": "Provisioning in progress — portals unlock when setup completes."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalDisabledSetup",
+        "en": "Complete workspace setup to open portals."
+      },
+      {
         "pageId": "account.onboarding.dashboard",
         "keyPath": "companySetupTitle",
         "en": "Company Setup"
@@ -52441,26 +53121,6 @@
         "pageId": "email.trial_manual_approved",
         "keyPath": "ctaLabel",
         "en": "Continue to account setup"
-      },
-      {
-        "pageId": "email.trial_manual_receipt",
-        "keyPath": "stepApproval",
-        "en": "Approval: If approved, you receive an account setup link at your work email."
-      },
-      {
-        "pageId": "www.contact",
-        "keyPath": "faq_2_a",
-        "en": "Reach out via the Sales channel above. Our team will assess your current setup and guide you through the migration proce"
-      },
-      {
-        "pageId": "www.shell",
-        "keyPath": "mega_1_item_1_description",
-        "en": "Fast setup and essentials"
-      },
-      {
-        "pageId": "www.trial",
-        "keyPath": "meta_description",
-        "en": "Enter your work email to start a guided trial. Business domains get instant access; we will guide you through setup."
       }
     ]
   },
@@ -52873,6 +53533,21 @@
         "en": "Sign up"
       },
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantBody",
+        "en": "You are signed in, but no workspace is linked to this account yet. If you already completed payment, request a sign-in c"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "kpiWorkAppSubtitle",
+        "en": "Unique sign-ins"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalWorkAppDesc",
+        "en": "Sign in with your work email and Work password from the credentials email"
+      },
+      {
         "pageId": "account.onboarding.company",
         "keyPath": "adminEmailNotLoaded",
         "en": "We couldn't load your admin email yet. Refresh the page, or sign out and sign in again."
@@ -52891,6 +53566,11 @@
         "pageId": "account.onboarding.provision_email",
         "keyPath": "deskTierNote",
         "en": "(Managed Tier 0: use your admin email for Work Desk — no ERP super-user password in email. Open Work Desk from the dashb"
+      },
+      {
+        "pageId": "account.shell.nav",
+        "keyPath": "signUp",
+        "en": "Sign up"
       },
       {
         "pageId": "account.shell.users",
@@ -52921,32 +53601,17 @@
         "pageId": "app.passcode",
         "keyPath": "resetExpiryNotice",
         "en": "This link expires in 15 minutes. If it has expired, request a new reset link from the sign-in page."
-      },
-      {
-        "pageId": "app.profile",
-        "keyPath": "signOut",
-        "en": "Sign out"
-      },
-      {
-        "pageId": "app.profile",
-        "keyPath": "loadError",
-        "en": "Could not load profile data. Sign in again or try later."
-      },
-      {
-        "pageId": "app.profile",
-        "keyPath": "emailChangeSuccess",
-        "en": "Email updated. Sign in again if needed."
-      },
-      {
-        "pageId": "app.signin",
-        "keyPath": "signUp",
-        "en": "Sign Up"
       }
     ]
   },
   {
     "term": "signed",
     "hits": [
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantBody",
+        "en": "You are signed in, but no workspace is linked to this account yet. If you already completed payment, request a sign-in c"
+      },
       {
         "pageId": "account.onboarding.dashboard",
         "keyPath": "signedInAs",
@@ -53763,6 +54428,11 @@
     "term": "snapshot",
     "hits": [
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "kpiStorageSnapshot",
+        "en": "Snapshot {date}"
+      },
+      {
         "pageId": "account.shell.backup",
         "keyPath": "lastSnapshotLabel",
         "en": "Last VM snapshot"
@@ -53816,6 +54486,11 @@
         "pageId": "account.auth.signup",
         "keyPath": "introEmailLocked",
         "en": "We'll send a verification code to this address so you can finish creating your account."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantBody",
+        "en": "You are signed in, but no workspace is linked to this account yet. If you already completed payment, request a sign-in c"
       },
       {
         "pageId": "account.onboarding.launch",
@@ -54758,6 +55433,11 @@
         "en": "Create your account to get started."
       },
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_team_open_desk",
+        "en": "Open Work Desk to get started."
+      },
+      {
         "pageId": "app.myAi",
         "keyPath": "reindexStarted",
         "en": "Reindexing started"
@@ -54893,6 +55573,11 @@
     "term": "statistics",
     "hits": [
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "kpiHeading",
+        "en": "Service statistics"
+      },
+      {
         "pageId": "www.cookie-policy",
         "keyPath": "c03_p2",
         "en": "Analytics cookies — used to understand platform usage (page statistics, performance)."
@@ -54907,6 +55592,21 @@
   {
     "term": "status",
     "hits": [
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "actionViewStatus",
+        "en": "View status"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantTitle",
+        "en": "Account setup status"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "labelStatus",
+        "en": "Status"
+      },
       {
         "pageId": "account.integrations.xero_migration",
         "keyPath": "subtitleLoading",
@@ -54991,21 +55691,6 @@
         "pageId": "app.myAi",
         "keyPath": "hrPilotDesc",
         "en": "Monitor attendance and leave status"
-      },
-      {
-        "pageId": "www.home",
-        "keyPath": "problem_0_tagline",
-        "en": "Hand-offs stall when status lives in DMs."
-      },
-      {
-        "pageId": "www.product_expense",
-        "keyPath": "sections_0_body",
-        "en": "Lost receipts and chat status delay reimbursements."
-      },
-      {
-        "pageId": "www.shell",
-        "keyPath": "footer_2_item_2_label",
-        "en": "System Status"
       }
     ]
   },
@@ -55238,6 +55923,16 @@
     "term": "storage",
     "hits": [
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "kpiStorageTitle",
+        "en": "Storage"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "quotaStorage",
+        "en": "Storage"
+      },
+      {
         "pageId": "account.shell.backup",
         "keyPath": "retentionDaysTemplate",
         "en": "{days} days in secure cloud storage"
@@ -55446,6 +56141,11 @@
         "pageId": "account.billing.upgrade_success",
         "keyPath": "bodyWithPlan",
         "en": "Your workspace is moving to {plan}. Subscription details may take a minute to sync from Stripe."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "subscriptionSyncPending",
+        "en": "Payment details may take a minute to sync from Stripe after checkout."
       },
       {
         "pageId": "account.onboarding.payment_success",
@@ -56033,6 +56733,21 @@
         "en": "Your workspace is moving to {plan}. Subscription details may take a minute to sync from Stripe."
       },
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "category_subscription_label",
+        "en": "Subscription & billing"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "quickLink_billing_desc",
+        "en": "Subscription & invoices"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "subscriptionTitle",
+        "en": "Subscription & billing"
+      },
+      {
         "pageId": "account.shell.billing",
         "keyPath": "subtitle",
         "en": "Manage your subscription, payment method, and history"
@@ -56106,21 +56821,6 @@
         "pageId": "www.home",
         "keyPath": "faq_2_q",
         "en": "What is included in the platform subscription?"
-      },
-      {
-        "pageId": "www.home",
-        "keyPath": "faq_2_a",
-        "en": "The subscription covers infrastructure, data compliance, and your core ERP modules. Higher tiers add capacity, dedicated"
-      },
-      {
-        "pageId": "www.pricing",
-        "keyPath": "faq_0_q",
-        "en": "What is included in the platform subscription?"
-      },
-      {
-        "pageId": "www.pricing",
-        "keyPath": "faq_0_a",
-        "en": "The subscription covers infrastructure, data compliance, and your core ERP modules. Higher tiers add capacity, dedicated"
       }
     ]
   },
@@ -56473,6 +57173,21 @@
     "term": "support",
     "hits": [
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_profile_p0_add_details",
+        "en": "Add contact details for support and provisioning."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantBody",
+        "en": "You are signed in, but no workspace is linked to this account yet. If you already completed payment, request a sign-in c"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalDisabledFailed",
+        "en": "Provisioning failed — contact support or continue setup."
+      },
+      {
         "pageId": "account.onboarding.dashboard",
         "keyPath": "contactSupport",
         "en": "Contact our support team"
@@ -56506,6 +57221,11 @@
         "pageId": "account.onboarding.platform",
         "keyPath": "optionNotAvailableNotice",
         "en": "This option is not available yet. Please select the Recommended option, or contact support for early access."
+      },
+      {
+        "pageId": "account.profile.fields",
+        "keyPath": "bannerTitle",
+        "en": "Complete your profile for faster support, billing, and provisioning"
       },
       {
         "pageId": "account.shell.backup",
@@ -56551,26 +57271,6 @@
         "pageId": "account.shell.backup",
         "keyPath": "recoveryScenarios_2_body",
         "en": "Support can restore an older verified recovery point to a clean VM. Report the incident promptly."
-      },
-      {
-        "pageId": "account.shell.backup",
-        "keyPath": "contactSupport",
-        "en": "Contact Support"
-      },
-      {
-        "pageId": "account.shell.common",
-        "keyPath": "loadBillingError",
-        "en": "Could not load billing details. Try again or contact support."
-      },
-      {
-        "pageId": "app.checklist",
-        "keyPath": "taskTypeSupport",
-        "en": "Support"
-      },
-      {
-        "pageId": "docs.legal.byo_hosting_addendum",
-        "keyPath": "body",
-        "en": "# BYO Hosting Addendum\n\n**Version:** 1.0 (draft)\n\nApplies to **Enterprise BYO** customers who operate their own ERP VM o"
       }
     ]
   },
@@ -56781,6 +57481,11 @@
         "pageId": "account.billing.upgrade_success",
         "keyPath": "bodyWithPlan",
         "en": "Your workspace is moving to {plan}. Subscription details may take a minute to sync from Stripe."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "subscriptionSyncPending",
+        "en": "Payment details may take a minute to sync from Stripe after checkout."
       },
       {
         "pageId": "app.signin",
@@ -57126,6 +57831,11 @@
         "pageId": "account.billing.upgrade_success",
         "keyPath": "bodyWithPlan",
         "en": "Your workspace is moving to {plan}. Subscription details may take a minute to sync from Stripe."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "subscriptionSyncPending",
+        "en": "Payment details may take a minute to sync from Stripe after checkout."
       },
       {
         "pageId": "account.onboarding.launch",
@@ -57548,6 +58258,21 @@
     "term": "team",
     "hits": [
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "category_team_label",
+        "en": "Team & adoption"
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_team_complete",
+        "en": "Team invited and Work Desk is available."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "quickLink_users_desc",
+        "en": "Team & employee portal users"
+      },
+      {
         "pageId": "account.onboarding.dashboard",
         "keyPath": "contactSupport",
         "en": "Contact our support team"
@@ -57631,21 +58356,6 @@
         "pageId": "www.blog_how-to-choose-an-erp-for-smes",
         "keyPath": "meta_description",
         "en": "Most ERP evaluation checklists focus on features. The real question is whether the system fits how your team actually wo"
-      },
-      {
-        "pageId": "www.blog_vouus-vs-spreadsheets",
-        "keyPath": "meta_description",
-        "en": "Warning signs that spreadsheets are holding your team back."
-      },
-      {
-        "pageId": "www.contact",
-        "keyPath": "channels_1_description",
-        "en": "Email our team directly for questions about the platform, billing, or partnerships."
-      },
-      {
-        "pageId": "www.contact",
-        "keyPath": "faq_2_a",
-        "en": "Reach out via the Sales channel above. Our team will assess your current setup and guide you through the migration proce"
       }
     ]
   },
@@ -58032,6 +58742,11 @@
   {
     "term": "tenant",
     "hits": [
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantBody",
+        "en": "You are signed in, but no workspace is linked to this account yet. If you already completed payment, request a sign-in c"
+      },
       {
         "pageId": "account.onboarding.launch",
         "keyPath": "workspaceReadyBody",
@@ -59310,6 +60025,16 @@
     ]
   },
   {
+    "term": "timeline",
+    "hits": [
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "billingTimelineTitle",
+        "en": "Billing timeline"
+      }
+    ]
+  },
+  {
     "term": "timeout",
     "hits": [
       {
@@ -59412,6 +60137,16 @@
   {
     "term": "today",
     "hits": [
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "kpiWorkAppTitle",
+        "en": "Work App today"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "kpiWorkDeskTitle",
+        "en": "Work Desk today"
+      },
       {
         "pageId": "account.onboarding.platform",
         "keyPath": "recommendedSetupIntro",
@@ -59562,6 +60297,11 @@
   {
     "term": "tokens",
     "hits": [
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "quotaAiTokens",
+        "en": "AI tokens"
+      },
       {
         "pageId": "account.shell.usage",
         "keyPath": "subtitle",
@@ -61235,6 +61975,16 @@
     ]
   },
   {
+    "term": "unique",
+    "hits": [
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "kpiWorkAppSubtitle",
+        "en": "Unique sign-ins"
+      }
+    ]
+  },
+  {
     "term": "unknown",
     "hits": [
       {
@@ -61298,9 +62048,24 @@
     "term": "unlock",
     "hits": [
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalDisabledInProgress",
+        "en": "Provisioning in progress — portals unlock when setup completes."
+      },
+      {
         "pageId": "app.myAi",
         "keyPath": "aiEngineUpsellSubtitle",
         "en": "Unlock exclusive tools & higher limits"
+      }
+    ]
+  },
+  {
+    "term": "unlocks",
+    "hits": [
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_team_unlock",
+        "en": "Unlocks when workspace setup completes."
       }
     ]
   },
@@ -61433,6 +62198,11 @@
         "en": "Included on your plan (monthly, up to 2 retained)"
       },
       {
+        "pageId": "account.shell.nav",
+        "keyPath": "signUp",
+        "en": "Sign up"
+      },
+      {
         "pageId": "app.common",
         "keyPath": "erpExpenseClaimTypeAccount",
         "en": "Expense categories are not fully set up. Please contact your administrator."
@@ -61481,11 +62251,6 @@
         "pageId": "www.pricing",
         "keyPath": "faq_3_a",
         "en": "Yes. Many teams begin with a smaller tier and move up as they onboard more users and workflows."
-      },
-      {
-        "pageId": "www.product_einvoice-accounting",
-        "keyPath": "faq_2_q",
-        "en": "Can we automate invoice follow-up for overdue accounts?"
       }
     ]
   },
@@ -62183,6 +62948,21 @@
     "term": "usage",
     "hits": [
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "quickLink_usage_label",
+        "en": "Usage"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "kpiStorageSubtitle",
+        "en": "Workspace disk usage"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "viewUsage",
+        "en": "View usage"
+      },
+      {
         "pageId": "account.shell.common",
         "keyPath": "networkErrorLoadingUsage",
         "en": "Network error loading usage."
@@ -62191,6 +62971,11 @@
         "pageId": "account.shell.dashboard",
         "keyPath": "subtitleSignedIn",
         "en": "Welcome, {name} — manage your subscription, portals, and usage."
+      },
+      {
+        "pageId": "account.shell.nav",
+        "keyPath": "usage",
+        "en": "Usage"
       },
       {
         "pageId": "account.shell.usage",
@@ -62237,6 +63022,16 @@
   {
     "term": "use",
     "hits": [
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantBody",
+        "en": "You are signed in, but no workspace is linked to this account yet. If you already completed payment, request a sign-in c"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalWorkDeskDesc",
+        "en": "Frappe workspace — use your work email and Work password at the login page"
+      },
       {
         "pageId": "account.onboarding.launch",
         "keyPath": "earlyPipelineHintIntro",
@@ -62326,16 +63121,6 @@
         "pageId": "app.signup",
         "keyPath": "passwordPlaceholder",
         "en": "Use a secure password"
-      },
-      {
-        "pageId": "docs.legal.cookie_policy",
-        "keyPath": "body",
-        "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — COOK"
-      },
-      {
-        "pageId": "docs.legal.cookie_policy",
-        "keyPath": "body",
-        "en": "{/* \n================================================================================\nLEGAL REVIEW & GAP ANALYSIS — COOK"
       }
     ]
   },
@@ -62553,6 +63338,31 @@
     "term": "users",
     "hits": [
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "quickLink_users_label",
+        "en": "Users"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "quickLink_users_desc",
+        "en": "Team & employee portal users"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "kpiSeatsTitle",
+        "en": "Employee portal users"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "kpiSeatsSubtitle",
+        "en": "Users on your plan"
+      },
+      {
+        "pageId": "account.shell.nav",
+        "keyPath": "users",
+        "en": "Users"
+      },
+      {
         "pageId": "account.shell.users",
         "keyPath": "title",
         "en": "Users"
@@ -62626,31 +63436,6 @@
         "pageId": "www.pricing",
         "keyPath": "plan_basic_max_users",
         "en": "Max. 5 Users"
-      },
-      {
-        "pageId": "www.pricing",
-        "keyPath": "plan_professional_max_users",
-        "en": "Max. 20 Users"
-      },
-      {
-        "pageId": "www.pricing",
-        "keyPath": "plan_biz_max_users",
-        "en": "Max. 50 Users"
-      },
-      {
-        "pageId": "www.pricing",
-        "keyPath": "plan_enterprise_max_users",
-        "en": "Unlimited Users"
-      },
-      {
-        "pageId": "www.pricing",
-        "keyPath": "faq_1_a",
-        "en": "You can move to a higher tier to add users, capacity, and support levels. We will help you right-size the plan as your u"
-      },
-      {
-        "pageId": "www.pricing",
-        "keyPath": "faq_3_a",
-        "en": "Yes. Many teams begin with a smaller tier and move up as they onboard more users and workflows."
       }
     ]
   },
@@ -63428,6 +64213,26 @@
         "en": "View billing"
       },
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "viewChecklist",
+        "en": "View checklist"
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "actionViewStatus",
+        "en": "View status"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "viewBillingDetails",
+        "en": "View billing details"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "viewUsage",
+        "en": "View usage"
+      },
+      {
         "pageId": "account.shell.backup",
         "keyPath": "pageDescription",
         "en": "View automated backup status, retention policy, and recovery points for your organization."
@@ -63500,26 +64305,6 @@
       {
         "pageId": "www.home",
         "keyPath": "pricing_cta",
-        "en": "View pricing"
-      },
-      {
-        "pageId": "www.product_einvoice-accounting",
-        "keyPath": "hero_description",
-        "en": "Validate, post, and control from one view."
-      },
-      {
-        "pageId": "www.product_hr-attendance",
-        "keyPath": "faq_0_a",
-        "en": "Employees open the mobile app and tap check-in. GPS, IP, or QR validation rules can be configured per location. The reco"
-      },
-      {
-        "pageId": "www.product_leave",
-        "keyPath": "faq_1_a",
-        "en": "The calendar view shows who is already approved off when a new request is submitted. Configurable rules can block, flag,"
-      },
-      {
-        "pageId": "www.shell",
-        "keyPath": "mega_0_cta",
         "en": "View pricing"
       }
     ]
@@ -64338,6 +65123,11 @@
         "en": "We could not confirm delivery, but a verification email may already be in your inbox. Enter the latest code below."
       },
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantBody",
+        "en": "You are signed in, but no workspace is linked to this account yet. If you already completed payment, request a sign-in c"
+      },
+      {
         "pageId": "account.onboarding.company",
         "keyPath": "adminEmailNotLoaded",
         "en": "We couldn't load your admin email yet. Refresh the page, or sign out and sign in again."
@@ -64406,11 +65196,6 @@
         "pageId": "app.myAi",
         "keyPath": "feedbackThanks",
         "en": "Thanks! We'll reflect this in the next run."
-      },
-      {
-        "pageId": "app.myAi",
-        "keyPath": "feedbackReceived",
-        "en": "Feedback received. We'll suggest improvements."
       }
     ]
   },
@@ -65013,6 +65798,21 @@
         "en": "Your dedicated server and data stay in place when you move to a higher plan."
       },
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_workspace_provisioning_launch",
+        "en": "Launch provisioning when setup is complete."
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_team_unlock",
+        "en": "Unlocks when workspace setup completes."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalDisabledInProgress",
+        "en": "Provisioning in progress — portals unlock when setup completes."
+      },
+      {
         "pageId": "account.onboarding.launch",
         "keyPath": "minimalIntro",
         "en": "Your workspace is being prepared. You can close this tab — we will email you when everything is ready."
@@ -65091,21 +65891,6 @@
         "pageId": "app.myAi",
         "keyPath": "whenLabel",
         "en": "When"
-      },
-      {
-        "pageId": "app.myAi",
-        "keyPath": "when",
-        "en": "When"
-      },
-      {
-        "pageId": "app.myAi",
-        "keyPath": "wizardFillWhenWhatHow",
-        "en": "Please fill When, What, and How before Test Run."
-      },
-      {
-        "pageId": "app.myAi",
-        "keyPath": "wizardTestRunMockOutput",
-        "en": "Demo: Prego AI would merge your When / What / How brief with RAG context from connected HR, CRM, and finance data, then "
       }
     ]
   },
@@ -65818,6 +66603,56 @@
     "term": "work",
     "hits": [
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_team_complete",
+        "en": "Team invited and Work Desk is available."
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_team_open_desk",
+        "en": "Open Work Desk to get started."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "kpiWorkAppTitle",
+        "en": "Work App today"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "kpiWorkDeskTitle",
+        "en": "Work Desk today"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalWorkAppTitle",
+        "en": "Work App"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalWorkAppDesc",
+        "en": "Sign in with your work email and Work password from the credentials email"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalWorkAppDesc",
+        "en": "Sign in with your work email and Work password from the credentials email"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalWorkDeskTitle",
+        "en": "Work Desk"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalWorkDeskDesc",
+        "en": "Frappe workspace — use your work email and Work password at the login page"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalWorkDeskDesc",
+        "en": "Frappe workspace — use your work email and Work password at the login page"
+      },
+      {
         "pageId": "account.onboarding.provision_email",
         "keyPath": "deskTierNote",
         "en": "(Managed Tier 0: use your admin email for Work Desk — no ERP super-user password in email. Open Work Desk from the dashb"
@@ -65866,56 +66701,6 @@
         "pageId": "app.moduleGuide",
         "keyPath": "attendance.whatTitle",
         "en": "Track your work hours"
-      },
-      {
-        "pageId": "app.moduleGuide",
-        "keyPath": "attendance.whatBody",
-        "en": "Check in when you start work and check out when you finish. Your attendance history appears here automatically."
-      },
-      {
-        "pageId": "app.moduleGuide",
-        "keyPath": "attendance.howStep1",
-        "en": "Tap Check In when you arrive at work (office or home)."
-      },
-      {
-        "pageId": "app.moduleGuide",
-        "keyPath": "checklist.whatBody",
-        "en": "Keep work, home, and personal tasks in one checklist with due dates and progress."
-      },
-      {
-        "pageId": "app.moduleGuide",
-        "keyPath": "customers.howStep2",
-        "en": "Use Work Desk for full ERP customer records and accounting links."
-      },
-      {
-        "pageId": "app.moduleGuide",
-        "keyPath": "notices.whatTitle",
-        "en": "Your work notifications"
-      },
-      {
-        "pageId": "app.moduleGuide",
-        "keyPath": "notices.howTitle",
-        "en": "How notices work"
-      },
-      {
-        "pageId": "app.myAi",
-        "keyPath": "navAssistantDescription",
-        "en": "Chat with AI for policies, HR, and daily work — open a fresh conversation."
-      },
-      {
-        "pageId": "app.myAi",
-        "keyPath": "description",
-        "en": "Get instant answers to company policies, procedures, and any work-related inquiries. I analyze your uploaded documents t"
-      },
-      {
-        "pageId": "app.onboarding",
-        "keyPath": "step4Title",
-        "en": "Work"
-      },
-      {
-        "pageId": "app.onboarding",
-        "keyPath": "joiningDateHint",
-        "en": "First day of work at the company."
       }
     ]
   },
@@ -66178,6 +66963,61 @@
         "en": "Your workspace is moving to {plan}. Subscription details may take a minute to sync from Stripe."
       },
       {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "category_workspace_setup_label",
+        "en": "Workspace setup"
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "category_workspace_provisioning_label",
+        "en": "Workspace provisioning"
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_workspace_provisioning_ready",
+        "en": "Your workspace is ready."
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_subscription_choose_plan",
+        "en": "Choose a plan to activate your workspace."
+      },
+      {
+        "pageId": "account.dashboard.setup",
+        "keyPath": "desc_team_unlock",
+        "en": "Unlocks when workspace setup completes."
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantBody",
+        "en": "You are signed in, but no workspace is linked to this account yet. If you already completed payment, request a sign-in c"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantBody",
+        "en": "You are signed in, but no workspace is linked to this account yet. If you already completed payment, request a sign-in c"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "quickLink_profile_desc",
+        "en": "Account, hosting & workspace access"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "kpiStorageSubtitle",
+        "en": "Workspace disk usage"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalWorkDeskDesc",
+        "en": "Frappe workspace — use your work email and Work password at the login page"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "portalDisabledSetup",
+        "en": "Complete workspace setup to open portals."
+      },
+      {
         "pageId": "account.onboarding.launch",
         "keyPath": "minimalIntro",
         "en": "Your workspace is being prepared. You can close this tab — we will email you when everything is ready."
@@ -66206,61 +67046,6 @@
         "pageId": "account.onboarding.launch",
         "keyPath": "readinessVerifying",
         "en": "Verifying your workspace…"
-      },
-      {
-        "pageId": "account.onboarding.payment_success",
-        "keyPath": "linkingWorkspace",
-        "en": "Linking your paid workspace to this browser session…"
-      },
-      {
-        "pageId": "account.onboarding.payment_success",
-        "keyPath": "workspaceBlocked",
-        "en": "We could not register your workspace from this payment session. Refresh this page while signed in, or contact support wi"
-      },
-      {
-        "pageId": "account.onboarding.payment_success",
-        "keyPath": "submitLinking",
-        "en": "Linking workspace…"
-      },
-      {
-        "pageId": "account.onboarding.platform",
-        "keyPath": "intro",
-        "en": "Choose your ERP stack and cloud provider for this workspace."
-      },
-      {
-        "pageId": "account.onboarding.review",
-        "keyPath": "intro",
-        "en": "Check your company details before we create your workspace and start provisioning."
-      },
-      {
-        "pageId": "account.shell.integrations",
-        "keyPath": "subtitle",
-        "en": "Connect external tools to your workspace."
-      },
-      {
-        "pageId": "app.moduleGuide",
-        "keyPath": "customers.whatBody",
-        "en": "Browse ERP customers synced from your company workspace."
-      },
-      {
-        "pageId": "app.signin",
-        "keyPath": "staleSessionHint",
-        "en": "A previous sign-in session for another workspace is still stored in this browser."
-      },
-      {
-        "pageId": "email.billing_payment_success",
-        "keyPath": "introTemplate",
-        "en": "We received your payment for {companyName}. Your subscription is active and you can continue setting up your workspace."
-      },
-      {
-        "pageId": "email.desk_credentials",
-        "keyPath": "introTemplate",
-        "en": "Hello, your {serviceName} workspace is ready. Use the credentials below for Work Desk and Work App only."
-      },
-      {
-        "pageId": "email.provisioning",
-        "keyPath": "headerTitle",
-        "en": "Your workspace is ready"
       }
     ]
   },
@@ -66623,6 +67408,16 @@
     "term": "yet",
     "hits": [
       {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noTenantBody",
+        "en": "You are signed in, but no workspace is linked to this account yet. If you already completed payment, request a sign-in c"
+      },
+      {
+        "pageId": "account.dashboard.widgets",
+        "keyPath": "noPaymentsYet",
+        "en": "No payments recorded yet for this account."
+      },
+      {
         "pageId": "account.onboarding.company",
         "keyPath": "adminEmailNotLoaded",
         "en": "We couldn't load your admin email yet. Refresh the page, or sign out and sign in again."
@@ -66711,16 +67506,6 @@
         "pageId": "app.myAi",
         "keyPath": "pagesEmpty",
         "en": "No pages indexed yet"
-      },
-      {
-        "pageId": "app.myAi",
-        "keyPath": "autopilotLandingConfirmedEmpty",
-        "en": "No saved autopilots or Autopilot conversations yet."
-      },
-      {
-        "pageId": "app.myAi",
-        "keyPath": "autopilotLandingSourcesAllEmpty",
-        "en": "No knowledge files or draft Autopilot chats yet."
       }
     ]
   },

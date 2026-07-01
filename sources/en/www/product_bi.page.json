@@ -3,13 +3,11 @@
   "surface": "www",
   "route": "/product/bi",
   "version": 1,
-  "sourceHash": "sha256:67884ba0b0fd2eb8b9a0b52809f324b80ce0828842223e1f620524f2bed8262f",
+  "sourceHash": "sha256:27e0acd6a15ec8889a3fe985eb5fa4d68264d23b2393206786233f7a0c7fd785",
   "keys": {
     "path": "/product/bi",
     "meta_title": "Business Intelligence",
-    "meta_description": "Dashboards and operational KPIs.",
-    "hero_title": "Numbers with provenance",
-    "hero_description": "{brand} analytics run on the same workflow spine as HR and finance—every chart traces back to an approval."
+    "meta_description": "Dashboards and operational KPIs."
   },
   "meta": {
     "productRepo": "infra-control-plane",

@@ -1,0 +1,25 @@
+{
+  "pageId": "account.shell.nav",
+  "surface": "account",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:pending",
+  "keys": {
+    "dashboard": "Панель управления",
+    "billing": "Биллинг",
+    "backup": "Резервное копирование",
+    "integrations": "Интеграции",
+    "mailing": "рассылка",
+    "profile": "Профиль",
+    "usage": "Использование",
+    "users": "Пользователи",
+    "signUp": "Зарегистрироваться"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web/dictionaries/en.json#shell_nav",
+    "githubPath": "account/shell.nav.page.json",
+    "translationStatus": "reviewed",
+    "method": "google-translate-pack"
+  }
+}

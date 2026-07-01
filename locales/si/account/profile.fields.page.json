@@ -1,0 +1,27 @@
+{
+  "pageId": "account.profile.fields",
+  "surface": "account",
+  "route": "/profile",
+  "version": 1,
+  "sourceHash": "sha256:pending",
+  "keys": {
+    "company_name": "සමාගමේ නම",
+    "admin_name": "පරිපාලක නම",
+    "admin_phone": "පරිපාලක දුරකථනය",
+    "user_phone": "ඔබගේ ජංගම දුරකථනය",
+    "legal_entity_name": "නෛතික ආයතනයේ නම",
+    "business_registration_number": "ව්යාපාර ලියාපදිංචි අංකය",
+    "registered_address": "ලියාපදිංචි ලිපිනය",
+    "billing_contact_email": "බිල්පත් සම්බන්ධතා ඊමේල්",
+    "bannerTitle": "වේගවත් සහාය, බිල්පත් සහ ප්‍රතිපාදන සඳහා ඔබේ පැතිකඩ සම්පූර්ණ කරන්න",
+    "bannerRequiredPrefix": "අවශ්ය:",
+    "bannerRecommendedPrefix": "බිල්පත් සහ ගිවිසුම් සඳහා නිර්දේශිත:"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web/dictionaries/en.json#profile_fields",
+    "githubPath": "account/profile.fields.page.json",
+    "translationStatus": "reviewed",
+    "method": "google-translate-pack"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "pageId": "account.profile.fields",
+  "surface": "account",
+  "route": "/profile",
+  "version": 1,
+  "sourceHash": "sha256:pending",
+  "keys": {
+    "company_name": "会社名",
+    "admin_name": "管理者名",
+    "admin_phone": "管理者の電話",
+    "user_phone": "あなたの携帯電話",
+    "legal_entity_name": "法人名",
+    "business_registration_number": "事業者登録番号",
+    "registered_address": "登録住所",
+    "billing_contact_email": "請求連絡先メールアドレス",
+    "bannerTitle": "サポート、請求、プロビジョニングを迅速化するためにプロファイルを完成させてください",
+    "bannerRequiredPrefix": "必須：",
+    "bannerRecommendedPrefix": "請求と契約に推奨されるもの:"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web/dictionaries/en.json#profile_fields",
+    "githubPath": "account/profile.fields.page.json",
+    "translationStatus": "reviewed",
+    "method": "google-translate-pack"
+  }
+}

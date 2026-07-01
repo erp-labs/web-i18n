@@ -15,7 +15,7 @@
       "surface": "app",
       "route": "/{companyId}/{locale}/signin",
       "version": 1,
-      "sourceHash": "sha256:b61dd77a92d1b93ec0a17e819f49b7fe6ee4a05d3e75cfd8500c3712433b4c84",
+      "sourceHash": "sha256:65d56c9404d351114558a462f9b62fbea68d77252f078b6e8fa3f30053b86c3d",
       "reviewRequired": false,
       "githubPath": "app/signin.page.json",
       "sourcePath": "apps/employee-web/dictionaries/en.json#signin"
@@ -45,10 +45,30 @@
       "surface": "app",
       "route": "/{companyId}/{locale}/menu",
       "version": 1,
-      "sourceHash": "sha256:d8a190eda194f241080a10fd778113ffb45b0e85ec46816c81c9970540c36e38",
+      "sourceHash": "sha256:212d6240ac5fd2f9995a06779ea9b967e26f1b47c0c77e17eb896741d020ba50",
       "reviewRequired": false,
       "githubPath": "app/menu.page.json",
       "sourcePath": "apps/employee-web/dictionaries/en.json#menu"
+    },
+    {
+      "pageId": "app.mailing",
+      "surface": "app",
+      "route": "/{companyId}/{locale}/mailing",
+      "version": 1,
+      "sourceHash": "sha256:e356860957402d241cd87627f59f0100f1aef6db3d3be8213b4688ab9657b85f",
+      "reviewRequired": false,
+      "githubPath": "app/mailing.page.json",
+      "sourcePath": "apps/employee-web/dictionaries/en.json#mailing"
+    },
+    {
+      "pageId": "app.dashboard",
+      "surface": "app",
+      "route": "/{companyId}/{locale}/dashboard",
+      "version": 1,
+      "sourceHash": "sha256:7e65ed02e2049b6d58e98a10d579857004b712c7e02a23eabd58e206643b9133",
+      "reviewRequired": false,
+      "githubPath": "app/dashboard.page.json",
+      "sourcePath": "apps/employee-web/dictionaries/en.json#dashboard"
     },
     {
       "pageId": "app.auth",
@@ -115,7 +135,7 @@
       "surface": "app",
       "route": "/{companyId}/{locale}/leaves",
       "version": 1,
-      "sourceHash": "sha256:b01a78899787ae34a261972746e336a4fa561b7f8940b635bb3c08da71f5ce50",
+      "sourceHash": "sha256:8e118fe61edc02dc066e371a94f9db52f5d31f01ce52c71345cfa20af7587561",
       "reviewRequired": false,
       "githubPath": "app/leaves.page.json",
       "sourcePath": "apps/employee-web/dictionaries/en.json#leaves"
@@ -125,7 +145,7 @@
       "surface": "app",
       "route": "/{companyId}/{locale}/invoices",
       "version": 1,
-      "sourceHash": "sha256:70f9df03695d7e02037ce16367708ae755fdfce7e877c670ce265cea316731a1",
+      "sourceHash": "sha256:2a9a7afb07e167f8a7584e23ab3d054aa7aadf14afca78b0d0784156d04c5dc8",
       "reviewRequired": false,
       "githubPath": "app/invoices.page.json",
       "sourcePath": "apps/employee-web/dictionaries/en.json#invoices"
@@ -135,7 +155,7 @@
       "surface": "app",
       "route": "/{companyId}/{locale}/my-ai",
       "version": 1,
-      "sourceHash": "sha256:a809a39d2c15a5239f14d17ecc31e7ebca7ca60af68d806dd8ca0f22cb2a2acb",
+      "sourceHash": "sha256:189f2a2621874f573a7dd8c22b8c458d414ae6918c52d90ba89b5ecd4d54d58b",
       "reviewRequired": false,
       "githubPath": "app/myAi.page.json",
       "sourcePath": "apps/employee-web/dictionaries/en.json#myAi"
@@ -145,7 +165,7 @@
       "surface": "app",
       "route": "/{companyId}/{locale}/notices",
       "version": 1,
-      "sourceHash": "sha256:9e9feb1f3f533b4e6b3cdf47e0046491512fc861c4b8118737aafe3db4478835",
+      "sourceHash": "sha256:96007cd19af974b47e87c9f193780ca1a39297bcf883e09ab9a3fe89ad15966a",
       "reviewRequired": false,
       "githubPath": "app/notices.page.json",
       "sourcePath": "apps/employee-web/dictionaries/en.json#notices"
@@ -155,7 +175,7 @@
       "surface": "app",
       "route": "/{companyId}/{locale}/moduleGuide",
       "version": 1,
-      "sourceHash": "sha256:6a17eb3392f9231509390565517d774d2c9f981b45c9c523e1659755c053bd6e",
+      "sourceHash": "sha256:2d2ae540edb3d9abcf3c2c67f99a19dc786c38d2080429b6c9bde672f2a6b4b6",
       "reviewRequired": false,
       "githubPath": "app/moduleGuide.page.json",
       "sourcePath": "apps/employee-web/dictionaries/en.json#moduleGuide"
@@ -175,7 +195,7 @@
       "surface": "app",
       "route": "/{companyId}/{locale}/profile",
       "version": 1,
-      "sourceHash": "sha256:e41d4917788e6b83bbd846406e40f1ed2eae2d7b74d77f445c5153d61ccfdbd8",
+      "sourceHash": "sha256:a153093b32aa7dcea46ba818e1b43016c3ada4be23b4eab1179bca5b5ca9423a",
       "reviewRequired": false,
       "githubPath": "app/profile.page.json",
       "sourcePath": "apps/employee-web/dictionaries/en.json#profile"
@@ -185,7 +205,7 @@
       "surface": "app",
       "route": "/{companyId}/{locale}/customers",
       "version": 1,
-      "sourceHash": "sha256:d8409a7a568d2e3107dd1697a8b2163825625bee50c97bf8d4d3702e36023558",
+      "sourceHash": "sha256:76277eaf79d83348e2f9d9af8142708dc47a0395fd5d40a86c12188761e00fbd",
       "reviewRequired": false,
       "githubPath": "app/customers.page.json",
       "sourcePath": "apps/employee-web/dictionaries/en.json#customers"
@@ -195,7 +215,7 @@
       "surface": "app",
       "route": "/{companyId}/{locale}/calendar",
       "version": 1,
-      "sourceHash": "sha256:5f5eff059e509b3ca6733f5423d7dd223962783e7bc7525eea37cc2328d19490",
+      "sourceHash": "sha256:fa11df250716c8898207c388bb71720a461e0eb9437170c6a6a5e0a6ed8554e5",
       "reviewRequired": false,
       "githubPath": "app/calendar.page.json",
       "sourcePath": "apps/employee-web/dictionaries/en.json#calendar"
@@ -1129,6 +1149,46 @@
       "reviewRequired": false,
       "githubPath": "account/integrations.xero_migration.page.json",
       "sourcePath": "apps/admin-web /integrations/xero/migration/:jobId"
+    },
+    {
+      "pageId": "account.shell.nav",
+      "surface": "account",
+      "route": null,
+      "version": 1,
+      "sourceHash": "sha256:8b53945d1fdd8ca28209fd1a54c02fa24217739dc264b2a28784648d15d758f1",
+      "reviewRequired": false,
+      "githubPath": "account/shell.nav.page.json",
+      "sourcePath": "apps/admin-web null"
+    },
+    {
+      "pageId": "account.dashboard.setup",
+      "surface": "account",
+      "route": "/dashboard",
+      "version": 1,
+      "sourceHash": "sha256:4ecf9b134d0fcc7466b567a39308f6a2a72fc022c155c698bf71bfdbb86754c6",
+      "reviewRequired": false,
+      "githubPath": "account/dashboard.setup.page.json",
+      "sourcePath": "apps/admin-web /dashboard"
+    },
+    {
+      "pageId": "account.dashboard.widgets",
+      "surface": "account",
+      "route": "/dashboard",
+      "version": 1,
+      "sourceHash": "sha256:4b77e672c382f6e0d7eb4a010a4685b4a052aafc21b5e376466bd67ae8b30e6e",
+      "reviewRequired": false,
+      "githubPath": "account/dashboard.widgets.page.json",
+      "sourcePath": "apps/admin-web /dashboard"
+    },
+    {
+      "pageId": "account.profile.fields",
+      "surface": "account",
+      "route": "/profile",
+      "version": 1,
+      "sourceHash": "sha256:4799ee6444688e89b63b25a2e5418eae1d497df32bd52f682b427f0a2418f61f",
+      "reviewRequired": false,
+      "githubPath": "account/profile.fields.page.json",
+      "sourcePath": "apps/admin-web /profile"
     }
   ]
 }

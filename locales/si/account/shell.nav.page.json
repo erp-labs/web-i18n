@@ -1,0 +1,25 @@
+{
+  "pageId": "account.shell.nav",
+  "surface": "account",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:pending",
+  "keys": {
+    "dashboard": "උපකරණ පුවරුව",
+    "billing": "බිල්පත්",
+    "backup": "උපස්ථ",
+    "integrations": "ඒකාබද්ධ කිරීම්",
+    "mailing": "තැපැල් කිරීම",
+    "profile": "පැතිකඩ",
+    "usage": "භාවිතය",
+    "users": "පරිශීලකයන්",
+    "signUp": "ලියාපදිංචි වන්න"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web/dictionaries/en.json#shell_nav",
+    "githubPath": "account/shell.nav.page.json",
+    "translationStatus": "reviewed",
+    "method": "google-translate-pack"
+  }
+}

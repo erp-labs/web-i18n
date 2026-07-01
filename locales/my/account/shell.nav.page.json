@@ -1,0 +1,25 @@
+{
+  "pageId": "account.shell.nav",
+  "surface": "account",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:pending",
+  "keys": {
+    "dashboard": "ဒိုင်ခွက်",
+    "billing": "ငွေတောင်းခံခြင်း။",
+    "backup": "မိတ္တူ",
+    "integrations": "ပေါင်းစည်းမှု",
+    "mailing": "စာပို့တယ်။",
+    "profile": "ကိုယ်ရေးအကျဉ်း",
+    "usage": "အသုံးပြုမှု",
+    "users": "အသုံးပြုသူများ",
+    "signUp": "ဆိုင်းအပ်"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web/dictionaries/en.json#shell_nav",
+    "githubPath": "account/shell.nav.page.json",
+    "translationStatus": "reviewed",
+    "method": "google-translate-pack"
+  }
+}

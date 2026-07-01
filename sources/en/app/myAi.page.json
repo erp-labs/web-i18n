@@ -3,11 +3,11 @@
   "surface": "app",
   "route": "/{companyId}/{locale}/my-ai",
   "version": 1,
-  "sourceHash": "sha256:a809a39d2c15a5239f14d17ecc31e7ebca7ca60af68d806dd8ca0f22cb2a2acb",
+  "sourceHash": "sha256:189f2a2621874f573a7dd8c22b8c458d414ae6918c52d90ba89b5ecd4d54d58b",
   "keys": {
     "title": "Prego AI",
     "newChat": "New chat",
-    "navMegaSectionLabel": "Prego AI",
+    "navMegaSectionLabel": "AI Agent",
     "navAssistantTitle": "Assistant",
     "navAssistantDescription": "Chat with AI for policies, HR, and daily work — open a fresh conversation.",
     "navAutopilotTitle": "Autopilot",
@@ -201,7 +201,6 @@
     "chipHrReport": "HR weekly report",
     "chipApprovalAlert": "Approval pending alert",
     "chipFinanceSummary": "Monthly exec summary",
-    "chipCrmPipeline": "CRM pipeline",
     "chipExpenseDetect": "Expense anomaly detection",
     "t_hr_name": "HR weekly report",
     "t_hr_pill_0": "HR data",
@@ -430,6 +429,7 @@
     "description": "Get instant answers to company policies, procedures, and any work-related inquiries. I analyze your uploaded documents to provide accurate, context-aware information in seconds.",
     "askAnything": "Ask anything",
     "inputPlaceholder": "Ask about company policies, procedures...",
+    "dummyAssistantReply": "Thanks for your message. This is a demo reply — connect the AI API to enable live responses.",
     "promptComposerPlaceholder": "Enter a prompt for Prego AI",
     "landingHi": "Hi, {{name}}",
     "landingHiFallbackName": "there",
@@ -546,7 +546,8 @@
       "leavePolicy": "Leave policy",
       "expenseGuidelines": "Expense guidelines",
       "checkinHelp": "Check-in help",
-      "holidaySchedule": "Holiday schedule"
+      "holidaySchedule": "Holiday schedule",
+      "customersSummary": "Summarize customers"
     }
   },
   "meta": {

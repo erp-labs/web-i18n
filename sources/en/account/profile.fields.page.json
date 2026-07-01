@@ -1,0 +1,25 @@
+{
+  "pageId": "account.profile.fields",
+  "surface": "account",
+  "route": "/profile",
+  "version": 1,
+  "sourceHash": "sha256:4799ee6444688e89b63b25a2e5418eae1d497df32bd52f682b427f0a2418f61f",
+  "keys": {
+    "company_name": "Company name",
+    "admin_name": "Administrator name",
+    "admin_phone": "Administrator phone",
+    "user_phone": "Your mobile phone",
+    "legal_entity_name": "Legal entity name",
+    "business_registration_number": "Business registration number",
+    "registered_address": "Registered address",
+    "billing_contact_email": "Billing contact email",
+    "bannerTitle": "Complete your profile for faster support, billing, and provisioning",
+    "bannerRequiredPrefix": "Required:",
+    "bannerRecommendedPrefix": "Recommended for billing & contracts:"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /profile",
+    "githubPath": "account/profile.fields.page.json"
+  }
+}

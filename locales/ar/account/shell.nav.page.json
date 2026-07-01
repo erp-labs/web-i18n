@@ -1,0 +1,25 @@
+{
+  "pageId": "account.shell.nav",
+  "surface": "account",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:pending",
+  "keys": {
+    "dashboard": "لوحة القيادة",
+    "billing": "الفواتير",
+    "backup": "النسخ الاحتياطي",
+    "integrations": "التكامل",
+    "mailing": "البريدية",
+    "profile": "حساب تعريفي",
+    "usage": "الاستخدام",
+    "users": "المستخدمين",
+    "signUp": "اشتراك"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web/dictionaries/en.json#shell_nav",
+    "githubPath": "account/shell.nav.page.json",
+    "translationStatus": "reviewed",
+    "method": "google-translate-pack"
+  }
+}

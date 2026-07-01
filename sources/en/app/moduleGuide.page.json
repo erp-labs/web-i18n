@@ -3,7 +3,7 @@
   "surface": "app",
   "route": "/{companyId}/{locale}/moduleGuide",
   "version": 1,
-  "sourceHash": "sha256:6a17eb3392f9231509390565517d774d2c9f981b45c9c523e1659755c053bd6e",
+  "sourceHash": "sha256:2d2ae540edb3d9abcf3c2c67f99a19dc786c38d2080429b6c9bde672f2a6b4b6",
   "keys": {
     "common": {
       "showGuide": "How it works",
@@ -68,19 +68,19 @@
       "whatTitle": "Request time off",
       "whatBody": "Apply for annual, sick, and other leave types. Your balance and history stay in one place.",
       "howTitle": "How to request leave",
-      "howStep1": "Check your remaining leave balance at the top.",
-      "howStep2": "Select dates on the calendar and choose a leave type.",
+      "howStep1": "Choose a leave type and tap start or end date to pick your period.",
+      "howStep2": "Open Calendar to review your schedule, or use the date picker on the leave form.",
       "howStep3": "Submit your request — approved leave appears in history.",
       "startTitle": "Submit a leave request",
-      "startBody": "Tap Leave application or the + button to pick dates and leave type.",
+      "startBody": "Tap start or end date on the leave form to pick dates and choose a leave type.",
       "startCta": "Leave application"
     },
     "notices": {
-      "whatTitle": "Your work notifications",
-      "whatBody": "Updates about leave, expenses, invoices, and tasks from your company ERP appear here.",
-      "howTitle": "How notices work",
-      "howStep1": "Tap the bell icon on a notice to mark it as read.",
-      "howStep2": "Use View details to open the related module when a link is available."
+      "whatTitle": "Company announcements",
+      "whatBody": "HR announcements from your organization appear here.",
+      "howTitle": "Managing notices",
+      "howStep1": "Read published announcements on this page.",
+      "howStep2": "If you have write access, use + to publish or edit announcements."
     }
   },
   "meta": {

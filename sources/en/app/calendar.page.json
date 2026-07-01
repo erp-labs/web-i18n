@@ -3,7 +3,7 @@
   "surface": "app",
   "route": "/{companyId}/{locale}/calendar",
   "version": 1,
-  "sourceHash": "sha256:5f5eff059e509b3ca6733f5423d7dd223962783e7bc7525eea37cc2328d19490",
+  "sourceHash": "sha256:fa11df250716c8898207c388bb71720a461e0eb9437170c6a6a5e0a6ed8554e5",
   "keys": {
     "monthJanuary": "January",
     "monthFebruary": "February",
@@ -24,7 +24,8 @@
     "dayStatusTardy": "Tardy",
     "dayStatusOff": "Off",
     "dayStatusAway": "Away",
-    "dayStatusPublicHoliday": "PH"
+    "dayStatusPublicHoliday": "PH",
+    "integrationsHint": "Connect Google Calendar in Integrations when available."
   },
   "meta": {
     "productRepo": "core-platform",

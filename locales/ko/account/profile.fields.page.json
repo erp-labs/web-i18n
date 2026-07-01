@@ -1,0 +1,25 @@
+{
+  "pageId": "account.profile.fields",
+  "surface": "account",
+  "route": "/profile",
+  "version": 1,
+  "sourceHash": "sha256:pending-ko",
+  "keys": {
+    "company_name": "회사명",
+    "admin_name": "관리자 이름",
+    "admin_phone": "관리자 전화번호",
+    "user_phone": "본인 휴대전화",
+    "legal_entity_name": "법인명",
+    "business_registration_number": "사업자등록번호",
+    "registered_address": "등록 주소",
+    "billing_contact_email": "결제 담당 이메일",
+    "bannerTitle": "더 빠른 지원, 결제 및 프로비저닝을 위해 프로필을 완료하세요",
+    "bannerRequiredPrefix": "필수:",
+    "bannerRecommendedPrefix": "결제 및 계약 권장:"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web/dictionaries/en.json#profile_fields",
+    "githubPath": "account/profile.fields.page.json"
+  }
+}

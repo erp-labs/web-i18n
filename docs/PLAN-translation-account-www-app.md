@@ -12,7 +12,7 @@
 
 | Surface | 도메인 | web-i18n 경로 | 페이지 수 | EN 규모 |
 |---------|--------|---------------|-----------|---------|
-| **account** | account.vouus.com | `locales/{locale}/account/*.page.json` | **21** | 318키 / 11,034자 |
+| **account** | account.vouus.com | `locales/{locale}/account/*.page.json` | **25** | 425키+ / dashboard nav·setup·widgets·profile fields 포함 |
 | **www (메인만)** | www.vouus.com `/` | `locales/{locale}/www/home.page.json` | **1** | 74키 / 3,011자 |
 | **app** | app.vouus.com | `locales/{locale}/app/*.page.json` | **20** | 1,300키 / 25,250자 |
 
@@ -35,7 +35,7 @@
 ```mermaid
 flowchart TB
   subgraph inScope [번역 범위]
-    Account["account 21pg"]
+    Account["account 25pg"]
     Home["www/home 1pg"]
     App["app 20pg"]
   end
@@ -127,7 +127,7 @@ flowchart TB
 
 ### Phase A — account 퍼널 (1~2주, 최우선)
 
-**방식:** 로케일당 **1 Agent 배치** — 해당 로케일 `account/*.page.json` 21파일 일괄.
+**방식:** 로케일당 **1 Agent 배치** — 해당 로케일 `account/*.page.json` 25파일 일괄.
 
 **페이지 우선순위**
 
@@ -271,7 +271,7 @@ For ko/ja/zh after human review, set translationStatus to "reviewed".
 
 ## 10. 부록
 
-### A. account 페이지 (21건)
+### A. account 페이지 (25건)
 
 | 파일 | pageId | 키 | EN자 |
 |------|--------|-----|------|
@@ -280,6 +280,8 @@ For ko/ja/zh after human review, set translationStatus to "reviewed".
 | `auth.verify.page.json` | `account.auth.verify` | 7 | 226 |
 | `billing.upgrade.page.json` | `account.billing.upgrade` | 5 | 155 |
 | `billing.upgrade_success.page.json` | `account.billing.upgrade_success` | 5 | 199 |
+| `dashboard.setup.page.json` | `account.dashboard.setup` | 39 | ~1,400 |
+| `dashboard.widgets.page.json` | `account.dashboard.widgets` | 48 | ~1,600 |
 | `integrations.xero_migration.page.json` | `account.integrations.xero_migration` | 26 | 490 |
 | `onboarding.company.page.json` | `account.onboarding.company` | 27 | 703 |
 | `onboarding.dashboard.page.json` | `account.onboarding.dashboard` | 17 | 308 |
@@ -288,11 +290,13 @@ For ko/ja/zh after human review, set translationStatus to "reviewed".
 | `onboarding.platform.page.json` | `account.onboarding.platform` | 12 | 390 |
 | `onboarding.provision_email.page.json` | `account.onboarding.provision_email` | 19 | 633 |
 | `onboarding.review.page.json` | `account.onboarding.review` | 13 | 242 |
+| `profile.fields.page.json` | `account.profile.fields` | 11 | ~350 |
 | `shell.backup.page.json` | `account.shell.backup` | 79 | 3,306 |
 | `shell.billing.page.json` | `account.shell.billing` | 3 | 126 |
 | `shell.common.page.json` | `account.shell.common` | 13 | 401 |
 | `shell.dashboard.page.json` | `account.shell.dashboard` | 3 | 109 |
 | `shell.integrations.page.json` | `account.shell.integrations` | 3 | 81 |
+| `shell.nav.page.json` | `account.shell.nav` | 9 | ~80 |
 | `shell.profile.page.json` | `account.shell.profile` | 2 | 45 |
 | `shell.usage.page.json` | `account.shell.usage` | 2 | 96 |
 | `shell.users.page.json` | `account.shell.users` | 5 | 198 |

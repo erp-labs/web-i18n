@@ -3,13 +3,11 @@
   "surface": "www",
   "route": "/solutions/sales",
   "version": 1,
-  "sourceHash": "sha256:36490d14bda57761817b9397ac4b817a34de1dd73a49e0aa0c320b11adac1d7e",
+  "sourceHash": "sha256:a6f0f9f74340c1e4afcb432dcbcf53d5c8f63f3807f831a9a477af37af9151fd",
   "keys": {
     "path": "/solutions/sales",
     "meta_title": "Sales Teams | Vouus",
-    "meta_description": "CRM-aligned quotes, orders, and billing handoff to finance.",
-    "hero_title": "Revenue motion finance can see",
-    "hero_description": "Run pipeline, quotes, and orders on workflows that sync with billing and recognition—pipeline analytics flag risk; Automation keeps follow-ups from slipping between teams."
+    "meta_description": "CRM-aligned quotes, orders, and billing handoff to finance."
   },
   "meta": {
     "productRepo": "infra-control-plane",

@@ -3,13 +3,11 @@
   "surface": "www",
   "route": "/solutions/enterprise/system-status",
   "version": 1,
-  "sourceHash": "sha256:9481100af65c5d2b338da820095bd627f733216130ac540b770c74adf870b220",
+  "sourceHash": "sha256:0b33159ce7c91163be564bbeed4ce892947c429967e905838b65a76a21e6497e",
   "keys": {
     "path": "/solutions/enterprise/system-status",
     "meta_title": "System Status | Vouus",
-    "meta_description": "Uptime, incidents, and maintenance transparency.",
-    "hero_title": "System Status",
-    "hero_description": "Real-time server and service status for {brand}."
+    "meta_description": "Uptime, incidents, and maintenance transparency."
   },
   "meta": {
     "productRepo": "infra-control-plane",

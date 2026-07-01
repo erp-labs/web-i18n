@@ -1,0 +1,27 @@
+{
+  "pageId": "account.profile.fields",
+  "surface": "account",
+  "route": "/profile",
+  "version": 1,
+  "sourceHash": "sha256:pending",
+  "keys": {
+    "company_name": "公司名称",
+    "admin_name": "管理员姓名",
+    "admin_phone": "管理员电话",
+    "user_phone": "你的手机",
+    "legal_entity_name": "法人实体名称",
+    "business_registration_number": "商业登记号码",
+    "registered_address": "注册地址",
+    "billing_contact_email": "帐单联系电子邮件",
+    "bannerTitle": "完善您的个人资料以获得更快的支持、计费和配置",
+    "bannerRequiredPrefix": "必需的：",
+    "bannerRecommendedPrefix": "推荐用于计费和合同："
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web/dictionaries/en.json#profile_fields",
+    "githubPath": "account/profile.fields.page.json",
+    "translationStatus": "reviewed",
+    "method": "google-translate-pack"
+  }
+}

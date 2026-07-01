@@ -3,7 +3,7 @@
   "surface": "app",
   "route": "/{companyId}/{locale}/profile",
   "version": 1,
-  "sourceHash": "sha256:e41d4917788e6b83bbd846406e40f1ed2eae2d7b74d77f445c5153d61ccfdbd8",
+  "sourceHash": "sha256:a153093b32aa7dcea46ba818e1b43016c3ada4be23b4eab1179bca5b5ca9423a",
   "keys": {
     "userSetting": "User setting",
     "title": "Profile",
@@ -70,9 +70,9 @@
     "accessLogIp": "IP",
     "joinedLabel": "Joined",
     "advancedWork": "Advanced work",
-    "advancedWorkHint": "Work Desk and Frappe CRM use the same account. Switch when you need detailed ERP or pipeline tools.",
+    "advancedWorkHint": "Work Desk and sales CRM on your tenant host use the same account. Open them when you need full ERP or pipeline tools.",
     "openWorkDesk": "Open Work Desk",
-    "openInCrm": "Open CRM"
+    "openSalesCrm": "Open sales CRM"
   },
   "meta": {
     "productRepo": "core-platform",
