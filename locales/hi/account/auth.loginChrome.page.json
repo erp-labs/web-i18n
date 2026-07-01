@@ -1,0 +1,25 @@
+{
+  "pageId": "account.auth.loginChrome",
+  "surface": "account",
+  "route": "/login",
+  "version": 1,
+  "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000002",
+  "keys": {
+    "newToPlatform": "मंच पर नए हैं?",
+    "signUp": "साइन अप करें",
+    "forgotPassword": "पासवर्ड भूल गए",
+    "backToLogin": "लॉगिन पर वापस जाएं",
+    "loadingOnboarding": "ऑनबोर्डिंग लोड हो रही है",
+    "signingYouIn": "आपको साइन इन किया जा रहा है",
+    "backToTrialLink": "{host} परीक्षण पर वापस जाएँ",
+    "continueWithGoogle": "Google के साथ जारी रखें",
+    "comingSoon": "जल्द आ रहा है"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /login",
+    "githubPath": "account/auth.loginChrome.page.json",
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
+  }
+}

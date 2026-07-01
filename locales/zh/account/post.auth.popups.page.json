@@ -1,0 +1,27 @@
+{
+  "pageId": "account.post.auth.popups",
+  "surface": "account",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:ea1343b49798d9e547a40c4f5854d94f73e8f7f0711c257a21e3c2f969a18b2d",
+  "keys": {
+    "session_invalid_title": "会话无效或已过期",
+    "session_invalid_body": "无法验证您的登录会话。请重新登录。",
+    "auth_service_misconfigured_title": "登录服务暂时不可用",
+    "auth_service_misconfigured_body": "由于服务配置问题，无法验证您的登录。请在隐私浏览窗口中重试，或先从员工应用（app.vouus.com）退出登录。",
+    "onboarding_continue_title": "完成工作区设置",
+    "onboarding_continue_body": "添加公司信息并完成启动步骤以激活工作区。",
+    "unregistered_admin_title": "账户未注册",
+    "unregistered_admin_body": "此邮箱未注册管理员登录。请访问我们的网站开始使用。",
+    "trial_onboarding_title": "继续入驻引导",
+    "trial_onboarding_body": "完善公司资料以设置工作区。",
+    "primaryOk": "确定"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web null",
+    "githubPath": "account/post.auth.popups.page.json",
+    "translationStatus": "reviewed",
+    "method": "login-funnel-i18n"
+  }
+}

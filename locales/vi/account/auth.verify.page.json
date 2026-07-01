@@ -1,23 +1,31 @@
 {
   "pageId": "account.auth.verify",
   "surface": "account",
-  "route": "/signup/verify",
-  "version": 1,
+  "route": "/login/verify",
+  "version": 2,
   "sourceHash": "sha256:d99e1c700de571c41953cbd91e31d58db2a680c883620e8c67362e781b6e86c7",
   "keys": {
-    "title": "Xác minh danh tính",
-    "intro": "Vui lòng nhập mã một lần đã gửi đến email để tiếp tục.",
-    "emailPrefix": "Email:",
-    "sendUncertainBanner": "Chúng tôi không thể xác nhận đã gửi, nhưng email xác minh có thể đã có trong hộp thư. Nhập mã mới nhất bên dưới.",
+    "title": "Xác minh danh tính của bạn",
+    "intro": "Vui lòng nhập mã một lần được gửi đến email của bạn để tiếp tục.",
+    "emailPrefix": "E-mail:",
+    "sendUncertainBanner": "Chúng tôi không thể xác nhận việc gửi nhưng email xác minh có thể đã có trong hộp thư đến của bạn. Nhập mã mới nhất bên dưới.",
     "verify": "Xác minh",
     "verifying": "Đang xác minh…",
-    "loading": "Đang tải…"
+    "loading": "Đang tải…",
+    "confirming": "Đang xác nhận…",
+    "resendCode": "Gửi lại mã",
+    "resendCodeIn": "Gửi lại mã trong",
+    "digitAriaLabel": "Chữ số {n} của 6",
+    "verificationCodeField": "Mã xác minh",
+    "verificationField": "Xác minh",
+    "invalidCredentials": "Email hoặc mật khẩu không hợp lệ. Vui lòng thử lại.",
+    "goToWebsite": "Tới trang web"
   },
   "meta": {
     "productRepo": "core-platform",
-    "sourcePath": "apps/admin-web /signup/verify",
+    "sourcePath": "apps/admin-web /login/verify",
     "githubPath": "account/auth.verify.page.json",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
   }
 }

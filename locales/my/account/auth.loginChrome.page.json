@@ -1,0 +1,25 @@
+{
+  "pageId": "account.auth.loginChrome",
+  "surface": "account",
+  "route": "/login",
+  "version": 1,
+  "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000002",
+  "keys": {
+    "newToPlatform": "ပလက်ဖောင်းအတွက် အသစ်လား။",
+    "signUp": "ဆိုင်းအပ်",
+    "forgotPassword": "စကားဝှက်မေ့နေပါသလား",
+    "backToLogin": "လော့ဂ်အင်သို့ ပြန်သွားရန်",
+    "loadingOnboarding": "စတင်ဝင်ရောက်ခြင်းကို တင်ပေးနေသည်။",
+    "signingYouIn": "အကောင့်ဝင်ပါ။",
+    "backToTrialLink": "အစမ်းသုံး {host} သို့ ပြန်သွားရန်",
+    "continueWithGoogle": "Google ဖြင့် ဆက်ရန်",
+    "comingSoon": "မကြာမီလာမည်"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /login",
+    "githubPath": "account/auth.loginChrome.page.json",
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
+  }
+}

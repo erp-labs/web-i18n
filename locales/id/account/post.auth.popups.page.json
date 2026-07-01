@@ -1,0 +1,27 @@
+{
+  "pageId": "account.post.auth.popups",
+  "surface": "account",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:ea1343b49798d9e547a40c4f5854d94f73e8f7f0711c257a21e3c2f969a18b2d",
+  "keys": {
+    "session_invalid_title": "Sesi tidak valid atau kedaluwarsa",
+    "session_invalid_body": "Sesi login Anda tidak dapat diverifikasi. Silakan masuk lagi.",
+    "auth_service_misconfigured_title": "Layanan masuk untuk sementara tidak tersedia",
+    "auth_service_misconfigured_body": "Proses masuk Anda tidak dapat diverifikasi karena masalah konfigurasi layanan. Coba lagi di jendela browser pribadi, atau keluar dari aplikasi karyawan (app.vouus.com) terlebih dahulu.",
+    "onboarding_continue_title": "Selesaikan pengaturan ruang kerja Anda",
+    "onboarding_continue_body": "Tambahkan detail perusahaan Anda dan selesaikan langkah peluncuran untuk mengaktifkan ruang kerja Anda.",
+    "unregistered_admin_title": "Akun tidak terdaftar",
+    "unregistered_admin_body": "Email ini tidak terdaftar untuk login admin. Kunjungi situs web kami untuk memulai.",
+    "trial_onboarding_title": "Lanjutkan orientasi",
+    "trial_onboarding_body": "Lengkapi profil perusahaan Anda untuk menyiapkan ruang kerja Anda.",
+    "primaryOk": "OKE"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web null",
+    "githubPath": "account/post.auth.popups.page.json",
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
+  }
+}

@@ -7,7 +7,7 @@
   "keys": {
     "path": "/docs",
     "meta_title": "Documentation",
-    "meta_description": "Product documentation and developer resources."
+    "meta_description": "Product documentation နှင့် developer resources။"
   },
   "meta": {
     "productRepo": "infra-control-plane",

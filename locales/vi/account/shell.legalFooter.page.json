@@ -1,0 +1,24 @@
+{
+  "pageId": "account.shell.legalFooter",
+  "surface": "account",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000005",
+  "keys": {
+    "support": "Ủng hộ",
+    "copyright": "© 2026 {wordmark}. Mọi quyền được bảo lưu.",
+    "termsOfService": "Điều khoản dịch vụ",
+    "privacyPolicy": "Chính sách bảo mật",
+    "cookiePolicy": "Chính sách cookie",
+    "dataProcessingAgreement": "Thỏa thuận xử lý dữ liệu",
+    "serviceLevelAgreement": "Thỏa thuận cấp độ dịch vụ",
+    "responsibleUsePolicy": "Chính sách sử dụng có trách nhiệm"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web AdminLegalFooter",
+    "githubPath": "account/shell.legalFooter.page.json",
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
+  }
+}

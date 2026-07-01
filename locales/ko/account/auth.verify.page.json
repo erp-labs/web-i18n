@@ -1,23 +1,31 @@
 {
   "pageId": "account.auth.verify",
   "surface": "account",
-  "route": "/signup/verify",
-  "version": 1,
+  "route": "/login/verify",
+  "version": 2,
   "sourceHash": "sha256:d99e1c700de571c41953cbd91e31d58db2a680c883620e8c67362e781b6e86c7",
   "keys": {
     "title": "본인 인증",
-    "intro": "계속하려면 이메일로 전송된 일회용 코드를 입력하세요.",
+    "intro": "계속하려면 이메일로 전송된 일회용 코드를 입력해 주세요.",
     "emailPrefix": "이메일:",
-    "sendUncertainBanner": "전송 여부를 확인할 수 없지만, 인증 이메일이 이미 받은편지함에 있을 수 있습니다. 아래에 최신 코드를 입력하세요.",
+    "sendUncertainBanner": "전송 여부를 확인할 수 없지만, 인증 이메일이 이미 받은편지함에 있을 수 있습니다. 아래에 최신 코드를 입력해 주세요.",
     "verify": "확인",
     "verifying": "확인 중…",
-    "loading": "로딩 중…"
+    "loading": "로딩 중…",
+    "confirming": "확인 중…",
+    "resendCode": "코드 다시 보내기",
+    "resendCodeIn": "코드 다시 보내기까지",
+    "digitAriaLabel": "6자리 중 {n}번째",
+    "verificationCodeField": "인증 코드",
+    "verificationField": "인증",
+    "invalidCredentials": "이메일 또는 비밀번호가 올바르지 않습니다. 다시 시도해 주세요.",
+    "goToWebsite": "웹사이트로 이동"
   },
   "meta": {
     "productRepo": "core-platform",
-    "sourcePath": "apps/admin-web /signup/verify",
+    "sourcePath": "apps/admin-web /login/verify",
     "githubPath": "account/auth.verify.page.json",
     "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "method": "login-funnel-i18n"
   }
 }

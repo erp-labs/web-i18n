@@ -6,8 +6,8 @@
   "sourceHash": "sha256:e59b0a2a86051f6dd2a370d3470b4cad133d9e508217929df8eaf48fcdc1dd8a",
   "keys": {
     "path": "/blog/how-to-choose-an-erp-for-smes",
-    "meta_title": "How to Choose the Right ERP for a Growing SME",
-    "meta_description": "Most ERP evaluation checklists focus on features. The real question is whether the system fits how your team actually works."
+    "meta_title": "Growing SME အတွက် ERP ဘယ်လိုရွေးမလဲ",
+    "meta_description": "ERP evaluation checklists များစွာက features ကို focus လုပ်သည်။ အဓိကမေးခွန်းက system က team ရဲ့ actual workflow နဲ့ match ဖြစ်မဖြစ်။"
   },
   "meta": {
     "productRepo": "infra-control-plane",

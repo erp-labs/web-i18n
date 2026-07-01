@@ -1,8 +1,8 @@
 {
   "pageId": "account.auth.signin",
   "surface": "account",
-  "route": "/sign-in",
-  "version": 1,
+  "route": "/login",
+  "version": 2,
   "sourceHash": "sha256:61a538e2f390109a5e1ce43ddfcc944d3bd23f704f3d8bb1f2b5096c56b96f77",
   "keys": {
     "title": "Masuk",
@@ -14,20 +14,39 @@
     "descriptionPackageFunnel": "Masuk atau buat akun untuk melanjutkan pembayaran.",
     "descriptionPortalPassword": "Masukkan email Anda. Kami akan mengirimkan kode verifikasi, kemudian Anda dapat membuat kata sandi administrator layanan Anda.",
     "descriptionLoginGate": "Masuk dengan email dan kata sandi Anda. Kami akan mengirimkan kode verifikasi melalui email selanjutnya.",
-    "submit": "Continue",
+    "submit": "Melanjutkan",
     "submitLogin": "Masuk",
     "submitSendCode": "Kirim kode verifikasi",
     "submitting": "Mengirim…",
     "submittingLogin": "Masuk…",
     "submittingVerify": "Memverifikasi…",
-    "emailLabel": "Email alamat",
-    "passwordLabel": "Password"
+    "emailLabel": "Alamat email",
+    "emailPlaceholder": "Alamat email",
+    "passwordLabel": "Kata sandi",
+    "passwordPlaceholder": "Kata sandi",
+    "emailLockedHint": "Alamat ini telah diverifikasi pada pregoi.com dan tidak dapat diubah di sini.",
+    "somethingWentWrong": "Ada yang tidak beres",
+    "signInFailed": "Gagal masuk",
+    "invalidCredentials": "Email atau kata sandi tidak valid. Silakan coba lagi.",
+    "enterPortalPassword": "Masukkan kata sandi administrator layanan Anda",
+    "socialDivider": "Atau lanjutkan dengan",
+    "singpassUnavailable": "Singpass tidak tersedia",
+    "singpassUnavailableBody": "Singpass tidak dikonfigurasi. Silakan gunakan verifikasi email atau hubungi dukungan.",
+    "goToWebsite": "Kunjungi situs web",
+    "verifyingTrialEmail": "Memverifikasi email uji coba Anda…",
+    "passwordResetSuccess": "Kata sandi administrator layanan Anda telah diperbarui. Masuk dengan kata sandi baru Anda.",
+    "packageFunnelSignedInIntro": "Anda masuk sebagai {email}. Lanjutkan ke pembayaran untuk paket pilihan Anda, atau gunakan akun lain.",
+    "continueToPayment": "Lanjutkan ke pembayaran",
+    "useDifferentAccount": "Gunakan akun lain",
+    "trialContinueTrial": "Lanjutkan dari uji coba {host} — masuk untuk memulai uji coba gratis 14 hari (tidak perlu pembayaran).",
+    "trialContinueFree": "Lanjutkan dari uji coba {host} — masuk untuk menyelesaikan orientasi paket gratis (tanpa pembayaran).",
+    "backToTrial": "Kembali ke uji coba {host}"
   },
   "meta": {
     "productRepo": "core-platform",
-    "sourcePath": "apps/admin-web /sign-in",
+    "sourcePath": "apps/admin-web /login",
     "githubPath": "account/auth.signin.page.json",
     "translationStatus": "ai_draft",
-    "method": "cursor-ai"
+    "method": "login-funnel-i18n"
   }
 }

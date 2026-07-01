@@ -1,0 +1,25 @@
+{
+  "pageId": "account.auth.loginChrome",
+  "surface": "account",
+  "route": "/login",
+  "version": 1,
+  "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000002",
+  "keys": {
+    "newToPlatform": "වේදිකාවට අලුත්ද?",
+    "signUp": "ලියාපදිංචි වන්න",
+    "forgotPassword": "මුරපදය අමතක වුණා ද",
+    "backToLogin": "නැවත පුරනය වීමට",
+    "loadingOnboarding": "ඇතුල්වීම පූරණය වේ",
+    "signingYouIn": "ඔබව පුරනය කරමින්",
+    "backToTrialLink": "{host} අත්හදා බැලීම වෙත ආපසු",
+    "continueWithGoogle": "Google සමඟ ඉදිරියට යන්න",
+    "comingSoon": "ඉක්මණින් පැමිණෙන"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /login",
+    "githubPath": "account/auth.loginChrome.page.json",
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
+  }
+}

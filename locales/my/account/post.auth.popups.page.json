@@ -1,0 +1,27 @@
+{
+  "pageId": "account.post.auth.popups",
+  "surface": "account",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:ea1343b49798d9e547a40c4f5854d94f73e8f7f0711c257a21e3c2f969a18b2d",
+  "keys": {
+    "session_invalid_title": "စက်ရှင် မမှန်ကန်ပါ သို့မဟုတ် သက်တမ်းကုန်သွားပါပြီ။",
+    "session_invalid_body": "သင်၏ အကောင့်ဝင်ခြင်းကဏ္ဍကို အတည်မပြုနိုင်ပါ။ ကျေးဇူးပြု၍ ထပ်မံဝင်ရောက်ပါ။",
+    "auth_service_misconfigured_title": "အကောင့်ဝင်ခြင်းဝန်ဆောင်မှုကို ခေတ္တမရနိုင်ပါ။",
+    "auth_service_misconfigured_body": "ဝန်ဆောင်မှုဖွဲ့စည်းပုံစနစ်ပြဿနာကြောင့် သင့်အကောင့်ဝင်ခြင်းကို အတည်မပြုနိုင်ပါ။ သီးသန့်ဘရောက်ဆာဝင်းဒိုးတွင် ထပ်စမ်းကြည့်ပါ သို့မဟုတ် ဝန်ထမ်းအက်ပ် (app.vouus.com) မှ ဦးစွာ ထွက်ပါ။",
+    "onboarding_continue_title": "သင့်လုပ်ငန်းခွင်စဖွင့်သတ်မှတ်မှုကို အပြီးသတ်ပါ။",
+    "onboarding_continue_body": "သင့်လုပ်ငန်းခွင်ကို စတင်အသုံးပြုရန် သင့်ကုမ္ပဏီအသေးစိတ်အချက်အလက်များကို ပေါင်းထည့်ကာ စတင်ခြင်းအဆင့်များကို အပြီးသတ်ပါ။",
+    "unregistered_admin_title": "အကောင့်စာရင်းမသွင်းရသေးပါ။",
+    "unregistered_admin_body": "စီမံခန့်ခွဲသူဝင်ရောက်ရန်အတွက် ဤအီးမေးလ်ကို မှတ်ပုံတင်ထားခြင်းမရှိပါ။ စတင်ရန် ကျွန်ုပ်တို့၏ဝဘ်ဆိုဒ်သို့ ဝင်ကြည့်ပါ။",
+    "trial_onboarding_title": "ဆက်လက်လုပ်ဆောင်ပါ။",
+    "trial_onboarding_body": "သင့်လုပ်ငန်းခွင်ကို သတ်မှတ်ရန် သင့်ကုမ္ပဏီပရိုဖိုင်ကို ဖြည့်စွက်ပါ။",
+    "primaryOk": "အိုကေ"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web null",
+    "githubPath": "account/post.auth.popups.page.json",
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
+  }
+}

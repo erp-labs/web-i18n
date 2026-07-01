@@ -6,8 +6,8 @@
   "sourceHash": "sha256:87e1ed391826aec0d806cafa552edbe5e064e690462db5f33aaedbdbbf28dbfc",
   "keys": {
     "path": "/product/accounting",
-    "meta_title": "Finance Automation",
-    "meta_description": "Finance automation and reporting.",
+    "meta_title": "Автоматизация финансов",
+    "meta_description": "Автоматизация финансов и отчётность.",
     "hero_title": "Invoice to ledger—one chain",
     "hero_description": "{brand} connects billing, approvals, and accounting on one workflow spine—no swivel-chair re-entry."
   },

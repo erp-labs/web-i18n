@@ -1,0 +1,25 @@
+{
+  "pageId": "account.auth.loginChrome",
+  "surface": "account",
+  "route": "/login",
+  "version": 1,
+  "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000002",
+  "keys": {
+    "newToPlatform": "首次使用本平台？",
+    "signUp": "注册",
+    "forgotPassword": "忘记密码",
+    "backToLogin": "返回登录",
+    "loadingOnboarding": "正在加载入驻引导",
+    "signingYouIn": "正在登录",
+    "backToTrialLink": "返回 {host} 试用",
+    "continueWithGoogle": "使用 Google 继续",
+    "comingSoon": "即将推出"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /login",
+    "githubPath": "account/auth.loginChrome.page.json",
+    "translationStatus": "reviewed",
+    "method": "login-funnel-i18n"
+  }
+}

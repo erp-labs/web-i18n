@@ -6,8 +6,8 @@
   "sourceHash": "sha256:e59b0a2a86051f6dd2a370d3470b4cad133d9e508217929df8eaf48fcdc1dd8a",
   "keys": {
     "path": "/blog/how-to-choose-an-erp-for-smes",
-    "meta_title": "How to Choose the Right ERP for a Growing SME",
-    "meta_description": "Most ERP evaluation checklists focus on features. The real question is whether the system fits how your team actually works."
+    "meta_title": "Как выбрать ERP для растущего МСБ",
+    "meta_description": "Большинство чек-листов ERP фокусируются на функциях. Главный вопрос — подходит ли система тому, как команда реально работает."
   },
   "meta": {
     "productRepo": "infra-control-plane",

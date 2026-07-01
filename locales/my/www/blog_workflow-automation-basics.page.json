@@ -7,7 +7,7 @@
   "keys": {
     "path": "/blog/workflow-automation-basics",
     "meta_title": "Workflow Automation Basics",
-    "meta_description": "Triggers, conditions, and actions for business workflows."
+    "meta_description": "Business workflows အတွက် triggers၊ conditions နှင့် actions။"
   },
   "meta": {
     "productRepo": "infra-control-plane",

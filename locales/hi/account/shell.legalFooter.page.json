@@ -1,0 +1,24 @@
+{
+  "pageId": "account.shell.legalFooter",
+  "surface": "account",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000005",
+  "keys": {
+    "support": "सहायता",
+    "copyright": "© 2026 {wordmark}. सर्वाधिकार सुरक्षित।",
+    "termsOfService": "सेवा की शर्तें",
+    "privacyPolicy": "गोपनीयता नीति",
+    "cookiePolicy": "कूकी नीति",
+    "dataProcessingAgreement": "डाटा प्रोसेसिंग समझौता",
+    "serviceLevelAgreement": "सेवा स्तर समझौता",
+    "responsibleUsePolicy": "जिम्मेदार उपयोग नीति"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web AdminLegalFooter",
+    "githubPath": "account/shell.legalFooter.page.json",
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
+  }
+}

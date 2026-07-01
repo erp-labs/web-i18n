@@ -1,0 +1,28 @@
+{
+  "pageId": "account.auth.oauthErrors",
+  "surface": "account",
+  "route": "/login",
+  "version": 1,
+  "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000004",
+  "keys": {
+    "social_auth_disabled": "Google 登录暂不可用。请使用邮箱验证继续。",
+    "google_not_configured": "Google 登录当前不可用。请使用邮箱验证继续。",
+    "oauth_config": "登录暂时不可用。请稍后重试或使用邮箱验证。",
+    "invalid_state": "登录会话已过期。请重新尝试 Google 登录。",
+    "missing_code": "Google 未返回授权码。请重试。",
+    "token_exchange": "无法完成 Google 登录。请重试或使用邮箱验证。",
+    "no_access_token": "Google 登录未返回令牌。请重试。",
+    "zuplo_session": "无法创建会话。请重试或使用邮箱验证。",
+    "no_jwt": "认证服务返回无效响应。请联系支持。",
+    "access_denied": "Google 登录已取消。",
+    "signInFailedGeneric": "登录失败。请重试或使用邮箱验证。",
+    "signInFailedWithCode": "登录失败（{code}）。请重试或使用邮箱验证。"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /login",
+    "githubPath": "account/auth.oauthErrors.page.json",
+    "translationStatus": "reviewed",
+    "method": "login-funnel-i18n"
+  }
+}

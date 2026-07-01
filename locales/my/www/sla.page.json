@@ -7,7 +7,7 @@
   "keys": {
     "path": "/sla",
     "meta_title": "Service Level Agreement",
-    "meta_description": "Service level agreement.",
+    "meta_description": "SLA နှင့် service availability။",
     "page_title": "Service Level Agreement (SLA)",
     "sla01_title": "1. Introduction",
     "sla01_p0": "This Service Level Agreement (\"SLA\") describes service availability and support policies for the {brand} platform provided by iPrego Pte. Ltd., Singapore.",

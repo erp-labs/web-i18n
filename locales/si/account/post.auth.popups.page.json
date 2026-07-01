@@ -1,0 +1,27 @@
+{
+  "pageId": "account.post.auth.popups",
+  "surface": "account",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:ea1343b49798d9e547a40c4f5854d94f73e8f7f0711c257a21e3c2f969a18b2d",
+  "keys": {
+    "session_invalid_title": "සැසිය වලංගු නැත හෝ කල් ඉකුත් වී ඇත",
+    "session_invalid_body": "ඔබගේ පිවිසුම් සැසිය සත්‍යාපනය කළ නොහැක. කරුණාකර නැවත පුරනය වන්න.",
+    "auth_service_misconfigured_title": "පුරනය වීමේ සේවාව තාවකාලිකව නොමැත",
+    "auth_service_misconfigured_body": "සේවා වින්‍යාස කිරීමේ ගැටලුවක් හේතුවෙන් ඔබගේ පුරනය වීම සත්‍යාපනය කළ නොහැක. පුද්ගලික බ්‍රවුසර කවුළුවකින් නැවත උත්සාහ කරන්න, නැතහොත් පළමුව සේවක යෙදුමෙන් (app.vouus.com) වරන්න.",
+    "onboarding_continue_title": "ඔබගේ වැඩබිම් සැකසුම සම්පූර්ණ කරන්න",
+    "onboarding_continue_body": "ඔබේ සේවා ස්ථානය සක්‍රිය කිරීමට ඔබේ සමාගම් විස්තර එකතු කර දියත් කිරීමේ පියවර අවසන් කරන්න.",
+    "unregistered_admin_title": "ගිණුම ලියාපදිංචි කර නැත",
+    "unregistered_admin_body": "මෙම විද්‍යුත් තැපෑල පරිපාලක පුරනය සඳහා ලියාපදිංචි වී නොමැත. ආරම්භ කිරීමට අපගේ වෙබ් අඩවියට පිවිසෙන්න.",
+    "trial_onboarding_title": "ඇතුල්වීම දිගටම කරගෙන යන්න",
+    "trial_onboarding_body": "ඔබේ වැඩබිම සැකසීමට ඔබේ සමාගම් පැතිකඩ සම්පූර්ණ කරන්න.",
+    "primaryOk": "හරි"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web null",
+    "githubPath": "account/post.auth.popups.page.json",
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
+  }
+}

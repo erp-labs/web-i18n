@@ -1,8 +1,8 @@
 {
   "pageId": "account.auth.signin",
   "surface": "account",
-  "route": "/sign-in",
-  "version": 1,
+  "route": "/login",
+  "version": 2,
   "sourceHash": "sha256:61a538e2f390109a5e1ce43ddfcc944d3bd23f704f3d8bb1f2b5096c56b96f77",
   "keys": {
     "title": "Sign in",
@@ -21,11 +21,30 @@
     "submittingLogin": "Logging in…",
     "submittingVerify": "Verifying…",
     "emailLabel": "Email address",
-    "passwordLabel": "Password"
+    "emailPlaceholder": "Email address",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Password",
+    "emailLockedHint": "This address was verified on pregoi.com and cannot be changed here.",
+    "somethingWentWrong": "Something went wrong",
+    "signInFailed": "Sign-in failed",
+    "invalidCredentials": "Invalid email or password. Please try again.",
+    "enterPortalPassword": "Enter your service administrator password",
+    "socialDivider": "Or continue with",
+    "singpassUnavailable": "Singpass unavailable",
+    "singpassUnavailableBody": "Singpass is not configured. Please use email verification or contact support.",
+    "goToWebsite": "Go to website",
+    "verifyingTrialEmail": "Verifying your trial email…",
+    "passwordResetSuccess": "Your service administrator password was updated. Sign in with your new password.",
+    "packageFunnelSignedInIntro": "You're signed in as {email}. Continue to payment for your selected plan, or use a different account.",
+    "continueToPayment": "Continue to payment",
+    "useDifferentAccount": "Use a different account",
+    "trialContinueTrial": "Continue from the {host} trial — sign in to start your 14-day free trial (no payment required).",
+    "trialContinueFree": "Continue from the {host} trial — sign in to finish free-plan onboarding (no payment).",
+    "backToTrial": "Back to {host} trial"
   },
   "meta": {
     "productRepo": "core-platform",
-    "sourcePath": "apps/admin-web /sign-in",
+    "sourcePath": "apps/admin-web /login",
     "githubPath": "account/auth.signin.page.json"
   }
 }

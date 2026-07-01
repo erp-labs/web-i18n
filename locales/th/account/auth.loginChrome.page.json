@@ -1,0 +1,25 @@
+{
+  "pageId": "account.auth.loginChrome",
+  "surface": "account",
+  "route": "/login",
+  "version": 1,
+  "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000002",
+  "keys": {
+    "newToPlatform": "ยังใหม่กับแพลตฟอร์มใช่ไหม?",
+    "signUp": "ลงทะเบียน",
+    "forgotPassword": "ลืมรหัสผ่าน",
+    "backToLogin": "กลับไปเข้าสู่ระบบ",
+    "loadingOnboarding": "กำลังโหลดการเริ่มต้นใช้งาน",
+    "signingYouIn": "กำลังลงชื่อเข้าใช้ให้คุณ",
+    "backToTrialLink": "กลับไปที่การทดลองใช้ {host}",
+    "continueWithGoogle": "ต่อด้วย Google",
+    "comingSoon": "เร็วๆ นี้"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /login",
+    "githubPath": "account/auth.loginChrome.page.json",
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
+  }
+}

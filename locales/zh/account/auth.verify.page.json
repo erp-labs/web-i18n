@@ -1,23 +1,31 @@
 {
   "pageId": "account.auth.verify",
   "surface": "account",
-  "route": "/signup/verify",
-  "version": 1,
+  "route": "/login/verify",
+  "version": 2,
   "sourceHash": "sha256:d99e1c700de571c41953cbd91e31d58db2a680c883620e8c67362e781b6e86c7",
   "keys": {
-    "title": "验证您的身份",
-    "intro": "请输入发送至您邮箱的一次性验证码以继续。",
+    "title": "验证身份",
+    "intro": "请输入发送到您邮箱的一次性验证码以继续。",
     "emailPrefix": "邮箱：",
-    "sendUncertainBanner": "我们无法确认是否送达，但验证邮件可能已在您的收件箱中。请在下方输入最新验证码。",
+    "sendUncertainBanner": "我们无法确认是否已送达，但验证邮件可能已在您的收件箱中。请在下方输入最新验证码。",
     "verify": "验证",
     "verifying": "验证中…",
-    "loading": "加载中…"
+    "loading": "加载中…",
+    "confirming": "确认中…",
+    "resendCode": "重新发送验证码",
+    "resendCodeIn": "重新发送验证码倒计时",
+    "digitAriaLabel": "6 位验证码第 {n} 位",
+    "verificationCodeField": "验证码",
+    "verificationField": "验证",
+    "invalidCredentials": "邮箱或密码无效，请重试。",
+    "goToWebsite": "前往网站"
   },
   "meta": {
     "productRepo": "core-platform",
-    "sourcePath": "apps/admin-web /signup/verify",
+    "sourcePath": "apps/admin-web /login/verify",
     "githubPath": "account/auth.verify.page.json",
     "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "method": "login-funnel-i18n"
   }
 }

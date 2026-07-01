@@ -1,8 +1,8 @@
 {
   "pageId": "account.auth.signin",
   "surface": "account",
-  "route": "/sign-in",
-  "version": 1,
+  "route": "/login",
+  "version": 2,
   "sourceHash": "sha256:61a538e2f390109a5e1ce43ddfcc944d3bd23f704f3d8bb1f2b5096c56b96f77",
   "keys": {
     "title": "ログイン",
@@ -21,13 +21,32 @@
     "submittingLogin": "ログイン中…",
     "submittingVerify": "確認中…",
     "emailLabel": "メールアドレス",
-    "passwordLabel": "パスワード"
+    "emailPlaceholder": "メールアドレス",
+    "passwordLabel": "パスワード",
+    "passwordPlaceholder": "パスワード",
+    "emailLockedHint": "このアドレスは pregoi.com で確認済みのため、ここでは変更できません。",
+    "somethingWentWrong": "問題が発生しました",
+    "signInFailed": "ログインに失敗しました",
+    "invalidCredentials": "メールアドレスまたはパスワードが正しくありません。もう一度お試しください。",
+    "enterPortalPassword": "サービス管理者パスワードを入力してください",
+    "socialDivider": "または次で続行",
+    "singpassUnavailable": "Singpass を利用できません",
+    "singpassUnavailableBody": "Singpass が設定されていません。メール確認を使用するか、サポートにお問い合わせください。",
+    "goToWebsite": "ウェブサイトへ",
+    "verifyingTrialEmail": "トライアルメールを確認中…",
+    "passwordResetSuccess": "サービス管理者パスワードが更新されました。新しいパスワードでログインしてください。",
+    "packageFunnelSignedInIntro": "{email} としてログインしています。選択したプランのお支払いに進むか、別のアカウントを使用してください。",
+    "continueToPayment": "お支払いに進む",
+    "useDifferentAccount": "別のアカウントを使用",
+    "trialContinueTrial": "{host} のトライアルから続行 — ログインして14日間の無料トライアルを開始（お支払い不要）。",
+    "trialContinueFree": "{host} のトライアルから続行 — ログインして無料プランのオンボーディングを完了（お支払い不要）。",
+    "backToTrial": "{host} のトライアルに戻る"
   },
   "meta": {
     "productRepo": "core-platform",
-    "sourcePath": "apps/admin-web /sign-in",
+    "sourcePath": "apps/admin-web /login",
     "githubPath": "account/auth.signin.page.json",
     "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "method": "login-funnel-i18n"
   }
 }

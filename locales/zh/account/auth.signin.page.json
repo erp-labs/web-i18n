@@ -1,8 +1,8 @@
 {
   "pageId": "account.auth.signin",
   "surface": "account",
-  "route": "/sign-in",
-  "version": 1,
+  "route": "/login",
+  "version": 2,
   "sourceHash": "sha256:61a538e2f390109a5e1ce43ddfcc944d3bd23f704f3d8bb1f2b5096c56b96f77",
   "keys": {
     "title": "登录",
@@ -21,13 +21,32 @@
     "submittingLogin": "登录中…",
     "submittingVerify": "验证中…",
     "emailLabel": "邮箱地址",
-    "passwordLabel": "密码"
+    "emailPlaceholder": "邮箱地址",
+    "passwordLabel": "密码",
+    "passwordPlaceholder": "密码",
+    "emailLockedHint": "此地址已在 pregoi.com 验证，无法在此更改。",
+    "somethingWentWrong": "出现问题",
+    "signInFailed": "登录失败",
+    "invalidCredentials": "邮箱或密码无效，请重试。",
+    "enterPortalPassword": "请输入服务管理员密码",
+    "socialDivider": "或使用以下方式继续",
+    "singpassUnavailable": "Singpass 不可用",
+    "singpassUnavailableBody": "Singpass 未配置。请使用邮箱验证或联系支持。",
+    "goToWebsite": "前往网站",
+    "verifyingTrialEmail": "正在验证试用邮箱…",
+    "passwordResetSuccess": "服务管理员密码已更新。请使用新密码登录。",
+    "packageFunnelSignedInIntro": "您已以 {email} 登录。继续为所选方案付款，或使用其他账户。",
+    "continueToPayment": "继续付款",
+    "useDifferentAccount": "使用其他账户",
+    "trialContinueTrial": "从 {host} 试用继续 — 登录以开始 14 天免费试用（无需付款）。",
+    "trialContinueFree": "从 {host} 试用继续 — 登录以完成免费方案入驻引导（无需付款）。",
+    "backToTrial": "返回 {host} 试用"
   },
   "meta": {
     "productRepo": "core-platform",
-    "sourcePath": "apps/admin-web /sign-in",
+    "sourcePath": "apps/admin-web /login",
     "githubPath": "account/auth.signin.page.json",
     "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "method": "login-funnel-i18n"
   }
 }

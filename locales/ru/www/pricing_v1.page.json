@@ -6,8 +6,8 @@
   "sourceHash": "sha256:bb388fb39c3d74b7536698a427428751818f71ff0a34172cb17168fbbcde0207",
   "keys": {
     "path": "/pricing/v1",
-    "meta_title": "Pricing (preview)",
-    "meta_description": "Internal pricing preview."
+    "meta_title": "Цены (предпросмотр)",
+    "meta_description": "Внутренний предпросмотр цен."
   },
   "meta": {
     "productRepo": "infra-control-plane",

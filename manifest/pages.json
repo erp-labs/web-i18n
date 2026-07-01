@@ -953,22 +953,72 @@
     {
       "pageId": "account.auth.signin",
       "surface": "account",
-      "route": "/sign-in",
-      "version": 1,
+      "route": "/login",
+      "version": 2,
       "sourceHash": "sha256:61a538e2f390109a5e1ce43ddfcc944d3bd23f704f3d8bb1f2b5096c56b96f77",
       "reviewRequired": false,
       "githubPath": "account/auth.signin.page.json",
-      "sourcePath": "apps/admin-web /sign-in"
+      "sourcePath": "apps/admin-web /login"
     },
     {
       "pageId": "account.auth.verify",
       "surface": "account",
-      "route": "/signup/verify",
-      "version": 1,
+      "route": "/login/verify",
+      "version": 2,
       "sourceHash": "sha256:d99e1c700de571c41953cbd91e31d58db2a680c883620e8c67362e781b6e86c7",
       "reviewRequired": false,
       "githubPath": "account/auth.verify.page.json",
-      "sourcePath": "apps/admin-web /signup/verify"
+      "sourcePath": "apps/admin-web /login/verify"
+    },
+    {
+      "pageId": "account.auth.password",
+      "surface": "account",
+      "route": "/login/password",
+      "version": 1,
+      "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000001",
+      "reviewRequired": false,
+      "githubPath": "account/auth.password.page.json",
+      "sourcePath": "apps/admin-web /login/set-password"
+    },
+    {
+      "pageId": "account.auth.loginChrome",
+      "surface": "account",
+      "route": "/login",
+      "version": 1,
+      "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000002",
+      "reviewRequired": false,
+      "githubPath": "account/auth.loginChrome.page.json",
+      "sourcePath": "apps/admin-web /login"
+    },
+    {
+      "pageId": "account.auth.forgotPassword",
+      "surface": "account",
+      "route": "/login",
+      "version": 1,
+      "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000003",
+      "reviewRequired": false,
+      "githubPath": "account/auth.forgotPassword.page.json",
+      "sourcePath": "apps/admin-web /login"
+    },
+    {
+      "pageId": "account.auth.oauthErrors",
+      "surface": "account",
+      "route": "/login",
+      "version": 1,
+      "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000004",
+      "reviewRequired": false,
+      "githubPath": "account/auth.oauthErrors.page.json",
+      "sourcePath": "apps/admin-web /login"
+    },
+    {
+      "pageId": "account.shell.legalFooter",
+      "surface": "account",
+      "route": null,
+      "version": 1,
+      "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000005",
+      "reviewRequired": false,
+      "githubPath": "account/shell.legalFooter.page.json",
+      "sourcePath": "apps/admin-web AdminLegalFooter"
     },
     {
       "pageId": "account.onboarding.company",

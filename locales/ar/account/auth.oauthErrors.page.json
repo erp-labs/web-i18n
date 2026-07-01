@@ -1,0 +1,28 @@
+{
+  "pageId": "account.auth.oauthErrors",
+  "surface": "account",
+  "route": "/login",
+  "version": 1,
+  "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000004",
+  "keys": {
+    "social_auth_disabled": "تسجيل الدخول Google غير متاح بعد. استخدم التحقق من البريد الإلكتروني للمتابعة.",
+    "google_not_configured": "تسجيل الدخول Google غير متاح الآن. استخدم التحقق من البريد الإلكتروني للمتابعة.",
+    "oauth_config": "تسجيل الدخول غير متاح مؤقتا. حاول مرة أخرى لاحقًا أو استخدم التحقق من البريد الإلكتروني.",
+    "invalid_state": "انتهت صلاحية جلسة تسجيل الدخول. الرجاء محاولة تسجيل الدخول Google مرة أخرى.",
+    "missing_code": "Google لم يُرجع رمز التفويض. يرجى المحاولة مرة أخرى.",
+    "token_exchange": "تعذر إكمال تسجيل الدخول باستخدام Google. حاول مرة أخرى أو استخدم التحقق من البريد الإلكتروني.",
+    "no_access_token": "لم يُرجع تسجيل الدخول إلى Google رمزًا مميزًا. يرجى المحاولة مرة أخرى.",
+    "zuplo_session": "تعذر إنشاء جلستك. حاول مرة أخرى أو استخدم التحقق من البريد الإلكتروني.",
+    "no_jwt": "قامت خدمة المصادقة بإرجاع استجابة غير صالحة. اتصل بالدعم.",
+    "access_denied": "تم إلغاء تسجيل الدخول إلى Google.",
+    "signInFailedGeneric": "فشل تسجيل الدخول. حاول مرة أخرى أو استخدم التحقق من البريد الإلكتروني.",
+    "signInFailedWithCode": "فشل تسجيل الدخول ({code}). حاول مرة أخرى أو استخدم التحقق من البريد الإلكتروني."
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /login",
+    "githubPath": "account/auth.oauthErrors.page.json",
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
+  }
+}

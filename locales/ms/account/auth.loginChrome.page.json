@@ -1,0 +1,25 @@
+{
+  "pageId": "account.auth.loginChrome",
+  "surface": "account",
+  "route": "/login",
+  "version": 1,
+  "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000002",
+  "keys": {
+    "newToPlatform": "Baru menggunakan platform?",
+    "signUp": "daftar",
+    "forgotPassword": "Terlupa kata laluan",
+    "backToLogin": "Kembali untuk log masuk",
+    "loadingOnboarding": "Memuatkan onboarding",
+    "signingYouIn": "Melog masuk anda",
+    "backToTrialLink": "Kembali ke percubaan {host}",
+    "continueWithGoogle": "Teruskan dengan Google",
+    "comingSoon": "Akan datang"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /login",
+    "githubPath": "account/auth.loginChrome.page.json",
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
+  }
+}

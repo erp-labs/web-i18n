@@ -1,0 +1,27 @@
+{
+  "pageId": "account.post.auth.popups",
+  "surface": "account",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:ea1343b49798d9e547a40c4f5854d94f73e8f7f0711c257a21e3c2f969a18b2d",
+  "keys": {
+    "session_invalid_title": "الجلسة غير صالحة أو منتهية الصلاحية",
+    "session_invalid_body": "لا يمكن التحقق من جلسة تسجيل الدخول الخاصة بك. الرجاء تسجيل الدخول مرة أخرى.",
+    "auth_service_misconfigured_title": "خدمة تسجيل الدخول غير متاحة مؤقتا",
+    "auth_service_misconfigured_body": "تعذر التحقق من تسجيل الدخول الخاص بك بسبب مشكلة في تكوين الخدمة. حاول مرة أخرى في نافذة متصفح خاصة، أو قم بتسجيل الخروج من تطبيق الموظف (app.vouus.com) أولاً.",
+    "onboarding_continue_title": "أكمل إعداد مساحة العمل الخاصة بك",
+    "onboarding_continue_body": "أضف تفاصيل شركتك وأكمل خطوات الإطلاق لتفعيل مساحة العمل الخاصة بك.",
+    "unregistered_admin_title": "الحساب غير مسجل",
+    "unregistered_admin_body": "هذا البريد الإلكتروني غير مسجل لتسجيل دخول المسؤول. قم بزيارة موقعنا على الانترنت للبدء.",
+    "trial_onboarding_title": "استمر في الإعداد",
+    "trial_onboarding_body": "أكمل الملف التعريفي لشركتك لإعداد مساحة العمل الخاصة بك.",
+    "primaryOk": "نعم"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web null",
+    "githubPath": "account/post.auth.popups.page.json",
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
+  }
+}

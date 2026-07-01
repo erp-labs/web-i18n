@@ -15,7 +15,7 @@ const PACKS = join(__dirname, 'translation-packs')
 const shellOverlays = JSON.parse(readFileSync(join(PACKS, 'www-shell-overlays.json'), 'utf8'))
 const heroCta = JSON.parse(readFileSync(join(PACKS, 'www-home-hero-cta.json'), 'utf8'))
 
-const HOME_EN_PATH = join(PATHS.locales, 'ru', 'www', 'home.page.json')
+const HOME_EN_PATH = join(PATHS.sourcesEn, 'www', 'home.page.json')
 
 function hashKeys(keys) {
   const sorted = Object.keys(keys)
@@ -31,12 +31,8 @@ function writeJson(path, data) {
 }
 
 function loadHomeEnKeys() {
-  const ruHome = JSON.parse(readFileSync(HOME_EN_PATH, 'utf8'))
-  return {
-    ...ruHome.keys,
-    hero_cta_primary: 'Start free trial',
-    hero_cta_secondary: 'See it in 15 min',
-  }
+  const homeEn = JSON.parse(readFileSync(HOME_EN_PATH, 'utf8'))
+  return { ...homeEn.keys }
 }
 
 function loadShellEnKeys() {

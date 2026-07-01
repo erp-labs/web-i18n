@@ -1,0 +1,27 @@
+{
+  "pageId": "account.post.auth.popups",
+  "surface": "account",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:ea1343b49798d9e547a40c4f5854d94f73e8f7f0711c257a21e3c2f969a18b2d",
+  "keys": {
+    "session_invalid_title": "Session invalid or expired",
+    "session_invalid_body": "Your login session could not be verified. Sila log masuk semula.",
+    "auth_service_misconfigured_title": "Perkhidmatan log masuk tidak tersedia buat sementara waktu",
+    "auth_service_misconfigured_body": "Log masuk anda tidak dapat disahkan kerana isu konfigurasi perkhidmatan. Try again in a private browser window, or sign out of the employee app (app.vouus.com) first.",
+    "onboarding_continue_title": "Lengkapkan persediaan ruang kerja anda",
+    "onboarding_continue_body": "Tambahkan butiran syarikat anda dan selesaikan langkah pelancaran untuk mengaktifkan ruang kerja anda.",
+    "unregistered_admin_title": "Akaun tidak didaftarkan",
+    "unregistered_admin_body": "E-mel ini tidak didaftarkan untuk log masuk pentadbir. Visit our website to get started.",
+    "trial_onboarding_title": "Teruskan onboarding",
+    "trial_onboarding_body": "Lengkapkan profil syarikat anda untuk menyediakan ruang kerja anda.",
+    "primaryOk": "OK"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web null",
+    "githubPath": "account/post.auth.popups.page.json",
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
+  }
+}

@@ -1,23 +1,31 @@
 {
   "pageId": "account.auth.verify",
   "surface": "account",
-  "route": "/signup/verify",
-  "version": 1,
+  "route": "/login/verify",
+  "version": 2,
   "sourceHash": "sha256:d99e1c700de571c41953cbd91e31d58db2a680c883620e8c67362e781b6e86c7",
   "keys": {
-    "title": "Verify your identity",
-    "intro": "Please enter the one-time code sent to your email to continue.",
-    "emailPrefix": "Email:",
-    "sendUncertainBanner": "We could not confirm delivery, but a verification email may already be in your inbox. Enter the latest code below.",
-    "verify": "Verify",
-    "verifying": "Verifying…",
-    "loading": "Loading…"
+    "title": "သင်၏အထောက်အထားကိုအတည်ပြုပါ။",
+    "intro": "ရှေ့ဆက်ရန် သင့်အီးမေးလ်သို့ ပေးပို့သည့် တစ်ကြိမ်ကုဒ်ကို ထည့်သွင်းပါ။",
+    "emailPrefix": "အီးမေးလ်-",
+    "sendUncertainBanner": "ပေးပို့မှုကို ကျွန်ုပ်တို့ အတည်မပြုနိုင်သော်လည်း အတည်ပြုအီးမေးလ်သည် သင့်ဝင်စာပုံးထဲတွင် ရှိနေပြီဖြစ်သည်။ အောက်တွင် နောက်ဆုံးကုဒ်ကို ထည့်ပါ။",
+    "verify": "စိစစ်ပါ။",
+    "verifying": "အတည်ပြုနေသည်…",
+    "loading": "ဖွင့်နေသည်…",
+    "confirming": "အတည်ပြုနေသည်…",
+    "resendCode": "ကုဒ်ပြန်ပို့ပါ။",
+    "resendCodeIn": "ကုဒ်ကို ပြန်ပို့ပါ။",
+    "digitAriaLabel": "6 ၏ ဂဏန်း {n}",
+    "verificationCodeField": "အတည်ပြုရန်ကုတ်",
+    "verificationField": "စိစစ်ခြင်း။",
+    "invalidCredentials": "မမှန်ကန်သော အီးမေးလ် သို့မဟုတ် စကားဝှက်။ ထပ်စမ်းကြည့်ပါ။",
+    "goToWebsite": "ဝဘ်ဆိုဒ်သို့သွားပါ။"
   },
   "meta": {
     "productRepo": "core-platform",
-    "sourcePath": "apps/admin-web /signup/verify",
+    "sourcePath": "apps/admin-web /login/verify",
     "githubPath": "account/auth.verify.page.json",
     "translationStatus": "ai_draft",
-    "method": "cursor-ai"
+    "method": "login-funnel-i18n"
   }
 }

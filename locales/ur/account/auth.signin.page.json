@@ -1,13 +1,13 @@
 {
   "pageId": "account.auth.signin",
   "surface": "account",
-  "route": "/sign-in",
-  "version": 3,
+  "route": "/login",
+  "version": 2,
   "sourceHash": "sha256:61a538e2f390109a5e1ce43ddfcc944d3bd23f704f3d8bb1f2b5096c56b96f77",
   "keys": {
     "title": "سائن ان کریں۔",
     "titleLogin": "لاگ ان کریں۔",
-    "titleGetStarted": "شروع کریں",
+    "titleGetStarted": "شروع کرو",
     "titlePortalPasswordSetup": "سروس ایڈمنسٹریٹر کا پاس ورڈ ترتیب دیں۔",
     "descriptionDefault": "اپنے ورک اسپیس کے لیے رجسٹرڈ ای میل کے ساتھ سائن ان کریں۔",
     "descriptionEmailLocked": "سائن ان کرنے کے لیے ہم اس پتے پر ایک تصدیقی کوڈ بھیجیں گے۔",
@@ -21,14 +21,32 @@
     "submittingLogin": "لاگ ان ہو رہا ہے…",
     "submittingVerify": "تصدیق ہو رہی ہے…",
     "emailLabel": "ای میل ایڈریس",
-    "passwordLabel": "پاس ورڈ"
+    "emailPlaceholder": "ای میل ایڈریس",
+    "passwordLabel": "پاس ورڈ",
+    "passwordPlaceholder": "پاس ورڈ",
+    "emailLockedHint": "یہ پتہ pregoi.com پر تصدیق شدہ تھا اور اسے یہاں تبدیل نہیں کیا جا سکتا۔",
+    "somethingWentWrong": "کچھ غلط ہو گیا۔",
+    "signInFailed": "سائن ان ناکام ہو گیا۔",
+    "invalidCredentials": "غلط ای میل یا پاس ورڈ۔ براہ کرم دوبارہ کوشش کریں۔",
+    "enterPortalPassword": "اپنا سروس ایڈمنسٹریٹر پاس ورڈ درج کریں۔",
+    "socialDivider": "یا جاری رکھیں",
+    "singpassUnavailable": "Singpass دستیاب نہیں ہے۔",
+    "singpassUnavailableBody": "Singpass کنفیگر نہیں ہے۔ براہ کرم ای میل کی توثیق کا استعمال کریں یا سپورٹ سے رابطہ کریں۔",
+    "goToWebsite": "ویب سائٹ پر جائیں۔",
+    "verifyingTrialEmail": "آپ کے ٹرائل ای میل کی توثیق ہو رہی ہے…",
+    "passwordResetSuccess": "آپ کے سروس ایڈمنسٹریٹر کا پاس ورڈ اپ ڈیٹ کر دیا گیا تھا۔ اپنے نئے پاس ورڈ کے ساتھ سائن ان کریں۔",
+    "packageFunnelSignedInIntro": "آپ {email} کے بطور سائن ان ہیں۔ اپنے منتخب کردہ پلان کی ادائیگی جاری رکھیں، یا کوئی مختلف اکاؤنٹ استعمال کریں۔",
+    "continueToPayment": "ادائیگی جاری رکھیں",
+    "useDifferentAccount": "ایک مختلف اکاؤنٹ استعمال کریں۔",
+    "trialContinueTrial": "{host} ٹرائل سے جاری رکھیں — اپنا 14 دن کا مفت ٹرائل شروع کرنے کے لیے سائن ان کریں (کوئی ادائیگی کی ضرورت نہیں)۔",
+    "trialContinueFree": "{host} ٹرائل سے جاری رکھیں — مفت-پلان آن بورڈنگ کو مکمل کرنے کے لیے سائن ان کریں (کوئی ادائیگی نہیں)۔",
+    "backToTrial": "{host} ٹرائل پر واپس جائیں۔"
   },
   "meta": {
     "productRepo": "core-platform",
-    "sourcePath": "apps/admin-web /sign-in",
+    "sourcePath": "apps/admin-web /login",
     "githubPath": "account/auth.signin.page.json",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai",
-    "reviewedAt": "2026-06-30"
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
   }
 }

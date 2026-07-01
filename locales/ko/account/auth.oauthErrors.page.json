@@ -1,0 +1,28 @@
+{
+  "pageId": "account.auth.oauthErrors",
+  "surface": "account",
+  "route": "/login",
+  "version": 1,
+  "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000004",
+  "keys": {
+    "social_auth_disabled": "Google 로그인은 아직 사용할 수 없습니다. 이메일 인증을 사용하여 계속해 주세요.",
+    "google_not_configured": "Google 로그인을 지금 사용할 수 없습니다. 이메일 인증을 사용하여 계속해 주세요.",
+    "oauth_config": "로그인을 일시적으로 사용할 수 없습니다. 나중에 다시 시도하거나 이메일 인증을 사용해 주세요.",
+    "invalid_state": "로그인 세션이 만료되었습니다. Google 로그인을 다시 시도해 주세요.",
+    "missing_code": "Google에서 인증 코드를 반환하지 않았습니다. 다시 시도해 주세요.",
+    "token_exchange": "Google 로그인을 완료할 수 없습니다. 다시 시도하거나 이메일 인증을 사용해 주세요.",
+    "no_access_token": "Google 로그인에서 토큰을 반환하지 않았습니다. 다시 시도해 주세요.",
+    "zuplo_session": "세션을 만들 수 없습니다. 다시 시도하거나 이메일 인증을 사용해 주세요.",
+    "no_jwt": "인증 서비스에서 잘못된 응답을 반환했습니다. 지원팀에 문의해 주세요.",
+    "access_denied": "Google 로그인이 취소되었습니다.",
+    "signInFailedGeneric": "로그인에 실패했습니다. 다시 시도하거나 이메일 인증을 사용해 주세요.",
+    "signInFailedWithCode": "로그인에 실패했습니다({code}). 다시 시도하거나 이메일 인증을 사용해 주세요."
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /login",
+    "githubPath": "account/auth.oauthErrors.page.json",
+    "translationStatus": "reviewed",
+    "method": "login-funnel-i18n"
+  }
+}

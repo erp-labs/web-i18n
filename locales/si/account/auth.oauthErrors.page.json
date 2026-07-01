@@ -1,0 +1,28 @@
+{
+  "pageId": "account.auth.oauthErrors",
+  "surface": "account",
+  "route": "/login",
+  "version": 1,
+  "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000004",
+  "keys": {
+    "social_auth_disabled": "Google පුරනය වීම තවමත් නොමැත. ඉදිරියට යාමට ඊමේල් සත්‍යාපනය භාවිතා කරන්න.",
+    "google_not_configured": "Google පුරනය වීම දැන් නොමැත. ඉදිරියට යාමට ඊමේල් සත්‍යාපනය භාවිතා කරන්න.",
+    "oauth_config": "පුරනය වීම තාවකාලිකව නොමැත. පසුව නැවත උත්සාහ කරන්න හෝ ඊමේල් සත්‍යාපනය භාවිතා කරන්න.",
+    "invalid_state": "පුරනය වීමේ සැසිය කල් ඉකුත් විය. කරුණාකර නැවත Google පුරනය වීමට උත්සාහ කරන්න.",
+    "missing_code": "Google අවසර කේතයක් ආපසු ලබා දුන්නේ නැත. කරුණාකර නැවත උත්සාහ කරන්න.",
+    "token_exchange": "Google සමඟින් පුරනය වීම සම්පූර්ණ කළ නොහැක. නැවත උත්සාහ කරන්න හෝ ඊමේල් සත්‍යාපනය භාවිතා කරන්න.",
+    "no_access_token": "Google පුරනය වීම ටෝකනයක් ආපසු ලබා දුන්නේ නැත. කරුණාකර නැවත උත්සාහ කරන්න.",
+    "zuplo_session": "ඔබගේ සැසිය තැනීමට නොහැකි විය. නැවත උත්සාහ කරන්න හෝ ඊමේල් සත්‍යාපනය භාවිතා කරන්න.",
+    "no_jwt": "සත්‍යාපන සේවාව අවලංගු ප්‍රතිචාරයක් ලබා දුන්නේය. සහාය අමතන්න.",
+    "access_denied": "Google පුරනය වීම අවලංගු විය.",
+    "signInFailedGeneric": "පුරනය වීම අසාර්ථක විය. නැවත උත්සාහ කරන්න හෝ ඊමේල් සත්‍යාපනය භාවිතා කරන්න.",
+    "signInFailedWithCode": "පුරනය වීම අසාර්ථක විය ({code}). නැවත උත්සාහ කරන්න හෝ ඊමේල් සත්‍යාපනය භාවිතා කරන්න."
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web /login",
+    "githubPath": "account/auth.oauthErrors.page.json",
+    "translationStatus": "ai_draft",
+    "method": "login-funnel-i18n"
+  }
+}
