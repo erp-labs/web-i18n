@@ -12,7 +12,7 @@
 
 | Surface | 도메인 | web-i18n 경로 | 페이지 수 | EN 규모 |
 |---------|--------|---------------|-----------|---------|
-| **account** | account.vouus.com | `locales/{locale}/account/*.page.json` | **25** | 425키+ / dashboard nav·setup·widgets·profile fields 포함 |
+| **account** | account.vouus.com | `locales/{locale}/account/*.page.json` | **26** | 440키+ / shell nav·dashboard setup·widgets·profile fields·post-auth popups 포함 |
 | **www (메인만)** | www.vouus.com `/` | `locales/{locale}/www/home.page.json` | **1** | 74키 / 3,011자 |
 | **app** | app.vouus.com | `locales/{locale}/app/*.page.json` | **20** | 1,300키 / 25,250자 |
 

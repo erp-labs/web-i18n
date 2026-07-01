@@ -411,6 +411,27 @@ export const DASHBOARD_WIDGETS_KEYS = {
   portalDisabledFailed: 'Provisioning failed — contact support or continue setup.',
   portalDisabledInProgress: 'Provisioning in progress — portals unlock when setup completes.',
   portalDisabledSetup: 'Complete workspace setup to open portals.',
+  usageAlertCritical: '{label} quota reached — upgrade or reduce usage to avoid service limits.',
+  usageAlertWarn: '{label} usage is above 80% of your plan limit.',
+  usageAlertUpgradeLink: 'Review billing & upgrade',
+  provisioningTitle: 'Provisioning status',
+  provisioningIntro:
+    'Your workspace setup continues in the background. You can manage your account here while provisioning finishes.',
+  provisioningStatusPrefix: 'Status:',
+  provisioningOpenWorkspace: 'Open workspace',
+  provisioningFailedHint:
+    'Setup encountered an issue. Contact support with your trace id if this persists.',
+  provisioningReady: 'Workspace ready',
+  menuTopTitle: 'Top menus',
+  menuTopAria: 'Most used menus today',
+  menuTopFooter:
+    'Session time and menu rankings roll up daily from employee and ERP portals.',
+  menuTopViewUsage: 'View usage',
+  billingIntervalAnnual: 'Annual',
+  billingIntervalMonthly: 'Monthly',
+  nextBillingRenews: 'Renews on',
+  nextBillingCharge: 'Next charge on',
+  nextBillingDefault: 'Next billing on',
 }
 
 export const PROFILE_FIELDS_KEYS = {
@@ -425,6 +446,23 @@ export const PROFILE_FIELDS_KEYS = {
   bannerTitle: 'Complete your profile for faster support, billing, and provisioning',
   bannerRequiredPrefix: 'Required:',
   bannerRecommendedPrefix: 'Recommended for billing & contracts:',
+}
+
+export const POST_AUTH_POPUPS_KEYS = {
+  session_invalid_title: 'Session invalid or expired',
+  session_invalid_body: 'Your login session could not be verified. Please sign in again.',
+  auth_service_misconfigured_title: 'Login service temporarily unavailable',
+  auth_service_misconfigured_body:
+    'Your sign-in could not be verified due to a service configuration issue. Try again in a private browser window, or sign out of the employee app (app.vouus.com) first.',
+  onboarding_continue_title: 'Complete your workspace setup',
+  onboarding_continue_body:
+    'Add your company details and finish launch steps to activate your workspace.',
+  unregistered_admin_title: 'Account not registered',
+  unregistered_admin_body:
+    'This email is not registered for admin sign-in. Visit our website to get started.',
+  trial_onboarding_title: 'Continue onboarding',
+  trial_onboarding_body: 'Complete your company profile to set up your workspace.',
+  primaryOk: 'OK',
 }
 
 export const XERO_MIGRATION_KEYS = {

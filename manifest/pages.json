@@ -155,7 +155,7 @@
       "surface": "app",
       "route": "/{companyId}/{locale}/my-ai",
       "version": 1,
-      "sourceHash": "sha256:189f2a2621874f573a7dd8c22b8c458d414ae6918c52d90ba89b5ecd4d54d58b",
+      "sourceHash": "sha256:643fcdc5c7d3f7c0a54ae4246602acdf7450db7070a56ac78b5c3babce70ef1c",
       "reviewRequired": false,
       "githubPath": "app/myAi.page.json",
       "sourcePath": "apps/employee-web/dictionaries/en.json#myAi"
@@ -1175,7 +1175,7 @@
       "surface": "account",
       "route": "/dashboard",
       "version": 1,
-      "sourceHash": "sha256:4b77e672c382f6e0d7eb4a010a4685b4a052aafc21b5e376466bd67ae8b30e6e",
+      "sourceHash": "sha256:5e1a4b5f1bbb89742b96846b9cfec8638bc1232279f646c123029a8dcd55a99e",
       "reviewRequired": false,
       "githubPath": "account/dashboard.widgets.page.json",
       "sourcePath": "apps/admin-web /dashboard"
@@ -1189,6 +1189,16 @@
       "reviewRequired": false,
       "githubPath": "account/profile.fields.page.json",
       "sourcePath": "apps/admin-web /profile"
+    },
+    {
+      "pageId": "account.post.auth.popups",
+      "surface": "account",
+      "route": null,
+      "version": 1,
+      "sourceHash": "sha256:ea1343b49798d9e547a40c4f5854d94f73e8f7f0711c257a21e3c2f969a18b2d",
+      "reviewRequired": false,
+      "githubPath": "account/post.auth.popups.page.json",
+      "sourcePath": "apps/admin-web null"
     }
   ]
 }
