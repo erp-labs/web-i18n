@@ -1,0 +1,27 @@
+{
+  "pageId": "account.profile.fields",
+  "surface": "account",
+  "route": "/profile",
+  "version": 1,
+  "sourceHash": "sha256:pending",
+  "keys": {
+    "company_name": "कंपनी का नाम",
+    "admin_name": "प्रशासक का नाम",
+    "admin_phone": "व्यवस्थापक फ़ोन",
+    "user_phone": "आपका मोबाइल फ़ोन",
+    "legal_entity_name": "विधि इकाई का नाम",
+    "business_registration_number": "व्यवसाय पंजीकरण संख्या",
+    "registered_address": "पंजीकृत पता",
+    "billing_contact_email": "बिलिंग संपर्क ईमेल",
+    "bannerTitle": "तेज़ सहायता, बिलिंग और प्रावधान के लिए अपना प्रोफ़ाइल पूरा करें",
+    "bannerRequiredPrefix": "आवश्यक:",
+    "bannerRecommendedPrefix": "बिलिंग एवं अनुबंधों के लिए अनुशंसित:"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web/dictionaries/en.json#profile_fields",
+    "githubPath": "account/profile.fields.page.json",
+    "translationStatus": "reviewed",
+    "method": "google-translate-pack"
+  }
+}

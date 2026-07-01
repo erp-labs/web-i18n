@@ -3,7 +3,7 @@
   "surface": "app",
   "route": "/{companyId}/{locale}/leaves",
   "version": 1,
-  "sourceHash": "sha256:b01a78899787ae34a261972746e336a4fa561b7f8940b635bb3c08da71f5ce50",
+  "sourceHash": "sha256:8e118fe61edc02dc066e371a94f9db52f5d31f01ce52c71345cfa20af7587561",
   "keys": {
     "title": "Leaves",
     "leaveType": "Leave type",
@@ -41,7 +41,9 @@
     "startByRequestingLeave": "Submit your first leave request when you need time off",
     "requestLeaveCta": "Leave application",
     "addLeave": "Add leave",
-    "selectDatesOnCalendar": "Select your leave dates on the calendar above.",
+    "selectDatesOnCalendar": "Tap start or end date to choose your leave period.",
+    "selectLeaveDates": "Select leave dates",
+    "confirmDates": "Done",
     "noLeaveAllocation": "No leave balance is assigned yet. Contact your HR administrator."
   },
   "meta": {

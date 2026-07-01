@@ -1,0 +1,27 @@
+{
+  "pageId": "account.profile.fields",
+  "surface": "account",
+  "route": "/profile",
+  "version": 1,
+  "sourceHash": "sha256:pending",
+  "keys": {
+    "company_name": "ชื่อบริษัท",
+    "admin_name": "ชื่อผู้ดูแลระบบ",
+    "admin_phone": "โทรศัพท์ผู้ดูแลระบบ",
+    "user_phone": "โทรศัพท์มือถือของคุณ",
+    "legal_entity_name": "ชื่อนิติบุคคล",
+    "business_registration_number": "หมายเลขทะเบียนธุรกิจ",
+    "registered_address": "ที่อยู่จดทะเบียน",
+    "billing_contact_email": "อีเมลติดต่อสำหรับการเรียกเก็บเงิน",
+    "bannerTitle": "กรอกโปรไฟล์ของคุณให้สมบูรณ์เพื่อรับการสนับสนุน การเรียกเก็บเงิน และการจัดเตรียมที่รวดเร็วยิ่งขึ้น",
+    "bannerRequiredPrefix": "ที่จำเป็น:",
+    "bannerRecommendedPrefix": "แนะนำสำหรับการเรียกเก็บเงินและสัญญา:"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web/dictionaries/en.json#profile_fields",
+    "githubPath": "account/profile.fields.page.json",
+    "translationStatus": "reviewed",
+    "method": "google-translate-pack"
+  }
+}

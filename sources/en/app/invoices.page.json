@@ -3,7 +3,7 @@
   "surface": "app",
   "route": "/{companyId}/{locale}/invoices",
   "version": 1,
-  "sourceHash": "sha256:70f9df03695d7e02037ce16367708ae755fdfce7e877c670ce265cea316731a1",
+  "sourceHash": "sha256:2a9a7afb07e167f8a7584e23ab3d054aa7aadf14afca78b0d0784156d04c5dc8",
   "keys": {
     "title": "Invoices",
     "addInvoice": "Add Invoice",
@@ -34,6 +34,13 @@
     "recipient": "Recipient",
     "recipientAddress": "Billing address",
     "recipientAddressPlaceholder": "Client billing address",
+    "searchCustomer": "Search customer",
+    "newCustomer": "New customer",
+    "linkedCustomer": "Linked",
+    "recipientManualHint": "Or enter recipient details manually below.",
+    "missingCustomerEmail": "Complete customer profile or enter email here.",
+    "missingCustomerAddress": "Complete customer profile or enter billing address here.",
+    "saveToCustomerProfile": "Save email and address to customer profile",
     "email": "Email",
     "subject": "Subject",
     "dueDate": "Due date",
@@ -100,7 +107,14 @@
     "paid": "Paid",
     "noInvoicesFound": "No invoices found",
     "startByCreatingInvoice": "Start by creating your first invoice",
-    "noFilterInvoices": "No {filter} invoices at the moment"
+    "noFilterInvoices": "No {filter} invoices at the moment",
+    "newCustomerDescription": "Add a customer without leaving this invoice.",
+    "newCustomerName": "Customer name",
+    "newCustomerGroup": "Customer group",
+    "newCustomerSubmit": "Create and select",
+    "newCustomerSubmitting": "Creating…",
+    "customerSearchPlaceholder": "Search by name…",
+    "customerSearchEmpty": "No customers found"
   },
   "meta": {
     "productRepo": "core-platform",

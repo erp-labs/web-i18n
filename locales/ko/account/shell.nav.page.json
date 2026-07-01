@@ -1,0 +1,23 @@
+{
+  "pageId": "account.shell.nav",
+  "surface": "account",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:pending-ko",
+  "keys": {
+    "dashboard": "대시보드",
+    "billing": "결제",
+    "backup": "백업",
+    "integrations": "연동",
+    "mailing": "메일링",
+    "profile": "프로필",
+    "usage": "사용량",
+    "users": "사용자",
+    "signUp": "가입"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web/dictionaries/en.json#shell_nav",
+    "githubPath": "account/shell.nav.page.json"
+  }
+}

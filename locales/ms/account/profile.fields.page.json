@@ -1,0 +1,27 @@
+{
+  "pageId": "account.profile.fields",
+  "surface": "account",
+  "route": "/profile",
+  "version": 1,
+  "sourceHash": "sha256:pending",
+  "keys": {
+    "company_name": "Nama syarikat",
+    "admin_name": "Nama pentadbir",
+    "admin_phone": "Telefon pentadbir",
+    "user_phone": "Telefon bimbit anda",
+    "legal_entity_name": "Nama entiti sah",
+    "business_registration_number": "Nombor pendaftaran perniagaan",
+    "registered_address": "Alamat berdaftar",
+    "billing_contact_email": "E-mel hubungan pengebilan",
+    "bannerTitle": "Lengkapkan profil anda untuk mendapatkan sokongan, pengebilan dan peruntukan yang lebih pantas",
+    "bannerRequiredPrefix": "Diperlukan:",
+    "bannerRecommendedPrefix": "Disyorkan untuk pengebilan & kontrak:"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web/dictionaries/en.json#profile_fields",
+    "githubPath": "account/profile.fields.page.json",
+    "translationStatus": "reviewed",
+    "method": "google-translate-pack"
+  }
+}

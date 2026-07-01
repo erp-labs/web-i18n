@@ -1,0 +1,27 @@
+{
+  "pageId": "account.profile.fields",
+  "surface": "account",
+  "route": "/profile",
+  "version": 1,
+  "sourceHash": "sha256:pending",
+  "keys": {
+    "company_name": "اسم الشركة",
+    "admin_name": "اسم المسؤول",
+    "admin_phone": "هاتف المسؤول",
+    "user_phone": "هاتفك المحمول",
+    "legal_entity_name": "اسم الكيان القانوني",
+    "business_registration_number": "رقم السجل التجاري",
+    "registered_address": "العنوان المسجل",
+    "billing_contact_email": "البريد الإلكتروني لجهة اتصال الفوترة",
+    "bannerTitle": "أكمل ملفك الشخصي للحصول على دعم وإعداد فواتير والتزويد بشكل أسرع",
+    "bannerRequiredPrefix": "مطلوب:",
+    "bannerRecommendedPrefix": "الموصى بها للفواتير والعقود:"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web/dictionaries/en.json#profile_fields",
+    "githubPath": "account/profile.fields.page.json",
+    "translationStatus": "reviewed",
+    "method": "google-translate-pack"
+  }
+}

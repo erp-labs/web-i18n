@@ -3,13 +3,11 @@
   "surface": "www",
   "route": "/product/accounting",
   "version": 1,
-  "sourceHash": "sha256:87e1ed391826aec0d806cafa552edbe5e064e690462db5f33aaedbdbbf28dbfc",
+  "sourceHash": "sha256:fba4a31bac449d29d56ebd13b09bcd2f805fe110c23824903ebd5df9282bd243",
   "keys": {
     "path": "/product/accounting",
     "meta_title": "Finance Automation",
-    "meta_description": "Finance automation and reporting.",
-    "hero_title": "Invoice to ledger—one chain",
-    "hero_description": "{brand} connects billing, approvals, and accounting on one workflow spine—no swivel-chair re-entry."
+    "meta_description": "Finance automation and reporting."
   },
   "meta": {
     "productRepo": "infra-control-plane",

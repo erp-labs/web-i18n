@@ -1,0 +1,27 @@
+{
+  "pageId": "account.profile.fields",
+  "surface": "account",
+  "route": "/profile",
+  "version": 1,
+  "sourceHash": "sha256:pending",
+  "keys": {
+    "company_name": "ကုမ္ပဏီအမည်",
+    "admin_name": "အုပ်ချုပ်ရေးမှူးအမည်",
+    "admin_phone": "အုပ်ချုပ်ရေးမှူးဖုန်း",
+    "user_phone": "သင့်မိုဘိုင်းဖုန်း",
+    "legal_entity_name": "တရားဝင်အဖွဲ့အစည်းအမည်",
+    "business_registration_number": "လုပ်ငန်းမှတ်ပုံတင်နံပါတ်",
+    "registered_address": "မှတ်ပုံတင်လိပ်စာ",
+    "billing_contact_email": "ငွေတောင်းခံခြင်း ဆက်သွယ်ရန် အီးမေးလ်",
+    "bannerTitle": "ပိုမိုမြန်ဆန်သော ပံ့ပိုးမှု၊ ငွေပေးချေမှုနှင့် စီမံဆောင်ရွက်ပေးမှုအတွက် သင့်ပရိုဖိုင်ကို ဖြည့်စွက်ပါ။",
+    "bannerRequiredPrefix": "လိုအပ်သည်-",
+    "bannerRecommendedPrefix": "ငွေတောင်းခံခြင်းနှင့် စာချုပ်များအတွက် အကြံပြုထားသည်-"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web/dictionaries/en.json#profile_fields",
+    "githubPath": "account/profile.fields.page.json",
+    "translationStatus": "reviewed",
+    "method": "google-translate-pack"
+  }
+}

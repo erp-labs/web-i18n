@@ -1,0 +1,27 @@
+{
+  "pageId": "account.profile.fields",
+  "surface": "account",
+  "route": "/profile",
+  "version": 1,
+  "sourceHash": "sha256:pending",
+  "keys": {
+    "company_name": "Название компании",
+    "admin_name": "Имя администратора",
+    "admin_phone": "Телефон администратора",
+    "user_phone": "Ваш мобильный телефон",
+    "legal_entity_name": "Название юридического лица",
+    "business_registration_number": "Регистрационный номер предприятия",
+    "registered_address": "Юридический адрес",
+    "billing_contact_email": "Контактный адрес электронной почты для выставления счетов",
+    "bannerTitle": "Заполните свой профиль для более быстрой поддержки, выставления счетов и предоставления услуг.",
+    "bannerRequiredPrefix": "Необходимый:",
+    "bannerRecommendedPrefix": "Рекомендуется для выставления счетов и контрактов:"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web/dictionaries/en.json#profile_fields",
+    "githubPath": "account/profile.fields.page.json",
+    "translationStatus": "reviewed",
+    "method": "google-translate-pack"
+  }
+}

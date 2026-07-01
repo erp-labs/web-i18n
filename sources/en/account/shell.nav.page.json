@@ -1,0 +1,23 @@
+{
+  "pageId": "account.shell.nav",
+  "surface": "account",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:8b53945d1fdd8ca28209fd1a54c02fa24217739dc264b2a28784648d15d758f1",
+  "keys": {
+    "dashboard": "Dashboard",
+    "billing": "Billing",
+    "backup": "Backup",
+    "integrations": "Integrations",
+    "mailing": "Mailing",
+    "profile": "Profile",
+    "usage": "Usage",
+    "users": "Users",
+    "signUp": "Sign up"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web null",
+    "githubPath": "account/shell.nav.page.json"
+  }
+}

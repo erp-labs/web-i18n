@@ -1,0 +1,25 @@
+{
+  "pageId": "account.shell.nav",
+  "surface": "account",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:pending",
+  "keys": {
+    "dashboard": "डैशबोर्ड",
+    "billing": "बिलिंग",
+    "backup": "बैकअप",
+    "integrations": "एकीकरण",
+    "mailing": "डाक",
+    "profile": "प्रोफ़ाइल",
+    "usage": "प्रयोग",
+    "users": "उपयोगकर्ताओं",
+    "signUp": "साइन अप करें"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web/dictionaries/en.json#shell_nav",
+    "githubPath": "account/shell.nav.page.json",
+    "translationStatus": "reviewed",
+    "method": "google-translate-pack"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "pageId": "account.shell.nav",
+  "surface": "account",
+  "route": null,
+  "version": 1,
+  "sourceHash": "sha256:pending",
+  "keys": {
+    "dashboard": "Papan pemuka",
+    "billing": "Pengebilan",
+    "backup": "Sandaran",
+    "integrations": "Integrasi",
+    "mailing": "mel",
+    "profile": "Profil",
+    "usage": "Penggunaan",
+    "users": "Pengguna",
+    "signUp": "daftar"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web/dictionaries/en.json#shell_nav",
+    "githubPath": "account/shell.nav.page.json",
+    "translationStatus": "reviewed",
+    "method": "google-translate-pack"
+  }
+}

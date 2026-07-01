@@ -1,0 +1,100 @@
+{
+  "pageId": "app.dashboard",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/dashboard",
+  "version": 1,
+  "sourceHash": "sha256:7e65ed02e2049b6d58e98a10d579857004b712c7e02a23eabd58e206643b9133",
+  "keys": {
+    "viewDetails": "View details",
+    "subtitle": "Overview of HR, customers, accounts, performance, and AI usage.",
+    "titles": {
+      "company": "Company Dashboard",
+      "team": "Team Dashboard",
+      "finance": "Finance Dashboard"
+    },
+    "period": {
+      "day": "Daily",
+      "week": "Weekly",
+      "month": "Monthly",
+      "groupLabel": "Period"
+    },
+    "categories": {
+      "hr": "HR",
+      "customer": "Customer",
+      "account": "Account",
+      "performance": "Performance",
+      "ai": "AI"
+    },
+    "cards": {
+      "checkIn": "Check-in today",
+      "absent": "Absent",
+      "late": "Late",
+      "leave": "Leave requests",
+      "leaveThisMonth": "On leave this month",
+      "leaveNextMonth": "On leave next month",
+      "expenses": "Expenses this month",
+      "expensePaid": "Paid",
+      "expenseRejected": "Rejected",
+      "customersTotal": "Total customers",
+      "crmActiveDeals": "Active deals",
+      "crmOpenLeads": "Open leads",
+      "emailsSent": "Emails sent",
+      "emailsSentHint": "Invoice and campaign totals; provider-specific detail on Mailing.",
+      "emailsFailed": "Failed",
+      "invoicesIssued": "Invoices issued",
+      "revenue": "Revenue",
+      "revenueTrend": "vs last month",
+      "outstanding": "Outstanding",
+      "checklistSuccess": "Checklist success rate",
+      "successMonth": "This month",
+      "successDay": "Today",
+      "teamAverage": "Team average",
+      "tokensUsed": "Tokens used",
+      "tokenLimit": "Plan limit",
+      "securityAlerts": "Security alerts",
+      "activeAiUsers": "Active AI users"
+    },
+    "charts": {
+      "accounting": "Accounting",
+      "hr": "HR",
+      "customer": "Customer",
+      "revenue": "Revenue",
+      "expenses": "Expenses",
+      "outstanding": "Outstanding",
+      "newCustomers": "New customers"
+    },
+    "activity": {
+      "title": "Employee activity",
+      "search": "Search employees…",
+      "empty": "No records for this tab.",
+      "viewLink": "View",
+      "securityFlag": "Flagged",
+      "securityOk": "OK",
+      "tabs": {
+        "expenses": "Expenses",
+        "performance": "Performance",
+        "ai": "AI prompts"
+      },
+      "columns": {
+        "employee": "Employee",
+        "amount": "Amount",
+        "status": "Status",
+        "paymentDate": "Payment date",
+        "department": "Department",
+        "successRate": "Success rate",
+        "goals": "Goals",
+        "lastReview": "Last review",
+        "prompt": "Prompt",
+        "tokens": "Tokens",
+        "time": "Time",
+        "security": "Security",
+        "action": "Action"
+      }
+    }
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#dashboard",
+    "githubPath": "app/dashboard.page.json"
+  }
+}

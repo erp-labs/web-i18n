@@ -1,0 +1,27 @@
+{
+  "pageId": "account.profile.fields",
+  "surface": "account",
+  "route": "/profile",
+  "version": 1,
+  "sourceHash": "sha256:pending",
+  "keys": {
+    "company_name": "کمپنی کا نام",
+    "admin_name": "ایڈمنسٹریٹر کا نام",
+    "admin_phone": "ایڈمنسٹریٹر فون",
+    "user_phone": "آپ کا موبائل فون",
+    "legal_entity_name": "قانونی ہستی کا نام",
+    "business_registration_number": "کاروباری رجسٹریشن نمبر",
+    "registered_address": "رجسٹرڈ پتہ",
+    "billing_contact_email": "بلنگ رابطہ ای میل",
+    "bannerTitle": "تیز تر سپورٹ، بلنگ اور پروویژننگ کے لیے اپنا پروفائل مکمل کریں۔",
+    "bannerRequiredPrefix": "مطلوبہ:",
+    "bannerRecommendedPrefix": "بلنگ اور معاہدوں کے لیے تجویز کردہ:"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web/dictionaries/en.json#profile_fields",
+    "githubPath": "account/profile.fields.page.json",
+    "translationStatus": "reviewed",
+    "method": "google-translate-pack"
+  }
+}

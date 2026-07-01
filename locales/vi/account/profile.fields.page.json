@@ -1,0 +1,27 @@
+{
+  "pageId": "account.profile.fields",
+  "surface": "account",
+  "route": "/profile",
+  "version": 1,
+  "sourceHash": "sha256:pending",
+  "keys": {
+    "company_name": "Tên công ty",
+    "admin_name": "Tên quản trị viên",
+    "admin_phone": "Điện thoại quản trị viên",
+    "user_phone": "Điện thoại di động của bạn",
+    "legal_entity_name": "Tên pháp nhân",
+    "business_registration_number": "Số đăng ký kinh doanh",
+    "registered_address": "Địa chỉ đã đăng ký",
+    "billing_contact_email": "Email liên hệ thanh toán",
+    "bannerTitle": "Hoàn thiện hồ sơ của bạn để được hỗ trợ, thanh toán và cung cấp nhanh hơn",
+    "bannerRequiredPrefix": "Yêu cầu:",
+    "bannerRecommendedPrefix": "Đề xuất cho thanh toán và hợp đồng:"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/admin-web/dictionaries/en.json#profile_fields",
+    "githubPath": "account/profile.fields.page.json",
+    "translationStatus": "reviewed",
+    "method": "google-translate-pack"
+  }
+}
