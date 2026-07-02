@@ -2,8 +2,8 @@
   "pageId": "app.passcode",
   "surface": "app",
   "route": "/{companyId}/{locale}/passcode",
-  "version": 2,
-  "sourceHash": "sha256:f3eb59f28ddec7ec0d8b414d2cf7d9d47113be9676d4ff8fb5ff44a0cbef4ee1",
+  "version": 3,
+  "sourceHash": "sha256:d896b8a45df817404dd626d9ee6ff3cbc7a2b81a8e83e6c29bac54ea9bd0f3ba",
   "keys": {
     "title": "패스코드",
     "enterPin": "6자리 패스코드를 입력하세요",
@@ -32,7 +32,8 @@
     "sessionExpired": "세션이 만료되었습니다. 처음부터 다시 로그인해 주세요.",
     "resetExpiryNotice": "이 링크는 15분 후 만료됩니다. 만료되었다면 로그인 화면에서 새 재설정 링크를 요청해 주세요.",
     "resetLinkExpiryAndRateLimit": "재설정 링크는 15분 후 만료됩니다. 이메일이 오지 않으면 스팸함을 확인하거나 잠시 후 다시 시도해 주세요.",
-    "rateLimitNotice": "요청이 너무 많습니다. 몇 분 후 다시 시도해 주세요."
+    "rateLimitNotice": "요청이 너무 많습니다. 몇 분 후 다시 시도해 주세요.",
+    "sessionSaveFailed": "Could not save your session. Please sign in again from the start."
   },
   "meta": {
     "productRepo": "core-platform",

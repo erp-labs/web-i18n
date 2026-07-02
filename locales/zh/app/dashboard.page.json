@@ -1,0 +1,101 @@
+{
+  "pageId": "app.dashboard",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/dashboard",
+  "version": 1,
+  "sourceHash": "sha256:7e65ed02e2049b6d58e98a10d579857004b712c7e02a23eabd58e206643b9133",
+  "keys": {
+    "viewDetails": "查看详情",
+    "subtitle": "人事、客户、账务、绩效和 AI 使用概览。",
+    "titles": {
+      "company": "公司仪表板",
+      "team": "团队仪表板",
+      "finance": "财务仪表板"
+    },
+    "period": {
+      "day": "每日",
+      "week": "每周",
+      "month": "每月",
+      "groupLabel": "周期"
+    },
+    "categories": {
+      "hr": "人事",
+      "customer": "客户",
+      "account": "账务",
+      "performance": "绩效",
+      "ai": "人工智能"
+    },
+    "cards": {
+      "checkIn": "今日签到",
+      "absent": "缺勤",
+      "late": "迟到",
+      "leave": "请假申请",
+      "leaveThisMonth": "本月请假",
+      "leaveNextMonth": "下月请假",
+      "expenses": "本月费用",
+      "expensePaid": "已支付",
+      "expenseRejected": "已拒绝",
+      "customersTotal": "客户总数",
+      "crmActiveDeals": "进行中的交易",
+      "crmOpenLeads": "未处理线索",
+      "emailsSent": "已发送邮件",
+      "emailsSentHint": "发票和营销活动合计；详情请见邮件模块。",
+      "emailsFailed": "失败",
+      "invoicesIssued": "已开具发票",
+      "revenue": "收入",
+      "revenueTrend": "较上月",
+      "outstanding": "未结清",
+      "checklistSuccess": "清单完成率",
+      "successMonth": "本月",
+      "successDay": "今日",
+      "teamAverage": "团队平均",
+      "tokensUsed": "已用令牌",
+      "tokenLimit": "套餐限额",
+      "securityAlerts": "安全警报",
+      "activeAiUsers": "活跃 AI 用户"
+    },
+    "charts": {
+      "accounting": "账务",
+      "hr": "人事",
+      "customer": "客户",
+      "revenue": "收入",
+      "expenses": "费用",
+      "outstanding": "未结清",
+      "newCustomers": "新客户"
+    },
+    "activity": {
+      "title": "员工活动",
+      "search": "搜索员工…",
+      "empty": "此标签页暂无记录。",
+      "viewLink": "查看",
+      "securityFlag": "已标记",
+      "securityOk": "正常",
+      "tabs": {
+        "expenses": "费用",
+        "performance": "绩效",
+        "ai": "AI 提示"
+      },
+      "columns": {
+        "employee": "员工",
+        "amount": "金额",
+        "status": "状态",
+        "paymentDate": "付款日期",
+        "department": "部门",
+        "successRate": "成功率",
+        "goals": "目标",
+        "lastReview": "最近评估",
+        "prompt": "提示",
+        "tokens": "令牌",
+        "time": "时间",
+        "security": "安全",
+        "action": "操作"
+      }
+    }
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#dashboard",
+    "githubPath": "app/dashboard.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/zh.json#dashboard"
+  }
+}

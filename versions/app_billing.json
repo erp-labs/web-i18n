@@ -1,0 +1,44 @@
+[
+  {
+    "version": 1,
+    "enHash": "sha256:aa97d4e6eb20468bffc0e19905ca10f66abb7a98bbf19c25a4db5269f93767ee",
+    "locale": "en",
+    "method": "extract",
+    "at": "2026-07-02T03:33:34.030Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:aa97d4e6eb20468bffc0e19905ca10f66abb7a98bbf19c25a4db5269f93767ee",
+    "locale": "ko",
+    "method": "import-employee-web",
+    "at": "2026-07-02T03:33:56.937Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:aa97d4e6eb20468bffc0e19905ca10f66abb7a98bbf19c25a4db5269f93767ee",
+    "locale": "ja",
+    "method": "import-employee-web",
+    "at": "2026-07-02T03:33:56.972Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:aa97d4e6eb20468bffc0e19905ca10f66abb7a98bbf19c25a4db5269f93767ee",
+    "locale": "ar",
+    "method": "import-employee-web",
+    "at": "2026-07-02T03:33:56.993Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:aa97d4e6eb20468bffc0e19905ca10f66abb7a98bbf19c25a4db5269f93767ee",
+    "locale": "vi",
+    "method": "import-employee-web",
+    "at": "2026-07-02T03:33:57.014Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:aa97d4e6eb20468bffc0e19905ca10f66abb7a98bbf19c25a4db5269f93767ee",
+    "locale": "zh",
+    "method": "import-employee-web",
+    "at": "2026-07-02T03:33:57.036Z"
+  }
+]

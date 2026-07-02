@@ -1,0 +1,101 @@
+{
+  "pageId": "app.dashboard",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/dashboard",
+  "version": 1,
+  "sourceHash": "sha256:7e65ed02e2049b6d58e98a10d579857004b712c7e02a23eabd58e206643b9133",
+  "keys": {
+    "viewDetails": "عرض التفاصيل",
+    "subtitle": "نظرة عامة على الموارد البشرية والعملاء والحسابات والأداء واستخدام الذكاء الاصطناعي.",
+    "titles": {
+      "company": "لوحة الشركة",
+      "team": "لوحة الفريق",
+      "finance": "لوحة المالية"
+    },
+    "period": {
+      "day": "يومي",
+      "week": "أسبوعي",
+      "month": "شهري",
+      "groupLabel": "الفترة"
+    },
+    "categories": {
+      "hr": "الموارد البشرية",
+      "customer": "العملاء",
+      "account": "الحسابات",
+      "performance": "الأداء",
+      "ai": "الذكاء الاصطناعي"
+    },
+    "cards": {
+      "checkIn": "تسجيل الحضور اليوم",
+      "absent": "غائب",
+      "late": "متأخر",
+      "leave": "طلبات الإجازة",
+      "leaveThisMonth": "إجازة هذا الشهر",
+      "leaveNextMonth": "إجازة الشهر القادم",
+      "expenses": "مصروفات هذا الشهر",
+      "expensePaid": "مدفوع",
+      "expenseRejected": "مرفوض",
+      "customersTotal": "إجمالي العملاء",
+      "crmActiveDeals": "صفقات نشطة",
+      "crmOpenLeads": "عملاء محتملون مفتوحون",
+      "emailsSent": "رسائل بريد مرسلة",
+      "emailsSentHint": "إجمالي الفواتير والحملات؛ التفاصيل في البريد.",
+      "emailsFailed": "فشل",
+      "invoicesIssued": "فواتير صادرة",
+      "revenue": "الإيرادات",
+      "revenueTrend": "مقارنة بالشهر الماضي",
+      "outstanding": "المستحقات",
+      "checklistSuccess": "معدل نجاح القائمة",
+      "successMonth": "هذا الشهر",
+      "successDay": "اليوم",
+      "teamAverage": "متوسط الفريق",
+      "tokensUsed": "الرموز المستخدمة",
+      "tokenLimit": "حد الخطة",
+      "securityAlerts": "تنبيهات الأمان",
+      "activeAiUsers": "مستخدمو AI النشطون"
+    },
+    "charts": {
+      "accounting": "المحاسبة",
+      "hr": "الموارد البشرية",
+      "customer": "العملاء",
+      "revenue": "الإيرادات",
+      "expenses": "المصروفات",
+      "outstanding": "المستحقات",
+      "newCustomers": "عملاء جدد"
+    },
+    "activity": {
+      "title": "نشاط الموظفين",
+      "search": "البحث عن موظفين…",
+      "empty": "لا توجد سجلات لهذا التبويب.",
+      "viewLink": "عرض",
+      "securityFlag": "مُعلَّم",
+      "securityOk": "سليم",
+      "tabs": {
+        "expenses": "المصروفات",
+        "performance": "الأداء",
+        "ai": "مطالبات AI"
+      },
+      "columns": {
+        "employee": "الموظف",
+        "amount": "المبلغ",
+        "status": "الحالة",
+        "paymentDate": "تاريخ الدفع",
+        "department": "القسم",
+        "successRate": "معدل النجاح",
+        "goals": "الأهداف",
+        "lastReview": "آخر مراجعة",
+        "prompt": "المطالبة",
+        "tokens": "الرموز",
+        "time": "الوقت",
+        "security": "الأمان",
+        "action": "إجراء"
+      }
+    }
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#dashboard",
+    "githubPath": "app/dashboard.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ar.json#dashboard"
+  }
+}

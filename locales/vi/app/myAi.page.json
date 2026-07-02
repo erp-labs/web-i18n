@@ -2,8 +2,8 @@
   "pageId": "app.myAi",
   "surface": "app",
   "route": "/{companyId}/{locale}/my-ai",
-  "version": 2,
-  "sourceHash": "sha256:a809a39d2c15a5239f14d17ecc31e7ebca7ca60af68d806dd8ca0f22cb2a2acb",
+  "version": 3,
+  "sourceHash": "sha256:643fcdc5c7d3f7c0a54ae4246602acdf7450db7070a56ac78b5c3babce70ef1c",
   "keys": {
     "title": "AI Agent",
     "newChat": "Cuộc trò chuyện mới",
@@ -201,7 +201,6 @@
     "chipHrReport": "Báo cáo HR hàng tuần",
     "chipApprovalAlert": "Cảnh báo chờ duyệt",
     "chipFinanceSummary": "Tóm tắt kinh doanh tháng",
-    "chipCrmPipeline": "Pipeline CRM",
     "chipExpenseDetect": "Phát hiện bất thường chi phí",
     "t_hr_name": "Báo cáo HR hàng tuần",
     "t_hr_pill_0": "Dữ liệu HR",
@@ -430,6 +429,7 @@
     "description": "Đặt câu hỏi về chính sách, quy trình công ty hoặc chủ đề liên quan công việc. Tôi có thể giúp bạn tìm thông tin từ tài liệu.",
     "askAnything": "Hỏi bất cứ điều gì",
     "inputPlaceholder": "Hỏi về chính sách, quy trình công ty...",
+    "dummyAssistantReply": "Thanks for your message. This is a demo reply — connect the AI API to enable live responses.",
     "promptComposerPlaceholder": "Nhập lời nhắc cho AI Agent",
     "landingHi": "Xin chào, {{name}}",
     "landingHiFallbackName": "bạn",
@@ -546,15 +546,14 @@
       "leavePolicy": "Chính sách nghỉ phép",
       "expenseGuidelines": "Hướng dẫn chi phí",
       "checkinHelp": "Trợ giúp chấm công",
-      "holidaySchedule": "Lịch nghỉ lễ"
+      "holidaySchedule": "Lịch nghỉ lễ",
+      "customersSummary": "Summarize customers"
     }
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#myAi",
     "githubPath": "app/myAi.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/vi.json#myAi",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/vi.json#myAi"
   }
 }

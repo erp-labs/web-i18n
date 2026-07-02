@@ -2,7 +2,7 @@
   "pageId": "app.notFound",
   "surface": "app",
   "route": "/{companyId}/{locale}/notFound",
-  "version": 2,
+  "version": 3,
   "sourceHash": "sha256:a0728b7f9ef9ccaffe23ac3f4841306bda7bf477b5414e2189898581960b9a00",
   "keys": {
     "title": "未找到",
@@ -13,8 +13,6 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#notFound",
     "githubPath": "app/notFound.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/zh.json#notFound",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/zh.json#notFound"
   }
 }

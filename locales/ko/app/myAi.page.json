@@ -2,8 +2,8 @@
   "pageId": "app.myAi",
   "surface": "app",
   "route": "/{companyId}/{locale}/my-ai",
-  "version": 2,
-  "sourceHash": "sha256:a809a39d2c15a5239f14d17ecc31e7ebca7ca60af68d806dd8ca0f22cb2a2acb",
+  "version": 3,
+  "sourceHash": "sha256:643fcdc5c7d3f7c0a54ae4246602acdf7450db7070a56ac78b5c3babce70ef1c",
   "keys": {
     "title": "AI Agent",
     "newChat": "새 채팅",
@@ -201,7 +201,6 @@
     "chipHrReport": "HR 주간 리포트",
     "chipApprovalAlert": "결재 대기 알림",
     "chipFinanceSummary": "월간 경영 요약",
-    "chipCrmPipeline": "CRM 파이프라인",
     "chipExpenseDetect": "경비 이상 탐지",
     "t_hr_name": "HR 주간 리포트",
     "t_hr_pill_0": "HR 데이터",
@@ -430,6 +429,7 @@
     "description": "회사 정책·절차·업무 관련 문의에 즉시 답합니다. 업로드하신 문서를 분석해 맥락에 맞는 정확한 정보를 빠르게 제공합니다.",
     "askAnything": "무엇이든 질문하세요",
     "inputPlaceholder": "회사 정책, 절차 등에 대해 질문하세요...",
+    "dummyAssistantReply": "Thanks for your message. This is a demo reply — connect the AI API to enable live responses.",
     "promptComposerPlaceholder": "AI Agent에 보낼 프롬프트를 입력하세요",
     "landingHi": "안녕하세요, {{name}}님",
     "landingHiFallbackName": "회원",
@@ -546,15 +546,14 @@
       "leavePolicy": "휴가 정책",
       "expenseGuidelines": "경비 가이드",
       "checkinHelp": "체크인 도움말",
-      "holidaySchedule": "휴일 일정"
+      "holidaySchedule": "휴일 일정",
+      "customersSummary": "Summarize customers"
     }
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#myAi",
     "githubPath": "app/myAi.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ko.json#myAi",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/ko.json#myAi"
   }
 }

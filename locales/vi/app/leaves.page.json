@@ -2,8 +2,8 @@
   "pageId": "app.leaves",
   "surface": "app",
   "route": "/{companyId}/{locale}/leaves",
-  "version": 2,
-  "sourceHash": "sha256:b01a78899787ae34a261972746e336a4fa561b7f8940b635bb3c08da71f5ce50",
+  "version": 3,
+  "sourceHash": "sha256:8e118fe61edc02dc066e371a94f9db52f5d31f01ce52c71345cfa20af7587561",
   "keys": {
     "title": "Nghỉ phép",
     "leaveType": "Loại nghỉ phép",
@@ -42,14 +42,14 @@
     "requestLeaveCta": "Xin nghỉ phép",
     "addLeave": "Thêm nghỉ phép",
     "selectDatesOnCalendar": "Chọn ngày nghỉ phép của bạn trên lịch phía trên.",
+    "selectLeaveDates": "Select leave dates",
+    "confirmDates": "Done",
     "noLeaveAllocation": "Chưa có số ngày phép nào được cấp. Liên hệ quản trị viên nhân sự của bạn."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#leaves",
     "githubPath": "app/leaves.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/vi.json#leaves",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/vi.json#leaves"
   }
 }

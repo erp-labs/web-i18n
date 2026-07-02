@@ -2,8 +2,8 @@
   "pageId": "app.moduleGuide",
   "surface": "app",
   "route": "/{companyId}/{locale}/moduleGuide",
-  "version": 2,
-  "sourceHash": "sha256:6a17eb3392f9231509390565517d774d2c9f981b45c9c523e1659755c053bd6e",
+  "version": 3,
+  "sourceHash": "sha256:2d2ae540edb3d9abcf3c2c67f99a19dc786c38d2080429b6c9bde672f2a6b4b6",
   "keys": {
     "common": {
       "showGuide": "Cách sử dụng",
@@ -87,8 +87,6 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#moduleGuide",
     "githubPath": "app/moduleGuide.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/vi.json#moduleGuide",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/vi.json#moduleGuide"
   }
 }

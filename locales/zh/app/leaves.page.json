@@ -2,8 +2,8 @@
   "pageId": "app.leaves",
   "surface": "app",
   "route": "/{companyId}/{locale}/leaves",
-  "version": 2,
-  "sourceHash": "sha256:b01a78899787ae34a261972746e336a4fa561b7f8940b635bb3c08da71f5ce50",
+  "version": 3,
+  "sourceHash": "sha256:8e118fe61edc02dc066e371a94f9db52f5d31f01ce52c71345cfa20af7587561",
   "keys": {
     "title": "请假",
     "leaveType": "请假类型",
@@ -42,14 +42,14 @@
     "requestLeaveCta": "申请请假",
     "addLeave": "添加休假",
     "selectDatesOnCalendar": "请在上方日历中选择休假日期。",
+    "selectLeaveDates": "Select leave dates",
+    "confirmDates": "Done",
     "noLeaveAllocation": "尚未分配休假余额。请联系 HR 管理员。"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#leaves",
     "githubPath": "app/leaves.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/zh.json#leaves",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/zh.json#leaves"
   }
 }

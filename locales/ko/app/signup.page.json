@@ -2,7 +2,7 @@
   "pageId": "app.signup",
   "surface": "app",
   "route": "/{companyId}/{locale}/signup",
-  "version": 2,
+  "version": 3,
   "sourceHash": "sha256:ddb5417f701bc66105f54e1db3bac33ffdab5057c480dd09cf5f531e7b0ea8d2",
   "keys": {
     "brandName": "Pregoi",
@@ -26,8 +26,6 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#signup",
     "githubPath": "app/signup.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ko.json#signup",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/ko.json#signup"
   }
 }

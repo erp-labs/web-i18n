@@ -2,7 +2,7 @@
   "pageId": "app.common",
   "surface": "app",
   "route": "/{companyId}/{locale}/common",
-  "version": 2,
+  "version": 3,
   "sourceHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
   "keys": {
     "appName": "Pregoi",
@@ -51,8 +51,6 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#common",
     "githubPath": "app/common.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ja.json#common",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/ja.json#common"
   }
 }

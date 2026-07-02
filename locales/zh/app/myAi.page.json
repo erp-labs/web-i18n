@@ -2,8 +2,8 @@
   "pageId": "app.myAi",
   "surface": "app",
   "route": "/{companyId}/{locale}/my-ai",
-  "version": 2,
-  "sourceHash": "sha256:a809a39d2c15a5239f14d17ecc31e7ebca7ca60af68d806dd8ca0f22cb2a2acb",
+  "version": 3,
+  "sourceHash": "sha256:643fcdc5c7d3f7c0a54ae4246602acdf7450db7070a56ac78b5c3babce70ef1c",
   "keys": {
     "title": "AI Agent",
     "newChat": "新对话",
@@ -201,7 +201,6 @@
     "chipHrReport": "HR周报",
     "chipApprovalAlert": "待审批提醒",
     "chipFinanceSummary": "月度经营摘要",
-    "chipCrmPipeline": "CRM销售漏斗",
     "chipExpenseDetect": "费用异常检测",
     "t_hr_name": "HR周报",
     "t_hr_pill_0": "HR数据",
@@ -430,6 +429,7 @@
     "description": "询问公司政策、流程或任何工作相关问题。我可以帮您从文档中查找信息。",
     "askAnything": "随意提问",
     "inputPlaceholder": "询问公司政策、流程...",
+    "dummyAssistantReply": "Thanks for your message. This is a demo reply — connect the AI API to enable live responses.",
     "promptComposerPlaceholder": "输入要给 AI Agent 的提示",
     "landingHi": "你好，{{name}}",
     "landingHiFallbackName": "朋友",
@@ -546,15 +546,14 @@
       "leavePolicy": "请假政策",
       "expenseGuidelines": "报销指南",
       "checkinHelp": "打卡帮助",
-      "holidaySchedule": "假期安排"
+      "holidaySchedule": "假期安排",
+      "customersSummary": "Summarize customers"
     }
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#myAi",
     "githubPath": "app/myAi.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/zh.json#myAi",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/zh.json#myAi"
   }
 }

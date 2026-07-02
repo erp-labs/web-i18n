@@ -2,8 +2,8 @@
   "pageId": "app.myAi",
   "surface": "app",
   "route": "/{companyId}/{locale}/my-ai",
-  "version": 2,
-  "sourceHash": "sha256:a809a39d2c15a5239f14d17ecc31e7ebca7ca60af68d806dd8ca0f22cb2a2acb",
+  "version": 3,
+  "sourceHash": "sha256:643fcdc5c7d3f7c0a54ae4246602acdf7450db7070a56ac78b5c3babce70ef1c",
   "keys": {
     "title": "AI Agent",
     "newChat": "新規相談",
@@ -201,7 +201,6 @@
     "chipHrReport": "HR週次レポート",
     "chipApprovalAlert": "承認待ちアラート",
     "chipFinanceSummary": "月次経営サマリー",
-    "chipCrmPipeline": "CRMパイプライン",
     "chipExpenseDetect": "経費異常検知",
     "t_hr_name": "HR週次レポート",
     "t_hr_pill_0": "HRデータ",
@@ -430,6 +429,7 @@
     "description": "社内規程・手順や業務について質問してください。資料から情報をお探しするお手伝いをします。",
     "askAnything": "何でも聞いてください",
     "inputPlaceholder": "社内規程や業務手順について入力してください",
+    "dummyAssistantReply": "Thanks for your message. This is a demo reply — connect the AI API to enable live responses.",
     "promptComposerPlaceholder": "AI Agent へのプロンプトを入力",
     "landingHi": "こんにちは、{{name}}さん",
     "landingHiFallbackName": "ゲスト",
@@ -546,15 +546,14 @@
       "leavePolicy": "休暇規程",
       "expenseGuidelines": "経費規程",
       "checkinHelp": "勤怠管理ヘルプ",
-      "holidaySchedule": "休日予定"
+      "holidaySchedule": "休日予定",
+      "customersSummary": "Summarize customers"
     }
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#myAi",
     "githubPath": "app/myAi.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ja.json#myAi",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/ja.json#myAi"
   }
 }

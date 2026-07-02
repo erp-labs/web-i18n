@@ -1,0 +1,18 @@
+{
+  "pageId": "app.billing",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/billing",
+  "version": 1,
+  "sourceHash": "sha256:aa97d4e6eb20468bffc0e19905ca10f66abb7a98bbf19c25a4db5269f93767ee",
+  "keys": {
+    "title": "Credits & Billing",
+    "description": "Top up your AI credits to continue using My AI. Manage your plan and billing below.",
+    "goToBilling": "Go to billing",
+    "contactAdmin": "Contact your administrator to add credits or configure billing for {companyId}."
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#billing",
+    "githubPath": "app/billing.page.json"
+  }
+}

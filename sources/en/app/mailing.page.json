@@ -3,7 +3,7 @@
   "surface": "app",
   "route": "/{companyId}/{locale}/mailing",
   "version": 1,
-  "sourceHash": "sha256:e356860957402d241cd87627f59f0100f1aef6db3d3be8213b4688ab9657b85f",
+  "sourceHash": "sha256:b1bda07bcb2549cbd499d36438913606c0fe862088dff5214cdf5c01504b3394",
   "keys": {
     "title": "Mailing",
     "vouusDescription": "Create and send email campaigns with Vouus Mailing.",
@@ -71,6 +71,8 @@
     "filterLast7Days": "Last 7 days",
     "filterLast90Days": "Last 90 days",
     "filterAllTime": "All time",
+    "filterStatusAria": "Status",
+    "filterDateAria": "Date range",
     "statusCompleted": "Completed",
     "statusDraft": "Draft",
     "statusSending": "Sending",

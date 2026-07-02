@@ -55,7 +55,7 @@
       "surface": "app",
       "route": "/{companyId}/{locale}/mailing",
       "version": 1,
-      "sourceHash": "sha256:e356860957402d241cd87627f59f0100f1aef6db3d3be8213b4688ab9657b85f",
+      "sourceHash": "sha256:b1bda07bcb2549cbd499d36438913606c0fe862088dff5214cdf5c01504b3394",
       "reviewRequired": false,
       "githubPath": "app/mailing.page.json",
       "sourcePath": "apps/employee-web/dictionaries/en.json#mailing"
@@ -75,17 +75,47 @@
       "surface": "app",
       "route": "/{companyId}/{locale}/auth",
       "version": 1,
-      "sourceHash": "sha256:f140abf9a18009377b1a7ecbdd117f697e460d7d926a1476123de2dcc57f48ca",
+      "sourceHash": "sha256:8111bcd8587ed7653d0a696fd98294d57c659d0ea854d4dd382861ad2b39ecc6",
       "reviewRequired": false,
       "githubPath": "app/auth.page.json",
       "sourcePath": "apps/employee-web/dictionaries/en.json#auth"
+    },
+    {
+      "pageId": "app.billing",
+      "surface": "app",
+      "route": "/{companyId}/{locale}/billing",
+      "version": 1,
+      "sourceHash": "sha256:aa97d4e6eb20468bffc0e19905ca10f66abb7a98bbf19c25a4db5269f93767ee",
+      "reviewRequired": false,
+      "githubPath": "app/billing.page.json",
+      "sourcePath": "apps/employee-web/dictionaries/en.json#billing"
+    },
+    {
+      "pageId": "app.offline",
+      "surface": "app",
+      "route": "/{companyId}/{locale}/offline",
+      "version": 1,
+      "sourceHash": "sha256:0f9c222da651399321c0d5763dc5d51c1e10fc144188f2cb577690066b0aa5fe",
+      "reviewRequired": false,
+      "githubPath": "app/offline.page.json",
+      "sourcePath": "apps/employee-web/dictionaries/en.json#offline"
+    },
+    {
+      "pageId": "app.stubs",
+      "surface": "app",
+      "route": "/{companyId}/{locale}/stubs",
+      "version": 1,
+      "sourceHash": "sha256:606608663abcc10f96eca3aae340f50f62bac6d77c429746d2dd5f4713831cd3",
+      "reviewRequired": false,
+      "githubPath": "app/stubs.page.json",
+      "sourcePath": "apps/employee-web/dictionaries/en.json#stubs"
     },
     {
       "pageId": "app.passcode",
       "surface": "app",
       "route": "/{companyId}/{locale}/passcode",
       "version": 1,
-      "sourceHash": "sha256:f3eb59f28ddec7ec0d8b414d2cf7d9d47113be9676d4ff8fb5ff44a0cbef4ee1",
+      "sourceHash": "sha256:d896b8a45df817404dd626d9ee6ff3cbc7a2b81a8e83e6c29bac54ea9bd0f3ba",
       "reviewRequired": false,
       "githubPath": "app/passcode.page.json",
       "sourcePath": "apps/employee-web/dictionaries/en.json#passcode"
@@ -95,7 +125,7 @@
       "surface": "app",
       "route": "/{companyId}/{locale}/checkin",
       "version": 1,
-      "sourceHash": "sha256:b8bb3c18bd42b70bca261f65f4bb9c6682e6e728c7631b3d7e36056a40106391",
+      "sourceHash": "sha256:f7ed7a90d63d5323bc135dbc4b6c19d96623b6061204a8b95e87cf2c7d847506",
       "reviewRequired": false,
       "githubPath": "app/checkin.page.json",
       "sourcePath": "apps/employee-web/dictionaries/en.json#checkin"
@@ -205,7 +235,7 @@
       "surface": "app",
       "route": "/{companyId}/{locale}/customers",
       "version": 1,
-      "sourceHash": "sha256:76277eaf79d83348e2f9d9af8142708dc47a0395fd5d40a86c12188761e00fbd",
+      "sourceHash": "sha256:61067337637e4f6d436dc63c96b04ae7a8d84e81e84f57bf1efa887a303b5da3",
       "reviewRequired": false,
       "githubPath": "app/customers.page.json",
       "sourcePath": "apps/employee-web/dictionaries/en.json#customers"
@@ -215,7 +245,7 @@
       "surface": "app",
       "route": "/{companyId}/{locale}/calendar",
       "version": 1,
-      "sourceHash": "sha256:fa11df250716c8898207c388bb71720a461e0eb9437170c6a6a5e0a6ed8554e5",
+      "sourceHash": "sha256:bb960da7af12269afe3789410e582f8455ba9c02ed00c97ba7a5f2907bfde13d",
       "reviewRequired": false,
       "githubPath": "app/calendar.page.json",
       "sourcePath": "apps/employee-web/dictionaries/en.json#calendar"
@@ -953,72 +983,22 @@
     {
       "pageId": "account.auth.signin",
       "surface": "account",
-      "route": "/login",
-      "version": 2,
+      "route": "/sign-in",
+      "version": 1,
       "sourceHash": "sha256:61a538e2f390109a5e1ce43ddfcc944d3bd23f704f3d8bb1f2b5096c56b96f77",
       "reviewRequired": false,
       "githubPath": "account/auth.signin.page.json",
-      "sourcePath": "apps/admin-web /login"
+      "sourcePath": "apps/admin-web /sign-in"
     },
     {
       "pageId": "account.auth.verify",
       "surface": "account",
-      "route": "/login/verify",
-      "version": 2,
+      "route": "/signup/verify",
+      "version": 1,
       "sourceHash": "sha256:d99e1c700de571c41953cbd91e31d58db2a680c883620e8c67362e781b6e86c7",
       "reviewRequired": false,
       "githubPath": "account/auth.verify.page.json",
-      "sourcePath": "apps/admin-web /login/verify"
-    },
-    {
-      "pageId": "account.auth.password",
-      "surface": "account",
-      "route": "/login/password",
-      "version": 1,
-      "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000001",
-      "reviewRequired": false,
-      "githubPath": "account/auth.password.page.json",
-      "sourcePath": "apps/admin-web /login/set-password"
-    },
-    {
-      "pageId": "account.auth.loginChrome",
-      "surface": "account",
-      "route": "/login",
-      "version": 1,
-      "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000002",
-      "reviewRequired": false,
-      "githubPath": "account/auth.loginChrome.page.json",
-      "sourcePath": "apps/admin-web /login"
-    },
-    {
-      "pageId": "account.auth.forgotPassword",
-      "surface": "account",
-      "route": "/login",
-      "version": 1,
-      "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000003",
-      "reviewRequired": false,
-      "githubPath": "account/auth.forgotPassword.page.json",
-      "sourcePath": "apps/admin-web /login"
-    },
-    {
-      "pageId": "account.auth.oauthErrors",
-      "surface": "account",
-      "route": "/login",
-      "version": 1,
-      "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000004",
-      "reviewRequired": false,
-      "githubPath": "account/auth.oauthErrors.page.json",
-      "sourcePath": "apps/admin-web /login"
-    },
-    {
-      "pageId": "account.shell.legalFooter",
-      "surface": "account",
-      "route": null,
-      "version": 1,
-      "sourceHash": "sha256:0000000000000000000000000000000000000000000000000000000000000005",
-      "reviewRequired": false,
-      "githubPath": "account/shell.legalFooter.page.json",
-      "sourcePath": "apps/admin-web AdminLegalFooter"
+      "sourcePath": "apps/admin-web /signup/verify"
     },
     {
       "pageId": "account.onboarding.company",

@@ -2,8 +2,8 @@
   "pageId": "app.signin",
   "surface": "app",
   "route": "/{companyId}/{locale}/signin",
-  "version": 2,
-  "sourceHash": "sha256:d11db4e2568fff0acd1a3e537126e705c035b887877f2da41867c16f01d45730",
+  "version": 3,
+  "sourceHash": "sha256:65d56c9404d351114558a462f9b62fbea68d77252f078b6e8fa3f30053b86c3d",
   "keys": {
     "title": "로그인",
     "languageLabel": "언어",
@@ -19,7 +19,9 @@
       "ms": "말레이어",
       "si": "싱할라어",
       "ur": "우르두어",
-      "hi": "힌디어"
+      "hi": "힌디어",
+      "ru": "Russian",
+      "my": "Myanmar"
     },
     "emailLabel": "이메일",
     "emailPlaceholder": "johndoe@gmail.com",
@@ -42,8 +44,6 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#signin",
     "githubPath": "app/signin.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ko.json#signin",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/ko.json#signin"
   }
 }

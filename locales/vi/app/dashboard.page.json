@@ -1,0 +1,101 @@
+{
+  "pageId": "app.dashboard",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/dashboard",
+  "version": 1,
+  "sourceHash": "sha256:7e65ed02e2049b6d58e98a10d579857004b712c7e02a23eabd58e206643b9133",
+  "keys": {
+    "viewDetails": "Xem chi tiết",
+    "subtitle": "Tổng quan nhân sự, khách hàng, kế toán, hiệu suất và sử dụng AI.",
+    "titles": {
+      "company": "Bảng điều khiển công ty",
+      "team": "Bảng điều khiển nhóm",
+      "finance": "Bảng điều khiển tài chính"
+    },
+    "period": {
+      "day": "Hàng ngày",
+      "week": "Hàng tuần",
+      "month": "Hàng tháng",
+      "groupLabel": "Kỳ"
+    },
+    "categories": {
+      "hr": "Nhân sự",
+      "customer": "Khách hàng",
+      "account": "Kế toán",
+      "performance": "Hiệu suất",
+      "ai": "Trí tuệ nhân tạo"
+    },
+    "cards": {
+      "checkIn": "Chấm công hôm nay",
+      "absent": "Vắng mặt",
+      "late": "Đi muộn",
+      "leave": "Yêu cầu nghỉ phép",
+      "leaveThisMonth": "Nghỉ phép tháng này",
+      "leaveNextMonth": "Nghỉ phép tháng sau",
+      "expenses": "Chi phí tháng này",
+      "expensePaid": "Đã thanh toán",
+      "expenseRejected": "Từ chối",
+      "customersTotal": "Tổng khách hàng",
+      "crmActiveDeals": "Giao dịch đang hoạt động",
+      "crmOpenLeads": "Khách hàng tiềm năng mở",
+      "emailsSent": "Email đã gửi",
+      "emailsSentHint": "Tổng hóa đơn và chiến dịch; chi tiết tại Mailing.",
+      "emailsFailed": "Thất bại",
+      "invoicesIssued": "Hóa đơn đã phát hành",
+      "revenue": "Doanh thu",
+      "revenueTrend": "so với tháng trước",
+      "outstanding": "Còn nợ",
+      "checklistSuccess": "Tỷ lệ hoàn thành checklist",
+      "successMonth": "Tháng này",
+      "successDay": "Hôm nay",
+      "teamAverage": "Trung bình nhóm",
+      "tokensUsed": "Token đã dùng",
+      "tokenLimit": "Giới hạn gói",
+      "securityAlerts": "Cảnh báo bảo mật",
+      "activeAiUsers": "Người dùng AI hoạt động"
+    },
+    "charts": {
+      "accounting": "Kế toán",
+      "hr": "Nhân sự",
+      "customer": "Khách hàng",
+      "revenue": "Doanh thu",
+      "expenses": "Chi phí",
+      "outstanding": "Còn nợ",
+      "newCustomers": "Khách hàng mới"
+    },
+    "activity": {
+      "title": "Hoạt động nhân viên",
+      "search": "Tìm nhân viên…",
+      "empty": "Không có bản ghi cho tab này.",
+      "viewLink": "Xem",
+      "securityFlag": "Đã gắn cờ",
+      "securityOk": "Ổn",
+      "tabs": {
+        "expenses": "Chi phí",
+        "performance": "Hiệu suất",
+        "ai": "Lệnh AI"
+      },
+      "columns": {
+        "employee": "Nhân viên",
+        "amount": "Số tiền",
+        "status": "Trạng thái",
+        "paymentDate": "Ngày thanh toán",
+        "department": "Phòng ban",
+        "successRate": "Tỷ lệ thành công",
+        "goals": "Mục tiêu",
+        "lastReview": "Đánh giá gần nhất",
+        "prompt": "Lệnh",
+        "tokens": "Token",
+        "time": "Thời gian",
+        "security": "Bảo mật",
+        "action": "Thao tác"
+      }
+    }
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#dashboard",
+    "githubPath": "app/dashboard.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/vi.json#dashboard"
+  }
+}

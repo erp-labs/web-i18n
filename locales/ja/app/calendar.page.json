@@ -2,8 +2,8 @@
   "pageId": "app.calendar",
   "surface": "app",
   "route": "/{companyId}/{locale}/calendar",
-  "version": 2,
-  "sourceHash": "sha256:5f5eff059e509b3ca6733f5423d7dd223962783e7bc7525eea37cc2328d19490",
+  "version": 3,
+  "sourceHash": "sha256:bb960da7af12269afe3789410e582f8455ba9c02ed00c97ba7a5f2907bfde13d",
   "keys": {
     "monthJanuary": "1月",
     "monthFebruary": "2月",
@@ -24,14 +24,30 @@
     "dayStatusTardy": "遅刻",
     "dayStatusOff": "休日",
     "dayStatusAway": "休暇",
-    "dayStatusPublicHoliday": "祝日"
+    "dayStatusPublicHoliday": "祝日",
+    "integrationsHint": "Connect Google Calendar in Integrations when available.",
+    "connectionsTitle": "Calendar connections",
+    "connectionsDescription": "Connect your personal Google Calendar or ask your admin to connect the organization calendar.",
+    "orgConnection": "Organization calendar",
+    "orgConnected": "Connected by your administrator.",
+    "orgNotConnected": "Not connected — configure in admin Integrations.",
+    "personalConnection": "Personal Google Calendar",
+    "personalConnected": "Your Google Calendar is linked.",
+    "personalNotConnected": "Link your own calendar to see personal events here.",
+    "connectGoogle": "Connect Google Calendar",
+    "syncNow": "Sync now",
+    "externalLegend": "Blue dots show external calendar events. Green cells are approved leave.",
+    "externalEventDot": "External event",
+    "dayDetail": "Day detail",
+    "leaveSection": "Leave",
+    "externalEventsSection": "External events",
+    "noExternalEvents": "No external events on this day.",
+    "closeDayDetail": "Close"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#calendar",
     "githubPath": "app/calendar.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ja.json#calendar",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/ja.json#calendar"
   }
 }

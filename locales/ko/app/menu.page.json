@@ -2,8 +2,8 @@
   "pageId": "app.menu",
   "surface": "app",
   "route": "/{companyId}/{locale}/menu",
-  "version": 2,
-  "sourceHash": "sha256:d8a190eda194f241080a10fd778113ffb45b0e85ec46816c81c9970540c36e38",
+  "version": 3,
+  "sourceHash": "sha256:212d6240ac5fd2f9995a06779ea9b967e26f1b47c0c77e17eb896741d020ba50",
   "keys": {
     "checkIn": "근퇴관리",
     "leaves": "휴가관리",
@@ -16,6 +16,7 @@
     "dashboard": "대시보드",
     "invoices": "인보이스",
     "customers": "고객",
+    "crm": "CRM",
     "accounting": "회계",
     "payment": "결제",
     "reservation": "예약",
@@ -26,8 +27,6 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#menu",
     "githubPath": "app/menu.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ko.json#menu",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/ko.json#menu"
   }
 }

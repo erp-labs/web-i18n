@@ -2,8 +2,8 @@
   "pageId": "app.profile",
   "surface": "app",
   "route": "/{companyId}/{locale}/profile",
-  "version": 2,
-  "sourceHash": "sha256:e41d4917788e6b83bbd846406e40f1ed2eae2d7b74d77f445c5153d61ccfdbd8",
+  "version": 3,
+  "sourceHash": "sha256:a153093b32aa7dcea46ba818e1b43016c3ada4be23b4eab1179bca5b5ca9423a",
   "keys": {
     "userSetting": "用户设置",
     "title": "个人资料",
@@ -72,14 +72,12 @@
     "advancedWork": "高级工作",
     "advancedWorkHint": "Work Desk 和 Frappe CRM 使用同一账户。需要详细 ERP 或销售管道工具时可切换。",
     "openWorkDesk": "打开 Work Desk",
-    "openInCrm": "打开 CRM"
+    "openSalesCrm": "Open sales CRM"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#profile",
     "githubPath": "app/profile.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/zh.json#profile",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/zh.json#profile"
   }
 }

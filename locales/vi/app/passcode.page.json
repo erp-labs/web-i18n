@@ -2,8 +2,8 @@
   "pageId": "app.passcode",
   "surface": "app",
   "route": "/{companyId}/{locale}/passcode",
-  "version": 2,
-  "sourceHash": "sha256:f3eb59f28ddec7ec0d8b414d2cf7d9d47113be9676d4ff8fb5ff44a0cbef4ee1",
+  "version": 3,
+  "sourceHash": "sha256:d896b8a45df817404dd626d9ee6ff3cbc7a2b81a8e83e6c29bac54ea9bd0f3ba",
   "keys": {
     "title": "Mã PIN",
     "enterPin": "Vui lòng nhập mã 6 chữ số",
@@ -32,14 +32,13 @@
     "sessionExpired": "Phiên đã hết hạn. Vui lòng đăng nhập lại từ đầu.",
     "resetExpiryNotice": "Link này hết hạn sau 15 phút. Nếu đã hết hạn, vui lòng yêu cầu link mới từ trang đăng nhập.",
     "resetLinkExpiryAndRateLimit": "Link hết hạn sau 15 phút. Nếu không nhận được email, hãy kiểm tra thư rác hoặc thử lại sau.",
-    "rateLimitNotice": "Quá nhiều yêu cầu. Vui lòng thử lại sau vài phút."
+    "rateLimitNotice": "Quá nhiều yêu cầu. Vui lòng thử lại sau vài phút.",
+    "sessionSaveFailed": "Could not save your session. Please sign in again from the start."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#passcode",
     "githubPath": "app/passcode.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/vi.json#passcode",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/vi.json#passcode"
   }
 }

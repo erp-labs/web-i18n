@@ -2,7 +2,7 @@
   "pageId": "app.onboarding",
   "surface": "app",
   "route": "/{companyId}/{locale}/onboarding",
-  "version": 2,
+  "version": 3,
   "sourceHash": "sha256:b53f73fa6f3a4256c798a4a33d9bdfa72b952e07346f76a7995d15efa3ac1399",
   "keys": {
     "title": "مرحباً بك على متن!",
@@ -177,8 +177,6 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#onboarding",
     "githubPath": "app/onboarding.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ar.json#onboarding",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/ar.json#onboarding"
   }
 }

@@ -3,7 +3,7 @@
   "surface": "app",
   "route": "/{companyId}/{locale}/checkin",
   "version": 3,
-  "sourceHash": "sha256:b8bb3c18bd42b70bca261f65f4bb9c6682e6e728c7631b3d7e36056a40106391",
+  "sourceHash": "sha256:f7ed7a90d63d5323bc135dbc4b6c19d96623b6061204a8b95e87cf2c7d847506",
   "keys": {
     "title": "Chấm công",
     "office": "Văn phòng",
@@ -35,8 +35,6 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#checkin",
     "githubPath": "app/checkin.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/vi.json#checkin",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/vi.json#checkin"
   }
 }

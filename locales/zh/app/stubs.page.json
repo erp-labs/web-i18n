@@ -1,0 +1,27 @@
+{
+  "pageId": "app.stubs",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/stubs",
+  "version": 1,
+  "sourceHash": "sha256:606608663abcc10f96eca3aae340f50f62bac6d77c429746d2dd5f4713831cd3",
+  "keys": {
+    "payment": {
+      "title": "Payment",
+      "description": "Collect and reconcile payments. Connect Stripe in Integrations when payment processing is enabled for your organization."
+    },
+    "reservation": {
+      "title": "Reservation",
+      "description": "Book rooms, appointments, and resources. Reservation integrations will appear here as they roll out."
+    },
+    "accounting": {
+      "title": "Accounting",
+      "description": "General ledger and accounting workflows. Frappe ERP is the default backend; connect Xero or Odoo in Integrations to use an external provider."
+    }
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#stubs",
+    "githubPath": "app/stubs.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/zh.json#stubs"
+  }
+}

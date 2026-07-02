@@ -1,0 +1,18 @@
+{
+  "pageId": "app.offline",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/offline",
+  "version": 1,
+  "sourceHash": "sha256:0f9c222da651399321c0d5763dc5d51c1e10fc144188f2cb577690066b0aa5fe",
+  "keys": {
+    "title": "오프라인 상태입니다",
+    "description": "인터넷 연결을 확인한 후 다시 시도해 주세요. 온라인이 되면 페이지가 자동으로 새로고침됩니다.",
+    "tryAgain": "다시 시도"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#offline",
+    "githubPath": "app/offline.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ko.json#offline"
+  }
+}

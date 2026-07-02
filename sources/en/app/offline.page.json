@@ -1,0 +1,17 @@
+{
+  "pageId": "app.offline",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/offline",
+  "version": 1,
+  "sourceHash": "sha256:0f9c222da651399321c0d5763dc5d51c1e10fc144188f2cb577690066b0aa5fe",
+  "keys": {
+    "title": "You're offline",
+    "description": "Please check your internet connection and try again. The page will reload automatically when you're back online.",
+    "tryAgain": "Try Again"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#offline",
+    "githubPath": "app/offline.page.json"
+  }
+}

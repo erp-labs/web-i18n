@@ -2,8 +2,8 @@
   "pageId": "app.myAi",
   "surface": "app",
   "route": "/{companyId}/{locale}/my-ai",
-  "version": 2,
-  "sourceHash": "sha256:a809a39d2c15a5239f14d17ecc31e7ebca7ca60af68d806dd8ca0f22cb2a2acb",
+  "version": 3,
+  "sourceHash": "sha256:643fcdc5c7d3f7c0a54ae4246602acdf7450db7070a56ac78b5c3babce70ef1c",
   "keys": {
     "title": "AI Agent",
     "newChat": "محادثة جديدة",
@@ -201,7 +201,6 @@
     "chipHrReport": "تقرير HR الأسبوعي",
     "chipApprovalAlert": "تنبيه الموافقات المعلقة",
     "chipFinanceSummary": "ملخص الإدارة الشهري",
-    "chipCrmPipeline": "خط أنابيب CRM",
     "chipExpenseDetect": "اكتشاف شذوذ المصروفات",
     "t_hr_name": "تقرير HR الأسبوعي",
     "t_hr_pill_0": "بيانات HR",
@@ -430,6 +429,7 @@
     "description": "اسأل عن سياسات الشركة والإجراءات أو أي موضوعات عمل. يمكنني مساعدتك في العثور على معلومات من مستنداتك.",
     "askAnything": "اسأل عن أي شيء",
     "inputPlaceholder": "اسأل عن سياسات الشركة والإجراءات...",
+    "dummyAssistantReply": "Thanks for your message. This is a demo reply — connect the AI API to enable live responses.",
     "promptComposerPlaceholder": "أدخل مطالبة لـ AI Agent",
     "landingHi": "مرحبًا، {{name}}",
     "landingHiFallbackName": "ضيف",
@@ -546,15 +546,14 @@
       "leavePolicy": "سياسة الإجازات",
       "expenseGuidelines": "إرشادات المصروفات",
       "checkinHelp": "مساعدة تسجيل الحضور",
-      "holidaySchedule": "جدول العطل"
+      "holidaySchedule": "جدول العطل",
+      "customersSummary": "Summarize customers"
     }
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#myAi",
     "githubPath": "app/myAi.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ar.json#myAi",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/ar.json#myAi"
   }
 }

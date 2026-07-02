@@ -2,8 +2,8 @@
   "pageId": "app.passcode",
   "surface": "app",
   "route": "/{companyId}/{locale}/passcode",
-  "version": 2,
-  "sourceHash": "sha256:f3eb59f28ddec7ec0d8b414d2cf7d9d47113be9676d4ff8fb5ff44a0cbef4ee1",
+  "version": 3,
+  "sourceHash": "sha256:d896b8a45df817404dd626d9ee6ff3cbc7a2b81a8e83e6c29bac54ea9bd0f3ba",
   "keys": {
     "title": "رمز المرور",
     "enterPin": "يرجى إدخال رمز المرور المكون من 6 أرقام",
@@ -32,13 +32,13 @@
     "sessionExpired": "انتهت صلاحية الجلسة. يرجى تسجيل الدخول مرة أخرى من البداية.",
     "resetExpiryNotice": "ينتهي صلاحية هذا الرابط خلال 15 دقيقة. إذا انتهت صلاحيته، اطلب رابطاً جديداً من صفحة تسجيل الدخول.",
     "resetLinkExpiryAndRateLimit": "ينتهي صلاحية الرابط خلال 15 دقيقة. إذا لم تستلم البريد، تحقق من البريد العشوائي أو حاول لاحقاً.",
-    "rateLimitNotice": "طلبات كثيرة جداً. يرجى المحاولة مرة أخرى بعد دقائق."
+    "rateLimitNotice": "طلبات كثيرة جداً. يرجى المحاولة مرة أخرى بعد دقائق.",
+    "sessionSaveFailed": "Could not save your session. Please sign in again from the start."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#passcode",
     "githubPath": "app/passcode.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ar.json#passcode",
-    "translationStatus": "reviewed"
+    "importedFrom": "apps/employee-web/dictionaries/ar.json#passcode"
   }
 }

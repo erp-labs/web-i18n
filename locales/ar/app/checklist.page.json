@@ -2,7 +2,7 @@
   "pageId": "app.checklist",
   "surface": "app",
   "route": "/{companyId}/{locale}/checklist",
-  "version": 2,
+  "version": 3,
   "sourceHash": "sha256:b8d6ab3c8eed7f9d6863dbd604ac78a99c1c3f488e67ef626dcc4fee5517f7f7",
   "keys": {
     "title": "قائمة المهام",
@@ -50,8 +50,6 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#checklist",
     "githubPath": "app/checklist.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ar.json#checklist",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/ar.json#checklist"
   }
 }

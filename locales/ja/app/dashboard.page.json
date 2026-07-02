@@ -1,0 +1,101 @@
+{
+  "pageId": "app.dashboard",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/dashboard",
+  "version": 1,
+  "sourceHash": "sha256:7e65ed02e2049b6d58e98a10d579857004b712c7e02a23eabd58e206643b9133",
+  "keys": {
+    "viewDetails": "詳細を見る",
+    "subtitle": "人事、顧客、会計、パフォーマンス、AI利用の概要。",
+    "titles": {
+      "company": "会社ダッシュボード",
+      "team": "チームダッシュボード",
+      "finance": "財務ダッシュボード"
+    },
+    "period": {
+      "day": "日次",
+      "week": "週次",
+      "month": "月次",
+      "groupLabel": "期間"
+    },
+    "categories": {
+      "hr": "人事",
+      "customer": "顧客",
+      "account": "会計",
+      "performance": "パフォーマンス",
+      "ai": "人工知能"
+    },
+    "cards": {
+      "checkIn": "本日の出勤",
+      "absent": "欠勤",
+      "late": "遅刻",
+      "leave": "休暇申請",
+      "leaveThisMonth": "今月の休暇",
+      "leaveNextMonth": "来月の休暇",
+      "expenses": "今月の経費",
+      "expensePaid": "支払済み",
+      "expenseRejected": "却下",
+      "customersTotal": "顧客総数",
+      "crmActiveDeals": "進行中の商談",
+      "crmOpenLeads": "未対応リード",
+      "emailsSent": "送信メール",
+      "emailsSentHint": "請求書とキャンペーンの合計。詳細はメールで確認。",
+      "emailsFailed": "失敗",
+      "invoicesIssued": "発行請求書",
+      "revenue": "売上",
+      "revenueTrend": "前月比",
+      "outstanding": "未収金",
+      "checklistSuccess": "チェックリスト成功率",
+      "successMonth": "今月",
+      "successDay": "本日",
+      "teamAverage": "チーム平均",
+      "tokensUsed": "使用トークン",
+      "tokenLimit": "プラン上限",
+      "securityAlerts": "セキュリティアラート",
+      "activeAiUsers": "アクティブAIユーザー"
+    },
+    "charts": {
+      "accounting": "会計",
+      "hr": "人事",
+      "customer": "顧客",
+      "revenue": "売上",
+      "expenses": "経費",
+      "outstanding": "未収金",
+      "newCustomers": "新規顧客"
+    },
+    "activity": {
+      "title": "従業員アクティビティ",
+      "search": "従業員を検索…",
+      "empty": "このタブに表示する記録がありません。",
+      "viewLink": "表示",
+      "securityFlag": "フラグ",
+      "securityOk": "正常",
+      "tabs": {
+        "expenses": "経費",
+        "performance": "パフォーマンス",
+        "ai": "AIプロンプト"
+      },
+      "columns": {
+        "employee": "従業員",
+        "amount": "金額",
+        "status": "ステータス",
+        "paymentDate": "支払日",
+        "department": "部署",
+        "successRate": "成功率",
+        "goals": "目標",
+        "lastReview": "最終レビュー",
+        "prompt": "プロンプト",
+        "tokens": "トークン",
+        "time": "時間",
+        "security": "セキュリティ",
+        "action": "操作"
+      }
+    }
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#dashboard",
+    "githubPath": "app/dashboard.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ja.json#dashboard"
+  }
+}

@@ -2,8 +2,8 @@
   "pageId": "app.leaves",
   "surface": "app",
   "route": "/{companyId}/{locale}/leaves",
-  "version": 2,
-  "sourceHash": "sha256:b01a78899787ae34a261972746e336a4fa561b7f8940b635bb3c08da71f5ce50",
+  "version": 3,
+  "sourceHash": "sha256:8e118fe61edc02dc066e371a94f9db52f5d31f01ce52c71345cfa20af7587561",
   "keys": {
     "title": "휴가관리",
     "leaveType": "휴가유형",
@@ -42,14 +42,14 @@
     "requestLeaveCta": "휴가 신청",
     "addLeave": "휴가 추가",
     "selectDatesOnCalendar": "위 달력에서 휴가 날짜를 선택하세요.",
+    "selectLeaveDates": "Select leave dates",
+    "confirmDates": "Done",
     "noLeaveAllocation": "아직 휴가 잔여일이 할당되지 않았습니다. HR 관리자에게 문의하세요."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#leaves",
     "githubPath": "app/leaves.page.json",
-    "importedFrom": "apps/employee-web/dictionaries/ko.json#leaves",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/ko.json#leaves"
   }
 }
