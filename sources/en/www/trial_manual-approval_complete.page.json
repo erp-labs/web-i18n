@@ -6,8 +6,11 @@
   "sourceHash": "sha256:670dc8f8338c8eaab4d8e88a6a17d1a74e353563cab4b745e6ec68abe1d84068",
   "keys": {
     "path": "/trial/manual-approval/complete",
-    "meta_title": "Complete application",
-    "meta_description": "Complete manual trial application."
+    "meta_title": "Complete application | Vouus",
+    "meta_description": "Complete manual trial application.",
+    "missing_token": "Missing token. Open the link from your email or start from the trial page.",
+    "redirecting": "Redirecting…",
+    "loading": "Loading…"
   },
   "meta": {
     "productRepo": "infra-control-plane",
