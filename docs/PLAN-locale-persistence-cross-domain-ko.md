@@ -109,3 +109,32 @@ pnpm run test:e2e:client-web
 2. www 클라이언트 네비 후 `lang=ko`, shell nav 한국어
 3. account/app 동일 cookie로 locale 일치
 4. 크로스 도메인 Q3–Q5 수동/자동 통과
+
+---
+
+## 10. Phase 5 — 브라우저 언어 bootstrap + CP locale analytics (구현됨)
+
+### 공유 bootstrap (`@platform/cookies`)
+
+- `detectBrowserPlatformLocale`, `resolvePlatformLocale`, `initializePlatformLocaleIfNeeded`
+- `PLATFORM_LOCALE_EARLY_SCRIPT` — cookie/localStorage 없을 때 `navigator.languages` 감지 후 cookie 기록
+- `reportLocalePreferenceEvent` — same-origin BFF → CP `locale_preference_events`
+
+### Surface 적용
+
+| Surface | Bootstrap | Analytics BFF |
+|---------|-----------|---------------|
+| www | `MarketingLocaleSync` + early script | Pages Function `functions/api/locale-analytics.js` |
+| account | `AccountLocaleBootstrap` | `POST /api/locale-analytics` |
+| app | `LangSync` + middleware `Accept-Language` | `POST /api/locale-analytics` |
+
+### account → app handoff
+
+- `buildTenantPortalUrls({ locale })` — dashboard summary가 request cookie locale 전달
+- `PortalAccessCards` — 클라이언트 `useEffectiveLocale()`로 employee href 보정
+
+### Control Plane
+
+- D1 `locale_preference_events` (migration `0203`)
+- `GET /internal/locale-preference-events`, `/summary`, `POST .../ingest`
+- Operator UI: `/cp/locale-analytics`
