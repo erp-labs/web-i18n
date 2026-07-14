@@ -11,7 +11,7 @@ on:
 
 jobs:
   sync-manifest:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, erp-labs, hetzner]
     steps:
       - uses: actions/checkout@v4
 
