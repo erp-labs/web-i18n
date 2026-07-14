@@ -24,7 +24,7 @@ permissions:
 
 jobs:
   sync-core-platform:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, erp-labs, hetzner]
     steps:
       - name: Require cross-repo token
         id: token
@@ -85,7 +85,7 @@ jobs:
           labels: i18n-sync
 
   sync-web-public:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, erp-labs, hetzner]
     steps:
       - name: Require cross-repo token
         id: token
@@ -143,7 +143,7 @@ jobs:
           labels: i18n-sync
 
   sync-infra-email:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, erp-labs, hetzner]
     steps:
       - name: Require cross-repo token
         id: token
