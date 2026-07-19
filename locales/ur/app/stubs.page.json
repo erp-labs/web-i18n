@@ -1,0 +1,35 @@
+{
+  "pageId": "app.stubs",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/stubs",
+  "version": 2,
+  "sourceHash": "sha256:ebc3344b5dd18d78128ed55bac83d115a0364913facdd9be011d7854cc8ce2b4",
+  "keys": {
+    "payment": {
+      "title": "ادائیگی",
+      "description": "ادائیگیوں کو جمع کریں اور ان کو ملا دیں۔ جب آپ کی تنظیم کے لیے ادائیگی کی کارروائی فعال ہو تو انٹیگریشنز میں Stripe کو مربوط کریں۔"
+    },
+    "payroll": {
+      "title": "پے رول",
+      "description": "سیلری سلپس اور ٹیکس کی تفصیلات دیکھیں۔ ڈیٹا آپ کی تنظیم کے ERP پے رول ماڈیول سے آتا ہے۔"
+    },
+    "reservation": {
+      "title": "ریزرویشن",
+      "description": "کمرے، ملاقاتیں اور وسائل بک کریں۔ ریزرویشن انٹیگریشنز ان کے رول آؤٹ ہوتے ہی یہاں ظاہر ہوں گے۔"
+    },
+    "accounting": {
+      "title": "حساب کتاب",
+      "description": "جنرل لیجر اور اکاؤنٹنگ ورک فلو۔ Frappe ERP پہلے سے طے شدہ پسدید ہے؛ بیرونی فراہم کنندہ کو استعمال کرنے کے لیے انٹیگریشنز میں Xero یا Odoo کو جوڑیں۔"
+    },
+    "financial_reports": {
+      "title": "مالیاتی رپورٹس",
+      "description": "کمپنی P&L، بیلنس شیٹ، اور ٹرائل بیلنس۔ اکاؤنٹ پر کمپنی کی مالیاتی رسائی کی ضرورت ہے۔"
+    }
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#stubs",
+    "githubPath": "app/stubs.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ur.json#stubs"
+  }
+}

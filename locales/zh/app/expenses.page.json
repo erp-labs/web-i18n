@@ -2,8 +2,8 @@
   "pageId": "app.expenses",
   "surface": "app",
   "route": "/{companyId}/{locale}/expenses",
-  "version": 3,
-  "sourceHash": "sha256:44f8f788a4c6dec9f70b07444cd320e849271f1639a97454335ba20e6729b6cb",
+  "version": 5,
+  "sourceHash": "sha256:8b78a18c2acc0201dec640b88e50f0bffe75b5963711ae59e4e1ab07e61424e5",
   "keys": {
     "title": "报销",
     "addExpense": "添加报销",
@@ -20,7 +20,7 @@
     "selectSubCategory": "选择子类别",
     "totalAmountLabel": "总金额 (SGD)",
     "confirmAndContinue": "确认并继续",
-    "submitFailed": "无法提交费用。请重试。",
+    "submitFailed": "无法提交费用。请再试一次。",
     "categoryTransport": "交通",
     "categoryTravel": "差旅",
     "categoryBusinessExpense": "业务费用",
@@ -68,7 +68,11 @@
     "created": "申请日：",
     "overviewTotal": "合计",
     "overviewPaid": "已付",
-    "overviewPending": "待付"
+    "overviewPending": "待付",
+    "noExpensesThisMonth": "这个月没有任何开支。",
+    "editExpense": "编辑费用",
+    "editExpenseDescription": "更新草稿费用详细信息",
+    "saveChanges": "保存更改"
   },
   "meta": {
     "productRepo": "core-platform",

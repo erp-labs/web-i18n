@@ -1,0 +1,35 @@
+{
+  "pageId": "app.stubs",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/stubs",
+  "version": 2,
+  "sourceHash": "sha256:ebc3344b5dd18d78128ed55bac83d115a0364913facdd9be011d7854cc8ce2b4",
+  "keys": {
+    "payment": {
+      "title": "Pembayaran",
+      "description": "Mengumpulkan dan merekonsiliasi pembayaran. Hubungkan 0 di Integrasi ketika pemrosesan pembayaran diaktifkan untuk organisasi Anda."
+    },
+    "payroll": {
+      "title": "Daftar gaji",
+      "description": "Lihat slip gaji dan rincian pajak. Data berasal dari modul penggajian organisasi Anda."
+    },
+    "reservation": {
+      "title": "Reservasi",
+      "description": "Pesan ruangan, janji temu, dan sumber daya. Integrasi reservasi akan muncul di sini saat diluncurkan."
+    },
+    "accounting": {
+      "title": "Akuntansi",
+      "description": "Buku besar umum dan alur kerja akuntansi. 0 ERP adalah backend default; sambungkan Xero atau Odoo di Integrasi untuk menggunakan penyedia eksternal."
+    },
+    "financial_reports": {
+      "title": "Laporan Keuangan",
+      "description": "Laba dan Rugi Perusahaan, neraca, dan neraca saldo. Membutuhkan akses keuangan perusahaan pada Akun."
+    }
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#stubs",
+    "githubPath": "app/stubs.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/id.json#stubs"
+  }
+}

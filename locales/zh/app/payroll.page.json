@@ -1,0 +1,39 @@
+{
+  "pageId": "app.payroll",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/payroll",
+  "version": 2,
+  "sourceHash": "sha256:4dfc871169d9e8536887fce8f0108896e74d838b9798d5a71e952011e218a2dc",
+  "keys": {
+    "title": "工资单",
+    "noSlipsYet": "还没有工资单",
+    "noSlipsDescription": "您组织的工资单0 将显示在此处。",
+    "taxYear": "纳税年度",
+    "gross": "总的",
+    "deductions": "扣除额",
+    "net": "网",
+    "slipsCount": "工资单",
+    "taxDetails": "税务详情",
+    "taxSummaryTitle": "税务摘要",
+    "taxSummaryEmpty": "没有今年的税务摘要。",
+    "taxDetailsHint": "由 0% 工资单扣除部分（不是单独的税收引擎）汇总。",
+    "taxDetailsEmpty": "今年的工资单上没有发现类似税收的扣除成分。",
+    "viewTaxSummary": "查看税务详情",
+    "backToList": "返回工资单",
+    "slipDetail": "工资单",
+    "slipNotFound": "找不到工资单。",
+    "downloadPdf": "下载0",
+    "pdfDownloaded": "0已下载",
+    "pdfDownloadError": "下载失败0",
+    "period": "时期",
+    "employee": "员工",
+    "status": "地位",
+    "earnings": "收益"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#payroll",
+    "githubPath": "app/payroll.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/zh.json#payroll"
+  }
+}

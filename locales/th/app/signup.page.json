@@ -2,17 +2,17 @@
   "pageId": "app.signup",
   "surface": "app",
   "route": "/{companyId}/{locale}/signup",
-  "version": 1,
+  "version": 3,
   "sourceHash": "sha256:ddb5417f701bc66105f54e1db3bac33ffdab5057c480dd09cf5f531e7b0ea8d2",
   "keys": {
     "brandName": "Pregoi",
     "title": "ลงทะเบียน",
     "firstNameLabel": "ชื่อ",
     "firstNamePlaceholder": "กรอกชื่อของคุณ",
-    "emailLabel": "Email",
+    "emailLabel": "อีเมล",
     "emailPlaceholder": "johndoe@gmail.com",
-    "passwordLabel": "Password",
-    "passwordPlaceholder": "Use a secure password",
+    "passwordLabel": "รหัสผ่าน",
+    "passwordPlaceholder": "ใช้รหัสผ่านที่ปลอดภัย",
     "confirmPasswordLabel": "ยืนยันรหัสผ่าน",
     "confirmPasswordPlaceholder": "ป้อนรหัสผ่านของคุณอีกครั้ง",
     "submitButton": "สร้างบัญชี",
@@ -26,7 +26,6 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#signup",
     "githubPath": "app/signup.page.json",
-    "translationStatus": "ai_draft",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/th.json#signup"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "pageId": "app.billing",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/billing",
+  "version": 2,
+  "sourceHash": "sha256:aa97d4e6eb20468bffc0e19905ca10f66abb7a98bbf19c25a4db5269f93767ee",
+  "keys": {
+    "title": "Kredit & Pengebilan",
+    "description": "Tambah kredit AI anda untuk terus menggunakan My AI. Urus pelan dan pengebilan anda di bawah.",
+    "goToBilling": "Pergi ke pengebilan",
+    "contactAdmin": "Hubungi pentadbir anda untuk menambah kredit atau mengkonfigurasi pengebilan untuk {companyId}."
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#billing",
+    "githubPath": "app/billing.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ms.json#billing"
+  }
+}

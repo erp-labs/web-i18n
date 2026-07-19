@@ -1,11 +1,11 @@
 {
   "pageId": "app.checkin",
   "surface": "app",
-  "route": "/{companyId}/{locale}/checkin",
-  "version": 3,
-  "sourceHash": "sha256:f7ed7a90d63d5323bc135dbc4b6c19d96623b6061204a8b95e87cf2c7d847506",
+  "route": "/{companyId}/{locale}/check-in",
+  "version": 5,
+  "sourceHash": "sha256:cd490b783bf77b197e8c56a66eb587c36ce8571e875a8164db3a00a85ebad500",
   "keys": {
-    "title": "Chấm công",
+    "title": "Theo dõi thời gian",
     "office": "Văn phòng",
     "home": "Nhà",
     "checkIn": "Vào ca",
@@ -29,7 +29,9 @@
     "approxHoursPrefix": "xấp xỉ ",
     "noAttendanceYet": "Chưa có bản ghi chấm công",
     "startByCheckingIn": "Chấm công vào để bắt đầu theo dõi giờ làm tại đây",
-    "startCheckInCta": "Bắt đầu chấm công"
+    "startCheckInCta": "Bắt đầu chấm công",
+    "checkOutFailed": "Việc trả phòng không thể được lưu. Việc tham dự trước đó của bạn có thể cần phải được thiết lập lại.",
+    "staleOpenSessionWarning": "Bạn có một đăng ký mở từ ngày hôm trước. Việc trả phòng có thể không thành công cho đến khi hồ sơ điểm danh được sửa."
   },
   "meta": {
     "productRepo": "core-platform",

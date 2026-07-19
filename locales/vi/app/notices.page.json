@@ -2,7 +2,7 @@
   "pageId": "app.notices",
   "surface": "app",
   "route": "/{companyId}/{locale}/notices",
-  "version": 3,
+  "version": 5,
   "sourceHash": "sha256:96007cd19af974b47e87c9f193780ca1a39297bcf883e09ab9a3fe89ad15966a",
   "keys": {
     "title": "Thông báo",

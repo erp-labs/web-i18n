@@ -2,8 +2,8 @@
   "pageId": "app.signin",
   "surface": "app",
   "route": "/{companyId}/{locale}/signin",
-  "version": 3,
-  "sourceHash": "sha256:65d56c9404d351114558a462f9b62fbea68d77252f078b6e8fa3f30053b86c3d",
+  "version": 5,
+  "sourceHash": "sha256:525134027ea084b8fdb04f5bb1f8ed36b7e5018b1d7357847f80cbd08b4204b3",
   "keys": {
     "title": "로그인",
     "languageLabel": "언어",
@@ -15,13 +15,13 @@
       "vi": "베트남어",
       "zh": "中文",
       "th": "태국어",
-      "id": "인도네시아어",
-      "ms": "말레이어",
-      "si": "싱할라어",
+      "id": "인도네시아 인",
+      "ms": "말레이 사람",
+      "si": "신할라어",
       "ur": "우르두어",
-      "hi": "힌디어",
-      "ru": "Russian",
-      "my": "Myanmar"
+      "hi": "힌디 어",
+      "ru": "러시아인",
+      "my": "미얀마"
     },
     "emailLabel": "이메일",
     "emailPlaceholder": "johndoe@gmail.com",
@@ -35,10 +35,11 @@
     "errorSignInFailed": "로그인에 실패했습니다.",
     "errorAccountNotFound": "이 이메일은 Work App 로그인에 등록되지 않았습니다. 관리자에게 초대 재발송 또는 Work App 동기화를 요청하세요.",
     "errorAccountSuspended": "이 계정은 일시 중지되었습니다. 관리자에게 문의하세요.",
-    "staleSessionHint": "다른 워크스페이스의 이전 로그인 세션이 이 브라우저에 아직 저장되어 있습니다.",
+    "staleSessionHint": "다른 워크스페이스에 대한 이전 로그인 세션이 이 브라우저에 계속 저장되어 있습니다.",
     "clearStaleSession": "저장된 세션 지우기",
-    "clearingStaleSession": "지우는 중…",
-    "errorGeneric": "오류가 발생했습니다. 다시 시도해 주세요."
+    "clearingStaleSession": "청산…",
+    "errorGeneric": "오류가 발생했습니다. 다시 시도해 주세요.",
+    "workPasswordUpdated": "직장 비밀번호가 업데이트되었습니다. 새 비밀번호로 다시 로그인한 후 비밀번호를 입력하세요."
   },
   "meta": {
     "productRepo": "core-platform",

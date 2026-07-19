@@ -2,20 +2,28 @@
   "pageId": "app.stubs",
   "surface": "app",
   "route": "/{companyId}/{locale}/stubs",
-  "version": 1,
-  "sourceHash": "sha256:606608663abcc10f96eca3aae340f50f62bac6d77c429746d2dd5f4713831cd3",
+  "version": 3,
+  "sourceHash": "sha256:ebc3344b5dd18d78128ed55bac83d115a0364913facdd9be011d7854cc8ce2b4",
   "keys": {
     "payment": {
-      "title": "Payment",
-      "description": "Collect and reconcile payments. Connect Stripe in Integrations when payment processing is enabled for your organization."
+      "title": "قسط",
+      "description": "جمع وتسوية المدفوعات. قم بالاتصال Stripe في عمليات التكامل عند تمكين معالجة الدفع لمؤسستك."
+    },
+    "payroll": {
+      "title": "كشوف المرتبات",
+      "description": "عرض قسائم الرواتب والتفاصيل الضريبية. تأتي البيانات من وحدة الرواتب الخاصة بمؤسستك."
     },
     "reservation": {
-      "title": "Reservation",
-      "description": "Book rooms, appointments, and resources. Reservation integrations will appear here as they roll out."
+      "title": "حجز",
+      "description": "حجز الغرف والمواعيد والموارد. ستظهر عمليات تكامل الحجز هنا عند طرحها."
     },
     "accounting": {
-      "title": "Accounting",
-      "description": "General ledger and accounting workflows. Frappe ERP is the default backend; connect Xero or Odoo in Integrations to use an external provider."
+      "title": "محاسبة",
+      "description": "دفتر الأستاذ العام وسير العمل المحاسبي. Frappe ERP هي الواجهة الخلفية الافتراضية؛ قم بتوصيل 1 أو 2 في عمليات التكامل لاستخدام موفر خارجي."
+    },
+    "financial_reports": {
+      "title": "التقارير المالية",
+      "description": "أرباح وخسائر الشركة والميزانية العمومية وميزان المراجعة. يتطلب الوصول إلى البيانات المالية للشركة على الحساب."
     }
   },
   "meta": {

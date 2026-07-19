@@ -2,8 +2,8 @@
   "pageId": "app.passcode",
   "surface": "app",
   "route": "/{companyId}/{locale}/passcode",
-  "version": 1,
-  "sourceHash": "sha256:f3eb59f28ddec7ec0d8b414d2cf7d9d47113be9676d4ff8fb5ff44a0cbef4ee1",
+  "version": 3,
+  "sourceHash": "sha256:d896b8a45df817404dd626d9ee6ff3cbc7a2b81a8e83e6c29bac54ea9bd0f3ba",
   "keys": {
     "title": "මුර කේතය",
     "enterPin": "කරුණාකර ඔබේ ඉලක්කම්-6 මුරකේතය ඇතුළු කරන්න",
@@ -32,13 +32,13 @@
     "sessionExpired": "සැසිය කල් ඉකුත් විය. කරුණාකර ආරම්භයේ සිට නැවත පුරන්න.",
     "resetExpiryNotice": "මෙම සබැඳිය විනාඩි 15 කින් කල් ඉකුත් වේ. එය කල් ඉකුත් වී ඇත්නම්, පුරනය වීමේ පිටුවෙන් නව යළි පිහිටුවීමේ සබැඳියක් ඉල්ලන්න.",
     "resetLinkExpiryAndRateLimit": "සබැඳිය විනාඩි 15 කින් කල් ඉකුත් වේ. ඔබට විද්‍යුත් තැපෑලක් නොලැබුනේ නම්, අයාචිත තැපෑල පරීක්ෂා කරන්න හෝ පසුව නැවත උත්සාහ කරන්න.",
-    "rateLimitNotice": "ඉල්ලීම් වැඩියි. කරුණාකර මිනිත්තු කිහිපයකින් නැවත උත්සාහ කරන්න."
+    "rateLimitNotice": "ඉල්ලීම් වැඩියි. කරුණාකර මිනිත්තු කිහිපයකින් නැවත උත්සාහ කරන්න.",
+    "sessionSaveFailed": "ඔබගේ සැසිය සුරැකීමට නොහැකි විය. කරුණාකර ආරම්භයේ සිට නැවත පුරන්න."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#passcode",
     "githubPath": "app/passcode.page.json",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/si.json#passcode"
   }
 }

@@ -1,0 +1,112 @@
+{
+  "pageId": "app.dashboard",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/",
+  "version": 2,
+  "sourceHash": "sha256:6bca2fd7db843a8d40a4aa9efc81d43a93d3882ba68ffff04f67687586b58cc1",
+  "keys": {
+    "viewDetails": "Lihat detail",
+    "subtitle": "Ikhtisar HR, pelanggan, akuntansi, kinerja, dan penggunaan AI.",
+    "emptyHint": "Belum ada data aktivitas untuk periode ini. Jalankan seed atau selesaikan orientasi untuk mengisi dasbor.",
+    "overviewRefreshFailed": "Overview refresh failed. Showing module summaries where available.",
+    "titles": {
+      "company": "Dasbor Perusahaan",
+      "team": "Dasbor Tim",
+      "finance": "Dasbor Keuangan"
+    },
+    "period": {
+      "day": "Harian",
+      "week": "Mingguan",
+      "month": "Bulanan",
+      "groupLabel": "Periode"
+    },
+    "categories": {
+      "hr": "Sumber Daya Manusia",
+      "customer": "Pelanggan",
+      "account": "Akuntansi",
+      "performance": "Kinerja",
+      "ai": "Kecerdasan buatan"
+    },
+    "cards": {
+      "checkIn": "Check-in hari ini",
+      "absent": "Tidak hadir",
+      "late": "Terlambat",
+      "leave": "Permintaan cuti",
+      "leaveThisMonth": "Cuti bulan ini",
+      "leaveNextMonth": "Cuti bulan depan",
+      "expenses": "Pengeluaran bulan ini",
+      "expensePaid": "Dibayar",
+      "expensePending": "Tertunda",
+      "expenseRejected": "Ditolak",
+      "customersTotal": "Total pelanggan",
+      "customersNewThisMonth": "Baru bulan ini",
+      "customersWithContact": "Dengan informasi kontak",
+      "customersWithContactPercent": "Membagikan",
+      "customersCompanyShare": "Pelanggan perusahaan",
+      "customersCompanyPercent": "Membagikan",
+      "crmActiveDeals": "Deal aktif",
+      "crmOpenLeads": "Lead terbuka",
+      "emailsSent": "Email terkirim",
+      "emailsSentHint": "Total faktur dan kampanye; detail di Mailing.",
+      "emailsFailed": "Gagal",
+      "invoicesIssued": "Faktur diterbitkan",
+      "revenue": "Pendapatan",
+      "revenueTrend": "vs bulan lalu",
+      "outstanding": "Piutang",
+      "paidCount": "Dibayar",
+      "checklistSuccess": "Tingkat sukses checklist",
+      "successMonth": "Bulan ini",
+      "successDay": "Hari ini",
+      "teamAverage": "Rata-rata tim",
+      "tokensUsed": "Token digunakan",
+      "tokenLimit": "Batas paket",
+      "securityAlerts": "Peringatan keamanan",
+      "activeAiUsers": "Pengguna AI aktif"
+    },
+    "charts": {
+      "accounting": "Akuntansi",
+      "hr": "Sumber Daya Manusia",
+      "customer": "Pelanggan",
+      "revenue": "Pendapatan",
+      "expenses": "Pengeluaran",
+      "outstanding": "Piutang",
+      "newCustomers": "Pelanggan baru",
+      "customerGrowth": "Pertumbuhan pelanggan",
+      "customerEmails": "Aktivitas email"
+    },
+    "activity": {
+      "title": "Aktivitas karyawan",
+      "search": "Cari karyawan…",
+      "empty": "Tidak ada catatan untuk tab ini.",
+      "viewLink": "Lihat",
+      "securityFlag": "Ditandai",
+      "securityOk": "Baik",
+      "tabs": {
+        "expenses": "Pengeluaran",
+        "performance": "Kinerja",
+        "ai": "Prompt AI"
+      },
+      "columns": {
+        "employee": "Karyawan",
+        "amount": "Jumlah",
+        "status": "Keadaan",
+        "paymentDate": "Tanggal bayar",
+        "department": "Departemen",
+        "successRate": "Tingkat sukses",
+        "goals": "Tujuan",
+        "lastReview": "Review terakhir",
+        "prompt": "Perintah",
+        "tokens": "Token",
+        "time": "Waktu",
+        "security": "Keamanan",
+        "action": "Tindakan"
+      }
+    }
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#dashboard",
+    "githubPath": "app/dashboard.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/id.json#dashboard"
+  }
+}

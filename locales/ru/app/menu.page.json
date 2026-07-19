@@ -2,12 +2,13 @@
   "pageId": "app.menu",
   "surface": "app",
   "route": "/{companyId}/{locale}/menu",
-  "version": 2,
-  "sourceHash": "sha256:212d6240ac5fd2f9995a06779ea9b967e26f1b47c0c77e17eb896741d020ba50",
+  "version": 3,
+  "sourceHash": "sha256:9c41074394ed74e34faca64407864a68acf98a8b2e7061fff2711321c07403bc",
   "keys": {
     "checkIn": "Отметка",
     "leaves": "Отпуск",
     "expenses": "Расходы",
+    "payroll": "Заработная плата",
     "checklist": "Чек-лист",
     "myAi": "Prego AI",
     "billing": "Биллинг",
@@ -19,15 +20,15 @@
     "crm": "CRM",
     "accounting": "Бухгалтерия",
     "payment": "Оплата",
+    "financialReports": "Финансовые отчеты",
     "reservation": "Бронирование",
     "calendar": "Календарь",
-    "mailing": "Рассылки"
+    "mailing": "рассылка"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#menu",
     "githubPath": "app/menu.page.json",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/ru.json#menu"
   }
 }

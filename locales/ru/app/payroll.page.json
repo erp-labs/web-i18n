@@ -1,0 +1,39 @@
+{
+  "pageId": "app.payroll",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/payroll",
+  "version": 2,
+  "sourceHash": "sha256:4dfc871169d9e8536887fce8f0108896e74d838b9798d5a71e952011e218a2dc",
+  "keys": {
+    "title": "Заработная плата",
+    "noSlipsYet": "Счетов по зарплате пока нет",
+    "noSlipsDescription": "Здесь появятся квитанции о зарплате из вашей организации ERP.",
+    "taxYear": "Налоговый год",
+    "gross": "Валовой",
+    "deductions": "Вычеты",
+    "net": "Сеть",
+    "slipsCount": "Квитанции о зарплате",
+    "taxDetails": "Налоговые данные",
+    "taxSummaryTitle": "Налоговая сводка",
+    "taxSummaryEmpty": "Налоговой сводки за этот год нет.",
+    "taxDetailsHint": "Агрегировано из компонентов вычета из зарплатной ведомости ERP (не отдельный налоговый механизм).",
+    "taxDetailsEmpty": "В ведомостях о заработной плате за этот год не обнаружено никаких компонентов налоговых вычетов.",
+    "viewTaxSummary": "Посмотреть налоговую информацию",
+    "backToList": "Вернемся к расчету заработной платы",
+    "slipDetail": "Квитанция о зарплате",
+    "slipNotFound": "Квитанция о зарплате не найдена.",
+    "downloadPdf": "Скачать PDF",
+    "pdfDownloaded": "PDF скачано",
+    "pdfDownloadError": "Не удалось загрузить PDF",
+    "period": "Период",
+    "employee": "Сотрудник",
+    "status": "Статус",
+    "earnings": "Заработок"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#payroll",
+    "githubPath": "app/payroll.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ru.json#payroll"
+  }
+}

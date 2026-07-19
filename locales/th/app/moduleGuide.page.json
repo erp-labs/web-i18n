@@ -1,16 +1,16 @@
 {
   "pageId": "app.moduleGuide",
   "surface": "app",
-  "route": "/{companyId}/{locale}/moduleGuide",
-  "version": 1,
-  "sourceHash": "sha256:6a17eb3392f9231509390565517d774d2c9f981b45c9c523e1659755c053bd6e",
+  "route": "/{companyId}/{locale}/module-guide",
+  "version": 3,
+  "sourceHash": "sha256:b8680d9713926ca546b9d5efa16149212053849046b197f6814a82bb465613d2",
   "keys": {
     "common": {
       "showGuide": "มันทำงานอย่างไร",
       "dontShowAgain": "อย่าแสดงอีก",
       "gotIt": "เข้าใจแล้ว",
-      "next": "Next",
-      "back": "Back",
+      "next": "ต่อไป",
+      "back": "กลับ",
       "stepOf": "ขั้นตอนที่ {current} จาก {total}"
     },
     "attendance": {
@@ -21,7 +21,7 @@
       "howStep2": "แตะชำระเงินเมื่อกะของคุณสิ้นสุดลง",
       "howStep3": "ตรวจสอบชั่วโมงรายวันและผลรวมในรายการนี้",
       "startTitle": "พร้อมที่จะเช็คอินแล้วหรือยัง?",
-      "startBody": "Use the check-in button at the top of the home screen.",
+      "startBody": "ใช้ปุ่มเช็คอินที่ด้านบนของหน้าจอหลัก",
       "startCta": "เริ่มเช็คอิน"
     },
     "expenses": {
@@ -54,15 +54,19 @@
       "howStep2": "ดูตัวอย่างใบแจ้งหนี้ก่อนที่จะส่ง",
       "howStep3": "ส่งให้กับลูกค้าของคุณและติดตามการเปิดเทียบกับการชำระเงินที่นี่",
       "startTitle": "สร้างใบแจ้งหนี้ใบแรกของคุณ",
-      "startBody": "You can save a draft and finish later.",
+      "startBody": "คุณสามารถบันทึกฉบับร่างและดำเนินการให้เสร็จในภายหลังได้",
       "startCta": "สร้างใบแจ้งหนี้"
     },
     "customers": {
-      "whatTitle": "Your customer list",
+      "whatTitle": "รายชื่อลูกค้าของคุณ",
       "whatBody": "เรียกดูลูกค้า 0 รายการที่ซิงค์จากพื้นที่ทำงานของบริษัทของคุณ",
       "howTitle": "ต้องการไปป์ไลน์หรือข้อตกลงใช่ไหม?",
       "howStep1": "Use Open in CRM for Frappe CRM on your tenant host.",
-      "howStep2": "Use Work Desk for full ERP customer records and accounting links."
+      "howStep2": "Use Work Desk for full ERP customer records and accounting links.",
+      "howStep3": "เปิดลูกค้าเพื่อดูรายละเอียดหรือสร้างใบแจ้งหนี้",
+      "startTitle": "เพิ่มลูกค้ารายแรกของคุณ",
+      "startBody": "เริ่มต้นด้วยบัญชีเดียว คุณสามารถเชื่อมโยงใบแจ้งหนี้ได้ในภายหลัง",
+      "startCta": "เพิ่มลูกค้า"
     },
     "leaves": {
       "whatTitle": "ขอเวลาพัก",
@@ -81,13 +85,23 @@
       "howTitle": "ประกาศทำงานอย่างไร",
       "howStep1": "แตะไอคอนระฆังบนประกาศเพื่อทำเครื่องหมายว่าอ่านแล้ว",
       "howStep2": "Use View details to open the related module when a link is available."
+    },
+    "mailing": {
+      "whatTitle": "แคมเปญอีเมล",
+      "whatBody": "สร้างและส่งแคมเปญอีเมลไปยังผู้ชมของคุณจากพื้นที่ทำงานERPของคุณ",
+      "howTitle": "วิธีสร้างแคมเปญ",
+      "howStep1": "แตะ + เพื่อเริ่มแคมเปญใหม่ด้วยชื่อและหัวเรื่อง",
+      "howStep2": "บันทึกเป็นฉบับร่าง จากนั้นกำหนดเวลาหรือส่งเมื่อพร้อม",
+      "howStep3": "ติดตามการเปิด การคลิก และสถานะการจัดส่งในรายการแคมเปญ",
+      "startTitle": "สร้างแคมเปญแรกของคุณ",
+      "startBody": "เริ่มต้นด้วยฉบับร่าง — คุณสามารถปรับแต่งเนื้อหาก่อนส่งได้",
+      "startCta": "แคมเปญใหม่"
     }
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#moduleGuide",
     "githubPath": "app/moduleGuide.page.json",
-    "translationStatus": "ai_draft",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/th.json#moduleGuide"
   }
 }

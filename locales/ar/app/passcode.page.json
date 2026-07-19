@@ -2,7 +2,7 @@
   "pageId": "app.passcode",
   "surface": "app",
   "route": "/{companyId}/{locale}/passcode",
-  "version": 3,
+  "version": 5,
   "sourceHash": "sha256:d896b8a45df817404dd626d9ee6ff3cbc7a2b81a8e83e6c29bac54ea9bd0f3ba",
   "keys": {
     "title": "رمز المرور",
@@ -33,7 +33,7 @@
     "resetExpiryNotice": "ينتهي صلاحية هذا الرابط خلال 15 دقيقة. إذا انتهت صلاحيته، اطلب رابطاً جديداً من صفحة تسجيل الدخول.",
     "resetLinkExpiryAndRateLimit": "ينتهي صلاحية الرابط خلال 15 دقيقة. إذا لم تستلم البريد، تحقق من البريد العشوائي أو حاول لاحقاً.",
     "rateLimitNotice": "طلبات كثيرة جداً. يرجى المحاولة مرة أخرى بعد دقائق.",
-    "sessionSaveFailed": "Could not save your session. Please sign in again from the start."
+    "sessionSaveFailed": "لا يمكن حفظ جلستك. الرجاء تسجيل الدخول مرة أخرى من البداية."
   },
   "meta": {
     "productRepo": "core-platform",

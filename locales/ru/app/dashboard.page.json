@@ -1,0 +1,112 @@
+{
+  "pageId": "app.dashboard",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/",
+  "version": 2,
+  "sourceHash": "sha256:6bca2fd7db843a8d40a4aa9efc81d43a93d3882ba68ffff04f67687586b58cc1",
+  "keys": {
+    "viewDetails": "Подробнее",
+    "subtitle": "Обзор HR, клиентов, учёта, эффективности и использования AI.",
+    "emptyHint": "Данных о деятельности за этот период пока нет. Запустите начальное задание ERP или завершите регистрацию, чтобы заполнить панель мониторинга.",
+    "overviewRefreshFailed": "Overview refresh failed. Showing module summaries where available.",
+    "titles": {
+      "company": "Дашборд компании",
+      "team": "Дашборд команды",
+      "finance": "Финансовый дашборд"
+    },
+    "period": {
+      "day": "Ежедневно",
+      "week": "Еженедельно",
+      "month": "Ежемесячно",
+      "groupLabel": "Период"
+    },
+    "categories": {
+      "hr": "Кадры",
+      "customer": "Клиенты",
+      "account": "Учёт",
+      "performance": "Эффективность",
+      "ai": "Искусственный интеллект"
+    },
+    "cards": {
+      "checkIn": "Check-in сегодня",
+      "absent": "Отсутствует",
+      "late": "Опоздание",
+      "leave": "Заявки на отпуск",
+      "leaveThisMonth": "Отпуск в этом месяце",
+      "leaveNextMonth": "Отпуск в следующем месяце",
+      "expenses": "Расходы за месяц",
+      "expensePaid": "Оплачено",
+      "expensePending": "В ожидании",
+      "expenseRejected": "Отклонено",
+      "customersTotal": "Всего клиентов",
+      "customersNewThisMonth": "Новое в этом месяце",
+      "customersWithContact": "С контактной информацией",
+      "customersWithContactPercent": "Делиться",
+      "customersCompanyShare": "Клиенты компании",
+      "customersCompanyPercent": "Делиться",
+      "crmActiveDeals": "Активные сделки",
+      "crmOpenLeads": "Открытые лиды",
+      "emailsSent": "Отправлено писем",
+      "emailsSentHint": "Счета и кампании; подробности в Mailing.",
+      "emailsFailed": "Ошибки",
+      "invoicesIssued": "Выставлено счетов",
+      "revenue": "Выручка",
+      "revenueTrend": "к прошлому месяцу",
+      "outstanding": "Дебиторка",
+      "paidCount": "Оплаченный",
+      "checklistSuccess": "Успешность checklist",
+      "successMonth": "Этот месяц",
+      "successDay": "Сегодня",
+      "teamAverage": "Среднее по команде",
+      "tokensUsed": "Использовано tokens",
+      "tokenLimit": "Лимит плана",
+      "securityAlerts": "Предупреждения безопасности",
+      "activeAiUsers": "Активные пользователи AI"
+    },
+    "charts": {
+      "accounting": "Учёт",
+      "hr": "Кадры",
+      "customer": "Клиенты",
+      "revenue": "Выручка",
+      "expenses": "Расходы",
+      "outstanding": "Дебиторка",
+      "newCustomers": "Новые клиенты",
+      "customerGrowth": "Рост клиентов",
+      "customerEmails": "Действия по электронной почте"
+    },
+    "activity": {
+      "title": "Активность сотрудников",
+      "search": "Поиск сотрудников…",
+      "empty": "Нет записей для этой вкладки.",
+      "viewLink": "Открыть",
+      "securityFlag": "Отмечено",
+      "securityOk": "Норма",
+      "tabs": {
+        "expenses": "Расходы",
+        "performance": "Эффективность",
+        "ai": "AI-запросы"
+      },
+      "columns": {
+        "employee": "Сотрудник",
+        "amount": "Сумма",
+        "status": "Статус",
+        "paymentDate": "Дата оплаты",
+        "department": "Отдел",
+        "successRate": "Успешность",
+        "goals": "Цели",
+        "lastReview": "Последний review",
+        "prompt": "Запрос",
+        "tokens": "Токены",
+        "time": "Время",
+        "security": "Безопасность",
+        "action": "Действие"
+      }
+    }
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#dashboard",
+    "githubPath": "app/dashboard.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ru.json#dashboard"
+  }
+}

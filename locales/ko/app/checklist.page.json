@@ -2,8 +2,8 @@
   "pageId": "app.checklist",
   "surface": "app",
   "route": "/{companyId}/{locale}/checklist",
-  "version": 3,
-  "sourceHash": "sha256:b8d6ab3c8eed7f9d6863dbd604ac78a99c1c3f488e67ef626dcc4fee5517f7f7",
+  "version": 5,
+  "sourceHash": "sha256:46611de70b6a7a7aaa3bbcb67ce18bbc9b34c9ebf9fbd105a60e6d1f699c74e1",
   "keys": {
     "title": "업무목록",
     "addTitle": "할일추가",
@@ -44,7 +44,8 @@
     "countSuffix": "건",
     "noTasksYet": "아직 할 일이 없습니다",
     "startByAddingTask": "첫 번째 할 일을 추가해 보세요",
-    "loadingMore": "더 불러오는 중"
+    "loadingMore": "더 로드 중",
+    "noTasksThisDay": "오늘은 할 일이 없습니다."
   },
   "meta": {
     "productRepo": "core-platform",

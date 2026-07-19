@@ -1,0 +1,18 @@
+{
+  "pageId": "app.offline",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/offline",
+  "version": 2,
+  "sourceHash": "sha256:0f9c222da651399321c0d5763dc5d51c1e10fc144188f2cb577690066b0aa5fe",
+  "keys": {
+    "title": "आप ऑफ़लाइन हैं",
+    "description": "अपने इंटरनेट कनेक्शन की जाँच करें और पुन: प्रयास करें। जब आप वापस ऑनलाइन होंगे तो पेज स्वचालित रूप से पुनः लोड हो जाएगा।",
+    "tryAgain": "पुनः प्रयास करें"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#offline",
+    "githubPath": "app/offline.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/hi.json#offline"
+  }
+}

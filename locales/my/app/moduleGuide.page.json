@@ -1,79 +1,83 @@
 {
   "pageId": "app.moduleGuide",
   "surface": "app",
-  "route": "/{companyId}/{locale}/moduleGuide",
-  "version": 1,
-  "sourceHash": "sha256:6a17eb3392f9231509390565517d774d2c9f981b45c9c523e1659755c053bd6e",
+  "route": "/{companyId}/{locale}/module-guide",
+  "version": 3,
+  "sourceHash": "sha256:b8680d9713926ca546b9d5efa16149212053849046b197f6814a82bb465613d2",
   "keys": {
     "common": {
-      "showGuide": "How it works",
-      "dontShowAgain": "Don't show again",
-      "gotIt": "Got it",
-      "next": "Next",
-      "back": "Back",
-      "stepOf": "Step {current} of {total}"
+      "showGuide": "ဘယ်လိုအလုပ်လုပ်လဲ။",
+      "dontShowAgain": "ထပ်မပြပါနှင့်",
+      "gotIt": "နားလည်ပြီ",
+      "next": "နောက်တစ်ခု",
+      "back": "ကျော",
+      "stepOf": "အဆင့်{current}၏{total}"
     },
     "attendance": {
-      "whatTitle": "Track your work hours",
-      "whatBody": "Check in when you start work and check out when you finish. Your attendance history appears here automatically.",
-      "howTitle": "How check-in works",
-      "howStep1": "Tap Check In when you arrive at work (office or home).",
-      "howStep2": "Tap Check Out when your shift ends.",
-      "howStep3": "Review daily hours and totals in this list.",
-      "startTitle": "Ready to check in?",
-      "startBody": "Use the check-in button at the top of the home screen.",
-      "startCta": "Start check-in"
+      "whatTitle": "သင်၏အလုပ်ချိန်ကိုခြေရာခံပါ။",
+      "whatBody": "သင်အလုပ်စတင်သည့်အခါတွင် ဝင်ရောက်စစ်ဆေးပြီး ပြီးသည့်အခါတွင် စစ်ဆေးပါ။ သင်၏တက်ရောက်မှုမှတ်တမ်းသည် ဤနေရာတွင် အလိုအလျောက်ပေါ်လာပါသည်။",
+      "howTitle": "Check-in အလုပ်လုပ်ပုံ",
+      "howStep1": "အလုပ် (ရုံး သို့မဟုတ် အိမ်) သို့ ရောက်သောအခါ Check In ကိုနှိပ်ပါ။",
+      "howStep2": "သင်၏အပြောင်းအရွှေ့ပြီးဆုံးသည့်အခါ Check Out ကိုနှိပ်ပါ။",
+      "howStep3": "ဤစာရင်းရှိ နေ့စဉ်နာရီများနှင့် စုစုပေါင်းများကို ပြန်လည်သုံးသပ်ပါ။",
+      "startTitle": "ဝင်ရောက်ကြည့်ရှုရန် အဆင်သင့်ဖြစ်ပြီလား။",
+      "startBody": "ပင်မစခရင်၏ထိပ်ရှိ check-in ခလုတ်ကိုသုံးပါ။",
+      "startCta": "စတင်ဝင်ရောက်ပါ။"
     },
     "expenses": {
-      "whatTitle": "Submit expense claims",
-      "whatBody": "Capture receipts and submit expenses for reimbursement. Approved claims are tracked here.",
-      "howTitle": "How to add an expense",
-      "howStep1": "Tap + and photograph or upload your receipt.",
-      "howStep2": "Choose a category and enter the amount.",
-      "howStep3": "Submit for approval — status updates appear in this list.",
-      "startTitle": "Add your first expense",
-      "startBody": "Keep a photo of your receipt handy.",
-      "startCta": "Add expense"
+      "whatTitle": "ကုန်ကျစရိတ်တောင်းဆိုမှုများကို တင်ပြပါ။",
+      "whatBody": "ပြေစာများကို ဖမ်းယူပြီး ပြန်လည်ပေးဆပ်ရန်အတွက် ကုန်ကျစရိတ်များကို တင်ပြပါ။ အတည်ပြုထားသော အရေးဆိုမှုများကို ဤနေရာတွင် ခြေရာခံပါသည်။",
+      "howTitle": "ကုန်ကျစရိတ်ကို ဘယ်လိုထည့်မလဲ။",
+      "howStep1": "+ ကိုနှိပ်ပြီး ဓာတ်ပုံရိုက်ပါ သို့မဟုတ် သင့်ပြေစာကို အပ်လုဒ်လုပ်ပါ။",
+      "howStep2": "အမျိုးအစားတစ်ခုကို ရွေးချယ်ပြီး ပမာဏကို ထည့်ပါ။",
+      "howStep3": "အတည်ပြုချက်အတွက် တင်သွင်းပါ — အခြေအနေမွမ်းမံမှုများ ဤစာရင်းတွင် ပေါ်လာပါသည်။",
+      "startTitle": "သင်၏ပထမဆုံးကုန်ကျစရိတ်ကိုထည့်ပါ။",
+      "startBody": "သင့်ပြေစာ၏ ဓာတ်ပုံတစ်ပုံကို သိမ်းဆည်းထားပါ။",
+      "startCta": "ကုန်ကျစရိတ်ထည့်ပါ။"
     },
     "checklist": {
-      "whatTitle": "Manage your tasks",
-      "whatBody": "Keep work, home, and personal tasks in one checklist with due dates and progress.",
-      "howTitle": "How to use the checklist",
-      "howStep1": "Tap + to create a task with a name and due date.",
-      "howStep2": "Mark tasks done as you complete them.",
+      "whatTitle": "သင့်အလုပ်များကို စီမံခန့်ခွဲပါ။",
+      "whatBody": "အလုပ်၊ အိမ်နှင့် ကိုယ်ရေးကိုယ်တာအလုပ်များကို စစ်ဆေးရန်စာရင်းတစ်ခုတွင် သတ်မှတ်ရက်စွဲနှင့် တိုးတက်မှုနှင့်အတူ ထားပါ။",
+      "howTitle": "စစ်ဆေးစာရင်းကို ဘယ်လိုသုံးမလဲ။",
+      "howStep1": "အမည်နှင့် သတ်မှတ်ရက်စွဲဖြင့် လုပ်ဆောင်စရာတစ်ခုကို ဖန်တီးရန် + ကိုနှိပ်ပါ။",
+      "howStep2": "သင်လုပ်ဆောင်ပြီးသည်နှင့် ၎င်းတို့ကို ပြီးမြောက်ကြောင်း အမှတ်အသားပြုပါ။",
       "howStep3": "Track overall progress on the overview bar.",
-      "startTitle": "Create your first task",
-      "startBody": "Start with one small task due today.",
-      "startCta": "Add task"
+      "startTitle": "သင်၏ပထမဆုံးအလုပ်ဖန်တီးပါ။",
+      "startBody": "ဒီနေ့ အလုပ်လေးတစ်ခုနဲ့ စတင်လိုက်ပါ။",
+      "startCta": "အလုပ်တစ်ခုကို ထည့်ပါ။"
     },
     "invoices": {
-      "whatTitle": "Create and send invoices",
-      "whatBody": "Build professional invoices, preview them, and track payment status.",
-      "howTitle": "How to create an invoice",
-      "howStep1": "Tap + and enter client details and line items.",
-      "howStep2": "Preview the invoice before sending.",
-      "howStep3": "Send to your client and monitor open vs paid here.",
-      "startTitle": "Create your first invoice",
-      "startBody": "You can save a draft and finish later.",
-      "startCta": "Create invoice"
+      "whatTitle": "ငွေတောင်းခံလွှာများကို ဖန်တီးပြီး ပေးပို့ပါ။",
+      "whatBody": "ပရော်ဖက်ရှင်နယ် ပြေစာများကို တည်ဆောက်ပါ၊ ၎င်းတို့ကို အစမ်းကြည့်ရှုပြီး ငွေပေးချေမှု အခြေအနေကို ခြေရာခံပါ။",
+      "howTitle": "ငွေတောင်းခံလွှာတစ်ခုဖန်တီးနည်း",
+      "howStep1": "+ ကိုနှိပ်ပြီး သုံးစွဲသူအသေးစိတ်နှင့် လိုင်းအကြောင်းအရာများကို ထည့်သွင်းပါ။",
+      "howStep2": "မပို့မီ ငွေတောင်းခံလွှာကို အစမ်းကြည့်ရှုပါ။",
+      "howStep3": "သင့်ဖောက်သည်ထံ ပေးပို့ပြီး ဤနေရာတွင် အခကြေးငွေနှင့် ဖွင့်ပြီး စောင့်ကြည့်ပါ။",
+      "startTitle": "သင်၏ပထမဆုံးငွေတောင်းခံလွှာကိုဖန်တီးပါ။",
+      "startBody": "မူကြမ်းကို သိမ်းဆည်းနိုင်ပြီး နောက်ပိုင်းတွင် အပြီးသတ်နိုင်သည်။",
+      "startCta": "ပြေစာဖန်တီးပါ။"
     },
     "customers": {
-      "whatTitle": "Your customer list",
-      "whatBody": "Browse ERP customers synced from your company workspace.",
+      "whatTitle": "သင်၏ဖောက်သည်စာရင်း",
+      "whatBody": "သင့်ကုမ္ပဏီအလုပ်ခွင်မှ စင့်ခ်လုပ်ထားသော ERPဖောက်သည်များကို ရှာဖွေပါ။",
       "howTitle": "Need pipeline or deals?",
       "howStep1": "Use Open in CRM for Frappe CRM on your tenant host.",
-      "howStep2": "Use Work Desk for full ERP customer records and accounting links."
+      "howStep2": "Use Work Desk for full ERP customer records and accounting links.",
+      "howStep3": "အသေးစိတ်အချက်အလက်များကိုကြည့်ရှုရန် သို့မဟုတ် ပြေစာတစ်ခုဖန်တီးရန် သုံးစွဲသူတစ်ဦးကို ဖွင့်ပါ။",
+      "startTitle": "သင်၏ပထမဆုံးဖောက်သည်ထည့်ပါ။",
+      "startBody": "အကောင့်တစ်ခုဖြင့် စတင်ပါ — သင်သည် ငွေတောင်းခံလွှာများကို နောက်မှ လင့်ခ်ချိတ်နိုင်သည်။",
+      "startCta": "ဖောက်သည်ထည့်ပါ။"
     },
     "leaves": {
-      "whatTitle": "Request time off",
-      "whatBody": "Apply for annual, sick, and other leave types. Your balance and history stay in one place.",
-      "howTitle": "How to request leave",
+      "whatTitle": "အားလပ်ချိန်တောင်းဆိုပါ။",
+      "whatBody": "နှစ်စဉ်၊ ဖျားနာမှုနှင့် အခြားခွင့်အမျိုးအစားများအတွက် လျှောက်ထားပါ။ သင်၏လက်ကျန်ငွေနှင့် မှတ်တမ်းသည် တစ်နေရာတည်းတွင် ရှိနေသည်။",
+      "howTitle": "ထွက်ခွာခွင့်ကို ဘယ်လိုတောင်းဆိုမလဲ။",
       "howStep1": "Check your remaining leave balance at the top.",
       "howStep2": "Select dates on the calendar and choose a leave type.",
-      "howStep3": "Submit your request — approved leave appears in history.",
-      "startTitle": "Submit a leave request",
+      "howStep3": "သင့်တောင်းဆိုချက်ကို တင်သွင်းပါ — ခွင့်ပြုထားသော ခွင့်ရက်မှတ်တမ်းတွင် ပေါ်လာသည်။",
+      "startTitle": "ခွင့်ပန်ချက် တင်သွင်းပါ။",
       "startBody": "Tap Leave application or the + button to pick dates and leave type.",
-      "startCta": "Leave application"
+      "startCta": "လျှောက်လွှာထားခဲ့ပါ။"
     },
     "notices": {
       "whatTitle": "Your work notifications",
@@ -81,13 +85,23 @@
       "howTitle": "How notices work",
       "howStep1": "Tap the bell icon on a notice to mark it as read.",
       "howStep2": "Use View details to open the related module when a link is available."
+    },
+    "mailing": {
+      "whatTitle": "အီးမေးလ်လှုံ့ဆော်မှုများ",
+      "whatBody": "သင်၏ ERP အလုပ်ခွင်မှ သင့်ပရိသတ်ထံသို့ အီးမေးလ်ကမ်ပိန်းများကို ဖန်တီးပြီး ပေးပို့ပါ။",
+      "howTitle": "Campaign တစ်ခုကို ဘယ်လိုဖန်တီးမလဲ။",
+      "howStep1": "အမည်နှင့် အကြောင်းအရာတစ်ခုဖြင့် ကမ်ပိန်းအသစ်တစ်ခု စတင်ရန် + ကိုနှိပ်ပါ။",
+      "howStep2": "မူကြမ်းအဖြစ် သိမ်းဆည်းပြီး အဆင်သင့်ဖြစ်သည့်အခါ အချိန်ဇယားဆွဲပါ သို့မဟုတ် ပေးပို့ပါ။",
+      "howStep3": "ကမ်ပိန်းစာရင်းရှိ အဖွင့်များ၊ ကလစ်များနှင့် ပေးပို့မှုအခြေအနေကို ခြေရာခံပါ။",
+      "startTitle": "သင်၏ပထမဆုံးလှုပ်ရှားမှုကိုဖန်တီးပါ။",
+      "startBody": "မူကြမ်းတစ်ခုဖြင့် စတင်ပါ — မပေးပို့မီ အကြောင်းအရာကို သင် ပြုပြင်နိုင်ပါသည်။",
+      "startCta": "လှုံ့ဆော်မှုအသစ်"
     }
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#moduleGuide",
     "githubPath": "app/moduleGuide.page.json",
-    "translationStatus": "ai_draft",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/my.json#moduleGuide"
   }
 }

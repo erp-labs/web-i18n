@@ -1,12 +1,14 @@
 {
   "pageId": "app.dashboard",
   "surface": "app",
-  "route": "/{companyId}/{locale}/dashboard",
-  "version": 1,
-  "sourceHash": "sha256:7e65ed02e2049b6d58e98a10d579857004b712c7e02a23eabd58e206643b9133",
+  "route": "/{companyId}/{locale}/",
+  "version": 3,
+  "sourceHash": "sha256:6bca2fd7db843a8d40a4aa9efc81d43a93d3882ba68ffff04f67687586b58cc1",
   "keys": {
     "viewDetails": "查看详情",
     "subtitle": "人事、客户、账务、绩效和 AI 使用概览。",
+    "emptyHint": "尚无此期间的活动数据。运行 0 种子或完成入职以填充仪表板。",
+    "overviewRefreshFailed": "Overview refresh failed. Showing module summaries where available.",
     "titles": {
       "company": "公司仪表板",
       "team": "团队仪表板",
@@ -34,8 +36,14 @@
       "leaveNextMonth": "下月请假",
       "expenses": "本月费用",
       "expensePaid": "已支付",
+      "expensePending": "待办的",
       "expenseRejected": "已拒绝",
       "customersTotal": "客户总数",
+      "customersNewThisMonth": "本月新品",
+      "customersWithContact": "有联系方式",
+      "customersWithContactPercent": "分享",
+      "customersCompanyShare": "公司客户",
+      "customersCompanyPercent": "分享",
       "crmActiveDeals": "进行中的交易",
       "crmOpenLeads": "未处理线索",
       "emailsSent": "已发送邮件",
@@ -45,6 +53,7 @@
       "revenue": "收入",
       "revenueTrend": "较上月",
       "outstanding": "未结清",
+      "paidCount": "有薪酬的",
       "checklistSuccess": "清单完成率",
       "successMonth": "本月",
       "successDay": "今日",
@@ -61,7 +70,9 @@
       "revenue": "收入",
       "expenses": "费用",
       "outstanding": "未结清",
-      "newCustomers": "新客户"
+      "newCustomers": "新客户",
+      "customerGrowth": "客户成长",
+      "customerEmails": "电子邮件活动"
     },
     "activity": {
       "title": "员工活动",

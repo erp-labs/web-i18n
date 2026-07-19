@@ -1,11 +1,11 @@
 {
   "pageId": "app.checkin",
   "surface": "app",
-  "route": "/{companyId}/{locale}/checkin",
-  "version": 3,
-  "sourceHash": "sha256:f7ed7a90d63d5323bc135dbc4b6c19d96623b6061204a8b95e87cf2c7d847506",
+  "route": "/{companyId}/{locale}/check-in",
+  "version": 5,
+  "sourceHash": "sha256:cd490b783bf77b197e8c56a66eb587c36ce8571e875a8164db3a00a85ebad500",
   "keys": {
-    "title": "考勤管理",
+    "title": "时间追踪",
     "office": "办公室",
     "home": "居家",
     "checkIn": "上班",
@@ -29,7 +29,9 @@
     "approxHoursPrefix": "约 ",
     "noAttendanceYet": "暂无考勤记录",
     "startByCheckingIn": "打卡后即可在此记录工时",
-    "startCheckInCta": "开始打卡"
+    "startCheckInCta": "开始打卡",
+    "checkOutFailed": "无法保存退房信息。您之前的出勤情况可能需要重置。",
+    "staleOpenSessionWarning": "您有前一天开放的入住登记。在更正出勤记录之前，退房可能会失败。"
   },
   "meta": {
     "productRepo": "core-platform",

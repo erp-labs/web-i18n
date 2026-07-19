@@ -2,7 +2,7 @@
   "pageId": "app.passcode",
   "surface": "app",
   "route": "/{companyId}/{locale}/passcode",
-  "version": 3,
+  "version": 5,
   "sourceHash": "sha256:d896b8a45df817404dd626d9ee6ff3cbc7a2b81a8e83e6c29bac54ea9bd0f3ba",
   "keys": {
     "title": "パスコード",
@@ -33,7 +33,7 @@
     "resetExpiryNotice": "このリンクは15分で期限切れになります。期限切れの場合はログイン画面から新しい再設定リンクを請求してください。",
     "resetLinkExpiryAndRateLimit": "再設定リンクは15分で期限切れになります。メールが届かない場合は迷惑メールフォルダをご確認するか、しばらくしてから再度お試しください。",
     "rateLimitNotice": "リクエストが多すぎます。数分後にもう一度お試しください。",
-    "sessionSaveFailed": "Could not save your session. Please sign in again from the start."
+    "sessionSaveFailed": "セッションを保存できませんでした。もう一度最初からサインインしてください。"
   },
   "meta": {
     "productRepo": "core-platform",

@@ -1,0 +1,39 @@
+{
+  "pageId": "app.payroll",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/payroll",
+  "version": 2,
+  "sourceHash": "sha256:4dfc871169d9e8536887fce8f0108896e74d838b9798d5a71e952011e218a2dc",
+  "keys": {
+    "title": "เงินเดือน",
+    "noSlipsYet": "ยังไม่มีสลิปเงินเดือน",
+    "noSlipsDescription": "สลิปเงินเดือนจากองค์กรของคุณ ERP จะปรากฏที่นี่",
+    "taxYear": "ปีภาษี",
+    "gross": "ทั้งหมด",
+    "deductions": "การหักเงิน",
+    "net": "สุทธิ",
+    "slipsCount": "สลิปเงินเดือน",
+    "taxDetails": "รายละเอียดภาษี",
+    "taxSummaryTitle": "สรุปภาษี",
+    "taxSummaryEmpty": "ไม่มีการสรุปภาษีสำหรับปีนี้",
+    "taxDetailsHint": "รวมจากองค์ประกอบการหักสลิปเงินเดือน ERP (ไม่ใช่เครื่องมือภาษีแยกต่างหาก)",
+    "taxDetailsEmpty": "ไม่พบองค์ประกอบการหักภาษีที่เหมือนภาษีในสลิปเงินเดือนสำหรับปีนี้",
+    "viewTaxSummary": "ดูรายละเอียดภาษี",
+    "backToList": "กลับไปเรื่องเงินเดือน",
+    "slipDetail": "สลิปเงินเดือน",
+    "slipNotFound": "ไม่พบสลิปเงินเดือน",
+    "downloadPdf": "ดาวน์โหลด PDF",
+    "pdfDownloaded": "PDF ดาวน์โหลดแล้ว",
+    "pdfDownloadError": "ดาวน์โหลด PDF ไม่สำเร็จ",
+    "period": "ระยะเวลา",
+    "employee": "พนักงาน",
+    "status": "สถานะ",
+    "earnings": "รายได้"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#payroll",
+    "githubPath": "app/payroll.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/th.json#payroll"
+  }
+}

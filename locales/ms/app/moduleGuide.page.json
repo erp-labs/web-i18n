@@ -1,34 +1,34 @@
 {
   "pageId": "app.moduleGuide",
   "surface": "app",
-  "route": "/{companyId}/{locale}/moduleGuide",
-  "version": 1,
-  "sourceHash": "sha256:6a17eb3392f9231509390565517d774d2c9f981b45c9c523e1659755c053bd6e",
+  "route": "/{companyId}/{locale}/module-guide",
+  "version": 3,
+  "sourceHash": "sha256:b8680d9713926ca546b9d5efa16149212053849046b197f6814a82bb465613d2",
   "keys": {
     "common": {
       "showGuide": "Bagaimana ia berfungsi",
       "dontShowAgain": "Jangan tunjukkan lagi",
       "gotIt": "faham",
-      "next": "Next",
-      "back": "Back",
+      "next": "Seterusnya",
+      "back": "belakang",
       "stepOf": "Langkah {current} daripada {total}"
     },
     "attendance": {
-      "whatTitle": "Track your work hours",
+      "whatTitle": "Jejaki waktu kerja anda",
       "whatBody": "Daftar masuk apabila anda mula bekerja dan daftar keluar apabila anda selesai. Sejarah kehadiran anda dipaparkan di sini secara automatik.",
       "howTitle": "Cara daftar masuk berfungsi",
-      "howStep1": "Tap Check In when you arrive at work (office or home).",
-      "howStep2": "Tap Check Out when your shift ends.",
+      "howStep1": "Ketik Daftar Masuk apabila anda tiba di tempat kerja (pejabat atau rumah).",
+      "howStep2": "Ketik Daftar Keluar apabila syif anda tamat.",
       "howStep3": "Semak jam dan jumlah harian dalam senarai ini.",
       "startTitle": "Bersedia untuk mendaftar masuk?",
-      "startBody": "Use the check-in button at the top of the home screen.",
+      "startBody": "Gunakan butang daftar masuk di bahagian atas skrin utama.",
       "startCta": "Mulakan daftar masuk"
     },
     "expenses": {
       "whatTitle": "Hantar tuntutan perbelanjaan",
       "whatBody": "Tangkap resit dan serahkan perbelanjaan untuk pembayaran balik. Tuntutan yang diluluskan dijejaki di sini.",
       "howTitle": "Bagaimana untuk menambah perbelanjaan",
-      "howStep1": "Tap + and photograph or upload your receipt.",
+      "howStep1": "Ketik + dan gambar atau muat naik resit anda.",
       "howStep2": "Pilih kategori dan masukkan amaun.",
       "howStep3": "Serahkan untuk kelulusan — kemas kini status muncul dalam senarai ini.",
       "startTitle": "Tambah perbelanjaan pertama anda",
@@ -39,7 +39,7 @@
       "whatTitle": "Urus tugas anda",
       "whatBody": "Simpan kerja, rumah dan tugas peribadi dalam satu senarai semak dengan tarikh akhir dan kemajuan.",
       "howTitle": "Cara menggunakan senarai semak",
-      "howStep1": "Tap + to create a task with a name and due date.",
+      "howStep1": "Ketik + untuk membuat tugasan dengan nama dan tarikh akhir.",
       "howStep2": "Tandakan tugasan selesai semasa anda menyelesaikannya.",
       "howStep3": "Track overall progress on the overview bar.",
       "startTitle": "Buat tugas pertama anda",
@@ -50,19 +50,23 @@
       "whatTitle": "Buat dan hantar invois",
       "whatBody": "Bina invois profesional, pratonton invois dan jejak status pembayaran.",
       "howTitle": "Cara membuat invois",
-      "howStep1": "Tap + and enter client details and line items.",
+      "howStep1": "Ketik + dan masukkan butiran pelanggan dan item baris.",
       "howStep2": "Pratonton invois sebelum menghantar.",
       "howStep3": "Hantar kepada pelanggan anda dan pantau terbuka vs berbayar di sini.",
       "startTitle": "Buat invois pertama anda",
-      "startBody": "You can save a draft and finish later.",
+      "startBody": "Anda boleh menyimpan draf dan selesaikan kemudian.",
       "startCta": "Buat invois"
     },
     "customers": {
-      "whatTitle": "Your customer list",
+      "whatTitle": "Senarai pelanggan anda",
       "whatBody": "Semak imbas ERP pelanggan yang disegerakkan daripada ruang kerja syarikat anda.",
       "howTitle": "Perlu saluran paip atau tawaran?",
       "howStep1": "Use Open in CRM for Frappe CRM on your tenant host.",
-      "howStep2": "Use Work Desk for full ERP customer records and accounting links."
+      "howStep2": "Use Work Desk for full ERP customer records and accounting links.",
+      "howStep3": "Buka pelanggan untuk melihat butiran atau membuat invois.",
+      "startTitle": "Tambah pelanggan pertama anda",
+      "startBody": "Mulakan dengan satu akaun — anda boleh memautkan invois kemudian.",
+      "startCta": "Tambah pelanggan"
     },
     "leaves": {
       "whatTitle": "Minta cuti",
@@ -81,13 +85,23 @@
       "howTitle": "Cara notis berfungsi",
       "howStep1": "Tap the bell icon on a notice to mark it as read.",
       "howStep2": "Use View details to open the related module when a link is available."
+    },
+    "mailing": {
+      "whatTitle": "Kempen e-mel",
+      "whatBody": "Buat dan hantar kempen e-mel kepada khalayak anda dari ERP ruang kerja anda.",
+      "howTitle": "Cara membuat kempen",
+      "howStep1": "Ketik + untuk memulakan kempen baharu dengan nama dan subjek.",
+      "howStep2": "Simpan sebagai draf, kemudian jadualkan atau hantar apabila sedia.",
+      "howStep3": "Jejak dibuka, klik dan status penghantaran pada senarai kempen.",
+      "startTitle": "Buat kempen pertama anda",
+      "startBody": "Mulakan dengan draf — anda boleh memperhalusi kandungan sebelum menghantar.",
+      "startCta": "Kempen baharu"
     }
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#moduleGuide",
     "githubPath": "app/moduleGuide.page.json",
-    "translationStatus": "ai_draft",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/ms.json#moduleGuide"
   }
 }

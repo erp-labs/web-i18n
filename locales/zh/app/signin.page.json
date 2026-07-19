@@ -2,8 +2,8 @@
   "pageId": "app.signin",
   "surface": "app",
   "route": "/{companyId}/{locale}/signin",
-  "version": 3,
-  "sourceHash": "sha256:65d56c9404d351114558a462f9b62fbea68d77252f078b6e8fa3f30053b86c3d",
+  "version": 5,
+  "sourceHash": "sha256:525134027ea084b8fdb04f5bb1f8ed36b7e5018b1d7357847f80cbd08b4204b3",
   "keys": {
     "title": "登录",
     "languageLabel": "语言",
@@ -14,14 +14,14 @@
       "ar": "العربية",
       "vi": "Tiếng Việt",
       "zh": "简体中文",
-      "th": "泰语",
-      "id": "印度尼西亚语",
+      "th": "泰国",
+      "id": "印度尼西亚",
       "ms": "马来语",
       "si": "僧伽罗语",
       "ur": "乌尔都语",
       "hi": "印地语",
-      "ru": "Russian",
-      "my": "Myanmar"
+      "ru": "俄语",
+      "my": "缅甸"
     },
     "emailLabel": "邮箱",
     "emailPlaceholder": "johndoe@gmail.com",
@@ -33,12 +33,13 @@
     "noAccount": "还没有账号？",
     "signUp": "注册",
     "errorSignInFailed": "登录失败",
-    "errorAccountNotFound": "此邮箱尚未注册 Work App 登录。请让管理员重新发送邀请或同步 Work App 访问权限。",
-    "errorAccountSuspended": "此账户已被暂停。请联系管理员。",
-    "staleSessionHint": "此浏览器中仍存储着另一工作区的先前登录会话。",
+    "errorAccountNotFound": "此电子邮件尚未注册 0 登录。请您的管理员重新发送您的邀请或同步 0 访问权限。",
+    "errorAccountSuspended": "此帐户已被暂停。请联系您的管理员。",
+    "staleSessionHint": "另一个工作区的先前登录会话仍存储在此浏览器中。",
     "clearStaleSession": "清除存储的会话",
-    "clearingStaleSession": "清除中…",
-    "errorGeneric": "发生错误，请重试。"
+    "clearingStaleSession": "清算…",
+    "errorGeneric": "发生错误，请重试。",
+    "workPasswordUpdated": "工作密码已更新。使用新密码再次登录，然后输入密码。"
   },
   "meta": {
     "productRepo": "core-platform",

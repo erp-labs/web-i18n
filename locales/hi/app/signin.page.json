@@ -2,8 +2,8 @@
   "pageId": "app.signin",
   "surface": "app",
   "route": "/{companyId}/{locale}/signin",
-  "version": 1,
-  "sourceHash": "sha256:b61dd77a92d1b93ec0a17e819f49b7fe6ee4a05d3e75cfd8500c3712433b4c84",
+  "version": 3,
+  "sourceHash": "sha256:525134027ea084b8fdb04f5bb1f8ed36b7e5018b1d7357847f80cbd08b4204b3",
   "keys": {
     "title": "लॉग इन करें",
     "languageLabel": "भाषा",
@@ -19,7 +19,9 @@
       "ms": "मलायी",
       "si": "सिंहली",
       "ur": "उर्दू",
-      "hi": "हिंदी"
+      "hi": "हिंदी",
+      "ru": "रूसी",
+      "my": "म्यांमार"
     },
     "emailLabel": "ईमेल",
     "emailPlaceholder": "johndoe@gmail.com",
@@ -36,13 +38,13 @@
     "staleSessionHint": "किसी अन्य कार्यक्षेत्र के लिए पिछला साइन-इन सत्र अभी भी इस ब्राउज़र में संग्रहीत है।",
     "clearStaleSession": "संग्रहित सत्र साफ़ करें",
     "clearingStaleSession": "समाशोधन...",
-    "errorGeneric": "एक त्रुटि पाई गई। कृपया पुन: प्रयास करें।"
+    "errorGeneric": "एक त्रुटि पाई गई। कृपया पुन: प्रयास करें।",
+    "workPasswordUpdated": "कार्य पासवर्ड अपडेट किया गया. अपने नए पासवर्ड के साथ दोबारा साइन इन करें, फिर अपना पासकोड दर्ज करें।"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#signin",
     "githubPath": "app/signin.page.json",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/hi.json#signin"
   }
 }

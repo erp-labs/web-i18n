@@ -141,6 +141,8 @@ flowchart TB
 
 ### Phase B — app P0 정리 (1주)
 
+> **후속:** Work App 14로케일 전면 패리티는 [PLAN-work-app-full-i18n-parity-ko.md](./PLAN-work-app-full-i18n-parity-ko.md)가 대체·확장한다 (`ru`/`my` 포함).
+
 대상: `ja`, `ko`, `zh`, `ar`, `vi` — EN 잔존 **~5,645~6,850자/로케일**.
 
 | 우선 | 페이지 |

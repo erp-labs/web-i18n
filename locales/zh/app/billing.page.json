@@ -2,13 +2,13 @@
   "pageId": "app.billing",
   "surface": "app",
   "route": "/{companyId}/{locale}/billing",
-  "version": 1,
+  "version": 3,
   "sourceHash": "sha256:aa97d4e6eb20468bffc0e19905ca10f66abb7a98bbf19c25a4db5269f93767ee",
   "keys": {
-    "title": "Credits & Billing",
-    "description": "Top up your AI credits to continue using My AI. Manage your plan and billing below.",
-    "goToBilling": "Go to billing",
-    "contactAdmin": "Contact your administrator to add credits or configure billing for {companyId}."
+    "title": "积分和账单",
+    "description": "充值您的 AI 积分以继续使用“我的 AI”。在下面管理您的计划和账单。",
+    "goToBilling": "前往帐单",
+    "contactAdmin": "请联系您的管理员添加积分或配置 0 的计费。"
   },
   "meta": {
     "productRepo": "core-platform",

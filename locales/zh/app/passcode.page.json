@@ -2,14 +2,14 @@
   "pageId": "app.passcode",
   "surface": "app",
   "route": "/{companyId}/{locale}/passcode",
-  "version": 3,
+  "version": 5,
   "sourceHash": "sha256:d896b8a45df817404dd626d9ee6ff3cbc7a2b81a8e83e6c29bac54ea9bd0f3ba",
   "keys": {
     "title": "密码",
     "enterPin": "请输入您的6位密码",
-    "enterCurrentPin": "输入当前通行码",
-    "changeNewPrompt": "输入新通行码",
-    "changeConfirmPrompt": "再次输入新通行码以确认",
+    "enterCurrentPin": "输入当前密码",
+    "changeNewPrompt": "输入新密码",
+    "changeConfirmPrompt": "再次输入新密码进行确认",
     "rememberDevice": "记住此设备（仅在个人电脑上勾选）",
     "rememberDeviceShort": "记住此设备",
     "reset": "重置",
@@ -33,7 +33,7 @@
     "resetExpiryNotice": "此链接15分钟后失效。若已失效，请在登录页重新请求重置链接。",
     "resetLinkExpiryAndRateLimit": "重置链接15分钟后失效。若未收到邮件，请查看垃圾箱或稍后重试。",
     "rateLimitNotice": "请求过于频繁，请几分钟后重试。",
-    "sessionSaveFailed": "Could not save your session. Please sign in again from the start."
+    "sessionSaveFailed": "无法保存您的会话。请从头开始重新登录。"
   },
   "meta": {
     "productRepo": "core-platform",

@@ -1,0 +1,112 @@
+{
+  "pageId": "app.dashboard",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/",
+  "version": 2,
+  "sourceHash": "sha256:6bca2fd7db843a8d40a4aa9efc81d43a93d3882ba68ffff04f67687586b58cc1",
+  "keys": {
+    "viewDetails": "විස්තර බලන්න",
+    "subtitle": "HR, පාරිභෝගිකයින්, ගිණුම්, කාර්ය සාධනය සහ AI භාවිතයේ සාරාංශය.",
+    "emptyHint": "මෙම කාල සීමාව සඳහා තවමත් ක්‍රියාකාරකම් දත්ත නොමැත. උපකරණ පුවරුව ජනනය කිරීම සඳහා ERP බීජ ධාවනය කරන්න හෝ සම්පූර්ණ ඇතුල් කිරීම.",
+    "overviewRefreshFailed": "Overview refresh failed. Showing module summaries where available.",
+    "titles": {
+      "company": "සමාගම් උපකරණ පුවරුව",
+      "team": "කණ්ඩායම් උපකරණ පුවරුව",
+      "finance": "මුල්‍ය උපකරණ පුවරුව"
+    },
+    "period": {
+      "day": "දිනපතා",
+      "week": "සතිපතා",
+      "month": "මාසික",
+      "groupLabel": "කාල පරිච්ඡේදය"
+    },
+    "categories": {
+      "hr": "මානව සම්පත්",
+      "customer": "පාරිභෝගික",
+      "account": "ගිණුම්",
+      "performance": "කාර්ය සාධනය",
+      "ai": "කෘත්‍රිම බුද්ධිය"
+    },
+    "cards": {
+      "checkIn": "අද check-in",
+      "absent": "නිදහස්",
+      "late": "ප්‍රමාද",
+      "leave": "නිවාඩු ඉල්ලීම්",
+      "leaveThisMonth": "මෙම මාසයේ නිවාඩු",
+      "leaveNextMonth": "ඊළඟ මාසයේ නිවාඩු",
+      "expenses": "මෙම මාසයේ වියදම්",
+      "expensePaid": "ගෙවා ඇත",
+      "expensePending": "පොරොත්තුවෙන්",
+      "expenseRejected": "ප්‍රතික්ෂේප",
+      "customersTotal": "මුළු පාරිභෝගික",
+      "customersNewThisMonth": "මේ මාසේ අලුත්",
+      "customersWithContact": "සම්බන්ධතා තොරතුරු සමඟ",
+      "customersWithContactPercent": "බෙදාගන්න",
+      "customersCompanyShare": "සමාගමේ ගනුදෙනුකරුවන්",
+      "customersCompanyPercent": "බෙදාගන්න",
+      "crmActiveDeals": "සක්‍රිය ගනුදෙනු",
+      "crmOpenLeads": "විවෘත leads",
+      "emailsSent": "යවන ලද ඊමේල්",
+      "emailsSentHint": "ඉන්වොයිස් සහ campaigns සාරාංශය; විස්තara Mailing හි.",
+      "emailsFailed": "අසාර්ථක",
+      "invoicesIssued": "නිකුත් කළ ඉන්වොයිස්",
+      "revenue": "ආදායම",
+      "revenueTrend": "පසුගිය මාසයට සාපේක්ෂව",
+      "outstanding": "ගෙවිය යුතු",
+      "paidCount": "ගෙවා ඇත",
+      "checklistSuccess": "Checklist සාර්ථකත්ව අනුපාතය",
+      "successMonth": "මෙම මාසය",
+      "successDay": "අද",
+      "teamAverage": "කණ්ඩායම් සාමාන්‍ය",
+      "tokensUsed": "භාවිත tokens",
+      "tokenLimit": "Plan සීමාව",
+      "securityAlerts": "ආරක්ෂක alerts",
+      "activeAiUsers": "සක්‍රිය AI පරිශීලක"
+    },
+    "charts": {
+      "accounting": "ගිණුම්",
+      "hr": "මානව සම්පත්",
+      "customer": "පාරිභෝගික",
+      "revenue": "ආදායම",
+      "expenses": "වියදම්",
+      "outstanding": "ගෙවිය යුතු",
+      "newCustomers": "නව පාරිභෝගික",
+      "customerGrowth": "පාරිභෝගික වර්ධනය",
+      "customerEmails": "ඊමේල් ක්‍රියාකාරකම්"
+    },
+    "activity": {
+      "title": "සේවක ක්‍රියාකාරකම",
+      "search": "සේවක සොයන්න…",
+      "empty": "මෙම tab සඳහා වාර්තා නැත.",
+      "viewLink": "බලන්න",
+      "securityFlag": "සලකුණු",
+      "securityOk": "සාමාන්‍ය",
+      "tabs": {
+        "expenses": "වියදම්",
+        "performance": "කාර්ය සාධනය",
+        "ai": "AI ඉල්ලුම්"
+      },
+      "columns": {
+        "employee": "සේවක",
+        "amount": "මුදල",
+        "status": "තත්වය",
+        "paymentDate": "ගෙවීම් දිනය",
+        "department": "අංශය",
+        "successRate": "සාර්ථකත්ව අනුපාතය",
+        "goals": "ඉලක්ක",
+        "lastReview": "අවසාන review",
+        "prompt": "ඉල්ලුම",
+        "tokens": "ටෝකන",
+        "time": "වේලාව",
+        "security": "ආරක්ෂාව",
+        "action": "ක්‍රියාව"
+      }
+    }
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#dashboard",
+    "githubPath": "app/dashboard.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/si.json#dashboard"
+  }
+}

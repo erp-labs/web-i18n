@@ -1,9 +1,9 @@
 {
   "pageId": "app.checkin",
   "surface": "app",
-  "route": "/{companyId}/{locale}/checkin",
-  "version": 2,
-  "sourceHash": "sha256:b8bb3c18bd42b70bca261f65f4bb9c6682e6e728c7631b3d7e36056a40106391",
+  "route": "/{companyId}/{locale}/check-in",
+  "version": 3,
+  "sourceHash": "sha256:cd490b783bf77b197e8c56a66eb587c36ce8571e875a8164db3a00a85ebad500",
   "keys": {
     "title": "කාලය ට්‍රෑකිං කිරීම",
     "office": "කාර්යාලය",
@@ -29,13 +29,14 @@
     "approxHoursPrefix": "ආසන්න වශයෙන්",
     "noAttendanceYet": "තවමත් පැමිණීමේ වාර්තා නොමැත",
     "startByCheckingIn": "ඔබේ වැඩ කරන වේලාවන් හඹා යෑම ආරම්භ කිරීමට මෙහි පරීක්ෂා කරන්න",
-    "startCheckInCta": "ඇතුල්වීම ආරම්භ කරන්න"
+    "startCheckInCta": "ඇතුල්වීම ආරම්භ කරන්න",
+    "checkOutFailed": "පිටවීම සුරැකීමට නොහැකි විය. ඔබගේ කලින් පැමිණීම නැවත සැකසීමට අවශ්‍ය විය හැක.",
+    "staleOpenSessionWarning": "ඔබට පෙර දින සිට විවෘත ඇතුල්වීමක් ඇත. පැමිණීමේ වාර්තා නිවැරදි කරන තුරු පිටවීම අසාර්ථක විය හැක."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#checkin",
     "githubPath": "app/checkin.page.json",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/si.json#checkin"
   }
 }

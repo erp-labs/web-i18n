@@ -1,12 +1,14 @@
 {
   "pageId": "app.dashboard",
   "surface": "app",
-  "route": "/{companyId}/{locale}/dashboard",
-  "version": 1,
-  "sourceHash": "sha256:7e65ed02e2049b6d58e98a10d579857004b712c7e02a23eabd58e206643b9133",
+  "route": "/{companyId}/{locale}/",
+  "version": 3,
+  "sourceHash": "sha256:6bca2fd7db843a8d40a4aa9efc81d43a93d3882ba68ffff04f67687586b58cc1",
   "keys": {
     "viewDetails": "عرض التفاصيل",
     "subtitle": "نظرة عامة على الموارد البشرية والعملاء والحسابات والأداء واستخدام الذكاء الاصطناعي.",
+    "emptyHint": "لا توجد بيانات النشاط حتى الآن لهذه الفترة. قم بتشغيل البذور أو أكمل الإعداد لملء لوحة المعلومات.",
+    "overviewRefreshFailed": "Overview refresh failed. Showing module summaries where available.",
     "titles": {
       "company": "لوحة الشركة",
       "team": "لوحة الفريق",
@@ -34,8 +36,14 @@
       "leaveNextMonth": "إجازة الشهر القادم",
       "expenses": "مصروفات هذا الشهر",
       "expensePaid": "مدفوع",
+      "expensePending": "قيد الانتظار",
       "expenseRejected": "مرفوض",
       "customersTotal": "إجمالي العملاء",
+      "customersNewThisMonth": "جديد هذا الشهر",
+      "customersWithContact": "مع معلومات الاتصال",
+      "customersWithContactPercent": "يشارك",
+      "customersCompanyShare": "عملاء الشركة",
+      "customersCompanyPercent": "يشارك",
       "crmActiveDeals": "صفقات نشطة",
       "crmOpenLeads": "عملاء محتملون مفتوحون",
       "emailsSent": "رسائل بريد مرسلة",
@@ -45,6 +53,7 @@
       "revenue": "الإيرادات",
       "revenueTrend": "مقارنة بالشهر الماضي",
       "outstanding": "المستحقات",
+      "paidCount": "مدفوع",
       "checklistSuccess": "معدل نجاح القائمة",
       "successMonth": "هذا الشهر",
       "successDay": "اليوم",
@@ -61,7 +70,9 @@
       "revenue": "الإيرادات",
       "expenses": "المصروفات",
       "outstanding": "المستحقات",
-      "newCustomers": "عملاء جدد"
+      "newCustomers": "عملاء جدد",
+      "customerGrowth": "نمو العملاء",
+      "customerEmails": "نشاط البريد الإلكتروني"
     },
     "activity": {
       "title": "نشاط الموظفين",

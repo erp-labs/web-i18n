@@ -2,8 +2,8 @@
   "pageId": "app.signin",
   "surface": "app",
   "route": "/{companyId}/{locale}/signin",
-  "version": 1,
-  "sourceHash": "sha256:b61dd77a92d1b93ec0a17e819f49b7fe6ee4a05d3e75cfd8500c3712433b4c84",
+  "version": 3,
+  "sourceHash": "sha256:525134027ea084b8fdb04f5bb1f8ed36b7e5018b1d7357847f80cbd08b4204b3",
   "keys": {
     "title": "ඇතුල් වන්න",
     "languageLabel": "භාෂාව",
@@ -19,7 +19,9 @@
       "ms": "මැලේ",
       "si": "සිංහල",
       "ur": "උර්දු",
-      "hi": "හින්දි"
+      "hi": "හින්දි",
+      "ru": "රුසියානු",
+      "my": "මියන්මාරය"
     },
     "emailLabel": "ඊමේල් කරන්න",
     "emailPlaceholder": "johndoe@gmail.com",
@@ -36,13 +38,13 @@
     "staleSessionHint": "වෙනත් වැඩ ඉඩක් සඳහා පෙර පුරනය වීමේ සැසියක් තවමත් මෙම බ්‍රවුසරයේ ගබඩා කර ඇත.",
     "clearStaleSession": "ගබඩා කළ සැසිය හිස් කරන්න",
     "clearingStaleSession": "හිස් කරමින්...",
-    "errorGeneric": "දෝෂයක් සිදු විය. කරුණාකර නැවත උත්සාහ කරන්න."
+    "errorGeneric": "දෝෂයක් සිදු විය. කරුණාකර නැවත උත්සාහ කරන්න.",
+    "workPasswordUpdated": "කාර්යාල මුරපදය යාවත්කාලීන කරන ලදී. ඔබගේ නව මුරපදය සමඟ නැවත පුරන්න, ඉන්පසු ඔබගේ මුර කේතය ඇතුලත් කරන්න."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#signin",
     "githubPath": "app/signin.page.json",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/si.json#signin"
   }
 }

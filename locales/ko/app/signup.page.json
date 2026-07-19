@@ -2,7 +2,7 @@
   "pageId": "app.signup",
   "surface": "app",
   "route": "/{companyId}/{locale}/signup",
-  "version": 3,
+  "version": 5,
   "sourceHash": "sha256:ddb5417f701bc66105f54e1db3bac33ffdab5057c480dd09cf5f531e7b0ea8d2",
   "keys": {
     "brandName": "Pregoi",
@@ -20,7 +20,7 @@
     "logIn": "로그인",
     "errorPasswordsDoNotMatch": "비밀번호가 일치하지 않습니다",
     "errorGeneric": "문제가 발생했습니다. 다시 시도해 주세요.",
-    "signingUp": "계정 만드는 중…"
+    "signingUp": "계정을 만드는 중…"
   },
   "meta": {
     "productRepo": "core-platform",

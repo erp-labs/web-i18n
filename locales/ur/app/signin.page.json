@@ -2,8 +2,8 @@
   "pageId": "app.signin",
   "surface": "app",
   "route": "/{companyId}/{locale}/signin",
-  "version": 1,
-  "sourceHash": "sha256:b61dd77a92d1b93ec0a17e819f49b7fe6ee4a05d3e75cfd8500c3712433b4c84",
+  "version": 3,
+  "sourceHash": "sha256:525134027ea084b8fdb04f5bb1f8ed36b7e5018b1d7357847f80cbd08b4204b3",
   "keys": {
     "title": "لاگ ان",
     "languageLabel": "زبان",
@@ -19,7 +19,9 @@
       "ms": "مالائی",
       "si": "سنہالا",
       "ur": "اردو",
-      "hi": "ہندی"
+      "hi": "ہندی",
+      "ru": "روسی",
+      "my": "میانمار"
     },
     "emailLabel": "ای میل",
     "emailPlaceholder": "johndoe@gmail.com",
@@ -36,13 +38,13 @@
     "staleSessionHint": "کسی اور ورک اسپیس کے لیے پچھلا سائن ان سیشن اب بھی اس براؤزر میں محفوظ ہے۔",
     "clearStaleSession": "ذخیرہ شدہ سیشن صاف کریں۔",
     "clearingStaleSession": "صاف کیا جا رہا ہے…",
-    "errorGeneric": "ایک خرابی پیش آ گئی۔ براہ کرم دوبارہ کوشش کریں۔"
+    "errorGeneric": "ایک خرابی پیش آ گئی۔ براہ کرم دوبارہ کوشش کریں۔",
+    "workPasswordUpdated": "کام کا پاس ورڈ اپ ڈیٹ ہو گیا۔ اپنے نئے پاس ورڈ کے ساتھ دوبارہ سائن ان کریں، پھر اپنا پاس کوڈ درج کریں۔"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#signin",
     "githubPath": "app/signin.page.json",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/ur.json#signin"
   }
 }

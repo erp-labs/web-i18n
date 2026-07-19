@@ -1,9 +1,9 @@
 {
   "pageId": "app.checkin",
   "surface": "app",
-  "route": "/{companyId}/{locale}/checkin",
-  "version": 3,
-  "sourceHash": "sha256:f7ed7a90d63d5323bc135dbc4b6c19d96623b6061204a8b95e87cf2c7d847506",
+  "route": "/{companyId}/{locale}/check-in",
+  "version": 5,
+  "sourceHash": "sha256:cd490b783bf77b197e8c56a66eb587c36ce8571e875a8164db3a00a85ebad500",
   "keys": {
     "title": "تتبع الوقت",
     "office": "المكتب",
@@ -29,7 +29,9 @@
     "approxHoursPrefix": "≈ ",
     "noAttendanceYet": "لا توجد سجلات حضور بعد",
     "startByCheckingIn": "سجّل حضورك لبدء تتبع ساعات العمل هنا",
-    "startCheckInCta": "بدء تسجيل الحضور"
+    "startCheckInCta": "بدء تسجيل الحضور",
+    "checkOutFailed": "لا يمكن حفظ تسجيل الخروج. قد يلزم إعادة ضبط حضورك المبكر.",
+    "staleOpenSessionWarning": "لديك تسجيل دخول مفتوح من يوم سابق. قد يفشل تسجيل المغادرة حتى يتم تصحيح سجلات الحضور."
   },
   "meta": {
     "productRepo": "core-platform",

@@ -1,0 +1,39 @@
+{
+  "pageId": "app.payroll",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/payroll",
+  "version": 2,
+  "sourceHash": "sha256:4dfc871169d9e8536887fce8f0108896e74d838b9798d5a71e952011e218a2dc",
+  "keys": {
+    "title": "လုပ်ခလစာ",
+    "noSlipsYet": "လစာဖြတ်ပိုင်းမရသေးပါ။",
+    "noSlipsDescription": "သင့်အဖွဲ့အစည်း၏ ERP လစာစာရွက်များ ဤနေရာတွင် ပေါ်လာပါမည်။",
+    "taxYear": "အခွန်နှစ်",
+    "gross": "စုစုပေါင်း",
+    "deductions": "နုတ်ယူခြင်း။",
+    "net": "ပိုက်ကွန်",
+    "slipsCount": "လစာဖြတ်ပိုင်း",
+    "taxDetails": "အခွန်အသေးစိတ်",
+    "taxSummaryTitle": "အခွန်အနှစ်ချုပ်",
+    "taxSummaryEmpty": "ယခုနှစ်အတွက် အခွန်အနှစ်ချုပ်မရှိပါ။",
+    "taxDetailsHint": "ERPလစာစလစ်နုတ်ယူခြင်းအစိတ်အပိုင်းများ (သီးခြားအခွန်အင်ဂျင်မဟုတ်ပါ) မှ စုစည်းထားသည်။",
+    "taxDetailsEmpty": "ယခုနှစ်အတွက် လစာဖြတ်ပိုင်းများတွင် အခွန်နှင့်တူသော နုတ်ယူသည့် အစိတ်အပိုင်းများကို မတွေ့ရှိရပါ။",
+    "viewTaxSummary": "အခွန်အသေးစိတ်အချက်အလက်များကို ကြည့်ပါ။",
+    "backToList": "လုပ်ခလစာသို့ ပြန်သွားရန်",
+    "slipDetail": "လစာစလစ်",
+    "slipNotFound": "လစာစလစ်မတွေ့ပါ။",
+    "downloadPdf": "Download PDF",
+    "pdfDownloaded": "PDF ဒေါင်းလုဒ်လုပ်ထားသည်။",
+    "pdfDownloadError": "PDF ဒေါင်းလုဒ်လုပ်၍မရပါ။",
+    "period": "ကာလ",
+    "employee": "ဝန်ထမ်း",
+    "status": "အဆင့်အတန်း",
+    "earnings": "ဝင်ငွေများ"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#payroll",
+    "githubPath": "app/payroll.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/my.json#payroll"
+  }
+}

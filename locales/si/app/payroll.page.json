@@ -1,0 +1,39 @@
+{
+  "pageId": "app.payroll",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/payroll",
+  "version": 2,
+  "sourceHash": "sha256:4dfc871169d9e8536887fce8f0108896e74d838b9798d5a71e952011e218a2dc",
+  "keys": {
+    "title": "වැටුප් ලේඛනය",
+    "noSlipsYet": "තාම වැටුප් පත්‍රිකා නෑ",
+    "noSlipsDescription": "ඔබේ ආයතනයේ වැටුප් පත්‍රිකා  0  මෙහි දිස්වනු ඇත.",
+    "taxYear": "බදු වර්ෂය",
+    "gross": "දළ",
+    "deductions": "අඩු කිරීම්",
+    "net": "ශුද්ධ",
+    "slipsCount": "වැටුප් ස්ලිප්",
+    "taxDetails": "බදු විස්තර",
+    "taxSummaryTitle": "බදු සාරාංශය",
+    "taxSummaryEmpty": "මෙම වසර සඳහා බදු සාරාංශයක් නොමැත.",
+    "taxDetailsHint": "ERP වැටුප් ස්ලිප් අඩු කිරීම් සංරචක (වෙනම බදු එන්ජිමක් නොවේ) එකතු කර ඇත.",
+    "taxDetailsEmpty": "මෙම වසර සඳහා වැටුප් පත්‍රිකාවල බදු වැනි අඩු කිරීම් සංරචක හමු නොවීය.",
+    "viewTaxSummary": "බදු විස්තර බලන්න",
+    "backToList": "වැටුප් ලේඛනය වෙත ආපසු",
+    "slipDetail": "වැටුප් පත්රිකාව",
+    "slipNotFound": "වැටුප් පත්‍රිකාව හමු නොවීය.",
+    "downloadPdf": "බාගන්න  0",
+    "pdfDownloaded": "0  බාගත කර ඇත",
+    "pdfDownloadError": "0  බාගැනීම අසාර්ථක විය",
+    "period": "කාලසීමාව",
+    "employee": "සේවකයා",
+    "status": "තත්ත්වය",
+    "earnings": "ඉපැයීම්"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#payroll",
+    "githubPath": "app/payroll.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/si.json#payroll"
+  }
+}

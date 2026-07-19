@@ -2,7 +2,7 @@
   "pageId": "app.signup",
   "surface": "app",
   "route": "/{companyId}/{locale}/signup",
-  "version": 3,
+  "version": 5,
   "sourceHash": "sha256:ddb5417f701bc66105f54e1db3bac33ffdab5057c480dd09cf5f531e7b0ea8d2",
   "keys": {
     "brandName": "Pregoi",
@@ -19,8 +19,8 @@
     "alreadyHaveAccount": "既にアカウントをお持ちの場合",
     "logIn": "ログイン",
     "errorPasswordsDoNotMatch": "パスワードが一致しません",
-    "errorGeneric": "問題が発生しました。もう一度お試しください。",
-    "signingUp": "アカウント作成中…"
+    "errorGeneric": "何か問題が発生しました。もう一度試してください。",
+    "signingUp": "アカウントを作成中…"
   },
   "meta": {
     "productRepo": "core-platform",

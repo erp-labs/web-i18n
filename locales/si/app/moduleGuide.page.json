@@ -1,9 +1,9 @@
 {
   "pageId": "app.moduleGuide",
   "surface": "app",
-  "route": "/{companyId}/{locale}/moduleGuide",
-  "version": 1,
-  "sourceHash": "sha256:6a17eb3392f9231509390565517d774d2c9f981b45c9c523e1659755c053bd6e",
+  "route": "/{companyId}/{locale}/module-guide",
+  "version": 3,
+  "sourceHash": "sha256:b8680d9713926ca546b9d5efa16149212053849046b197f6814a82bb465613d2",
   "keys": {
     "common": {
       "showGuide": "එය ක්රියා කරන ආකාරය",
@@ -62,7 +62,11 @@
       "whatBody": "ඔබේ සමාගමේ වැඩබිමෙන් සමමුහුර්ත කළ ERP පාරිභෝගිකයින් බ්‍රවුස් කරන්න.",
       "howTitle": "නල මාර්ගයක් හෝ ගනුදෙනු අවශ්‍යද?",
       "howStep1": "ඔබේ කුලී නිවැසියන් මත Frappe CRM සඳහා CRM හි විවෘත කරන්න.",
-      "howStep2": "සම්පූර්ණ ERP පාරිභෝගික වාර්තා සහ ගිණුම් සම්බන්ධතා සඳහා Work Desk භාවිතා කරන්න."
+      "howStep2": "සම්පූර්ණ ERP පාරිභෝගික වාර්තා සහ ගිණුම් සම්බන්ධතා සඳහා Work Desk භාවිතා කරන්න.",
+      "howStep3": "විස්තර බැලීමට හෝ ඉන්වොයිසියක් සෑදීමට පාරිභෝගිකයෙකු විවෘත කරන්න.",
+      "startTitle": "ඔබේ පළමු පාරිභෝගිකයා එක් කරන්න",
+      "startBody": "එක් ගිණුමකින් ආරම්භ කරන්න - ඔබට ඉන්වොයිසි පසුව සම්බන්ධ කළ හැක.",
+      "startCta": "පාරිභෝගික එකතු කරන්න"
     },
     "leaves": {
       "whatTitle": "නිවාඩු කාලය ඉල්ලන්න",
@@ -81,13 +85,23 @@
       "howTitle": "දැනුම්දීම් ක්‍රියාත්මක වන ආකාරය",
       "howStep1": "එය කියවූ ලෙස සලකුණු කිරීමට දැන්වීමක් මත සීනු නිරූපකය තට්ටු කරන්න.",
       "howStep2": "සබැඳියක් ඇති විට අදාළ මොඩියුලය විවෘත කිරීමට View details භාවිතා කරන්න."
+    },
+    "mailing": {
+      "whatTitle": "ඊමේල් ව්‍යාපාර",
+      "whatBody": "ඔබේ 0  වැඩබිමෙන් ඔබේ ප්‍රේක්ෂකයින්ට විද්‍යුත් තැපැල් ව්‍යාපාර සාදන්න සහ යවන්න.",
+      "howTitle": "උද්ඝෝෂණයක් නිර්මාණය කරන්නේ කෙසේද",
+      "howStep1": "නමක් සහ විෂයක් සමඟ නව ව්‍යාපාරයක් ආරම්භ කිරීමට + තට්ටු කරන්න.",
+      "howStep2": "කෙටුම්පතක් ලෙස සුරකින්න, පසුව උපලේඛනගත කරන්න හෝ සූදානම් වූ විට යවන්න.",
+      "howStep3": "ප්‍රචාරක ලැයිස්තුවේ ධාවන පථය විවෘත වේ, ක්ලික් කිරීම් සහ බෙදා හැරීමේ තත්ත්වය.",
+      "startTitle": "ඔබේ පළමු ව්‍යාපාරය සාදන්න",
+      "startBody": "කෙටුම්පතක් සමඟ ආරම්භ කරන්න - යැවීමට පෙර ඔබට අන්තර්ගතය පිරිපහදු කළ හැක.",
+      "startCta": "නව ව්‍යාපාරය"
     }
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#moduleGuide",
     "githubPath": "app/moduleGuide.page.json",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/si.json#moduleGuide"
   }
 }

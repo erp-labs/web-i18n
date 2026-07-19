@@ -1,0 +1,39 @@
+{
+  "pageId": "app.payroll",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/payroll",
+  "version": 2,
+  "sourceHash": "sha256:4dfc871169d9e8536887fce8f0108896e74d838b9798d5a71e952011e218a2dc",
+  "keys": {
+    "title": "Gaji",
+    "noSlipsYet": "Belum ada slip gaji",
+    "noSlipsDescription": "Slip gaji daripada organisasi anda ERP akan dipaparkan di sini.",
+    "taxYear": "Tahun cukai",
+    "gross": "kasar",
+    "deductions": "Potongan",
+    "net": "bersih",
+    "slipsCount": "Slip gaji",
+    "taxDetails": "Butiran cukai",
+    "taxSummaryTitle": "Ringkasan cukai",
+    "taxSummaryEmpty": "Tiada ringkasan cukai untuk tahun ini.",
+    "taxDetailsHint": "Diagregatkan daripada ERP komponen potongan slip gaji (bukan enjin cukai yang berasingan).",
+    "taxDetailsEmpty": "Tiada komponen potongan seperti cukai ditemui pada slip gaji untuk tahun ini.",
+    "viewTaxSummary": "Lihat butiran cukai",
+    "backToList": "Kembali ke senarai gaji",
+    "slipDetail": "Slip gaji",
+    "slipNotFound": "Slip gaji tidak ditemui.",
+    "downloadPdf": "Muat turun PDF",
+    "pdfDownloaded": "PDF dimuat turun",
+    "pdfDownloadError": "Gagal memuat turun PDF",
+    "period": "Tempoh",
+    "employee": "Pekerja",
+    "status": "Status",
+    "earnings": "Pendapatan"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#payroll",
+    "githubPath": "app/payroll.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ms.json#payroll"
+  }
+}

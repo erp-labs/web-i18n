@@ -2,12 +2,12 @@
   "pageId": "app.offline",
   "surface": "app",
   "route": "/{companyId}/{locale}/offline",
-  "version": 1,
+  "version": 3,
   "sourceHash": "sha256:0f9c222da651399321c0d5763dc5d51c1e10fc144188f2cb577690066b0aa5fe",
   "keys": {
-    "title": "You're offline",
-    "description": "Please check your internet connection and try again. The page will reload automatically when you're back online.",
-    "tryAgain": "Try Again"
+    "title": "أنت غير متصل بالإنترنت",
+    "description": "يرجى التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى. سيتم إعادة تحميل الصفحة تلقائيًا عند معاودة الاتصال بالإنترنت.",
+    "tryAgain": "حاول ثانية"
   },
   "meta": {
     "productRepo": "core-platform",

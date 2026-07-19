@@ -2,20 +2,28 @@
   "pageId": "app.stubs",
   "surface": "app",
   "route": "/{companyId}/{locale}/stubs",
-  "version": 1,
-  "sourceHash": "sha256:606608663abcc10f96eca3aae340f50f62bac6d77c429746d2dd5f4713831cd3",
+  "version": 3,
+  "sourceHash": "sha256:ebc3344b5dd18d78128ed55bac83d115a0364913facdd9be011d7854cc8ce2b4",
   "keys": {
     "payment": {
-      "title": "Payment",
-      "description": "Collect and reconcile payments. Connect Stripe in Integrations when payment processing is enabled for your organization."
+      "title": "支払い",
+      "description": "支払いを収集して調整します。組織で支払い処理が有効になっている場合は、統合で Stripe に接続します。"
+    },
+    "payroll": {
+      "title": "給与計算",
+      "description": "給与明細と税金の詳細を表示します。データは組織の ERP 給与モジュールから取得されます。"
     },
     "reservation": {
-      "title": "Reservation",
-      "description": "Book rooms, appointments, and resources. Reservation integrations will appear here as they roll out."
+      "title": "予約",
+      "description": "部屋、予定、リソースを予約します。予約の統合は展開されるとここに表示されます。"
     },
     "accounting": {
-      "title": "Accounting",
-      "description": "General ledger and accounting workflows. Frappe ERP is the default backend; connect Xero or Odoo in Integrations to use an external provider."
+      "title": "会計",
+      "description": "総勘定元帳と会計のワークフロー。 Frappe ERP がデフォルトのバックエンドです。外部プロバイダーを使用するには、統合で Xero または Odoo に接続します。"
+    },
+    "financial_reports": {
+      "title": "財務報告書",
+      "description": "Company P&L, balance sheet, and trial balance.アカウントで会社の財務情報にアクセスする必要があります。"
     }
   },
   "meta": {

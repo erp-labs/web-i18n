@@ -1,9 +1,9 @@
 {
   "pageId": "app.moduleGuide",
   "surface": "app",
-  "route": "/{companyId}/{locale}/moduleGuide",
-  "version": 1,
-  "sourceHash": "sha256:6a17eb3392f9231509390565517d774d2c9f981b45c9c523e1659755c053bd6e",
+  "route": "/{companyId}/{locale}/module-guide",
+  "version": 3,
+  "sourceHash": "sha256:b8680d9713926ca546b9d5efa16149212053849046b197f6814a82bb465613d2",
   "keys": {
     "common": {
       "showGuide": "यह काम किस प्रकार करता है",
@@ -62,7 +62,11 @@
       "whatBody": "अपनी कंपनी के कार्यक्षेत्र से समन्वयित ERP ग्राहकों को ब्राउज़ करें।",
       "howTitle": "पाइपलाइन या सौदों की आवश्यकता है?",
       "howStep1": "अपने किरायेदार होस्ट पर फ्रैपे CRM के लिए CRM में ओपन का उपयोग करें।",
-      "howStep2": "संपूर्ण ERP ग्राहक रिकॉर्ड और लेखांकन लिंक के लिए Work Desk का उपयोग करें।"
+      "howStep2": "संपूर्ण ERP ग्राहक रिकॉर्ड और लेखांकन लिंक के लिए Work Desk का उपयोग करें।",
+      "howStep3": "विवरण देखने या चालान बनाने के लिए ग्राहक खोलें।",
+      "startTitle": "अपना पहला ग्राहक जोड़ें",
+      "startBody": "एक खाते से प्रारंभ करें - आप बाद में चालान लिंक कर सकते हैं।",
+      "startCta": "ग्राहक जोड़ें"
     },
     "leaves": {
       "whatTitle": "अवकाश का अनुरोध करें",
@@ -81,13 +85,23 @@
       "howTitle": "नोटिस कैसे काम करते हैं",
       "howStep1": "किसी सूचना को पढ़ा गया के रूप में चिह्नित करने के लिए उस पर घंटी आइकन टैप करें।",
       "howStep2": "लिंक उपलब्ध होने पर संबंधित मॉड्यूल खोलने के लिए विवरण देखें का उपयोग करें।"
+    },
+    "mailing": {
+      "whatTitle": "ईमेल अभियान",
+      "whatBody": "अपने कार्यक्षेत्र से अपने दर्शकों के लिए ईमेल अभियान बनाएं और भेजें।",
+      "howTitle": "अभियान कैसे बनाएं",
+      "howStep1": "नाम और विषय के साथ नया अभियान शुरू करने के लिए + टैप करें।",
+      "howStep2": "ड्राफ्ट के रूप में सहेजें, फिर शेड्यूल करें या तैयार होने पर भेजें।",
+      "howStep3": "अभियान सूची पर खुलने, क्लिक और वितरण स्थिति को ट्रैक करें।",
+      "startTitle": "अपना पहला अभियान बनाएं",
+      "startBody": "ड्राफ्ट से शुरुआत करें - आप भेजने से पहले सामग्री को परिष्कृत कर सकते हैं।",
+      "startCta": "नया अभियान"
     }
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#moduleGuide",
     "githubPath": "app/moduleGuide.page.json",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/hi.json#moduleGuide"
   }
 }

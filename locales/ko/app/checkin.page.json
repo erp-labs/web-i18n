@@ -1,11 +1,11 @@
 {
   "pageId": "app.checkin",
   "surface": "app",
-  "route": "/{companyId}/{locale}/checkin",
-  "version": 3,
-  "sourceHash": "sha256:f7ed7a90d63d5323bc135dbc4b6c19d96623b6061204a8b95e87cf2c7d847506",
+  "route": "/{companyId}/{locale}/check-in",
+  "version": 5,
+  "sourceHash": "sha256:cd490b783bf77b197e8c56a66eb587c36ce8571e875a8164db3a00a85ebad500",
   "keys": {
-    "title": "근태관리",
+    "title": "시간 추적",
     "office": "사무실",
     "home": "재택",
     "checkIn": "체크인",
@@ -29,7 +29,9 @@
     "approxHoursPrefix": "약 ",
     "noAttendanceYet": "아직 출퇴근 기록이 없습니다",
     "startByCheckingIn": "체크인하면 여기에 근무 시간이 쌓입니다",
-    "startCheckInCta": "체크인 시작하기"
+    "startCheckInCta": "체크인 시작하기",
+    "checkOutFailed": "체크아웃을 저장할 수 없습니다. 이전 출석을 재설정해야 할 수도 있습니다.",
+    "staleOpenSessionWarning": "전날부터 열려 있는 체크인이 있습니다. 출석 기록이 정정될 때까지 체크아웃이 실패될 수 있습니다."
   },
   "meta": {
     "productRepo": "core-platform",

@@ -1,0 +1,19 @@
+{
+  "pageId": "app.billing",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/billing",
+  "version": 2,
+  "sourceHash": "sha256:aa97d4e6eb20468bffc0e19905ca10f66abb7a98bbf19c25a4db5269f93767ee",
+  "keys": {
+    "title": "ခရက်ဒစ်များနှင့် ငွေတောင်းခံခြင်း။",
+    "description": "My AI ကို ဆက်လက်အသုံးပြုရန် သင်၏ AI ခရက်ဒစ်များကို ငွေဖြည့်ပါ။ သင့်အစီအစဉ်နှင့် ငွေတောင်းခံမှုကို အောက်တွင် စီမံပါ။",
+    "goToBilling": "ငွေတောင်းခံခြင်းသို့ သွားပါ။",
+    "contactAdmin": "ခရက်ဒစ်များထည့်ရန် သို့မဟုတ် {companyId} အတွက် ငွေတောင်းခံမှုကို စီစဉ်သတ်မှတ်ရန် သင့်စီမံခန့်ခွဲသူကို ဆက်သွယ်ပါ။"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#billing",
+    "githubPath": "app/billing.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/my.json#billing"
+  }
+}

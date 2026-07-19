@@ -2,8 +2,8 @@
   "pageId": "app.leaves",
   "surface": "app",
   "route": "/{companyId}/{locale}/leaves",
-  "version": 1,
-  "sourceHash": "sha256:b01a78899787ae34a261972746e336a4fa561b7f8940b635bb3c08da71f5ce50",
+  "version": 3,
+  "sourceHash": "sha256:19b0a51088a7256c30ddd26790fb9450c292724758f1c90a72a6c47f66da26a3",
   "keys": {
     "title": "पत्तियों",
     "leaveType": "प्रकार छोड़ें",
@@ -16,6 +16,7 @@
     "submitRequest": "अनुरोध सबमिट करें",
     "requestSubmitted": "छुट्टी का अनुरोध सबमिट किया गया",
     "requestSubmitFailed": "आपका अनुरोध सबमिट नहीं किया जा सका. कृपया पुन: प्रयास करें।",
+    "pendingApprovalsHint": "लंबित अवकाश स्वीकृतियाँ नीचे आपके अवकाश इतिहास में दिखाई गई हैं।",
     "sickLeave": "बीमारी के लिए अवकाश",
     "hospitalisationLeave": "अस्पताल में भर्ती छुट्टी",
     "maternityLeave": "प्रसूति अवकाश",
@@ -42,13 +43,14 @@
     "requestLeaveCta": "छुट्टी का प्रार्थना - पत्र",
     "addLeave": "छुट्टी जोड़ें",
     "selectDatesOnCalendar": "उपरोक्त कैलेंडर पर अपनी छुट्टी की तारीखें चुनें।",
+    "selectLeaveDates": "छुट्टी की तारीखें चुनें",
+    "confirmDates": "हो गया",
     "noLeaveAllocation": "अभी तक कोई अवकाश शेष आवंटित नहीं किया गया है। अपने मानव संसाधन प्रशासक से संपर्क करें."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#leaves",
     "githubPath": "app/leaves.page.json",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/hi.json#leaves"
   }
 }

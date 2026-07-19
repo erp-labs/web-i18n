@@ -2,8 +2,8 @@
   "pageId": "app.passcode",
   "surface": "app",
   "route": "/{companyId}/{locale}/passcode",
-  "version": 1,
-  "sourceHash": "sha256:f3eb59f28ddec7ec0d8b414d2cf7d9d47113be9676d4ff8fb5ff44a0cbef4ee1",
+  "version": 3,
+  "sourceHash": "sha256:d896b8a45df817404dd626d9ee6ff3cbc7a2b81a8e83e6c29bac54ea9bd0f3ba",
   "keys": {
     "title": "پاس کوڈ",
     "enterPin": "براہ کرم اپنا 6 ہندسوں کا پاس کوڈ درج کریں۔",
@@ -32,13 +32,13 @@
     "sessionExpired": "سیشن ختم ہو گیا۔ براہ کرم شروع سے دوبارہ سائن ان کریں۔",
     "resetExpiryNotice": "یہ لنک 15 منٹ میں ختم ہو جائے گا۔ اگر اس کی میعاد ختم ہو گئی ہے، تو سائن ان صفحہ سے ایک نئے ری سیٹ لنک کی درخواست کریں۔",
     "resetLinkExpiryAndRateLimit": "لنک کی میعاد 15 منٹ میں ختم ہو جاتی ہے۔ اگر آپ کو ای میل موصول نہیں ہوتی ہے تو اسپام چیک کریں یا بعد میں دوبارہ کوشش کریں۔",
-    "rateLimitNotice": "بہت زیادہ درخواستیں براہ کرم چند منٹوں میں دوبارہ کوشش کریں۔"
+    "rateLimitNotice": "بہت زیادہ درخواستیں براہ کرم چند منٹوں میں دوبارہ کوشش کریں۔",
+    "sessionSaveFailed": "آپ کا سیشن محفوظ نہیں ہو سکا۔ براہ کرم شروع سے دوبارہ سائن ان کریں۔"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#passcode",
     "githubPath": "app/passcode.page.json",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/ur.json#passcode"
   }
 }

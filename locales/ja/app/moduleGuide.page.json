@@ -1,9 +1,9 @@
 {
   "pageId": "app.moduleGuide",
   "surface": "app",
-  "route": "/{companyId}/{locale}/moduleGuide",
-  "version": 3,
-  "sourceHash": "sha256:2d2ae540edb3d9abcf3c2c67f99a19dc786c38d2080429b6c9bde672f2a6b4b6",
+  "route": "/{companyId}/{locale}/module-guide",
+  "version": 5,
+  "sourceHash": "sha256:b8680d9713926ca546b9d5efa16149212053849046b197f6814a82bb465613d2",
   "keys": {
     "common": {
       "showGuide": "使い方",
@@ -58,11 +58,15 @@
       "startCta": "請求書を作成"
     },
     "customers": {
-      "whatTitle": "顧客リスト",
-      "whatBody": "会社ワークスペースから同期された ERP 顧客を閲覧できます。",
-      "howTitle": "パイプラインや商談が必要ですか？",
-      "howStep1": "テナントホストの Frappe CRM は「CRM で開く」をご利用ください。",
-      "howStep2": "完全な ERP 顧客レコードと会計リンクには Work Desk をご利用ください。"
+      "whatTitle": "あなたの顧客リスト",
+      "whatBody": "会社のワークスペースから同期された ERP 顧客を参照します。",
+      "howTitle": "Need pipeline or deals?",
+      "howStep1": "Use Open in CRM for Frappe CRM on your tenant host.",
+      "howStep2": "Use Work Desk for full ERP customer records and accounting links.",
+      "howStep3": "顧客を開いて詳細を表示するか、請求書を作成します。",
+      "startTitle": "最初の顧客を追加する",
+      "startBody": "1 つのアカウントから始めてください。後で請求書をリンクできます。",
+      "startCta": "顧客を追加"
     },
     "leaves": {
       "whatTitle": "休暇を申請する",
@@ -81,6 +85,17 @@
       "howTitle": "通知の仕組み",
       "howStep1": "通知のベルアイコンをタップして既読にします。",
       "howStep2": "リンクがある場合は「詳細を見る」で関連モジュールを開きます。"
+    },
+    "mailing": {
+      "whatTitle": "メールキャンペーン",
+      "whatBody": "ERP ワークスペースから電子メール キャンペーンを作成して視聴者に送信します。",
+      "howTitle": "キャンペーンの作成方法",
+      "howStep1": "[+] をタップして、名前と件名を付けて新しいキャンペーンを開始します。",
+      "howStep2": "下書きとして保存し、準備ができたらスケジュールを設定するか送信します。",
+      "howStep3": "キャンペーンリストで開封数、クリック数、配信ステータスを追跡します。",
+      "startTitle": "最初のキャンペーンを作成する",
+      "startBody": "下書きから始めます。送信する前にコンテンツを調整できます。",
+      "startCta": "新しいキャンペーン"
     }
   },
   "meta": {

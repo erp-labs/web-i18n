@@ -1,0 +1,19 @@
+{
+  "pageId": "app.billing",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/billing",
+  "version": 2,
+  "sourceHash": "sha256:aa97d4e6eb20468bffc0e19905ca10f66abb7a98bbf19c25a4db5269f93767ee",
+  "keys": {
+    "title": "Kredit & Penagihan",
+    "description": "Isi ulang kredit AI Anda untuk terus menggunakan AI Saya. Kelola paket dan penagihan Anda di bawah.",
+    "goToBilling": "Buka penagihan",
+    "contactAdmin": "Hubungi administrator Anda untuk menambahkan kredit atau mengonfigurasi penagihan sebesar {companyId}."
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#billing",
+    "githubPath": "app/billing.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/id.json#billing"
+  }
+}

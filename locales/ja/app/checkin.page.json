@@ -1,11 +1,11 @@
 {
   "pageId": "app.checkin",
   "surface": "app",
-  "route": "/{companyId}/{locale}/checkin",
-  "version": 3,
-  "sourceHash": "sha256:f7ed7a90d63d5323bc135dbc4b6c19d96623b6061204a8b95e87cf2c7d847506",
+  "route": "/{companyId}/{locale}/check-in",
+  "version": 5,
+  "sourceHash": "sha256:cd490b783bf77b197e8c56a66eb587c36ce8571e875a8164db3a00a85ebad500",
   "keys": {
-    "title": "勤怠管理",
+    "title": "時間の追跡",
     "office": "出社",
     "home": "在宅勤務",
     "checkIn": "出勤",
@@ -29,7 +29,9 @@
     "approxHoursPrefix": "約 ",
     "noAttendanceYet": "勤怠記録はまだありません",
     "startByCheckingIn": "出勤登録をすると、ここで勤務時間を記録できます",
-    "startCheckInCta": "出勤する"
+    "startCheckInCta": "出勤する",
+    "checkOutFailed": "チェックアウトを保存できませんでした。以前の出席状況をリセットする必要がある場合があります。",
+    "staleOpenSessionWarning": "You have an open check-in from a previous day.出席記録が修正されるまで、チェックアウトは失敗する可能性があります。"
   },
   "meta": {
     "productRepo": "core-platform",

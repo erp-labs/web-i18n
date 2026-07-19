@@ -1,0 +1,112 @@
+{
+  "pageId": "app.dashboard",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/",
+  "version": 2,
+  "sourceHash": "sha256:6bca2fd7db843a8d40a4aa9efc81d43a93d3882ba68ffff04f67687586b58cc1",
+  "keys": {
+    "viewDetails": "تفصیلات دیکھیں",
+    "subtitle": "HR، گاہک، اکاؤنٹس، کارکردگی اور AI استعمال کا جائزہ۔",
+    "emptyHint": "اس مدت کے لیے ابھی تک کوئی سرگرمی ڈیٹا نہیں ہے۔ ڈیش بورڈ کو آباد کرنے کے لیے ERP سیڈ چلائیں یا آن بورڈنگ مکمل کریں۔",
+    "overviewRefreshFailed": "Overview refresh failed. Showing module summaries where available.",
+    "titles": {
+      "company": "کمپنی ڈیش بورڈ",
+      "team": "ٹیم ڈیش بورڈ",
+      "finance": "مالی ڈیش بورڈ"
+    },
+    "period": {
+      "day": "روزانہ",
+      "week": "ہفتہ وار",
+      "month": "ماہانہ",
+      "groupLabel": "مدت"
+    },
+    "categories": {
+      "hr": "انسانی وسائل",
+      "customer": "گاہک",
+      "account": "اکاؤنٹ",
+      "performance": "کارکردگی",
+      "ai": "مصنوعی ذہانت"
+    },
+    "cards": {
+      "checkIn": "آج check-in",
+      "absent": "غیر حاضر",
+      "late": "تاخیر",
+      "leave": "چھٹی کی درخواستیں",
+      "leaveThisMonth": "اس ماہ کی چھٹی",
+      "leaveNextMonth": "اگلے ماہ کی چھٹی",
+      "expenses": "اس ماہ کے اخراجات",
+      "expensePaid": "ادا شدہ",
+      "expensePending": "زیر التواء",
+      "expenseRejected": "مسترد",
+      "customersTotal": "کل گاہک",
+      "customersNewThisMonth": "اس مہینے نیا",
+      "customersWithContact": "رابطے کی معلومات کے ساتھ",
+      "customersWithContactPercent": "شیئر کریں۔",
+      "customersCompanyShare": "کمپنی کے صارفین",
+      "customersCompanyPercent": "شیئر کریں۔",
+      "crmActiveDeals": "فعال deals",
+      "crmOpenLeads": "کھلے leads",
+      "emailsSent": "بھیجی گئی emails",
+      "emailsSentHint": "انوائس اور campaigns کا مجموعہ؛ تفصیل Mailing میں۔",
+      "emailsFailed": "ناکام",
+      "invoicesIssued": "جاری انوائس",
+      "revenue": "آمدنی",
+      "revenueTrend": "پچھلے ماہ کے مقابلے",
+      "outstanding": "باقی",
+      "paidCount": "ادا کیا",
+      "checklistSuccess": "Checklist کامیابی کی شرح",
+      "successMonth": "اس ماہ",
+      "successDay": "آج",
+      "teamAverage": "ٹیم اوسط",
+      "tokensUsed": "استعمال شدہ tokens",
+      "tokenLimit": "پلان حد",
+      "securityAlerts": "سیکیورٹی alerts",
+      "activeAiUsers": "فعال AI صارفین"
+    },
+    "charts": {
+      "accounting": "اکاؤنٹنگ",
+      "hr": "انسانی وسائل",
+      "customer": "گاہک",
+      "revenue": "آمدنی",
+      "expenses": "اخراجات",
+      "outstanding": "باقی",
+      "newCustomers": "نئے گاہک",
+      "customerGrowth": "کسٹمر کی ترقی",
+      "customerEmails": "ای میل کی سرگرمی"
+    },
+    "activity": {
+      "title": "ملازم کی سرگرمی",
+      "search": "ملازم تلاش کریں…",
+      "empty": "اس tab کے لیے کوئی ریکارڈ نہیں۔",
+      "viewLink": "دیکھیں",
+      "securityFlag": "نشان زد",
+      "securityOk": "ٹھیک",
+      "tabs": {
+        "expenses": "اخراجات",
+        "performance": "کارکردگی",
+        "ai": "AI درخواستیں"
+      },
+      "columns": {
+        "employee": "ملازم",
+        "amount": "رقم",
+        "status": "حالت",
+        "paymentDate": "ادائیگی کی تاریخ",
+        "department": "محکمہ",
+        "successRate": "کامیابی کی شرح",
+        "goals": "اہداف",
+        "lastReview": "آخری review",
+        "prompt": "درخواست",
+        "tokens": "ٹوکن",
+        "time": "وقت",
+        "security": "سیکیورٹی",
+        "action": "عمل"
+      }
+    }
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#dashboard",
+    "githubPath": "app/dashboard.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ur.json#dashboard"
+  }
+}

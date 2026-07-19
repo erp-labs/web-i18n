@@ -2,8 +2,8 @@
   "pageId": "app.leaves",
   "surface": "app",
   "route": "/{companyId}/{locale}/leaves",
-  "version": 1,
-  "sourceHash": "sha256:b01a78899787ae34a261972746e336a4fa561b7f8940b635bb3c08da71f5ce50",
+  "version": 3,
+  "sourceHash": "sha256:19b0a51088a7256c30ddd26790fb9450c292724758f1c90a72a6c47f66da26a3",
   "keys": {
     "title": "කොළ",
     "leaveType": "නිවාඩු වර්ගය",
@@ -16,6 +16,7 @@
     "submitRequest": "ඉල්ලීම ඉදිරිපත් කරන්න",
     "requestSubmitted": "නිවාඩු ඉල්ලීම ඉදිරිපත් කර ඇත",
     "requestSubmitFailed": "ඔබගේ ඉල්ලීම ඉදිරිපත් කිරීමට නොහැකි විය. කරුණාකර නැවත උත්සාහ කරන්න.",
+    "pendingApprovalsHint": "පොරොත්තු නිවාඩු අනුමත කිරීම් පහත ඔබගේ නිවාඩු ඉතිහාසයේ පෙන්වා ඇත.",
     "sickLeave": "අසනීප නිවාඩු",
     "hospitalisationLeave": "රෝහල්ගත කිරීමේ නිවාඩු",
     "maternityLeave": "මාතෘ නිවාඩු",
@@ -42,13 +43,14 @@
     "requestLeaveCta": "ඉල්ලුම් කරන්න",
     "addLeave": "නිවාඩු එකතු කරන්න",
     "selectDatesOnCalendar": "ඉහත දින දර්ශනයේ ඔබගේ නිවාඩු දින තෝරන්න.",
+    "selectLeaveDates": "නිවාඩු දින තෝරන්න",
+    "confirmDates": "කළා",
     "noLeaveAllocation": "තවම නිවාඩු ශේෂයක් පවරා නැත. ඔබේ මානව සම්පත් පරිපාලක අමතන්න."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#leaves",
     "githubPath": "app/leaves.page.json",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/si.json#leaves"
   }
 }

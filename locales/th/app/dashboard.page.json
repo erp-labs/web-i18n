@@ -1,0 +1,112 @@
+{
+  "pageId": "app.dashboard",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/",
+  "version": 2,
+  "sourceHash": "sha256:6bca2fd7db843a8d40a4aa9efc81d43a93d3882ba68ffff04f67687586b58cc1",
+  "keys": {
+    "viewDetails": "ดูรายละเอียด",
+    "subtitle": "ภาพรวม HR ลูกค้า บัญชี ประสิทธิภาพ และการใช้ AI",
+    "emptyHint": "ยังไม่มีข้อมูลกิจกรรมในช่วงเวลานี้ รัน ERP เริ่มต้นใช้งานหรือดำเนินการออนบอร์ดให้เสร็จสิ้นเพื่อเติมข้อมูลแดชบอร์ด",
+    "overviewRefreshFailed": "Overview refresh failed. Showing module summaries where available.",
+    "titles": {
+      "company": "แดชบอร์ดบริษัท",
+      "team": "แดชบอร์ดทีม",
+      "finance": "แดชบอร์ดการเงิน"
+    },
+    "period": {
+      "day": "รายวัน",
+      "week": "รายสัปดาห์",
+      "month": "รายเดือน",
+      "groupLabel": "ช่วงเวลา"
+    },
+    "categories": {
+      "hr": "ทรัพยากรบุคคล",
+      "customer": "ลูกค้า",
+      "account": "บัญชี",
+      "performance": "ประสิทธิภาพ",
+      "ai": "ปัญญาประดิษฐ์"
+    },
+    "cards": {
+      "checkIn": "เช็คอินวันนี้",
+      "absent": "ขาดงาน",
+      "late": "มาสาย",
+      "leave": "คำขอลา",
+      "leaveThisMonth": "ลาเดือนนี้",
+      "leaveNextMonth": "ลาเดือนหน้า",
+      "expenses": "ค่าใช้จ่ายเดือนนี้",
+      "expensePaid": "จ่ายแล้ว",
+      "expensePending": "รอดำเนินการ",
+      "expenseRejected": "ปฏิเสธ",
+      "customersTotal": "ลูกค้าทั้งหมด",
+      "customersNewThisMonth": "ใหม่เดือนนี้",
+      "customersWithContact": "พร้อมข้อมูลการติดต่อ",
+      "customersWithContactPercent": "แบ่งปัน",
+      "customersCompanyShare": "ลูกค้าบริษัท",
+      "customersCompanyPercent": "แบ่งปัน",
+      "crmActiveDeals": "ดีลที่ดำเนินอยู่",
+      "crmOpenLeads": "ลีดที่เปิดอยู่",
+      "emailsSent": "อีเมลที่ส่ง",
+      "emailsSentHint": "รวมใบแจ้งหนี้และแคมเปญ รายละเอียดที่ Mailing",
+      "emailsFailed": "ล้มเหลว",
+      "invoicesIssued": "ใบแจ้งหนี้ที่ออก",
+      "revenue": "รายได้",
+      "revenueTrend": "เทียบเดือนก่อน",
+      "outstanding": "ค้างชำระ",
+      "paidCount": "จ่าย",
+      "checklistSuccess": "อัตราสำเร็จ checklist",
+      "successMonth": "เดือนนี้",
+      "successDay": "วันนี้",
+      "teamAverage": "ค่าเฉลี่ยทีม",
+      "tokensUsed": "โทเคนที่ใช้",
+      "tokenLimit": "ขีดจำกัดแผน",
+      "securityAlerts": "การแจ้งเตือนความปลอดภัย",
+      "activeAiUsers": "ผู้ใช้ AI ที่ใช้งาน"
+    },
+    "charts": {
+      "accounting": "บัญชี",
+      "hr": "ทรัพยากรบุคคล",
+      "customer": "ลูกค้า",
+      "revenue": "รายได้",
+      "expenses": "ค่าใช้จ่าย",
+      "outstanding": "ค้างชำระ",
+      "newCustomers": "ลูกค้าใหม่",
+      "customerGrowth": "การเติบโตของลูกค้า",
+      "customerEmails": "กิจกรรมอีเมล"
+    },
+    "activity": {
+      "title": "กิจกรรมพนักงาน",
+      "search": "ค้นหาพนักงาน…",
+      "empty": "ไม่มีบันทึกสำหรับแท็บนี้",
+      "viewLink": "ดู",
+      "securityFlag": "ถูกทำเครื่องหมาย",
+      "securityOk": "ปกติ",
+      "tabs": {
+        "expenses": "ค่าใช้จ่าย",
+        "performance": "ประสิทธิภาพ",
+        "ai": "พรอมpt AI"
+      },
+      "columns": {
+        "employee": "พนักงาน",
+        "amount": "จำนวน",
+        "status": "สถานะ",
+        "paymentDate": "วันชำระ",
+        "department": "แผนก",
+        "successRate": "อัตราสำเร็จ",
+        "goals": "เป้าหมาย",
+        "lastReview": "รีวิวล่าสุด",
+        "prompt": "พรอมpt",
+        "tokens": "โทเคน",
+        "time": "เวลา",
+        "security": "ความปลอดภัย",
+        "action": "การดำเนินการ"
+      }
+    }
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#dashboard",
+    "githubPath": "app/dashboard.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/th.json#dashboard"
+  }
+}

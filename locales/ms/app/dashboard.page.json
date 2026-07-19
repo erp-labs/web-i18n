@@ -1,0 +1,112 @@
+{
+  "pageId": "app.dashboard",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/",
+  "version": 2,
+  "sourceHash": "sha256:6bca2fd7db843a8d40a4aa9efc81d43a93d3882ba68ffff04f67687586b58cc1",
+  "keys": {
+    "viewDetails": "Lihat butiran",
+    "subtitle": "Gambaran HR, pelanggan, akaun, prestasi dan penggunaan AI.",
+    "emptyHint": "Tiada data aktiviti lagi untuk tempoh ini. Jalankan ERP seed atau lengkapkan onboarding untuk mengisi papan pemuka.",
+    "overviewRefreshFailed": "Overview refresh failed. Showing module summaries where available.",
+    "titles": {
+      "company": "Papan Pemuka Syarikat",
+      "team": "Papan Pemuka Pasukan",
+      "finance": "Papan Pemuka Kewangan"
+    },
+    "period": {
+      "day": "Harian",
+      "week": "Mingguan",
+      "month": "Bulanan",
+      "groupLabel": "Tempoh"
+    },
+    "categories": {
+      "hr": "Sumber Manusia",
+      "customer": "Pelanggan",
+      "account": "Akaun",
+      "performance": "Prestasi",
+      "ai": "Kecerdasan buatan"
+    },
+    "cards": {
+      "checkIn": "Daftar masuk hari ini",
+      "absent": "Tidak hadir",
+      "late": "Lewat",
+      "leave": "Permohonan cuti",
+      "leaveThisMonth": "Cuti bulan ini",
+      "leaveNextMonth": "Cuti bulan depan",
+      "expenses": "Perbelanjaan bulan ini",
+      "expensePaid": "Dibayar",
+      "expensePending": "Belum selesai",
+      "expenseRejected": "Ditolak",
+      "customersTotal": "Jumlah pelanggan",
+      "customersNewThisMonth": "Baru bulan ini",
+      "customersWithContact": "Dengan maklumat hubungan",
+      "customersWithContactPercent": "Kongsi",
+      "customersCompanyShare": "Pelanggan syarikat",
+      "customersCompanyPercent": "Kongsi",
+      "crmActiveDeals": "Urusan aktif",
+      "crmOpenLeads": "Lead terbuka",
+      "emailsSent": "E-mel dihantar",
+      "emailsSentHint": "Jumlah invois dan kempen; butiran di Mailing.",
+      "emailsFailed": "Gagal",
+      "invoicesIssued": "Invois dikeluarkan",
+      "revenue": "Hasil",
+      "revenueTrend": "berbanding bulan lepas",
+      "outstanding": "Tunggakan",
+      "paidCount": "Dibayar",
+      "checklistSuccess": "Kadar kejayaan senarai semak",
+      "successMonth": "Bulan ini",
+      "successDay": "Hari ini",
+      "teamAverage": "Purata pasukan",
+      "tokensUsed": "Token digunakan",
+      "tokenLimit": "Had pelan",
+      "securityAlerts": "Amaran keselamatan",
+      "activeAiUsers": "Pengguna AI aktif"
+    },
+    "charts": {
+      "accounting": "Akaun",
+      "hr": "Sumber Manusia",
+      "customer": "Pelanggan",
+      "revenue": "Hasil",
+      "expenses": "Perbelanjaan",
+      "outstanding": "Tunggakan",
+      "newCustomers": "Pelanggan baharu",
+      "customerGrowth": "Pertumbuhan pelanggan",
+      "customerEmails": "Aktiviti e-mel"
+    },
+    "activity": {
+      "title": "Aktiviti pekerja",
+      "search": "Cari pekerja…",
+      "empty": "Tiada rekod untuk tab ini.",
+      "viewLink": "Lihat",
+      "securityFlag": "Ditanda",
+      "securityOk": "Baik",
+      "tabs": {
+        "expenses": "Perbelanjaan",
+        "performance": "Prestasi",
+        "ai": "Prompt AI"
+      },
+      "columns": {
+        "employee": "Pekerja",
+        "amount": "Jumlah",
+        "status": "Keadaan",
+        "paymentDate": "Tarikh bayaran",
+        "department": "Jabatan",
+        "successRate": "Kadar kejayaan",
+        "goals": "Matlamat",
+        "lastReview": "Semakan terakhir",
+        "prompt": "Arahan",
+        "tokens": "Token",
+        "time": "Masa",
+        "security": "Keselamatan",
+        "action": "Tindakan"
+      }
+    }
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#dashboard",
+    "githubPath": "app/dashboard.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ms.json#dashboard"
+  }
+}

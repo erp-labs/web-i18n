@@ -1,12 +1,14 @@
 {
   "pageId": "app.dashboard",
   "surface": "app",
-  "route": "/{companyId}/{locale}/dashboard",
-  "version": 1,
-  "sourceHash": "sha256:7e65ed02e2049b6d58e98a10d579857004b712c7e02a23eabd58e206643b9133",
+  "route": "/{companyId}/{locale}/",
+  "version": 3,
+  "sourceHash": "sha256:6bca2fd7db843a8d40a4aa9efc81d43a93d3882ba68ffff04f67687586b58cc1",
   "keys": {
     "viewDetails": "Xem chi tiết",
     "subtitle": "Tổng quan nhân sự, khách hàng, kế toán, hiệu suất và sử dụng AI.",
+    "emptyHint": "Chưa có dữ liệu hoạt động nào cho giai đoạn này. Chạy ERP hạt giống hoặc hoàn tất quá trình giới thiệu để điền vào bảng điều khiển.",
+    "overviewRefreshFailed": "Overview refresh failed. Showing module summaries where available.",
     "titles": {
       "company": "Bảng điều khiển công ty",
       "team": "Bảng điều khiển nhóm",
@@ -34,8 +36,14 @@
       "leaveNextMonth": "Nghỉ phép tháng sau",
       "expenses": "Chi phí tháng này",
       "expensePaid": "Đã thanh toán",
+      "expensePending": "Chưa giải quyết",
       "expenseRejected": "Từ chối",
       "customersTotal": "Tổng khách hàng",
+      "customersNewThisMonth": "Mới trong tháng này",
+      "customersWithContact": "Với thông tin liên hệ",
+      "customersWithContactPercent": "Chia sẻ",
+      "customersCompanyShare": "Khách hàng công ty",
+      "customersCompanyPercent": "Chia sẻ",
       "crmActiveDeals": "Giao dịch đang hoạt động",
       "crmOpenLeads": "Khách hàng tiềm năng mở",
       "emailsSent": "Email đã gửi",
@@ -45,6 +53,7 @@
       "revenue": "Doanh thu",
       "revenueTrend": "so với tháng trước",
       "outstanding": "Còn nợ",
+      "paidCount": "Trả",
       "checklistSuccess": "Tỷ lệ hoàn thành checklist",
       "successMonth": "Tháng này",
       "successDay": "Hôm nay",
@@ -61,7 +70,9 @@
       "revenue": "Doanh thu",
       "expenses": "Chi phí",
       "outstanding": "Còn nợ",
-      "newCustomers": "Khách hàng mới"
+      "newCustomers": "Khách hàng mới",
+      "customerGrowth": "Tăng trưởng khách hàng",
+      "customerEmails": "Hoạt động email"
     },
     "activity": {
       "title": "Hoạt động nhân viên",
@@ -69,7 +80,7 @@
       "empty": "Không có bản ghi cho tab này.",
       "viewLink": "Xem",
       "securityFlag": "Đã gắn cờ",
-      "securityOk": "Ổn",
+      "securityOk": "Bình thường",
       "tabs": {
         "expenses": "Chi phí",
         "performance": "Hiệu suất",

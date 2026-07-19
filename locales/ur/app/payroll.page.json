@@ -1,0 +1,39 @@
+{
+  "pageId": "app.payroll",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/payroll",
+  "version": 2,
+  "sourceHash": "sha256:4dfc871169d9e8536887fce8f0108896e74d838b9798d5a71e952011e218a2dc",
+  "keys": {
+    "title": "پے رول",
+    "noSlipsYet": "ابھی تک کوئی تنخواہ سلپ نہیں ہوئی۔",
+    "noSlipsDescription": "آپ کی تنظیم ERP سے تنخواہ کی سلپس یہاں ظاہر ہوں گی۔",
+    "taxYear": "ٹیکس کا سال",
+    "gross": "مجموعی",
+    "deductions": "کٹوتیاں",
+    "net": "نیٹ",
+    "slipsCount": "تنخواہ سلپس",
+    "taxDetails": "ٹیکس کی تفصیلات",
+    "taxSummaryTitle": "ٹیکس کا خلاصہ",
+    "taxSummaryEmpty": "اس سال کے لیے ٹیکس کا کوئی خلاصہ نہیں ہے۔",
+    "taxDetailsHint": "ERP سیلری سلپ کٹوتی کے اجزاء سے جمع کیا گیا (الگ ٹیکس انجن نہیں)۔",
+    "taxDetailsEmpty": "اس سال کے لیے سیلری سلپس پر ٹیکس کی طرح کٹوتی کے اجزاء نہیں ملے۔",
+    "viewTaxSummary": "ٹیکس کی تفصیلات دیکھیں",
+    "backToList": "پے رول پر واپس",
+    "slipDetail": "تنخواہ کی پرچی",
+    "slipNotFound": "تنخواہ کی پرچی نہیں ملی۔",
+    "downloadPdf": "PDF ڈاؤن لوڈ کریں۔",
+    "pdfDownloaded": "PDF ڈاؤن لوڈ کیا گیا۔",
+    "pdfDownloadError": "PDF ڈاؤن لوڈ کرنے میں ناکام",
+    "period": "مدت",
+    "employee": "ملازم",
+    "status": "حیثیت",
+    "earnings": "کمائی"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#payroll",
+    "githubPath": "app/payroll.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ur.json#payroll"
+  }
+}

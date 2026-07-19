@@ -1,0 +1,39 @@
+{
+  "pageId": "app.payroll",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/payroll",
+  "version": 2,
+  "sourceHash": "sha256:4dfc871169d9e8536887fce8f0108896e74d838b9798d5a71e952011e218a2dc",
+  "keys": {
+    "title": "Daftar gaji",
+    "noSlipsYet": "Belum ada slip gaji",
+    "noSlipsDescription": "Slip gaji dari organisasi Anda akan muncul di sini.",
+    "taxYear": "tahun pajak",
+    "gross": "Bruto",
+    "deductions": "Pengurangan",
+    "net": "Bersih",
+    "slipsCount": "Slip gaji",
+    "taxDetails": "Detail pajak",
+    "taxSummaryTitle": "Ringkasan pajak",
+    "taxSummaryEmpty": "Tidak ada ringkasan pajak untuk tahun ini.",
+    "taxDetailsHint": "Diagregasi dari ERP komponen pemotongan slip gaji (bukan mesin pajak tersendiri).",
+    "taxDetailsEmpty": "Tidak ditemukan komponen pemotongan seperti pajak pada slip gaji tahun ini.",
+    "viewTaxSummary": "Lihat detail pajak",
+    "backToList": "Back to payroll",
+    "slipDetail": "Slip gaji",
+    "slipNotFound": "Slip gaji tidak ditemukan.",
+    "downloadPdf": "Unduh 0",
+    "pdfDownloaded": "0 diunduh",
+    "pdfDownloadError": "Gagal mengunduh PDF",
+    "period": "Periode",
+    "employee": "Karyawan",
+    "status": "Status",
+    "earnings": "Pendapatan"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#payroll",
+    "githubPath": "app/payroll.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/id.json#payroll"
+  }
+}

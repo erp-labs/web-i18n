@@ -1,8 +1,8 @@
 {
   "pageId": "app.locationPermission",
   "surface": "app",
-  "route": "/{companyId}/{locale}/locationPermission",
-  "version": 3,
+  "route": "/{companyId}/{locale}/location-permission",
+  "version": 5,
   "sourceHash": "sha256:d925f25b9680bbb3902ef950b535e206b9d76a665fdbca0f80ce2c5004fa3ece",
   "keys": {
     "title": "تفعيل الموقع",
