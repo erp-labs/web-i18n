@@ -78,7 +78,7 @@ Workflow [`.github/workflows/sync-product-repos.yml`](.github/workflows/sync-pro
 **Merge behavior (`npm run sync` / `scripts/sync-to-apps.mjs`):**
 
 - **admin-web** — deep-merges synced `account` namespaces into existing `dictionaries/{locale}.json` so product-only keys/namespaces (not yet in web-i18n) are preserved.
-- **marketing-web** — for each EN key, prefers the web-i18n locale value, otherwise keeps the existing product `lib/i18n/{locale}.json` value; never copies English as a fallback for missing keys (keeps `check-i18n-not-english` / `check-i18n-bundles` gates green when product files already have translations).
+- **marketing-web** — deep-merges into existing `lib/i18n` (preserves product-only EN keys), applies only non-EN-identical overlays from web-i18n, and never clobbers good product translations with English.
 
 **Required secret:** `PRODUCT_REPOS_TOKEN` on this repository. The default `GITHUB_TOKEN` cannot read private sibling repos (`core-platform`, `web-public`, `infra-email`).
 

@@ -175,52 +175,77 @@ function syncAdminWeb() {
 }
 
 /**
- * Align locale pages to EN key set (marketing-web verify:i18n-bundles).
- * Prefer web-i18n locale values; else keep existing product-repo locale values.
- * Never copy EN as a fallback (check-i18n-not-english gate).
+ * Keep only web-i18n locale strings that differ from EN (real translations).
+ * EN-identical overlay values are skipped so product translations are not clobbered.
  */
-function filterPagesToEnKeys(enPages, localePages, existingLocalePages = {}) {
+function realTranslationOverlay(webLocPages, webEnPages) {
   /** @type {Record<string, Record<string, unknown>>} */
-  const filtered = {}
+  const overlay = {}
+  for (const [pageId, page] of Object.entries(webLocPages)) {
+    if (!page || typeof page !== 'object' || Array.isArray(page)) continue
+    const enPage = webEnPages[pageId]
+    /** @type {Record<string, unknown>} */
+    const outPage = {}
+    for (const [key, value] of Object.entries(page)) {
+      if (key === 'translationStatus') {
+        outPage[key] = value
+        continue
+      }
+      const enVal =
+        enPage && typeof enPage === 'object' && !Array.isArray(enPage) ? enPage[key] : undefined
+      if (typeof value === 'string' && typeof enVal === 'string' && value === enVal) continue
+      outPage[key] = value
+    }
+    if (Object.keys(outPage).length > 0) overlay[pageId] = outPage
+  }
+  return overlay
+}
+
+/** Exact key parity with EN for check-i18n-bundles (fill only brand-new gaps). */
+function alignLocaleToEnKeys(enPages, localePages) {
+  /** @type {Record<string, Record<string, unknown>>} */
+  const aligned = {}
   for (const [pageId, enPage] of Object.entries(enPages)) {
     if (!enPage || typeof enPage !== 'object' || Array.isArray(enPage)) continue
-    const enKeys = Object.keys(enPage)
-    const locPage = localePages[pageId]
-    const existingPage = existingLocalePages[pageId]
+    const locPage =
+      localePages[pageId] && typeof localePages[pageId] === 'object' && !Array.isArray(localePages[pageId])
+        ? localePages[pageId]
+        : {}
     /** @type {Record<string, unknown>} */
     const page = {}
-    for (const key of enKeys) {
-      if (locPage && typeof locPage === 'object' && !Array.isArray(locPage) && key in locPage) {
-        page[key] = locPage[key]
-      } else if (
-        existingPage &&
-        typeof existingPage === 'object' &&
-        !Array.isArray(existingPage) &&
-        key in existingPage
-      ) {
-        page[key] = existingPage[key]
-      }
-      // else omit — do not fill with EN
+    for (const key of Object.keys(enPage)) {
+      if (key in locPage) page[key] = locPage[key]
+      else page[key] = enPage[key]
     }
-    filtered[pageId] = page
+    if ('translationStatus' in locPage) page.translationStatus = locPage.translationStatus
+    aligned[pageId] = page
   }
-  return filtered
+  return aligned
 }
 
 function syncMarketingWeb() {
   const outRoot = join(ERP_LABS_ROOT, 'web-public', 'apps', 'marketing-web', 'lib', 'i18n')
   ensureDir(outRoot)
-  const enPages = mergeSurfacePages('en', 'www')
+  const existingEn = readJsonIfExists(join(outRoot, 'en.json'))
+  const webEn = mergeSurfacePages('en', 'www')
+  // Preserve product-only EN keys; overlay web-i18n updates (do not shrink the bundle).
+  const enPages =
+    existingEn && typeof existingEn === 'object' && !Array.isArray(existingEn)
+      ? deepMerge(existingEn, webEn)
+      : webEn
   writeJson(join(outRoot, 'en.json'), enPages)
+
   for (const locale of loadLocales().filter((l) => l !== 'en')) {
-    const merged = mergeSurfacePages(locale, 'www')
-    if (Object.keys(merged).length === 0) continue
+    const webLoc = mergeSurfacePages(locale, 'www')
+    if (Object.keys(webLoc).length === 0 && Object.keys(enPages).length === 0) continue
     const outPath = join(outRoot, `${locale}.json`)
     const existing = readJsonIfExists(outPath)
     const existingPages =
       existing && typeof existing === 'object' && !Array.isArray(existing) ? existing : {}
-    const filtered = filterPagesToEnKeys(enPages, merged, existingPages)
-    writeJson(outPath, filtered)
+    const overlay = realTranslationOverlay(webLoc, webEn)
+    const merged = deepMerge(existingPages, overlay)
+    const aligned = alignLocaleToEnKeys(enPages, merged)
+    writeJson(outPath, aligned)
     console.log(`sync-to-apps: wrote marketing-web/lib/i18n/${locale}.json`)
   }
 }
