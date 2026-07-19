@@ -75,6 +75,11 @@ Output only the `keys` object as JSON for locales/{locale}/...
 
 Workflow [`.github/workflows/sync-product-repos.yml`](.github/workflows/sync-product-repos.yml) runs on pushes to `main` under `locales/**`, `sources/en/**`, or `manifest/**`, and opens PRs in the product repos.
 
+**Merge behavior (`npm run sync` / `scripts/sync-to-apps.mjs`):**
+
+- **admin-web** — deep-merges synced `account` namespaces into existing `dictionaries/{locale}.json` so product-only keys/namespaces (not yet in web-i18n) are preserved.
+- **marketing-web** — for each EN key, prefers the web-i18n locale value, otherwise keeps the existing product `lib/i18n/{locale}.json` value; never copies English as a fallback for missing keys (keeps `check-i18n-not-english` / `check-i18n-bundles` gates green when product files already have translations).
+
 **Required secret:** `PRODUCT_REPOS_TOKEN` on this repository. The default `GITHUB_TOKEN` cannot read private sibling repos (`core-platform`, `web-public`, `infra-email`).
 
 Create a fine-grained PAT (or classic PAT with `repo` scope) granted **Contents: Read and write** and **Pull requests: Read and write** on:
