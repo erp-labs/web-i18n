@@ -1,9 +1,9 @@
 {
   "pageId": "app.moduleGuide",
   "surface": "app",
-  "route": "/{companyId}/{locale}/moduleGuide",
-  "version": 3,
-  "sourceHash": "sha256:2d2ae540edb3d9abcf3c2c67f99a19dc786c38d2080429b6c9bde672f2a6b4b6",
+  "route": "/{companyId}/{locale}/module-guide",
+  "version": 5,
+  "sourceHash": "sha256:b8680d9713926ca546b9d5efa16149212053849046b197f6814a82bb465613d2",
   "keys": {
     "common": {
       "showGuide": "Cách sử dụng",
@@ -59,10 +59,14 @@
     },
     "customers": {
       "whatTitle": "Danh sách khách hàng của bạn",
-      "whatBody": "Duyệt khách hàng ERP được đồng bộ từ workspace công ty của bạn.",
-      "howTitle": "Cần quản lý pipeline hoặc giao dịch?",
-      "howStep1": "Dùng Mở trong CRM để truy cập Frappe CRM trên tenant host của bạn.",
-      "howStep2": "Dùng Work Desk để xem đầy đủ hồ sơ khách hàng ERP và các liên kết kế toán."
+      "whatBody": "Duyệt qua ERP khách hàng được đồng bộ hóa từ không gian làm việc của công ty bạn.",
+      "howTitle": "Need pipeline or deals?",
+      "howStep1": "Use Open in CRM for Frappe CRM on your tenant host.",
+      "howStep2": "Use Work Desk for full ERP customer records and accounting links.",
+      "howStep3": "Mở một khách hàng để xem chi tiết hoặc tạo hóa đơn.",
+      "startTitle": "Thêm khách hàng đầu tiên của bạn",
+      "startBody": "Bắt đầu với một tài khoản — bạn có thể liên kết hóa đơn sau.",
+      "startCta": "Thêm khách hàng"
     },
     "leaves": {
       "whatTitle": "Xin nghỉ phép",
@@ -81,6 +85,17 @@
       "howTitle": "Cách hoạt động của thông báo",
       "howStep1": "Nhấn biểu tượng chuông trên thông báo để đánh dấu đã đọc.",
       "howStep2": "Dùng Xem chi tiết để mở module liên quan khi có liên kết."
+    },
+    "mailing": {
+      "whatTitle": "Chiến dịch email",
+      "whatBody": "Tạo và gửi các chiến dịch email tới khán giả của bạn từ không gian làm việc ERP của bạn.",
+      "howTitle": "Cách tạo chiến dịch",
+      "howStep1": "Nhấn + để bắt đầu chiến dịch mới với tên và chủ đề.",
+      "howStep2": "Lưu dưới dạng bản nháp, sau đó lên lịch hoặc gửi khi sẵn sàng.",
+      "howStep3": "Theo dõi số lần mở, số lần nhấp và trạng thái phân phối trên danh sách chiến dịch.",
+      "startTitle": "Tạo chiến dịch đầu tiên của bạn",
+      "startBody": "Bắt đầu bằng bản nháp — bạn có thể tinh chỉnh nội dung trước khi gửi.",
+      "startCta": "Chiến dịch mới"
     }
   },
   "meta": {

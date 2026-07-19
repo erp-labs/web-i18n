@@ -1,0 +1,39 @@
+{
+  "pageId": "app.payroll",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/payroll",
+  "version": 2,
+  "sourceHash": "sha256:4dfc871169d9e8536887fce8f0108896e74d838b9798d5a71e952011e218a2dc",
+  "keys": {
+    "title": "كشوف المرتبات",
+    "noSlipsYet": "لا يوجد قسائم الراتب حتى الآن",
+    "noSlipsDescription": "ستظهر هنا قسائم الراتب من مؤسستك ERP.",
+    "taxYear": "السنة الضريبية",
+    "gross": "إجمالي",
+    "deductions": "الخصومات",
+    "net": "شبكة",
+    "slipsCount": "قسائم الراتب",
+    "taxDetails": "التفاصيل الضريبية",
+    "taxSummaryTitle": "ملخص الضريبة",
+    "taxSummaryEmpty": "لا يوجد ملخص ضريبي لهذا العام.",
+    "taxDetailsHint": "يتم تجميعها من مكونات خصم قسيمة الراتب (وليس محرك ضرائب منفصل).",
+    "taxDetailsEmpty": "لم يتم العثور على مكونات خصم شبيهة بالضرائب في قسائم الرواتب لهذا العام.",
+    "viewTaxSummary": "عرض التفاصيل الضريبية",
+    "backToList": "العودة إلى الرواتب",
+    "slipDetail": "قسيمة الراتب",
+    "slipNotFound": "لم يتم العثور على قسيمة الراتب.",
+    "downloadPdf": "تحميل 0.0",
+    "pdfDownloaded": "0 تم التحميل",
+    "pdfDownloadError": "فشل التحميل 0",
+    "period": "فترة",
+    "employee": "موظف",
+    "status": "حالة",
+    "earnings": "الأرباح"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#payroll",
+    "githubPath": "app/payroll.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ar.json#payroll"
+  }
+}

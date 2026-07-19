@@ -2,8 +2,8 @@
   "pageId": "app.passcode",
   "surface": "app",
   "route": "/{companyId}/{locale}/passcode",
-  "version": 1,
-  "sourceHash": "sha256:f3eb59f28ddec7ec0d8b414d2cf7d9d47113be9676d4ff8fb5ff44a0cbef4ee1",
+  "version": 3,
+  "sourceHash": "sha256:d896b8a45df817404dd626d9ee6ff3cbc7a2b81a8e83e6c29bac54ea9bd0f3ba",
   "keys": {
     "title": "पासकोड",
     "enterPin": "कृपया अपना 6 अंकों का पासकोड दर्ज करें",
@@ -32,13 +32,13 @@
     "sessionExpired": "सत्र समाप्त हुआ। कृपया प्रारंभ से पुनः साइन इन करें.",
     "resetExpiryNotice": "यह लिंक 15 मिनट में समाप्त हो जाएगा. यदि इसकी समय सीमा समाप्त हो गई है, तो साइन-इन पृष्ठ से एक नए रीसेट लिंक का अनुरोध करें।",
     "resetLinkExpiryAndRateLimit": "लिंक 15 मिनट में समाप्त हो जाता है. यदि आपको कोई ईमेल प्राप्त नहीं होता है, तो स्पैम की जाँच करें या बाद में पुनः प्रयास करें।",
-    "rateLimitNotice": "बहुत सारे अनुरोध. कुछ ही मिनटों में पुनः प्रयास करें।"
+    "rateLimitNotice": "बहुत सारे अनुरोध. कुछ ही मिनटों में पुनः प्रयास करें।",
+    "sessionSaveFailed": "आपका सत्र सहेजा नहीं जा सका. कृपया प्रारंभ से पुनः साइन इन करें."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#passcode",
     "githubPath": "app/passcode.page.json",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/hi.json#passcode"
   }
 }

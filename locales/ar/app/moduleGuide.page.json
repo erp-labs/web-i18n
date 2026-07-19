@@ -1,9 +1,9 @@
 {
   "pageId": "app.moduleGuide",
   "surface": "app",
-  "route": "/{companyId}/{locale}/moduleGuide",
-  "version": 3,
-  "sourceHash": "sha256:2d2ae540edb3d9abcf3c2c67f99a19dc786c38d2080429b6c9bde672f2a6b4b6",
+  "route": "/{companyId}/{locale}/module-guide",
+  "version": 5,
+  "sourceHash": "sha256:b8680d9713926ca546b9d5efa16149212053849046b197f6814a82bb465613d2",
   "keys": {
     "common": {
       "showGuide": "كيف يعمل",
@@ -58,11 +58,15 @@
       "startCta": "إنشاء فاتورة"
     },
     "customers": {
-      "whatTitle": "قائمة عملائك",
-      "whatBody": "تصفّح عملاء ERP المتزامنين من مساحة عمل شركتك.",
-      "howTitle": "هل تحتاج إلى مسار مبيعات أو صفقات؟",
-      "howStep1": "استخدم فتح في CRM للوصول إلى Frappe CRM على مضيف المستأجر الخاص بك.",
-      "howStep2": "استخدم Work Desk للاطلاع على سجلات عملاء ERP الكاملة وروابط المحاسبة."
+      "whatTitle": "قائمة العملاء الخاصة بك",
+      "whatBody": "تصفح 0 العملاء الذين تمت مزامنتهم من مساحة عمل شركتك.",
+      "howTitle": "Need pipeline or deals?",
+      "howStep1": "Use Open in CRM for Frappe CRM on your tenant host.",
+      "howStep2": "Use Work Desk for full ERP customer records and accounting links.",
+      "howStep3": "افتح عميلاً لعرض التفاصيل أو إنشاء فاتورة.",
+      "startTitle": "أضف عميلك الأول",
+      "startBody": "ابدأ بحساب واحد، ويمكنك ربط الفواتير لاحقًا.",
+      "startCta": "إضافة العميل"
     },
     "leaves": {
       "whatTitle": "طلب إجازة",
@@ -81,6 +85,17 @@
       "howTitle": "كيف تعمل الإشعارات",
       "howStep1": "اضغط أيقونة الجرس على الإشعار لتعليمه كمقروء.",
       "howStep2": "استخدم عرض التفاصيل لفتح الوحدة المرتبطة عند توفر رابط."
+    },
+    "mailing": {
+      "whatTitle": "حملات البريد الإلكتروني",
+      "whatBody": "قم بإنشاء وإرسال حملات البريد الإلكتروني إلى جمهورك من مساحة العمل الخاصة بك.",
+      "howTitle": "كيفية إنشاء حملة",
+      "howStep1": "اضغط على + لبدء حملة جديدة بالاسم والموضوع.",
+      "howStep2": "احفظ كمسودة، ثم حدد موعدًا أو أرسلها عندما تصبح جاهزة.",
+      "howStep3": "تتبع عمليات الفتح والنقرات وحالة التسليم في قائمة الحملات.",
+      "startTitle": "أنشئ حملتك الأولى",
+      "startBody": "ابدأ بمسودة — يمكنك تحسين المحتوى قبل إرساله.",
+      "startCta": "حملة جديدة"
     }
   },
   "meta": {

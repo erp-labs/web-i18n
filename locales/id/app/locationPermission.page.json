@@ -1,8 +1,8 @@
 {
   "pageId": "app.locationPermission",
   "surface": "app",
-  "route": "/{companyId}/{locale}/locationPermission",
-  "version": 1,
+  "route": "/{companyId}/{locale}/location-permission",
+  "version": 3,
   "sourceHash": "sha256:d925f25b9680bbb3902ef950b535e206b9d76a665fdbca0f80ce2c5004fa3ece",
   "keys": {
     "title": "Aktifkan lokasi Anda",
@@ -14,7 +14,6 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#locationPermission",
     "githubPath": "app/locationPermission.page.json",
-    "translationStatus": "ai_draft",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/id.json#locationPermission"
   }
 }

@@ -2,8 +2,8 @@
   "pageId": "app.leaves",
   "surface": "app",
   "route": "/{companyId}/{locale}/leaves",
-  "version": 3,
-  "sourceHash": "sha256:8e118fe61edc02dc066e371a94f9db52f5d31f01ce52c71345cfa20af7587561",
+  "version": 5,
+  "sourceHash": "sha256:19b0a51088a7256c30ddd26790fb9450c292724758f1c90a72a6c47f66da26a3",
   "keys": {
     "title": "Nghỉ phép",
     "leaveType": "Loại nghỉ phép",
@@ -16,6 +16,7 @@
     "submitRequest": "Gửi yêu cầu",
     "requestSubmitted": "Đã gửi yêu cầu nghỉ phép",
     "requestSubmitFailed": "Không thể gửi yêu cầu của bạn. Vui lòng thử lại.",
+    "pendingApprovalsHint": "Phê duyệt nghỉ phép đang chờ xử lý được hiển thị trong lịch sử nghỉ phép của bạn bên dưới.",
     "sickLeave": "Nghỉ ốm",
     "hospitalisationLeave": "Nghỉ nằm viện",
     "maternityLeave": "Nghỉ thai sản",
@@ -41,10 +42,10 @@
     "startByRequestingLeave": "Khi cần nghỉ, hãy gửi yêu cầu ở phía trên",
     "requestLeaveCta": "Xin nghỉ phép",
     "addLeave": "Thêm nghỉ phép",
-    "selectDatesOnCalendar": "Chọn ngày nghỉ phép của bạn trên lịch phía trên.",
-    "selectLeaveDates": "Select leave dates",
-    "confirmDates": "Done",
-    "noLeaveAllocation": "Chưa có số ngày phép nào được cấp. Liên hệ quản trị viên nhân sự của bạn."
+    "selectDatesOnCalendar": "Select your leave dates on the calendar above.",
+    "selectLeaveDates": "Chọn ngày nghỉ phép",
+    "confirmDates": "Xong",
+    "noLeaveAllocation": "Chưa có số dư nghỉ phép nào được chỉ định. Liên hệ với quản trị viên nhân sự của bạn."
   },
   "meta": {
     "productRepo": "core-platform",

@@ -1,0 +1,35 @@
+{
+  "pageId": "app.stubs",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/stubs",
+  "version": 2,
+  "sourceHash": "sha256:ebc3344b5dd18d78128ed55bac83d115a0364913facdd9be011d7854cc8ce2b4",
+  "keys": {
+    "payment": {
+      "title": "Bayaran",
+      "description": "Kumpul dan selaraskan pembayaran. Sambungkan Stripe dalam Integrasi apabila pemprosesan pembayaran didayakan untuk organisasi anda."
+    },
+    "payroll": {
+      "title": "Gaji",
+      "description": "Lihat slip gaji dan butiran cukai. Data datang daripada modul ERP gaji organisasi anda."
+    },
+    "reservation": {
+      "title": "Tempahan",
+      "description": "Tempah bilik, janji temu dan sumber. Penyepaduan tempahan akan dipaparkan di sini semasa ia dilancarkan."
+    },
+    "accounting": {
+      "title": "Perakaunan",
+      "description": "Lejar am dan aliran kerja perakaunan. Frappe ERP ialah hujung belakang lalai; sambungkan Xero atau Odoo dalam Integrasi untuk menggunakan pembekal luaran."
+    },
+    "financial_reports": {
+      "title": "Laporan Kewangan",
+      "description": "P&L syarikat, kunci kira-kira dan imbangan percubaan. Memerlukan akses kewangan syarikat pada Akaun."
+    }
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#stubs",
+    "githubPath": "app/stubs.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ms.json#stubs"
+  }
+}

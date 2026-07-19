@@ -299,5 +299,194 @@
     "locale": "zh",
     "method": "import-employee-web",
     "at": "2026-07-02T03:33:57.029Z"
+  },
+  {
+    "version": 1,
+    "enHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
+    "locale": "en",
+    "method": "extract",
+    "at": "2026-07-19T06:05:28.761Z"
+  },
+  {
+    "version": 4,
+    "enHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
+    "locale": "ko",
+    "method": "import-employee-web",
+    "at": "2026-07-19T07:13:10.572Z"
+  },
+  {
+    "version": 4,
+    "enHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
+    "locale": "ja",
+    "method": "import-employee-web",
+    "at": "2026-07-19T07:13:10.620Z"
+  },
+  {
+    "version": 4,
+    "enHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
+    "locale": "ar",
+    "method": "import-employee-web",
+    "at": "2026-07-19T07:13:10.636Z"
+  },
+  {
+    "version": 4,
+    "enHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
+    "locale": "vi",
+    "method": "import-employee-web",
+    "at": "2026-07-19T07:13:10.653Z"
+  },
+  {
+    "version": 4,
+    "enHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
+    "locale": "zh",
+    "method": "import-employee-web",
+    "at": "2026-07-19T07:13:10.673Z"
+  },
+  {
+    "version": 2,
+    "enHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
+    "locale": "th",
+    "method": "import-employee-web",
+    "at": "2026-07-19T07:13:10.694Z"
+  },
+  {
+    "version": 2,
+    "enHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
+    "locale": "id",
+    "method": "import-employee-web",
+    "at": "2026-07-19T07:13:10.714Z"
+  },
+  {
+    "version": 2,
+    "enHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
+    "locale": "ms",
+    "method": "import-employee-web",
+    "at": "2026-07-19T07:13:10.729Z"
+  },
+  {
+    "version": 2,
+    "enHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
+    "locale": "si",
+    "method": "import-employee-web",
+    "at": "2026-07-19T07:13:10.746Z"
+  },
+  {
+    "version": 2,
+    "enHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
+    "locale": "ur",
+    "method": "import-employee-web",
+    "at": "2026-07-19T07:13:10.768Z"
+  },
+  {
+    "version": 2,
+    "enHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
+    "locale": "hi",
+    "method": "import-employee-web",
+    "at": "2026-07-19T07:13:10.787Z"
+  },
+  {
+    "version": 2,
+    "enHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
+    "locale": "ru",
+    "method": "import-employee-web",
+    "at": "2026-07-19T07:13:10.803Z"
+  },
+  {
+    "version": 2,
+    "enHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
+    "locale": "my",
+    "method": "import-employee-web",
+    "at": "2026-07-19T07:13:10.823Z"
+  },
+  {
+    "version": 5,
+    "enHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
+    "locale": "ko",
+    "method": "import-employee-web",
+    "at": "2026-07-19T07:13:32.557Z"
+  },
+  {
+    "version": 5,
+    "enHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
+    "locale": "ja",
+    "method": "import-employee-web",
+    "at": "2026-07-19T07:13:32.579Z"
+  },
+  {
+    "version": 5,
+    "enHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
+    "locale": "ar",
+    "method": "import-employee-web",
+    "at": "2026-07-19T07:13:32.591Z"
+  },
+  {
+    "version": 5,
+    "enHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
+    "locale": "vi",
+    "method": "import-employee-web",
+    "at": "2026-07-19T07:13:32.603Z"
+  },
+  {
+    "version": 5,
+    "enHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
+    "locale": "zh",
+    "method": "import-employee-web",
+    "at": "2026-07-19T07:13:32.615Z"
+  },
+  {
+    "version": 3,
+    "enHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
+    "locale": "th",
+    "method": "import-employee-web",
+    "at": "2026-07-19T07:13:32.631Z"
+  },
+  {
+    "version": 3,
+    "enHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
+    "locale": "id",
+    "method": "import-employee-web",
+    "at": "2026-07-19T07:13:32.646Z"
+  },
+  {
+    "version": 3,
+    "enHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
+    "locale": "ms",
+    "method": "import-employee-web",
+    "at": "2026-07-19T07:13:32.669Z"
+  },
+  {
+    "version": 3,
+    "enHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
+    "locale": "si",
+    "method": "import-employee-web",
+    "at": "2026-07-19T07:13:32.687Z"
+  },
+  {
+    "version": 3,
+    "enHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
+    "locale": "ur",
+    "method": "import-employee-web",
+    "at": "2026-07-19T07:13:32.701Z"
+  },
+  {
+    "version": 3,
+    "enHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
+    "locale": "hi",
+    "method": "import-employee-web",
+    "at": "2026-07-19T07:13:32.714Z"
+  },
+  {
+    "version": 3,
+    "enHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
+    "locale": "ru",
+    "method": "import-employee-web",
+    "at": "2026-07-19T07:13:32.727Z"
+  },
+  {
+    "version": 3,
+    "enHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
+    "locale": "my",
+    "method": "import-employee-web",
+    "at": "2026-07-19T07:13:32.741Z"
   }
 ]

@@ -2,8 +2,8 @@
   "pageId": "app.leaves",
   "surface": "app",
   "route": "/{companyId}/{locale}/leaves",
-  "version": 3,
-  "sourceHash": "sha256:8e118fe61edc02dc066e371a94f9db52f5d31f01ce52c71345cfa20af7587561",
+  "version": 5,
+  "sourceHash": "sha256:19b0a51088a7256c30ddd26790fb9450c292724758f1c90a72a6c47f66da26a3",
   "keys": {
     "title": "휴가관리",
     "leaveType": "휴가유형",
@@ -14,8 +14,9 @@
     "selectEndDate": "종료일 선택",
     "leaveHistory": "휴가신청기록",
     "submitRequest": "휴가신청",
-    "requestSubmitted": "휴가 신청이 제출되었습니다",
-    "requestSubmitFailed": "신청을 제출할 수 없습니다. 다시 시도해 주세요.",
+    "requestSubmitted": "휴가 요청이 제출되었습니다.",
+    "requestSubmitFailed": "요청을 제출할 수 없습니다. 다시 시도해 주세요.",
+    "pendingApprovalsHint": "보류 중인 휴가 승인은 아래 휴가 내역에 표시됩니다.",
     "sickLeave": "병가 휴가",
     "hospitalisationLeave": "입원 휴가",
     "maternityLeave": "출산 휴가",
@@ -41,10 +42,10 @@
     "startByRequestingLeave": "휴가가 필요할 때 첫 신청을 제출하세요",
     "requestLeaveCta": "휴가 신청",
     "addLeave": "휴가 추가",
-    "selectDatesOnCalendar": "위 달력에서 휴가 날짜를 선택하세요.",
-    "selectLeaveDates": "Select leave dates",
-    "confirmDates": "Done",
-    "noLeaveAllocation": "아직 휴가 잔여일이 할당되지 않았습니다. HR 관리자에게 문의하세요."
+    "selectDatesOnCalendar": "Select your leave dates on the calendar above.",
+    "selectLeaveDates": "휴가 날짜 선택",
+    "confirmDates": "완료",
+    "noLeaveAllocation": "아직 휴가 잔액이 할당되지 않았습니다. HR 관리자에게 문의하세요."
   },
   "meta": {
     "productRepo": "core-platform",

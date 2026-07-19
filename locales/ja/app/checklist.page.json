@@ -2,8 +2,8 @@
   "pageId": "app.checklist",
   "surface": "app",
   "route": "/{companyId}/{locale}/checklist",
-  "version": 3,
-  "sourceHash": "sha256:b8d6ab3c8eed7f9d6863dbd604ac78a99c1c3f488e67ef626dcc4fee5517f7f7",
+  "version": 5,
+  "sourceHash": "sha256:46611de70b6a7a7aaa3bbcb67ce18bbc9b34c9ebf9fbd105a60e6d1f699c74e1",
   "keys": {
     "title": "業務管理",
     "addTitle": "業務追加",
@@ -44,7 +44,8 @@
     "countSuffix": "件",
     "noTasksYet": "登録された業務はありません",
     "startByAddingTask": "最初の業務を登録してください",
-    "loadingMore": "さらに読み込み"
+    "loadingMore": "さらに読み込み中",
+    "noTasksThisDay": "この日のタスクはありません。"
   },
   "meta": {
     "productRepo": "core-platform",

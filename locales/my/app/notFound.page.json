@@ -1,19 +1,18 @@
 {
   "pageId": "app.notFound",
   "surface": "app",
-  "route": "/{companyId}/{locale}/notFound",
-  "version": 1,
+  "route": "/{companyId}/{locale}/not-found",
+  "version": 3,
   "sourceHash": "sha256:a0728b7f9ef9ccaffe23ac3f4841306bda7bf477b5414e2189898581960b9a00",
   "keys": {
-    "title": "Not Found",
-    "description": "Could not find requested resource",
-    "returnHome": "Return Home"
+    "title": "မတွေ့ပါ။",
+    "description": "တောင်းဆိုထားသော အရင်းအမြစ်ကို ရှာမတွေ့ပါ။",
+    "returnHome": "အိမ်ပြန်ပါ။"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#notFound",
     "githubPath": "app/notFound.page.json",
-    "translationStatus": "ai_draft",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/my.json#notFound"
   }
 }

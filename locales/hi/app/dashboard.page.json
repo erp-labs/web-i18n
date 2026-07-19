@@ -1,0 +1,112 @@
+{
+  "pageId": "app.dashboard",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/",
+  "version": 2,
+  "sourceHash": "sha256:6bca2fd7db843a8d40a4aa9efc81d43a93d3882ba68ffff04f67687586b58cc1",
+  "keys": {
+    "viewDetails": "विवरण देखें",
+    "subtitle": "HR, ग्राहक, लेखा, प्रदर्शन और AI उपयोग का अवलोकन।",
+    "emptyHint": "इस अवधि के लिए अभी तक कोई गतिविधि डेटा नहीं है. डैशबोर्ड को पॉप्युलेट करने के लिए ERP सीड चलाएँ या ऑनबोर्डिंग पूर्ण करें।",
+    "overviewRefreshFailed": "Overview refresh failed. Showing module summaries where available.",
+    "titles": {
+      "company": "कंपनी डैशबोर्ड",
+      "team": "टीम डैशबोर्ड",
+      "finance": "वित्त डैशबोर्ड"
+    },
+    "period": {
+      "day": "दैनिक",
+      "week": "साप्ताहिक",
+      "month": "मासिक",
+      "groupLabel": "अवधि"
+    },
+    "categories": {
+      "hr": "मानव संसाधन",
+      "customer": "ग्राहक",
+      "account": "लेखा",
+      "performance": "प्रदर्शन",
+      "ai": "कृत्रिम बुद्धिमत्ता"
+    },
+    "cards": {
+      "checkIn": "आज check-in",
+      "absent": "अनुपस्थित",
+      "late": "देर",
+      "leave": "अवकाश अनुरोध",
+      "leaveThisMonth": "इस महीने की छुट्टी",
+      "leaveNextMonth": "अगले महीने की छुट्टी",
+      "expenses": "इस महीने के खर्च",
+      "expensePaid": "भुगतान",
+      "expensePending": "लंबित",
+      "expenseRejected": "अस्वीकृत",
+      "customersTotal": "कुल ग्राहक",
+      "customersNewThisMonth": "इस महीने नया",
+      "customersWithContact": "संपर्क जानकारी के साथ",
+      "customersWithContactPercent": "शेयर करना",
+      "customersCompanyShare": "कंपनी के ग्राहक",
+      "customersCompanyPercent": "शेयर करना",
+      "crmActiveDeals": "सक्रिय deals",
+      "crmOpenLeads": "खुले leads",
+      "emailsSent": "भेजे गए emails",
+      "emailsSentHint": "इnvoice और campaigns का योग; विवरण Mailing में।",
+      "emailsFailed": "विफल",
+      "invoicesIssued": "जारी invoices",
+      "revenue": "राजस्व",
+      "revenueTrend": "पिछले महीने की तुलना",
+      "outstanding": "बकाया",
+      "paidCount": "चुकाया गया",
+      "checklistSuccess": "Checklist सफलता दर",
+      "successMonth": "इस महीने",
+      "successDay": "आज",
+      "teamAverage": "टीम औसत",
+      "tokensUsed": "उपयोग किए tokens",
+      "tokenLimit": "प्लान सीमा",
+      "securityAlerts": "सुरक्षा alerts",
+      "activeAiUsers": "सक्रिय AI उपयोगकर्ता"
+    },
+    "charts": {
+      "accounting": "लेखा",
+      "hr": "मानव संसाधन",
+      "customer": "ग्राहक",
+      "revenue": "राजस्व",
+      "expenses": "खर्च",
+      "outstanding": "बकाया",
+      "newCustomers": "नए ग्राहक",
+      "customerGrowth": "ग्राहक वृद्धि",
+      "customerEmails": "ईमेल गतिविधि"
+    },
+    "activity": {
+      "title": "कर्मचारी गतिविधि",
+      "search": "कर्मचारी खोजें…",
+      "empty": "इस tab के लिए कोई रिकॉर्ड नहीं।",
+      "viewLink": "देखें",
+      "securityFlag": "फ़्लैग",
+      "securityOk": "ठीक",
+      "tabs": {
+        "expenses": "खर्च",
+        "performance": "प्रदर्शन",
+        "ai": "AI संकेत"
+      },
+      "columns": {
+        "employee": "कर्मचारी",
+        "amount": "राशि",
+        "status": "स्थिति",
+        "paymentDate": "भुगतान तिथि",
+        "department": "विभाग",
+        "successRate": "सफलता दर",
+        "goals": "लक्ष्य",
+        "lastReview": "अंतिम review",
+        "prompt": "संकेत",
+        "tokens": "टोकन",
+        "time": "समय",
+        "security": "सुरक्षा",
+        "action": "कार्रवाई"
+      }
+    }
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#dashboard",
+    "githubPath": "app/dashboard.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/hi.json#dashboard"
+  }
+}

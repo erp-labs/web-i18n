@@ -1,0 +1,112 @@
+{
+  "pageId": "app.dashboard",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/",
+  "version": 2,
+  "sourceHash": "sha256:6bca2fd7db843a8d40a4aa9efc81d43a93d3882ba68ffff04f67687586b58cc1",
+  "keys": {
+    "viewDetails": "အသေးစိတ်ကြည့်ရန်",
+    "subtitle": "HR၊ ဖောက်သည်၊ စာရင်းကိုင်၊ စွမ်းဆောင်ရည်နှင့် AI အသုံးပြုမှု အကျဉ်းချုပ်။",
+    "emptyHint": "ဤကာလအတွက် လုပ်ဆောင်ချက်ဒေတာ မရှိသေးပါ။ ဒက်ရှ်ဘုတ်ကို ဖြည့်သွင်းရန် ERP မျိုးစေ့ကို ဖွင့်ပါ သို့မဟုတ် စတင်ထည့်သွင်းခြင်း အပြီးသတ်ပါ။",
+    "overviewRefreshFailed": "Overview refresh failed. Showing module summaries where available.",
+    "titles": {
+      "company": "ကုမ္ပဏီ ဒက်ရှ်ဘုတ်",
+      "team": "အဖွဲ့ ဒက်ရှ်ဘုတ်",
+      "finance": "ဘဏ္ဍာရေး ဒက်ရှ်ဘုတ်"
+    },
+    "period": {
+      "day": "နေ့စဉ်",
+      "week": "အပတ်စဉ်",
+      "month": "လစဉ်",
+      "groupLabel": "ကာလ"
+    },
+    "categories": {
+      "hr": "လူသားအရင်းအမြစ်",
+      "customer": "ဖောက်သည်",
+      "account": "စာရင်း",
+      "performance": "စွမ်းဆောင်ရည်",
+      "ai": "ဉာဏ်ရည်တု"
+    },
+    "cards": {
+      "checkIn": "ယနေ့ check-in",
+      "absent": "ပျက်ကွက်",
+      "late": "နောက်ကျ",
+      "leave": "ခွင့်တောင်းဆိုမှုများ",
+      "leaveThisMonth": "ယခုလ ခွင့်",
+      "leaveNextMonth": "နောက်လ ခွင့်",
+      "expenses": "ယခုလ အသုံးစရိတ်",
+      "expensePaid": "ပေးချေပြီး",
+      "expensePending": "ဆိုင်းငံ့ထားသည်။",
+      "expenseRejected": "ငြင်းပယ်",
+      "customersTotal": "စုစုပေါင်း ဖောက်သည်",
+      "customersNewThisMonth": "ဒီလအသစ်",
+      "customersWithContact": "ဆက်သွယ်ရန်အချက်အလက်နှင့်အတူ",
+      "customersWithContactPercent": "မျှဝေပါ။",
+      "customersCompanyShare": "ကုမ္ပဏီဖောက်သည်များ",
+      "customersCompanyPercent": "မျှဝေပါ။",
+      "crmActiveDeals": "လက်ရှိ deals",
+      "crmOpenLeads": "ဖွင့်ထား leads",
+      "emailsSent": "ပို့ထား email",
+      "emailsSentHint": "invoice နှင့် campaign စုစုပေါင်း؛ အသေးစိတ် Mailing တွင်။",
+      "emailsFailed": "မအောင်မြင်",
+      "invoicesIssued": "ထုတ်ပြန်ထား invoice",
+      "revenue": "ဝင်ငွေ",
+      "revenueTrend": "ယခင်လနှင့် နှိုင်းယှဉ်",
+      "outstanding": "ကျန်ရှိ",
+      "paidCount": "အခကြေးငွေ",
+      "checklistSuccess": "Checklist အောင်မြင်နှုန်း",
+      "successMonth": "ယခုလ",
+      "successDay": "ယနေ့",
+      "teamAverage": "အဖွဲ့ ပျမ်းမျှ",
+      "tokensUsed": "သုံးထား token",
+      "tokenLimit": "Plan ကန့်သတ်",
+      "securityAlerts": "လုံခြုံရေး alerts",
+      "activeAiUsers": "တက်ကြွ AI အသုံးပြုသူ"
+    },
+    "charts": {
+      "accounting": "စာရင်းကိုင်",
+      "hr": "လူသားအရင်းအမြစ်",
+      "customer": "ဖောက်သည်",
+      "revenue": "ဝင်ငွေ",
+      "expenses": "အသုံးစရိတ်",
+      "outstanding": "ကျန်ရှိ",
+      "newCustomers": "ဖောက်သည်သစ်",
+      "customerGrowth": "ဖောက်သည်တိုး",
+      "customerEmails": "အီးမေးလ်လှုပ်ရှားမှု"
+    },
+    "activity": {
+      "title": "ဝန်ထမ်း လုပ်ဆောင်ချက်",
+      "search": "ဝန်ထမ်း ရှာပါ…",
+      "empty": "ဤ tab အတွက် မှတ်တမ်းမရှိပါ။",
+      "viewLink": "ကြည့်ရန်",
+      "securityFlag": "အမှတ်အသား",
+      "securityOk": "ပုံမှန်",
+      "tabs": {
+        "expenses": "အသုံးစရိတ်",
+        "performance": "စွမ်းဆောင်ရည်",
+        "ai": "AI prompt များ"
+      },
+      "columns": {
+        "employee": "ဝန်ထမ်း",
+        "amount": "ပမာဏ",
+        "status": "အခြေအနေ",
+        "paymentDate": "ပေးချေသည့်ရက်",
+        "department": "ဌာန",
+        "successRate": "အောင်မြင်နှုန်း",
+        "goals": "ရည်မှန်းချက်",
+        "lastReview": "နောက်ဆုံး review",
+        "prompt": "ညွှန်ကြားချက်",
+        "tokens": "တိုကင်",
+        "time": "အချိန်",
+        "security": "လုံခြုံရေး",
+        "action": "လုပ်ဆောင်ချက်"
+      }
+    }
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#dashboard",
+    "githubPath": "app/dashboard.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/my.json#dashboard"
+  }
+}

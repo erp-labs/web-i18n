@@ -2,22 +2,25 @@
   "pageId": "app.menu",
   "surface": "app",
   "route": "/{companyId}/{locale}/menu",
-  "version": 1,
-  "sourceHash": "sha256:d8a190eda194f241080a10fd778113ffb45b0e85ec46816c81c9970540c36e38",
+  "version": 3,
+  "sourceHash": "sha256:9c41074394ed74e34faca64407864a68acf98a8b2e7061fff2711321c07403bc",
   "keys": {
     "checkIn": "چیک ان",
     "leaves": "پتے",
     "expenses": "اخراجات",
+    "payroll": "پے رول",
     "checklist": "چیک لسٹ",
-    "myAi": "AI Agent",
+    "myAi": "اے آئی ایجنٹ",
     "billing": "بلنگ",
     "notices": "نوٹس",
     "noticeTooltip": "نوٹس",
     "dashboard": "ڈیش بورڈ",
     "invoices": "رسیدیں",
     "customers": "گاہک",
+    "crm": "CRM",
     "accounting": "حساب کتاب",
     "payment": "ادائیگی",
+    "financialReports": "مالیاتی رپورٹس",
     "reservation": "ریزرویشن",
     "calendar": "کیلنڈر",
     "mailing": "میلنگ"
@@ -26,7 +29,6 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#menu",
     "githubPath": "app/menu.page.json",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/ur.json#menu"
   }
 }

@@ -2,7 +2,7 @@
   "pageId": "app.common",
   "surface": "app",
   "route": "/{companyId}/{locale}/common",
-  "version": 3,
+  "version": 5,
   "sourceHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
   "keys": {
     "appName": "Pregoi",
@@ -38,14 +38,14 @@
     "daySaturday": "星期六",
     "daysSelected": "已选 {n} 天",
     "cookieSettings": "Cookie 设置",
-    "saving": "保存中…",
+    "saving": "保存…",
     "loadError": "目前无法加载数据，请重试。",
     "loadConnectionHint": "无法加载项目，可能是连接或配置问题。",
     "retryLoad": "重新加载",
     "retry": "重试",
     "submitFailedTitle": "提交失败",
-    "erpExpenseClaimTypeAccount": "费用类别尚未完全配置。请联系管理员。",
-    "erpLeaveTypeNotFound": "休假类型尚未配置。请联系管理员。"
+    "erpExpenseClaimTypeAccount": "费用类别尚未完全设置。请联系您的管理员。",
+    "erpLeaveTypeNotFound": "休假类型尚未设置。请联系您的管理员。"
   },
   "meta": {
     "productRepo": "core-platform",

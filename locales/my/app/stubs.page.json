@@ -1,0 +1,35 @@
+{
+  "pageId": "app.stubs",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/stubs",
+  "version": 2,
+  "sourceHash": "sha256:ebc3344b5dd18d78128ed55bac83d115a0364913facdd9be011d7854cc8ce2b4",
+  "keys": {
+    "payment": {
+      "title": "ငွေပေးချေမှု",
+      "description": "ငွေပေးချေမှုများကို စုဆောင်းပြီး ညှိနှိုင်းပါ။ Connect Stripe in Integrations when payment processing is enabled for your organization."
+    },
+    "payroll": {
+      "title": "လုပ်ခလစာ",
+      "description": "လစာဖြတ်ပိုင်းများနှင့် အခွန်အသေးစိတ်အချက်အလက်များကို ကြည့်ပါ။ ဒေတာသည် သင့်အဖွဲ့အစည်း၏ ERP လုပ်ခလစာ module မှ လာပါသည်။"
+    },
+    "reservation": {
+      "title": "ယူထား",
+      "description": "အခန်းများ၊ ချိန်းဆိုမှုများနှင့် အရင်းအမြစ်များ။ ကြိုတင်စာရင်းသွင်းခြင်း ပေါင်းစပ်မှုများ ဤနေရာတွင် ပေါ်လာပါမည်။"
+    },
+    "accounting": {
+      "title": "စာရင်းကိုင်",
+      "description": "အထွေထွေစာရင်းဇယားနှင့် စာရင်းကိုင်လုပ်ငန်းအသွားအလာများ။ Frappe ERP သည် default backend; ပြင်ပဝန်ဆောင်မှုပေးသူကို အသုံးပြုရန် ပေါင်းစပ်မှုများတွင် Xero သို့မဟုတ် Odoo ကို ချိတ်ဆက်ပါ။"
+    },
+    "financial_reports": {
+      "title": "ဘဏ္ဍာရေးအစီရင်ခံစာများ",
+      "description": "ကုမ္ပဏီ P&L၊ လက်ကျန်ရှင်းတမ်းနှင့် အစမ်းလက်ကျန်။ အကောင့်တွင် ကုမ္ပဏီဘဏ္ဍာရေးဆိုင်ရာ ဝင်ရောက်ခွင့် လိုအပ်သည်။"
+    }
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#stubs",
+    "githubPath": "app/stubs.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/my.json#stubs"
+  }
+}

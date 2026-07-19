@@ -1,0 +1,39 @@
+{
+  "pageId": "app.payroll",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/payroll",
+  "version": 2,
+  "sourceHash": "sha256:4dfc871169d9e8536887fce8f0108896e74d838b9798d5a71e952011e218a2dc",
+  "keys": {
+    "title": "पेरोल",
+    "noSlipsYet": "अभी तक कोई वेतन पर्ची नहीं है",
+    "noSlipsDescription": "आपके संगठन से वेतन पर्चियां ERP यहां दिखाई देंगी।",
+    "taxYear": "कर वर्ष",
+    "gross": "कुल",
+    "deductions": "कटौती",
+    "net": "जाल",
+    "slipsCount": "वेतन पर्ची",
+    "taxDetails": "कर विवरण",
+    "taxSummaryTitle": "कर सारांश",
+    "taxSummaryEmpty": "इस वर्ष के लिए कोई कर सारांश नहीं.",
+    "taxDetailsHint": "ERP वेतन पर्ची कटौती घटकों से एकत्रित (एक अलग कर इंजन नहीं)।",
+    "taxDetailsEmpty": "इस वर्ष के वेतन पर्चियों पर कोई कर-जैसा कटौती घटक नहीं पाया गया।",
+    "viewTaxSummary": "कर विवरण देखें",
+    "backToList": "पेरोल पर वापस जाएँ",
+    "slipDetail": "वेतन पर्ची",
+    "slipNotFound": "वेतन पर्ची नहीं मिली.",
+    "downloadPdf": "PDF डाउनलोड करें",
+    "pdfDownloaded": "PDF डाउनलोड किया गया",
+    "pdfDownloadError": "PDF डाउनलोड करने में विफल",
+    "period": "अवधि",
+    "employee": "कर्मचारी",
+    "status": "स्थिति",
+    "earnings": "आय"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#payroll",
+    "githubPath": "app/payroll.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/hi.json#payroll"
+  }
+}

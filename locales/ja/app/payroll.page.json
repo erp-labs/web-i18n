@@ -1,0 +1,39 @@
+{
+  "pageId": "app.payroll",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/payroll",
+  "version": 2,
+  "sourceHash": "sha256:4dfc871169d9e8536887fce8f0108896e74d838b9798d5a71e952011e218a2dc",
+  "keys": {
+    "title": "給与計算",
+    "noSlipsYet": "給与明細はまだありません",
+    "noSlipsDescription": "組織 ERP からの給与明細がここに表示されます。",
+    "taxYear": "課税年度",
+    "gross": "きもい",
+    "deductions": "控除",
+    "net": "ネット",
+    "slipsCount": "給与明細",
+    "taxDetails": "税金の詳細",
+    "taxSummaryTitle": "税金の概要",
+    "taxSummaryEmpty": "今年の税金概要はありません。",
+    "taxDetailsHint": "ERP 給与明細控除コンポーネントから集計されます (個別の税エンジンではありません)。",
+    "taxDetailsEmpty": "今年の給与明細には税金のような控除要素は見当たりません。",
+    "viewTaxSummary": "税金の詳細を表示する",
+    "backToList": "給与計算に戻る",
+    "slipDetail": "給与明細",
+    "slipNotFound": "給与明細が見つかりません。",
+    "downloadPdf": "ダウンロード PDF",
+    "pdfDownloaded": "PDFがダウンロードされました",
+    "pdfDownloadError": "PDFのダウンロードに失敗しました",
+    "period": "期間",
+    "employee": "従業員",
+    "status": "状態",
+    "earnings": "収益"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#payroll",
+    "githubPath": "app/payroll.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ja.json#payroll"
+  }
+}

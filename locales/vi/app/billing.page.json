@@ -2,13 +2,13 @@
   "pageId": "app.billing",
   "surface": "app",
   "route": "/{companyId}/{locale}/billing",
-  "version": 1,
+  "version": 3,
   "sourceHash": "sha256:aa97d4e6eb20468bffc0e19905ca10f66abb7a98bbf19c25a4db5269f93767ee",
   "keys": {
-    "title": "Credits & Billing",
-    "description": "Top up your AI credits to continue using My AI. Manage your plan and billing below.",
-    "goToBilling": "Go to billing",
-    "contactAdmin": "Contact your administrator to add credits or configure billing for {companyId}."
+    "title": "Tín dụng & Thanh toán",
+    "description": "Nạp tín dụng AI của bạn để tiếp tục sử dụng AI của tôi. Quản lý gói và thanh toán của bạn bên dưới.",
+    "goToBilling": "Đi đến thanh toán",
+    "contactAdmin": "Liên hệ với quản trị viên của bạn để thêm tín dụng hoặc định cấu hình thanh toán cho {companyId}."
   },
   "meta": {
     "productRepo": "core-platform",

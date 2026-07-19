@@ -2,21 +2,21 @@
   "pageId": "app.passcode",
   "surface": "app",
   "route": "/{companyId}/{locale}/passcode",
-  "version": 1,
-  "sourceHash": "sha256:f3eb59f28ddec7ec0d8b414d2cf7d9d47113be9676d4ff8fb5ff44a0cbef4ee1",
+  "version": 3,
+  "sourceHash": "sha256:d896b8a45df817404dd626d9ee6ff3cbc7a2b81a8e83e6c29bac54ea9bd0f3ba",
   "keys": {
-    "title": "Passcode",
+    "title": "Kode sandi",
     "enterPin": "Silakan masukkan kode sandi 6 digit Anda",
     "enterCurrentPin": "Masukkan kode sandi saat ini",
     "changeNewPrompt": "Masukkan kode sandi baru",
     "changeConfirmPrompt": "Masukkan kode sandi baru lagi untuk mengonfirmasi",
     "rememberDevice": "Ingat perangkat ini (periksa hanya di PC pribadi)",
     "rememberDeviceShort": "Ingat perangkat ini",
-    "reset": "Reset",
+    "reset": "Mengatur ulang",
     "setTitle": "Tetapkan kode sandi",
     "setPrompt": "Masukkan kode sandi 6 digit",
     "setConfirmPrompt": "Masuk lagi untuk mengonfirmasi",
-    "submit": "Submit",
+    "submit": "Kirim",
     "mismatch": "Kode sandi tidak cocok",
     "invalidLength": "Masukkan 6 digit",
     "forgotPasscode": "Lupa kode sandi?",
@@ -32,13 +32,13 @@
     "sessionExpired": "Sesi berakhir. Silakan masuk lagi dari awal.",
     "resetExpiryNotice": "Tautan ini kedaluwarsa dalam 15 menit. Jika sudah habis masa berlakunya, minta tautan setel ulang baru dari halaman masuk.",
     "resetLinkExpiryAndRateLimit": "Tautan kedaluwarsa dalam 15 menit. Jika Anda tidak menerima email, periksa spam atau coba lagi nanti.",
-    "rateLimitNotice": "Terlalu banyak permintaan. Silakan coba lagi dalam beberapa menit."
+    "rateLimitNotice": "Terlalu banyak permintaan. Silakan coba lagi dalam beberapa menit.",
+    "sessionSaveFailed": "Tidak dapat menyimpan sesi Anda. Silakan masuk lagi dari awal."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#passcode",
     "githubPath": "app/passcode.page.json",
-    "translationStatus": "ai_draft",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/id.json#passcode"
   }
 }

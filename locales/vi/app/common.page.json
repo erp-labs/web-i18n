@@ -2,7 +2,7 @@
   "pageId": "app.common",
   "surface": "app",
   "route": "/{companyId}/{locale}/common",
-  "version": 3,
+  "version": 5,
   "sourceHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
   "keys": {
     "appName": "Pregoi",
@@ -44,8 +44,8 @@
     "retryLoad": "Tải lại",
     "retry": "Thử lại",
     "submitFailedTitle": "Gửi không thành công",
-    "erpExpenseClaimTypeAccount": "Danh mục chi phí chưa được thiết lập đầy đủ. Vui lòng liên hệ quản trị viên của bạn.",
-    "erpLeaveTypeNotFound": "Loại nghỉ phép chưa được thiết lập. Vui lòng liên hệ quản trị viên của bạn."
+    "erpExpenseClaimTypeAccount": "Các danh mục chi phí chưa được thiết lập đầy đủ. Vui lòng liên hệ với quản trị viên của bạn.",
+    "erpLeaveTypeNotFound": "Các loại nghỉ phép chưa được thiết lập. Vui lòng liên hệ với quản trị viên của bạn."
   },
   "meta": {
     "productRepo": "core-platform",

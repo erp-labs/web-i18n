@@ -1,0 +1,19 @@
+{
+  "pageId": "app.billing",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/billing",
+  "version": 2,
+  "sourceHash": "sha256:aa97d4e6eb20468bffc0e19905ca10f66abb7a98bbf19c25a4db5269f93767ee",
+  "keys": {
+    "title": "เครดิตและการเรียกเก็บเงิน",
+    "description": "เติมเงินเครดิต AI ของคุณเพื่อใช้ My AI ต่อไป จัดการแผนและการเรียกเก็บเงินของคุณด้านล่าง",
+    "goToBilling": "ไปที่การเรียกเก็บเงิน",
+    "contactAdmin": "ติดต่อผู้ดูแลระบบของคุณเพื่อเพิ่มเครดิตหรือกำหนดค่าการเรียกเก็บเงินสำหรับ {companyId}"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#billing",
+    "githubPath": "app/billing.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/th.json#billing"
+  }
+}

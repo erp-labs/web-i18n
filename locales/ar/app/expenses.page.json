@@ -2,8 +2,8 @@
   "pageId": "app.expenses",
   "surface": "app",
   "route": "/{companyId}/{locale}/expenses",
-  "version": 3,
-  "sourceHash": "sha256:44f8f788a4c6dec9f70b07444cd320e849271f1639a97454335ba20e6729b6cb",
+  "version": 5,
+  "sourceHash": "sha256:8b78a18c2acc0201dec640b88e50f0bffe75b5963711ae59e4e1ab07e61424e5",
   "keys": {
     "title": "المصروفات",
     "addExpense": "إضافة مصروف",
@@ -20,7 +20,7 @@
     "selectSubCategory": "اختر فئة فرعية",
     "totalAmountLabel": "المبلغ الإجمالي (SGD)",
     "confirmAndContinue": "تأكيد ومتابعة",
-    "submitFailed": "تعذّر إرسال المصروف. يرجى المحاولة مرة أخرى.",
+    "submitFailed": "لا يمكن إرسال النفقات. يرجى المحاولة مرة أخرى.",
     "categoryTransport": "النقل",
     "categoryTravel": "السفر",
     "categoryBusinessExpense": "مصروفات العمل",
@@ -68,7 +68,11 @@
     "created": "تاريخ الطلب: ",
     "overviewTotal": "الإجمالي",
     "overviewPaid": "مدفوع",
-    "overviewPending": "معلق"
+    "overviewPending": "معلق",
+    "noExpensesThisMonth": "لا يوجد مصاريف هذا الشهر.",
+    "editExpense": "تحرير النفقات",
+    "editExpenseDescription": "تحديث تفاصيل مسودة النفقات",
+    "saveChanges": "حفظ التغييرات"
   },
   "meta": {
     "productRepo": "core-platform",

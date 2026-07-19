@@ -7,7 +7,21 @@ import { join } from 'node:path'
 import { PATHS, REPO_ROOT } from './lib/constants.mjs'
 import { hashJson } from './lib/hash.mjs'
 
-const EXISTING_APP_LOCALES = ['ko', 'ja', 'ar', 'vi', 'zh']
+const EXISTING_APP_LOCALES = [
+  'ko',
+  'ja',
+  'ar',
+  'vi',
+  'zh',
+  'th',
+  'id',
+  'ms',
+  'si',
+  'ur',
+  'hi',
+  'ru',
+  'my',
+]
 
 function ensureDir(p) {
   mkdirSync(p, { recursive: true })

@@ -1,0 +1,19 @@
+{
+  "pageId": "app.billing",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/billing",
+  "version": 2,
+  "sourceHash": "sha256:aa97d4e6eb20468bffc0e19905ca10f66abb7a98bbf19c25a4db5269f93767ee",
+  "keys": {
+    "title": "ණය සහ බිල්පත්",
+    "description": "My AI දිගටම භාවිත කිරීමට ඔබේ AI ණය ඉහළට ගන්න. ඔබගේ සැලැස්ම සහ බිල්පත් පහතින් කළමනාකරණය කරන්න.",
+    "goToBilling": "බිල්පත් වෙත යන්න",
+    "contactAdmin": "{companyId} සඳහා ණය එකතු කිරීමට හෝ බිල්පත් සැකසීමට ඔබේ පරිපාලක අමතන්න."
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#billing",
+    "githubPath": "app/billing.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/si.json#billing"
+  }
+}

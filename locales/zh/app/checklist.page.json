@@ -2,8 +2,8 @@
   "pageId": "app.checklist",
   "surface": "app",
   "route": "/{companyId}/{locale}/checklist",
-  "version": 3,
-  "sourceHash": "sha256:b8d6ab3c8eed7f9d6863dbd604ac78a99c1c3f488e67ef626dcc4fee5517f7f7",
+  "version": 5,
+  "sourceHash": "sha256:46611de70b6a7a7aaa3bbcb67ce18bbc9b34c9ebf9fbd105a60e6d1f699c74e1",
   "keys": {
     "title": "待办清单",
     "addTitle": "添加清单",
@@ -40,11 +40,12 @@
     "daysLeft": "天剩余",
     "toDo": "待办",
     "done": "完成",
-    "overviewProgress": "进度",
+    "overviewProgress": "进步",
     "countSuffix": "",
     "noTasksYet": "暂无任务",
     "startByAddingTask": "添加第一个任务开始",
-    "loadingMore": "加载更多"
+    "loadingMore": "加载更多",
+    "noTasksThisDay": "这一天没有任务。"
   },
   "meta": {
     "productRepo": "core-platform",

@@ -2,20 +2,28 @@
   "pageId": "app.stubs",
   "surface": "app",
   "route": "/{companyId}/{locale}/stubs",
-  "version": 1,
-  "sourceHash": "sha256:606608663abcc10f96eca3aae340f50f62bac6d77c429746d2dd5f4713831cd3",
+  "version": 3,
+  "sourceHash": "sha256:ebc3344b5dd18d78128ed55bac83d115a0364913facdd9be011d7854cc8ce2b4",
   "keys": {
     "payment": {
-      "title": "Payment",
-      "description": "Collect and reconcile payments. Connect Stripe in Integrations when payment processing is enabled for your organization."
+      "title": "지불",
+      "description": "지불금을 수집하고 조정합니다. 귀하의 조직에 결제 처리가 활성화되면 통합에서 Stripe를 연결하세요."
+    },
+    "payroll": {
+      "title": "급여",
+      "description": "급여 명세서 및 세금 세부정보를 확인하세요. 데이터는 조직의 ERP 급여 모듈에서 가져옵니다."
     },
     "reservation": {
-      "title": "Reservation",
-      "description": "Book rooms, appointments, and resources. Reservation integrations will appear here as they roll out."
+      "title": "예약",
+      "description": "회의실, 약속, 리소스를 예약하세요. 예약 통합이 출시되면 여기에 표시됩니다."
     },
     "accounting": {
-      "title": "Accounting",
-      "description": "General ledger and accounting workflows. Frappe ERP is the default backend; connect Xero or Odoo in Integrations to use an external provider."
+      "title": "회계",
+      "description": "총계정원장 및 회계 워크플로. Frappe ERP은 기본 백엔드입니다. 외부 공급자를 사용하려면 통합에서 Xero 또는 Odoo를 연결하세요."
+    },
+    "financial_reports": {
+      "title": "재무 보고서",
+      "description": "회사 손익, 대차대조표, 시산표. 계정에 대한 회사 재무 액세스가 필요합니다."
     }
   },
   "meta": {

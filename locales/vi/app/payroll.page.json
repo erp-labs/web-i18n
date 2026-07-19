@@ -1,0 +1,39 @@
+{
+  "pageId": "app.payroll",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/payroll",
+  "version": 2,
+  "sourceHash": "sha256:4dfc871169d9e8536887fce8f0108896e74d838b9798d5a71e952011e218a2dc",
+  "keys": {
+    "title": "Bảng lương",
+    "noSlipsYet": "Chưa có phiếu lương",
+    "noSlipsDescription": "Phiếu lương từ tổ chức của bạn ERP sẽ xuất hiện ở đây.",
+    "taxYear": "Năm tính thuế",
+    "gross": "Tổng",
+    "deductions": "Các khoản khấu trừ",
+    "net": "Mạng lưới",
+    "slipsCount": "Phiếu lương",
+    "taxDetails": "Chi tiết thuế",
+    "taxSummaryTitle": "Tóm tắt thuế",
+    "taxSummaryEmpty": "Không có bản tóm tắt thuế cho năm nay.",
+    "taxDetailsHint": "Được tổng hợp từ ERP thành phần khấu trừ phiếu lương (không phải là công cụ tính thuế riêng).",
+    "taxDetailsEmpty": "Không tìm thấy thành phần khấu trừ thuế nào trên phiếu lương cho năm nay.",
+    "viewTaxSummary": "Xem chi tiết thuế",
+    "backToList": "Quay lại bảng lương",
+    "slipDetail": "Phiếu lương",
+    "slipNotFound": "Không tìm thấy phiếu lương.",
+    "downloadPdf": "Tải xuống PDF",
+    "pdfDownloaded": "PDF đã tải xuống",
+    "pdfDownloadError": "Không thể tải xuống PDF",
+    "period": "Giai đoạn",
+    "employee": "Người lao động",
+    "status": "Trạng thái",
+    "earnings": "Thu nhập"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#payroll",
+    "githubPath": "app/payroll.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/vi.json#payroll"
+  }
+}

@@ -1,79 +1,83 @@
 {
   "pageId": "app.moduleGuide",
   "surface": "app",
-  "route": "/{companyId}/{locale}/moduleGuide",
-  "version": 1,
-  "sourceHash": "sha256:6a17eb3392f9231509390565517d774d2c9f981b45c9c523e1659755c053bd6e",
+  "route": "/{companyId}/{locale}/module-guide",
+  "version": 3,
+  "sourceHash": "sha256:b8680d9713926ca546b9d5efa16149212053849046b197f6814a82bb465613d2",
   "keys": {
     "common": {
-      "showGuide": "How it works",
-      "dontShowAgain": "Don't show again",
-      "gotIt": "Got it",
-      "next": "Next",
-      "back": "Back",
-      "stepOf": "Step {current} of {total}"
+      "showGuide": "Как это работает",
+      "dontShowAgain": "Больше не показывать",
+      "gotIt": "Понятно",
+      "next": "Следующий",
+      "back": "Назад",
+      "stepOf": "Шаг {current} из {total}"
     },
     "attendance": {
-      "whatTitle": "Track your work hours",
-      "whatBody": "Check in when you start work and check out when you finish. Your attendance history appears here automatically.",
-      "howTitle": "How check-in works",
-      "howStep1": "Tap Check In when you arrive at work (office or home).",
-      "howStep2": "Tap Check Out when your shift ends.",
-      "howStep3": "Review daily hours and totals in this list.",
-      "startTitle": "Ready to check in?",
-      "startBody": "Use the check-in button at the top of the home screen.",
-      "startCta": "Start check-in"
+      "whatTitle": "Отслеживайте свое рабочее время",
+      "whatBody": "Зарегистрируйтесь, когда начнете работу, и выйдите, когда закончите. Ваша история посещений появляется здесь автоматически.",
+      "howTitle": "Как работает регистрация",
+      "howStep1": "Нажмите «Отметиться», когда придете на работу (в офис или домой).",
+      "howStep2": "Нажмите «Выписаться», когда ваша смена закончится.",
+      "howStep3": "Просмотрите ежедневные часы и итоги в этом списке.",
+      "startTitle": "Готовы зарегистрироваться?",
+      "startBody": "Используйте кнопку регистрации в верхней части главного экрана.",
+      "startCta": "Начать регистрацию"
     },
     "expenses": {
-      "whatTitle": "Submit expense claims",
-      "whatBody": "Capture receipts and submit expenses for reimbursement. Approved claims are tracked here.",
-      "howTitle": "How to add an expense",
-      "howStep1": "Tap + and photograph or upload your receipt.",
-      "howStep2": "Choose a category and enter the amount.",
-      "howStep3": "Submit for approval — status updates appear in this list.",
-      "startTitle": "Add your first expense",
-      "startBody": "Keep a photo of your receipt handy.",
-      "startCta": "Add expense"
+      "whatTitle": "Подавать претензии по расходам",
+      "whatBody": "Фиксируйте квитанции и отправляйте расходы на возмещение. Одобренные претензии отслеживаются здесь.",
+      "howTitle": "Как добавить расход",
+      "howStep1": "Нажмите + и сфотографируйте или загрузите чек.",
+      "howStep2": "Выберите категорию и введите сумму.",
+      "howStep3": "Отправить на утверждение — в этом списке появятся обновления статуса.",
+      "startTitle": "Добавьте свой первый расход",
+      "startBody": "Держите под рукой фотографию квитанции.",
+      "startCta": "Добавить расходы"
     },
     "checklist": {
-      "whatTitle": "Manage your tasks",
-      "whatBody": "Keep work, home, and personal tasks in one checklist with due dates and progress.",
-      "howTitle": "How to use the checklist",
-      "howStep1": "Tap + to create a task with a name and due date.",
-      "howStep2": "Mark tasks done as you complete them.",
+      "whatTitle": "Управляйте своими задачами",
+      "whatBody": "Храните рабочие, домашние и личные задачи в одном контрольном списке с указанием сроков выполнения и прогресса.",
+      "howTitle": "Как использовать контрольный список",
+      "howStep1": "Нажмите +, чтобы создать задачу с именем и сроком выполнения.",
+      "howStep2": "Отмечайте задачи как выполненные по мере их выполнения.",
       "howStep3": "Track overall progress on the overview bar.",
-      "startTitle": "Create your first task",
-      "startBody": "Start with one small task due today.",
-      "startCta": "Add task"
+      "startTitle": "Создайте свою первую задачу",
+      "startBody": "Начните с одной небольшой задачи, которую необходимо выполнить сегодня.",
+      "startCta": "Добавить задачу"
     },
     "invoices": {
-      "whatTitle": "Create and send invoices",
-      "whatBody": "Build professional invoices, preview them, and track payment status.",
-      "howTitle": "How to create an invoice",
-      "howStep1": "Tap + and enter client details and line items.",
-      "howStep2": "Preview the invoice before sending.",
-      "howStep3": "Send to your client and monitor open vs paid here.",
-      "startTitle": "Create your first invoice",
-      "startBody": "You can save a draft and finish later.",
-      "startCta": "Create invoice"
+      "whatTitle": "Создание и отправка счетов",
+      "whatBody": "Создавайте профессиональные счета, просматривайте их и отслеживайте статус оплаты.",
+      "howTitle": "Как создать счет-фактуру",
+      "howStep1": "Нажмите + и введите данные клиента и позиции.",
+      "howStep2": "Предварительный просмотр счета перед отправкой.",
+      "howStep3": "Отправьте своему клиенту и отслеживайте открытые и оплаченные здесь.",
+      "startTitle": "Создайте свой первый счет",
+      "startBody": "Вы можете сохранить черновик и закончить позже.",
+      "startCta": "Создать счет"
     },
     "customers": {
-      "whatTitle": "Your customer list",
-      "whatBody": "Browse ERP customers synced from your company workspace.",
+      "whatTitle": "Ваш список клиентов",
+      "whatBody": "Просмотрите ERP клиентов, синхронизированных с рабочей областью вашей компании.",
       "howTitle": "Need pipeline or deals?",
       "howStep1": "Use Open in CRM for Frappe CRM on your tenant host.",
-      "howStep2": "Use Work Desk for full ERP customer records and accounting links."
+      "howStep2": "Use Work Desk for full ERP customer records and accounting links.",
+      "howStep3": "Откройте клиента, чтобы просмотреть подробную информацию или создать счет.",
+      "startTitle": "Добавьте своего первого клиента",
+      "startBody": "Начните с одного аккаунта — позже вы сможете связать счета.",
+      "startCta": "Добавить клиента"
     },
     "leaves": {
-      "whatTitle": "Request time off",
-      "whatBody": "Apply for annual, sick, and other leave types. Your balance and history stay in one place.",
-      "howTitle": "How to request leave",
+      "whatTitle": "Запросить выходной",
+      "whatBody": "Подайте заявление на ежегодный отпуск, отпуск по болезни и другие виды отпуска. Ваш баланс и история остаются в одном месте.",
+      "howTitle": "Как подать заявление на отпуск",
       "howStep1": "Check your remaining leave balance at the top.",
       "howStep2": "Select dates on the calendar and choose a leave type.",
-      "howStep3": "Submit your request — approved leave appears in history.",
-      "startTitle": "Submit a leave request",
+      "howStep3": "Отправьте заявку — одобренный отпуск появится в истории.",
+      "startTitle": "Отправить заявление на отпуск",
       "startBody": "Tap Leave application or the + button to pick dates and leave type.",
-      "startCta": "Leave application"
+      "startCta": "Оставить заявку"
     },
     "notices": {
       "whatTitle": "Your work notifications",
@@ -81,13 +85,23 @@
       "howTitle": "How notices work",
       "howStep1": "Tap the bell icon on a notice to mark it as read.",
       "howStep2": "Use View details to open the related module when a link is available."
+    },
+    "mailing": {
+      "whatTitle": "Кампании по электронной почте",
+      "whatBody": "Создавайте и отправляйте рассылки по электронной почте своей аудитории из рабочего пространства ERP.",
+      "howTitle": "Как создать кампанию",
+      "howStep1": "Нажмите +, чтобы начать новую кампанию с именем и темой.",
+      "howStep2": "Сохраните как черновик, затем запланируйте или отправьте, когда будете готовы.",
+      "howStep3": "Отслеживайте открытия, клики и статус доставки в списке кампаний.",
+      "startTitle": "Создайте свою первую кампанию",
+      "startBody": "Начните с черновика — вы можете уточнить контент перед отправкой.",
+      "startCta": "Новая кампания"
     }
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#moduleGuide",
     "githubPath": "app/moduleGuide.page.json",
-    "translationStatus": "ai_draft",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/ru.json#moduleGuide"
   }
 }

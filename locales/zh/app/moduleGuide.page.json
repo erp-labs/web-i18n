@@ -1,9 +1,9 @@
 {
   "pageId": "app.moduleGuide",
   "surface": "app",
-  "route": "/{companyId}/{locale}/moduleGuide",
-  "version": 3,
-  "sourceHash": "sha256:2d2ae540edb3d9abcf3c2c67f99a19dc786c38d2080429b6c9bde672f2a6b4b6",
+  "route": "/{companyId}/{locale}/module-guide",
+  "version": 5,
+  "sourceHash": "sha256:b8680d9713926ca546b9d5efa16149212053849046b197f6814a82bb465613d2",
   "keys": {
     "common": {
       "showGuide": "使用说明",
@@ -58,11 +58,15 @@
       "startCta": "创建发票"
     },
     "customers": {
-      "whatTitle": "您的客户列表",
-      "whatBody": "浏览从公司工作区同步的 ERP 客户。",
-      "howTitle": "需要销售管道或商机？",
-      "howStep1": "使用在租户主机上的 Frappe CRM 中的「在 CRM 中打开」。",
-      "howStep2": "使用 Work Desk 查看完整 ERP 客户记录和会计关联。"
+      "whatTitle": "您的客户名单",
+      "whatBody": "浏览从公司工作区同步的 0 客户。",
+      "howTitle": "Need pipeline or deals?",
+      "howStep1": "Use Open in CRM for Frappe CRM on your tenant host.",
+      "howStep2": "Use Work Desk for full ERP customer records and accounting links.",
+      "howStep3": "打开客户以查看详细信息或创建发票。",
+      "startTitle": "添加您的第一个客户",
+      "startBody": "从一个帐户开始 - 您可以稍后链接发票。",
+      "startCta": "添加客户"
     },
     "leaves": {
       "whatTitle": "申请休假",
@@ -81,6 +85,17 @@
       "howTitle": "通知说明",
       "howStep1": "点击通知上的铃铛图标将其标记为已读。",
       "howStep2": "如有链接，可使用「查看详情」打开相关模块。"
+    },
+    "mailing": {
+      "whatTitle": "电子邮件活动",
+      "whatBody": "从您的 0 工作区创建电子邮件营销活动并将其发送给您的受众。",
+      "howTitle": "如何创建营销活动",
+      "howStep1": "点击 + 以开始具有名称和主题的新活动。",
+      "howStep2": "保存为草稿，然后安排或在准备好后发送。",
+      "howStep3": "跟踪营销活动列表上的打开、点击和交付状态。",
+      "startTitle": "创建您的第一个广告系列",
+      "startBody": "从草稿开始 - 您可以在发送之前完善内容。",
+      "startCta": "新活动"
     }
   },
   "meta": {

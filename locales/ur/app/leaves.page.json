@@ -2,8 +2,8 @@
   "pageId": "app.leaves",
   "surface": "app",
   "route": "/{companyId}/{locale}/leaves",
-  "version": 1,
-  "sourceHash": "sha256:b01a78899787ae34a261972746e336a4fa561b7f8940b635bb3c08da71f5ce50",
+  "version": 3,
+  "sourceHash": "sha256:19b0a51088a7256c30ddd26790fb9450c292724758f1c90a72a6c47f66da26a3",
   "keys": {
     "title": "پتے",
     "leaveType": "چھوڑنے کی قسم",
@@ -16,6 +16,7 @@
     "submitRequest": "درخواست جمع کروائیں۔",
     "requestSubmitted": "چھوڑنے کی درخواست جمع کرائی گئی۔",
     "requestSubmitFailed": "آپ کی درخواست جمع نہیں ہو سکی۔ براہ کرم دوبارہ کوشش کریں۔",
+    "pendingApprovalsHint": "زیر التواء چھٹی کی منظوری ذیل میں آپ کی چھٹی کی تاریخ میں دکھائی گئی ہے۔",
     "sickLeave": "بیماری کی چھٹی",
     "hospitalisationLeave": "ہسپتال میں داخل ہونے کی چھٹی",
     "maternityLeave": "زچگی کی چھٹی",
@@ -42,13 +43,14 @@
     "requestLeaveCta": "درخواست چھوڑ دیں۔",
     "addLeave": "چھٹی شامل کریں۔",
     "selectDatesOnCalendar": "اوپر کیلنڈر پر اپنی چھٹی کی تاریخیں منتخب کریں۔",
+    "selectLeaveDates": "چھٹی کی تاریخیں منتخب کریں۔",
+    "confirmDates": "ہو گیا",
     "noLeaveAllocation": "ابھی تک چھٹی کا کوئی بیلنس تفویض نہیں کیا گیا ہے۔ اپنے HR منتظم سے رابطہ کریں۔"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#leaves",
     "githubPath": "app/leaves.page.json",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/ur.json#leaves"
   }
 }

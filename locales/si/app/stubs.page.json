@@ -1,0 +1,35 @@
+{
+  "pageId": "app.stubs",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/stubs",
+  "version": 2,
+  "sourceHash": "sha256:ebc3344b5dd18d78128ed55bac83d115a0364913facdd9be011d7854cc8ce2b4",
+  "keys": {
+    "payment": {
+      "title": "ගෙවීම",
+      "description": "ගෙවීම් එකතු කර සමථයකට පත් කරන්න. ඔබේ සංවිධානය සඳහා ගෙවීම් සැකසීම සක්‍රීය කර ඇති විට  0  ඒකාබද්ධ කිරීම් සම්බන්ධ කරන්න."
+    },
+    "payroll": {
+      "title": "වැටුප් ලේඛනය",
+      "description": "වැටුප් පත්‍රිකා සහ බදු විස්තර බලන්න. දත්ත ඔබේ සංවිධානයේ ERP වැටුප් මොඩියුලයෙන් පැමිණේ."
+    },
+    "reservation": {
+      "title": "වෙන් කිරීම",
+      "description": "කාමර, හමුවීම් සහ සම්පත් වෙන්කරවා ගන්න. වෙන් කිරීම් ඒකාබද්ධ කිරීම් සිදු වන විට මෙහි දිස් වනු ඇත."
+    },
+    "accounting": {
+      "title": "ගිණුම්කරණය",
+      "description": "සාමාන්‍ය ලෙජරය සහ ගිණුම්කරණ කාර්ය ප්‍රවාහ. Frappe ERP යනු පෙරනිමි පසුබිම; බාහිර සැපයුම්කරුවෙකු භාවිතා කිරීම සඳහා ඒකාබද්ධ කිරීම් තුළ Xero හෝ Odoo සම්බන්ධ කරන්න."
+    },
+    "financial_reports": {
+      "title": "මූල්ය වාර්තා",
+      "description": "සමාගමේ P&L, ශේෂ පත්‍රය සහ අත්හදා බැලීමේ ශේෂය. ගිණුමේ සමාගම් මූල්‍ය ප්‍රවේශය අවශ්‍ය වේ."
+    }
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#stubs",
+    "githubPath": "app/stubs.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/si.json#stubs"
+  }
+}

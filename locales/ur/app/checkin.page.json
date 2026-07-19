@@ -1,9 +1,9 @@
 {
   "pageId": "app.checkin",
   "surface": "app",
-  "route": "/{companyId}/{locale}/checkin",
-  "version": 2,
-  "sourceHash": "sha256:b8bb3c18bd42b70bca261f65f4bb9c6682e6e728c7631b3d7e36056a40106391",
+  "route": "/{companyId}/{locale}/check-in",
+  "version": 3,
+  "sourceHash": "sha256:cd490b783bf77b197e8c56a66eb587c36ce8571e875a8164db3a00a85ebad500",
   "keys": {
     "title": "وقت کی نگرانی",
     "office": "دفتر",
@@ -29,13 +29,14 @@
     "approxHoursPrefix": "تقریبا",
     "noAttendanceYet": "ابھی تک کوئی حاضری کا ریکارڈ نہیں ہے۔",
     "startByCheckingIn": "یہاں اپنے کام کے اوقات کو ٹریک کرنا شروع کرنے کے لیے چیک ان کریں۔",
-    "startCheckInCta": "چیک ان شروع کریں۔"
+    "startCheckInCta": "چیک ان شروع کریں۔",
+    "checkOutFailed": "چیک آؤٹ کو محفوظ نہیں کیا جا سکا۔ آپ کی سابقہ ​​حاضری کو دوبارہ ترتیب دینے کی ضرورت پڑ سکتی ہے۔",
+    "staleOpenSessionWarning": "آپ کے پاس پچھلے دن سے کھلا چیک ان ہے۔ حاضری کے ریکارڈ درست ہونے تک چیک آؤٹ ناکام ہو سکتا ہے۔"
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#checkin",
     "githubPath": "app/checkin.page.json",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/ur.json#checkin"
   }
 }

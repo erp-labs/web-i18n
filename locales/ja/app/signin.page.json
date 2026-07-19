@@ -2,13 +2,13 @@
   "pageId": "app.signin",
   "surface": "app",
   "route": "/{companyId}/{locale}/signin",
-  "version": 3,
-  "sourceHash": "sha256:65d56c9404d351114558a462f9b62fbea68d77252f078b6e8fa3f30053b86c3d",
+  "version": 5,
+  "sourceHash": "sha256:525134027ea084b8fdb04f5bb1f8ed36b7e5018b1d7357847f80cbd08b4204b3",
   "keys": {
     "title": "ログイン",
     "languageLabel": "表示言語",
     "languageOptions": {
-      "en": "English",
+      "en": "英語",
       "ko": "한국어",
       "ja": "日本語",
       "ar": "العربية",
@@ -20,8 +20,8 @@
       "si": "シンハラ語",
       "ur": "ウルドゥー語",
       "hi": "ヒンディー語",
-      "ru": "Russian",
-      "my": "Myanmar"
+      "ru": "ロシア",
+      "my": "ミャンマー"
     },
     "emailLabel": "メールアドレス",
     "emailPlaceholder": "example@company.com",
@@ -33,12 +33,13 @@
     "noAccount": "アカウントをお持ちでない場合",
     "signUp": "新規登録",
     "errorSignInFailed": "ログインに失敗しました。",
-    "errorAccountNotFound": "このメールは Work App サインイン用にまだ登録されていません。管理者に招待の再送信または Work App アクセスの同期を依頼してください。",
-    "errorAccountSuspended": "このアカウントは停止されています。管理者にお問い合わせください。",
-    "staleSessionHint": "別のワークスペースの以前のサインインセッションがこのブラウザに残っています。",
-    "clearStaleSession": "保存されたセッションをクリア",
+    "errorAccountNotFound": "この電子メールはまだ Work App サインイン用に登録されていません。管理者に招待状を再送信するか、Work App アクセスを同期するよう依頼してください。",
+    "errorAccountSuspended": "このアカウントは停止されました。管理者に連絡してください。",
+    "staleSessionHint": "別のワークスペースに対する以前のサインイン セッションは、引き続きこのブラウザーに保存されます。",
+    "clearStaleSession": "保存されたセッションをクリアする",
     "clearingStaleSession": "クリア中…",
-    "errorGeneric": "エラーが発生しました。再度お試しください。"
+    "errorGeneric": "エラーが発生しました。再度お試しください。",
+    "workPasswordUpdated": "職場のパスワードが更新されました。新しいパスワードで再度サインインし、パスコードを入力します。"
   },
   "meta": {
     "productRepo": "core-platform",

@@ -2,28 +2,30 @@
   "pageId": "app.signin",
   "surface": "app",
   "route": "/{companyId}/{locale}/signin",
-  "version": 1,
-  "sourceHash": "sha256:b61dd77a92d1b93ec0a17e819f49b7fe6ee4a05d3e75cfd8500c3712433b4c84",
+  "version": 3,
+  "sourceHash": "sha256:525134027ea084b8fdb04f5bb1f8ed36b7e5018b1d7357847f80cbd08b4204b3",
   "keys": {
     "title": "Login",
-    "languageLabel": "Language",
+    "languageLabel": "Bahasa",
     "languageOptions": {
-      "en": "English",
-      "ko": "Korean",
-      "ja": "Japanese",
-      "ar": "Arabic",
-      "vi": "Vietnamese",
-      "zh": "Chinese",
+      "en": "Bahasa inggris",
+      "ko": "Korea",
+      "ja": "Jepang",
+      "ar": "Arab",
+      "vi": "Vietnam",
+      "zh": "Cina",
       "th": "Thai",
-      "id": "Indonesian",
-      "ms": "Malay",
+      "id": "Indonesia",
+      "ms": "Melayu",
       "si": "Sinhala",
-      "ur": "Urdu",
-      "hi": "Hindi"
+      "ur": "bahasa Urdu",
+      "hi": "Hindi",
+      "ru": "Rusia",
+      "my": "Myanmar"
     },
-    "emailLabel": "Email",
+    "emailLabel": "E-mail",
     "emailPlaceholder": "johndoe@gmail.com",
-    "passwordLabel": "Password",
+    "passwordLabel": "Kata sandi",
     "passwordPlaceholder": "Gunakan kata sandi yang aman",
     "forgotPassword": "Lupa kata sandi?",
     "submitButton": "Login",
@@ -36,13 +38,13 @@
     "staleSessionHint": "Sesi masuk sebelumnya untuk ruang kerja lain masih disimpan di browser ini.",
     "clearStaleSession": "Hapus sesi yang disimpan",
     "clearingStaleSession": "Membersihkan…",
-    "errorGeneric": "Terjadi kesalahan. Silakan coba lagi."
+    "errorGeneric": "Terjadi kesalahan. Silakan coba lagi.",
+    "workPasswordUpdated": "Kata sandi kerja diperbarui. Masuk lagi dengan kata sandi baru Anda, lalu masukkan kode sandi Anda."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#signin",
     "githubPath": "app/signin.page.json",
-    "translationStatus": "ai_draft",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/id.json#signin"
   }
 }

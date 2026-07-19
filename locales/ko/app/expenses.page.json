@@ -2,8 +2,8 @@
   "pageId": "app.expenses",
   "surface": "app",
   "route": "/{companyId}/{locale}/expenses",
-  "version": 3,
-  "sourceHash": "sha256:44f8f788a4c6dec9f70b07444cd320e849271f1639a97454335ba20e6729b6cb",
+  "version": 5,
+  "sourceHash": "sha256:8b78a18c2acc0201dec640b88e50f0bffe75b5963711ae59e4e1ab07e61424e5",
   "keys": {
     "title": "경비관리",
     "addExpense": "경비신청",
@@ -68,7 +68,11 @@
     "created": "신청일: ",
     "overviewTotal": "합계",
     "overviewPaid": "지급완료",
-    "overviewPending": "미결"
+    "overviewPending": "미결",
+    "noExpensesThisMonth": "이번 달에는 지출이 없습니다.",
+    "editExpense": "비용 편집",
+    "editExpenseDescription": "초안 비용 세부정보 업데이트",
+    "saveChanges": "변경사항 저장"
   },
   "meta": {
     "productRepo": "core-platform",

@@ -1,12 +1,14 @@
 {
   "pageId": "app.dashboard",
   "surface": "app",
-  "route": "/{companyId}/{locale}/dashboard",
-  "version": 1,
-  "sourceHash": "sha256:7e65ed02e2049b6d58e98a10d579857004b712c7e02a23eabd58e206643b9133",
+  "route": "/{companyId}/{locale}/",
+  "version": 3,
+  "sourceHash": "sha256:6bca2fd7db843a8d40a4aa9efc81d43a93d3882ba68ffff04f67687586b58cc1",
   "keys": {
     "viewDetails": "詳細を見る",
     "subtitle": "人事、顧客、会計、パフォーマンス、AI利用の概要。",
+    "emptyHint": "この期間の活動データはまだありません。 ERP シードを実行するか、オンボーディングを完了してダッシュボードに入力します。",
+    "overviewRefreshFailed": "Overview refresh failed. Showing module summaries where available.",
     "titles": {
       "company": "会社ダッシュボード",
       "team": "チームダッシュボード",
@@ -34,8 +36,14 @@
       "leaveNextMonth": "来月の休暇",
       "expenses": "今月の経費",
       "expensePaid": "支払済み",
+      "expensePending": "保留中",
       "expenseRejected": "却下",
       "customersTotal": "顧客総数",
+      "customersNewThisMonth": "今月の新作",
+      "customersWithContact": "連絡先情報付き",
+      "customersWithContactPercent": "共有",
+      "customersCompanyShare": "企業のお客様",
+      "customersCompanyPercent": "共有",
       "crmActiveDeals": "進行中の商談",
       "crmOpenLeads": "未対応リード",
       "emailsSent": "送信メール",
@@ -45,6 +53,7 @@
       "revenue": "売上",
       "revenueTrend": "前月比",
       "outstanding": "未収金",
+      "paidCount": "有料",
       "checklistSuccess": "チェックリスト成功率",
       "successMonth": "今月",
       "successDay": "本日",
@@ -61,7 +70,9 @@
       "revenue": "売上",
       "expenses": "経費",
       "outstanding": "未収金",
-      "newCustomers": "新規顧客"
+      "newCustomers": "新規顧客",
+      "customerGrowth": "顧客の成長",
+      "customerEmails": "電子メール活動"
     },
     "activity": {
       "title": "従業員アクティビティ",

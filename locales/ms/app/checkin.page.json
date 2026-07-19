@@ -1,20 +1,20 @@
 {
   "pageId": "app.checkin",
   "surface": "app",
-  "route": "/{companyId}/{locale}/checkin",
-  "version": 2,
-  "sourceHash": "sha256:b8bb3c18bd42b70bca261f65f4bb9c6682e6e728c7631b3d7e36056a40106391",
+  "route": "/{companyId}/{locale}/check-in",
+  "version": 3,
+  "sourceHash": "sha256:cd490b783bf77b197e8c56a66eb587c36ce8571e875a8164db3a00a85ebad500",
   "keys": {
     "title": "Penjejakan Masa",
-    "office": "Office",
-    "home": "Home",
+    "office": "Pejabat",
+    "home": "Rumah",
     "checkIn": "Daftar Masuk",
     "checkOut": "Daftar Keluar",
-    "totalHrs": "Total Hrs",
-    "attendance": "Attendance",
+    "totalHrs": "Jumlah Jam",
+    "attendance": "Kehadiran",
     "goodMorning": "Selamat Pagi!",
     "goodAfternoon": "Selamat hari raya!",
-    "loading": "Loading...",
+    "loading": "Memuatkan...",
     "gpsEnabled": "Penjejakan GPS didayakan",
     "ipVerification": "Pengesahan berasaskan IP",
     "reminderCheckOut": "Kerja hebat hari ini! Jangan lupa check out.",
@@ -22,20 +22,21 @@
     "loadingMore": "Memuatkan lagi",
     "noMoreRecords": "Tiada lagi rekod untuk dimuatkan",
     "timePlaceholder": "--:--",
-    "todayCheckin": "Today's check-in",
+    "todayCheckin": "Daftar masuk hari ini",
     "hoursUnit": "h",
     "minutesUnit": "m",
     "hoursDecimalUnit": "jam",
-    "approxHoursPrefix": "approx. ",
+    "approxHoursPrefix": "lebih kurang",
     "noAttendanceYet": "Tiada rekod kehadiran lagi",
     "startByCheckingIn": "Daftar masuk untuk mula menjejaki waktu kerja anda di sini",
-    "startCheckInCta": "Mulakan daftar masuk"
+    "startCheckInCta": "Mulakan daftar masuk",
+    "checkOutFailed": "Daftar keluar tidak dapat disimpan. Kehadiran awal anda mungkin perlu ditetapkan semula.",
+    "staleOpenSessionWarning": "Anda mempunyai daftar masuk terbuka dari hari sebelumnya. Daftar keluar mungkin gagal sehingga rekod kehadiran diperbetulkan."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#checkin",
     "githubPath": "app/checkin.page.json",
-    "translationStatus": "ai_draft",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/ms.json#checkin"
   }
 }

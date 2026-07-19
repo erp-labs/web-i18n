@@ -1,20 +1,20 @@
 {
   "pageId": "app.checkin",
   "surface": "app",
-  "route": "/{companyId}/{locale}/checkin",
-  "version": 2,
-  "sourceHash": "sha256:b8bb3c18bd42b70bca261f65f4bb9c6682e6e728c7631b3d7e36056a40106391",
+  "route": "/{companyId}/{locale}/check-in",
+  "version": 3,
+  "sourceHash": "sha256:cd490b783bf77b197e8c56a66eb587c36ce8571e875a8164db3a00a85ebad500",
   "keys": {
     "title": "Pelacakan Waktu",
-    "office": "Office",
-    "home": "Home",
+    "office": "Kantor",
+    "home": "Rumah",
     "checkIn": "Lapor Masuk",
     "checkOut": "Memeriksa",
     "totalHrs": "Jumlah Jam",
-    "attendance": "Attendance",
+    "attendance": "Kehadiran",
     "goodMorning": "Selamat pagi!",
     "goodAfternoon": "Semoga harimu menyenangkan!",
-    "loading": "Loading...",
+    "loading": "Memuat...",
     "gpsEnabled": "Pelacakan GPS diaktifkan",
     "ipVerification": "Verifikasi berbasis IP",
     "reminderCheckOut": "Kerja bagus hari ini! Jangan lupa untuk memeriksa.",
@@ -26,16 +26,17 @@
     "hoursUnit": "h",
     "minutesUnit": "m",
     "hoursDecimalUnit": "jam",
-    "approxHoursPrefix": "approx. ",
+    "approxHoursPrefix": "kira-kira.",
     "noAttendanceYet": "Belum ada catatan kehadiran",
     "startByCheckingIn": "Check in untuk mulai melacak jam kerja Anda di sini",
-    "startCheckInCta": "Mulai check-in"
+    "startCheckInCta": "Mulai check-in",
+    "checkOutFailed": "Check-out tidak dapat disimpan. Kehadiran Anda sebelumnya mungkin perlu diatur ulang.",
+    "staleOpenSessionWarning": "Anda memiliki check-in terbuka dari hari sebelumnya. Check-out mungkin gagal sampai catatan kehadiran diperbaiki."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#checkin",
     "githubPath": "app/checkin.page.json",
-    "translationStatus": "ai_draft",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/id.json#checkin"
   }
 }

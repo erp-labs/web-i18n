@@ -2,31 +2,30 @@
   "pageId": "app.signup",
   "surface": "app",
   "route": "/{companyId}/{locale}/signup",
-  "version": 1,
+  "version": 3,
   "sourceHash": "sha256:ddb5417f701bc66105f54e1db3bac33ffdab5057c480dd09cf5f531e7b0ea8d2",
   "keys": {
     "brandName": "Pregoi",
-    "title": "Sign up",
-    "firstNameLabel": "First Name",
-    "firstNamePlaceholder": "Enter your first name",
-    "emailLabel": "Email",
+    "title": "ဆိုင်းအပ်",
+    "firstNameLabel": "နာမည်",
+    "firstNamePlaceholder": "သင်၏ပထမအမည်ကိုထည့်ပါ။",
+    "emailLabel": "အီးမေးလ်",
     "emailPlaceholder": "johndoe@gmail.com",
-    "passwordLabel": "Password",
-    "passwordPlaceholder": "Use a secure password",
-    "confirmPasswordLabel": "Confirm password",
-    "confirmPasswordPlaceholder": "Re-enter your password",
-    "submitButton": "Create Account",
-    "alreadyHaveAccount": "Already have an account?",
-    "logIn": "Log in",
-    "errorPasswordsDoNotMatch": "Passwords do not match",
-    "errorGeneric": "Something went wrong. Please try again.",
-    "signingUp": "Creating account…"
+    "passwordLabel": "စကားဝှက်",
+    "passwordPlaceholder": "လုံခြုံသော စကားဝှက်ကို အသုံးပြုပါ။",
+    "confirmPasswordLabel": "စကားဝှက်အတည်ပြုခြင်း",
+    "confirmPasswordPlaceholder": "သင့်စကားဝှက်ကို ပြန်ထည့်ပါ။",
+    "submitButton": "အကောင့်ပြုလုပ်ပါ",
+    "alreadyHaveAccount": "အကောင့်ရှိပြီးသားလား။",
+    "logIn": "လော့ဂ်အင်",
+    "errorPasswordsDoNotMatch": "စကားဝှက်များ မတိုက်ဆိုင်ပါ။",
+    "errorGeneric": "တစ်ခုခုမှားသွားသည်။ ထပ်စမ်းကြည့်ပါ။",
+    "signingUp": "အကောင့်ဖန်တီးနေသည်..."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#signup",
     "githubPath": "app/signup.page.json",
-    "translationStatus": "ai_draft",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/my.json#signup"
   }
 }

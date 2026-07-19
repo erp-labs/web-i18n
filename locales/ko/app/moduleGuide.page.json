@@ -1,9 +1,9 @@
 {
   "pageId": "app.moduleGuide",
   "surface": "app",
-  "route": "/{companyId}/{locale}/moduleGuide",
-  "version": 3,
-  "sourceHash": "sha256:2d2ae540edb3d9abcf3c2c67f99a19dc786c38d2080429b6c9bde672f2a6b4b6",
+  "route": "/{companyId}/{locale}/module-guide",
+  "version": 5,
+  "sourceHash": "sha256:b8680d9713926ca546b9d5efa16149212053849046b197f6814a82bb465613d2",
   "keys": {
     "common": {
       "showGuide": "사용 방법",
@@ -58,11 +58,15 @@
       "startCta": "인보이스 작성"
     },
     "customers": {
-      "whatTitle": "고객 목록",
-      "whatBody": "회사 워크스페이스에서 동기화된 ERP 고객을 둘러보세요.",
-      "howTitle": "파이프라인이나 딜이 필요하신가요?",
-      "howStep1": "테넌트 호스트의 Frappe CRM은 CRM에서 열기를 사용하세요.",
-      "howStep2": "전체 ERP 고객 기록과 회계 연결은 Work Desk를 사용하세요."
+      "whatTitle": "귀하의 고객 목록",
+      "whatBody": "회사 작업 공간에서 동기화된 ERP 고객을 찾아보세요.",
+      "howTitle": "Need pipeline or deals?",
+      "howStep1": "Use Open in CRM for Frappe CRM on your tenant host.",
+      "howStep2": "Use Work Desk for full ERP customer records and accounting links.",
+      "howStep3": "고객을 열어 세부 정보를 보거나 송장을 생성하세요.",
+      "startTitle": "첫 번째 고객 추가",
+      "startBody": "하나의 계정으로 시작하세요. 나중에 송장을 연결할 수 있습니다.",
+      "startCta": "고객 추가"
     },
     "leaves": {
       "whatTitle": "휴가를 신청하세요",
@@ -81,6 +85,17 @@
       "howTitle": "알림 사용 방법",
       "howStep1": "벨 아이콘을 눌러 알림을 읽음 처리할 수 있습니다.",
       "howStep2": "관련 모듈이 있으면 '자세히 보기'로 해당 화면으로 이동하세요."
+    },
+    "mailing": {
+      "whatTitle": "이메일 캠페인",
+      "whatBody": "ERP 작업 공간에서 이메일 캠페인을 만들고 청중에게 보내세요.",
+      "howTitle": "캠페인을 만드는 방법",
+      "howStep1": "+를 탭하면 이름과 제목이 포함된 새 캠페인이 시작됩니다.",
+      "howStep2": "초안으로 저장한 다음 준비되면 예약하거나 보내세요.",
+      "howStep3": "캠페인 목록에서 열기, 클릭, 배송 상태를 추적하세요.",
+      "startTitle": "첫 번째 캠페인 만들기",
+      "startBody": "초안으로 시작하세요. 보내기 전에 콘텐츠를 다듬을 수 있습니다.",
+      "startCta": "새 캠페인"
     }
   },
   "meta": {

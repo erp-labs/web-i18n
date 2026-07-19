@@ -1,12 +1,14 @@
 {
   "pageId": "app.dashboard",
   "surface": "app",
-  "route": "/{companyId}/{locale}/dashboard",
-  "version": 1,
-  "sourceHash": "sha256:7e65ed02e2049b6d58e98a10d579857004b712c7e02a23eabd58e206643b9133",
+  "route": "/{companyId}/{locale}/",
+  "version": 3,
+  "sourceHash": "sha256:6bca2fd7db843a8d40a4aa9efc81d43a93d3882ba68ffff04f67687586b58cc1",
   "keys": {
     "viewDetails": "자세히 보기",
     "subtitle": "인사, 고객, 회계, 성과, AI 사용 현황 개요",
+    "emptyHint": "이 기간에 활동 데이터가 없습니다. ERP 시드 실행 또는 온보딩을 완료하면 대시보드가 채워집니다.",
+    "overviewRefreshFailed": "개요를 불러오지 못했습니다. 가능한 모듈 요약만 표시합니다.",
     "titles": {
       "company": "회사 대시보드",
       "team": "팀 대시보드",
@@ -34,8 +36,14 @@
       "leaveNextMonth": "다음 달 휴가",
       "expenses": "이번 달 경비",
       "expensePaid": "지급 완료",
+      "expensePending": "보류 중",
       "expenseRejected": "반려",
       "customersTotal": "총 고객 수",
+      "customersNewThisMonth": "이번 달 새로운",
+      "customersWithContact": "연락처 정보 포함",
+      "customersWithContactPercent": "공유하다",
+      "customersCompanyShare": "회사 고객",
+      "customersCompanyPercent": "공유하다",
       "crmActiveDeals": "진행 중 거래",
       "crmOpenLeads": "미처리 리드",
       "emailsSent": "발송 이메일",
@@ -45,6 +53,7 @@
       "revenue": "매출",
       "revenueTrend": "전월 대비",
       "outstanding": "미수금",
+      "paidCount": "유급의",
       "checklistSuccess": "체크리스트 성공률",
       "successMonth": "이번 달",
       "successDay": "오늘",
@@ -61,7 +70,9 @@
       "revenue": "매출",
       "expenses": "경비",
       "outstanding": "미수금",
-      "newCustomers": "신규 고객"
+      "newCustomers": "신규 고객",
+      "customerGrowth": "고객 성장",
+      "customerEmails": "이메일 활동"
     },
     "activity": {
       "title": "직원 활동",

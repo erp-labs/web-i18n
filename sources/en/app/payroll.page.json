@@ -1,0 +1,38 @@
+{
+  "pageId": "app.payroll",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/payroll",
+  "version": 1,
+  "sourceHash": "sha256:4dfc871169d9e8536887fce8f0108896e74d838b9798d5a71e952011e218a2dc",
+  "keys": {
+    "title": "Payroll",
+    "noSlipsYet": "No salary slips yet",
+    "noSlipsDescription": "Salary slips from your organization ERP will appear here.",
+    "taxYear": "Tax year",
+    "gross": "Gross",
+    "deductions": "Deductions",
+    "net": "Net",
+    "slipsCount": "Salary slips",
+    "taxDetails": "Tax details",
+    "taxSummaryTitle": "Tax summary",
+    "taxSummaryEmpty": "No tax summary for this year.",
+    "taxDetailsHint": "Aggregated from ERP salary slip deduction components (not a separate tax engine).",
+    "taxDetailsEmpty": "No tax-like deduction components found on salary slips for this year.",
+    "viewTaxSummary": "View tax details",
+    "backToList": "Back to payroll",
+    "slipDetail": "Salary slip",
+    "slipNotFound": "Salary slip not found.",
+    "downloadPdf": "Download PDF",
+    "pdfDownloaded": "PDF downloaded",
+    "pdfDownloadError": "Failed to download PDF",
+    "period": "Period",
+    "employee": "Employee",
+    "status": "Status",
+    "earnings": "Earnings"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#payroll",
+    "githubPath": "app/payroll.page.json"
+  }
+}

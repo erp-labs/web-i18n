@@ -1,0 +1,19 @@
+{
+  "pageId": "app.billing",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/billing",
+  "version": 2,
+  "sourceHash": "sha256:aa97d4e6eb20468bffc0e19905ca10f66abb7a98bbf19c25a4db5269f93767ee",
+  "keys": {
+    "title": "क्रेडिट और बिलिंग",
+    "description": "माई एआई का उपयोग जारी रखने के लिए अपने एआई क्रेडिट को टॉप अप करें। नीचे अपनी योजना और बिलिंग प्रबंधित करें।",
+    "goToBilling": "बिलिंग पर जाएँ",
+    "contactAdmin": "{companyId} के लिए क्रेडिट जोड़ने या बिलिंग कॉन्फ़िगर करने के लिए अपने व्यवस्थापक से संपर्क करें।"
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#billing",
+    "githubPath": "app/billing.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/hi.json#billing"
+  }
+}

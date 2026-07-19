@@ -2,7 +2,7 @@
   "pageId": "app.common",
   "surface": "app",
   "route": "/{companyId}/{locale}/common",
-  "version": 3,
+  "version": 5,
   "sourceHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
   "keys": {
     "appName": "Pregoi",
@@ -38,14 +38,14 @@
     "daySaturday": "السبت",
     "daysSelected": "تم اختيار {n} أيام",
     "cookieSettings": "إعدادات ملفات تعريف الارتباط",
-    "saving": "جارٍ الحفظ…",
+    "saving": "توفير…",
     "loadError": "تعذّر تحميل البيانات الآن. يُرجى المحاولة مرة أخرى.",
     "loadConnectionHint": "تعذّر تحميل العناصر. قد تكون هناك مشكلة في الاتصال أو الإعداد.",
     "retryLoad": "إعادة التحميل",
     "retry": "إعادة المحاولة",
-    "submitFailedTitle": "فشل الإرسال",
-    "erpExpenseClaimTypeAccount": "فئات المصروفات غير مُعدّة بالكامل. يرجى التواصل مع مسؤول النظام لديك.",
-    "erpLeaveTypeNotFound": "أنواع الإجازات غير مُعدّة بعد. يرجى التواصل مع مسؤول النظام لديك."
+    "submitFailedTitle": "فشل التقديم",
+    "erpExpenseClaimTypeAccount": "لم يتم إعداد فئات النفقات بشكل كامل. يرجى الاتصال بالمسؤول الخاص بك.",
+    "erpLeaveTypeNotFound": "لم يتم إعداد أنواع الإجازات بعد. يرجى الاتصال بالمسؤول الخاص بك."
   },
   "meta": {
     "productRepo": "core-platform",

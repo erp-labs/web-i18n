@@ -1,0 +1,35 @@
+{
+  "pageId": "app.stubs",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/stubs",
+  "version": 2,
+  "sourceHash": "sha256:ebc3344b5dd18d78128ed55bac83d115a0364913facdd9be011d7854cc8ce2b4",
+  "keys": {
+    "payment": {
+      "title": "การชำระเงิน",
+      "description": "รวบรวมและกระทบยอดการชำระเงิน เชื่อมต่อ Stripe ในบูรณาการเมื่อเปิดใช้งานการประมวลผลการชำระเงินสำหรับองค์กรของคุณ"
+    },
+    "payroll": {
+      "title": "เงินเดือน",
+      "description": "ดูสลิปเงินเดือนและรายละเอียดภาษี ข้อมูลมาจากโมดูล ERP บัญชีเงินเดือนขององค์กรของคุณ"
+    },
+    "reservation": {
+      "title": "การจอง",
+      "description": "จองห้องพัก การนัดหมาย และทรัพยากร การผสานรวมการจองจะปรากฏที่นี่เมื่อมีการเปิดตัว"
+    },
+    "accounting": {
+      "title": "การบัญชี",
+      "description": "บัญชีแยกประเภททั่วไปและเวิร์กโฟลว์การบัญชี Frappe ERP เป็นแบ็คเอนด์เริ่มต้น เชื่อมต่อ Xero หรือ Odoo ใน Integrations เพื่อใช้ผู้ให้บริการภายนอก"
+    },
+    "financial_reports": {
+      "title": "รายงานทางการเงิน",
+      "description": "P&L ของบริษัท งบดุล และงบทดลอง ต้องมีการเข้าถึงข้อมูลทางการเงินของบริษัทในบัญชี"
+    }
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#stubs",
+    "githubPath": "app/stubs.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/th.json#stubs"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "pageId": "app.stubs",
+  "surface": "app",
+  "route": "/{companyId}/{locale}/stubs",
+  "version": 2,
+  "sourceHash": "sha256:ebc3344b5dd18d78128ed55bac83d115a0364913facdd9be011d7854cc8ce2b4",
+  "keys": {
+    "payment": {
+      "title": "Оплата",
+      "description": "Собирать и сверять платежи. Подключите Stripe в разделе «Интеграции», если в вашей организации включена обработка платежей."
+    },
+    "payroll": {
+      "title": "Заработная плата",
+      "description": "Просмотр квитанций о заработной плате и налоговой информации. Данные поступают из модуля расчета заработной платы ERP вашей организации."
+    },
+    "reservation": {
+      "title": "Бронирование",
+      "description": "Бронируйте помещения, встречи и ресурсы. Интеграции бронирования будут появляться здесь по мере их внедрения."
+    },
+    "accounting": {
+      "title": "Бухгалтерский учет",
+      "description": "Главная книга и рабочие процессы бухгалтерского учета. Frappe ERP — серверная часть по умолчанию; подключите Xero или Odoo в разделе «Интеграции», чтобы использовать внешнего поставщика."
+    },
+    "financial_reports": {
+      "title": "Финансовые отчеты",
+      "description": "Прибыли и убытки компании, баланс и пробный баланс. Требуется доступ к финансовым данным компании на Аккаунте."
+    }
+  },
+  "meta": {
+    "productRepo": "core-platform",
+    "sourcePath": "apps/employee-web/dictionaries/en.json#stubs",
+    "githubPath": "app/stubs.page.json",
+    "importedFrom": "apps/employee-web/dictionaries/ru.json#stubs"
+  }
+}

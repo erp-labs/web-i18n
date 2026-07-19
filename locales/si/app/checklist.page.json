@@ -2,8 +2,8 @@
   "pageId": "app.checklist",
   "surface": "app",
   "route": "/{companyId}/{locale}/checklist",
-  "version": 1,
-  "sourceHash": "sha256:b8d6ab3c8eed7f9d6863dbd604ac78a99c1c3f488e67ef626dcc4fee5517f7f7",
+  "version": 3,
+  "sourceHash": "sha256:46611de70b6a7a7aaa3bbcb67ce18bbc9b34c9ebf9fbd105a60e6d1f699c74e1",
   "keys": {
     "title": "පිරික්සුම් ලැයිස්තුව",
     "addTitle": "පිරික්සුම් ලැයිස්තුව එක් කරන්න",
@@ -44,13 +44,13 @@
     "countSuffix": "",
     "noTasksYet": "තවම කාර්යයන් නොමැත",
     "startByAddingTask": "ඔබේ පළමු කාර්යය එකතු කිරීමෙන් ආරම්භ කරන්න",
-    "loadingMore": "වැඩිපුර පූරණය වේ"
+    "loadingMore": "වැඩිපුර පූරණය වේ",
+    "noTasksThisDay": "මෙම දිනය සඳහා කාර්යයන් නොමැත."
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#checklist",
     "githubPath": "app/checklist.page.json",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/si.json#checklist"
   }
 }

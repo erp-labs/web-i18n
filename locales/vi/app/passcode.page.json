@@ -2,14 +2,14 @@
   "pageId": "app.passcode",
   "surface": "app",
   "route": "/{companyId}/{locale}/passcode",
-  "version": 3,
+  "version": 5,
   "sourceHash": "sha256:d896b8a45df817404dd626d9ee6ff3cbc7a2b81a8e83e6c29bac54ea9bd0f3ba",
   "keys": {
     "title": "Mã PIN",
     "enterPin": "Vui lòng nhập mã 6 chữ số",
-    "enterCurrentPin": "Nhập mã passcode hiện tại",
-    "changeNewPrompt": "Nhập mã passcode mới",
-    "changeConfirmPrompt": "Nhập lại mã passcode mới để xác nhận",
+    "enterCurrentPin": "Nhập mật mã hiện tại",
+    "changeNewPrompt": "Nhập mật mã mới",
+    "changeConfirmPrompt": "Nhập lại mật mã mới để xác nhận",
     "rememberDevice": "Ghi nhớ thiết bị này (chỉ chọn trên PC cá nhân)",
     "rememberDeviceShort": "Ghi nhớ thiết bị này",
     "reset": "Đặt lại",
@@ -33,7 +33,7 @@
     "resetExpiryNotice": "Link này hết hạn sau 15 phút. Nếu đã hết hạn, vui lòng yêu cầu link mới từ trang đăng nhập.",
     "resetLinkExpiryAndRateLimit": "Link hết hạn sau 15 phút. Nếu không nhận được email, hãy kiểm tra thư rác hoặc thử lại sau.",
     "rateLimitNotice": "Quá nhiều yêu cầu. Vui lòng thử lại sau vài phút.",
-    "sessionSaveFailed": "Could not save your session. Please sign in again from the start."
+    "sessionSaveFailed": "Không thể lưu phiên của bạn. Vui lòng đăng nhập lại từ đầu."
   },
   "meta": {
     "productRepo": "core-platform",

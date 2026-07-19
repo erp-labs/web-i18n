@@ -2,7 +2,7 @@
   "pageId": "app.common",
   "surface": "app",
   "route": "/{companyId}/{locale}/common",
-  "version": 3,
+  "version": 5,
   "sourceHash": "sha256:8db4a9e85e8009ec0ee0537578714c0e5bd9974df9e5e45a3d66ae9ca687ea0c",
   "keys": {
     "appName": "Pregoi",
@@ -44,8 +44,8 @@
     "retryLoad": "再読み込み",
     "retry": "再試行",
     "submitFailedTitle": "送信に失敗しました",
-    "erpExpenseClaimTypeAccount": "経費カテゴリの設定が完了していません。管理者にお問い合わせください。",
-    "erpLeaveTypeNotFound": "休暇種別がまだ設定されていません。管理者にお問い合わせください。"
+    "erpExpenseClaimTypeAccount": "経費カテゴリが完全に設定されていません。管理者に連絡してください。",
+    "erpLeaveTypeNotFound": "休暇の種類はまだ設定されていません。管理者に連絡してください。"
   },
   "meta": {
     "productRepo": "core-platform",

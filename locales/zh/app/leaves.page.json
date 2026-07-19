@@ -2,8 +2,8 @@
   "pageId": "app.leaves",
   "surface": "app",
   "route": "/{companyId}/{locale}/leaves",
-  "version": 3,
-  "sourceHash": "sha256:8e118fe61edc02dc066e371a94f9db52f5d31f01ce52c71345cfa20af7587561",
+  "version": 5,
+  "sourceHash": "sha256:19b0a51088a7256c30ddd26790fb9450c292724758f1c90a72a6c47f66da26a3",
   "keys": {
     "title": "请假",
     "leaveType": "请假类型",
@@ -14,8 +14,9 @@
     "selectEndDate": "选择结束日期",
     "leaveHistory": "请假记录",
     "submitRequest": "提交申请",
-    "requestSubmitted": "休假申请已提交",
-    "requestSubmitFailed": "无法提交申请。请重试。",
+    "requestSubmitted": "请假申请已提交",
+    "requestSubmitFailed": "无法提交您的请求。请再试一次。",
+    "pendingApprovalsHint": "待批准的休假会显示在您的休假历史记录中。",
     "sickLeave": "病假",
     "hospitalisationLeave": "住院假",
     "maternityLeave": "产假",
@@ -41,10 +42,10 @@
     "startByRequestingLeave": "需要休息时，请在上方提交请假申请",
     "requestLeaveCta": "申请请假",
     "addLeave": "添加休假",
-    "selectDatesOnCalendar": "请在上方日历中选择休假日期。",
-    "selectLeaveDates": "Select leave dates",
-    "confirmDates": "Done",
-    "noLeaveAllocation": "尚未分配休假余额。请联系 HR 管理员。"
+    "selectDatesOnCalendar": "Select your leave dates on the calendar above.",
+    "selectLeaveDates": "选择休假日期",
+    "confirmDates": "完毕",
+    "noLeaveAllocation": "尚未分配休假余额。请联系您的人力资源管理员。"
   },
   "meta": {
     "productRepo": "core-platform",

@@ -1,9 +1,9 @@
 {
   "pageId": "app.moduleGuide",
   "surface": "app",
-  "route": "/{companyId}/{locale}/moduleGuide",
-  "version": 1,
-  "sourceHash": "sha256:6a17eb3392f9231509390565517d774d2c9f981b45c9c523e1659755c053bd6e",
+  "route": "/{companyId}/{locale}/module-guide",
+  "version": 3,
+  "sourceHash": "sha256:b8680d9713926ca546b9d5efa16149212053849046b197f6814a82bb465613d2",
   "keys": {
     "common": {
       "showGuide": "یہ کیسے کام کرتا ہے۔",
@@ -62,7 +62,11 @@
       "whatBody": "اپنی کمپنی کے کام کی جگہ سے مطابقت پذیر ERP صارفین کو براؤز کریں۔",
       "howTitle": "پائپ لائن یا سودے کی ضرورت ہے؟",
       "howStep1": "اپنے کرایہ دار میزبان پر Frappe CRM کے لیے CRM میں Open کا استعمال کریں۔",
-      "howStep2": "مکمل ERP کسٹمر ریکارڈز اور اکاؤنٹنگ لنکس کے لیے Work Desk استعمال کریں۔"
+      "howStep2": "مکمل ERP کسٹمر ریکارڈز اور اکاؤنٹنگ لنکس کے لیے Work Desk استعمال کریں۔",
+      "howStep3": "تفصیلات دیکھنے یا انوائس بنانے کے لیے گاہک کو کھولیں۔",
+      "startTitle": "اپنا پہلا گاہک شامل کریں۔",
+      "startBody": "ایک اکاؤنٹ سے شروع کریں — آپ انوائس کو بعد میں لنک کر سکتے ہیں۔",
+      "startCta": "کسٹمر شامل کریں۔"
     },
     "leaves": {
       "whatTitle": "چھٹی کی درخواست کریں۔",
@@ -81,13 +85,23 @@
       "howTitle": "نوٹس کیسے کام کرتے ہیں۔",
       "howStep1": "نوٹس پر گھنٹی کے آئیکن کو تھپتھپائیں اور اسے پڑھا ہوا نشان زد کریں۔",
       "howStep2": "لنک دستیاب ہونے پر متعلقہ ماڈیول کھولنے کے لیے تفصیلات دیکھیں کا استعمال کریں۔"
+    },
+    "mailing": {
+      "whatTitle": "ای میل مہمات",
+      "whatBody": "اپنے ERP ورک اسپیس سے اپنے سامعین کو ای میل مہمات بنائیں اور بھیجیں۔",
+      "howTitle": "مہم کیسے بنائی جائے۔",
+      "howStep1": "نام اور موضوع کے ساتھ ایک نئی مہم شروع کرنے کے لیے + کو تھپتھپائیں۔",
+      "howStep2": "ڈرافٹ کے طور پر محفوظ کریں، پھر شیڈول کریں یا تیار ہونے پر بھیجیں۔",
+      "howStep3": "مہم کی فہرست میں ٹریک کھلتا ہے، کلکس اور ڈیلیوری کی حیثیت۔",
+      "startTitle": "اپنی پہلی مہم بنائیں",
+      "startBody": "ایک مسودے کے ساتھ شروع کریں — آپ بھیجنے سے پہلے مواد کو بہتر کر سکتے ہیں۔",
+      "startCta": "نئی مہم"
     }
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#moduleGuide",
     "githubPath": "app/moduleGuide.page.json",
-    "translationStatus": "reviewed",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/ur.json#moduleGuide"
   }
 }

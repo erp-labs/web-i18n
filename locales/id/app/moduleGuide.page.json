@@ -1,16 +1,16 @@
 {
   "pageId": "app.moduleGuide",
   "surface": "app",
-  "route": "/{companyId}/{locale}/moduleGuide",
-  "version": 1,
-  "sourceHash": "sha256:6a17eb3392f9231509390565517d774d2c9f981b45c9c523e1659755c053bd6e",
+  "route": "/{companyId}/{locale}/module-guide",
+  "version": 3,
+  "sourceHash": "sha256:b8680d9713926ca546b9d5efa16149212053849046b197f6814a82bb465613d2",
   "keys": {
     "common": {
       "showGuide": "Bagaimana cara kerjanya",
       "dontShowAgain": "Jangan tampilkan lagi",
       "gotIt": "Mengerti",
-      "next": "Next",
-      "back": "Back",
+      "next": "Berikutnya",
+      "back": "Kembali",
       "stepOf": "Langkah {current} dari {total}"
     },
     "attendance": {
@@ -54,15 +54,19 @@
       "howStep2": "Pratinjau faktur sebelum dikirim.",
       "howStep3": "Kirim ke klien Anda dan pantau terbuka vs berbayar di sini.",
       "startTitle": "Buat faktur pertama Anda",
-      "startBody": "You can save a draft and finish later.",
+      "startBody": "Anda dapat menyimpan draf dan menyelesaikannya nanti.",
       "startCta": "Buat faktur"
     },
     "customers": {
-      "whatTitle": "Your customer list",
+      "whatTitle": "Daftar pelanggan Anda",
       "whatBody": "Telusuri 0 pelanggan yang disinkronkan dari ruang kerja perusahaan Anda.",
       "howTitle": "Butuh saluran atau kesepakatan?",
       "howStep1": "Gunakan Buka di CRM untuk Frappe CRM pada host penyewa Anda.",
-      "howStep2": "Gunakan Work Desk untuk ERP catatan pelanggan dan link akuntansi lengkap."
+      "howStep2": "Gunakan Work Desk untuk ERP catatan pelanggan dan link akuntansi lengkap.",
+      "howStep3": "Buka pelanggan untuk melihat detail atau membuat faktur.",
+      "startTitle": "Tambahkan pelanggan pertama Anda",
+      "startBody": "Mulailah dengan satu akun — Anda dapat menautkan faktur nanti.",
+      "startCta": "Tambahkan pelanggan"
     },
     "leaves": {
       "whatTitle": "Minta waktu istirahat",
@@ -81,13 +85,23 @@
       "howTitle": "Cara kerja pemberitahuan",
       "howStep1": "Ketuk ikon lonceng pada pemberitahuan untuk menandainya sebagai telah dibaca.",
       "howStep2": "Gunakan Lihat detail untuk membuka modul terkait ketika tautan tersedia."
+    },
+    "mailing": {
+      "whatTitle": "Kampanye email",
+      "whatBody": "Buat dan kirim kampanye email ke audiens Anda dari ruang kerja Anda.",
+      "howTitle": "Cara membuat kampanye",
+      "howStep1": "Ketuk + untuk memulai kampanye baru dengan nama dan subjek.",
+      "howStep2": "Simpan sebagai draf, lalu jadwalkan atau kirim jika sudah siap.",
+      "howStep3": "Lacak pembukaan, klik, dan status pengiriman di daftar kampanye.",
+      "startTitle": "Buat kampanye pertama Anda",
+      "startBody": "Mulailah dengan draf — Anda dapat menyempurnakan konten sebelum mengirimkannya.",
+      "startCta": "Kampanye baru"
     }
   },
   "meta": {
     "productRepo": "core-platform",
     "sourcePath": "apps/employee-web/dictionaries/en.json#moduleGuide",
     "githubPath": "app/moduleGuide.page.json",
-    "translationStatus": "ai_draft",
-    "method": "cursor-ai"
+    "importedFrom": "apps/employee-web/dictionaries/id.json#moduleGuide"
   }
 }

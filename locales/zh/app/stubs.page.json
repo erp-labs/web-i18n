@@ -2,20 +2,28 @@
   "pageId": "app.stubs",
   "surface": "app",
   "route": "/{companyId}/{locale}/stubs",
-  "version": 1,
-  "sourceHash": "sha256:606608663abcc10f96eca3aae340f50f62bac6d77c429746d2dd5f4713831cd3",
+  "version": 3,
+  "sourceHash": "sha256:ebc3344b5dd18d78128ed55bac83d115a0364913facdd9be011d7854cc8ce2b4",
   "keys": {
     "payment": {
-      "title": "Payment",
-      "description": "Collect and reconcile payments. Connect Stripe in Integrations when payment processing is enabled for your organization."
+      "title": "支付",
+      "description": "收集并核对付款。当您的组织启用付款处理时，在集成中连接 0。"
+    },
+    "payroll": {
+      "title": "工资单",
+      "description": "查看工资单和税务详细信息。数据来自您组织的 0 工资模块。"
     },
     "reservation": {
-      "title": "Reservation",
-      "description": "Book rooms, appointments, and resources. Reservation integrations will appear here as they roll out."
+      "title": "预订",
+      "description": "预订房间、预约和资源。预订集成推出后将出现在此处。"
     },
     "accounting": {
-      "title": "Accounting",
-      "description": "General ledger and accounting workflows. Frappe ERP is the default backend; connect Xero or Odoo in Integrations to use an external provider."
+      "title": "会计",
+      "description": "总账和会计工作流程。 03 是默认后端；在集成中连接1或2以使用外部提供商。"
+    },
+    "financial_reports": {
+      "title": "财务报告",
+      "description": "公司损益表、资产负债表和试算表。需要访问帐户上的公司财务信息。"
     }
   },
   "meta": {
