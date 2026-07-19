@@ -2,8 +2,8 @@
   "pageId": "www.shell",
   "surface": "www",
   "route": "_shell",
-  "version": 3,
-  "sourceHash": "sha256:27ecf9746833e3fd22f067eed4f6a7958a90bd5a4650cea25f0d12198039f44a",
+  "version": 4,
+  "sourceHash": "sha256:fbb2ac8918907f92b5abda067c7dc55c22b81392016ef4fc43f4d08eace10275",
   "keys": {
     "path": "/",
     "nav_pricing": "الأسعار",
@@ -120,7 +120,16 @@
     "footer_4_item_1_label": "الوظائف",
     "footer_4_item_2_label": "المدونة",
     "footer_4_item_3_label": "مركز المساعدة",
-    "footer_4_item_4_label": "الأسعار"
+    "footer_4_item_4_label": "الأسعار",
+    "demo_modal_title": "اختر تجربة {brand} الخاصة بك",
+    "demo_modal_close_aria": "إغلاق",
+    "demo_modal_options_aria": "خيارات العرض",
+    "demo_option_work_app_label": "Work App",
+    "demo_option_work_app_subtext": "جرّب سير عمل الموظف اليومي بحساب تجريبي مباشر.",
+    "demo_option_work_desk_label": "Work Desk",
+    "demo_option_work_desk_subtext": "استكشف الإدارة والموافقات وسير عمل الأعمال.",
+    "demo_option_guided_label": "مكالمة 15 دقيقة",
+    "demo_option_guided_subtext": "التقِ عن بُعد بأخصائي منتج لأسئلة مباشرة وإرشاد سير العمل."
   },
   "meta": {
     "productRepo": "web-public",

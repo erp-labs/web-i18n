@@ -2,8 +2,8 @@
   "pageId": "www.shell",
   "surface": "www",
   "route": "_shell",
-  "version": 3,
-  "sourceHash": "sha256:27ecf9746833e3fd22f067eed4f6a7958a90bd5a4650cea25f0d12198039f44a",
+  "version": 4,
+  "sourceHash": "sha256:1ce9e9ade204827f7a09a82be6c5337d0e4bc6dfd81fbb47d5f4305ba0d40897",
   "keys": {
     "path": "/",
     "nav_pricing": "料金",
@@ -120,7 +120,16 @@
     "footer_4_item_1_label": "採用",
     "footer_4_item_2_label": "ブログ",
     "footer_4_item_3_label": "ヘルプセンター",
-    "footer_4_item_4_label": "料金"
+    "footer_4_item_4_label": "料金",
+    "demo_modal_title": "{brand} の体験を選んでください",
+    "demo_modal_close_aria": "閉じる",
+    "demo_modal_options_aria": "デモオプション",
+    "demo_option_work_app_label": "Work App",
+    "demo_option_work_app_subtext": "ライブデモアカウントで日常の従業員ワークフローを体験できます。",
+    "demo_option_work_desk_label": "Work Desk",
+    "demo_option_work_desk_subtext": "管理、承認、業務ワークフローを探索できます。",
+    "demo_option_guided_label": "15分通話",
+    "demo_option_guided_subtext": "製品スペシャリストとリモートで会い、ライブQ&Aとワークフロー案内を受けられます。"
   },
   "meta": {
     "productRepo": "web-public",

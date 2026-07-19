@@ -2,8 +2,8 @@
   "pageId": "www.shell",
   "surface": "www",
   "route": "_shell",
-  "version": 3,
-  "sourceHash": "sha256:27ecf9746833e3fd22f067eed4f6a7958a90bd5a4650cea25f0d12198039f44a",
+  "version": 4,
+  "sourceHash": "sha256:5ec48d5d2f56bc718bac3c937140f84edc9d6c66dd015313f18181935f377984",
   "keys": {
     "path": "/",
     "nav_pricing": "စျေးနှုန်း",
@@ -120,7 +120,16 @@
     "footer_4_item_1_label": "အလုပ်အကိုင်အခွင့်အလမ်းများ",
     "footer_4_item_2_label": "ဘလော့",
     "footer_4_item_3_label": "အကူအညီစင်တာ",
-    "footer_4_item_4_label": "စျေးနှုန်း"
+    "footer_4_item_4_label": "စျေးနှုန်း",
+    "demo_modal_title": "သင့် {brand} အတွေ့အကြုံကို ရွေးချယ်ပါ",
+    "demo_modal_close_aria": "ပိတ်ရန်",
+    "demo_modal_options_aria": "Demo ရွေးချယ်စရာများ",
+    "demo_option_work_app_label": "Work App",
+    "demo_option_work_app_subtext": "အသက်ဝင်သော demo အကောင့်ဖြင့် နေ့စဉ် ဝန်ထမ်း workflow ကို ခံစားကြည့်ပါ။",
+    "demo_option_work_desk_label": "Work Desk",
+    "demo_option_work_desk_subtext": "စီမံခန့်ခွဲမှု၊ အတည်ပြုချက်များနှင့် စီးပွားရေး workflows ကို လေ့လာပါ။",
+    "demo_option_guided_label": "၁၅ မိနစ် ခေါ်ဆိုမှု",
+    "demo_option_guided_subtext": "တိုက်ရိုက် Q&A နှင့် workflow လမ်းညွှန်မှုအတွက် ထုတ်ကုန်ကျွမ်းကျင်သူနှင့် အဝေးမှ တွေ့ဆုံပါ။"
   },
   "meta": {
     "productRepo": "web-public",

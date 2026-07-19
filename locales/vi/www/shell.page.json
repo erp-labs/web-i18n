@@ -2,8 +2,8 @@
   "pageId": "www.shell",
   "surface": "www",
   "route": "_shell",
-  "version": 3,
-  "sourceHash": "sha256:27ecf9746833e3fd22f067eed4f6a7958a90bd5a4650cea25f0d12198039f44a",
+  "version": 4,
+  "sourceHash": "sha256:0f6999dac08d1ade17825bc73e702d8bf890c8263fefa63971913fd950efa2c3",
   "keys": {
     "path": "/",
     "nav_pricing": "Bảng giá",
@@ -120,7 +120,16 @@
     "footer_4_item_1_label": "Tuyển dụng",
     "footer_4_item_2_label": "Blog",
     "footer_4_item_3_label": "Trung tâm trợ giúp",
-    "footer_4_item_4_label": "Bảng giá"
+    "footer_4_item_4_label": "Bảng giá",
+    "demo_modal_title": "Chọn trải nghiệm {brand} của bạn",
+    "demo_modal_close_aria": "Đóng",
+    "demo_modal_options_aria": "Tùy chọn demo",
+    "demo_option_work_app_label": "Work App",
+    "demo_option_work_app_subtext": "Trải nghiệm quy trình nhân viên hàng ngày với tài khoản demo trực tiếp.",
+    "demo_option_work_desk_label": "Work Desk",
+    "demo_option_work_desk_subtext": "Khám phá quản trị, phê duyệt và quy trình kinh doanh.",
+    "demo_option_guided_label": "Cuộc gọi 15 phút",
+    "demo_option_guided_subtext": "Gặp chuyên gia sản phẩm từ xa để hỏi đáp trực tiếp và hướng dẫn quy trình."
   },
   "meta": {
     "productRepo": "web-public",

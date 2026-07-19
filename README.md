@@ -90,6 +90,7 @@ Add it under **Settings → Secrets and variables → Actions → New repository
 - [PLAN-ko.md](docs/PLAN-ko.md) — Korean planning spec
 - [PLAN-en.md](docs/PLAN-en.md) — English planning spec
 - [PLAN-translation-account-www-app.md](docs/PLAN-translation-account-www-app.md) — account / www home / app scoped translation (11 locales, docs excluded)
+- [PLAN-account-billing-demo-trial-i18n-ko.md](docs/PLAN-account-billing-demo-trial-i18n-ko.md) — www Demo modal + trial QA + account Billing / Users detail / Integrations / Upgrade i18n
 
 ## License
 

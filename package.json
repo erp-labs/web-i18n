@@ -22,6 +22,9 @@
     "locale:build": "node scripts/build-locale-data.mjs",
     "patch:www-home-shell": "node scripts/patch-www-home-shell-complete.mjs",
     "patch:www-home-faq-footer": "node scripts/patch-www-home-faq-footer-i18n.mjs",
+    "patch:www-demo-modal": "node scripts/patch-www-demo-modal-i18n.mjs",
+    "patch:account-billing-upgrade": "node scripts/patch-account-billing-upgrade-i18n.mjs",
+    "apply:account-full-i18n": "node scripts/apply-account-full-i18n.mjs",
     "patch:trial-pricing": "node scripts/trial-pricing-i18n/apply-all.mjs",
     "mark:reviewed": "node scripts/mark-reviewed.mjs"
   },

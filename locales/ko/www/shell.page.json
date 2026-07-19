@@ -2,8 +2,8 @@
   "pageId": "www.shell",
   "surface": "www",
   "route": "_shell",
-  "version": 3,
-  "sourceHash": "sha256:27ecf9746833e3fd22f067eed4f6a7958a90bd5a4650cea25f0d12198039f44a",
+  "version": 4,
+  "sourceHash": "sha256:18428c35327cf9343a60eab7ea5526bd53f933fe844c32a1a96e32169b098e42",
   "keys": {
     "path": "/",
     "nav_pricing": "요금제",
@@ -120,7 +120,16 @@
     "footer_4_item_1_label": "채용",
     "footer_4_item_2_label": "블로그",
     "footer_4_item_3_label": "고객센터",
-    "footer_4_item_4_label": "요금제"
+    "footer_4_item_4_label": "요금제",
+    "demo_modal_title": "{brand} 체험 방식을 선택하세요",
+    "demo_modal_close_aria": "닫기",
+    "demo_modal_options_aria": "데모 옵션",
+    "demo_option_work_app_label": "Work App",
+    "demo_option_work_app_subtext": "라이브 데모 계정으로 일상 직원 워크플로우를 체험하세요.",
+    "demo_option_work_desk_label": "Work Desk",
+    "demo_option_work_desk_subtext": "관리, 승인, 비즈니스 워크플로우를 살펴보세요.",
+    "demo_option_guided_label": "15분 통화",
+    "demo_option_guided_subtext": "제품 전문가와 원격으로 만나 실시간 Q&A와 워크플로우 가이드를 받으세요."
   },
   "meta": {
     "productRepo": "web-public",

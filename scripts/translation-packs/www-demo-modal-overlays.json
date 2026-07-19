@@ -1,0 +1,156 @@
+{
+  "en": {
+    "demo_modal_title": "Choose your {brand} experience",
+    "demo_modal_close_aria": "Close",
+    "demo_modal_options_aria": "Demo options",
+    "demo_option_work_app_label": "Work App",
+    "demo_option_work_app_subtext": "Experience the daily employee workflow with a live demo account.",
+    "demo_option_work_desk_label": "Work Desk",
+    "demo_option_work_desk_subtext": "Explore administration, approvals, and business workflows.",
+    "demo_option_guided_label": "15-min call",
+    "demo_option_guided_subtext": "Meet remotely with a product specialist for live Q&A and workflow guidance."
+  },
+  "ko": {
+    "demo_modal_title": "{brand} 체험 방식을 선택하세요",
+    "demo_modal_close_aria": "닫기",
+    "demo_modal_options_aria": "데모 옵션",
+    "demo_option_work_app_label": "Work App",
+    "demo_option_work_app_subtext": "라이브 데모 계정으로 일상 직원 워크플로우를 체험하세요.",
+    "demo_option_work_desk_label": "Work Desk",
+    "demo_option_work_desk_subtext": "관리, 승인, 비즈니스 워크플로우를 살펴보세요.",
+    "demo_option_guided_label": "15분 통화",
+    "demo_option_guided_subtext": "제품 전문가와 원격으로 만나 실시간 Q&A와 워크플로우 가이드를 받으세요."
+  },
+  "ja": {
+    "demo_modal_title": "{brand} の体験を選んでください",
+    "demo_modal_close_aria": "閉じる",
+    "demo_modal_options_aria": "デモオプション",
+    "demo_option_work_app_label": "Work App",
+    "demo_option_work_app_subtext": "ライブデモアカウントで日常の従業員ワークフローを体験できます。",
+    "demo_option_work_desk_label": "Work Desk",
+    "demo_option_work_desk_subtext": "管理、承認、業務ワークフローを探索できます。",
+    "demo_option_guided_label": "15分通話",
+    "demo_option_guided_subtext": "製品スペシャリストとリモートで会い、ライブQ&Aとワークフロー案内を受けられます。"
+  },
+  "zh": {
+    "demo_modal_title": "选择您的 {brand} 体验方式",
+    "demo_modal_close_aria": "关闭",
+    "demo_modal_options_aria": "演示选项",
+    "demo_option_work_app_label": "Work App",
+    "demo_option_work_app_subtext": "使用实时演示账户体验日常员工工作流。",
+    "demo_option_work_desk_label": "Work Desk",
+    "demo_option_work_desk_subtext": "探索管理、审批与业务流程。",
+    "demo_option_guided_label": "15 分钟通话",
+    "demo_option_guided_subtext": "与产品专家远程会面，获得实时问答与工作流指导。"
+  },
+  "ar": {
+    "demo_modal_title": "اختر تجربة {brand} الخاصة بك",
+    "demo_modal_close_aria": "إغلاق",
+    "demo_modal_options_aria": "خيارات العرض",
+    "demo_option_work_app_label": "Work App",
+    "demo_option_work_app_subtext": "جرّب سير عمل الموظف اليومي بحساب تجريبي مباشر.",
+    "demo_option_work_desk_label": "Work Desk",
+    "demo_option_work_desk_subtext": "استكشف الإدارة والموافقات وسير عمل الأعمال.",
+    "demo_option_guided_label": "مكالمة 15 دقيقة",
+    "demo_option_guided_subtext": "التقِ عن بُعد بأخصائي منتج لأسئلة مباشرة وإرشاد سير العمل."
+  },
+  "vi": {
+    "demo_modal_title": "Chọn trải nghiệm {brand} của bạn",
+    "demo_modal_close_aria": "Đóng",
+    "demo_modal_options_aria": "Tùy chọn demo",
+    "demo_option_work_app_label": "Work App",
+    "demo_option_work_app_subtext": "Trải nghiệm quy trình nhân viên hàng ngày với tài khoản demo trực tiếp.",
+    "demo_option_work_desk_label": "Work Desk",
+    "demo_option_work_desk_subtext": "Khám phá quản trị, phê duyệt và quy trình kinh doanh.",
+    "demo_option_guided_label": "Cuộc gọi 15 phút",
+    "demo_option_guided_subtext": "Gặp chuyên gia sản phẩm từ xa để hỏi đáp trực tiếp và hướng dẫn quy trình."
+  },
+  "th": {
+    "demo_modal_title": "เลือกประสบการณ์ {brand} ของคุณ",
+    "demo_modal_close_aria": "ปิด",
+    "demo_modal_options_aria": "ตัวเลือกเดโม",
+    "demo_option_work_app_label": "Work App",
+    "demo_option_work_app_subtext": "สัมผัสเวิร์กโฟลว์พนักงานรายวันด้วยบัญชีเดโมจริง",
+    "demo_option_work_desk_label": "Work Desk",
+    "demo_option_work_desk_subtext": "สำรวจการบริหาร การอนุมัติ และเวิร์กโฟลว์ธุรกิจ",
+    "demo_option_guided_label": "โทร 15 นาที",
+    "demo_option_guided_subtext": "พบผู้เชี่ยวชาญผลิตภัณฑ์แบบออนไลน์สำหรับถามตอบสดและคำแนะนำเวิร์กโฟลว์"
+  },
+  "id": {
+    "demo_modal_title": "Pilih pengalaman {brand} Anda",
+    "demo_modal_close_aria": "Tutup",
+    "demo_modal_options_aria": "Opsi demo",
+    "demo_option_work_app_label": "Work App",
+    "demo_option_work_app_subtext": "Rasakan alur kerja karyawan harian dengan akun demo langsung.",
+    "demo_option_work_desk_label": "Work Desk",
+    "demo_option_work_desk_subtext": "Jelajahi administrasi, persetujuan, dan alur kerja bisnis.",
+    "demo_option_guided_label": "Panggilan 15 menit",
+    "demo_option_guided_subtext": "Temui spesialis produk dari jarak jauh untuk Q&A langsung dan panduan alur kerja."
+  },
+  "ms": {
+    "demo_modal_title": "Pilih pengalaman {brand} anda",
+    "demo_modal_close_aria": "Tutup",
+    "demo_modal_options_aria": "Pilihan demo",
+    "demo_option_work_app_label": "Work App",
+    "demo_option_work_app_subtext": "Alami aliran kerja pekerja harian dengan akaun demo langsung.",
+    "demo_option_work_desk_label": "Work Desk",
+    "demo_option_work_desk_subtext": "Terokai pentadbiran, kelulusan dan aliran kerja perniagaan.",
+    "demo_option_guided_label": "Panggilan 15 minit",
+    "demo_option_guided_subtext": "Berjumpa pakar produk dari jauh untuk Q&A langsung dan panduan aliran kerja."
+  },
+  "si": {
+    "demo_modal_title": "ඔබේ {brand} අත්දැකීම තෝරන්න",
+    "demo_modal_close_aria": "වසන්න",
+    "demo_modal_options_aria": "Demo විකල්ප",
+    "demo_option_work_app_label": "Work App",
+    "demo_option_work_app_subtext": "සජීවී demo ගිණුමකින් දෛනික සේවක workflow අත්විඳින්න.",
+    "demo_option_work_desk_label": "Work Desk",
+    "demo_option_work_desk_subtext": "පරිපාලනය, අනුමත කිරීම් සහ ව්‍යාපාර workflow ගවේෂණය කරන්න.",
+    "demo_option_guided_label": "මිනිත්තු 15 කතාබස",
+    "demo_option_guided_subtext": "සජීවී Q&A සහ workflow මගපෙන්වීම සඳහා නිෂ්පාදන විශේෂඥයෙකු සමඟ දුරස්ථව හමුවන්න."
+  },
+  "ur": {
+    "demo_modal_title": "اپنا {brand} تجربہ منتخب کریں",
+    "demo_modal_close_aria": "بند کریں",
+    "demo_modal_options_aria": "ڈیمو اختیارات",
+    "demo_option_work_app_label": "Work App",
+    "demo_option_work_app_subtext": "لائیو ڈیمو اکاؤنٹ کے ساتھ روزمرہ ملازم ورک فلو کا تجربہ کریں۔",
+    "demo_option_work_desk_label": "Work Desk",
+    "demo_option_work_desk_subtext": "انتظامیہ، منظوریوں اور کاروباری ورک فلو کو دریافت کریں۔",
+    "demo_option_guided_label": "15 منٹ کال",
+    "demo_option_guided_subtext": "لائیو سوال وجواب اور ورک فلو رہنمائی کے لیے پروڈکٹ ماہر سے دور سے ملیں۔"
+  },
+  "hi": {
+    "demo_modal_title": "अपना {brand} अनुभव चुनें",
+    "demo_modal_close_aria": "बंद करें",
+    "demo_modal_options_aria": "डेमो विकल्प",
+    "demo_option_work_app_label": "Work App",
+    "demo_option_work_app_subtext": "लाइव डेमो खाते के साथ दैनिक कर्मचारी वर्कफ़्लो का अनुभव करें।",
+    "demo_option_work_desk_label": "Work Desk",
+    "demo_option_work_desk_subtext": "प्रशासन, अनुमोदन और व्यावसायिक वर्कफ़्लो देखें।",
+    "demo_option_guided_label": "15-मिनट कॉल",
+    "demo_option_guided_subtext": "लाइव प्रश्नोत्तर और वर्कफ़्लो मार्गदर्शन के लिए उत्पाद विशेषज्ञ से दूरस्थ रूप से मिलें।"
+  },
+  "ru": {
+    "demo_modal_title": "Выберите формат знакомства с {brand}",
+    "demo_modal_close_aria": "Закрыть",
+    "demo_modal_options_aria": "Варианты демо",
+    "demo_option_work_app_label": "Work App",
+    "demo_option_work_app_subtext": "Оцените ежедневный рабочий процесс сотрудника на живом демо-аккаунте.",
+    "demo_option_work_desk_label": "Work Desk",
+    "demo_option_work_desk_subtext": "Изучите администрирование, согласования и бизнес-процессы.",
+    "demo_option_guided_label": "Звонок на 15 минут",
+    "demo_option_guided_subtext": "Встретьтесь удалённо со специалистом по продукту для живых вопросов и руководства по процессам."
+  },
+  "my": {
+    "demo_modal_title": "သင့် {brand} အတွေ့အကြုံကို ရွေးချယ်ပါ",
+    "demo_modal_close_aria": "ပိတ်ရန်",
+    "demo_modal_options_aria": "Demo ရွေးချယ်စရာများ",
+    "demo_option_work_app_label": "Work App",
+    "demo_option_work_app_subtext": "အသက်ဝင်သော demo အကောင့်ဖြင့် နေ့စဉ် ဝန်ထမ်း workflow ကို ခံစားကြည့်ပါ။",
+    "demo_option_work_desk_label": "Work Desk",
+    "demo_option_work_desk_subtext": "စီမံခန့်ခွဲမှု၊ အတည်ပြုချက်များနှင့် စီးပွားရေး workflows ကို လေ့လာပါ။",
+    "demo_option_guided_label": "၁၅ မိနစ် ခေါ်ဆိုမှု",
+    "demo_option_guided_subtext": "တိုက်ရိုက် Q&A နှင့် workflow လမ်းညွှန်မှုအတွက် ထုတ်ကုန်ကျွမ်းကျင်သူနှင့် အဝေးမှ တွေ့ဆုံပါ။"
+  }
+}

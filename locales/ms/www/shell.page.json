@@ -2,8 +2,8 @@
   "pageId": "www.shell",
   "surface": "www",
   "route": "_shell",
-  "version": 3,
-  "sourceHash": "sha256:27ecf9746833e3fd22f067eed4f6a7958a90bd5a4650cea25f0d12198039f44a",
+  "version": 4,
+  "sourceHash": "sha256:ff41729d1717123e2628e2ff17f1be55cae55c6c3012372bdbadca45ff5c8781",
   "keys": {
     "path": "/",
     "nav_pricing": "Harga",
@@ -120,7 +120,16 @@
     "footer_4_item_1_label": "Kerjaya",
     "footer_4_item_2_label": "Blog",
     "footer_4_item_3_label": "Pusat bantuan",
-    "footer_4_item_4_label": "Harga"
+    "footer_4_item_4_label": "Harga",
+    "demo_modal_title": "Pilih pengalaman {brand} anda",
+    "demo_modal_close_aria": "Tutup",
+    "demo_modal_options_aria": "Pilihan demo",
+    "demo_option_work_app_label": "Work App",
+    "demo_option_work_app_subtext": "Alami aliran kerja pekerja harian dengan akaun demo langsung.",
+    "demo_option_work_desk_label": "Work Desk",
+    "demo_option_work_desk_subtext": "Terokai pentadbiran, kelulusan dan aliran kerja perniagaan.",
+    "demo_option_guided_label": "Panggilan 15 minit",
+    "demo_option_guided_subtext": "Berjumpa pakar produk dari jauh untuk Q&A langsung dan panduan aliran kerja."
   },
   "meta": {
     "productRepo": "web-public",

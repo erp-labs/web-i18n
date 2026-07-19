@@ -2,8 +2,8 @@
   "pageId": "www.shell",
   "surface": "www",
   "route": "_shell",
-  "version": 3,
-  "sourceHash": "sha256:27ecf9746833e3fd22f067eed4f6a7958a90bd5a4650cea25f0d12198039f44a",
+  "version": 4,
+  "sourceHash": "sha256:55350cdb7b1b164ba7476cc79c4c056575490c096b663c99cb05ab8d992ec6a1",
   "keys": {
     "path": "/",
     "nav_pricing": "定价",
@@ -120,7 +120,16 @@
     "footer_4_item_1_label": "招聘",
     "footer_4_item_2_label": "博客",
     "footer_4_item_3_label": "帮助中心",
-    "footer_4_item_4_label": "定价"
+    "footer_4_item_4_label": "定价",
+    "demo_modal_title": "选择您的 {brand} 体验方式",
+    "demo_modal_close_aria": "关闭",
+    "demo_modal_options_aria": "演示选项",
+    "demo_option_work_app_label": "Work App",
+    "demo_option_work_app_subtext": "使用实时演示账户体验日常员工工作流。",
+    "demo_option_work_desk_label": "Work Desk",
+    "demo_option_work_desk_subtext": "探索管理、审批与业务流程。",
+    "demo_option_guided_label": "15 分钟通话",
+    "demo_option_guided_subtext": "与产品专家远程会面，获得实时问答与工作流指导。"
   },
   "meta": {
     "productRepo": "web-public",
