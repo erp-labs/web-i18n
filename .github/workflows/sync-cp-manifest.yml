@@ -31,20 +31,9 @@ jobs:
             -H "Content-Type: application/json" \
             -d "$MANIFEST"
 
-      - name: POST sync-github (optional locale coverage refresh)
-        # Full GitHub raw crawl is slow (pages × locales); do not block CI on it.
-        continue-on-error: true
-        timeout-minutes: 3
-        env:
-          CP_BASE_URL: ${{ secrets.CONTROL_PLANE_URL }}
-          INTERNAL_API_KEY: ${{ secrets.INTERNAL_API_KEY }}
-        run: |
-          if [ -z "$CP_BASE_URL" ] || [ -z "$INTERNAL_API_KEY" ]; then
-            echo "Skip: CONTROL_PLANE_URL or INTERNAL_API_KEY not configured"
-            exit 0
-          fi
-          curl -fsS --max-time 150 -X POST "$CP_BASE_URL/internal/v1/i18n/sync-github" \
-            -H "Authorization: Bearer $INTERNAL_API_KEY" \
-            -H "Content-Type: application/json" \
-            -d '{}'
-          echo
+      - name: POST sync-github (optional; skipped in CI)
+        # Full GitHub raw crawl (pages × locales) exceeds Worker/HTTP timeouts.
+        # Operators can run it manually from /cp/i18n or: curl -X POST .../sync-github
+        if: false
+        run: echo skipped
+
