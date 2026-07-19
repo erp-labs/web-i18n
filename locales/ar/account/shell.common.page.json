@@ -23,7 +23,7 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web null",
     "githubPath": "account/shell.common.page.json",
-    "translationStatus": "reviewed",
+    "translationStatus": "ai_draft",
     "method": "cursor-ai"
   }
 }

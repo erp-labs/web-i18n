@@ -3,7 +3,7 @@
   "surface": "app",
   "route": "/{companyId}/{locale}/checklist",
   "version": 1,
-  "sourceHash": "sha256:b8d6ab3c8eed7f9d6863dbd604ac78a99c1c3f488e67ef626dcc4fee5517f7f7",
+  "sourceHash": "sha256:46611de70b6a7a7aaa3bbcb67ce18bbc9b34c9ebf9fbd105a60e6d1f699c74e1",
   "keys": {
     "title": "Checklist",
     "addTitle": "Add Checklist",
@@ -44,7 +44,8 @@
     "countSuffix": "",
     "noTasksYet": "No tasks yet",
     "startByAddingTask": "Start by adding your first task",
-    "loadingMore": "Loading more"
+    "loadingMore": "Loading more",
+    "noTasksThisDay": "No tasks for this day."
   },
   "meta": {
     "productRepo": "core-platform",

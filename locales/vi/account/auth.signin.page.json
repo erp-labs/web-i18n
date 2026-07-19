@@ -8,12 +8,12 @@
     "title": "Đăng nhập",
     "titleLogin": "Đăng nhập",
     "titleGetStarted": "Bắt đầu",
-    "titlePortalPasswordSetup": "Thiết lập mật khẩu quản trị viên dịch vụ",
-    "descriptionDefault": "Đăng nhập bằng email đã đăng ký cho không gian làm việc của bạn.",
-    "descriptionEmailLocked": "Chúng tôi sẽ gửi mã xác minh đến địa chỉ này để đăng nhập.",
+    "titlePortalPasswordSetup": "Thiết lập mật khẩu quản trị dịch vụ",
+    "descriptionDefault": "Đăng nhập bằng email đã đăng ký cho workspace của Quý vị.",
+    "descriptionEmailLocked": "Chúng tôi sẽ gửi mã xác minh đến địa chỉ này để Quý vị đăng nhập.",
     "descriptionPackageFunnel": "Đăng nhập hoặc tạo tài khoản để tiếp tục thanh toán.",
-    "descriptionPortalPassword": "Nhập email của bạn. Chúng tôi sẽ gửi mã xác minh, sau đó bạn có thể tạo mật khẩu quản trị viên dịch vụ của mình.",
-    "descriptionLoginGate": "Đăng nhập bằng email và mật khẩu của bạn. Chúng tôi sẽ gửi mã xác minh qua email tiếp theo.",
+    "descriptionPortalPassword": "Nhập email của Quý vị. Chúng tôi sẽ gửi mã xác minh, sau đó Quý vị có thể tạo mật khẩu quản trị dịch vụ.",
+    "descriptionLoginGate": "Đăng nhập bằng email và mật khẩu. Bước tiếp theo, chúng tôi sẽ gửi mã xác minh qua email.",
     "submit": "Tiếp tục",
     "submitLogin": "Đăng nhập",
     "submitSendCode": "Gửi mã xác minh",
@@ -47,6 +47,6 @@
     "sourcePath": "apps/admin-web /login",
     "githubPath": "account/auth.signin.page.json",
     "translationStatus": "ai_draft",
-    "method": "login-funnel-i18n"
+    "method": "cursor-ai"
   }
 }

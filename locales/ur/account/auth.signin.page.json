@@ -7,7 +7,7 @@
   "keys": {
     "title": "سائن ان کریں۔",
     "titleLogin": "لاگ ان کریں۔",
-    "titleGetStarted": "شروع کرو",
+    "titleGetStarted": "شروع کریں",
     "titlePortalPasswordSetup": "سروس ایڈمنسٹریٹر کا پاس ورڈ ترتیب دیں۔",
     "descriptionDefault": "اپنے ورک اسپیس کے لیے رجسٹرڈ ای میل کے ساتھ سائن ان کریں۔",
     "descriptionEmailLocked": "سائن ان کرنے کے لیے ہم اس پتے پر ایک تصدیقی کوڈ بھیجیں گے۔",
@@ -47,6 +47,6 @@
     "sourcePath": "apps/admin-web /login",
     "githubPath": "account/auth.signin.page.json",
     "translationStatus": "ai_draft",
-    "method": "login-funnel-i18n"
+    "method": "cursor-ai"
   }
 }

@@ -3,11 +3,15 @@
   "surface": "app",
   "route": "/{companyId}/{locale}/stubs",
   "version": 1,
-  "sourceHash": "sha256:606608663abcc10f96eca3aae340f50f62bac6d77c429746d2dd5f4713831cd3",
+  "sourceHash": "sha256:ebc3344b5dd18d78128ed55bac83d115a0364913facdd9be011d7854cc8ce2b4",
   "keys": {
     "payment": {
       "title": "Payment",
       "description": "Collect and reconcile payments. Connect Stripe in Integrations when payment processing is enabled for your organization."
+    },
+    "payroll": {
+      "title": "Payroll",
+      "description": "View salary slips and tax details. Data comes from your organization's ERP payroll module."
     },
     "reservation": {
       "title": "Reservation",
@@ -16,6 +20,10 @@
     "accounting": {
       "title": "Accounting",
       "description": "General ledger and accounting workflows. Frappe ERP is the default backend; connect Xero or Odoo in Integrations to use an external provider."
+    },
+    "financial_reports": {
+      "title": "Financial Reports",
+      "description": "Company P&L, balance sheet, and trial balance. Requires company financials access on Account."
     }
   },
   "meta": {

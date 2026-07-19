@@ -3,7 +3,7 @@
   "surface": "app",
   "route": "/{companyId}/{locale}/signin",
   "version": 1,
-  "sourceHash": "sha256:65d56c9404d351114558a462f9b62fbea68d77252f078b6e8fa3f30053b86c3d",
+  "sourceHash": "sha256:525134027ea084b8fdb04f5bb1f8ed36b7e5018b1d7357847f80cbd08b4204b3",
   "keys": {
     "title": "Login",
     "languageLabel": "Language",
@@ -38,7 +38,8 @@
     "staleSessionHint": "A previous sign-in session for another workspace is still stored in this browser.",
     "clearStaleSession": "Clear stored session",
     "clearingStaleSession": "Clearing…",
-    "errorGeneric": "An error occurred. Please try again."
+    "errorGeneric": "An error occurred. Please try again.",
+    "workPasswordUpdated": "Work password updated. Sign in again with your new password, then enter your passcode."
   },
   "meta": {
     "productRepo": "core-platform",

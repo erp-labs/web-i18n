@@ -3,11 +3,11 @@
   "surface": "docs",
   "route": "/legal/byo-hosting-addendum",
   "version": 1,
-  "sourceHash": "sha256:918e6290ee40d986f19b6b13e6bc9849704f030b0a6a928f2a8bfe0b246e0c89",
+  "sourceHash": "sha256:14f49134f94603111589233a309680546647cb93cfd983611558d4b3a8918b01",
   "reviewRequired": true,
   "keys": {
     "title": "BYO hosting addendum",
-    "body": "# BYO Hosting Addendum\n\n**Version:** 1.0 (draft)\n\nApplies to **Enterprise BYO** customers who operate their own ERP VM or cloud while using Vouus account portal, Work App, and API gateway.\n\n## Vouus provides\n\n- Account portal (billing, users, onboarding)\n- Work App and Zuplo API integration\n- Connector health monitoring (read-only where configured)\n\n## Customer provides and operates\n\n- ERP application VM or container host\n- OS patching, ERP major upgrades, database backup\n- Network path from Vouus gateway to your ERP endpoint\n\n## Support boundaries\n\nPlatform support covers Vouus-controlled services. ERP upgrade execution on your infrastructure is **professional services** unless otherwise contracted.\n\n## Credential tier\n\nEnterprise BYO defaults to **Tier 2** credential policy. Infrastructure super-user credentials may be revealed after signing the Tier 2 addendum."
+    "body": "**Version:** 1.0 (draft)\n\nApplies to **Enterprise BYO** customers who operate their own ERP VM or cloud while using Vouus account portal, Work App, and API gateway.\n\n## Vouus provides\n\n- Account portal (billing, users, onboarding)\n- Work App and Zuplo API integration\n- Connector health monitoring (read-only where configured)\n\n## Customer provides and operates\n\n- ERP application VM or container host\n- OS patching, ERP major upgrades, database backup\n- Network path from Vouus gateway to your ERP endpoint\n\n## Support boundaries\n\nPlatform support covers Vouus-controlled services. ERP upgrade execution on your infrastructure is **professional services** unless otherwise contracted.\n\n## Credential tier\n\nEnterprise BYO defaults to **Tier 2** credential policy. Infrastructure super-user credentials may be revealed after signing the Tier 2 addendum."
   },
   "meta": {
     "productRepo": "web-public",
