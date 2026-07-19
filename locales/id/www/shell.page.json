@@ -2,8 +2,8 @@
   "pageId": "www.shell",
   "surface": "www",
   "route": "_shell",
-  "version": 3,
-  "sourceHash": "sha256:27ecf9746833e3fd22f067eed4f6a7958a90bd5a4650cea25f0d12198039f44a",
+  "version": 4,
+  "sourceHash": "sha256:99da78f5ae4a3e5a4ec7372aaaac5e4784680f13b1ddbe38fd71fabddeef6f40",
   "keys": {
     "path": "/",
     "nav_pricing": "Harga",
@@ -120,7 +120,16 @@
     "footer_4_item_1_label": "Karier",
     "footer_4_item_2_label": "Blog",
     "footer_4_item_3_label": "Pusat bantuan",
-    "footer_4_item_4_label": "Harga"
+    "footer_4_item_4_label": "Harga",
+    "demo_modal_title": "Pilih pengalaman {brand} Anda",
+    "demo_modal_close_aria": "Tutup",
+    "demo_modal_options_aria": "Opsi demo",
+    "demo_option_work_app_label": "Work App",
+    "demo_option_work_app_subtext": "Rasakan alur kerja karyawan harian dengan akun demo langsung.",
+    "demo_option_work_desk_label": "Work Desk",
+    "demo_option_work_desk_subtext": "Jelajahi administrasi, persetujuan, dan alur kerja bisnis.",
+    "demo_option_guided_label": "Panggilan 15 menit",
+    "demo_option_guided_subtext": "Temui spesialis produk dari jarak jauh untuk Q&A langsung dan panduan alur kerja."
   },
   "meta": {
     "productRepo": "web-public",

@@ -2,8 +2,8 @@
   "pageId": "www.shell",
   "surface": "www",
   "route": "_shell",
-  "version": 3,
-  "sourceHash": "sha256:27ecf9746833e3fd22f067eed4f6a7958a90bd5a4650cea25f0d12198039f44a",
+  "version": 4,
+  "sourceHash": "sha256:336466c620ae81487d0c47381bf5f27e7c3a355a5352edb5081c58a6e36172aa",
   "keys": {
     "path": "/",
     "nav_pricing": "Pricing",
@@ -120,7 +120,16 @@
     "footer_4_item_1_label": "Careers",
     "footer_4_item_2_label": "Blog",
     "footer_4_item_3_label": "Help Center",
-    "footer_4_item_4_label": "Pricing"
+    "footer_4_item_4_label": "Pricing",
+    "demo_modal_title": "Choose your {brand} experience",
+    "demo_modal_close_aria": "Close",
+    "demo_modal_options_aria": "Demo options",
+    "demo_option_work_app_label": "Work App",
+    "demo_option_work_app_subtext": "Experience the daily employee workflow with a live demo account.",
+    "demo_option_work_desk_label": "Work Desk",
+    "demo_option_work_desk_subtext": "Explore administration, approvals, and business workflows.",
+    "demo_option_guided_label": "15-min call",
+    "demo_option_guided_subtext": "Meet remotely with a product specialist for live Q&A and workflow guidance."
   },
   "meta": {
     "productRepo": "web-public",

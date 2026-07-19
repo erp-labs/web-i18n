@@ -36,7 +36,7 @@
     "productRepo": "core-platform",
     "sourcePath": "apps/admin-web /integrations/xero/migration/:jobId",
     "githubPath": "account/integrations.xero_migration.page.json",
-    "translationStatus": "reviewed",
+    "translationStatus": "ai_draft",
     "method": "cursor-ai"
   }
 }

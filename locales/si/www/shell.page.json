@@ -2,8 +2,8 @@
   "pageId": "www.shell",
   "surface": "www",
   "route": "_shell",
-  "version": 3,
-  "sourceHash": "sha256:27ecf9746833e3fd22f067eed4f6a7958a90bd5a4650cea25f0d12198039f44a",
+  "version": 4,
+  "sourceHash": "sha256:554046b066b2b3bbfcd60bb7f5d99090da1bda3c61ddebd98def4f1bb7ba632d",
   "keys": {
     "path": "/",
     "nav_pricing": "මිල ගණන්",
@@ -120,7 +120,16 @@
     "footer_4_item_1_label": "රැකියා අවස්ථා",
     "footer_4_item_2_label": "බ්ලොග්",
     "footer_4_item_3_label": "උදව් මධ්‍යස්ථානය",
-    "footer_4_item_4_label": "මිල ගණන්"
+    "footer_4_item_4_label": "මිල ගණන්",
+    "demo_modal_title": "ඔබේ {brand} අත්දැකීම තෝරන්න",
+    "demo_modal_close_aria": "වසන්න",
+    "demo_modal_options_aria": "Demo විකල්ප",
+    "demo_option_work_app_label": "Work App",
+    "demo_option_work_app_subtext": "සජීවී demo ගිණුමකින් දෛනික සේවක workflow අත්විඳින්න.",
+    "demo_option_work_desk_label": "Work Desk",
+    "demo_option_work_desk_subtext": "පරිපාලනය, අනුමත කිරීම් සහ ව්‍යාපාර workflow ගවේෂණය කරන්න.",
+    "demo_option_guided_label": "මිනිත්තු 15 කතාබස",
+    "demo_option_guided_subtext": "සජීවී Q&A සහ workflow මගපෙන්වීම සඳහා නිෂ්පාදන විශේෂඥයෙකු සමඟ දුරස්ථව හමුවන්න."
   },
   "meta": {
     "productRepo": "web-public",

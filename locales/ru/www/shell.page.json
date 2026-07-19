@@ -2,8 +2,8 @@
   "pageId": "www.shell",
   "surface": "www",
   "route": "_shell",
-  "version": 3,
-  "sourceHash": "sha256:27ecf9746833e3fd22f067eed4f6a7958a90bd5a4650cea25f0d12198039f44a",
+  "version": 4,
+  "sourceHash": "sha256:cb6df09d8547916fc0f1de1e84073b34326bc0923b671b7e4a99ff852668c560",
   "keys": {
     "path": "/",
     "nav_pricing": "Цены",
@@ -120,7 +120,16 @@
     "footer_4_item_1_label": "Карьера",
     "footer_4_item_2_label": "Блог",
     "footer_4_item_3_label": "Центр помощи",
-    "footer_4_item_4_label": "Цены"
+    "footer_4_item_4_label": "Цены",
+    "demo_modal_title": "Выберите формат знакомства с {brand}",
+    "demo_modal_close_aria": "Закрыть",
+    "demo_modal_options_aria": "Варианты демо",
+    "demo_option_work_app_label": "Work App",
+    "demo_option_work_app_subtext": "Оцените ежедневный рабочий процесс сотрудника на живом демо-аккаунте.",
+    "demo_option_work_desk_label": "Work Desk",
+    "demo_option_work_desk_subtext": "Изучите администрирование, согласования и бизнес-процессы.",
+    "demo_option_guided_label": "Звонок на 15 минут",
+    "demo_option_guided_subtext": "Встретьтесь удалённо со специалистом по продукту для живых вопросов и руководства по процессам."
   },
   "meta": {
     "productRepo": "web-public",

@@ -2,8 +2,8 @@
   "pageId": "www.shell",
   "surface": "www",
   "route": "_shell",
-  "version": 3,
-  "sourceHash": "sha256:27ecf9746833e3fd22f067eed4f6a7958a90bd5a4650cea25f0d12198039f44a",
+  "version": 4,
+  "sourceHash": "sha256:c8325966a10c311f3882990b3b0aefd1b8c13fb2f9aa5af1fbdfc48c2d2dfdb6",
   "keys": {
     "path": "/",
     "nav_pricing": "قیمتیں",
@@ -120,7 +120,16 @@
     "footer_4_item_1_label": "کیریئر",
     "footer_4_item_2_label": "بلاگ",
     "footer_4_item_3_label": "مدد مرکز",
-    "footer_4_item_4_label": "قیمتیں"
+    "footer_4_item_4_label": "قیمتیں",
+    "demo_modal_title": "اپنا {brand} تجربہ منتخب کریں",
+    "demo_modal_close_aria": "بند کریں",
+    "demo_modal_options_aria": "ڈیمو اختیارات",
+    "demo_option_work_app_label": "Work App",
+    "demo_option_work_app_subtext": "لائیو ڈیمو اکاؤنٹ کے ساتھ روزمرہ ملازم ورک فلو کا تجربہ کریں۔",
+    "demo_option_work_desk_label": "Work Desk",
+    "demo_option_work_desk_subtext": "انتظامیہ، منظوریوں اور کاروباری ورک فلو کو دریافت کریں۔",
+    "demo_option_guided_label": "15 منٹ کال",
+    "demo_option_guided_subtext": "لائیو سوال وجواب اور ورک فلو رہنمائی کے لیے پروڈکٹ ماہر سے دور سے ملیں۔"
   },
   "meta": {
     "productRepo": "web-public",

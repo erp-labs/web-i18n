@@ -2,8 +2,8 @@
   "pageId": "www.shell",
   "surface": "www",
   "route": "_shell",
-  "version": 3,
-  "sourceHash": "sha256:27ecf9746833e3fd22f067eed4f6a7958a90bd5a4650cea25f0d12198039f44a",
+  "version": 4,
+  "sourceHash": "sha256:70ee3e7ad6dcf25b4dca047bde978d1f13f788835204c06ffb976bc456b9a2a3",
   "keys": {
     "path": "/",
     "nav_pricing": "ราคา",
@@ -120,7 +120,16 @@
     "footer_4_item_1_label": "ร่วมงานกับเรา",
     "footer_4_item_2_label": "บล็อก",
     "footer_4_item_3_label": "ศูนย์ช่วยเหลือ",
-    "footer_4_item_4_label": "ราคา"
+    "footer_4_item_4_label": "ราคา",
+    "demo_modal_title": "เลือกประสบการณ์ {brand} ของคุณ",
+    "demo_modal_close_aria": "ปิด",
+    "demo_modal_options_aria": "ตัวเลือกเดโม",
+    "demo_option_work_app_label": "Work App",
+    "demo_option_work_app_subtext": "สัมผัสเวิร์กโฟลว์พนักงานรายวันด้วยบัญชีเดโมจริง",
+    "demo_option_work_desk_label": "Work Desk",
+    "demo_option_work_desk_subtext": "สำรวจการบริหาร การอนุมัติ และเวิร์กโฟลว์ธุรกิจ",
+    "demo_option_guided_label": "โทร 15 นาที",
+    "demo_option_guided_subtext": "พบผู้เชี่ยวชาญผลิตภัณฑ์แบบออนไลน์สำหรับถามตอบสดและคำแนะนำเวิร์กโฟลว์"
   },
   "meta": {
     "productRepo": "web-public",
