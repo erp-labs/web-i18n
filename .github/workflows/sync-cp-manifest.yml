@@ -26,7 +26,7 @@ jobs:
             exit 0
           fi
           MANIFEST=$(node -e "const fs=require('fs');const p=JSON.parse(fs.readFileSync('manifest/pages.json','utf8'));process.stdout.write(JSON.stringify({pages:p.pages??p}));")
-          curl -fsS -X POST "$CP_BASE_URL/internal/v1/i18n/sync-manifest" \
+          curl -fsS --max-time 60 -X POST "$CP_BASE_URL/internal/v1/i18n/sync-manifest" \
             -H "Authorization: Bearer $INTERNAL_API_KEY" \
             -H "Content-Type: application/json" \
             -d "$MANIFEST"
