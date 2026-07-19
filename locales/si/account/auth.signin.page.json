@@ -17,9 +17,9 @@
     "submit": "දිගටම කරගෙන යන්න",
     "submitLogin": "ඇතුල් වන්න",
     "submitSendCode": "සත්‍යාපන කේතය යවන්න",
-    "submitting": "යවමින්…",
-    "submittingLogin": "පුරනය වෙමින්…",
-    "submittingVerify": "සත්‍යාපනය කරමින්…",
+    "submitting": "යවමින්...",
+    "submittingLogin": "පුරනය වෙමින්...",
+    "submittingVerify": "සත්‍යාපනය කරමින්...",
     "emailLabel": "ඊතැපැල් ලිපිනය",
     "emailPlaceholder": "ඊතැපැල් ලිපිනය",
     "passwordLabel": "මුරපදය",
@@ -47,6 +47,6 @@
     "sourcePath": "apps/admin-web /login",
     "githubPath": "account/auth.signin.page.json",
     "translationStatus": "ai_draft",
-    "method": "login-funnel-i18n"
+    "method": "cursor-ai"
   }
 }

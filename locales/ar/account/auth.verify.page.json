@@ -6,12 +6,12 @@
   "sourceHash": "sha256:d99e1c700de571c41953cbd91e31d58db2a680c883620e8c67362e781b6e86c7",
   "keys": {
     "title": "التحقق من هويتك",
-    "intro": "يرجى إدخال الرمز لمرة واحدة الذي تم إرساله إلى بريدك الإلكتروني للمتابعة.",
-    "emailPrefix": "بريد إلكتروني:",
-    "sendUncertainBanner": "لم نتمكن من تأكيد التسليم، ولكن قد تكون رسالة التحقق موجودة بالفعل في صندوق الوارد الخاص بك. أدخل أحدث رمز أدناه.",
-    "verify": "يؤكد",
+    "intro": "يرجى إدخال الرمز المؤقت المُرسَل إلى بريدك الإلكتروني للمتابعة.",
+    "emailPrefix": "البريد الإلكتروني:",
+    "sendUncertainBanner": "تعذّر علينا تأكيد الإرسال، لكن قد يكون بريد التحقق موجودًا بالفعل في صندوق الوارد الخاص بك. أدخل أحدث رمز أدناه.",
+    "verify": "تحقق",
     "verifying": "جارٍ التحقق…",
-    "loading": "تحميل…",
+    "loading": "جارٍ التحميل…",
     "confirming": "جارٍ التأكيد…",
     "resendCode": "إعادة إرسال الرمز",
     "resendCodeIn": "إعادة إرسال الرمز في",
@@ -26,6 +26,6 @@
     "sourcePath": "apps/admin-web /login/verify",
     "githubPath": "account/auth.verify.page.json",
     "translationStatus": "ai_draft",
-    "method": "login-funnel-i18n"
+    "method": "cursor-ai"
   }
 }

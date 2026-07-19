@@ -10,8 +10,8 @@
     "emailPrefix": "විද්‍යුත් තැපෑල:",
     "sendUncertainBanner": "අපට බෙදා හැරීම තහවුරු කළ නොහැකි විය, නමුත් සත්‍යාපන ඊමේල් දැනටමත් ඔබගේ එන ලිපි තුළ තිබිය හැක. පහත නවතම කේතය ඇතුලත් කරන්න.",
     "verify": "තහවුරු කරන්න",
-    "verifying": "සත්‍යාපනය කරමින්…",
-    "loading": "පූරණය වෙමින්…",
+    "verifying": "සත්‍යාපනය කරමින්...",
+    "loading": "පූරණය වෙමින්...",
     "confirming": "තහවුරු කරමින්…",
     "resendCode": "කේතය නැවත යවන්න",
     "resendCodeIn": "කේතය නැවත යවන්න",
@@ -26,6 +26,6 @@
     "sourcePath": "apps/admin-web /login/verify",
     "githubPath": "account/auth.verify.page.json",
     "translationStatus": "ai_draft",
-    "method": "login-funnel-i18n"
+    "method": "cursor-ai"
   }
 }

@@ -10,8 +10,8 @@
     "emailPrefix": "ईमेल:",
     "sendUncertainBanner": "हम डिलीवरी की पुष्टि नहीं कर सके, लेकिन एक सत्यापन ईमेल पहले से ही आपके इनबॉक्स में हो सकता है। नीचे नवीनतम कोड दर्ज करें.",
     "verify": "सत्यापित करें",
-    "verifying": "सत्यापन किया जा रहा है…",
-    "loading": "लोड हो रहा है…",
+    "verifying": "सत्यापन किया जा रहा है...",
+    "loading": "लोड हो रहा है...",
     "confirming": "पुष्टि हो रही है…",
     "resendCode": "पुन: कोड भेजे",
     "resendCodeIn": "कोड पुनः भेजें",
@@ -26,6 +26,6 @@
     "sourcePath": "apps/admin-web /login/verify",
     "githubPath": "account/auth.verify.page.json",
     "translationStatus": "ai_draft",
-    "method": "login-funnel-i18n"
+    "method": "cursor-ai"
   }
 }

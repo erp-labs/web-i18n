@@ -17,9 +17,9 @@
     "submit": "जारी रखना",
     "submitLogin": "लॉग इन करें",
     "submitSendCode": "सत्यापन कोड भेजें",
-    "submitting": "भेजा जा रहा है…",
+    "submitting": "भेजा जा रहा है...",
     "submittingLogin": "प्रवेश किया…",
-    "submittingVerify": "सत्यापन किया जा रहा है…",
+    "submittingVerify": "सत्यापन किया जा रहा है...",
     "emailLabel": "मेल पता",
     "emailPlaceholder": "मेल पता",
     "passwordLabel": "पासवर्ड",
@@ -47,6 +47,6 @@
     "sourcePath": "apps/admin-web /login",
     "githubPath": "account/auth.signin.page.json",
     "translationStatus": "ai_draft",
-    "method": "login-funnel-i18n"
+    "method": "cursor-ai"
   }
 }

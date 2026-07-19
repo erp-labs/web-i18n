@@ -1,9 +1,9 @@
 {
   "pageId": "app.checkin",
   "surface": "app",
-  "route": "/{companyId}/{locale}/checkin",
+  "route": "/{companyId}/{locale}/check-in",
   "version": 1,
-  "sourceHash": "sha256:f7ed7a90d63d5323bc135dbc4b6c19d96623b6061204a8b95e87cf2c7d847506",
+  "sourceHash": "sha256:cd490b783bf77b197e8c56a66eb587c36ce8571e875a8164db3a00a85ebad500",
   "keys": {
     "title": "Time Tracking",
     "office": "Office",
@@ -29,7 +29,9 @@
     "approxHoursPrefix": "approx. ",
     "noAttendanceYet": "No attendance records yet",
     "startByCheckingIn": "Check in to start tracking your work hours here",
-    "startCheckInCta": "Start check-in"
+    "startCheckInCta": "Start check-in",
+    "checkOutFailed": "Check-out could not be saved. Your earlier attendance may need to be reset.",
+    "staleOpenSessionWarning": "You have an open check-in from a previous day. Check-out may fail until attendance records are corrected."
   },
   "meta": {
     "productRepo": "core-platform",

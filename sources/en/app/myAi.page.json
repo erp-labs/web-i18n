@@ -3,10 +3,12 @@
   "surface": "app",
   "route": "/{companyId}/{locale}/my-ai",
   "version": 1,
-  "sourceHash": "sha256:643fcdc5c7d3f7c0a54ae4246602acdf7450db7070a56ac78b5c3babce70ef1c",
+  "sourceHash": "sha256:1b5c8bc89e1567517360ae1f8c988da0530668a79bc13bae68fecdb5e5a17c47",
   "keys": {
     "title": "AI Agent",
     "newChat": "New chat",
+    "noChatsYet": "No chats yet",
+    "noChatsHint": "Start a new conversation from the composer.",
     "navMegaSectionLabel": "AI Agent",
     "navAssistantTitle": "Assistant",
     "navAssistantDescription": "Chat with AI for policies, HR, and daily work — open a fresh conversation.",

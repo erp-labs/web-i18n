@@ -5,10 +5,10 @@
   "version": 2,
   "sourceHash": "sha256:d99e1c700de571c41953cbd91e31d58db2a680c883620e8c67362e781b6e86c7",
   "keys": {
-    "title": "Xác minh danh tính của bạn",
-    "intro": "Vui lòng nhập mã một lần được gửi đến email của bạn để tiếp tục.",
-    "emailPrefix": "E-mail:",
-    "sendUncertainBanner": "Chúng tôi không thể xác nhận việc gửi nhưng email xác minh có thể đã có trong hộp thư đến của bạn. Nhập mã mới nhất bên dưới.",
+    "title": "Xác minh danh tính",
+    "intro": "Vui lòng nhập mã một lần đã gửi đến email để tiếp tục.",
+    "emailPrefix": "Email:",
+    "sendUncertainBanner": "Chúng tôi không thể xác nhận đã gửi, nhưng email xác minh có thể đã có trong hộp thư. Nhập mã mới nhất bên dưới.",
     "verify": "Xác minh",
     "verifying": "Đang xác minh…",
     "loading": "Đang tải…",
@@ -26,6 +26,6 @@
     "sourcePath": "apps/admin-web /login/verify",
     "githubPath": "account/auth.verify.page.json",
     "translationStatus": "ai_draft",
-    "method": "login-funnel-i18n"
+    "method": "cursor-ai"
   }
 }

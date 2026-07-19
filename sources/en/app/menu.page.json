@@ -3,11 +3,12 @@
   "surface": "app",
   "route": "/{companyId}/{locale}/menu",
   "version": 1,
-  "sourceHash": "sha256:212d6240ac5fd2f9995a06779ea9b967e26f1b47c0c77e17eb896741d020ba50",
+  "sourceHash": "sha256:9c41074394ed74e34faca64407864a68acf98a8b2e7061fff2711321c07403bc",
   "keys": {
     "checkIn": "Check-in",
     "leaves": "Leaves",
     "expenses": "Expenses",
+    "payroll": "Payroll",
     "checklist": "Checklist",
     "myAi": "AI Agent",
     "billing": "Billing",
@@ -19,6 +20,7 @@
     "crm": "CRM",
     "accounting": "Accounting",
     "payment": "Payment",
+    "financialReports": "Financial Reports",
     "reservation": "Reservation",
     "calendar": "Calendar",
     "mailing": "Mailing"

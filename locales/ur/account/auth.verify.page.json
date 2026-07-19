@@ -26,6 +26,6 @@
     "sourcePath": "apps/admin-web /login/verify",
     "githubPath": "account/auth.verify.page.json",
     "translationStatus": "ai_draft",
-    "method": "login-funnel-i18n"
+    "method": "cursor-ai"
   }
 }

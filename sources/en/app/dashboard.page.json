@@ -1,12 +1,13 @@
 {
   "pageId": "app.dashboard",
   "surface": "app",
-  "route": "/{companyId}/{locale}/dashboard",
+  "route": "/{companyId}/{locale}/",
   "version": 1,
-  "sourceHash": "sha256:7e65ed02e2049b6d58e98a10d579857004b712c7e02a23eabd58e206643b9133",
+  "sourceHash": "sha256:6bca2fd7db843a8d40a4aa9efc81d43a93d3882ba68ffff04f67687586b58cc1",
   "keys": {
     "viewDetails": "View details",
     "subtitle": "Overview of HR, customers, accounts, performance, and AI usage.",
+    "emptyHint": "No activity data yet for this period. Run ERP seed or complete onboarding to populate the dashboard.",
     "titles": {
       "company": "Company Dashboard",
       "team": "Team Dashboard",
@@ -34,8 +35,14 @@
       "leaveNextMonth": "On leave next month",
       "expenses": "Expenses this month",
       "expensePaid": "Paid",
+      "expensePending": "Pending",
       "expenseRejected": "Rejected",
       "customersTotal": "Total customers",
+      "customersNewThisMonth": "New this month",
+      "customersWithContact": "With contact info",
+      "customersWithContactPercent": "Share",
+      "customersCompanyShare": "Company customers",
+      "customersCompanyPercent": "Share",
       "crmActiveDeals": "Active deals",
       "crmOpenLeads": "Open leads",
       "emailsSent": "Emails sent",
@@ -45,6 +52,7 @@
       "revenue": "Revenue",
       "revenueTrend": "vs last month",
       "outstanding": "Outstanding",
+      "paidCount": "Paid",
       "checklistSuccess": "Checklist success rate",
       "successMonth": "This month",
       "successDay": "Today",
@@ -61,7 +69,9 @@
       "revenue": "Revenue",
       "expenses": "Expenses",
       "outstanding": "Outstanding",
-      "newCustomers": "New customers"
+      "newCustomers": "New customers",
+      "customerGrowth": "Customer growth",
+      "customerEmails": "Email activity"
     },
     "activity": {
       "title": "Employee activity",

@@ -1,9 +1,9 @@
 {
   "pageId": "app.moduleGuide",
   "surface": "app",
-  "route": "/{companyId}/{locale}/moduleGuide",
+  "route": "/{companyId}/{locale}/module-guide",
   "version": 1,
-  "sourceHash": "sha256:2d2ae540edb3d9abcf3c2c67f99a19dc786c38d2080429b6c9bde672f2a6b4b6",
+  "sourceHash": "sha256:b8680d9713926ca546b9d5efa16149212053849046b197f6814a82bb465613d2",
   "keys": {
     "common": {
       "showGuide": "How it works",
@@ -41,7 +41,7 @@
       "howTitle": "How to use the checklist",
       "howStep1": "Tap + to create a task with a name and due date.",
       "howStep2": "Mark tasks done as you complete them.",
-      "howStep3": "Track overall progress on the overview bar.",
+      "howStep3": "Review to do, done, and due today counts on the overview bar.",
       "startTitle": "Create your first task",
       "startBody": "Start with one small task due today.",
       "startCta": "Add task"
@@ -60,9 +60,13 @@
     "customers": {
       "whatTitle": "Your customer list",
       "whatBody": "Browse ERP customers synced from your company workspace.",
-      "howTitle": "Need pipeline or deals?",
-      "howStep1": "Use Open in CRM for Frappe CRM on your tenant host.",
-      "howStep2": "Use Work Desk for full ERP customer records and accounting links."
+      "howTitle": "How to manage customers",
+      "howStep1": "Tap + to add a customer with contact and billing details.",
+      "howStep2": "Search and filter by type or group to find accounts quickly.",
+      "howStep3": "Open a customer to view details or create an invoice.",
+      "startTitle": "Add your first customer",
+      "startBody": "Start with one account — you can link invoices later.",
+      "startCta": "Add customer"
     },
     "leaves": {
       "whatTitle": "Request time off",
@@ -81,6 +85,17 @@
       "howTitle": "Managing notices",
       "howStep1": "Read published announcements on this page.",
       "howStep2": "If you have write access, use + to publish or edit announcements."
+    },
+    "mailing": {
+      "whatTitle": "Email campaigns",
+      "whatBody": "Create and send email campaigns to your audience from your ERP workspace.",
+      "howTitle": "How to create a campaign",
+      "howStep1": "Tap + to start a new campaign with a name and subject.",
+      "howStep2": "Save as draft, then schedule or send when ready.",
+      "howStep3": "Track opens, clicks, and delivery status on the campaign list.",
+      "startTitle": "Create your first campaign",
+      "startBody": "Start with a draft — you can refine content before sending.",
+      "startCta": "New campaign"
     }
   },
   "meta": {

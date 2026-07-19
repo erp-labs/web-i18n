@@ -3,7 +3,7 @@
   "surface": "app",
   "route": "/{companyId}/{locale}/leaves",
   "version": 1,
-  "sourceHash": "sha256:8e118fe61edc02dc066e371a94f9db52f5d31f01ce52c71345cfa20af7587561",
+  "sourceHash": "sha256:19b0a51088a7256c30ddd26790fb9450c292724758f1c90a72a6c47f66da26a3",
   "keys": {
     "title": "Leaves",
     "leaveType": "Leave type",
@@ -16,6 +16,7 @@
     "submitRequest": "Submit request",
     "requestSubmitted": "Leave request submitted",
     "requestSubmitFailed": "Could not submit your request. Please try again.",
+    "pendingApprovalsHint": "Pending leave approvals are shown in your leave history below.",
     "sickLeave": "Sick Leave",
     "hospitalisationLeave": "Hospitalisation Leave",
     "maternityLeave": "Maternity Leave",

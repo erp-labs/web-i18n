@@ -24,7 +24,8 @@ permissions:
 
 jobs:
   sync-core-platform:
-    runs-on: [self-hosted, erp-labs, hetzner]
+    # Temporary: Hetzner self-hosted runner offline. Revert when erp-labs-hetzner-01 is healthy.
+    runs-on: ubuntu-latest
     steps:
       - name: Require cross-repo token
         id: token
@@ -85,7 +86,8 @@ jobs:
           labels: i18n-sync
 
   sync-web-public:
-    runs-on: [self-hosted, erp-labs, hetzner]
+    # Temporary: Hetzner self-hosted runner offline. Revert when erp-labs-hetzner-01 is healthy.
+    runs-on: ubuntu-latest
     steps:
       - name: Require cross-repo token
         id: token
@@ -143,7 +145,8 @@ jobs:
           labels: i18n-sync
 
   sync-infra-email:
-    runs-on: [self-hosted, erp-labs, hetzner]
+    # Temporary: Hetzner self-hosted runner offline. Revert when erp-labs-hetzner-01 is healthy.
+    runs-on: ubuntu-latest
     steps:
       - name: Require cross-repo token
         id: token

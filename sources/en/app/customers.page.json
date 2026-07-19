@@ -3,13 +3,18 @@
   "surface": "app",
   "route": "/{companyId}/{locale}/customers",
   "version": 1,
-  "sourceHash": "sha256:61067337637e4f6d436dc63c96b04ae7a8d84e81e84f57bf1efa887a303b5da3",
+  "sourceHash": "sha256:cddf4b716e245037acaf8f886a3080f2368b4a6c0f2839ec1a1368dca164391f",
   "keys": {
     "title": "Customers",
     "subtitle": "Customers synced from your ERP workspace.",
     "empty": "No customers yet",
     "emptyHint": "Customers from your ERP will appear here.",
     "loadError": "Could not load customers",
+    "detailLoadError": "Could not load this customer",
+    "detailNotFound": "Customer not found",
+    "detailUnavailable": "ERP is temporarily unavailable. Try again in a moment.",
+    "detailRetry": "Try again",
+    "detailBackToList": "Back to customer list",
     "createError": "Could not create customer",
     "createErrorTitle": "Submission failed",
     "updateError": "Could not update customer",
@@ -28,6 +33,8 @@
     "filterGroup": "Group",
     "filterAll": "All",
     "countLabel": "Customers ({count})",
+    "countSubtitle": "{count} customers",
+    "detailBack": "Customer details",
     "noFilterResults": "No customers match your filters.",
     "summary": {
       "total": "Total customers",
@@ -120,7 +127,8 @@
     "mailingNewCampaign": "New campaign",
     "mailingColumnName": "Campaign",
     "mailingColumnStatus": "Status",
-    "mailingNoEmail": "Add an email to this customer to use mailing."
+    "mailingNoEmail": "Add an email to this customer to use mailing.",
+    "mailingEmailThisCustomer": "Email this customer"
   },
   "meta": {
     "productRepo": "core-platform",
