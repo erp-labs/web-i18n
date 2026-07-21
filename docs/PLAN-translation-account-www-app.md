@@ -4,6 +4,8 @@
 
 플랫폼 개요: [PLAN-ko.md](./PLAN-ko.md) · English: [PLAN-en.md](./PLAN-en.md)
 
+**app 잔여 갭 (키 패리티 이후 EN-same·하드코딩·로케일 분기):** sibling core-platform [`apps/employee-web/docs/planning/work-app-i18n-remaining-gaps-plan.md`](../../core-platform/apps/employee-web/docs/planning/work-app-i18n-remaining-gaps-plan.md) · Work App 전면 패리티: [PLAN-work-app-full-i18n-parity-ko.md](./PLAN-work-app-full-i18n-parity-ko.md)
+
 ---
 
 ## 1. 범위 정의
