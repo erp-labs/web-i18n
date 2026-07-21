@@ -7,7 +7,26 @@
   "keys": {
     "title": "Tích hợp",
     "subtitle": "Kết nối công cụ bên ngoài với workspace của Quý vị.",
-    "loadError": "Không thể tải tích hợp."
+    "loadError": "Không thể tải tích hợp.",
+    "ctaAdd": "Add",
+    "ctaManage": "Manage",
+    "ctaView": "View",
+    "ctaComingSoon": "Coming soon",
+    "ctaOpenPortal": "Open portal",
+    "ctaManageBilling": "Manage billing",
+    "ctaOpen": "Open",
+    "connectModalCancel": "Cancel",
+    "connectModalAuthenticate": "Authenticate",
+    "connectModalSaveConnect": "Save & connect",
+    "connectModalSaving": "Saving…",
+    "connectModalRedirecting": "Redirecting…",
+    "connectModalError": "Connection failed. Try again.",
+    "connectModalClose": "Close",
+    "connectModalWebhookProvision": "Provision webhook",
+    "connectModalWebhookProvisioning": "Provisioning…",
+    "connectModalWebhookHint": "Provision an inbound URL and signing secret for automation and event routing.",
+    "connectModalWebhookSecretHint": "Copy once — signing secret",
+    "connectModalSuccess": "{displayName} connected successfully."
   },
   "meta": {
     "productRepo": "core-platform",
