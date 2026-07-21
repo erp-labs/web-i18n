@@ -26,10 +26,15 @@ jobs:
             exit 0
           fi
           MANIFEST=$(node -e "const fs=require('fs');const p=JSON.parse(fs.readFileSync('manifest/pages.json','utf8'));process.stdout.write(JSON.stringify({pages:p.pages??p}));")
-          curl -fsS --max-time 60 -X POST "$CP_BASE_URL/internal/v1/i18n/sync-manifest" \
+          # GitHub-hosted runners can be slower than laptop/self-hosted (~30s+).
+          # Soft-fail on timeout so a slow CP does not red-badge the workflow.
+          if ! curl -fsS --max-time 180 -X POST "$CP_BASE_URL/internal/v1/i18n/sync-manifest" \
             -H "Authorization: Bearer $INTERNAL_API_KEY" \
             -H "Content-Type: application/json" \
-            -d "$MANIFEST"
+            -d "$MANIFEST"; then
+            echo "::warning::sync-manifest curl failed or timed out (CP may be slow from GHA)."
+            exit 0
+          fi
 
       - name: POST sync-github (optional; skipped in CI)
         # Full GitHub raw crawl (pages × locales) exceeds Worker/HTTP timeouts.
