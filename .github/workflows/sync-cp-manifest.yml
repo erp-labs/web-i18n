@@ -11,8 +11,8 @@ on:
 
 jobs:
   sync-manifest:
-    # Temporary: Hetzner self-hosted runner offline. Revert when erp-labs-hetzner-01 is healthy.
-    runs-on: [self-hosted, erp-labs, hetzner]
+    # Self-hosted erp-labs-hetzner offline / queued — use ubuntu-latest until runner is healthy.
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
