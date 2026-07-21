@@ -9,7 +9,7 @@ jobs:
   validate:
     # Temporary: Hetzner self-hosted runner offline (jobs stuck queued). Revert to
     # [self-hosted, erp-labs, hetzner] when erp-labs-hetzner-01 is healthy again.
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, erp-labs, hetzner]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
