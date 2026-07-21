@@ -7,7 +7,26 @@
   "keys": {
     "title": "集成",
     "subtitle": "将外部工具连接到您的工作区。",
-    "loadError": "加载集成失败。"
+    "loadError": "加载集成失败。",
+    "ctaAdd": "添加",
+    "ctaManage": "管理",
+    "ctaView": "查看",
+    "ctaComingSoon": "即将推出",
+    "ctaOpenPortal": "打开门户",
+    "ctaManageBilling": "管理账单",
+    "ctaOpen": "打开",
+    "connectModalCancel": "取消",
+    "connectModalAuthenticate": "认证",
+    "connectModalSaveConnect": "保存并连接",
+    "connectModalSaving": "保存中…",
+    "connectModalRedirecting": "正在跳转…",
+    "connectModalError": "连接失败，请重试。",
+    "connectModalClose": "关闭",
+    "connectModalWebhookProvision": "配置 Webhook",
+    "connectModalWebhookProvisioning": "配置中…",
+    "connectModalWebhookHint": "为自动化和事件路由配置入站 URL 和签名密钥。",
+    "connectModalWebhookSecretHint": "仅可复制一次 — 签名密钥",
+    "connectModalSuccess": "{displayName} 已成功连接。"
   },
   "meta": {
     "productRepo": "core-platform",

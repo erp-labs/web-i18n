@@ -4,7 +4,7 @@
 > **예시 테넌트:** `starhub` → `https://app.vouus.com/starhub`  
 > **목표:** [www.vouus.com](https://www.vouus.com)과 동일한 **14개 로케일**을 Work App 전 페이지에서 설정·유지  
 > **상태:** 구현 반영 (2026-07-19) — middleware 14로케일, 번역 커버리지 ~96–98%, RTL `ur` 정렬, web-i18n import  
-> **관련:** [PLAN-translation-account-www-app.md](./PLAN-translation-account-www-app.md) (app Phase B/C 대체·확장) · [PLAN-locale-persistence-cross-domain-ko.md](./PLAN-locale-persistence-cross-domain-ko.md)
+> **관련:** [PLAN-translation-account-www-app.md](./PLAN-translation-account-www-app.md) (app Phase B/C 대체·확장) · [PLAN-locale-persistence-cross-domain-ko.md](./PLAN-locale-persistence-cross-domain-ko.md) · **잔여 갭:** sibling core-platform [`work-app-i18n-remaining-gaps-plan.md`](../../core-platform/apps/employee-web/docs/planning/work-app-i18n-remaining-gaps-plan.md)
 
 플랫폼 개요: [PLAN-ko.md](./PLAN-ko.md) · English: [PLAN-en.md](./PLAN-en.md)
 

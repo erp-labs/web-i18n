@@ -7,7 +7,26 @@
   "keys": {
     "title": "انضمام",
     "subtitle": "بیرونی ٹولز کو اپنے ورک اسپیس سے مربوط کریں۔",
-    "loadError": "انٹیگریشنز لوڈ کرنے میں ناکام۔"
+    "loadError": "انضمام لوڈ کرنے میں ناکام۔",
+    "ctaAdd": "شامل کریں",
+    "ctaManage": "منتظم کریں",
+    "ctaView": "دیکھیں",
+    "ctaComingSoon": "جلد آرہا ہے",
+    "ctaOpenPortal": "پورٹل کھولیں",
+    "ctaManageBilling": "بلنگ منظم کریں",
+    "ctaOpen": "کھولیں",
+    "connectModalCancel": "منسوخ",
+    "connectModalAuthenticate": "تصدیق",
+    "connectModalSaveConnect": "محفوظ کریں اور مربوط کریں",
+    "connectModalSaving": "محفوظ ہو رہا ہے…",
+    "connectModalRedirecting": "ری ڈائریکٹ ہو رہا ہے…",
+    "connectModalError": "کنکشن ناکام۔ دوبارہ کوشش کریں۔",
+    "connectModalClose": "بند کریں",
+    "connectModalWebhookProvision": "webhook فراہم کریں",
+    "connectModalWebhookProvisioning": "فراہم ہو رہا ہے…",
+    "connectModalWebhookHint": "آٹomation اور event routing کے لیے inbound URL اور signing secret فراہم کریں۔",
+    "connectModalWebhookSecretHint": "ایک بار کاپی کریں — signing secret",
+    "connectModalSuccess": "{displayName} کامیابی سے منسلک ہو گیا۔"
   },
   "meta": {
     "productRepo": "core-platform",
