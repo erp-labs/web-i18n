@@ -43,7 +43,14 @@
     "desc_team_complete": "အသင်းအား ဖိတ်ကြားပြီး Work Desk ရရှိနိုင်ပါသည်။",
     "desc_team_unlock": "အလုပ်နေရာ သတ်မှတ်မှု ပြီးသွားသောအခါ လော့ခ်ဖွင့်သည်။",
     "desc_team_open_desk": "စတင်ရန် Work Desk ကိုဖွင့်ပါ။",
-    "desc_team_invite": "ဝန်ထမ်းပေါ်တယ်တွင် သင်၏ပထမဆုံးဝန်ထမ်းကို ဖိတ်ကြားပါ။"
+    "desc_team_invite": "ဝန်ထမ်းပေါ်တယ်တွင် သင်၏ပထမဆုံးဝန်ထမ်းကို ဖိတ်ကြားပါ။",
+    "dialogContinue": "ဆက်ရန်",
+    "dialogLater": "နောက်မှ",
+    "nudge_workspace_setup": "Finish workspace company and platform details.",
+    "nudge_subscription": "Activate or choose your plan.",
+    "nudge_profile_p0": "Add required contact details for support.",
+    "nudge_team": "Invite your first teammate on the employee portal.",
+    "nudge_profile_p1": "Add billing and legal details (recommended)."
   },
   "meta": {
     "productRepo": "core-platform",

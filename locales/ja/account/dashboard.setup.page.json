@@ -43,7 +43,14 @@
     "desc_team_complete": "チームが招待されており、Work Desk が利用可能です。",
     "desc_team_unlock": "ワークスペースのセットアップが完了するとロックが解除されます。",
     "desc_team_open_desk": "開始するには、Work Desk を開いてください。",
-    "desc_team_invite": "従業員ポータルで最初の従業員を招待します。"
+    "desc_team_invite": "従業員ポータルで最初の従業員を招待します。",
+    "dialogContinue": "続く",
+    "dialogLater": "後で",
+    "nudge_workspace_setup": "ワークスペースの会社情報とプラットフォーム選択を完了してください。",
+    "nudge_subscription": "プランを有効化または選択してください。",
+    "nudge_profile_p0": "サポート用の必須連絡先を追加してください。",
+    "nudge_team": "従業員ポータルで最初のチームメンバーを招待してください。",
+    "nudge_profile_p1": "請求・法務情報を追加してください（推奨）。"
   },
   "meta": {
     "productRepo": "core-platform",

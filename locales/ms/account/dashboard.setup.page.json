@@ -43,7 +43,14 @@
     "desc_team_complete": "Pasukan dijemput dan Work Desk tersedia.",
     "desc_team_unlock": "Membuka kunci apabila persediaan ruang kerja selesai.",
     "desc_team_open_desk": "Buka Work Desk untuk bermula.",
-    "desc_team_invite": "Jemput pekerja pertama anda di portal pekerja."
+    "desc_team_invite": "Jemput pekerja pertama anda di portal pekerja.",
+    "dialogContinue": "teruskan",
+    "dialogLater": "Kemudian",
+    "nudge_workspace_setup": "Finish workspace company and platform details.",
+    "nudge_subscription": "Activate or choose your plan.",
+    "nudge_profile_p0": "Add required contact details for support.",
+    "nudge_team": "Invite your first teammate on the employee portal.",
+    "nudge_profile_p1": "Add billing and legal details (recommended)."
   },
   "meta": {
     "productRepo": "core-platform",

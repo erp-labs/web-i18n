@@ -43,7 +43,14 @@
     "desc_team_complete": "ทีมที่ได้รับเชิญและWork Deskว่าง",
     "desc_team_unlock": "ปลดล็อกเมื่อการตั้งค่าพื้นที่ทำงานเสร็จสิ้น",
     "desc_team_open_desk": "เปิด Work Desk เพื่อเริ่มต้น",
-    "desc_team_invite": "เชิญพนักงานคนแรกของคุณบนพอร์ทัลพนักงาน"
+    "desc_team_invite": "เชิญพนักงานคนแรกของคุณบนพอร์ทัลพนักงาน",
+    "dialogContinue": "ดำเนินการต่อ",
+    "dialogLater": "ไว้ทีหลัง",
+    "nudge_workspace_setup": "Finish workspace company and platform details.",
+    "nudge_subscription": "Activate or choose your plan.",
+    "nudge_profile_p0": "Add required contact details for support.",
+    "nudge_team": "Invite your first teammate on the employee portal.",
+    "nudge_profile_p1": "Add billing and legal details (recommended)."
   },
   "meta": {
     "productRepo": "core-platform",

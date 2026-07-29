@@ -43,7 +43,14 @@
     "desc_team_complete": "已邀请团队，并且有 0 可用。",
     "desc_team_unlock": "工作区设置完成后解锁。",
     "desc_team_open_desk": "打开 0 即可开始。",
-    "desc_team_invite": "在员工门户上邀请您的第一位员工。"
+    "desc_team_invite": "在员工门户上邀请您的第一位员工。",
+    "dialogContinue": "继续",
+    "dialogLater": "稍后",
+    "nudge_workspace_setup": "请完成工作区公司信息与平台选择。",
+    "nudge_subscription": "请激活或选择套餐。",
+    "nudge_profile_p0": "请添加支持所需的联系方式。",
+    "nudge_team": "请在员工门户邀请首位团队成员。",
+    "nudge_profile_p1": "请添加账单与法律信息（推荐）。"
   },
   "meta": {
     "productRepo": "core-platform",

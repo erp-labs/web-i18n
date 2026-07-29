@@ -43,7 +43,14 @@
     "desc_team_complete": "කණ්ඩායමට ආරාධනා කර ඇති අතර Work Desk ඇත.",
     "desc_team_unlock": "වැඩබිම් පිහිටුවීම සම්පූර්ණ වූ විට අගුලු හරියි.",
     "desc_team_open_desk": "ආරම්භ කිරීමට 0  විවෘත කරන්න.",
-    "desc_team_invite": "සේවක ද්වාරය මත ඔබේ පළමු සේවකයාට ආරාධනා කරන්න."
+    "desc_team_invite": "සේවක ද්වාරය මත ඔබේ පළමු සේවකයාට ආරාධනා කරන්න.",
+    "dialogContinue": "දිගටම කරගෙන යන්න",
+    "dialogLater": "පසුව",
+    "nudge_workspace_setup": "Finish workspace company and platform details.",
+    "nudge_subscription": "Activate or choose your plan.",
+    "nudge_profile_p0": "Add required contact details for support.",
+    "nudge_team": "Invite your first teammate on the employee portal.",
+    "nudge_profile_p1": "Add billing and legal details (recommended)."
   },
   "meta": {
     "productRepo": "core-platform",
