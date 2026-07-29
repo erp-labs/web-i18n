@@ -43,7 +43,14 @@
     "desc_team_complete": "تمت دعوة الفريق و Work Desk متاح.",
     "desc_team_unlock": "يتم فتحه عند اكتمال إعداد مساحة العمل.",
     "desc_team_open_desk": "افتح Work Desk للبدء.",
-    "desc_team_invite": "قم بدعوة موظفك الأول على بوابة الموظف."
+    "desc_team_invite": "قم بدعوة موظفك الأول على بوابة الموظف.",
+    "dialogContinue": "يكمل",
+    "dialogLater": "لاحقاً",
+    "nudge_workspace_setup": "Finish workspace company and platform details.",
+    "nudge_subscription": "Activate or choose your plan.",
+    "nudge_profile_p0": "Add required contact details for support.",
+    "nudge_team": "Invite your first teammate on the employee portal.",
+    "nudge_profile_p1": "Add billing and legal details (recommended)."
   },
   "meta": {
     "productRepo": "core-platform",

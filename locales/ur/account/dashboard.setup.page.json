@@ -43,7 +43,14 @@
     "desc_team_complete": "ٹیم مدعو ہے اور Work Desk دستیاب ہے۔",
     "desc_team_unlock": "ورک اسپیس سیٹ اپ مکمل ہونے پر غیر مقفل ہوجاتا ہے۔",
     "desc_team_open_desk": "شروع کرنے کے لیے Work Desk کھولیں۔",
-    "desc_team_invite": "اپنے پہلے ملازم کو ایمپلائی پورٹل پر مدعو کریں۔"
+    "desc_team_invite": "اپنے پہلے ملازم کو ایمپلائی پورٹل پر مدعو کریں۔",
+    "dialogContinue": "جاری رکھیں",
+    "dialogLater": "بعد میں",
+    "nudge_workspace_setup": "Finish workspace company and platform details.",
+    "nudge_subscription": "Activate or choose your plan.",
+    "nudge_profile_p0": "Add required contact details for support.",
+    "nudge_team": "Invite your first teammate on the employee portal.",
+    "nudge_profile_p1": "Add billing and legal details (recommended)."
   },
   "meta": {
     "productRepo": "core-platform",

@@ -43,7 +43,14 @@
     "desc_team_complete": "Đội được mời và Work Desk có sẵn.",
     "desc_team_unlock": "Mở khóa khi quá trình thiết lập không gian làm việc hoàn tất.",
     "desc_team_open_desk": "Mở Work Desk để bắt đầu.",
-    "desc_team_invite": "Mời nhân viên đầu tiên của bạn trên cổng thông tin nhân viên."
+    "desc_team_invite": "Mời nhân viên đầu tiên của bạn trên cổng thông tin nhân viên.",
+    "dialogContinue": "Tiếp tục",
+    "dialogLater": "Để sau",
+    "nudge_workspace_setup": "Finish workspace company and platform details.",
+    "nudge_subscription": "Activate or choose your plan.",
+    "nudge_profile_p0": "Add required contact details for support.",
+    "nudge_team": "Invite your first teammate on the employee portal.",
+    "nudge_profile_p1": "Add billing and legal details (recommended)."
   },
   "meta": {
     "productRepo": "core-platform",

@@ -43,7 +43,14 @@
     "desc_team_complete": "Команда приглашена, Work Desk доступен.",
     "desc_team_unlock": "Разблокируется после завершения настройки рабочего пространства.",
     "desc_team_open_desk": "Откройте Work Desk, чтобы начать.",
-    "desc_team_invite": "Пригласите своего первого сотрудника на портале сотрудников."
+    "desc_team_invite": "Пригласите своего первого сотрудника на портале сотрудников.",
+    "dialogContinue": "Продолжать",
+    "dialogLater": "Позже",
+    "nudge_workspace_setup": "Finish workspace company and platform details.",
+    "nudge_subscription": "Activate or choose your plan.",
+    "nudge_profile_p0": "Add required contact details for support.",
+    "nudge_team": "Invite your first teammate on the employee portal.",
+    "nudge_profile_p1": "Add billing and legal details (recommended)."
   },
   "meta": {
     "productRepo": "core-platform",

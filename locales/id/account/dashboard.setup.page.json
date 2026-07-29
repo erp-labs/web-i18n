@@ -43,7 +43,14 @@
     "desc_team_complete": "Tim diundang dan Work Desk tersedia.",
     "desc_team_unlock": "Terbuka ketika pengaturan ruang kerja selesai.",
     "desc_team_open_desk": "Buka 0 untuk memulai.",
-    "desc_team_invite": "Undang karyawan pertama Anda di portal karyawan."
+    "desc_team_invite": "Undang karyawan pertama Anda di portal karyawan.",
+    "dialogContinue": "Melanjutkan",
+    "dialogLater": "Nanti",
+    "nudge_workspace_setup": "Finish workspace company and platform details.",
+    "nudge_subscription": "Activate or choose your plan.",
+    "nudge_profile_p0": "Add required contact details for support.",
+    "nudge_team": "Invite your first teammate on the employee portal.",
+    "nudge_profile_p1": "Add billing and legal details (recommended)."
   },
   "meta": {
     "productRepo": "core-platform",
